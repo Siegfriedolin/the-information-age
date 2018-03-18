@@ -1,0 +1,19 @@
+state={
+	id=923
+	name="STATE_923"
+		history = {
+		owner = KUR
+		victory_points = { 13261 2 }
+		add_core_of = KUR
+		add_core_of = SYR
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	provinces={
+		13261 
+	}
+	manpower=36562
+	buildings_max_level_factor=1.000
+	state_category=state_level_2
+}
