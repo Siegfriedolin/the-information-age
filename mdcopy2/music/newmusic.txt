@@ -1,0 +1,65 @@
+music = {
+	song = "Merica"
+	
+	chance = {
+		modifier = {
+			factor = 1
+
+		}		
+	}	
+}
+
+music = {
+	song = "Comrade Kim Jong Un"
+	
+	chance = {
+		modifier = {
+			factor = 1
+
+		}		
+	}	
+}
+
+music = {
+	song = "Viva La Vida"
+	
+	chance = {
+		modifier = {
+			factor = 1
+
+		}		
+	}	
+}
+
+music = {
+	song = "Robot Rock"
+	
+	chance = {
+		modifier = {
+			factor = 1
+
+		}		
+	}	
+}
+
+music = {
+	song = "In the End"
+	
+	chance = {
+		modifier = {
+			factor = 1
+
+		}		
+	}	
+}
+
+music = {
+	song = "Seven Nation Army"
+	
+	chance = {
+		modifier = {
+			factor = 1
+
+		}		
+	}	
+}

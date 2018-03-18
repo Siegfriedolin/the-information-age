@@ -1,0 +1,34 @@
+# MAIN THEME
+music = {
+	name = "Merica"
+	file = "Merica.ogg"
+	volume = 0.65
+}
+music = {
+	name = "Robot Rock"
+	file = "Rock.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "In the End"
+	file = "End.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "Viva La Vida"
+	file = "Viva_la_Vida.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "Comrade Kim Jong Un"
+	file = "kim.ogg"
+	volume = 0.65
+}
+
+music = {
+name = "Seven Nation Army"
+file = "Army.ogg"
+}
