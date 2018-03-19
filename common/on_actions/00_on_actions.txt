@@ -147,6 +147,14 @@ on_actions = {
 			every_country = { #Democracies must love each other.
 				limit = { has_democratic_form_of_government = yes }
 				country_event = ideology.4
+				}
+			every_country = {
+				limit = {
+					is_ai = no
+				}
+				news_event = tutorial.1000
+				
+			}
 			}
 		}
 	}

@@ -1,4 +1,17 @@
 music = {
+	song = "maintheme"
+	
+	chance = {
+		modifier = {
+			factor = 1
+
+		}		
+	}	
+}
+
+#General
+
+music = {
 	song = "Merica"
 	
 	chance = {

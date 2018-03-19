@@ -32,3 +32,8 @@ music = {
 name = "Seven Nation Army"
 file = "Army.ogg"
 }
+
+music = {
+name = "maintheme"
+file = "maintheme.ogg"
+}
