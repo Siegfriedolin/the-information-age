@@ -1,0 +1,34 @@
+﻿division_template = {
+	name = "Militia Brigade"
+	
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+	}
+	support = {
+	}
+	
+	priority = 0
+}
+
+units = {
+
+division = {
+		name = "Harakat Ahrar al-Sham"
+		location = 13271
+		division_template = "Militia Brigade"
+		start_experience_factor = 0.5
+}
+
+division = {
+		name = "Nour al-Din al-Zenki"
+		location = 13268
+		division_template = "Militia Brigade"
+		start_experience_factor = 0.3
+}
+	
+}
+
+air_wings = {
+	
+}
