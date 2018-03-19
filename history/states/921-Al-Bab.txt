@@ -5,6 +5,7 @@ state={
 		owner = TUR
 		victory_points = { 13263 2 }
 		add_core_of = SYR
+		add_claim_by = ROJ
 		buildings = {
 			infrastructure = 2
 		}

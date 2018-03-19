@@ -1,0 +1,19 @@
+state={
+	id=930
+	name="STATE_930"
+	history = {
+		owner = HTS
+		victory_points = { 13267 1 }
+		add_core_of = HTS
+		add_core_of = SYR
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	provinces={
+		13267 
+	}
+	manpower=58008
+	buildings_max_level_factor=1.000
+	state_category=state_level_1
+}
