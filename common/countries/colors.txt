@@ -933,6 +933,16 @@ NEG = {
 	color_ui = rgb { 121 119 206 }
 }
 
+ROJ = {
+	color = rgb { 255 131 0 }
+	color_ui = rgb { 255 131 0 }
+}
+
+HTS = {
+	color = rgb { 9 140 83 }
+	color_ui = rgb { 0 222 31 }
+}
+
 D01 = {
 	color = rgb { 200 100 31 }
 	color_ui = rgb { 245 123 38 }
