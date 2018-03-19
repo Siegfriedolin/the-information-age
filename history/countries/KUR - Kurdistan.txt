@@ -114,13 +114,6 @@ set_politics = {
 	elections_allowed = yes
 }
 
-2015.6.2 = {
-	add_to_war = {
-		targeted_alliance = IRQ
-		enemy = ISS
-	}
-}
-
 create_country_leader = {
 	name = "Masoud Barzani" 
 	picture = "Masoud_Barzani.dds"
