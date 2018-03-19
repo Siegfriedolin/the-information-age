@@ -26,77 +26,77 @@ units = {
 	
 	division = {
 		name = "Tank Force"
-		location = 12372
+		location = 13274
 		division_template = "Armored Militia"
 		start_experience_factor = 0.25
 	}
 	
 	division = {
 		name = "Terrorist Militia"
-		location = 10106
+		location = 13274
 		division_template = "Militia"
 		start_experience_factor = 0.25
 	}
 	
 	division = {
 		name = "Terrorist Militia"
-		location = 10106
+		location = 13274
 		division_template = "Militia"
 		start_experience_factor = 0.25
 	}
 	
 	division = {
 		name = "Terrorist Militia"
-		location = 10106
+		location = 13274
 		division_template = "Militia"
 		start_experience_factor = 0.25
 	}
 	
 	division = {
 		name = "Terrorist Militia"
-		location = 
+		location = 13274
 		division_template = "Militia"
 		start_experience_factor = 0.25
 	}
 	
 	division = {
 		name = "Terrorist Militia"
-		location = 1600
+		location = 13274
 		division_template = "Militia"
 		start_experience_factor = 0.25
 	}
 	
 	division = {
 		name = "Terrorist Militia"
-		location = 10106
+		location = 13274
 		division_template = "Militia"
 		start_experience_factor = 0.25
 	}
 	
 	division = {
 		name = "Terrorist Militia"
-		location = 3942
+		location = 13274
 		division_template = "Militia"
 		start_experience_factor = 0.25
 	}
 	
 	division = {
 		name = "Terrorist Militia"
-		location = 10793
+		location = 13274
 		division_template = "Militia"
 		start_experience_factor = 0.25
 	}
 	
 	division = {
 		name = "Terrorist Militia"
-		location = 8123
+		location = 13274
 		division_template = "Militia"
 		start_experience_factor = 0.25
 	}
 	
 	division = {
 		name = "Terrorist Militia"
-		location = 1938
+		location = 13274
 		division_template = "Militia"
 		start_experience_factor = 0.25
 	}

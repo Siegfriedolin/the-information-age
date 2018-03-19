@@ -1,0 +1,21 @@
+state={
+	id=937
+	name="STATE_937"
+	history={
+		owner = ISS
+		victory_points = {
+			13274 1 
+		}
+		buildings = {
+			infrastructure = 5
+		}
+		add_core_of = ISS
+		add_core_of = SYR
+	}
+	provinces={
+		13274 
+	}
+	manpower=37935
+	buildings_max_level_factor=1.000
+	state_category=state_level_1
+}

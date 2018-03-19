@@ -1,0 +1,21 @@
+state={
+	id=932
+	name="STATE_932"
+	history={
+		owner = ROJ
+		victory_points = {
+			6883 1 
+		}
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = ROJ
+		add_core_of = SYR
+	}
+	provinces={
+		6883 
+	}
+	manpower=44671
+	buildings_max_level_factor=1.000
+	state_category=state_level_1
+}

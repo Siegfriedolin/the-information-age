@@ -943,6 +943,12 @@ HTS = {
 	color_ui = rgb { 0 222 31 }
 }
 
+JTS = {
+	color = rgb { 50 205 50 }
+	color_ui = rgb { 50 205 50 }
+}
+
+
 D01 = {
 	color = rgb { 200 100 31 }
 	color_ui = rgb { 245 123 38 }

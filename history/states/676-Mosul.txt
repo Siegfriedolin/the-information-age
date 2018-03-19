@@ -14,13 +14,9 @@ state={
 			arms_factory = 1
 			air_base = 2
 		}
-		victory_points = { 10106 20 }	#Mosul
-		victory_points = { 8123 5 }	#Kirkuk
+		victory_points = { 10106 20 }
+		victory_points = { 8123 5 }	
 		add_core_of = IRQ
-		
-		2016.5.1 = {
-			owner = ISS
-		}
 	}
 
 	provinces={

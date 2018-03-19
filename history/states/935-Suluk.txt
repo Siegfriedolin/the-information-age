@@ -1,0 +1,22 @@
+state={
+	id=935
+	name="STATE_935"
+	history={
+		owner = ROJ
+		victory_points = {
+			13273 1 
+		}
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = ROJ
+		add_core_of = SYR
+
+	}
+	provinces={
+		13273 
+	}
+	manpower=44131
+	buildings_max_level_factor=1.000
+	state_category=state_level_1
+}
