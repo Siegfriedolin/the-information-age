@@ -152,10 +152,9 @@ on_actions = {
 				limit = {
 					is_ai = no
 				}
-				news_event = tutorial.1000
+				news_event = cia.1
 				
 			}
 			}
 		}
 	}
-}

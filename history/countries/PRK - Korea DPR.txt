@@ -91,6 +91,7 @@ add_ideas = {
 	war_economy
 	service_by_requirement
 	closed_economy
+	idea_united_nations_sanctions
 }
 
 add_opinion_modifier = {
@@ -263,7 +264,7 @@ create_corps_commander = {
 		nukes = 1
 	}
 	add_named_threat = {
-		threat = 3
+		threat = 25
 		name = threat_PRK_nuclear_program
 	}
 }

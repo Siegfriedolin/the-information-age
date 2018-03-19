@@ -1076,4 +1076,9 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/YUG/yugoslavian_regiments.dds"
 	}
 	
+	spriteType = {
+		name = "GFX_grudge"
+		texturefile = "gfx/interface/ideas/CHI/kuoming.dds"
+	}
+	
 }
