@@ -146,6 +146,7 @@ add_ideas = {
 	population_growth_stagnation
 	partially_recognized_state
 	limited_conscription
+	idea_CHI_grudge
 }
 
 create_country_leader = {

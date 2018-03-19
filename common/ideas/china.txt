@@ -1,0 +1,18 @@
+ideas = {
+	
+	country = {
+		
+		idea_CHI_grudge = {
+			picture = GFX_grudge
+			
+			allowed = { always = yes }
+			
+			removal_cost = -1
+			
+			modifier = {
+            army_core_defence_factor = 0.7
+            army_core_attack_factor = 0.4
+			}
+		}
+	}
+}	
