@@ -267,4 +267,7 @@ create_corps_commander = {
 		threat = 25
 		name = threat_PRK_nuclear_program
 	}
+	add_ideas = {
+	idea_PRK_embargo
+}
 }

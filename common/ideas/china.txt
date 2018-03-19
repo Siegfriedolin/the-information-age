@@ -3,7 +3,7 @@ ideas = {
 	country = {
 		
 		idea_CHI_grudge = {
-			picture = GFX_grudge
+			picture = grudge
 			
 			allowed = { always = yes }
 			

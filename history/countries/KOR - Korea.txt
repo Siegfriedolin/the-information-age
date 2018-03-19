@@ -257,4 +257,7 @@ create_navy_leader = {
 		picture = "Moon_Jae_In.dds"
 		ideology = liberalist
 	}
+	add_ideas = {
+	idea_KOR_militarism
+}
 }

@@ -1077,8 +1077,17 @@ spriteTypes = {
 	}
 	
 	spriteType = {
-		name = "GFX_grudge"
+		name = "GFX_idea_grudge"
 		texturefile = "gfx/interface/ideas/CHI/kuoming.dds"
 	}
 	
+	spriteType = {
+		name = "GFX_idea_embargoprk"
+		texturefile = "gfx/interface/ideas/PRK/embargoPRK.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_SKmilitarism"
+		texturefile = "gfx/interface/ideas/KOR/SKmilitarism.dds"
+	}
 }

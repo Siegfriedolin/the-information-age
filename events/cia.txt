@@ -1,0 +1,16 @@
+﻿add_namespace = cia
+
+#Welcome to the Game
+news_event = {
+	id = cia.1
+	title = cia.1.t
+	desc = cia.1.d
+	picture = GFX_report_event_welcome
+	is_triggered_only = yes
+	option = { #Cool cool
+	    name = cia.1.o1		
+		ai_chance = { 
+		    factor = 100
+		}
+	}
+}
