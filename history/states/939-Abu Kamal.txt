@@ -1,0 +1,20 @@
+state={
+	id=939
+	name="STATE_939"
+	history={
+		owner = SYR
+		victory_points = {
+			13276 1 
+		}
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = SYR
+	}
+	provinces={
+		13276 
+	}
+	manpower=42510
+	buildings_max_level_factor=1.000
+	state_category=state_level_1
+}
