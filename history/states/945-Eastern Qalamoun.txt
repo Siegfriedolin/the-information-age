@@ -1,0 +1,21 @@
+state={
+	id=945
+	name="STATE_945"
+	history={
+		owner = FSA
+		victory_points = {
+			13282 1 
+		}
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = FSA
+		add_core_of = SYR
+	}
+	provinces={
+		13282 
+	}
+	manpower=24219
+	buildings_max_level_factor=1.000
+	state_category=state_level_1
+}
