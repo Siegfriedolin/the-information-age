@@ -436,4 +436,20 @@ create_corps_commander = {
 		long_name = FRA_social_liberal_party_En_Marche_long
 		name = FRA_social_liberal_party_En_Marche
 	}
+	set_politics = {
+		parties = {
+			reactionary = { popularity = 14 }
+			conservative = { popularity = 32 }
+			market_liberal = { popularity = 36 }
+			social_liberal = { popularity = 2 }
+			social_democrat = { popularity = 2}
+			progressive = { popularity = 5 }
+			democratic_socialist = { popularity = 8 }
+			communist = { popularity = 1 }
+		}
+		ruling_party = social_liberal
+		last_election = "2014.5.6"
+		election_frequency = 60
+		elections_allowed = yes
+}
 }

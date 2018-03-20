@@ -726,8 +726,8 @@ create_navy_leader = {
 	}
 	
 	create_country_leader = {
-		name = "David Cameron"
-		picture = "David_Cameron.dds"
+		name = "Theresa May"
+		picture = "Theresa_may.dds"
 		ideology = fiscal_conservative
 	}
 	

@@ -539,6 +539,5 @@ create_navy_leader = {
 		threat = 6
 		name = threat_SOV_annexiation_of_crimea
 	}
-}
-2018.1.1 = {
 give_guarantee = PRC
+}

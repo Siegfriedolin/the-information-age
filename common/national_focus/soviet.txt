@@ -2547,6 +2547,171 @@ focus_tree = {
 			}
 		}
 	}
-	
-	
+	focus = {
+		id = SOV_protect_PRK
+		icon = align_to_north_korea
+		x = @greater_russia_tree_center
+		y = 9
+		cost = 10
+		
+		prerequisite =  {
+			focus = SOV_focus_on_ukraine
+		}
+		
+		available = {
+			NOT = { is_in_faction_with = KOR }
+		}
+		
+		bypass = {
+			is_in_faction_with = KOR
+		}
+		
+		completion_reward = {
+			give_guarantee = PRK
+			}
+		
+		
+		ai_will_do = {
+			factor = 60
+			}
+		}
+	focus = {
+		id = SOV_Provoke_Bear
+		icon = political_pressure_blue
+		x = @greater_russia_tree_center
+		y = 10
+		cost = 5
+		
+		prerequisite =  {
+			focus = SOV_protect_PRK
+		}
+		
+		available = {
+			NOT = { is_in_faction_with = USA }
+		}
+		
+		bypass = {
+			is_in_faction_with = USA
+		}
+		
+		completion_reward = {
+			add_state_core = 650
+			}
+		
+		
+		ai_will_do = {
+			factor = 60
+			}
+		}
+		focus = {
+		id = SOV_Annex_NOV
+		icon = tripartite_pact
+		x = @greater_russia_tree_left
+		y = 11
+		cost = 5
+		
+		prerequisite =  {
+			focus = SOV_Provoke_Bear
+		}
+		
+		available = {
+			NOT = { is_in_faction_with = UKR }
+		}
+		
+		bypass = {
+			is_in_faction_with = UKR
+		}
+		
+		completion_reward = {
+			add_state_core = 228
+			add_state_core = 227
+			add_state_core = 221
+			add_state_core = 200
+			add_state_core = 226
+			add_state_core = 196
+			add_state_core = 225
+			add_state_core = 259
+			annex_country = { target = NOV transfer_troops = yes }
+			}
+		
+		
+		ai_will_do = {
+			factor = 60
+			}
+		}
+	focus = {
+		id = SOV_Intervene_MON
+		icon = military_sphere
+		x = @greater_russia_tree_right
+		y = 11
+		cost = 10
+		
+		prerequisite =  {
+			focus = SOV_Provoke_Bear
+		}
+		
+		available = {
+			NOT = { is_in_faction_with = CHI }
+		}
+		
+		bypass = {
+			is_in_faction_with = CHI
+		}
+		
+		completion_reward = {
+		 puppet = MON 
+			}
+		
+		
+		ai_will_do = {
+			factor = 60
+			}
+		}
+	focus = {
+		id = SOV_Caspian_Control
+		icon = navy
+		x = 15
+		y = 11
+		cost = 10
+		
+		prerequisite =  {
+			focus = SOV_Provoke_Bear
+		}
+		
+		completion_reward = {
+		 transfer_state = 407
+		 transfer_state = 406
+		 transfer_state = 804
+		 add_stability = -0.05
+		 add_political_power = -50
+			}
+		
+		
+		ai_will_do = {
+			factor = 60
+			}
+		}
+	focus = {
+		id = SOV_Intervene_GEO
+		icon = forceful_treaty
+		x = 9
+		y = 11
+		cost = 10
+		
+		prerequisite =  {
+			focus = SOV_Provoke_Bear
+		}
+		
+		completion_reward = {
+		 puppet = GEO
+		 add_to_faction = ABK
+		 add_to_faction = SOS
+		 add_political_power = -100
+			}
+		
+		
+		ai_will_do = {
+			factor = 60
+			}
+		}
 }
