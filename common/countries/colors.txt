@@ -948,6 +948,11 @@ JTS = {
 	color_ui = rgb { 50 205 50 }
 }
 
+FSA = {
+	color = rgb { 0 222 31 }
+	color_ui = rgb { 0 222 31 }
+}
+
 
 D01 = {
 	color = rgb { 200 100 31 }
