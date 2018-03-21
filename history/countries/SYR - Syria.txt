@@ -1,11 +1,11 @@
 ﻿capital = 554
 
 
-oob = "SYR_2000"
+oob = "SYR_2016"
 
 set_research_slots = 2
 set_convoys = 150
-set_stability = 0.3
+set_stability = 0.5
 
 set_country_flag = country_language_arabic
 
@@ -98,7 +98,8 @@ set_country_flag = shia_islam
 add_ideas = {
 	population_growth_rapid
 	arab_league_member
-	extensive_conscription
+	service_by_requirement
+	islamic_sectarian_conflicts
 }
 
 set_politics = {
@@ -149,9 +150,9 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Hafez al-Assad"
+	name = "Bashar al-Assad"
 	ideology = autocrat
-	picture = "Hafez_Al_Assad.dds"
+	picture = "Bashar_Al_Assad.dds"
 }
 
 create_country_leader = {
@@ -215,8 +216,8 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Khaled Khoja"
-	picture = "Khaled_Khoja.dds"
+	name = "Riad Seif"
+	picture = "Riad_Seif.dds"
 	ideology = right_wing_conservative
 }
 
@@ -316,34 +317,4 @@ create_corps_commander = {
 	picture = "Portrait_Hassan_Turkmani.dds"
 	traits = {  }
 	skill = 1
-}
-
-2000.7.17 = {
-    create_country_leader = {
-	    name = "Bashar al-Assad"
-	    ideology = autocrat
-	    picture = "Bashar_Al_Assad.dds"
-    }
-}
-	
-2011.3.15 = {    #The Syrian Civil War Has Began
-	add_ideas = {
-		islamic_sectarian_conflicts
-	}
-}
-
-2015.5.1 = {
-	oob = "SYR_2016"
-	add_ideas = {
-		service_by_requirement
-	}
-	set_stability = 0.05
-}
-
-2017.3.6 = {
-    create_country_leader = { #Riad Seif elected to leasd the Syrian National Coalition
-	    name = "Riad Seif"
-	    picture = "Riad_Seif.dds"
-	    ideology = right_wing_conservative
-    }
 }
