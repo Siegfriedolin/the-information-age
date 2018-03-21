@@ -1,6 +1,6 @@
 ﻿capital = 680
 
-oob = "ISS_2000"
+oob = "ISS_2016"
 
 set_research_slots = 1
 set_convoys = 1
@@ -100,6 +100,9 @@ set_politics = {
 add_ideas = {
 	population_growth_rapid
 	partially_recognized_state
+	service_by_requirement
+	war_economy
+	closed_economy
 }
 
 create_country_leader = {
@@ -136,8 +139,6 @@ create_corps_commander = {
 
 2016.5.1 = {
 
-	oob = "ISS_2016"
-
 	add_named_threat = {
 		threat = 8
 		name = threat_ISS_literally_muslim_hitler
@@ -155,11 +156,4 @@ create_corps_commander = {
 	remove_ideas = idea_focus_generic_path_of_allah
 	remove_ideas = idea_focus_generic_path_of_order
 	remove_ideas = idea_focus_generic_national_strength
-	
-	add_ideas = {
-		service_by_requirement
-		war_economy
-		closed_economy
-	}
-	
 }
