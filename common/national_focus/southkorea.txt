@@ -1,0 +1,290 @@
+focus_tree = {
+	
+	id = korea_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 20
+			original_tag = KOR
+		}
+	}
+	@conflict_tree_header = 10
+	@conflict_tree_left = 9
+	@conflict_tree_right = 11
+	@conflict_tree_extreme_left = 8
+	@conflict_tree_extreme_right = 12
+	
+	focus = {
+		id = KOR_Peninsula_Conflict
+		icon = north_korea
+		x = @conflict_tree_header
+		y = 0
+		cost = 5
+		
+		completion_reward = {
+			add_war_support = 0.02
+			add_political_power = 20
+		}
+		
+		ai_will_do = {
+			factor = 70
+		}
+	}
+	
+	focus = {
+		id = KOR_Path_of_Peace
+		icon = diplomatic_treaty
+		x = @conflict_tree_header
+		y = 1
+		cost = 10
+		prerequisite = {
+			focus = KOR_Peninsula_Conflict
+		}
+		
+		completion_reward = {
+			add_war_support = -0.02
+			add_political_power = 20
+		}
+		
+		ai_will_do = {
+			factor = 50
+		}
+	}
+	
+	focus = {
+		id = KOR_Reopen_Trade
+		icon = trade_with_north_korea
+		x = @conflict_tree_left
+		y = 2
+		cost = 10
+		prerequisite = {
+			focus = KOR_Path_of_Peace
+		}
+		
+		completion_reward = {
+			KOR = { add_opinion_modifier = { target = PRK modifier = trade_influence_1 } }
+		}
+		
+		ai_will_do = {
+			factor = 50
+		}
+	}
+	
+	focus = {
+		id = KOR_Reopen_Trade_China
+		icon = trade_with_china
+		x = @conflict_tree_right
+		y = 2
+		cost = 10
+		prerequisite = {
+			focus = KOR_Path_of_Peace
+		}
+		
+		completion_reward = {
+			KOR = { add_opinion_modifier = { target = PRC modifier = trade_influence_1 } }
+		}
+		
+		ai_will_do = {
+			factor = 50
+		}
+	}
+	
+	focus = {
+		id = KOR_Hold_Olympics
+		icon = democracy
+		x = @conflict_tree_header
+		y = 3
+		cost = 10
+		prerequisite = {
+			focus = KOR_Path_of_Peace
+		}
+		
+		completion_reward = {
+			add_political_power = 50
+		}
+		
+		ai_will_do = {
+			factor = 50
+		}
+	}
+	
+	focus = {
+		id = KOR_Reapproach_North
+		icon = align_to_north_korea
+		x = @conflict_tree_right
+		y = 4
+		cost = 10
+		prerequisite = {
+			focus = KOR_Hold_Olympics
+		}
+		
+		completion_reward = {
+			PRK = { add_opinion_modifier = { target = KOR modifier = recent_actions_positive } }
+		}
+		
+		ai_will_do = {
+			factor = 50
+		}
+	}
+	
+	focus = {
+		id = KOR_Reapproach_China
+		icon = align_to_china
+		x = @conflict_tree_left
+		y = 4
+		cost = 10
+		prerequisite = {
+			focus = KOR_Hold_Olympics
+		}
+		
+		completion_reward = {
+			PRC = { add_opinion_modifier = { target = KOR modifier = recent_actions_positive } }
+		}
+		
+		ai_will_do = {
+			factor = 50
+		}
+	}
+	
+	focus = {
+		id = KOR_Start_Demilitarizing
+		icon = constitution
+		x = @conflict_tree_header
+		y = 5
+		cost = 10
+		prerequisite = {
+			focus = KOR_Hold_Olympics
+		}
+		
+		completion_reward = {
+			add_war_support = -0.05
+			add_stability = 0.05
+		}
+		
+		ai_will_do = {
+			factor = 50
+		}
+	}
+	
+	focus = {
+		id = KOR_End_US_Militarization
+		icon = defence
+		x = @conflict_tree_left
+		y = 6
+		cost = 10
+		prerequisite = {
+			focus = KOR_Start_Demilitarizing
+		}
+		
+		completion_reward = {
+			USA = {
+							diplomatic_relation = {
+									country = KOR
+									relation = military_access
+									active = no
+		}
+		}
+		ai_will_do = {
+			factor = 4
+		}
+	}
+	
+	}
+	focus = {
+		id = KOR_End_Militarism
+		icon = destroy_establishment
+		x = @conflict_tree_right
+		y = 6
+		cost = 10
+		prerequisite = {
+			focus = KOR_Start_Demilitarizing
+		}
+		
+		completion_reward = {
+			remove_ideas = idea_KOR_militarism
+		}
+		
+		ai_will_do = {
+			factor = 25
+		}
+	}
+	
+	focus = {
+		id = KOR_State_Visit_NK
+		icon = major_alliance
+		x = @conflict_tree_header
+		y = 7
+		cost = 10
+		prerequisite = {
+			focus = KOR_Start_Demilitarizing
+		}
+		
+		completion_reward = {
+			PRK = { add_opinion_modifier = { target = KOR modifier = state_visit } }
+		}
+		
+		ai_will_do = {
+			factor = 25
+		}
+	}
+	
+	focus = {
+		id = KOR_State_Visit_NK
+		icon = major_alliance
+		x = @conflict_tree_header
+		y = 7
+		cost = 10
+		prerequisite = {
+			focus = KOR_Start_Demilitarizing
+		}
+		
+		completion_reward = {
+			PRK = { add_opinion_modifier = { target = KOR modifier = state_visit } }
+		}
+		
+		ai_will_do = {
+			factor = 25
+		}
+	}
+	
+	focus = {
+		id = KOR_Seoul_Pyongyang_Meeting
+		icon = dangerous_deal
+		x = @conflict_tree_header
+		y = 8
+		cost = 10
+		prerequisite = {
+			focus = KOR_State_Visit_NK
+		}
+		
+		completion_reward = {
+			add_political_power = 10
+		}
+		
+		ai_will_do = {
+			factor = 25
+		}
+	}
+	
+	focus = {
+		id = KOR_Peaceful_Reunification
+		icon = anschluss
+		x = @conflict_tree_header
+		y = 9
+		cost = 10
+		prerequisite = {
+			focus = KOR_Seoul_Pyongyang_Meeting
+		}
+		
+		completion_reward = {
+			KOR = { country_event = { id = south_korea.2 } }
+		}
+		
+		ai_will_do = {
+			factor = 40
+		}
+	}
+	
+	}

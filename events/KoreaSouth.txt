@@ -15,3 +15,30 @@ country_event = {	#Remove the North Korean cores upon union
 		}
 	}
 }
+country_event = {	#Suggest Union
+	id = south_korea.2
+	title = south_korea.2.t
+	desc = south_korea.2.d
+	picture = GFX_news_event_south_korea
+	is_triggered_only = yes
+	
+	option = {
+	name = south_korea.2.o1
+	KOR = {annex_country = { target = PRK transfer_troops = yes } }
+		every_state = {
+			limit = {
+				is_core_of = PRK
+			}
+			remove_core_of = PRK
+			ai_chance = {
+			 factor = 50 }
+		}
+	}
+	
+	option = {
+	name = south_korea.2.o2
+		ai_chance = {
+		factor = 50 }
+		}
+	}
+}

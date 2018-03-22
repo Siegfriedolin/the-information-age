@@ -277,5 +277,8 @@ spriteTypes = {
 	name = "GFX_ideology_PRK_communist_group"
 	texturefile = "gfx/interface/ideologies/PRK/juche.dds"
 	}
-
+   spriteType = {
+	name = "GFX_ideology_KOR_social_liberal_group"
+	texturefile = "gfx/interface/ideologies/KOR/minjoo.dds"
+	}
 }

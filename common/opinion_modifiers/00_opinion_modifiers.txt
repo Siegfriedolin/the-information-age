@@ -156,4 +156,6 @@ opinion_modifiers = {
 	destroyers_for_bases_opinion = {
 		value = 30
 	}
+	state_visit = {
+	value = 80
 }	
