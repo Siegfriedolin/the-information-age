@@ -89,19 +89,19 @@ set_politics = {
 
 	parties = {
 		reactionary = {
-			popularity = 42
+			popularity = 82
 		}
 		conservative = {
-			popularity = 28
+			popularity = 8
 		}
 		social_democrat = {
-			popularity = 8
+			popularity = 4
 		}
 		communist = {
-			popularity = 8
+			popularity = 3
 		}
 		islamist = {
-			popularity = 6
+			popularity = 3
 		}
 	}
 	
@@ -121,6 +121,14 @@ create_country_leader = {
 	create_country_leader = {
 		name = "Karim Massimov"
 		picture = "Karim_Massimov.dds"
+		ideology = oligarchist
+	}
+}
+
+2016.1.1 = {
+	create_country_leader = {
+		name = "Bakhytzhan Sagintayev"
+		picture = "Bakhytzhan_Sagintayev.dds"
 		ideology = oligarchist
 	}
 }

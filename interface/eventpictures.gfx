@@ -974,7 +974,13 @@ spriteTypes = {
 		name = "GFX_report_event_united_states_navy"
 		texturefile = "gfx/event_pictures/report_event/united_states/united_states_navy.dds"
 	}
+	
 	spriteType= {
 	   name = "GFX_report_event_welcome"
 	   texturefile = "gfx/event_pictures/news_event/politics/CIAconflict.dds"
+	}
+	
+	spriteType= {
+	   name = "GFX_report_event_russia_tanks"
+	   texturefile = "gfx/event_pictures/report_event/russia/russia_tanks.dds"
 	}

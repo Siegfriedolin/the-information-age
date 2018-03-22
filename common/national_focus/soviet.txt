@@ -2576,7 +2576,7 @@ focus_tree = {
 			}
 		}
 	focus = {
-		id = SOV_Provoke_Bear
+		id = SOV_Provoke_Eagle
 		icon = political_pressure_blue
 		x = @greater_russia_tree_center
 		y = 10
@@ -2611,7 +2611,7 @@ focus_tree = {
 		cost = 5
 		
 		prerequisite =  {
-			focus = SOV_Provoke_Bear
+			focus = SOV_Provoke_Eagle
 		}
 		
 		available = {
@@ -2647,7 +2647,7 @@ focus_tree = {
 		cost = 10
 		
 		prerequisite =  {
-			focus = SOV_Provoke_Bear
+			focus = SOV_Provoke_Eagle
 		}
 		
 		available = {
@@ -2675,20 +2675,16 @@ focus_tree = {
 		cost = 10
 		
 		prerequisite =  {
-			focus = SOV_Provoke_Bear
+			focus = SOV_Provoke_Eagle
 		}
 		
 		completion_reward = {
-		 transfer_state = 407
-		 transfer_state = 406
-		 transfer_state = 804
-		 add_stability = -0.05
-		 add_political_power = -50
+		 	KAZ = { country_event = { id = russia.11 } }
 			}
 		
 		
 		ai_will_do = {
-			factor = 60
+			factor = 30
 			}
 		}
 	focus = {
@@ -2699,7 +2695,7 @@ focus_tree = {
 		cost = 10
 		
 		prerequisite =  {
-			focus = SOV_Provoke_Bear
+			focus = SOV_Provoke_Eagle
 		}
 		
 		completion_reward = {
@@ -2711,7 +2707,7 @@ focus_tree = {
 		
 		
 		ai_will_do = {
-			factor = 60
+			factor = 45
 			}
 		}
 }
