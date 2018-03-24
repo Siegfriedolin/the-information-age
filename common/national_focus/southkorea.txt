@@ -43,7 +43,8 @@ focus_tree = {
 		x = @peace_tree_header
 		y = 1
 		cost = 10
-		mutually_exclusive = { focus = KOR_Agressive_Policy }
+		mutually_exclusive = { focus = KOR_Agressive_Policy 
+		focus = KOR_Defensive_Policies }
 		prerequisite = {
 			focus = KOR_Peninsula_Conflict
 		}
@@ -54,7 +55,7 @@ focus_tree = {
 		}
 		
 		ai_will_do = {
-			factor = 50
+			factor = 25
 		}
 	}
 	
@@ -557,4 +558,313 @@ focus_tree = {
 			factor = 25
 		}
 	}
+	
+	focus = {
+		id = KOR_Defensive_Policies
+		icon = defence
+		x = @defensive_tree_header
+		y = 1
+		cost = 10
+		mutually_exclusive = { focus = KOR_Agressive_Policy 
+		focus = KOR_Path_of_Peace 
+		}
+		prerequisite = {
+			focus = KOR_Peninsula_Conflict
+		}
+		
+		completion_reward = {
+		add_war_support = 0.01
+		add_political_power = 10
+		add_stability = 0.02
+		}
+	    
+		ai_will_do = {
+			factor = 25
+		}
+	}
+
+	focus = {
+		id = KOR_Careful_Relations
+		icon = self_management
+		x = @defensive_tree_header
+		y = 2
+		cost = 10
+		prerequisite = {
+			focus = KOR_Defensive_Policies
+		}
+		
+		completion_reward = {
+		add_political_power = 20
+	    opinion_gain_monthly_factor = 0.75
+		}
+	    
+		ai_will_do = {
+			factor = 25
+		}
+	}
+	
+	focus = {
+		id = KOR_Continue_Alliances
+		icon = self_management
+		x = 6
+		y = 3
+		cost = 10
+		prerequisite = {
+			focus = KOR_Careful_Relations
+		}
+		
+		completion_reward = {
+		add_political_power = 30
+	    JAP = {
+				add_opinion_modifier = {
+					target = KOR
+					modifier = has_expressed_loyalty
+				}
+			}
+			
+			USA = {
+				add_opinion_modifier = {
+					target = KOR
+					modifier = has_expressed_loyalty
+				}
+			}
+			PRC = {
+				add_opinion_modifier = {
+					target = KOR
+					modifier = loyal_to_our_enemy
+				}
+			}
+            PRK = {
+				add_opinion_modifier = {
+					target = KOR
+					modifier = loyal_to_our_enemy
+				}
+			}			
+		}
+	    
+		ai_will_do = {
+			factor = 25
+		}
+	}
+	
+	focus = {
+		id = KOR_Trade_India
+		icon = trade_with_india
+		x = 5
+		y = 4
+		cost = 10
+		prerequisite = {
+			focus = KOR_Continue_Alliances
+		}
+		
+		completion_reward = {
+		add_political_power = 30
+	    KOR = { add_opinion_modifier = { target = RAJ modifier = trade_influence_1 } }
+		}
+	    
+		ai_will_do = {
+			factor = 25
+		}
+	}
+	
+	focus = {
+		id = KOR_Trade_Philippines
+		icon = trade_with_philippines
+		x = 7
+		y = 4
+		cost = 10
+		prerequisite = {
+			focus = KOR_Continue_Alliances
+		}
+		
+		completion_reward = {
+		add_political_power = 30
+	    KOR = { add_opinion_modifier = { target = PHI modifier = trade_influence_1 } }
+		}
+	    
+		ai_will_do = {
+			factor = 25
+		}
+	}
+	
+	focus = {
+		id = KOR_Defensive_Measures
+		icon = military_fort
+		x = 3
+		y = 4
+		cost = 10
+		prerequisite = {
+			focus = KOR_Continue_Alliances
+		}
+		
+		completion_reward = {
+		add_war_support = 0.03
+		}
+	    
+		ai_will_do = {
+			factor = 25
+		}
+	}
+	
+	focus = {
+		id = KOR_Finish_Forts
+		icon = city_fort
+		x = 3
+		y = 5
+		cost = 10
+		prerequisite = {
+			focus = KOR_Defensive_Measures
+		}
+		
+		completion_reward = {
+		add_war_support = 0.03
+		}
+	    
+		ai_will_do = {
+			factor = 25
+		}
+	}
+	
+	focus = {
+		id = KOR_State_Visit_JAP
+		icon = align_to_japan
+		x = 1
+		y = 4
+		cost = 10
+		prerequisite = {
+			focus = KOR_Continue_Alliances
+		}
+		
+		completion_reward = {
+		JAP = { add_opinion_modifier = { target = KOR modifier = state_visit } }
+		}
+	    
+		ai_will_do = {
+			factor = 25
+		}
+	}
+	
+	focus = {
+		id = KOR_State_Visit_CHI
+		icon = align_to_taiwan
+		x = 1
+		y = 5
+		cost = 10
+		prerequisite = {
+			focus = KOR_State_Visit_JAP
+		}
+		
+		completion_reward = {
+		CHI = { add_opinion_modifier = { target = KOR modifier = state_visit } }
+		}
+	    
+		ai_will_do = {
+			factor = 25
+		}
+	}
+	
+	focus = {
+		id = KOR_Our_Faction
+		icon = entente
+		x = 1
+		y = 6
+		cost = 10
+		prerequisite = {
+			focus = KOR_State_Visit_CHI
+		}
+		
+		completion_reward = {
+		create_faction = "Asian Mutual Defense Pact"
+		add_to_faction = JAP
+		add_to_faction = CHI
+		}
+	    
+		ai_will_do = {
+			factor = 25
+		}
+	}
+	
+	focus = {
+		id = KOR_Defensive_Propaganda
+		icon = propaganda
+		x = 3
+		y = 6
+		cost = 10
+		prerequisite = {
+			focus = KOR_Finish_Forts
+		}
+		
+		completion_reward = {
+		add_ideas = idea_KOR_defensive
+		}
+	    
+		ai_will_do = {
+			factor = 25
+		}
+	}
+	
+	focus = {
+		id = KOR_State_Visit_RAJ
+		icon = align_to_india
+		x = 5
+		y = 5
+		cost = 10
+		prerequisite = {
+			focus = KOR_Trade_India
+		}
+		
+		completion_reward = {
+		RAJ = { add_opinion_modifier = { target = KOR modifier = state_visit } }
+		}
+	    
+		ai_will_do = {
+			factor = 25
+		}
+	}
+	
+	focus = {
+		id = KOR_State_Visit_PHI
+		icon = align_to_philippines
+		x = 7
+		y = 5
+		cost = 10
+		prerequisite = {
+			focus = KOR_Trade_Philippines
+		}
+		
+		completion_reward = {
+		"PHI" = { add_opinion_modifier = { target = KOR modifier = state_visit } }
+		}
+	    
+		ai_will_do = {
+			factor = 25
+		}
+	}
+	
+	focus = {
+		id = KOR_Expand_Alliance
+		icon = alliance_blue
+		x = 6
+		y = 6
+		cost = 10
+		prerequisite = {
+			focus = KOR_State_Visit_PHI
+		}
+		prerequisite = {
+			focus = KOR_State_Visit_RAJ
+		}
+		available = {
+			is_faction_leader = yes
+		}
+		
+		completion_reward = {
+		add_to_faction = PHI
+		add_to_faction = RAJ
+		}
+	    
+		ai_will_do = {
+			factor = 25
+		}
+	}
+	
 	}

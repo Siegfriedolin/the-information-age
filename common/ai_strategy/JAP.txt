@@ -18,4 +18,19 @@ seek_japanese_alliance = {
 		id = "JAP"
 		value = 125
 	}
+	stay_in_alliance_NATO = {
+    enable = {
+    tag = JAP
+    }
+ 
+    abort = {
+        NOT = { country_exists = JAP }
+    }
+   
+    ai_strategy = {
+        type = alliance
+        id = "KOR"            
+        value = 5000
+    }
+}
 }
