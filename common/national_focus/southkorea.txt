@@ -10,16 +10,20 @@ focus_tree = {
 			original_tag = KOR
 		}
 	}
-	@conflict_tree_header = 10
-	@conflict_tree_left = 9
-	@conflict_tree_right = 11
-	@conflict_tree_extreme_left = 8
-	@conflict_tree_extreme_right = 12
+	
+	@peace_tree_header = 10
+	@peace_tree_left = 9
+	@peace_tree_right = 11
+	@agressive_tree_header = 13
+	@agressive_tree_left = 12
+	@aggresive_tree_right = 14
+	@defensive_tree_header = 7
+	@defensive_tree_left = 6
 	
 	focus = {
 		id = KOR_Peninsula_Conflict
 		icon = north_korea
-		x = @conflict_tree_header
+		x = @peace_tree_header
 		y = 0
 		cost = 5
 		
@@ -36,9 +40,10 @@ focus_tree = {
 	focus = {
 		id = KOR_Path_of_Peace
 		icon = diplomatic_treaty
-		x = @conflict_tree_header
+		x = @peace_tree_header
 		y = 1
 		cost = 10
+		mutually_exclusive = { focus = KOR_Agressive_Policy }
 		prerequisite = {
 			focus = KOR_Peninsula_Conflict
 		}
@@ -56,7 +61,7 @@ focus_tree = {
 	focus = {
 		id = KOR_Reopen_Trade
 		icon = trade_with_north_korea
-		x = @conflict_tree_left
+		x = @peace_tree_left
 		y = 2
 		cost = 10
 		prerequisite = {
@@ -75,7 +80,7 @@ focus_tree = {
 	focus = {
 		id = KOR_Reopen_Trade_China
 		icon = trade_with_china
-		x = @conflict_tree_right
+		x = @peace_tree_right
 		y = 2
 		cost = 10
 		prerequisite = {
@@ -94,7 +99,7 @@ focus_tree = {
 	focus = {
 		id = KOR_Hold_Olympics
 		icon = democracy
-		x = @conflict_tree_header
+		x = @peace_tree_header
 		y = 3
 		cost = 10
 		prerequisite = {
@@ -103,6 +108,7 @@ focus_tree = {
 		
 		completion_reward = {
 			add_political_power = 50
+			KOR = { news_event = olympic_games.10 }
 		}
 		
 		ai_will_do = {
@@ -113,7 +119,7 @@ focus_tree = {
 	focus = {
 		id = KOR_Reapproach_North
 		icon = align_to_north_korea
-		x = @conflict_tree_right
+		x = @peace_tree_right
 		y = 4
 		cost = 10
 		prerequisite = {
@@ -132,7 +138,7 @@ focus_tree = {
 	focus = {
 		id = KOR_Reapproach_China
 		icon = align_to_china
-		x = @conflict_tree_left
+		x = @peace_tree_left
 		y = 4
 		cost = 10
 		prerequisite = {
@@ -151,7 +157,7 @@ focus_tree = {
 	focus = {
 		id = KOR_Start_Demilitarizing
 		icon = constitution
-		x = @conflict_tree_header
+		x = @peace_tree_header
 		y = 5
 		cost = 10
 		prerequisite = {
@@ -171,7 +177,7 @@ focus_tree = {
 	focus = {
 		id = KOR_End_US_Militarization
 		icon = defence
-		x = @conflict_tree_left
+		x = @peace_tree_left
 		y = 6
 		cost = 10
 		prerequisite = {
@@ -186,16 +192,16 @@ focus_tree = {
 									active = no
 		}
 		}
+		}
 		ai_will_do = {
-			factor = 4
+			factor = 25
 		}
 	}
 	
-	}
 	focus = {
 		id = KOR_End_Militarism
 		icon = destroy_establishment
-		x = @conflict_tree_right
+		x = @peace_tree_right
 		y = 6
 		cost = 10
 		prerequisite = {
@@ -214,26 +220,7 @@ focus_tree = {
 	focus = {
 		id = KOR_State_Visit_NK
 		icon = major_alliance
-		x = @conflict_tree_header
-		y = 7
-		cost = 10
-		prerequisite = {
-			focus = KOR_Start_Demilitarizing
-		}
-		
-		completion_reward = {
-			PRK = { add_opinion_modifier = { target = KOR modifier = state_visit } }
-		}
-		
-		ai_will_do = {
-			factor = 25
-		}
-	}
-	
-	focus = {
-		id = KOR_State_Visit_NK
-		icon = major_alliance
-		x = @conflict_tree_header
+		x = @peace_tree_header
 		y = 7
 		cost = 10
 		prerequisite = {
@@ -252,7 +239,7 @@ focus_tree = {
 	focus = {
 		id = KOR_Seoul_Pyongyang_Meeting
 		icon = dangerous_deal
-		x = @conflict_tree_header
+		x = @peace_tree_header
 		y = 8
 		cost = 10
 		prerequisite = {
@@ -271,7 +258,7 @@ focus_tree = {
 	focus = {
 		id = KOR_Peaceful_Reunification
 		icon = anschluss
-		x = @conflict_tree_header
+		x = @peace_tree_header
 		y = 9
 		cost = 10
 		prerequisite = {
@@ -279,12 +266,295 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			KOR = { country_event = { id = south_korea.2 } }
+			PRK = { country_event = { id = south_korea.2 } }
 		}
 		
 		ai_will_do = {
 			factor = 40
 		}
 	}
+		
+	focus = {
+		id = KOR_Agressive_Policy
+		icon = political_pressure_teal
+		x = @agressive_tree_header
+		y = 1
+		cost = 10
+		prerequisite = {
+			focus = KOR_Peninsula_Conflict
+		}
+		
+		mutually_exclusive = { focus = KOR_Path_of_Peace }
+		
+		completion_reward = {
+			add_war_support = 0.04
+			add_stability = -0.05
+		}
+		
+		ai_will_do = {
+			factor = 25
+		}
+	}
 	
+	focus = {
+		id = KOR_Fear_Nuke
+		icon = skull
+		x = @agressive_tree_header
+		y = 2
+		cost = 10
+		prerequisite = {
+			focus = KOR_Agressive_Policy
+		}
+		
+		completion_reward = {
+			add_stability = -0.1
+		}
+		
+		ai_will_do = {
+			factor = 25
+		}
+	}
+	
+	focus = {
+		id = KOR_Fear_into_Anger
+		icon = demand_territory2
+		x = @agressive_tree_header
+		y = 3
+		cost = 10
+		prerequisite = {
+			focus = KOR_Fear_Nuke
+		}
+		
+		completion_reward = {
+			add_war_support = 0.1
+		}
+		
+		ai_will_do = {
+			factor = 25
+		}
+	}
+	
+	focus = {
+		id = KOR_American_Support
+		icon = intelligence_exchange
+		x = @agressive_tree_header
+		y = 4
+		cost = 10
+		prerequisite = {
+			focus = KOR_Fear_into_Anger
+		}
+		
+		completion_reward = {
+			add_political_power = 10
+			add_stability = 0.01
+		}
+		
+		ai_will_do = {
+			factor = 25
+		}
+	}
+	
+	focus = {
+		id = KOR_End_Pacifist_Policies
+		icon = renounce_treaty2
+		x = @agressive_tree_left
+		y = 5
+		cost = 10
+		prerequisite = {
+			focus = KOR_Fear_into_Anger
+		}
+		
+		completion_reward = {
+		PRK = { add_opinion_modifier = { target = KOR modifier = unprovoked_aggression } }
+		}
+		
+		ai_will_do = {
+			factor = 25
+		}
+	}
+	
+	focus = {
+		id = KOR_Increase_US_Korea
+		icon = military_deal
+		x = @aggresive_tree_right
+		y = 5
+		cost = 10
+		prerequisite = {
+			focus = KOR_Fear_into_Anger
+		}
+		
+		completion_reward = {
+		USA = { add_opinion_modifier = { target = KOR modifier = recent_actions_positive } }
+		}
+		ai_will_do = {
+			factor = 25
+		}
+	}
+	
+	focus = {
+		id = KOR_Increase_American_Military_Presence
+		icon = military_deal
+		x = @aggresive_tree_right
+		y = 6
+		cost = 10
+		prerequisite = {
+			focus = KOR_Increase_US_Korea
+		}
+		
+		completion_reward = {
+		USA = { add_opinion_modifier = { target = KOR modifier = recent_actions_positive } }
+		
+		army_experience = 50
+		}
+		
+		ai_will_do = {
+			factor = 25
+		}
+	
+	}
+	
+	focus = {
+		id = KOR_Remilitarize_DMZ
+		icon = small_arms2
+		x = @aggresive_tree_right
+		y = 7
+		cost = 10
+		prerequisite = {
+			focus = KOR_Increase_American_Military_Presence
+		}
+		
+		completion_reward = { }
+		ai_will_do = {
+			factor = 25
+		}
+	}
+	
+	focus = {
+		id = KOR_Increase_American_Military_Funding
+		icon = united_states_dollar
+		x = @agressive_tree_header
+		y = 8
+		cost = 10
+		prerequisite = {
+			focus = KOR_Increase_American_Military_Presence
+		}
+		
+		completion_reward = {
+		add_war_support = 0.05
+	    }
+
+		ai_will_do = {
+			factor = 25
+		}
+	
+	}
+	
+	focus = {
+		id = KOR_Political_Instability
+		icon = destroy_society
+		x = 15
+		y = 8
+		cost = 10
+		prerequisite = {
+			focus = KOR_Increase_American_Military_Presence
+		}
+		
+		completion_reward = {
+		add_stability = -0.25
+	    }
+		ai_will_do = {
+			factor = 25
+		}
+	}
+	
+	focus = {
+		id = KOR_Military_Intervention
+		icon = infantry_allies
+		x = @aggresive_tree_right
+		y = 9
+		cost = 10
+		prerequisite = {
+			focus = KOR_Political_Instability
+			focus = KOR_Increase_American_Military_Funding
+		}
+		
+		completion_reward = {
+		add_popularity = {
+	    ideology = social_liberal
+	    popularity = -0.40 } 
+	    add_popularity = {
+		ideology = reactionary
+	    popularity = 0.40 }
+        set_politics = {
+        ruling_party = reactionary
+        elections_allowed = no
+                              }
+    }							  
+		ai_will_do = {
+			factor = 25
+		}
+	}
+	
+	focus = {
+		id = KOR_Unite_Korea
+		icon = attack_north_korea
+		x = @aggresive_tree_right
+		y = 10
+		cost = 10
+		prerequisite = {
+			focus = KOR_Military_Intervention
+		}
+		
+		completion_reward = {
+		create_wargoal = { type = annex_everything target = PRK }
+		}
+	    
+		ai_will_do = {
+			factor = 25
+		}
+	}
+	
+	focus = {
+		id = KOR_Nuclear_Program
+		icon = nuclear_weapons
+		x = 16
+		y = 10
+		cost = 10
+		prerequisite = {
+			focus = KOR_Military_Intervention
+		}
+		
+		completion_reward = {
+		add_tech_bonus = {
+				name = secret_bonus
+				bonus = 0.5
+				uses = 10
+				category = nuclear
+				category = rocketry
+			}
+		}
+	    
+		ai_will_do = {
+			factor = 25
+		}
+	}
+	
+	focus = {
+		id = KOR_Military_Research
+		icon = tech_sharing
+		x = 12
+		y = 10
+		cost = 10
+		prerequisite = {
+			focus = KOR_Military_Intervention
+		}
+		
+		completion_reward = {
+		add_research_slot = 1
+		}
+	    
+		ai_will_do = {
+			factor = 25
+		}
+	}
 	}

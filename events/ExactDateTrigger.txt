@@ -1291,22 +1291,6 @@ country_event = {
 	}
 }
 
-#February 9, 2018
-country_event = {
-	id = exact_date_trigger.6615
-	hidden = yes
-	fire_only_once = yes
-	
-	trigger = {
-		date > 2018.2.8
-		date < 2018.2.12
-	}
-	
-	option = {
-		KOR = { news_event = olympic_games.10 }
-	}
-}
-
 #July 24, 2020
 country_event = {
 	id = exact_date_trigger.7511

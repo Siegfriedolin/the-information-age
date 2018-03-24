@@ -30,9 +30,11 @@ country_event = {	#Suggest Union
 				is_core_of = PRK
 			}
 			remove_core_of = PRK
-			ai_chance = {
-			 factor = 50 }
-		}
+			}
+	ai_chance = { 
+	factor = 50 
+	}
+		
 	}
 	
 	option = {

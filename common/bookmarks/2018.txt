@@ -70,6 +70,8 @@ bookmarks = {
 			history = "PRK_BLITZKRIEG_DESC"
 			ideology = communist
 			ideas = {
+			idea_PRK_embargo
+	        idea_PRK_militarism
 			}
 		}
 			
@@ -81,7 +83,10 @@ bookmarks = {
 		    minor = yes
 			history = "KOR_BLITZKRIEG_DESC"
 			ideology = social_liberal
-			ideas = {}
+			ideas = {
+			idea_KOR_militarism
+			idea_KOR_USinvestment
+			}
 			}
 			
 		effect = {

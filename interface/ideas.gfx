@@ -1090,4 +1090,9 @@ spriteTypes = {
 		name = "GFX_idea_SKmilitarism"
 		texturefile = "gfx/interface/ideas/KOR/SKmilitarism.dds"
 	}
+	
+	spriteType = {
+		name = "GFX_idea_NKmilitarism"
+		texturefile = "gfx/interface/ideas/PRK/Militarism_NK.dds"
+	}
 }

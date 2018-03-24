@@ -259,5 +259,6 @@ create_navy_leader = {
 	}
 	add_ideas = {
 	idea_KOR_militarism
+	idea_KOR_USinvestment
 }
 }
