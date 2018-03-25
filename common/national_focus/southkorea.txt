@@ -11,6 +11,8 @@ focus_tree = {
 		}
 	}
 	
+	default = no
+	
 	@peace_tree_header = 10
 	@peace_tree_left = 9
 	@peace_tree_right = 11
@@ -595,7 +597,6 @@ focus_tree = {
 		
 		completion_reward = {
 		add_political_power = 20
-	    opinion_gain_monthly_factor = 0.75
 		}
 	    
 		ai_will_do = {
@@ -867,4 +868,343 @@ focus_tree = {
 		}
 	}
 	
+	focus = {
+		id = KOR_Prepare_for_War
+		icon = army_logistics
+		
+		x = 20
+		y = 0
+		
+		cost = 10
+		
+		
+		completion_reward = {
+		army_experience = 60
+		}
+		
+		ai_will_do = {
+			factor = 25
+		}
+	}
+	
+	focus = {
+		id = KOR_US_Army_Support
+		icon = american_military_agreement
+		
+		x = 20
+		y = 1
+		
+		cost = 10
+		
+		prerequisite = {
+			focus = KOR_Prepare_for_War
+		}
+		
+		completion_reward = {
+		army_experience = 40
+		navy_experience = 40
+		air_experience = 40
+		}
+		
+		ai_will_do = {
+			factor = 25
+		}
+	}
+	
+	focus = {
+		id = KOR_Infantry_Reform
+		icon = small_arms
+		
+		x = 20
+		y = 2
+		
+		cost = 10
+		
+		prerequisite = {
+			focus = KOR_US_Army_Support
+		}
+		
+		completion_reward = {
+			add_tech_bonus = {
+            name = infantry_bonus
+            bonus = 0.8
+            uses = 2
+            category = infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 25
+		}
+	}
+	}
+	
+	focus = {
+      id = KOR_Artillery_Reform
+      icon = artillery2
+      x = 20
+      y = 3
+      cost = 10
+
+      prerequisite = {
+         focus = KOR_Infantry_Reform
+      }
+
+      completion_reward = {
+         #artillery research bonus
+
+         add_tech_bonus = {
+            name = artillery_bonus
+            bonus = 0.5
+            uses = 2
+            category = artillery
+         }
+      }
+	}
+	
+	focus = {
+      id = KOR_Doctrines_Reform
+      icon = cavalry
+      x = 20
+      y = 4
+      cost = 10
+
+      prerequisite = {
+         focus = KOR_Artillery_Reform
+      }
+
+      completion_reward = {
+         #land doctrine research bonus
+
+         add_tech_bonus = {
+            name = land_doctrine_bonus
+            bonus = 0.5
+            uses = 2
+            category = land_doctrine
+         }
+      }
+	}
+	
+	focus = {
+      id = KOR_Emergency_Measures
+      icon = small_arms5
+      x = 20
+      y = 5
+      cost = 5
+
+      prerequisite = {
+         focus = KOR_Doctrines_Reform
+      }
+	  
+	  available = {
+			has_defensive_war = yes
+		}
+
+      completion_reward = {
+      add_ideas = scraping_the_barrel 
+	  add_ideas = additional_recruits10
+      }
+	}
+	
+	focus = {
+      id = KOR_Naval_Reform
+      icon = battleships
+      x = 22
+      y = 1
+      cost = 10
+
+      prerequisite = {
+         focus = KOR_Prepare_for_War
+      }
+	
+      completion_reward = {
+       add_tech_bonus = {
+            name = battleship_bonus
+            bonus = 0.5
+            uses = 2
+            category = bb_tech
+		}
+        }
+	}
+	
+	focus = {
+      id = KOR_Regional_Navy
+      icon = navy2
+      x = 22
+      y = 2
+      cost = 10
+
+      prerequisite = {
+         focus = KOR_Naval_Reform
+      }
+	  
+      completion_reward = {
+        add_tech_bonus = {
+            name = destroyer_bonus
+            bonus = 0.5
+            uses = 1
+            category = dd_tech
+         }
+            add_tech_bonus = {
+            name = light_cruiser_bonus
+            bonus = 0.5
+            uses = 1
+            category = cl_tech
+         }
+        }
+	}
+	
+	focus = {
+      id = KOR_Improve_Submarines
+      icon = submarines
+      x = 22
+      y = 3
+      cost = 10
+
+      prerequisite = {
+         focus = KOR_Regional_Navy
+      }
+	  
+      completion_reward = {
+        add_tech_bonus = {
+            name = sub_bonus
+            bonus = 0.5
+            uses = 1
+            category = ss_tech }
+         }
+        }
+		
+	focus = {
+      id = KOR_Improve_Carriers
+      icon = carriers
+      x = 22
+      y = 4
+      cost = 10
+
+      prerequisite = {
+         focus = KOR_Improve_Submarines
+      }
+	  
+      completion_reward = {
+       add_tech_bonus = {
+            name = carrier_bonus
+            bonus = 0.5
+            uses = 1
+            category = cv_tech }
+        }
+    }
+	
+	focus = {
+      id = KOR_The_New_Navy
+      icon = navy
+      x = 22
+      y = 5
+      cost = 10
+
+      prerequisite = {
+         focus = KOR_Improve_Carriers
+      }
+	  
+      completion_reward = {
+       navy_experience = 200
+        }
+    }
+	
+	focus = {
+      id = KOR_Reform_the_Airforce
+      icon = airforce
+      x = 18
+      y = 1
+      cost = 10
+
+      prerequisite = {
+         focus = KOR_Prepare_for_War
+      }
+	  
+      completion_reward = {
+        add_tech_bonus = {
+            name = fighter_bonus
+            bonus = 0.5
+            uses = 2
+            category = light_air
+         }
+        }
+    }
+	
+	focus = {
+      id = KOR_Bomber_Focus
+      icon = bomber
+      x = 18
+      y = 2
+      cost = 10
+
+      prerequisite = {
+         focus = KOR_Reform_the_Airforce
+      }
+	  
+      completion_reward = {
+        add_tech_bonus = {
+            name = attack_bonus
+            bonus = 0.5
+            uses = 2
+            category = cas_bomber
+         }
+        }
+    }
+	
+	focus = {
+      id = KOR_Drone_Program
+      icon = air_defense
+      x = 18
+      y = 3
+      cost = 10
+
+      prerequisite = {
+         focus = KOR_Bomber_Focus
+      }
+	  
+      completion_reward = {
+        add_tech_bonus = {
+            name = tac_bonus
+            bonus = 0.5
+            uses = 2
+            category = tactical_bomber
+         }
+        }
+    }
+	
+	focus = {
+      id = KOR_Improve_Airforce_Training
+      icon = fighter2
+      x = 18
+      y = 4
+      cost = 10
+
+      prerequisite = {
+         focus = KOR_Drone_Program
+      }
+	  
+      completion_reward = {
+        add_tech_bonus = {
+            name = air_doctrine_bonus
+            bonus = 0.5
+            uses = 2
+            category = air_doctrine
+         }
+        }
+    }
+	
+	focus = {
+      id = KOR_A_New_Airforce
+      icon = bombs2
+      x = 18
+      y = 5
+      cost = 10
+
+      prerequisite = {
+         focus = KOR_Improve_Airforce_Training
+      }
+	  
+      completion_reward = { air_experience = 200 }
+    }
+
 	}
