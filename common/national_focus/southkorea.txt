@@ -931,11 +931,12 @@ focus_tree = {
             uses = 2
             category = infantry_weapons
 		}
+		}
 		
 		ai_will_do = {
 			factor = 25
 		}
-	}
+	
 	}
 	
 	focus = {

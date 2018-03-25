@@ -257,6 +257,12 @@ create_navy_leader = {
 		picture = "Moon_Jae_In.dds"
 		ideology = liberalist
 	}
+	
+	create_country_leader = {
+		name = "Kim Yong-Woo"
+		picture = "Kim-Yong-Woo.dds"
+		ideology = constitutionalist
+	}
 	add_ideas = {
 	idea_KOR_militarism
 	idea_KOR_USinvestment
