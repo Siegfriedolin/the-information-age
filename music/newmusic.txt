@@ -76,3 +76,14 @@ music = {
 		}		
 	}	
 }
+
+music = {
+	song = "Torch of Communist Eradication"
+	
+	chance = {
+		modifier = {
+			factor = 1
+
+		}		
+	}	
+}

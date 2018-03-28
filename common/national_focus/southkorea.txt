@@ -426,7 +426,13 @@ focus_tree = {
 			focus = KOR_Increase_American_Military_Presence
 		}
 		
-		completion_reward = { }
+		completion_reward = {
+		    949 = { set_demilitarized_zone = no }
+			950 = { set_demilitarized_zone = no }
+			news_event = south_korea_news.1
+			add_threat = 10
+			}
+	       
 		ai_will_do = {
 			factor = 25
 		}
@@ -700,6 +706,7 @@ focus_tree = {
 		
 		completion_reward = {
 		add_war_support = 0.03
+		add_ideas = defensive_military_strategy
 		}
 	    
 		ai_will_do = {
@@ -719,9 +726,42 @@ focus_tree = {
 		
 		completion_reward = {
 		add_war_support = 0.03
+		if = {
+				limit = { 525 = { is_owned_by = KOR } }
+				525 = {
+					add_building_construction = {
+						type = bunker
+						province = 7125
+						level = 5
+						instant_build = yes
+					}
 		}
-	    
-		ai_will_do = {
+	if = {
+				limit = { 871 = { is_owned_by = KOR } }
+				871 = {
+					add_building_construction = {
+						type = bunker
+						province = 4004
+						level = 5
+						instant_build = yes
+					}
+		}
+	if = {
+				limit = { 871 = { is_owned_by = KOR } }
+				871 = {
+					add_building_construction = {
+						type = bunker
+						province = 11958
+						level = 5
+						instant_build = yes
+					}
+		}
+		
+	}
+	}
+	}
+	}
+	ai_will_do = {
 			factor = 25
 		}
 	}
@@ -1207,5 +1247,235 @@ focus_tree = {
 	  
       completion_reward = { air_experience = 200 }
     }
-
+	
+	focus = {
+      id = KOR_Continue_Industrial_Expansion
+      icon = industry_democratic2
+      x = 30
+      y = 0
+      cost = 10
+	  
+      completion_reward = {
+			add_political_power = 100
+		}
+    }
+	
+	focus = {
+      id = KOR_Continue_Chaebols
+      icon = local_management
+      x = 30
+      y = 1
+      cost = 10
+	 
+	  prerequisite = {
+	  focus = KOR_Continue_Industrial_Expansion
+	  }
+      completion_reward = {
+			add_stability = 0.10
+		}
+    }
+	
+	focus = {
+      id = KOR_Develop_Jeolla
+      icon = construction
+      x = 30
+      y = 2
+      cost = 10
+	 
+	  prerequisite = {
+	  focus = KOR_Continue_Chaebols
+	  }
+      completion_reward = {
+			869 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 3
+					instant_build = yes
+		}
+    }
+	}
+	}
+	
+	focus = {
+      id = KOR_Develop_Busan
+      icon = construction2
+      x = 32
+      y = 2
+      cost = 10
+	 
+	  prerequisite = {
+	  focus = KOR_Continue_Chaebols
+	  }
+      completion_reward = {
+			870 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 3
+					instant_build = yes
+		}
+    }
+	}
+	}
+	
+	focus = {
+      id = KOR_Military_Buildup
+      icon = production2
+      x = 28
+      y = 2
+      cost = 10
+	 
+	  prerequisite = {
+	  focus = KOR_Continue_Chaebols
+	  }
+      completion_reward = {
+			add_ideas = military_production_bonus3
+		}
+    }
+	
+	focus = {
+      id = KOR_Develop_Seoul
+      icon = industry_military
+      x = 30
+      y = 3
+      cost = 10
+	 
+	  prerequisite = {
+	  focus = KOR_Develop_Busan
+	  }
+	  prerequisite = {
+	  focus = KOR_Develop_Jeolla
+	  }
+	  prerequisite = {
+	  focus = KOR_Military_Buildup
+	  }
+      completion_reward = {
+			525 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 3
+					instant_build = yes
+		}
+    }
+	}
+	}
+	
+	focus = {
+      id = KOR_Develop_South_Gangwon
+      icon = industry_military
+      x = 30
+      y = 4
+      cost = 10
+	 
+	  prerequisite = {
+	  focus = KOR_Develop_Seoul
+	  }
+      completion_reward = {
+			871 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 3
+					instant_build = yes
+		}
+    }
+	}
+	}
+	
+	focus = {
+      id = KOR_Industrial_Russia
+      icon = russian_ruble
+      x = 32
+      y = 5
+      cost = 10
+	 mutually_exclusive = { focus = KOR_Industrial_US }
+	  prerequisite = {
+	  focus = KOR_Develop_South_Gangwon
+	  }
+      completion_reward = {
+		SOV = { add_opinion_modifier = { target = KOR modifier = recent_actions_positive } }
+		add_war_support = 0.03
+		remove_ideas = idea_KOR_USinvestment
+		add_ideas = idea_KOR_RUSinvestment
+		}
+    }
+	
+	focus = {
+      id = KOR_Industrial_US
+      icon = united_states_dollar
+      x = 28
+      y = 5
+      cost = 10
+	 mutually_exclusive = { focus = KOR_Industrial_Russia }
+	  prerequisite = {
+	  focus = KOR_Develop_South_Gangwon
+	  }
+      completion_reward = {
+		USA = { add_opinion_modifier = { target = KOR modifier = recent_actions_positive } }
+		add_stability = 0.03
+		}
+    }
+	
+	focus = {
+      id = KOR_Industrial_Militarism
+      icon = military_deal
+      x = 32
+      y = 6
+      cost = 10
+	  prerequisite = {
+	  focus = KOR_Industrial_Russia
+	  }
+      completion_reward = {
+		add_war_support = 0.01
+		add_ideas = military_production_bonus3
+		871 = {
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = arms_factory
+					level = 5
+					instant_build = yes
+    }
+    }	
+	}
+    }
+	
+	focus = {
+      id = KOR_Industrial_Monopoly
+      icon = money
+      x = 28
+      y = 6
+      cost = 10
+	  prerequisite = {
+	  focus = KOR_Industrial_US
+	  }
+      completion_reward = {
+		add_war_support = 0.01
+		add_ideas = military_production_bonus3
+		871 = {
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = industrial_complex
+					level = 5
+					instant_build = yes
+    }
+    }	
+	}
+    }
+	
+	focus = {
+      id = KOR_Industrial_Superpower
+      icon = industry_democratic4
+      x = 30
+      y = 7
+      cost = 10
+	  prerequisite = {
+	  focus = KOR_Industrial_Monopoly
+	  focus = KOR_Industrial_Militarism
+	  }
+      completion_reward = {
+	   add_ideas = idea_focus_industrial_development_program
+    }
+    }	
 	}

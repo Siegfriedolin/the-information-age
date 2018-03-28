@@ -179,6 +179,12 @@ create_country_leader = {
 	ideology = marxist
 }
 
+create_field_marshal = {
+	name = "Kim Yong-Woo"
+	picture = "Kim-General.dds"
+	traits = { old_guard }
+	skill = 6
+}
 create_corps_commander = {
 	name = "Han Min-goo"
 	picture = "generals/Han_Min_Goo.dds"
@@ -261,7 +267,7 @@ create_navy_leader = {
 	create_country_leader = {
 		name = "Kim Yong-Woo"
 		picture = "Kim-Yong-Woo.dds"
-		ideology = constitutionalist
+		ideology = oligarchist
 	}
 	add_ideas = {
 	idea_KOR_militarism

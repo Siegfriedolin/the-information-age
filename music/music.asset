@@ -37,3 +37,8 @@ music = {
 name = "maintheme"
 file = "maintheme.ogg"
 }
+
+music = {
+name = "Torch of Communist Eradication"
+file = "torch.ogg"
+} 
