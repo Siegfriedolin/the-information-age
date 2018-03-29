@@ -541,3 +541,9 @@ create_navy_leader = {
 	}
 give_guarantee = PRC
 }
+
+diplomatic_relation = {
+	country = SYR
+	relation = military_access
+	active = yes
+}
