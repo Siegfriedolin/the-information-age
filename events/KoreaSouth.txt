@@ -32,6 +32,8 @@ country_event = {	#Suggest Union
 			}
 			remove_core_of = PRK
 			}
+	949 = { set_demilitarized_zone = no }
+	950 = { set_demilitarized_zone = no }		
 	ai_chance = { 
 	factor = 50 
 	}

@@ -154,14 +154,14 @@ create_field_marshal = {
 	name = "Ri Myong Su"
 	picture = "generals/Ri_Myong_Su.dds"
 	traits = { old_guard defensive_doctrine }
-	skill = 2
+	skill = 7
 }
 
 create_field_marshal = {
 	name = "Ri Yong Gil"
 	picture = "generals/Ri_Yong_Gil.dds"
 	traits = { logistics_wizard offensive_doctrine }
-	skill = 1
+	skill = 4
 }
 
 create_corps_commander = {

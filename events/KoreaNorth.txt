@@ -51,3 +51,34 @@ country_event = {	#Remove the South Korean cores upon union
 		}
 	}
 }
+
+country_event = {	#Suggest Union
+	id = north_korea.3
+	title = north_korea.3.t
+	desc = north_korea.3.d
+	picture = GFX_news_event_north_korea
+	is_triggered_only = yes
+	
+	option = {
+	name = north_korea.3.o1
+	PRK = {annex_country = { target = KOR transfer_troops = yes } }
+		every_state = {
+			limit = {
+				is_core_of = KOR
+			}
+			remove_core_of = KOR
+			}
+	949 = { set_demilitarized_zone = no }
+	950 = { set_demilitarized_zone = no }
+	ai_chance = { 
+	factor = 90
+	}
+		
+	}
+	
+	option = {
+	name = north_korea.3.o2
+		ai_chance = {
+		factor = 10 }
+		}
+	}
