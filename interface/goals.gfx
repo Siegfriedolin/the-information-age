@@ -2720,5 +2720,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/south_korea/conflict.dds"			
 	}
 	
+	SpriteType = {
+		name = "south_korea"
+		texturefile = "gfx/interface/goals/north_korea/conflict.dds"			
+	}
+	
 	#those without a category
 }

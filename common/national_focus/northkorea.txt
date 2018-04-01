@@ -1,0 +1,471 @@
+focus_tree = {
+	
+	id = northkorea_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 20
+			original_tag = PRK
+		}
+	}
+	
+	default = no
+	
+	
+	focus = {
+		id = PRK_Peninsula_Conflict
+		icon = south_korea
+		x = 10
+		y = 0
+		cost = 5
+		
+		completion_reward = {
+			add_war_support = 0.02
+			add_political_power = 20
+		}
+		
+		ai_will_do = {
+			factor = 40
+		}
+	}
+	focus = {
+		id = PRK_Continue_Agressive_Policies
+		icon = military_mission
+		x = 12
+		y = 1
+		cost = 5
+		mutually_exclusive = { focus = PRK_A_New_Path }
+		prerequisite = { focus = PRK_Peninsula_Conflict }
+		
+		completion_reward = {
+			add_war_support = 0.02
+			add_stability = -0.03
+		}
+		
+		ai_will_do = {
+			factor = 70
+		}
+	}
+	
+	focus = {
+		id = PRK_A_New_Path
+		icon = demand_territory
+		x = 8
+		y = 1
+		cost = 5
+		mutually_exclusive = { focus = PRK_Continue_Agressive_Policies }
+		prerequisite = { focus = PRK_Peninsula_Conflict }
+		
+		completion_reward = {
+			add_war_support = -0.02
+			add_stability = 0.03
+		}
+		
+		ai_will_do = {
+			factor = 35
+		}
+	}
+	
+	focus = {
+		id = PRK_Look_Supporters
+		icon = major_alliance
+		x = 8
+		y = 2
+		cost = 5
+		prerequisite = { focus = PRK_A_New_Path }
+		
+		completion_reward = {
+			add_political_power = 70
+		}
+		
+		ai_will_do = {
+			factor = 35
+		}
+	}
+	
+	focus = {
+		id = PRK_Chinese_Support
+		icon = align_to_china
+		x = 7
+		y = 3
+		cost = 5
+		prerequisite = { focus = PRK_Look_Supporters }
+		mutually_exclusive = { focus = PRK_American_Support }
+		
+		completion_reward = {
+		    add_stability = 0.04
+			PRC = { add_opinion_modifier = { target = PRK modifier = recent_actions_positive } }
+		}
+		
+		ai_will_do = {
+			factor = 35
+		}
+	}
+	
+	focus = {
+		id = PRK_American_Support
+		icon = align_to_america
+		x = 9
+		y = 3
+		cost = 5
+		prerequisite = { focus = PRK_Look_Supporters }
+	    mutually_exclusive = { focus = PRK_Chinese_Support }
+		
+		completion_reward = {
+		    add_stability = 0.04
+			USA = { add_opinion_modifier = { target = PRK modifier = recent_actions_positive } }
+		}
+		
+		ai_will_do = {
+			factor = 35
+		}
+	}
+	
+	focus = {
+		id = PRK_Protest_Elections
+		icon = renounce_treaty
+		x = 9
+		y = 4
+		cost = 5
+		prerequisite = { focus = PRK_American_Support }
+		
+		completion_reward = {
+		    add_stability = -0.02
+		add_popularity = {
+	    ideology = democratic_socialist
+	    popularity = 0.15 } 
+		}
+		
+		ai_will_do = {
+			factor = 35
+		}
+	}
+	
+	focus = {
+		id = PRK_Liberalist_Reforms
+		icon = libertarianism
+		x = 9
+		y = 5
+		cost = 5
+		prerequisite = { focus = PRK_Protest_Elections }
+		
+		completion_reward = {
+		add_political_power = 45
+		add_popularity = {
+	    ideology = democratic_socialist
+	    popularity = 0.05 } 
+		}
+		
+		ai_will_do = {
+			factor = 35
+		}
+	}
+	
+	focus = {
+		id = PRK_Anti_War_Propaganda
+		icon = dangerous_laws
+		x = 8
+		y = 6
+		cost = 5
+		prerequisite = { focus = PRK_Liberalist_Reforms }
+		
+		completion_reward = {
+		add_political_power = -20
+		add_war_support = -0.02
+		add_popularity = {
+	    ideology = communist
+	    popularity = -0.05 }
+		remove_ideas = idea_PRK_militarism
+		}
+		
+		ai_will_do = {
+			factor = 35
+		}
+	}
+	
+	focus = {
+		id = PRK_Peasant_Revolts
+		icon = small_arms5
+		x = 10
+		y = 6
+		cost = 5
+		prerequisite = { focus = PRK_Liberalist_Reforms }
+		
+		completion_reward = {
+		add_political_power = -10
+		add_stability = -0.3
+		add_popularity = {
+	    ideology = communist
+	    popularity = -0.25 }
+		}
+		
+		ai_will_do = {
+			factor = 35
+		}
+	}
+	
+	focus = {
+		id = PRK_European_Support
+		icon = align_to_europe
+		x = 9
+		y = 7
+		cost = 5
+		prerequisite = { focus = PRK_Peasant_Revolts }
+		prerequisite = { focus = PRK_Anti_War_Propaganda}
+		
+		completion_reward = {
+		GER = { add_opinion_modifier = { target = PRK modifier = recent_actions_positive } }
+		FRA = { add_opinion_modifier = { target = PRK modifier = recent_actions_positive } }
+		}
+		
+		ai_will_do = {
+			factor = 35
+		}
+	}
+	
+	focus = {
+		id = PRK_Strenghten_CCP
+		icon = tripartite_pact
+		x = 9
+		y = 8
+		cost = 5
+		prerequisite = { focus = PRK_European_Support }
+		
+		completion_reward = {
+		add_popularity = {
+	    ideology = democratic_socialist
+	    popularity = 0.10 } 
+		}
+		
+		ai_will_do = {
+			factor = 35
+		}
+	}
+	
+	focus = {
+		id = PRK_Gather_Democratic_Groups
+		icon = national_unity_red
+		x = 9
+		y = 9
+		cost = 5
+		prerequisite = { focus = PRK_Strenghten_CCP }
+		
+		completion_reward = {
+		add_popularity = {
+	    ideology = communist
+	    popularity = -0.10 } 
+		}
+		
+		ai_will_do = {
+			factor = 35
+		}
+	}
+	
+	focus = {
+		id = PRK_Country_Riots
+		icon = continuous_suppression
+		x = 9
+		y = 10
+		cost = 5
+		prerequisite = { focus = PRK_Gather_Democratic_Groups }
+		
+		completion_reward = {
+		add_stability = -0.04
+		}
+		
+		ai_will_do = {
+			factor = 35
+		}
+	}
+	
+	focus = {
+		id = PRK_Anti_Kim_Propaganda
+		icon = propaganda
+		x = 11
+		y = 10
+		cost = 5
+		prerequisite = { focus = PRK_Gather_Democratic_Groups }
+		
+		completion_reward = {
+		add_political_power = 30
+		add_popularity = {
+	    ideology = communist
+	    popularity = -0.05 } 
+		}
+		
+		ai_will_do = {
+			factor = 35
+		}
+	}
+	
+	focus = {
+		id = PRK_Religious_Revolts
+		icon = yin_yang
+		x = 7
+		y = 10
+		cost = 5
+		prerequisite = { focus = PRK_Gather_Democratic_Groups }
+		
+		completion_reward = {
+		add_stability = -0.01
+		add_political_power = 20
+		}
+		
+		ai_will_do = {
+			factor = 35
+		}
+	}
+	
+	focus = {
+		id = PRK_Depose_the_Kims
+		icon = placeholder
+		x = 9
+		y = 11
+		cost = 5
+		prerequisite = { focus = PRK_Country_Riots }
+		prerequisite = { focus = PRK_Anti_Kim_Propaganda }
+		prerequisite = { focus = PRK_Religious_Revolts }
+		
+		completion_reward = {
+		add_popularity = {
+	    ideology = communist
+	    popularity = -0.10 } 
+	    add_popularity = {
+		ideology = democratic_socialist
+	    popularity = 0.20 }
+        set_politics = {
+        ruling_party = democratic_socialist
+        elections_allowed = yes
+		}
+		drop_cosmetic_tag = yes
+		set_cosmetic_tag = PRK_democratic_socialist
+		}
+		
+		ai_will_do = {
+			factor = 35
+		}
+	}
+	focus = {
+		id = PRK_Coup_Recovery
+		icon = consumer_goods
+		x = 9
+		y = 12
+		cost = 5
+		prerequisite = { focus = PRK_Depose_the_Kims }
+		
+		completion_reward = {
+		add_stability = 0.05
+		}
+		ai_will_do = {
+			factor = 35
+		}
+	}
+	
+	focus = {
+		id = PRK_Reapproach_the_South
+		icon = align_to_south_korea
+		x = 7
+		y = 13
+		cost = 5
+		prerequisite = { focus = PRK_Coup_Recovery }
+		
+		completion_reward = {
+		add_stability = 0.05
+		KOR = { add_opinion_modifier = { target = PRK modifier = recent_actions_positive } }
+		KOR = { add_opinion_modifier = { target = PRK modifier = state_visit } }
+		}
+		ai_will_do = {
+			factor = 35
+		}
+	}
+	
+	focus = {
+		id = PRK_Reapproach_the_US
+		icon = align_to_america2
+		x = 9
+		y = 13
+		cost = 5
+		prerequisite = { focus = PRK_Coup_Recovery }
+		
+		completion_reward = {
+		add_political_power = 300
+		USA = { add_opinion_modifier = { target = PRK modifier = recent_actions_positive } }
+		USA = { add_opinion_modifier = { target = PRK modifier = state_visit } }
+		SOV = {
+				add_opinion_modifier = {
+					target = KOR
+					modifier = loyal_to_our_enemy
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 35
+		}
+	}
+	
+	focus = {
+		id = PRK_End_Nuclear_Program
+		icon = align_to_united_nations
+		x = 11
+		y = 13
+		cost = 5
+		prerequisite = { focus = PRK_Coup_Recovery }
+		
+		completion_reward = {
+		add_stability = 0.05
+		add_threat = -20	
+		remove_ideas = idea_PRK_embargo
+		}
+		ai_will_do = {
+			factor = 35
+		}
+	}
+	
+	focus = {
+		id = PRK_Reapproach_Japan
+		icon = align_to_japan
+		x = 9
+		y = 14
+		cost = 5
+		prerequisite = { focus = PRK_Reapproach_the_US }
+		prerequisite = { focus = PRK_Reapproach_the_South }
+		prerequisite = { focus = PRK_End_Nuclear_Program }
+		
+		completion_reward = {
+		 JAP = {
+				add_opinion_modifier = {
+					target = KOR
+					modifier = has_expressed_loyalty
+				}
+			}
+			PRC = {
+				add_opinion_modifier = {
+					target = KOR
+					modifier = loyal_to_our_enemy
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 35
+		}
+	}
+	
+	focus = {
+		id = PRK_Peaceful_Reunification
+		icon = anschluss
+		x = 9
+		y = 15
+		cost = 5
+	    prerequisite = { focus = PRK_Reapproach_Japan }
+		
+		completion_reward = {
+		 KOR = { country_event = { id = north_korea.3 } }
+		}
+		ai_will_do = {
+			factor = 35
+		}
+	}
+	
+	}
