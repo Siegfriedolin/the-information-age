@@ -34,4 +34,21 @@ ideas = {
 			}
 		}
 	}
+	
+	country = {
+		
+		idea_PRK_Plot = {
+			picture = communism4
+			
+			allowed = { always = no }
+			
+			removal_cost = -1
+			
+			modifier = {
+            political_power_gain = -0.15
+			stability_factor = -0.05
+			
+			}
+		}
+	}
 }

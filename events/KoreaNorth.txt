@@ -82,3 +82,54 @@ country_event = {	#Suggest Union
 		factor = 10 }
 		}
 	}
+# Death of Kim Jong Un
+country_event = {
+    id = north_korea.4
+    title = north_korea.4.t
+    desc = north_korea.4.d
+    picture = GFX_report_event_kim_dead
+	is_triggered_only = yes
+    option = {
+        name = north_korea.4.o1
+        PRK = {
+            create_country_leader = {
+                name = "Pak Yong-Sik"
+                desc = "Pak Yong-Sik"
+                picture = "gfx/leaders/PRK/Pak_Yong_Sik.dds"
+                ideology = maoist
+                traits = {
+                friend_of_china
+                }
+            }
+            add_stability = 0.6
+        }
+    }
+	}
+country_event = {	
+	id = north_korea.5
+	hidden = yes
+	is_triggered_only = yes
+	
+	option = {
+		every_state = {
+			limit = {
+				is_owned_by = PRK
+			}
+			remove_core_of = KOR
+		}
+	}
+}
+country_event = {	
+	id = north_korea.6
+	hidden = yes
+	is_triggered_only = yes
+	
+	option = {
+		every_state = {
+			limit = {
+				is_owned_by = KOR
+			}
+			remove_core_of = PRK
+		}
+	}
+}	

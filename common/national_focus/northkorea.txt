@@ -88,7 +88,7 @@ focus_tree = {
 	focus = {
 		id = PRK_Chinese_Support
 		icon = align_to_china
-		x = 7
+		x = 3
 		y = 3
 		cost = 5
 		prerequisite = { focus = PRK_Look_Supporters }
@@ -97,6 +97,24 @@ focus_tree = {
 		completion_reward = {
 		    add_stability = 0.04
 			PRC = { add_opinion_modifier = { target = PRK modifier = recent_actions_positive } }
+		}
+		
+		ai_will_do = {
+			factor = 35
+		}
+	}
+	
+	focus = {
+		id = PRK_Russian_Support
+		icon = align_to_russia
+		x = 6
+		y = 3
+		cost = 5
+		prerequisite = { focus = PRK_Look_Supporters }
+		
+		completion_reward = {
+		    add_stability = 0.04
+			SOV = { add_opinion_modifier = { target = PRK modifier = recent_actions_positive } }
 		}
 		
 		ai_will_do = {
@@ -462,6 +480,196 @@ focus_tree = {
 		
 		completion_reward = {
 		 KOR = { country_event = { id = north_korea.3 } }
+		}
+		ai_will_do = {
+			factor = 35
+		}
+	}
+	
+	focus = {
+		id = PRK_Officers_Plot
+		icon = anschluss
+		x = 3
+		y = 4
+		cost = 5
+	    prerequisite = { focus = PRK_Chinese_Support }
+		
+		completion_reward = {
+		add_ideas = idea_PRK_Plot
+		}
+		ai_will_do = {
+			factor = 35
+		}
+	}
+	
+	focus = {
+		id = PRK_Trade_Deals
+		icon = trade_deal
+		x = 5
+		y = 4
+		cost = 5
+	    prerequisite = { focus = PRK_Chinese_Support }
+		
+		completion_reward = {
+		add_stability = 0.02
+		add_political_power = 30
+		}
+		ai_will_do = {
+			factor = 35
+		}
+	}
+	
+	focus = {
+		id = PRK_FSB_Help
+		icon = russian_junta
+		x = 1
+		y = 4
+		cost = 5
+	    prerequisite = { focus = PRK_Chinese_Support }
+		
+		completion_reward = {
+		add_stability = -0.02
+		add_political_power = 60
+		}
+		ai_will_do = {
+			factor = 35
+		}
+	}
+	
+	focus = {
+		id = PRK_Enact_the_Plot
+		icon = small_arms4
+		x = 3
+		y = 5
+		cost = 5
+	    prerequisite = { focus = PRK_Officers_Plot }
+		
+		completion_reward = {
+		country_event = { id = north_korea.4 }
+		remove_ideas = idea_PRK_Plot
+		}
+		ai_will_do = {
+			factor = 35
+		}
+	}
+	
+	focus = {
+		id = PRK_Trade_Capitalist
+		icon = trade_deal2
+		x = 5
+		y = 5
+		cost = 5
+	    prerequisite = { focus = PRK_Trade_Deals }
+		
+		completion_reward = {
+		KOR = { add_opinion_modifier = { target = USA modifier = trade_influence_1 } }
+		KOR = { add_opinion_modifier = { target = KOR modifier = trade_influence_1 } }
+		KOR = { add_opinion_modifier = { target = JAP modifier = trade_influence_1 } }
+		KOR = { add_opinion_modifier = { target = GER modifier = trade_influence_1 } }
+		KOR = { add_opinion_modifier = { target = PRC modifier = trade_influence_1 } }
+		}
+		ai_will_do = {
+			factor = 35
+		}
+	}
+	
+	focus = {
+		id = PRK_Further_Approach_Russia
+		icon = align_to_russia
+		x = 1
+		y = 5
+		cost = 5
+	    prerequisite = { focus = PRK_FSB_Help }
+		
+		completion_reward = {
+		SOV = { add_opinion_modifier = { target = PRK modifier = recent_actions_positive } }
+		add_political_power = 40
+		}
+		ai_will_do = {
+			factor = 35
+		}
+	}
+	focus = {
+		id = PRK_End_Nuclear_Proliferation
+		icon = align_to_united_nations
+		x = 5
+		y = 6
+		cost = 5
+	    prerequisite = { focus = PRK_Enact_the_Plot }
+		prerequisite = { focus = PRK_Further_Approach_Russia }
+		prerequisite = { focus = PRK_Trade_Capitalist }
+		
+		completion_reward = {
+		add_stability = 0.05
+		add_threat = -20	
+		remove_ideas = idea_PRK_embargo
+		}
+		ai_will_do = {
+			factor = 35
+		}
+	}
+	
+	focus = {
+		id = PRK_End_Isolationism
+		icon = renounce_treaty
+		x = 3
+		y = 6
+		cost = 5
+		
+		prerequisite = { focus = PRK_Enact_the_Plot }
+		prerequisite = { focus = PRK_Further_Approach_Russia }
+		prerequisite = { focus = PRK_Trade_Capitalist }
+	   
+		completion_reward = {
+		add_stability = 0.02
+		add_political_power = 200
+		}
+		ai_will_do = {
+			factor = 35
+		}
+	}
+	
+	focus = {
+		id = PRK_Reopen_Ties_SK
+		icon = align_to_south_korea
+		x = 1
+		y = 6
+		cost = 5
+	    
+		prerequisite = { focus = PRK_Enact_the_Plot }
+		prerequisite = { focus = PRK_Further_Approach_Russia }
+		prerequisite = { focus = PRK_Trade_Capitalist }
+		
+		completion_reward = {
+		 KOR = { add_opinion_modifier = { target = PRK modifier = recent_actions_positive } }
+		}
+		ai_will_do = {
+			factor = 35
+		}
+	}
+	
+	focus = {
+		id = PRK_Mutual_Recognition
+		icon = major_alliance
+		x = 3
+		y = 7
+		cost = 5
+	    
+		prerequisite = { focus = PRK_End_Nuclear_Proliferation }
+		prerequisite = { focus = PRK_End_Isolationism }
+		prerequisite = { focus = PRK_Reopen_Ties_SK }
+		
+		completion_reward = {
+		 KOR = { add_opinion_modifier = { target = PRK modifier = state_visit } 
+		 set_cosmetic_tag = KOR_SouthKorea
+		 country_event = {id = north_korea.5 } 
+		 remove_opinion_modifier = { target = PRK modifier = rival }
+         add_opinion_modifier = { target = PRK modifier = distrust }		 
+		 }
+		 set_cosmetic_tag = PRK_NorthKorea
+		 country_event = {id = north_korea.6 }
+		 remove_opinion_modifier = { target = KOR modifier = rival }
+		 add_opinion_modifier = { target = KOR modifier = distrust }
 		}
 		ai_will_do = {
 			factor = 35

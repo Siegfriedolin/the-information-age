@@ -330,4 +330,9 @@ opinion_modifiers = {
 		decay = 0.1
 	}
 	
+    distrust = {
+	value = -60
+	decay = 0.1
+	}
+	
 }
