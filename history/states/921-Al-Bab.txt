@@ -5,7 +5,11 @@ state={
 		owner = TUR
 		victory_points = { 13263 2 }
 		add_core_of = SYR
-		add_claim_by = ROJ
+		add_core_of = FSA
+		add_core_of = HTS
+		add_core_of = JTS
+		add_core_of = ISS
+		add_core_of = ROJ
 		buildings = {
 			infrastructure = 2
 		}

@@ -10,7 +10,10 @@ state={
 			infrastructure = 1
 		}
 		add_core_of = SYR
-
+		add_core_of = FSA
+		add_core_of = HTS
+		add_core_of = JTS
+		add_core_of = ISS
 	}
 	provinces={
 		1634 

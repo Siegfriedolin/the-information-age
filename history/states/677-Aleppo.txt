@@ -6,6 +6,10 @@ state={
 	history={
 		owner = SYR
 		add_core_of = SYR
+		add_core_of = FSA
+		add_core_of = HTS
+		add_core_of = JTS
+		add_core_of = ISS
 		victory_points = {
 			12473 20 
 		}

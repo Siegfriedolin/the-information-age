@@ -4,8 +4,11 @@ state={
 	history = {
 		owner = HTS
 		victory_points = { 7140 5 }
-		add_core_of = HTS
 		add_core_of = SYR
+		add_core_of = FSA
+		add_core_of = HTS
+		add_core_of = JTS
+		add_core_of = ISS
 		buildings = {
 			infrastructure = 4
 		}

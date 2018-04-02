@@ -7,8 +7,12 @@ state={
 		
 	history = {
 		owner = ISR
+		add_core_of = ISR
 		add_core_of = SYR
-		
+		add_core_of = FSA
+		add_core_of = HTS
+		add_core_of = JTS
+		add_core_of = ISS
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
@@ -20,6 +24,5 @@ state={
 		
 	manpower=140000
 	buildings_max_level_factor=1.000
-	
 	state_category = state_level_2
 }
