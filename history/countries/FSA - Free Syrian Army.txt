@@ -86,6 +86,7 @@ add_ideas = {
 	population_growth_rapid
 	service_by_requirement
     war_economy
+	syrian_civil_defense
 }
 
 set_politics = {

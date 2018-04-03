@@ -1,6 +1,6 @@
 ﻿capital = 680
 
-oob = "ISS_2016"
+oob = "ISS_2018"
 
 set_research_slots = 1
 set_convoys = 1
