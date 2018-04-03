@@ -125,39 +125,40 @@ add_ideas = {
 	population_growth_decline
 	idea_united_nations_security_council_member
 	SOV_corrupt_oligarchy
+	idea_eu_sanctions
 }
 
 set_politics = {
 
 	parties = {
 		nationalist = {
-			popularity = 7
+			popularity = 11
 		}
 		reactionary = {
-			popularity = 46
+			popularity = 49
 		}
 		conservative = {
-			popularity = 9
-		}
-		social_liberal = {
-			popularity = 6
-		}
-		social_democrat = {
 			popularity = 1
 		}
+		social_liberal = {
+			popularity = 3
+		}
+		social_democrat = {
+			popularity = 13
+		}
 		progressive = {
-			popularity = 0
+			popularity = 3
 		}
 		democratic_socialist = {
 			popularity = 1
 		}
 		communist = {
-			popularity = 30
+			popularity = 19
 		}
 	}
 	
 	ruling_party = reactionary
-	last_election = "1996.3.20"
+	last_election = "2011.12.4"
 	election_frequency = 48
 	elections_allowed = yes
 }
@@ -173,12 +174,13 @@ add_to_faction = KYR
 give_guarantee = ABK
 give_guarantee = SOS
 give_guarantee = TRA
+give_guarantee = PRC
 
 give_military_access = SOS
 give_military_access = ABK
 give_military_access = TRA
-give_military_access = GEO
-give_military_access = UKR
+give_military_access = SYR
+give_military_access = NOV
 
 create_country_leader = {
 	name = "Vladimir Putin"
@@ -199,13 +201,13 @@ create_country_leader = {
 	ideology = absolute_monarchist
 }
 create_country_leader = {
-	name = "Sergey Kiriyenko"
-	picture = "Sergey_Kiriyenko.dds"
+	name = "Boris Titov"
+	picture = "Boris_Titov.dds"
 	ideology = fiscal_conservative
 }
 create_country_leader = {
-	name = "Grigory Yavlinski"
-	picture = "Grigory_Yavlinski.dds"
+	name = "Emilia Slabunova"
+	picture = "Emilia_Slabunova.dds"
 	ideology = liberalist
 }
 create_country_leader = {
@@ -475,75 +477,15 @@ create_navy_leader = {
 	add_ideas = population_growth_stagnation
 }
 
-2012.1.1 = {
-	set_politics = {
-
-		parties = {
-			nationalist = {
-				popularity = 11
-			}
-			reactionary = {
-				popularity = 49
-			}
-			conservative = {
-				popularity = 1
-			}
-			social_liberal = {
-				popularity = 3
-			}
-			social_democrat = {
-				popularity = 13
-			}
-			progressive = {
-				popularity = 3
-			}
-			democratic_socialist = {
-				popularity = 1
-			}
-			communist = {
-				popularity = 19
-			}
-		}
-	
-		ruling_party = reactionary
-		last_election = "2011.12.4"
-		election_frequency = 48
-		elections_allowed = yes
+2018.1.1 = {
+	add_ai_strategy = {
+		type = alliance
+		id = "SYR"
+		value = 500
 	}
-
-	create_country_leader = {
-		name = "Emilia Slabunova"
-		picture = "Emilia_Slabunova.dds"
-		ideology = liberalist
+	add_ai_strategy = {
+		type = alliance
+		id = "NOV"
+		value = 500
 	}
-
-	create_country_leader = {
-		name = "Boris Titov"
-		picture = "Boris_Titov.dds"
-		ideology = fiscal_conservative
-	}
-}
-
-2014.3.1 = {
-	add_opinion_modifier = {
-		target = UKR
-		modifier = annexed_ukraine_trade
-	}
-	add_ideas = {
-		idea_eu_sanctions
-	}
-}
-
-2014.3.18 = {
-	add_named_threat = {
-		threat = 6
-		name = threat_SOV_annexiation_of_crimea
-	}
-give_guarantee = PRC
-}
-
-diplomatic_relation = {
-	country = SYR
-	relation = military_access
-	active = yes
 }

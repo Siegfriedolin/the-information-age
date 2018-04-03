@@ -128,3 +128,7 @@ create_country_leader = {
 	picture = "Hediya_Yousef.dds" 
 	ideology = democratic_socialist_ideology
 }
+
+2018.1.1 = {
+	declare_war_on = { target = ISS type = annex_everything }
+}

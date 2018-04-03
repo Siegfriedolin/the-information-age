@@ -10557,4 +10557,144 @@ spriteTypes = {
 		name = "GFX_ZIM_future_infantry_weapons2_medium"
 		texturefile = "gfx/interface/technologies/infantry/ZIM_infantry6.dds"
 	}
+	
+	SpriteType = {
+		name = "GFX_ROJ_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/infantry/ROJ_infantry0.dds"
+	}		
+	
+	SpriteType = {
+		name = "GFX_ROJ_infantry_weapons1_medium"
+		texturefile = "gfx/interface/technologies/infantry/ROJ_infantry1.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_ROJ_improved_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/infantry/ROJ_infantry2.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_ROJ_advanced_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/infantry/ROJ_infantry3.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_ROJ_future_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/infantry/ROJ_infantry4.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_ROJ_future_infantry_weapons1_medium"
+		texturefile = "gfx/interface/technologies/infantry/ROJ_infantry5.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_ROJ_future_infantry_weapons2_medium"
+		texturefile = "gfx/interface/technologies/infantry/ROJ_infantry6.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_FSA_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/infantry/FSA_infantry0.dds"
+	}		
+	
+	SpriteType = {
+		name = "GFX_FSA_infantry_weapons1_medium"
+		texturefile = "gfx/interface/technologies/infantry/FSA_infantry1.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_FSA_improved_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/infantry/FSA_infantry2.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_FSA_advanced_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/infantry/FSA_infantry3.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_FSA_future_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/infantry/FSA_infantry4.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_FSA_future_infantry_weapons1_medium"
+		texturefile = "gfx/interface/technologies/infantry/FSA_infantry5.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_FSA_future_infantry_weapons2_medium"
+		texturefile = "gfx/interface/technologies/infantry/FSA_infantry6.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_HTS_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/infantry/HTS_infantry0.dds"
+	}		
+	
+	SpriteType = {
+		name = "GFX_HTS_infantry_weapons1_medium"
+		texturefile = "gfx/interface/technologies/infantry/HTS_infantry1.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_HTS_improved_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/infantry/HTS_infantry2.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_HTS_advanced_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/infantry/HTS_infantry3.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_HTS_future_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/infantry/HTS_infantry4.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_HTS_future_infantry_weapons1_medium"
+		texturefile = "gfx/interface/technologies/infantry/HTS_infantry5.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_HTS_future_infantry_weapons2_medium"
+		texturefile = "gfx/interface/technologies/infantry/HTS_infantry6.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_JTS_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/infantry/JTS_infantry0.dds"
+	}		
+	
+	SpriteType = {
+		name = "GFX_JTS_infantry_weapons1_medium"
+		texturefile = "gfx/interface/technologies/infantry/JTS_infantry1.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_JTS_improved_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/infantry/JTS_infantry2.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_JTS_advanced_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/infantry/JTS_infantry3.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_JTS_future_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/infantry/JTS_infantry4.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_JTS_future_infantry_weapons1_medium"
+		texturefile = "gfx/interface/technologies/infantry/JTS_infantry5.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_JTS_future_infantry_weapons2_medium"
+		texturefile = "gfx/interface/technologies/infantry/JTS_infantry6.dds"
+	}
 }

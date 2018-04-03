@@ -132,11 +132,6 @@ create_corps_commander = {
 	skill = 1
 }
 
-2015.6.1 = {
-	declare_war_on = { target = SYR type = annex_everything }
-    declare_war_on = { target = ROJ type = annex_everything }
-}
-
 2016.5.1 = {
 
 	add_named_threat = {
