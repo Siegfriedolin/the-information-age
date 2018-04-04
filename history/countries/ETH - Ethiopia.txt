@@ -118,23 +118,6 @@ set_politics = {
 	elections_allowed = yes
 }
 
-declare_war_on = {
-	target = ERI
-	type = annex_everything
-}
-add_named_threat = {
-	name = ethiopia.5.t
-	threat = 1
-}
-add_timed_idea = {
-	idea = defensive_military_strategy
-	days = 365
-}
-
-2000.6.18 = {
-	white_peace = ERI
-}
-
 add_opinion_modifier = {
 	target = ERI
 	modifier = rival

@@ -132,19 +132,6 @@ set_politics = {
 	elections_allowed = no
 }
 
-add_named_threat = {
-	name = ethiopia.5.t
-	threat = 1
-}
-add_timed_idea = {
-	idea = defensive_military_strategy
-	days = 365
-}
-	
-2000.6.18 = {
-	white_peace = ETH
-}
-
 create_country_leader = {
 	name = "Isayas Afewerki"
 	picture = "Isayas_Afewerki.dds"
