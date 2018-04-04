@@ -159,3 +159,4 @@ opinion_modifiers = {
 	state_visit = {
 	value = 80
 }	
+}

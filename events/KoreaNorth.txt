@@ -132,4 +132,67 @@ country_event = {
 			remove_core_of = PRK
 		}
 	}
-}	
+}
+# Death of Kim Jong Un
+country_event = {
+    id = north_korea.7
+    title = north_korea.7.t
+    desc = north_korea.7.d
+    picture = GFX_news_event_north_korean_officials
+	is_triggered_only = yes
+    option = {
+        name = north_korea.7.o1
+		PRK = { transfer_state = 949}
+		949 = { set_demilitarized_zone = no }
+	    950 = { set_demilitarized_zone = no }
+		ai_chance = { 
+	factor = 80
+	}
+    }
+	option = {
+        name = north_korea.7.o2
+	    declare_war_on = { target = PRK type = topple_government }
+		USA = { declare_war_on = { target = PRK type = topple_government } }
+		JAP = { declare_war_on = { target = PRK type = topple_government } }
+		949 = { set_demilitarized_zone = no }
+	    950 = { set_demilitarized_zone = no }
+		ai_chance = { 
+	factor = 20
+	}
+		
+    }
+	}
+	
+	country_event = {
+    id = north_korea.8
+    title = north_korea.8.t
+    desc = north_korea.8.d
+    picture = GFX_report_event_kim_war
+	is_triggered_only = yes
+    option = {
+        name = north_korea.8.o1
+	PRK = {annex_country = { target = KOR transfer_troops = yes } }
+    JAP = { add_manpower = 900000 }
+	JAP = { load_oob = KOR_Retreats }
+	JAP = { add_equipment_to_stockpile = { type = infantry_equipment_1 amount = 50000 } }
+	JAP = { add_equipment_to_stockpile = { type = anti_tank_infantry_equipment_1 amount = 50000 } }
+	JAP = { add_equipment_to_stockpile = { type = motorized_equipment_1 amount = 10000 } }
+	JAP = { add_equipment_to_stockpile = { type = mechanized_equipment_2 amount = 5000 } }
+	USA = { declare_war_on = { target = PRK type = topple_government } }
+    JAP = { declare_war_on = { target = PRK type = topple_government } }	
+    ai_chance = {
+	factor = 10
+	}
+	}
+   option = {
+        name = north_korea.8.o2
+	    declare_war_on = { target = PRK type = topple_government }
+		USA = { declare_war_on = { target = PRK type = topple_government } }
+		JAP = { declare_war_on = { target = PRK type = topple_government } }
+		
+		ai_chance = { 
+	factor = 90
+	}
+		
+    }
+	}

@@ -355,6 +355,11 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
+		name = "align_to_laos"
+		texturefile = "gfx/interface/goals/alignment/align_to_laos.dds"			
+	}
+	
+	SpriteType = {
 		name = "align_to_latvia"
 		texturefile = "gfx/interface/goals/alignment/align_to_latvia.dds"			
 	}

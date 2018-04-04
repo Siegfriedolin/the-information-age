@@ -1,0 +1,87 @@
+﻿####### OOB #######
+units = {
+	division= {	
+		name = "9th Korean Exiled Division"
+		location = 9950
+		division_template = "Motorized Brigade"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division= {	
+		name = "10th Korean Exiled Division"
+		location = 9950
+		division_template = "Motorized Brigade"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division= {	
+		name = "11th Korean Exiled Division"
+		location = 9950
+		division_template = "Motorized Brigade"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1	
+	}
+	division= {	
+		name = "12th Korean Exiled Division"
+		location = 9950
+		division_template = "Motorized Brigade"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division= {	
+		name = "13th Korean Exiled Division"
+		location = 9950
+		division_template = "Motorized Brigade"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division= {	
+		name = "14th Korean Exiled Division"
+		location = 9950
+		division_template = "Motorized Brigade"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division= {	
+		name = "15th Korean Exiled Division"
+		location = 9950
+		division_template = "Motorized Brigade"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division= {	
+		name = "16th Korean Exiled Division"
+		location = 9950
+		division_template = "Motorized Brigade" 
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division= {	
+		name = "17th Korean Exiled Division"
+		location = 9950
+		division_template = "Motorized Brigade" 
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division= {	
+		name = "18th Korean Exiled Division"
+		location = 9950
+		division_template = "Motorized Brigade"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division= {	
+		name = "19th Korean Exiled Division"
+		location = 9950
+		division_template = "Motorized Brigade"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division= {	
+		name = "20th Korean Exiled Division"
+		location = 9950
+		division_template = "Motorized Brigade"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+}

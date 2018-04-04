@@ -17,7 +17,7 @@ focus_tree = {
 	focus = {
 		id = PRK_Peninsula_Conflict
 		icon = south_korea
-		x = 10
+		x = 14
 		y = 0
 		cost = 5
 		
@@ -33,7 +33,7 @@ focus_tree = {
 	focus = {
 		id = PRK_Continue_Agressive_Policies
 		icon = military_mission
-		x = 12
+		x = 20
 		y = 1
 		cost = 5
 		mutually_exclusive = { focus = PRK_A_New_Path }
@@ -676,4 +676,431 @@ focus_tree = {
 		}
 	}
 	
+	focus = {
+		id = PRK_Self_Sustainable
+		icon = demand_territory
+		x = 20
+		y = 2
+		cost = 5
+	    prerequisite = { focus = PRK_Continue_Agressive_Policies }
+		
+		completion_reward = {
+		add_stability = 0.01
+		}
+		ai_will_do = {
+			factor = 35
+		}
 	}
+	
+	focus = {
+		id = PRK_Continue_Juche_Policies
+		icon = communism12
+		x = 20
+		y = 3
+		cost = 5
+	    prerequisite = { focus = PRK_Self_Sustainable }
+		
+		completion_reward = {
+		add_political_power = -5
+		}
+		ai_will_do = {
+			factor = 35
+		}
+	}
+	
+	focus = {
+		id = PRK_Increase_Propaganda
+		icon = propaganda_communist
+		x = 18
+		y = 3
+		cost = 5
+	    prerequisite = { focus = PRK_Self_Sustainable }
+		
+		completion_reward = {
+		add_political_power = -50
+		add_popularity = {
+	    ideology = communist
+	    popularity = 0.05 } 
+		}
+		ai_will_do = {
+			factor = 35
+		}
+	}
+	
+	focus = {
+		id = PRK_Ignore_Famine
+		icon = concessions2
+		x = 22
+		y = 3
+		cost = 5
+	    prerequisite = { focus = PRK_Self_Sustainable }
+		
+		completion_reward = {
+		add_stability = -0.03
+		}
+		ai_will_do = {
+			factor = 35
+		}
+
+	}
+	
+	focus = {
+		id = PRK_Increase_Law_Enforcement
+		icon = dangerous_laws
+		x = 20
+		y = 4
+		cost = 5
+        prerequisite = { focus = PRK_Continue_Juche_Policies }
+		prerequisite = { focus = PRK_Ignore_Famine }
+		prerequisite = { focus = PRK_Increase_Propaganda }
+		
+		completion_reward = {
+		add_stability = 0.05
+		add_political_power = -100
+		}
+		ai_will_do = {
+			factor = 35
+		}
+
+	}
+	
+	focus = {
+		id = PRK_Kim_Speech
+		icon = propaganda
+		x = 20
+		y = 5
+		cost = 5
+	    prerequisite = { focus = PRK_Increase_Law_Enforcement }
+		
+		completion_reward = {
+		add_stability = 0.01
+		add_political_power = 100
+		add_war_support = 0.01
+		}
+		ai_will_do = {
+			factor = 35
+		}
+	}
+		
+	focus = {
+		id = PRK_Focus_on_Militarism
+		icon = military_sphere
+		x = 20
+		y = 6
+		cost = 5
+	    prerequisite = { focus = PRK_Kim_Speech }
+
+		completion_reward = {
+		add_war_support = 0.01
+		}
+		ai_will_do = {
+			factor = 35
+		}
+	}
+	
+	focus = {
+		id = PRK_Continue_the_Nuclear_Program
+		icon = nuclear_weapons
+		x = 20
+		y = 7
+		cost = 5
+	    prerequisite = { focus = PRK_Focus_on_Militarism }
+		
+		completion_reward = {
+		add_stability = -0.03
+		add_tech_bonus = {
+				name = secret_bonus
+				bonus = 0.5
+				uses = 2
+				category = nuclear
+				category = rocketry
+			}
+		KOR = { add_opinion_modifier = { target = PRK modifier = unprovoked_aggression } }
+        JAP = { add_opinion_modifier = { target = PRK modifier = unprovoked_aggression } }			
+		}
+		ai_will_do = {
+			factor = 35
+		}
+	
+	}
+	
+	focus = {
+		id = PRK_Finish_Fortifications
+		icon = city_fort
+		x = 22
+		y = 7
+		cost = 5
+	    prerequisite = { focus = PRK_Focus_on_Militarism }
+		
+		completion_reward = {
+		if = {
+				limit = { 872 = { is_owned_by = PRK } }
+				872 = {
+					add_building_construction = {
+						type = bunker
+						province = 848
+						level = 5
+						instant_build = yes
+					}
+		}
+	if = {
+				limit = { 527 = { is_owned_by = PRK } }
+				527 = {
+					add_building_construction = {
+						type = bunker
+						province = 12040
+						level = 5
+						instant_build = yes
+					}
+		}
+	if = {
+				limit = { 527 = { is_owned_by = KOR } }
+				527 = {
+					add_building_construction = {
+						type = bunker
+						province = 9981
+						level = 5
+						instant_build = yes
+					}
+		}
+		
+	}
+	}
+	}
+	}
+        		
+	ai_will_do = { factor = 35 }
+	}
+	
+	focus = {
+		id = PRK_Prepare_for_War
+		icon = small_arms
+		x = 18
+		y = 7
+		cost = 5
+	    prerequisite = { focus = PRK_Focus_on_Militarism }
+		
+		completion_reward = {
+		add_war_support = 0.03
+		army_experience = 50
+		}
+		ai_will_do = {
+			factor = 35
+		}
+	}
+	
+	focus = {
+		id = PRK_DMZ_Incident
+		icon = demand_territory2
+		x = 20
+		y = 8
+		cost = 5
+	    prerequisite = { focus = PRK_Prepare_for_War }
+	    prerequisite = { focus = PRK_Continue_the_Nuclear_Program }
+	    prerequisite = { focus = PRK_Finish_Fortifications }
+		
+		completion_reward = {
+		add_political_power = -50
+		KOR = { country_event = north_korea.7 }
+		}
+		ai_will_do = {
+			factor = 35
+		}
+	}
+	
+	focus = {
+		id = PRK_Agressive_Diplomacy
+		icon = dangerous_deal
+		x = 20
+		y = 9
+		cost = 5
+	    prerequisite = { focus = PRK_DMZ_Incident }
+		
+		completion_reward = {
+		add_political_power = 80
+		}
+		ai_will_do = {
+			factor = 35
+		}
+
+	}
+	
+	focus = {
+		id = PRK_Military_China_Alliance
+		icon = align_to_china
+		x = 20
+		y = 10
+		cost = 5
+	    prerequisite = { focus = PRK_Agressive_Diplomacy }
+		
+		completion_reward = {
+		PRC = { add_opinion_modifier = { target = PRK modifier = recent_actions_positive } }
+		}
+		ai_will_do = {
+			factor = 35
+		}
+	}
+	
+	focus = {
+		id = PRK_Military_Vietnam_Alliance
+		icon = align_to_vietnam
+		x = 22
+		y = 10
+		cost = 5
+	    prerequisite = { focus = PRK_Agressive_Diplomacy }
+		
+		completion_reward = {
+		VIN = { add_opinion_modifier = { target = PRK modifier = recent_actions_positive } }
+		}
+		ai_will_do = {
+			factor = 35
+		}
+	}
+	
+	focus = {
+		id = PRK_Military_Laos_Alliance
+		icon = align_to_laos
+		x = 18
+		y = 10
+		cost = 5
+	    prerequisite = { focus = PRK_Agressive_Diplomacy }
+		
+		completion_reward = {
+		LAO = { add_opinion_modifier = { target = PRK modifier = recent_actions_positive } }
+		}
+		ai_will_do = {
+			factor = 35
+		}
+
+	}
+	
+	focus = {
+		id = PRK_Form_the_Alliance
+		icon = military_deal
+		x = 20
+		y = 11
+		cost = 5
+	    prerequisite = { focus = PRK_Military_China_Alliance }
+		prerequisite = { focus = PRK_Military_Laos_Alliance }
+		prerequisite = { focus = PRK_Military_Vietnam_Alliance }
+		
+		completion_reward = {
+	    create_faction = "United Workers of Asia"
+		add_to_faction = LAO
+		add_to_faction = VIN
+		add_to_faction = PRC
+		}
+		ai_will_do = {
+			factor = 35
+		}
+	}
+	
+	focus = {
+		id = PRK_Prepare_the_Strike
+		icon = territorial_claims
+		x = 20
+		y = 12
+		cost = 5
+	    prerequisite = { focus = PRK_Form_the_Alliance }
+		
+		completion_reward = {
+	    add_ideas = army_organization_bonus
+		army_experience = 80
+		add_political_power = 120
+		}
+		ai_will_do = {
+			factor = 35
+		}
+	}
+	
+	focus = {
+		id = PRK_Prepare_the_Artillery
+		icon = artillery2
+		x = 20
+		y = 13
+		cost = 5
+	    prerequisite = { focus = PRK_Prepare_the_Strike }
+		
+		completion_reward = {
+	    add_ideas = artillery_innovations
+		}
+		ai_will_do = {
+			factor = 35
+		}
+	}
+	
+	focus = {
+		id = PRK_Prepare_the_Industry
+		icon = industry_communist
+		x = 22
+		y = 13
+		cost = 5
+	    prerequisite = { focus = PRK_Prepare_the_Strike }
+		
+		completion_reward = {
+	    add_ideas = civilian_industry_project3
+        add_ideas = military_industry_project3      
+		}
+		ai_will_do = {
+			factor = 35
+		}
+	}
+	
+	focus = {
+		id = PRK_Motivate_the_Army
+		icon = army_officers
+		x = 18
+		y = 13
+		cost = 5
+	    prerequisite = { focus = PRK_Prepare_the_Strike }
+		
+		completion_reward = {
+	    add_ideas = army_morale_bonus   
+		}
+		ai_will_do = {
+			factor = 35
+		}
+	}
+	
+	focus = {
+		id = PRK_Denounce_the_West
+		icon = attack_nato
+		x = 20
+		y = 14
+		cost = 5
+	    prerequisite = { focus = PRK_Motivate_the_Army }
+		prerequisite = { focus = PRK_Prepare_the_Industry }
+		prerequisite = { focus = PRK_Prepare_the_Artillery }
+		
+		completion_reward = {
+	    USA = { add_opinion_modifier = { target = PRK modifier = hostile_status } }
+        GER = { add_opinion_modifier = { target = PRK modifier = hostile_status } } 
+  		ENG = { add_opinion_modifier = { target = PRK modifier = hostile_status } }
+		FRA = { add_opinion_modifier = { target = PRK modifier = hostile_status } }
+		ITA = { add_opinion_modifier = { target = PRK modifier = hostile_status } }
+		SPR = { add_opinion_modifier = { target = PRK modifier = hostile_status } }
+		USA = { add_opinion_modifier = { target = PRK modifier = hostile_status } } 
+		add_political_power = 300
+		}
+		ai_will_do = {
+			factor = 35
+		}
+	}
+	focus = {
+		id = PRK_Unite_Korea
+		icon = attack_south_korea
+		x = 20
+		y = 15
+		cost = 5
+	    prerequisite = { focus = PRK_Denounce_the_West}
+		
+		completion_reward = {
+		KOR = { country_event = north_korea.8 }
+		}
+		ai_will_do = {
+			factor = 35
+		}
+	}
+	
+	}
+	

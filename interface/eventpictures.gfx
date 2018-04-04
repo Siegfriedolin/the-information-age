@@ -989,3 +989,8 @@ spriteTypes = {
 	   name = "GFX_report_event_kim_dead"
 	   texturefile = "gfx/event_pictures/report_event/korea/kim_dead.dds"
 	}
+	
+	spriteType= {
+	   name = "GFX_report_event_kim_war"
+	   texturefile = "gfx/event_pictures/news_event/korea/Kim_War_Speech.dds"
+	}
