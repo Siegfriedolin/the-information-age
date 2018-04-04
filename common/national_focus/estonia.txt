@@ -1,8 +1,13 @@
 focus_tree = {
-
-	id = est
+	
+	id = estonia_focus
 	
 	country = {
+		factor = 0
+		
+		modifier = {
+			add = 20
+			original_tag = EST
 		factor = 5
 	}
 	
