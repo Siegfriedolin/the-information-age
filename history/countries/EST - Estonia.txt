@@ -146,7 +146,7 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "Hanno Pevkur"
-	picture = "Hanno_Pevkur.dds"
+	picture = "Hanno_Pevkuri.dds"
 	ideology = libertarian
 }
 
