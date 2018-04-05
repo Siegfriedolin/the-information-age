@@ -13,6 +13,14 @@ equipments = {
 		#Misc Abilities
 		reliability = 0.8
 
+
+		upgrades = {
+			AA_reliability_upgrade
+			AA_AA_upgrade
+			AA_HA_upgrade
+			AA_defence_upgrade	
+		}
+
 		#Defensive Abilities
 		defense = 4
 		breakthrough = 1
