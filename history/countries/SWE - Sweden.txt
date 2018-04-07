@@ -1,6 +1,6 @@
 ﻿capital = 141	
 
-oob = "SWE_2000"
+oob = "SWE_2018"
 
 set_research_slots = 4
 set_convoys = 140
@@ -98,49 +98,52 @@ add_ideas = {
 	neutrality_idea
 }
 
-#Date is inaccurate, the country flag is the most important part
 1998.1.1 = {
 	set_country_flag = european_union_member_state
 }
 
 set_politics = {
 
-	parties = {
-		reactionary = {
-			popularity = 2
+		parties = {
+			nationalist = {
+				popularity = 1
+			}
+			reactionary = {
+				popularity = 14
+			}
+			conservative = {
+				popularity = 6
+			}
+			market_liberal = {
+				popularity = 24
+			}
+			social_liberal = {
+				popularity = 6
+			}
+			social_democrat = {
+				popularity = 32
+			}
+			progressive = {
+				popularity = 8
+			}
+			democratic_socialist = {
+				popularity = 7
+			}
+			communist = {
+				popularity = 2
+			}
 		}
-		conservative = {
-			popularity = 12
-		}
-		market_liberal = {
-			popularity = 23
-		}
-		social_liberal = {
-			popularity = 9
-		}
-		social_democrat = {
-			popularity = 37
-		}
-		progressive = {
-			popularity = 4
-		}
-		democratic_socialist = {
-			popularity = 12
-		}
-		communist = {
-			popularity = 1
-		}
-	}
 	
-	ruling_party = social_democrat
-	last_election = "1998.9.20"
-	election_frequency = 48
-	elections_allowed = yes
+		ruling_party = social_democrat
+		last_election = "2014.9.14"
+		election_frequency = 48
+		elections_allowed = yes
+	}
 }
 
 create_country_leader = {
-	name = "Göran Persson"
-	picture = "Goran_Persson.dds"
+	name = "Stefan Löfven"
+	picture = "Stefan_Lofven.dds"
 	ideology = social_democrat_ideology
 }
 
@@ -154,14 +157,14 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Daniel Höglund"
-	picture = "Daniel_Hoglund.dds"
+	name = "Simon Lindberg"
+	picture = "Simon_Lindberg.dds"
 	ideology = national_socialist
 }
 
 create_country_leader = {
-	name = "Mikael Jansson"
-	picture = "Mikael_Jansson.dds"
+	name = "Jimmie Åkesson"
+	picture = "Jimmie_Akesson.dds"
 	ideology = counter_progressive_democrat
 }
 
@@ -172,32 +175,38 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Alf Svensson"
-	picture = "Alf_Svensson.dds"
+	name = "Ebba Busch Thor"
+	picture = "Ebba_Busch_Thor.dds"
 	ideology = christian_democrat
 }
 
 create_country_leader = {
-	name = "Bo Lundgren"
-	picture = "Bo_Lundgren.dds"
+	name = "Annie Lööf"
+	picture = "Annie_Loof.dds"
+	ideology = centrist
+}
+		
+create_country_leader = {
+	name = "Ulf Kristersson"
+	picture = "Ulf_Kristersson.dds"
 	ideology = libertarian
 }
 
 create_country_leader = {
-	name = "Lars Leijonborg"
-	picture = "Lars_Leijonborg.dds"
+	name = "Jan Björklund"
+	picture = "Jan_Bjorklund.dds"
 	ideology = liberalist
 }
 
 create_country_leader = {
-	name = "Lotta Hedström"
-	picture = "Lotta_Hedstrom.dds"
+	name = "Lövin and Fridolin"
+	picture = "Isabella_and_Gustav.dds"
 	ideology = green
 }
 
 create_country_leader = {
-	name = "Gudrun Schyman"
-	picture = "Gudrun_Schyman.dds"
+	name = "Jonas Sjöstedt"
+	picture = "Jonas_Sjostedt.dds"
 	ideology = democratic_socialist_ideology
 }
 
@@ -505,170 +514,4 @@ create_navy_leader = {
 	picture = "Portrait_Anders_Olovsson.dds"
 	traits = { blockade_runner }
 	skill = 1
-}
-
-2002.1.1 = {
-	create_country_leader = {
-		name = "Maria Wetterstrand and Peter Eriksson"
-		picture = "Maria_och_Peter.dds"
-		ideology = green
-	}
-}
-
-
-2003.1.1 = {
-	create_country_leader = {
-		name = "Ulla Hoffmann"
-		picture = "Ulla_Hoffman.dds"
-		ideology = democratic_socialist_ideology
-	}
-	
-	create_country_leader = {
-		name = "Fredrik Reinfeldt"
-		picture = "Fredrik_Reinfeldt.dds"
-		ideology = libertarian
-	}
-}
-
-2004.1.1 = {
-	create_country_leader = {
-		name = "Lars Ohly"
-		picture = "Lars_Ohly.dds"
-		ideology = democratic_socialist_ideology
-	}
-	
-	create_country_leader = {
-		name = "Göran Hägglund"
-		picture = "Goran_Hagglund.dds"
-		ideology = christian_democrat
-	}
-}
-
-2005.1.1 = {
-	create_country_leader = {
-		name = "Jimmie Åkesson"
-		picture = "Jimmie_Akesson.dds"
-		ideology = counter_progressive_democrat
-	}
-}
-
-2005.11.1 = {
-	set_party_name = {
-		ideology = social_liberal
-		long_name = "Liberalerna"
-		name = "L"
-	}
-}
-
-2007.1.11 = {
-	set_party_name = {
-		ideology = fascist
-		long_name = SWE_fascist_party_SvP_long
-		name = SWE_fascist_party_SvP
-	}
-	
-	create_country_leader = {
-		name = "Jan Björklund"
-		picture = "Jan_Bjorklund.dds"
-		ideology = liberalist
-	}	
-	
-	create_country_leader = {
-		name = "Mona Sahlin"
-		picture = "Mona_Sahlin.dds"
-		ideology = social_democrat_ideology
-	}	
-}
-
-2011.1.1 = {
-	create_country_leader = {
-		name = "Annie Lööf"
-		picture = "Annie_Loof.dds"
-		ideology = centrist
-	}
-	
-	create_country_leader = {
-		name = "Åsa Romson and Gustav Fridolin"
-		picture = "Asa_and_Gustav.dds"
-		ideology = green
-	}
-	
-	create_country_leader = {
-		name = "Håkan Juholt"
-		picture = "Hakan_Juholt.dds"
-		ideology = social_democrat_ideology
-	}	
-}
-	
-2012.1.1 = {
-	create_country_leader = {
-		name = "Jonas Sjöstedt"
-		picture = "Jonas_Sjostedt.dds"
-		ideology = democratic_socialist_ideology
-	}
-	
-	create_country_leader = {
-		name = "Stefan Löfven"
-		picture = "Stefan_Lofven.dds"
-		ideology = social_democrat_ideology
-	}
-}
-	
-2015.1.1 = {
-	create_country_leader = {
-		name = "Ebba Busch Thor"
-		picture = "Ebba_Busch_Thor.dds"
-		ideology = christian_democrat
-	}
-	
-	create_country_leader = {
-		name = "Anna Kinberg Batra"
-		picture = "Anna_Kinberg_Batra.dds"
-		ideology = libertarian
-	}
-}
-
-2016.1.1 = {
-	create_country_leader = {
-		name = "Lövin and Fridolin"
-		picture = "Isabella_and_Gustav.dds"
-		ideology = green
-	}
-	set_politics = {
-
-		parties = {
-			nationalist = {
-				popularity = 1
-			}
-			reactionary = {
-				popularity = 14
-			}
-			conservative = {
-				popularity = 6
-			}
-			market_liberal = {
-				popularity = 24
-			}
-			social_liberal = {
-				popularity = 6
-			}
-			social_democrat = {
-				popularity = 32
-			}
-			progressive = {
-				popularity = 8
-			}
-			democratic_socialist = {
-				popularity = 7
-			}
-			communist = {
-				popularity = 2
-			}
-		}
-	
-		ruling_party = social_democrat
-		last_election = "2014.9.14"
-		election_frequency = 48
-		elections_allowed = yes
-	}
 }
