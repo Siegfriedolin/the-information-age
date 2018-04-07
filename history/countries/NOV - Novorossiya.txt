@@ -92,6 +92,7 @@ add_ideas = {
 	closed_economy
 	war_economy
 	service_by_requirement
+	minsk_ceasefire
 }
 
 set_politics = {

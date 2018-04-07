@@ -1100,4 +1100,9 @@ spriteTypes = {
 		name = "GFX_idea_syrian_civil_defense"
 		texturefile = "gfx/interface/ideas/syriancivilwar/syrian_civil_defense.dds"
 	}
+	
+	spriteType = {
+		name = "GFX_idea_minsk_ceasefire"
+		texturefile = "gfx/interface/ideas/UKR/minsk_ceasefire.dds"
+	}
 }
