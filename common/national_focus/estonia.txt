@@ -99,35 +99,3 @@ focus_tree = {
 			factor = 10
 		}
 	}
-	
-	focus = {
-		id = EST_increase_trade_with_EU
-		icon = trade_with_europe
-		
-		x = 1
-		y = 2
-		
-		cost = 10
-
-		cancel_if_invalid = no
-		continue_if_invalid = yes
-		available_if_capitulated = yes
-		
-		prerequisite = {
-			focus = EST_friend_ship
-		}
-		
-		completion_reward = {
-            add_political_power = 20
-                840 = {
-				add_building_construction = {
-					type = infrastructure
-					level = 1
-					instant_build = yes
-				
-		{
-		ai_will_do = {
-			factor = 10
-		}
-	}
-	
