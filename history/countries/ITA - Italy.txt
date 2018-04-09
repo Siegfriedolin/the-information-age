@@ -802,8 +802,8 @@ create_navy_leader = {
 
 2014.1.1 = {
 	create_country_leader = {
-		name = "Matteo Renzi"
-		picture = "Matteo_Renzi.dds"
+		name = "Paolo Gentinoli"
+		picture = "Paolo-Gentinoli.dds"
 		ideology = social_democrat_ideology
 	}
 }

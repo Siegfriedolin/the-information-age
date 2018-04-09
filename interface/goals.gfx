@@ -2730,5 +2730,25 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/north_korea/conflict.dds"			
 	}
 	
+	SpriteType = {
+		name = "deposekim"
+		texturefile = "gfx/interface/goals/north_korea/deposekimjong.dds"			
+	}
+	
+	SpriteType = {
+		name = "china_military"
+		texturefile = "gfx/interface/goals/north_korea/china_military_agreement.dds"			
+	}
+	
+	SpriteType = {
+		name = "PRK_Army"
+		texturefile = "gfx/interface/goals/north_korea/PRK_Army.dds"			
+	}
+	
+	SpriteType = {
+		name = "russian_military_deals"
+		texturefile = "gfx/interface/goals/russia/russian_military_deals.dds"		
+	}
+	
 	#those without a category
 }
