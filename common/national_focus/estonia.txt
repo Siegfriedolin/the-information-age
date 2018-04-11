@@ -5,12 +5,12 @@ focus_tree = {
 		factor = 0
 		
 		modifier = {
-			add = 10
+			add = 20
 			tag = EST
 		}
 		
 		modifier = {
-			add = 10
+			add = 20
 			original_tag = EST
 		}
 	}
@@ -21,7 +21,7 @@ focus_tree = {
 	    id = EST_baltic_unity
 		icon = national_unity
 		
-		x = 6
+		x = 11
 		y = 0
 		
 		cost = 10
@@ -41,104 +41,8 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = EST_friend_ship
-		icon = align_to_baltic_states
-		
-		x = 2
-		y = 1
-		
-		cost = 10
-
-		cancel_if_invalid = no
-		continue_if_invalid = yes
-		available_if_capitulated = yes
-		
-		prerequisite = {
-			focus = EST_baltic_unity
-		}
-		
-		mutually_exclusive = {
-		    focus = EST_our_own
-			focus = EST_russian_side
-			focus = EST_socialism
-		}
-		
-		completion_reward = {
-            add_political_power = 100
-		}
-		
-		ai_will_do = {
-			factor = 10
-		}
-	}
-	
-	focus = {
-		id = EST_our_own
-		icon = industry_democratic
-		
-		x = 5
-		y = 1
-		
-		cost = 10
-
-		cancel_if_invalid = no
-		continue_if_invalid = yes
-		available_if_capitulated = yes
-		
-		prerequisite = {
-			focus = EST_baltic_unity
-		}
-		
-		mutually_exclusive = {
-		    focus = EST_friend_ship
-			focus = EST_russian_side
-			focus = EST_socialism
-		}
-		
-		completion_reward = {
-            add_political_power = 100
-		}
-		
-		ai_will_do = {
-			factor = 10
-		}
-	}
-	
-		focus = {
-		id = EST_socialism
+		id = EST_socialist_unity
 		icon = industry_democratic3
-		
-		x = 8
-		y = 1
-		
-		cost = 10
-
-		cancel_if_invalid = no
-		continue_if_invalid = yes
-		available_if_capitulated = yes
-		
-		prerequisite = {
-			focus = EST_baltic_unity
-		}
-		
-		mutually_exclusive = {
-		    focus = EST_our_own
-			focus = EST_russian_side
-			focus = EST_friend_ship
-		}
-		
-		completion_reward = {
-            add_political_power = 100
-		}
-		
-		ai_will_do = {
-			factor = 10
-		}
-	}
-	
-		focus = {
-		id = EST_russian_side
-		icon = align_to_russia
 		
 		x = 11
 		y = 1
@@ -154,13 +58,167 @@ focus_tree = {
 		}
 		
 		mutually_exclusive = {
-		    focus = EST_socialism
-			focus = EST_our_own
-			focus = EST_friend_ship
+		    focus = EST_reactionarian
+			focus = EST_same_order
 		}
 		
 		completion_reward = {
             add_political_power = 100
+			increase_democratic_socialist_influence_by_1 = yes
+			increase_social_liberal_influence_by_1 = yes
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	
+	focus = {
+		id = EST_reactionarian
+		icon = intelligence_exchange
+		
+		x = 18
+		y = 1
+		
+		cost = 10
+
+		cancel_if_invalid = no
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		
+		prerequisite = {
+			focus = EST_baltic_unity
+		}
+		
+		mutually_exclusive = {
+		    focus = EST_socialist_unity
+			focus = EST_same_order
+		}
+		
+		completion_reward = {
+            add_political_power = 100
+			increase_reactionary_influence_by_1 = yes
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	
+	focus = {
+		id = EST_russian_side
+		icon = align_to_russia
+		
+		x = 18
+		y = 3
+		
+		cost = 10
+
+		cancel_if_invalid = no
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		
+		prerequisite = {
+			focus = EST_reactionarian
+		}
+		
+		mutually_exclusive = {}
+		
+		completion_reward = {
+            increase_reactionary_influence_by_1 = yes
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	
+	focus = {
+		id = EST_legacy_of_the_SSR
+		icon = communism3	
+		
+		x = 9
+		y = 2
+		
+		cost = 10
+
+		cancel_if_invalid = no
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		
+		prerequisite = {
+			focus = EST_socialist_unity
+		}
+		
+		mutually_exclusive = {}
+		
+		completion_reward = {
+		    add_stability = -0.05
+            increase_communist_influence_by_1 = yes
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	
+	focus = {
+		id = EST_same_order
+		icon = industry_democratic
+		
+		x = 4
+		y = 1
+		
+		cost = 10
+
+		cancel_if_invalid = no
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		
+		prerequisite = {
+			focus = EST_baltic_unity
+		}
+		
+		mutually_exclusive = {
+		    focus = EST_socialist_unity
+			focus = EST_reactionarian
+		}
+		
+		completion_reward = {
+		    add_stability = 0.02
+			add_political_power = 20
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	
+	focus = {
+		id = EST_EU_expand_4E
+		icon = infrastructure
+		
+		x = 2
+		y = 2
+		
+		cost = 10
+
+		cancel_if_invalid = no
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		
+		prerequisite = {
+			focus = EST_same_order
+		}
+		
+		mutually_exclusive = {}
+		
+		completion_reward = {
+			13 = {
+					add_building_construction = {
+						type = infrastructure
+						level = 1
+						instant_build = yes
 		}
 		
 		ai_will_do = {
