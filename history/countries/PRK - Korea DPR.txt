@@ -109,6 +109,11 @@ add_opinion_modifier = {
 	modifier = rival_trade
 }
 
+add_opinion_modifier = {
+    target = USA
+	modifier = recent_tensions_in_asia
+}
+
 set_politics = {
 
 	parties = {

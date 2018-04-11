@@ -203,7 +203,11 @@ add_opinion_modifier = {
 
 add_opinion_modifier = {
 	target = PRC
-	modifier = chinese_american_rivalry
+	modifier = recent_tensions_in_asia
+}
+add_opinion_modifier = {
+	target = PRK
+	modifier = recent_tensions_in_asia
 }
 
 give_military_access = SAU

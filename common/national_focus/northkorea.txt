@@ -1538,6 +1538,410 @@ focus_tree = {
 		}
 	}
 	
+	focus = {
+      id = PRK_Manufacturing_Expansion
+      icon = production
+      x = 40
+      y = 0
+      cost = 10
+	  
+      completion_reward = {
+			add_political_power = 100
+		}
+    }
+	
+	focus = {
+      id = PRK_The_Second_Five_Year_Plan
+      icon = five_year_plan
+      x = 40
+      y = 1
+      cost = 10
+	  prerequisite = { focus = PRK_Manufacturing_Expansion }
+	  
+      completion_reward = {
+			add_political_power = 30
+			add_stability = 0.01
+			add_ideas = civilian_industry_project
+			add_ideas = military_industry_project
+		}
+		ai_will_do = {
+			factor = 35
+		}	
+    }
+	
+	focus = {
+      id = PRK_Expand_the_Automotive_Industry
+      icon = industry_communist
+      x = 40
+      y = 2
+      cost = 10
+	  prerequisite = { focus = PRK_The_Second_Five_Year_Plan }
+	  
+      completion_reward = {
+		527 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 3
+					instant_build = yes
+    }	
+		}
+    }
+	ai_will_do = {
+			factor = 35
+		}	
+	}
+	focus = {
+      id = PRK_Develop_Gangwon
+      icon = industry_civilian
+      x = 40
+      y = 3
+      cost = 10
+	  prerequisite = { focus = PRK_Expand_the_Automotive_Industry }
+	  
+      completion_reward = {
+		872 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 3
+					instant_build = yes
+    }	
+		}
+    }
+	ai_will_do = {
+			factor = 35
+		}	
+	}
+	
+	focus = {
+      id = PRK_Develop_Hamgyung
+      icon = industry_civilian2
+      x = 40
+      y = 4
+      cost = 10
+	  prerequisite = { focus = PRK_Develop_Gangwon }
+	  
+      completion_reward = {
+		873 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 3
+					instant_build = yes
+    }	
+		}
+	874 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 3
+					instant_build = yes
+    }	
+		}	
+    }
+	ai_will_do = {
+			factor = 35
+		}	
+	}
+	
+	focus = {
+      id = PRK_Develop_Jagang
+      icon = infrastructure
+      x = 40
+      y = 5
+      cost = 10
+	  prerequisite = { focus = PRK_Develop_Hamgyung }
+	  
+      completion_reward = {
+		875 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 3
+					instant_build = yes
+    }	
+		}
+    }
+	ai_will_do = {
+			factor = 35
+		}	
+	}
+	
+	focus = {
+      id = PRK_Technological_Expansion
+      icon = communist_research
+      x = 42
+      y = 2
+      cost = 10
+	  prerequisite = { focus = PRK_The_Second_Five_Year_Plan }
+	  
+      completion_reward = {
+	  add_ideas = scientific_advances
+    }
+	ai_will_do = {
+			factor = 35
+		}	
+	}
+	
+	focus = {
+      id = PRK_Fund_State_Academy
+      icon = money
+      x = 42
+      y = 3
+      cost = 10
+	  prerequisite = { focus = PRK_Technological_Expansion }
+	  
+      completion_reward = {
+	  add_ideas = scientific_advances2
+	  add_political_power = 30
+    }
+	ai_will_do = {
+			factor = 35
+		}	
+	}
+
+	focus = {
+      id = PRK_Scientific_Trade_China
+      icon = scientific_exchange
+      x = 42
+      y = 4
+      cost = 10
+	  prerequisite = { focus = PRK_Fund_State_Academy }
+	  
+      completion_reward = {
+	  PRC = { add_opinion_modifier = { target = PRK modifier = recent_actions_positive } }
+	  add_ideas = scientific_advances3
+	  add_ideas = encryption_bonus
+    }
+	ai_will_do = {
+			factor = 35
+		}	
+	}
+	
+	focus = {
+      id = PRK_Scientific_Innovations
+      icon = tech_sharing
+      x = 42
+      y = 5
+      cost = 10
+	  prerequisite = { focus = PRK_Scientific_Trade_China }
+	  
+      completion_reward = {
+	  add_ideas = scientific_advances4
+	  add_research_slot = 1
+    }
+	ai_will_do = {
+			factor = 35
+		}	
+	}
+	
+	focus = {
+      id = PRK_Expand_the_Defense_Industry
+      icon = production2
+      x = 38
+      y = 2
+      cost = 10
+	  prerequisite = { focus = PRK_The_Second_Five_Year_Plan }
+	  
+      completion_reward = {
+		add_ideas = military_production_bonus3
+    }
+	ai_will_do = {
+			factor = 35
+		}	
+	}
+	
+	focus = {
+      id = PRK_Militarize_Pyongyang
+      icon = industry_military
+      x = 38
+      y = 3
+      cost = 10
+	  prerequisite = { focus = PRK_Expand_the_Defense_Industry }
+	  
+      completion_reward = {
+		527 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 3
+					instant_build = yes
+		}
+    }
+    }
+	ai_will_do = {
+			factor = 35
+		}	
+	}
+	
+	focus = {
+      id = PRK_Militarize_Gangwon
+      icon = military_fort
+      x = 38
+      y = 4
+      cost = 10
+	  prerequisite = { focus = PRK_Militarize_Pyongyang }
+	  
+      completion_reward = {
+		872 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 3
+					instant_build = yes
+		}
+    }
+    }
+	ai_will_do = {
+			factor = 35
+		}	
+	}
+	
+	focus = {
+      id = PRK_Militarize_Gangwon
+      icon = military_fort
+      x = 38
+      y = 4
+      cost = 10
+	  prerequisite = { focus = PRK_Militarize_Pyongyang }
+	  
+      completion_reward = {
+		872 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 3
+					instant_build = yes
+		}
+    }
+    }
+	ai_will_do = {
+			factor = 35
+		}	
+	}
+	
+	focus = {
+      id = PRK_Specialize_the_Defense_Industry
+      icon = construction
+      x = 38
+      y = 5
+      cost = 10
+	  prerequisite = { focus = PRK_Militarize_Gangwon }
+	  
+      completion_reward = {
+		add_war_support = 0.01
+		add_stability = 0.01
+		add_ideas = military_industry_project5
+		}
+	ai_will_do = {
+			factor = 35
+		}	
+	}
+	
+	focus = {
+      id = PRK_Finishing_the_Plan
+      icon = construction3
+      x = 40
+      y = 6
+      cost = 10
+	  prerequisite = { focus = PRK_Specialize_the_Defense_Industry }
+	  prerequisite = { focus = PRK_Develop_Jagang } 
+	  prerequisite = { focus = PRK_Scientific_Innovations }
+	  
+      completion_reward = {
+		add_stability = 0.01
+		add_political_power = 50
+		}
+	ai_will_do = {
+			factor = 35
+		}	
+	}
+	
+	focus = {
+      id = PRK_Explore_the_Resources
+      icon = construction2
+      x = 40
+      y = 7
+      cost = 10
+	  prerequisite = { focus = PRK_Finishing_the_Plan }
+	  
+      completion_reward = {
+	  add_political_power = 50
+		}
+	ai_will_do = {
+			factor = 35
+		}	
+	}
+	
+	focus = {
+      id = PRK_Jagang_Synthetic_Oil
+      icon = oil_production
+      x = 38
+      y = 8
+      cost = 10
+	  prerequisite = { focus = PRK_Explore_the_Resources }
+	  
+      completion_reward = {
+	  add_resource = { type = oil amount = 12 state = 875 }
+		}
+	ai_will_do = {
+			factor = 35
+		}	
+	}
+	
+	focus = {
+      id = PRK_Pyongyang_Steel_Mining
+      icon = intelligence_exchange
+      x = 42
+      y = 8
+      cost = 10
+	  prerequisite = { focus = PRK_Explore_the_Resources }
+	  
+      completion_reward = {
+	  add_resource = { type = steel amount = 40 state = 527 }
+		}
+	ai_will_do = {
+			factor = 35
+		}	
+	}
+	
+	focus = {
+      id = PRK_Gangwon_Tungsten_Mining
+      icon = intelligence_exchange2
+      x = 40
+      y = 8
+      cost = 10
+	  prerequisite = { focus = PRK_Explore_the_Resources }
+	  
+      completion_reward = {
+	  add_resource = { type = tungsten amount = 20 state = 872 }
+		}
+	ai_will_do = {
+			factor = 35
+		}	
+	}
+	
+	focus = {
+      id = PRK_Economy_Recovered
+      icon = self_management
+      x = 40
+      y = 9
+      cost = 10
+	  prerequisite = { focus = PRK_Gangwon_Tungsten_Mining }
+	  prerequisite = { focus = PRK_Pyongyang_Steel_Mining }
+	  prerequisite = { focus = PRK_Jagang_Synthetic_Oil }
+	  
+      completion_reward = {
+	  add_stability = 0.2
+	  add_political_power = 500
+		}
+	ai_will_do = {
+			factor = 35
+		}	
+	}
+	
+	
 	
 	}
 	

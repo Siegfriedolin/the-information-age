@@ -76,4 +76,10 @@ opinion_modifiers = {
 		trade = yes
 	}
 	
+	recent_tensions_in_asia = {
+		value = -80
+		decay = 1
+	}
+	
+	
 }

@@ -146,6 +146,11 @@ add_opinion_modifier = {
 	modifier = chinese_american_rivalry
 }
 
+add_opinion_modifier = {
+	target = USA
+	modifier = recent_tensions_in_asia
+}
+
 set_politics = {
 	parties = {
 		fascist = { popularity = 0.2 }
