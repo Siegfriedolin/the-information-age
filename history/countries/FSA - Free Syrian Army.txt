@@ -141,3 +141,9 @@ create_country_leader = {
 	ideology = right_wing_conservative
 	picture = "Riad_Seif.dds"
 }
+
+create_field_marshal = {
+	name = "Bashar al-Zoubi"
+	picture = "Bashar al-Zoubi.dds"
+	skill = 3
+}
