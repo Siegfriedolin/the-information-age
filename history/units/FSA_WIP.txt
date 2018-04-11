@@ -1,0 +1,52 @@
+﻿division_template = {
+	name = "Militia Brigade"
+	
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+	}
+	support = {
+	
+	}
+	
+	priority = 0
+}
+
+units = {
+	division = {
+		name = "Jaysh al-Islam"
+		location = 13281
+		division_template = "Militia Brigade"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "Jaysh al-Thawra"
+		location = 1074
+		division_template = "Militia Brigade"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "Faylaq al-Rahman"
+		location = 13281
+		division_template = "Militia Brigade"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Alliance of Southern Forces"
+		location = 13293
+		division_template = "Militia Brigade"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Sultan Murad Division"
+		location = 13264
+		division_template = "Militia Brigade"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Faylaq al-Sham"
+		location = 13263
+		division_template = "Militia Brigade"
+		start_experience_factor = 0.2
+	}
+}
