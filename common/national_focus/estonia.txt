@@ -21,7 +21,7 @@ focus_tree = {
 	    id = EST_baltic_unity
 		icon = national_unity
 		
-		x = 5
+		x = 6
 		y = 0
 		
 		cost = 10
@@ -41,40 +41,10 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = EST_our_own
-		icon = industry_democratic
-		
-		x = 7
-		y = 1
-		
-		cost = 10
-
-		cancel_if_invalid = no
-		continue_if_invalid = yes
-		available_if_capitulated = yes
-		
-		prerequisite = {
-			focus = EST_baltic_unity
-		}
-		
-		mutually_exclusive = {
-		    focus = EST_friend_ship
-		}
-		
-		completion_reward = {
-            add_political_power = 100
-		}
-		
-		ai_will_do = {
-			factor = 10
-		}
-	}
-	
-	focus = {
 		id = EST_friend_ship
 		icon = align_to_baltic_states
 		
-		x = 3
+		x = 2
 		y = 1
 		
 		cost = 10
@@ -89,6 +59,104 @@ focus_tree = {
 		
 		mutually_exclusive = {
 		    focus = EST_our_own
+			focus = EST_russian_side
+			focus = EST_socialism
+		}
+		
+		completion_reward = {
+            add_political_power = 100
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	
+	focus = {
+		id = EST_our_own
+		icon = industry_democratic
+		
+		x = 5
+		y = 1
+		
+		cost = 10
+
+		cancel_if_invalid = no
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		
+		prerequisite = {
+			focus = EST_baltic_unity
+		}
+		
+		mutually_exclusive = {
+		    focus = EST_friend_ship
+			focus = EST_russian_side
+			focus = EST_socialism
+		}
+		
+		completion_reward = {
+            add_political_power = 100
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	
+		focus = {
+		id = EST_socialism
+		icon = industry_democratic3
+		
+		x = 8
+		y = 1
+		
+		cost = 10
+
+		cancel_if_invalid = no
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		
+		prerequisite = {
+			focus = EST_baltic_unity
+		}
+		
+		mutually_exclusive = {
+		    focus = EST_our_own
+			focus = EST_russian_side
+			focus = EST_friend_ship
+		}
+		
+		completion_reward = {
+            add_political_power = 100
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	
+		focus = {
+		id = EST_russian_side
+		icon = align_to_russia
+		
+		x = 11
+		y = 1
+		
+		cost = 10
+
+		cancel_if_invalid = no
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		
+		prerequisite = {
+			focus = EST_baltic_unity
+		}
+		
+		mutually_exclusive = {
+		    focus = EST_socialism
+			focus = EST_our_own
+			focus = EST_friend_ship
 		}
 		
 		completion_reward = {
