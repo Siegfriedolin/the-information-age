@@ -149,22 +149,17 @@ create_country_leader = {
 		ideology = social_democrat_ideology
 	}
 
-create_country_leader = {
-	name = "Juha Sipilä"
-	picture = "Juha_Sipila.dds"
-	ideology = liberalist
-}
 
 create_country_leader = {
-	name = "Esa Henrik Holappa"
+	name = "Otto Rutanen"
 	picture = "Esa_Henrik_Holappa.dds"
 	ideology = fascist_ideology
 }
 
 create_country_leader = {
-	name = "Olavi Maenpaa"
-	picture = "Olavi_Maenpaa.dds"
-	ideology = proto_fascist
+	name = "Marco de Wit"
+	picture = "Marco_Wit.dds"
+	ideology = national_democrat
 }
 
 create_country_leader = {
@@ -180,8 +175,8 @@ create_country_leader = {
 	}
 
 create_country_leader = {
-	name = "Sauli Niinisto"
-	picture = "Sauli_Niinisto.dds"
+	name = "Petteri Orpo"
+	picture = "Petteri_Orpo.dds"
 	ideology = libertarian
 }
 
@@ -192,7 +187,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Satu Hassi"
+	name = "Touko Aalto"
 	picture = "Satu_Hassi.dds"
 	ideology = green
 }
@@ -204,23 +199,9 @@ create_country_leader = {
 	}
 
 create_country_leader = {
-	name = "Hannu Harju"
+	name = "Juha-Pekka Väisänen"
 	picture = "Hannu_Harju.dds"
 	ideology = leninist
 }
 
-
-
-	create_country_leader = {
-		name = "Alexander Stubb"
-		picture = "Alexander_Stubb.dds"
-		ideology = libertarian
-	}
-		
-		
-	create_country_leader = {
-		name = "Ville Niinisto"
-		picture = "Ville_Niinisto.dds"
-		ideology = progressive_ideology
-	}
 		
