@@ -138,7 +138,6 @@ set_politics = {
 		last_election = "2014.9.14"
 		election_frequency = 48
 		elections_allowed = yes
-	}
 }
 
 create_country_leader = {
