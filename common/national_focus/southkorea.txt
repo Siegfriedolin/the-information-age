@@ -288,6 +288,7 @@ focus_tree = {
 		}
 		
 		mutually_exclusive = { focus = KOR_Path_of_Peace }
+		mutually_exclusive = { focus = KOR_Defensive_Policies }
 		
 		completion_reward = {
 			add_war_support = 0.04
