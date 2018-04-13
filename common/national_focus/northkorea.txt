@@ -986,9 +986,9 @@ focus_tree = {
 		
 		completion_reward = {
 	    create_faction = "United Workers of Asia"
-		add_to_faction = LAO
-		add_to_faction = VIN
-		add_to_faction = PRC
+		LAO = { country_event = north_korea.9 }
+		PRC = { country_event = north_korea.9 }
+		VIN = { country_event = north_korea.9 }
 		}
 		ai_will_do = {
 			factor = 35

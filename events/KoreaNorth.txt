@@ -194,3 +194,34 @@ country_event = {
 		
     }
 	}
+	
+country_event = {
+	id = north_korea.9
+	title = north_korea.9.t
+	desc = north_korea.9.d
+	picture = GFX_news_event_north_korea
+	
+	is_triggered_only = yes
+	
+	option = {	#Sure.
+		name = north_korea.9.o1
+		
+		PRK = { add_to_faction = ROOT }
+		set_country_flag = seeks_german_alliance
+		PRK = { country_event = diplomatic_response.1 }
+		
+		ai_chance = {
+			factor = 70
+		}
+	}
+	
+	option = {
+		name = north_korea.9.o2
+		
+		PRK = { country_event = diplomatic_response.2 }
+		
+		ai_chance = {
+			factor = 10
+		}
+	}
+}	

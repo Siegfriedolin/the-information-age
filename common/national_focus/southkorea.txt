@@ -817,8 +817,8 @@ focus_tree = {
 		
 		completion_reward = {
 		create_faction = "Asian Mutual Defense Pact"
-		add_to_faction = JAP
-		add_to_faction = CHI
+		JAP = { country_event = south_korea.3 }
+		CHI = { country_event = south_korea.3 }
 		}
 	    
 		ai_will_do = {
@@ -900,8 +900,8 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-		add_to_faction = PHI
-		add_to_faction = RAJ
+		"PHI" = { country_event = south_korea.3 }
+		RAJ = { country_event = south_korea.3 }
 		}
 	    
 		ai_will_do = {

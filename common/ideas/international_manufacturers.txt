@@ -174,6 +174,26 @@ ideas = {
 			
 			traits = { fast_tank_manufacturer }
 		}
+       	#KOR
+		hyundai = {
+			picture = GFX_idea_hyundai
+			available = {
+				OR = {
+					tag = KOR
+					KOR = { has_opinion = { target = ROOT value > 24 } }
+				}
+			}
+			
+			cost = 150
+			removal_cost = 10
+			
+			research_bonus = {
+				armor = 0.1
+			}
+			
+			traits = { tank_manufacturer }
+		}	
+	
 	}
 	
 	naval_manufacturer = {
@@ -514,6 +534,26 @@ ideas = {
 				OR = {
 					tag = USA
 					USA = { has_opinion = { target = ROOT value > 24 } }
+				}
+			}
+			
+			cost = 150
+			removal_cost = 10
+			
+			research_bonus = {
+				air_equipment = 0.15
+			}
+			
+			traits = { medium_aircraft_manufacturer }
+		}
+		
+		#KOR
+		kai = {
+		picture = GFX_idea_kai
+			available = {
+				OR = {
+					tag = KOR
+					KOR = { has_opinion = { target = ROOT value > 24 } }
 				}
 			}
 			

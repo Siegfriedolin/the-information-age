@@ -46,6 +46,37 @@ country_event = {	#Suggest Union
 		factor = 50 }
 		}
 	}
+	
+country_event = {
+	id = south_korea.3
+	title = south_korea.3.t
+	desc = south_korea.3.d
+	picture = GFX_news_event_south_korea
+	
+	is_triggered_only = yes
+	
+	option = {	#Sure.
+		name = south_korea.3.o1
+		
+		KOR = { add_to_faction = ROOT }
+		set_country_flag = seeks_german_alliance
+		KOR = { country_event = diplomatic_response.1 }
+		
+		ai_chance = {
+			factor = 70
+		}
+	}
+	
+	option = {
+		name = south_korea.3.o2
+		
+		KOR = { country_event = diplomatic_response.2 }
+		
+		ai_chance = {
+			factor = 10
+		}
+	}
+}
 news_event = {
 	id = south_korea_news.1
 	title = south_korea_news.1.t

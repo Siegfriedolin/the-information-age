@@ -309,6 +309,29 @@ spriteTypes = {
 		name = "GFX_idea_mercedes_benz"
 		texturefile = "gfx/interface/ideas/companies/materiel/mercedes_benz.dds"
 	}
+	spriteType = {
+	 name = "GFX_idea_samsung"
+	 texturefile = "gfx/interface/ideas/companies/industrial/samsung.dds"
+	 }
+	 
+	 spriteType = {
+	 name = "GFX_idea_skgroup"
+	 texturefile = "gfx/interface/ideas/companies/industrial/skgroup.dds"
+	 }
+	 
+	spriteType = {
+	 name = "GFX_idea_LG"
+	 texturefile = "gfx/interface/ideas/companies/industrial/lg.dds"
+	 }
+	 
+	 spriteType = {
+	 name = "GFX_idea_hyundai"
+	 texturefile = "gfx/interface/ideas/companies/tank/hyundai.dds"
+	 }
+	 
+	 spriteType = { 
+	 name = "GFX_idea_kai"
+	 texturefile = "gfx/interface/ideas/companies/aircraft/kai.dds"
 	
 	#TUR
 	spriteType = {
