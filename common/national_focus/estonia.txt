@@ -42,7 +42,7 @@ focus_tree = {
 	
 	focus = {
 		id = EST_socialist_unity
-		icon = industry_democratic3
+		icon = industry_democratic4
 		
 		x = 11
 		y = 1
@@ -58,7 +58,7 @@ focus_tree = {
 		}
 		
 		mutually_exclusive = {
-		    focus = EST_reactionarian
+		    focus = EST_nationalist_pride
 			focus = EST_same_order
 		}
 		
@@ -74,8 +74,8 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = EST_reactionarian
-		icon = intelligence_exchange
+		id = EST_nationalist_pride
+		icon = fascism
 		
 		x = 18
 		y = 1
@@ -98,6 +98,8 @@ focus_tree = {
 		completion_reward = {
             add_political_power = 100
 			increase_reactionary_influence_by_1 = yes
+		    increase_nationalist_influence_by_1 = yes
+			increase_fascist_influence_by_1 = yes
 		}
 		
 		ai_will_do = {
@@ -110,7 +112,7 @@ focus_tree = {
 		icon = align_to_russia
 		
 		x = 18
-		y = 3
+		y = 2
 		
 		cost = 10
 
@@ -119,13 +121,14 @@ focus_tree = {
 		available_if_capitulated = yes
 		
 		prerequisite = {
-			focus = EST_reactionarian
+			focus = EST_nationalist_pride
 		}
 		
 		mutually_exclusive = {}
 		
 		completion_reward = {
             increase_reactionary_influence_by_1 = yes
+			increase_nationalist_influence_by_1 = yes
 		}
 		
 		ai_will_do = {
@@ -135,7 +138,7 @@ focus_tree = {
 	
 	focus = {
 		id = EST_legacy_of_the_SSR
-		icon = communism3
+		icon = communism12
 		
 		x = 9
 		y = 2
@@ -183,7 +186,7 @@ focus_tree = {
 		
 		mutually_exclusive = {
 		    focus = EST_socialist_unity
-			focus = EST_reactionarian
+			focus = EST_nationalist_pride
 		}
 		
 		completion_reward = {
@@ -220,7 +223,7 @@ focus_tree = {
 		completion_reward = {
 		    add_stability = 0.02
 			increase_democratic_socialist_influence_by_1 = yes
-			increase_social_democrat_influence_by_2 = yes
+			increase_social_democrat_influence_by_1 = yes
 		}
 		
 		ai_will_do = {
