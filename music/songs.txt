@@ -134,6 +134,17 @@ music = {
 	}	
 }
 
+music = { 
+song = "Torch of Communist Eradication"
+	chance = {
+		modifier = {
+			factor = 1
+			has_war = yes
+			tag = KOR
+	
+	    }
+	}
+}	
 #DPRK
 music = {
 	song = "Peoples Liberation Army Song"
