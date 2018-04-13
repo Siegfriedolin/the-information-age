@@ -134,7 +134,3 @@ create_field_marshal = {
 	picture = "Rojda_Felat.dds"
 	skill = 3
 }
-
-2018.1.1 = {
-	declare_war_on = { target = ISS type = annex_everything }
-}
