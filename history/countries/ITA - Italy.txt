@@ -803,7 +803,7 @@ create_navy_leader = {
 2014.1.1 = {
 	create_country_leader = {
 		name = "Paolo Gentinoli"
-		picture = "Paolo-Gentinoli.dds"
+		picture = "Paolo-Gentiloni.dds"
 		ideology = social_democrat_ideology
 	}
 }
