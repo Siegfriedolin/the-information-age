@@ -14,3 +14,20 @@ news_event = {
 		name = finland_news.1.o1
 	}
 }
+
+news_event = {
+	id = finland_news.2
+	title = finland_news.2.t
+	desc = finland_news.2.d
+	picture = GFX_news_event_Bouanane
+	
+	trigger = {
+		tag = FIN
+		date > 2018.4.1
+		date < 2018.4.30
+	}
+	
+	option = {
+		name = finland_news.2.o1
+	}
+}

@@ -42,3 +42,39 @@ music = {
 name = "Torch of Communist Eradication"
 file = "torch.ogg"
 } 
+
+music = {
+name = "Wars Of Faith"
+file = "generic/Wars Of Faith.ogg"
+} 
+
+music = {
+name = "The Truth"
+file = "generic/The Truth.ogg"
+}
+
+music = {
+name = "The New Earth"
+file = "generic/The New Earth.ogg"
+}
+
+music = {
+name = "Sons of Liberty"
+file = "generic/Sons of Liberty.ogg"
+}
+
+music = {
+name = "Peace Walker"
+file = "generic/Peace Walker.ogg"
+}
+
+#DPRK
+music = {
+name = "Peoples Liberation Army Song"
+file = "countries/NKR/Peoples Liberation Army Song.ogg"
+}
+
+music = {
+name = "Jugeumeul Mije-Chimnyakjadeurege"
+file = "countries/NKR/Jugeumeul Mije-Chimnyakjadeurege.ogg"
+}
