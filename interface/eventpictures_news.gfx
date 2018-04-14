@@ -814,5 +814,9 @@ spriteTypes = {
 		name = "GFX_news_event_south_korea_remilitarizes"
 		texturefile = "gfx/event_pictures/news_event/southkorea/southkoreanews.dds"
 	}
+	spriteType = {
+		name = "GFX_news_event_syria_gas"
+		texturefile = "gfx/event_pictures/news_event/syria/syria_gas.dds"
+	}
 
 }
