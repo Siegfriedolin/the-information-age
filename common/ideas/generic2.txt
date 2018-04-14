@@ -1201,7 +1201,7 @@ ideas = {
 		}
 	
 		production_efficiency_bonus = {
-			picture = volunteer_defenders2
+			picture = production_bonus
 			
 			allowed = { always = no }
 			available = {}
@@ -1214,7 +1214,7 @@ ideas = {
 			}
 		}
 		production_efficiency_bonus2 = {
-			picture = volunteer_defenders2
+			picture = production_bonus
 			
 			allowed = { always = no }
 			available = {}
@@ -1227,7 +1227,7 @@ ideas = {
 			}
 		}
 		production_efficiency_bonus3 = {
-			picture = volunteer_defenders2
+			picture = production_bonus
 			
 			allowed = { always = no }
 			available = {}
