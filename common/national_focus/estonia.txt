@@ -291,3 +291,67 @@ focus_tree = {
 			factor = 10
 		}
 	}
+
+		focus = {
+		id = EST_spread_marxism
+		icon = propaganda_communist
+		
+		x = 9
+		y = 4
+		
+		cost = 10
+        
+		cancel_if_invalid = no
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		
+		prerequisite = {
+			focus = EST_legacy_of_the_SSR
+		}
+		
+		mutually_exclusive = {}
+		
+		completion_reward = {
+		    add_political_power = -50
+		    add_stability = -0.07
+            increase_communist_influence_by_1 = yes
+			increase_democratic_socialist_influence_by_1 = yes
+			increase_social_democrat_influence_by_1 = yes
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	
+	focus = {
+		id = Change_the_constitution
+		icon = dangerous_laws
+		
+		x = 9
+		y = 5
+		
+		cost = 10
+        
+		cancel_if_invalid = no
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		
+		prerequisite = {
+			focus = EST_spread_marxism
+		}
+		
+		mutually_exclusive = {}
+		
+		completion_reward = {
+		    add_political_power = -70
+		    add_stability = -0.10
+            increase_communist_influence_by_1 = yes
+			increase_social_democrat_influence_by_1 = yes
+			add_ideas = parliamentary_crisis
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+	}
