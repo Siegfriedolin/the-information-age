@@ -101,7 +101,7 @@ add_ideas = {
 	limited_conscription
 	EST_russian_minority
 	EST_communist_party_banned
-	add_ideas = the_euro
+	the_euro
 	idea_eu_member
 }
 
