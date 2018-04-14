@@ -103,6 +103,7 @@ add_ideas = {
 	EST_communist_party_banned
 	the_euro
 	idea_eu_member
+    EST_conscription
 }
 
 set_politics = {
