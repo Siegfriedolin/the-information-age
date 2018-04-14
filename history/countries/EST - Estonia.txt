@@ -1,6 +1,6 @@
 ﻿capital = 13
 
-oob = "EST_2000"
+oob = "EST_2016"
 
 set_research_slots = 4
 set_convoys = 100
@@ -101,6 +101,8 @@ add_ideas = {
 	limited_conscription
 	EST_russian_minority
 	EST_communist_party_banned
+	add_ideas = the_euro
+	idea_eu_member
 }
 
 set_politics = {
@@ -130,10 +132,9 @@ set_politics = {
 		democratic_socialist = {
 			popularity = 8
 		}
-	}
-	
-	ruling_party = conservative
-	last_election = "1999.5.1"
+	}	
+	ruling_party = market_liberal
+	last_election = "2017.10.15"
 	election_frequency = 48
 	elections_allowed = yes
 }
@@ -153,55 +154,5 @@ create_country_leader = {
 create_country_leader = {
 	name = "Jevgeni Ossinovski"
 	picture = "Jevgeni_Ossinovski.dds"
-	ideology = social_democrat
-}
-
-2002.1.1 = {
-	add_ideas = the_euro
-}
-
-2004.1.1 = {
-	add_ideas = {
-		idea_eu_member
-	}
-}
-
-2016.1.1 = {
-
-	oob = "EST_2016"
-
-	set_politics = {
-
-		parties = {
-			nationalist = {
-				popularity = 3
-			}
-			reactionary = {
-				popularity = 7
-			}
-			conservative = {
-				popularity = 35
-			}
-			market_liberal = {
-				popularity = 35
-			}
-			social_liberal = {
-				popularity = 3
-			}
-			social_democrat = {
-				popularity = 7
-			}
-			progressive = {
-				popularity = 2
-			}
-			democratic_socialist = {
-				popularity = 8
-			}
-		}
-		
-		ruling_party = market_liberal
-		last_election = "2014.6.1"
-		election_frequency = 48
-		elections_allowed = yes
-	}
+	ideology = social_democrat_ideology
 }
