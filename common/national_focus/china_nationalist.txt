@@ -1,0 +1,32 @@
+ focus_tree = {
+	
+	id = taiwan_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 20
+			original_tag = CHI
+		}
+	}
+
+	default = no
+
+    focus = {
+		id = CHI_Conflict_in_Asia
+		icon = placeholder
+		x = 10
+		y = 0
+		cost = 10
+
+	
+		completion_reward = {
+			add_political_power = 30
+			add_war_support = 0.01
+		}
+		
+		ai_will_do = {
+			factor = 35
+		}
+	}
