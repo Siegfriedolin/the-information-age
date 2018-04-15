@@ -36,6 +36,20 @@ ideas = {
 				consumer_goods_factor = 0.03
 			}
 		}
+		
+		EST_new_type_of_marxism = {
+			picture = communism5
+			
+			removal_cost = -1
+			
+			modifier = {
+				political_power_gain = 0.20
+				social_democrat_drift = 0.01
+				communist_drift = 0.1
+				consumer_goods_factor = -0.05
+				stability_gain = 0.10
+			}
+		}
 	
 	}
 	

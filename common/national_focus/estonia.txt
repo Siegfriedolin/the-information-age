@@ -324,8 +324,8 @@ focus_tree = {
 		}
 	}
 	
-	focus = {
-		id = Change_the_constitution
+	    focus = {
+		id = EST_change_the_constitution
 		icon = dangerous_laws
 		
 		x = 9
@@ -349,6 +349,143 @@ focus_tree = {
             increase_communist_influence_by_1 = yes
 			increase_social_democrat_influence_by_1 = yes
 			add_ideas = parliamentary_crisis
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	
+		focus = {
+		id = EST_leave_the_EU
+		icon = align_to_europe
+		
+		x = 10
+		y = 6
+		
+		cost = 10
+        
+		cancel_if_invalid = no
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		
+		prerequisite = {
+			focus = EST_change_the_constitution
+		}
+		
+		mutually_exclusive = {}
+		
+		completion_reward = {
+		    EU_membership_termination = yes
+			news_event = news.4
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	
+	    focus = {
+		id = EST_communist_coup
+		icon = demand_territory2
+		
+		x = 9
+		y = 7
+		
+		cost = 10
+        
+		cancel_if_invalid = no
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		
+		prerequisite = {
+			focus = EST_change_the_constitution
+		}
+		
+		mutually_exclusive = {}
+		
+		available = {
+			NOT = { has_idea = idea_eu_member }
+		}
+		
+		completion_reward = {
+		    add_popularity = {
+				ideology = communist
+				popularity = 0.10
+			}
+			set_politics = {
+				ruling_party = communist
+				elections_allowed = no
+			}
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	
+	    focus = {
+		id = EST_favor_a_worker_society
+		icon = national_greatness
+		
+		x = 9
+		y = 8
+		
+		cost = 10
+        
+		cancel_if_invalid = no
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		
+		prerequisite = {
+			focus = EST_communist_coup
+		}
+		
+		mutually_exclusive = {
+		focus = EST_communist_dictatorship
+		}
+		
+		completion_reward = {
+		    add_ideas = EST_new_type_of_marxism
+		    set_politics = {
+				ruling_party = communist
+				elections_allowed = yes
+			}
+			set_party_name = {
+			ideology = communist long_name = ERÜP name = EST_communist_party
+			}
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	
+	    focus = {
+		id = EST_communist_dictatorship
+		icon = military_mission
+		
+		x = 12
+		y = 8
+		
+		cost = 10
+        
+		cancel_if_invalid = no
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		
+		prerequisite = {
+			focus = EST_communist_coup
+		}
+		
+		mutually_exclusive = {
+		focus = EST_favor_a_worker_society
+		}
+		
+		completion_reward = {
+		    set_party_name = {
+			ideology = communist long_name = EKP name = EST_communist_party
+			}
 		}
 		
 		ai_will_do = {
