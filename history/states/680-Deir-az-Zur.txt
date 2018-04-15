@@ -21,10 +21,11 @@ state={
 		add_core_of = HTS
 		add_core_of = JTS
 		add_core_of = ISS
+
 	}
 
 	provinces={
-		2013 3942 7513 12316 12442 
+		2013 
 	}
 	manpower=979841
 	buildings_max_level_factor=1.000

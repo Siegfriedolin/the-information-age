@@ -1,0 +1,24 @@
+state={
+	id=973
+	name="STATE_973"
+	history={
+		owner = SYR
+		victory_points = {
+			12442 1
+		}
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = SYR
+		add_core_of = FSA
+		add_core_of = HTS
+		add_core_of = JTS
+		add_core_of = ISS
+	}
+	provinces={
+		12442 13316 13319 13321 
+	}
+	manpower=76942
+	buildings_max_level_factor=1.000
+	state_category=state_level_1
+}

@@ -1,0 +1,18 @@
+state={
+	id=960
+	name="STATE_960"
+	history={
+		owner = SYR
+		add_core_of = SYR
+		add_core_of = FSA
+		add_core_of = HTS
+		add_core_of = JTS
+		add_core_of = ISS
+	}
+	provinces={
+		7184 13299 13301 13302 13303 
+	}
+	manpower=89238
+	buildings_max_level_factor=1.000
+	state_category=state_level_0
+}

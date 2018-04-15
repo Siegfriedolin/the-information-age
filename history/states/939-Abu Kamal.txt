@@ -1,6 +1,8 @@
+
 state={
 	id=939
 	name="STATE_939"
+
 	history={
 		owner = SYR
 		victory_points = {
@@ -8,15 +10,18 @@ state={
 		}
 		buildings = {
 			infrastructure = 1
+
 		}
 		add_core_of = SYR
 		add_core_of = FSA
 		add_core_of = HTS
 		add_core_of = JTS
 		add_core_of = ISS
+
 	}
+
 	provinces={
-		13276 
+		13276 13323 
 	}
 	manpower=42510
 	buildings_max_level_factor=1.000

@@ -1,0 +1,18 @@
+state={
+	id=975
+	name="STATE_975"
+	history={
+		owner = ISS
+		add_core_of = SYR
+		add_core_of = FSA
+		add_core_of = HTS
+		add_core_of = JTS
+		add_core_of = ISS
+	}
+	provinces={
+		13334 
+	}
+	manpower=2361
+	buildings_max_level_factor=1.000
+	state_category=state_level_0
+}

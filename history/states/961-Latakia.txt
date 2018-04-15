@@ -1,0 +1,28 @@
+state={
+	id=961
+	name="STATE_961"
+	history={
+		owner = SYR
+		victory_points = {
+			1088 2 
+		}
+		buildings = {
+			infrastructure = 2
+			dockyard = 2
+			1088 = {
+				naval_base = 3
+			}
+		}
+		add_core_of = SYR
+		add_core_of = FSA
+		add_core_of = HTS
+		add_core_of = JTS
+		add_core_of = ISS
+	}
+	provinces={
+		1088 13333 13335 
+	}
+	manpower=1890000
+	buildings_max_level_factor=1.000
+	state_category=state_level_2
+}
