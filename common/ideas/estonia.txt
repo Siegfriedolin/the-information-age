@@ -47,7 +47,6 @@ ideas = {
 				social_democrat_drift = 0.01
 				communist_drift = 0.03
 				consumer_goods_factor = -0.05
-				stability_gain = 0.10
 			}
 		}
 	
