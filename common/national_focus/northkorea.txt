@@ -1296,26 +1296,7 @@ focus_tree = {
 		}
 	}
 	
-	focus = {
-		id = PRK_Modernize_Bomber_Aircraft
-		icon = bomber
-		x = 27
-		y = 5
-		cost = 5
-	    prerequisite = { focus = PRK_Fighter_Modernization }
-	   
-		completion_reward = {
-		add_tech_bonus = {
-            name = bomber_bonus
-            bonus = 0.5
-            uses = 1
-            category = cat_strategic_bomber
-         }
-		} 
-		ai_will_do = {
-			factor = 35
-		}
-	}
+
 	
 	focus = {
 		id = PRK_Invest_in_the_Airforce
@@ -1798,28 +1779,7 @@ focus_tree = {
 		}	
 	}
 	
-	focus = {
-      id = PRK_Militarize_Gangwon
-      icon = military_fort
-      x = 38
-      y = 4
-      cost = 10
-	  prerequisite = { focus = PRK_Militarize_Pyongyang }
-	  
-      completion_reward = {
-		872 = {
-				add_extra_state_shared_building_slots = 2
-				add_building_construction = {
-					type = arms_factory
-					level = 3
-					instant_build = yes
-		}
-    }
-    }
-	ai_will_do = {
-			factor = 35
-		}	
-	}
+
 	
 	focus = {
       id = PRK_Specialize_the_Defense_Industry

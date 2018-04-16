@@ -2750,5 +2750,11 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/russia/russian_military_deals.dds"		
 	}
 	
+	SpriteType = {
+		name = "prc_focus"
+		texturefile = "gfx/interface/goals/taiwan/conflictroc.dds"			
+	}
+
+	
 	#those without a category
 }

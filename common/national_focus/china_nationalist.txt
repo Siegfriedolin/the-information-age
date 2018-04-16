@@ -15,7 +15,7 @@
 
     focus = {
 		id = CHI_Conflict_in_Asia
-		icon = placeholder
+		icon = prc_focus
 		x = 10
 		y = 0
 		cost = 10
@@ -24,6 +24,57 @@
 		completion_reward = {
 			add_political_power = 30
 			add_war_support = 0.01
+		}
+		
+		ai_will_do = {
+			factor = 35
+		}
+	}
+	
+	focus = {
+		id = CHI_One_China_One_Dream
+		icon = one_china_policy
+		x = 14
+		y = 1
+		cost = 10
+		
+		prerequisite = {
+			focus = CHI_Conflict_in_Asia
+		}
+		mutually_exclusive = {
+			focus = CHI_A_New_Dream
+		}
+
+	
+		completion_reward = {
+		add_war_support = 0.02
+		add_political_power = 25
+		}
+		
+		ai_will_do = {
+			factor = 35
+		}
+	}
+	
+	focus = {
+		id = CHI_A_New_Dream
+		icon = national_greatness
+		x = 6
+		y = 1
+		cost = 10
+		
+		prerequisite = {
+			focus = CHI_Conflict_in_Asia
+		}
+		
+		mutually_exclusive = {
+			focus = CHI_One_China_One_Dream
+		}
+
+	
+		completion_reward = {
+		add_stability = 0.01
+		add_political_power = 30
 		}
 		
 		ai_will_do = {
