@@ -627,4 +627,24 @@ country_event = {
 		}
 		ai_chance = { base = 0 }
 	}
+	}
+		
+country_event = {
+	id = european_union.20
+	title = european_union.20.t
+	desc = european_union.20.d
+	picture = GFX_report_event_european_union
+	
+	is_triggered_only = yes
+	
+	option = {	#How dare!
+		name = european_union.20.o1
+		add_political_power = -30
+		add_war_support = 0.01
+		
+		ai_chance = {
+			factor = 100
+		}
+	}
 }
+

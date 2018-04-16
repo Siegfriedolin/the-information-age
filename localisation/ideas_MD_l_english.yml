@@ -328,6 +328,8 @@
  idea_eu_member_desc:0 "This country is a member of the European Union."
  idea_eu_sanctions:0 "EU Sanctions"
  idea_eu_sanctions_desc:0 "This country is target of coordinated economic and political sanctions by the member states of the European Union."
+ idea_eu_sanctions2:0 "Severe EU Sanctions"
+ idea_eu_sanctions2_desc:0 "This country is target of coordinated and strict economic, political and trade sanctions by the member states of the European Union."
  idea_focus_equal_workforce:0 "Equal Workforce"
  idea_focus_equal_workforce_desc:0 "This country has made significant efforts to get its female population into the national workforce and into all sorts of employment. This greatly benefits the economy, as it basically doubles the available manpower - or... womanpower."
  idea_focus_male_workforce:0 "Male Workforce"

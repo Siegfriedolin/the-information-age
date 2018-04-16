@@ -21,6 +21,10 @@
  #GER Decisions
  decisions_GER:0 "Germany"
  unternehmenssteuerreform:0 "Unternehmenssteuerreform"
+ embargo_russia:0 "Increase Embargos on Russia"
+ embargo_russia_desc:0 "Even after our first action agaisnt the Russians, they did not listen to our warnings and other discussions, so we are forced to implement more sanctions agaisnt them."
+ embargo_serbia:0 "Implement Sanctions on Serbia"
+ embargo_serbia_desc:0 "It has been years since Kosovo got their indepedence and Serbia fought agaisnt it, even NATO intervened, but it seems they do not have learned their lesson. The serbs will suffer from sanctions once again for those acts of war."
  #PRC Decisions
  decisions_PRC:0 "China"
  power_struggle_in_the_communist_party:0 "Power Struggle in the Communist Party"

@@ -796,6 +796,12 @@ spriteTypes = {
 		texturefile = "gfx/interface/decisions/west_sahara/west_sahara2.dds"
 	}
 	
+	spriteType = {
+		name = "GFX_decision_embargo"
+		texturefile = "gfx/interface/decisions/economy/embargo2.dds"
+	}
+	
+	
 	#no folder
 
 	spriteType = {
