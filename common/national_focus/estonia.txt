@@ -452,7 +452,7 @@ focus_tree = {
 				elections_allowed = yes
 			}
 			set_party_name = {
-			ideology = communist long_name = ERÜP name = EST_communist_party
+			ideology = communist long_name = "Eestimaa Töötajate Ühtsuse Vasakpartei" name = "ETÜVP"
 			}
 		}
 		
@@ -484,7 +484,7 @@ focus_tree = {
 		
 		completion_reward = {
 		    set_party_name = {
-			ideology = communist long_name = EKP name = EST_communist_party
+			ideology = communist long_name = "Eestimaa Kommunistlik Partei" = EKP
 			}
 		}
 		
