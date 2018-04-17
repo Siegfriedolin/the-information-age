@@ -21,7 +21,7 @@ focus_tree = {
 	    id = EST_baltic_unity
 		icon = national_unity
 		
-		x = 11
+		x = 13
 		y = 0
 		
 		cost = 10
@@ -44,7 +44,7 @@ focus_tree = {
 		id = EST_socialist_unity
 		icon = industry_democratic4
 		
-		x = 11
+		x = 13
 		y = 1
 		
 		cost = 10
@@ -77,7 +77,7 @@ focus_tree = {
 		id = EST_nationalist_pride
 		icon = fascism
 		
-		x = 18
+		x = 21
 		y = 1
 		
 		cost = 10
@@ -111,7 +111,7 @@ focus_tree = {
 		id = EST_russian_side
 		icon = align_to_russia
 		
-		x = 18
+		x = 21
 		y = 2
 		
 		cost = 10
@@ -140,7 +140,7 @@ focus_tree = {
 		id = EST_legacy_of_the_SSR
 		icon = communism12
 		
-		x = 9
+		x = 15
 		y = 2
 		
 		cost = 10
@@ -171,7 +171,7 @@ focus_tree = {
 		id = EST_same_order
 		icon = industry_democratic
 		
-		x = 4
+		x = 5
 		y = 1
 		
 		cost = 10
@@ -203,7 +203,7 @@ focus_tree = {
 		id = EST_social_ideas
 		icon = anti_comintern_pact
 		
-		x = 13
+		x = 11
 		y = 2
 		
 		cost = 10
@@ -235,7 +235,7 @@ focus_tree = {
 		id = EST_question_equality
 		icon = neutrality
 		
-		x = 13
+		x = 11
 		y = 3
 		
 		cost = 10
@@ -264,7 +264,7 @@ focus_tree = {
 		id = EST_support_factory_workers
 		icon = consumer_goods
 		
-		x = 15
+		x = 8
 		y = 4
 		
 		cost = 10
@@ -296,7 +296,7 @@ focus_tree = {
 		id = EST_spread_marxism
 		icon = propaganda_communist
 		
-		x = 9
+		x = 15
 		y = 4
 		
 		cost = 10
@@ -328,7 +328,7 @@ focus_tree = {
 		id = EST_change_the_constitution
 		icon = dangerous_laws
 		
-		x = 9
+		x = 15
 		y = 5
 		
 		cost = 10
@@ -360,10 +360,10 @@ focus_tree = {
 		id = EST_leave_the_EU
 		icon = align_to_europe
 		
-		x = 10
+		x = 18
 		y = 6
 		
-		cost = 10
+		cost = 20
         
 		cancel_if_invalid = no
 		continue_if_invalid = yes
@@ -389,7 +389,7 @@ focus_tree = {
 		id = EST_communist_coup
 		icon = demand_territory2
 		
-		x = 9
+		x = 15
 		y = 7
 		
 		cost = 10
@@ -428,7 +428,7 @@ focus_tree = {
 		id = EST_favor_a_worker_society
 		icon = national_greatness
 		
-		x = 9
+		x = 13
 		y = 8
 		
 		cost = 10
@@ -465,7 +465,7 @@ focus_tree = {
 		id = EST_communist_dictatorship
 		icon = military_mission
 		
-		x = 12
+		x = 17
 		y = 8
 		
 		cost = 10
@@ -481,6 +481,64 @@ focus_tree = {
 		mutually_exclusive = {
 		focus = EST_favor_a_worker_society
 		}
+		
+		completion_reward = {
+		    set_party_name = {
+			ideology = communist long_name = "Eestimaa Kommunistlik Partei" = EKP
+			}
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	
+	    focus = {
+		id = EST_rewrite_the_constitution
+		icon = constitution
+		
+		x = 14
+		y = 9
+		
+		cost = 14.3
+        
+		cancel_if_invalid = no
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		
+		prerequisite = {
+			focus = EST_favor_a_worker_society
+		}
+		
+		mutually_exclusive = {}
+		
+		completion_reward = {
+		    remove_ideas = parliamentary_crisis
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	
+	    focus = {
+		id = EST_fdgfbvcb
+		icon = military_mission
+		
+		x = 12
+		y = 9
+		
+		cost = 10
+        
+		cancel_if_invalid = no
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		
+		prerequisite = {
+			focus = EST_favor_a_worker_society
+		}
+		
+		mutually_exclusive = {}
 		
 		completion_reward = {
 		    set_party_name = {
