@@ -1,0 +1,7 @@
+rojava_decisions = {
+	icon = rojava
+
+	allowed = {
+		original_tag = ROJ
+	}
+}

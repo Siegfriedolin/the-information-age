@@ -131,7 +131,7 @@ set_politics = {
 	}
 	
 	ruling_party = conservative
-	last_election = "1997.1.1"
+	last_election = "2017.5.6"
 	election_frequency = 48
 	elections_allowed = no
 }

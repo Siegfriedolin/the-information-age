@@ -801,6 +801,11 @@ spriteTypes = {
 		texturefile = "gfx/interface/decisions/economy/embargo2.dds"
 	}
 	
+	spriteType = {
+		name = "GFX_decision_rojava"
+		texturefile = "gfx/interface/decisions/syria/rojava.dds"
+	}
+	
 	
 	#no folder
 

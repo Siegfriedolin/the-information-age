@@ -144,7 +144,7 @@ set_politics = {
 	}
 	
 	ruling_party = nationalist
-	last_election = "1997.1.1"
+	last_election = "2014.6.3"
 	election_frequency = 48
 	elections_allowed = no
 }
@@ -260,13 +260,6 @@ create_corps_commander = {
 	name = "Maher Al Assad"
 	picture = "Portrait_Maher_Al_Assad.dds"
 	traits = { panzer_leader }
-	skill = 1
-}
-
-create_corps_commander = {
-	name = "Issam Zahreddine"
-	picture = "Portrait_Issam_Zahreddine.dds"
-	traits = { ranger }
 	skill = 1
 }
 

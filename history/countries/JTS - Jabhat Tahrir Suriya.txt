@@ -131,7 +131,7 @@ set_politics = {
 	}
 	
 	ruling_party = islamist
-	last_election = "1997.1.1"
+	last_election = "2017.7.31"
 	election_frequency = 48
 	elections_allowed = no
 }
@@ -140,6 +140,18 @@ create_country_leader = {
 	name = "Hassan Soufan"
 	ideology = islamic_republican
 	picture = "Hassan_Soufan.dds"
+}
+
+create_field_marshal = {
+	name = "Hassan_Soufan"
+	picture = "Hassan_Soufan.dds"
+	skill = 3
+}
+
+create_field_marshal = {
+	name = "Sheikh Tawfiq Shahabuddin"
+	picture = "Sheikh_Tawfiq_Shahabuddin.dds"
+	skill = 2
 }
 
 2018.1.1 = {

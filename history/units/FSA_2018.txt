@@ -44,9 +44,21 @@ units = {
 		start_experience_factor = 0.1
 	}
 	division = {
+		name = "Farouq Brigades"
+		location = 13283
+		division_template = "Militia Brigade"
+		start_experience_factor = 0.1
+	}
+	division = {
 		name = "Faylaq al-Sham"
 		location = 13263
 		division_template = "Militia Brigade"
 		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Jaysh Maghawir al-Thawra"
+		location = 10383
+		division_template = "Militia Brigade"
+		start_experience_factor = 0.4
 	}
 }
