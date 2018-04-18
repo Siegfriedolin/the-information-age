@@ -550,3 +550,192 @@ focus_tree = {
 			factor = 10
 		}
 	}
+	
+	    focus = {
+		id = EST_economic_plans
+		icon = consumer_goods
+		
+		x = 2
+		y = 0
+		
+		cost = 10
+        
+		cancel_if_invalid = no
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		
+		prerequisite = {}
+		
+		mutually_exclusive = {}
+		
+		completion_reward = {
+		    add_tech_bonus = {
+				name = industrial_bonus
+				bonus = 0.25
+				uses = 2
+				category = industry
+			}
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	
+	    focus = {
+		id = EST_industrial_focus
+		icon = industry_civilian
+		
+		x = 0
+		y = 1
+		
+		cost = 10
+        
+		cancel_if_invalid = no
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		
+		prerequisite = {
+		    focus = EST_economic_plans
+		}
+		
+		mutually_exclusive = {}
+		
+		completion_reward = {
+		    if = {
+				limit = {
+					13 = { owner = { tag = EST } }
+				}
+				13 = {
+					if = {
+						limit = {
+							free_building_slots = {
+								building = industrial_complex
+								size > 1
+								include_locked = yes
+							}
+						}
+						add_extra_state_shared_building_slots = 2
+						add_building_construction = {
+							type = industrial_complex
+							level = 2
+							instant_build = yes
+						}
+					}
+				}
+			}
+			if = {
+				limit = {
+					191 = { owner = { tag = EST } }
+				}
+				191 = {
+					if = {
+						limit = {
+							free_building_slots = {
+								building = industrial_complex
+								size > 1
+								include_locked = yes
+							}
+						}
+						add_extra_state_shared_building_slots = 2
+						add_building_construction = {
+							type = industrial_complex
+							level = 2
+							instant_build = yes
+						}
+					}
+				}
+			}
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	
+	    focus = {
+		id = EST_european_development_aid
+		icon = align_to_europe
+		
+		x = 3
+		y = 1
+		
+		cost = 10
+        
+		cancel_if_invalid = no
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		
+		prerequisite = {
+		    focus = EST_economic_plans
+		}
+		
+		mutually_exclusive = {}
+		
+		available = {
+			IF = { has_idea = idea_eu_member }
+		}
+		
+		completion_reward = {
+		    if = {
+				limit = {
+					191 = { owner = { tag = EST } }
+				}
+				191 = {
+					if = {
+						limit = {
+							free_building_slots = {
+								building = industrial_complex
+								size > 1
+								include_locked = yes
+							}
+						}
+						add_extra_state_shared_building_slots = 1
+						add_building_construction = {
+							type = infrastructure
+							level = 1
+							instant_build = yes
+						}
+					}
+				}
+			}
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	
+		focus = {
+		id = EST_support_VKG
+		icon = oil_production
+		
+		x = 2
+		y = 2
+		
+		cost = 10
+        
+		cancel_if_invalid = no
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		
+		prerequisite = {
+			focus = EST_industrial_focus
+		}
+		
+		mutually_exclusive = {}
+		
+		completion_reward = {
+		    add_stability = -0.02
+			840 = {
+				add_resource = {
+					type = oil
+					amount = 4
+				}
+			}
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+	}
