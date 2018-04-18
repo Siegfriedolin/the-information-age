@@ -629,8 +629,8 @@ CAM = {
 	color_ui = rgb { 80 130 30 }
 }
 PRK = {
-	color = rgb { 255 0 0 }
-	color_ui = rgb { 240 0 0 }
+	color = rgb { 165 0 0 }
+	color_ui = rgb { 165 0 0 }
 }
 INS = {
 	color = rgb { 0 0 220 }
@@ -951,6 +951,11 @@ JTS = {
 FSA = {
 	color = rgb { 0 222 31 }
 	color_ui = rgb { 0 222 31 }
+}
+
+KOR = {
+	color = rgb { 0 52 120 }
+	color_ui = rgb { 0 52 120 }
 }
 
 
