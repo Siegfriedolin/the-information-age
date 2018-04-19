@@ -168,8 +168,8 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Anders Steen"
-	picture = "Anders_Steen.dds"
+	name = "Gustav Kasselstrand"
+	picture = "Gustav_Kasselstrand.dds"
 	ideology = national_democrat
 }
 
@@ -210,8 +210,8 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Rolf Hagel"
-	picture = "Rolf_Hagel.dds"
+	name = "Andreas Sörensen"
+	picture = "Andreas_Sorensen.dds"
 	ideology = marxist
 }
 
