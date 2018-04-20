@@ -102,6 +102,7 @@ create_equipment_variant = { name = "Preveze-class" type = submarine_2  }
 diplomatic_relation = { country = AZR relation = non_aggression_pact }
 give_guarantee = AZR
 give_military_access = AZR
+give_military_access = FSA
 # NORTHERN CYPRUS
 set_politics = {
 	ruling_party = reactionary
@@ -628,3 +629,10 @@ create_navy_leader = {
 oob = "TUR_2016"
 }	
 
+2018.1.1 = {
+	add_ai_strategy = {
+		type = support
+		id = "FSA"
+		value = 200
+	}
+}

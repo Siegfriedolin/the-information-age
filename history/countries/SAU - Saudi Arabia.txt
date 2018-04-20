@@ -1,6 +1,6 @@
 ﻿capital = 292
 
-oob = "SAU_2000"
+oob = "SAU_2018"
 
 set_research_slots = 4
 set_convoys = 370
@@ -97,6 +97,14 @@ add_ideas = {
 	limited_conscription
 }
 
+create_faction = peninsula_shield_force
+add_to_faction = SAU
+add_to_faction = KUW
+add_to_faction = OMA
+add_to_faction = BAH
+add_to_faction = UAE
+add_to_faction = QAT
+
 set_politics = {
 
 	parties = {
@@ -132,8 +140,8 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "King Abdullah"
-	picture = "King_Abdullah.dds"
+	name = "King Salman"
+	picture = "King_Salman.dds"
 	ideology = absolute_monarchist
 }
 
@@ -189,22 +197,4 @@ create_country_leader = {
     name = "Badr Bin Abdul Aziz" 
 	picture = "Badr_bin_Abdul_Aziz.dds"
 	ideology = libertarian
-}
-
-2013.12.11 = {
-	create_faction = peninsula_shield_force
-	add_to_faction = SAU
-	add_to_faction = KUW
-	add_to_faction = OMA
-	add_to_faction = BAH
-	add_to_faction = UAE
-	add_to_faction = QAT
-}
-
-2015.1.23 = {
-	create_country_leader = {
-		name = "King Salman"
-		picture = "King_Salman.dds"
-		ideology = absolute_monarchist
-	}
 }

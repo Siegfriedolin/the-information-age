@@ -117,6 +117,7 @@ ideas = {
 			available = {
 				NOT = { has_government = progressive }
 				NOT = { has_government = democratic_socialist }
+				NOT = { has_idea = idea_eu_member }
 			}
 			
 			modifier = {

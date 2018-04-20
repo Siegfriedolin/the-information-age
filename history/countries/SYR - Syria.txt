@@ -1,6 +1,5 @@
 ﻿capital = 554
 
-
 oob = "SYR_2016"
 
 set_research_slots = 2
@@ -97,7 +96,6 @@ set_country_flag = shia_islam
 
 add_ideas = {
 	population_growth_rapid
-	arab_league_member
 	service_by_requirement
 	islamic_sectarian_conflicts
 }

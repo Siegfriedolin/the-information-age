@@ -82,10 +82,13 @@ set_technology = {
 set_country_flag = dominant_religion_islam
 set_country_flag = sunni_islam
 
+give_military_access = TUR
+
 add_ideas = {
 	population_growth_rapid
 	service_by_requirement
     war_economy
+	arab_league_member
 	syrian_civil_defense
 }
 
@@ -140,6 +143,24 @@ create_country_leader = {
 	name = "Riad Seif"
 	ideology = right_wing_conservative
 	picture = "Riad_Seif.dds"
+}
+
+create_country_leader = {
+	name = "Mohammad Riad al-Shaqfeh"
+	ideology = islamic_republican
+	picture = "Mohammad_Riad_al_Shaqfeh.dds"
+}
+
+create_country_leader = { 
+    name = "Hassan Abdel Azim"
+	picture = "Hassan_Abdel_Azim.dds" 
+	ideology = democratic_socialist_ideology
+}
+
+create_country_leader = {
+	name = "Anas al-Abdah"
+	ideology = libertarian
+	picture = "Anas_al_Abdah.dds"
 }
 
 create_field_marshal = {

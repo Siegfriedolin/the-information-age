@@ -273,12 +273,74 @@ spriteTypes = {
 		name = "GFX_ideology_USA_communist_group"
 		texturefile = "gfx/interface/ideologies/USA/communists.dds"
 	}
+	
 	spriteType = {
-	name = "GFX_ideology_PRK_communist_group"
-	texturefile = "gfx/interface/ideologies/PRK/juche.dds"
+	    name = "GFX_ideology_PRK_communist_group"
+	    texturefile = "gfx/interface/ideologies/PRK/juche.dds"
 	}
-   spriteType = {
-	name = "GFX_ideology_KOR_social_liberal_group"
-	texturefile = "gfx/interface/ideologies/KOR/minjoo.dds"
+	
+    spriteType = {
+	    name = "GFX_ideology_KOR_social_liberal_group"
+	    texturefile = "gfx/interface/ideologies/KOR/minjoo.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_SWE_communist_group"
+		texturefile = "gfx/interface/ideologies/SWE/skp.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_SWE_social_liberal_group"
+		texturefile = "gfx/interface/ideologies/SWE/liberalerna.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_SWE_conservative_group"
+		texturefile = "gfx/interface/ideologies/SWE/kristdemokraterna.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_SWE_progressive_group"
+		texturefile = "gfx/interface/ideologies/SWE/miljopartiet.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_SWE_social_democrat_group"
+		texturefile = "gfx/interface/ideologies/SWE/socialdemokraterna.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_SWE_market_liberal_group"
+		texturefile = "gfx/interface/ideologies/SWE/moderaterna.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_SWE_reactionary_group"
+		texturefile = "gfx/interface/ideologies/SWE/sverigedemokraterna.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_SWE_democratic_socialist_group"
+		texturefile = "gfx/interface/ideologies/SWE/vansterpartiet.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_SWE_islamist_group"
+		texturefile = "gfx/interface/ideologies/SWE/fifs.dds"
+	}
+	
+	spriteType = {
+	    name = "GFX_ideology_SWE_fascist_group"
+	    texturefile = "gfx/interface/ideologies/SWE/nmr.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_SWE_nationalist_group"
+		texturefile = "gfx/interface/ideologies/SWE/afs.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_SWE_monarchist_group"
+		texturefile = "gfx/interface/ideologies/SWE/bernadotte.dds"
 	}
 }

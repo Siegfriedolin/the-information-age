@@ -1,6 +1,6 @@
 ﻿capital = 553
 
-oob = "LEB_2000"
+oob = "LEB_2018"
 
 set_research_slots = 2
 set_convoys = 50
@@ -98,33 +98,36 @@ add_ideas = {
 
 set_politics = {
 
-	parties = {
-                    islamist = {
-			popularity = 32
+		parties = {
+			islamist = {
+				popularity = 23
+			}
+			nationalist = {
+				popularity = 5
+			}
+			market_liberal = {
+				popularity = 6
+			}
+			social_liberal = {
+				popularity = 30
+			}
+			progressive = {
+				popularity = 3
+			}
+			communist = {
+				popularity = 6
+			}
+			reactionary = {
+				popularity = 5
+			}
+			conservative = {
+				popularity = 18
+			}
 		}
-		nationalist = {
-			popularity = 29
-		}
-		market_liberal = {
-			popularity = 4
-		}
-		social_liberal = {
-			popularity = 10
-		}
-		progressive = {
-			popularity = 8
-	        }
-		communist = {
-			popularity = 7
-                }
-		reactionary = {
-			popularity = 0
-		}
-	}
-	ruling_party = nationalist
-	last_election = "1997.1.1"
-	election_frequency = 48
-	elections_allowed = yes
+		ruling_party = social_liberal
+		last_election = "2016.10.31"
+		election_frequency = 48
+		elections_allowed = yes
 }
 
 create_country_leader = {
@@ -157,8 +160,8 @@ create_country_leader = {
 	ideology = libertarian
 }
 create_country_leader = {
-	name = "Assaad Hardan"
-	picture = "Assad_Hardan.dds"
+	name = "Ali Kanso"
+	picture = "Ali_Kanso.dds"
 	ideology = national_socialist
 }
 create_country_leader = {
@@ -183,8 +186,8 @@ create_country_leader = {
 	ideology = marxist
 }
 create_country_leader = {
-	name = "Samir Kassir"
-	picture = "Samir_Kassir.dds"
+	name = "Hikmat Eid"
+	picture = "Hikmat_Eid.dds"
 	ideology = social_democrat_ideology
 }
 create_country_leader = {
@@ -239,57 +242,4 @@ create_navy_leader = {
 	picture = "generals/Majed_Alwan.dds"
 	traits = { blockade_runner }
 	skill = 2
-}
-2005.7.2 = {       #Samir Kassir is assassinated!
-	create_country_leader = {
-	    name = "Hikmat Eid"
-	    picture = "Hikmat_Eid.dds"
-	    ideology = social_democrat_ideology
-    }
-}
-
-2016.1.1 = {
-
-	set_politics = {
-
-		parties = {
-			islamist = {
-				popularity = 23
-			}
-			nationalist = {
-				popularity = 5
-			}
-			market_liberal = {
-				popularity = 6
-			}
-			social_liberal = {
-				popularity = 30
-			}
-			progressive = {
-				popularity = 3
-			}
-			communist = {
-				popularity = 6
-			}
-			reactionary = {
-				popularity = 5
-			}
-			conservative = {
-				popularity = 18
-			}
-		}
-		ruling_party = social_liberal
-		last_election = "2016.1.1"
-		election_frequency = 48
-		elections_allowed = yes
-	}
-	
-}
-
-2016.8.5 = {       #Ali Kanso elected as the head of SSNP
-	create_country_leader = {
-	    name = "Ali Kanso"
-	    picture = "Ali_Kanso.dds"
-	    ideology = national_socialist
-    }
 }

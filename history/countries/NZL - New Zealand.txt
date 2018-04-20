@@ -91,6 +91,8 @@ set_technology = {
 	excavation1 = 1
 }
 
+give_guarantee = AST
+
 add_ideas = {
 	population_growth_steady
 	commonwealth_of_nations_member

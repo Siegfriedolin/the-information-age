@@ -178,12 +178,6 @@ create_country_leader = {
 	picture = "Ebba_Busch_Thor.dds"
 	ideology = christian_democrat
 }
-
-create_country_leader = {
-	name = "Annie Lööf"
-	picture = "Annie_Loof.dds"
-	ideology = centrist
-}
 		
 create_country_leader = {
 	name = "Ulf Kristersson"
@@ -198,8 +192,8 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Lövin and Fridolin"
-	picture = "Isabella_and_Gustav.dds"
+	name = "Gustav Fridolin"
+	picture = "Gustav_Fridolin.dds"
 	ideology = green
 }
 

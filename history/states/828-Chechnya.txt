@@ -3,18 +3,14 @@ state={
 	name="STATE_828"
 	
 	history = {
-		owner = CHE
-		add_core_of = CHE
+		owner = SOV
 		add_core_of = SOV
+		add_core_of = CHE
 		buildings = {
 			infrastructure = 4
 		}
-		
-		2000.6.1 = {
-			owner = SOV
-		}
 	}
-	
+
 	resources = {
 		steel = 2
 	}
@@ -24,6 +20,5 @@ state={
 	}
 	manpower=1268989
 	buildings_max_level_factor=1.000
-	
 	state_category = state_level_5
 }
