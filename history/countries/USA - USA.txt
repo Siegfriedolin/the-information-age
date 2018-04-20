@@ -1021,85 +1021,10 @@ create_navy_leader = {
 	complete_national_focus = USA_oil_deals_with_saudi_arabia
 }
 
-2004.3.29 = {
-	add_to_faction = BUL
-	add_to_faction = EST
-	add_to_faction = LAT
-	add_to_faction = LIT
-	add_to_faction = ROM
-	add_to_faction = SLO
-	add_to_faction = SLV
-}
-
-2004.12.1 = {
-	set_country_flag = usa_bush_victory_2004
-}
-
-2008.11.6 = {
-	set_country_flag = usa_obama_victory_2008
-}
-
-2009.1.1 = {
-	create_country_leader = {
-		name = "Mitt Romney"
-		picture = "Mitt_Romney.dds"
-		ideology = constitutionalist
-	}
-	create_country_leader = {
-		name = "Barack Obama"
-		picture = "Barack_Obama.dds"
-		ideology = liberalist
-	}
-	set_politics = {
-		ruling_party = social_liberal
-		elections_allowed = yes
-	}
-}
-
-2009.3.1 = {
-	add_to_faction = ALB
-	add_to_faction = CRO
-}
-
-2012.12.1 = {
-	set_country_flag = usa_obama_victory_2012
-	set_politics = {
-		last_election = "2012.11.6"
-		elections_allowed = yes
-		
-		parties = {
-			social_liberal = { popularity = 46 }
-			conservative = { popularity = 44 }
-			market_liberal = { popularity = 7 }
-			progressive = { popularity = 3 }
-			reactionary = { popularity = 1 }
-		}
-	}
-	create_country_leader = {
-		name = "Gary Johnson"
-		picture = "Gary_Johnson.dds"
-		ideology = libertarian
-	}
-	create_country_leader = {
-		name = "Jill Stein"
-		picture = "Jill_Stein.dds"
-		ideology = green
-	}
-}
-
-2015.12.1 = {
-	create_country_leader = {
-		name = "Donald Trump"
-		picture = "Donald_Trump.dds"
-		ideology = right_wing_conservative
-		
-		traits = {
-			enemy_of_china
-			friend_of_russia
-		}
-	}
-}
-
-2016.11.9 = {
+2018.1.1 = {
+    set_country_flag = usa_bush_victory_2000
+    set_country_flag = usa_bush_victory_2004
+    set_country_flag = usa_obama_victory_2008
+    set_country_flag = usa_obama_victory_2012
 	set_country_flag = usa_trump_victory_2016
 }
