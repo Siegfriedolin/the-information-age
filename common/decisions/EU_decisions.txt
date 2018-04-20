@@ -6,9 +6,10 @@ european_union_decisions = {
 		}
 		
 		available = {
+		    is_subject = no
 			has_democratic_form_of_government = yes
 			NOT = { has_idea = immigration_closed_borders has_idea = idea_eu_sanctions }
-			is_subject = no
+			has_civil_war = no
 		}
 		
 		icon = democracy
