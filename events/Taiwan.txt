@@ -209,3 +209,32 @@ country_event = {
 		set_capital = 606
 	}
 }
+
+country_event = {
+	id = taiwan.4
+	title = taiwan.4.t
+	desc = taiwan.4.d
+	picture = GFX_report_event_senkakus
+	
+	fire_only_once = yes
+	
+		
+
+	
+	
+	option = {
+		name = taiwan.4.o1
+		876 = { set_demilitarized_zone = yes }
+	}
+	
+	
+	option = {
+		name = taiwan.4.o2
+		CHI = { add_opinion_modifier = { target = JAP modifier = diplomatic_disloyalty } }
+	}
+
+	option = {
+		name = taiwan.4.o3
+		CHI = { transfer_state = 876}
+	}
+}

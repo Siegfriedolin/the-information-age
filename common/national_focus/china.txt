@@ -3217,7 +3217,7 @@
 
    focus = {
       id = PRC_demand_full_democracy
-      icon = blue_dragon
+      icon = demand_territory2
       x = @revolution_tree
       y = 3
       cost = 10
