@@ -1,6 +1,6 @@
 ﻿capital = 109
 
-oob = "CRO_2000"
+oob = "CRO_2018"
 
 set_research_slots = 4
 set_convoys = 200
@@ -93,6 +93,7 @@ set_technology = {
 
 add_ideas = {
 	population_growth_decline
+	idea_eu_member
 }
 
 set_politics = {
@@ -129,17 +130,15 @@ set_politics = {
 		}
 	}
 	ruling_party = social_liberal
-	last_election = "1997.1.1"
+	last_election = "2016.9.11"
 	election_frequency = 48
 	elections_allowed = yes
 }
 
-2007.1.1 = { add_ideas = { idea_eu_member } }
-
 create_country_leader = {
-	name = "Stjepan Mesić"
-	ideology = centrist
-	picture = "Stjepan_Mesic.dds"
+	name = "Kolinda Grabar-Kitarović"
+	ideology = liberalist
+	picture = "Kolinda_Grabar.dds"
 }
 
 create_country_leader = {
@@ -182,12 +181,4 @@ create_country_leader = {
 	name = "Davor Trbuha"
 	ideology = national_socialist  
 	picture = "Davor_Trbuha.dds"
-}
-
-2015.1.1 = {
-	create_country_leader = {
-		name = "Kolinda Grabar-Kitarović"
-		ideology = liberalist
-		picture = "Kolinda_Grabar.dds"
-	}
 }

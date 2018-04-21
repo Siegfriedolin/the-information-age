@@ -165,6 +165,6 @@ create_country_leader = {
 
 create_field_marshal = {
 	name = "Bashar al-Zoubi"
-	picture = "Bashar al-Zoubi.dds"
+	picture = "Bashar_al_Zoubi.dds"
 	skill = 3
 }
