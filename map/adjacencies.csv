@@ -137,4 +137,6 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 4980;4934;impassable;-1;-1;-1;-1;-1;;Brazil-France Border
 5008;8107;impassable;-1;-1;-1;-1;-1;;Brazil-Guyana Border
 5214;8107;impassable;-1;-1;-1;-1;-1;;Brazil-Guyana Border
+13339;4196;sea;8371;-1;-1;-1;-1;;Matsu-Fuijan
+13338;10093;sea;5345;-1;-1;-1;-1;;Kinmen-Fuijan
 -1;-1;;-1;-1;-1;-1;-1;-1

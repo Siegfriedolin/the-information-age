@@ -7,6 +7,9 @@ ideologies = {
 			democratic_socialist_ideology = {
 			}
 			
+			democratic_confederalism = {
+			}
+			
 		}
 		
 		dynamic_faction_names = {

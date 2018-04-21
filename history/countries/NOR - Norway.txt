@@ -1,6 +1,6 @@
 ﻿capital = 110
 
-oob = "NOR_2000"
+oob = "NOR_2018"
 
 set_research_slots = 4
 set_convoys = 480
@@ -94,16 +94,15 @@ add_ideas = {
 }
 
 set_politics = {
-
 	parties = {
 		reactionary = {
 			popularity = 8
 		}
 		conservative = {
-			popularity = 25
+			popularity = 16
 		}
 		market_liberal = {
-			popularity = 16
+			popularity = 25
 		}
 		social_liberal = {
 			popularity = 10
@@ -118,16 +117,15 @@ set_politics = {
 			popularity = 8
 		}
 	}
-	
-	ruling_party = conservative 
-	last_election = "1997.9.15"
+	ruling_party = market_liberal 
+	last_election = "2017.9.11"
 	election_frequency = 48
 	elections_allowed = yes
 }
 
 create_country_leader = {
-	name = "Kjell Magne Bondevik"
-	picture = "Kjell_Magne_Bondevik.dds"
+	name = "Knut Arild Hareide"
+	picture = "Knut_Arild_Hareide.dds"
 	ideology = christian_democrat
 }
 
@@ -156,88 +154,25 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Jan Petersen"
-	picture = "Jan_Petersen.dds"
-	ideology = libertarian    
+	name = "Erna Solberg"
+	picture = "Erna_Solberg.dds"
+	ideology = libertarian
 }
 
 create_country_leader = {
-	name = "Thorbjorn Jagland"
-	picture = "Thorbjorn_Jagland.dds"
-	ideology = social_democrat_ideology     
+	name = "Jonas Gahr Store"
+	picture = "Jonas_Gahr_Store.dds"
+	ideology = social_democrat_ideology
 }
 
 create_country_leader = {
-	name = "Kristin Halvorsen"
-	picture = "Kristin_Halvorsen.dds"
+	name = "Audun Lysbakken"
+	picture = "Audun_Lysbakken.dds"
 	ideology = democratic_socialist_ideology      
 }
 
 create_country_leader = {
-	name = "Turid Thomassen"
-	picture = "Turid_Thomassen.dds"
+	name = "Bjornar Moxnes"
+	picture = "Bjornar_Moxnes.dds"
 	ideology = marxist      
-}
-
-2016.1.1 = {
-
-	set_politics = {
-		parties = {
-			reactionary = {
-				popularity = 8
-			}
-			conservative = {
-				popularity = 16
-			}
-			market_liberal = {
-				popularity = 25
-			}
-			social_liberal = {
-				popularity = 10
-			}
-			social_democrat = {
-				popularity = 25
-			}
-			progressive = {
-				popularity = 8
-			}
-			democratic_socialist = {
-				popularity = 8
-			}
-		}
-		ruling_party = market_liberal 
-		last_election = "2013.9.9"
-		election_frequency = 48
-		elections_allowed = yes
-	}
-
-	create_country_leader = {
-		name = "Erna Solberg"
-		picture = "Erna_Solberg.dds"
-		ideology = libertarian
-	}
-	
-	create_country_leader = {
-		name = "Knut Arild Hareide"
-		picture = "Knut_Arild_Hareide.dds"
-		ideology = christian_democrat
-	}
-	
-	create_country_leader = {
-		name = "Jonas Gahr Store"
-		picture = "Jonas_Gahr_Store.dds"
-		ideology = social_democrat_ideology
-	}
-	
-	create_country_leader = {
-		name = "Audun Lysbakken"
-		picture = "Audun_Lysbakken.dds"
-		ideology = democratic_socialist_ideology      
-	}
-	
-	create_country_leader = {
-		name = "Bjornar Moxnes"
-		picture = "Bjornar_Moxnes.dds"
-		ideology = marxist      
-	}
 }

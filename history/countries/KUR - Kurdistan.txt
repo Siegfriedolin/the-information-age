@@ -1,6 +1,6 @@
 ﻿capital = 815
 
-oob = "KUR_2016"
+oob = "KUR_2018"
 
 set_research_slots = 3
 set_convoys = 25

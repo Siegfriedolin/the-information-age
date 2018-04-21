@@ -129,7 +129,7 @@ create_country_leader = {
 create_country_leader = { 
     name = "Hediya Yousef"
 	picture = "Hediya_Yousef.dds" 
-	ideology = democratic_socialist_ideology
+	ideology = democratic_confederalism
 }
 
 create_field_marshal = {
