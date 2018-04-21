@@ -25,22 +25,22 @@ division_template = {
 units = {
 	
 	division = {
-		name = "Tank Force"
+		name = "Daesh Elite Forces"
 		location = 13274
 		division_template = "Armored Militia"
-		start_experience_factor = 0.25
+		start_experience_factor = 0.50
 	}
 	
 	division = {
-		name = "Terrorist Militia"
-		location = 13274
+		name = "First Khabur Brigade"
+		location = 13334
 		division_template = "Militia"
-		start_experience_factor = 0.25
+		start_experience_factor = 0.30
 	}
 	
 	division = {
-		name = "Terrorist Militia"
-		location = 13274
+		name = "Second Khabur Brigade"
+		location = 13334
 		division_template = "Militia"
 		start_experience_factor = 0.25
 	}
@@ -98,7 +98,7 @@ units = {
 		name = "Khalid ibn al-Walid Army"
 		location = 13297
 		division_template = "Militia"
-		start_experience_factor = 0.50
+		start_experience_factor = 0.40
 	}
 	
 }
