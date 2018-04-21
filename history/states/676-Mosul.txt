@@ -3,7 +3,7 @@ state={
 	id=676
 	name="STATE_676"
 	resources={
-		oil=35
+		oil=35.000
 	}
 
 	history={
@@ -14,15 +14,15 @@ state={
 			arms_factory = 1
 			air_base = 2
 		}
-		victory_points = { 10106 20 }
-		victory_points = { 8123 5 }	
+		victory_points = {
+			10106 20 
+		}
 		add_core_of = IRQ
 	}
-
 	provinces={
-		1600 1938 8123 10106 10793 12372 
+		10106 13352 13355 
 	}
-	manpower=2227918
+	manpower=1432230
 	buildings_max_level_factor=1.000
-	state_category = state_level_5
+	state_category=state_level_5
 }
