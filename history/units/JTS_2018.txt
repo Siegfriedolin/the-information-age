@@ -14,17 +14,24 @@
 units = {
 
 division = {
-		name = "Harakat Ahrar al-Sham"
-		location = 13271
-		division_template = "Militia Brigade"
-		start_experience_factor = 0.5
+	name = "Harakat Ahrar al-Sham"
+	location = 13271
+	division_template = "Militia Brigade"
+	start_experience_factor = 0.5
 }
 
 division = {
-		name = "Nour al-Din al-Zenki"
-		location = 13268
-		division_template = "Militia Brigade"
-		start_experience_factor = 0.3
+	name = "Nour al-Din al-Zenki"
+	location = 13268
+	division_template = "Militia Brigade"
+	start_experience_factor = 0.3
+}
+
+division = {
+	name = "Suqour al-Sham"
+	location = 13271
+	division_template = "Militia Brigade"
+	start_experience_factor = 0.2
 }
 	
 }
