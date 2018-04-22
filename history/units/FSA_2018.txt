@@ -44,6 +44,12 @@ units = {
 		start_experience_factor = 0.2
 	}
 	division = {
+		name = "Army of Free Tribes"
+		location = 13291
+		division_template = "Militia Brigade"
+		start_experience_factor = 0.1
+	}
+	division = {
 		name = "Sultan Murad Division"
 		location = 13264
 		division_template = "Militia Brigade"
@@ -76,6 +82,12 @@ units = {
 	division = {
 		name = "Forces of Martyr Ahmad al-Abdo"
 		location = 10383
+		division_template = "Militia Brigade"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Jabhat al-Aisalat wal-Tanmia"
+		location = 13282
 		division_template = "Militia Brigade"
 		start_experience_factor = 0.2
 	}
