@@ -238,3 +238,54 @@ country_event = {
 		CHI = { transfer_state = 876}
 	}
 }
+
+country_event = {
+	id = taiwan.5
+	title = taiwan.5.t
+	desc = taiwan.5.d
+	picture = GFX_report_event_protests
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = taiwan.5.o1
+	}
+}
+
+country_event = {
+	id = taiwan.6
+	title = taiwan.6.t
+	desc = taiwan.6.d
+	picture = GFX_report_event_chinesecivilwar
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = taiwan.6.o1
+		CHI = { transfer_state = 591} #Hainan
+		CHI = { transfer_state = 592} #Guangzhou
+		CHI = { transfer_state = 593} #Guangdong
+		CHI = { transfer_state = 594} #Nanning
+		CHI = { transfer_state = 595} #Fujian
+		CHI = { transfer_state = 596} #Zhejiang
+		CHI = { transfer_state = 613} #Shanghai
+		CHI = { transfer_state = 728} #Guangzhouwan
+		CHI = { transfer_state = 599} #Guangxi
+		CHI = { transfer_state = 603} #Guizhou
+		CHI = { transfer_state = 602} #Hunnan
+		CHI = { transfer_state = 600} #Jiangxi
+		USA = { diplomatic_relation = { country = CHI relation = guarantee active = no } }
+        PRC = { declare_war_on = { target = CHI type = annex_everything } }
+		every_country = { news_event = taiwan_news.1 }
+		PRC = { release = SIK }
+		PRC = { release = TIB }
+	    PRC = { end_puppet = MCU }
+		PRC = { end_puppet = HKN }
+		SIK = { transfer_state = 788 } #Aksai Chin
+		TIB = { load_oob = TIB_tibetan_uprising_rebels }
+		SIK = { load_oob = SIK }
+		CHI = { load_oob = CHI_civil_war }
+		
+	}
+}
+

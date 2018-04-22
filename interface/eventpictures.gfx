@@ -700,6 +700,11 @@ spriteTypes = {
 		texturefile = "gfx/event_pictures/report_event/politics/protests.dds"
 	}
 	
+    spriteType = {
+		name = "GFX_report_event_protests2"
+		texturefile = "gfx/event_pictures/report_event/politics/protests2.dds"
+	}
+	
 	spriteType = {
 		name = "GFX_report_event_kursk_sinking"
 		texturefile = "gfx/event_pictures/report_event/russia/kursk_sinking.dds"
@@ -993,4 +998,9 @@ spriteTypes = {
 	spriteType= {
 	   name = "GFX_report_event_kim_war"
 	   texturefile = "gfx/event_pictures/news_event/korea/Kim_War_Speech.dds"
+	}
+	
+	spriteType= {
+	   name = "GFX_report_event_chinesecivilwar"
+	   texturefile = "gfx/event_pictures/report_event/china/chinesecivilwar.dds"
 	}

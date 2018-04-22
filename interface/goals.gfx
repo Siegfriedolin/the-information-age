@@ -2754,6 +2754,12 @@ spriteTypes = {
 		name = "prc_focus"
 		texturefile = "gfx/interface/goals/taiwan/conflictroc.dds"			
 	}
+	
+		SpriteType = {
+		name = "nationalism"
+		texturefile = "gfx/interface/goals/diplomacy/nationalist.dds"			
+	}
+	
 
 	
 	#those without a category

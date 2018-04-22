@@ -598,10 +598,10 @@ create_navy_leader = {
 				popularity = 0
 			}
 			nationalist = {
-				popularity = 6
+				popularity = 1
 			}
 			reactionary = {
-				popularity = 1
+				popularity = 20
 			}
 			conservative = {
 				popularity = 10
@@ -613,7 +613,7 @@ create_navy_leader = {
 				popularity = 16
 			}
 			social_democrat = {
-				popularity = 28
+				popularity = 14
 			}
 			progressive = {
 				popularity = 3
@@ -625,7 +625,7 @@ create_navy_leader = {
 				popularity = 5
 			}
 		}
-	ruling_party = democratic_socialist
+	ruling_party = social_liberal
 	last_election = "2014.10.26"
 	election_frequency = 48
 	elections_allowed = yes
@@ -633,9 +633,9 @@ create_navy_leader = {
 
 	create_country_leader = {
 	name = "Michel Temer"
-	desc = "POLITICIAN_BRA_DILMA_ROUSSEFF_DESC"
-	picture = "temer.dds"
-	ideology = democratic_socialist_ideology
+	desc = "POLITICIAN_BRA_MICHEL_TEMER_DESC"
+	picture = "Michel_Temer.dds"
+	ideology = moderate
 	}
 
 	create_country_leader = {
@@ -665,12 +665,7 @@ create_navy_leader = {
 	ideology = counter_progressive_democrat
 	}
 
-	create_country_leader = {
-	name = "Romero Juca"
-	desc = "POLITICIAN_BRA_ROMERO_JUCA_DESC"
-	picture = "Romero_Juca.dds"
-	ideology = moderate
-	}
+
 
 
 

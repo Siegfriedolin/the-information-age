@@ -167,3 +167,16 @@ music = {
 		}		
 	}	
 }
+
+music = {
+	song = "The War of Resistance"
+
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 3
+				original_tag = CHI
+				CHI = { has_war_with = PRC }
+			}
+		}
+	}

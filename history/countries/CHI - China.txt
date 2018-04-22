@@ -288,8 +288,8 @@ elections_allowed = yes
 }
 
 create_country_leader = {
-	name = "Ma Ying-jeou"
-	picture = "Ma_Ying_Jeou.dds"
+	name = "Eric Chu"
+	picture = "Eric_Chu.dds"
 	ideology = constitutionalist
 }
 

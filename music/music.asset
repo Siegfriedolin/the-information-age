@@ -78,3 +78,9 @@ music = {
 name = "Jugeumeul Mije-Chimnyakjadeurege"
 file = "countries/NKR/Jugeumeul Mije-Chimnyakjadeurege.ogg"
 }
+
+music = {
+	name = "The War of Resistance"
+	file = "resistance.ogg"
+	volume = 0.54
+}
