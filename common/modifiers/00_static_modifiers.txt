@@ -174,7 +174,6 @@ war_support_good_modifier = {
 	army_core_attack_factor = 0.1
 	army_core_defence_factor = 0.1
 	command_power_gain_mult = 0.5
-	conscription = 0.001
 }
 
 war_support_bad_modifier = {
