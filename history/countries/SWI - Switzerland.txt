@@ -1,6 +1,6 @@
 ﻿capital = 151
 
-oob = "SWI_2000"
+oob = "SWI_2018"
 
 set_research_slots = 4
 set_convoys = 10
@@ -93,49 +93,41 @@ add_ideas = {
 give_guarantee = LIC
 
 set_politics = {
-
 	parties = {
-		islamist = {
-			popularity = 0
-		}
 		nationalist = {
-			popularity = 2
+			popularity = 1.2
 		}
 		reactionary = {
-			popularity = 22.6
+			popularity = 29.4
 		}
 		conservative = {
-			popularity = 2
+			popularity = 6
 		}
 		market_liberal = {
-			popularity = 19.9
+			popularity = 16.4
 		}
 		social_liberal = {
-			popularity = 15.8
+			popularity = 11.6
 		}
 		social_democrat = {
-			popularity = 22.5
+			popularity = 18.8
 		}
 		progressive = {
-			popularity = 5
+			popularity = 11.7
 		}
 		democratic_socialist = {
 			popularity = 1
 		}
-		communist = {
-			popularity = 0
-		}
 	}
-
-	ruling_party = reactionary
-	last_election = "1999.9.24"
-	election_frequency = 48
-	elections_allowed = yes
+	    ruling_party = market_liberal
+		last_election = "2015.10.18"
+		election_frequency = 48
+		elections_allowed = yes
 }
 
 create_country_leader = {
-	name = "Adolf Ogi"
-	picture = "Adolf_Ogi.dds"
+	name = "Albert Rosti"
+	picture = "Albert_Rosti.dds"
 	ideology = counter_progressive_democrat
 }
 
@@ -437,7 +429,7 @@ create_corps_commander = {
 		}
 
 		ruling_party = market_liberal
-		last_election = "2015.9.18"
+		last_election = "2015.10.18"
 		election_frequency = 48
 		elections_allowed = yes
 	}

@@ -613,8 +613,8 @@ MLT = {
 	color_ui = rgb { 90 0 0 }
 }
 VIN = {
-	color = rgb { 250 230 20 }
-	color_ui = rgb { 250 230 20 }
+	color = rgb { 145 45 50 }
+	color_ui = rgb { 255 255 255 }
 }
 CMB = {
 	color = rgb { 250 150 90 }

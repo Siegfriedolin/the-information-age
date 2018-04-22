@@ -1,0 +1,52 @@
+﻿division_template = {
+	name = "Jihadist Militia"
+	
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+	}
+	support = {
+	
+	}
+	
+	priority = 0
+}
+
+units = {
+	division = {
+		name = "Jabhat Fateh al-Sham"
+		location = 7140
+		division_template = "Jihadist Militia"
+		start_experience_factor = 0.5
+	}
+	division = {
+		name = "Turkistan Islamic Party in Syria"
+		location = 13269
+		division_template = "Jihadist Militia"
+		start_experience_factor = 0.4
+	}
+	division = {
+		name = "Jabhat Ansar al-Din"
+		location = 13267
+		division_template = "Jihadist Militia"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Liwa al-Haqq"
+		location = 7140
+		division_template = "Jihadist Militia"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Jaysh al-Sunna"
+		location = 13267
+		division_template = "Jihadist Militia"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Junud al-Makhdi"
+		location = 13269
+		division_template = "Jihadist Militia"
+		start_experience_factor = 0.1
+	}
+}

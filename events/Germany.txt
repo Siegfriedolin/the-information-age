@@ -355,47 +355,6 @@ country_event = {
 	}
 }
 
-#Do you prefer English or German names?
-country_event = {
-	id = germany.14
-	title = germany.14.t
-	desc = germany.14.d
-	picture = GFX_report_event_german_flag
-	
-	fire_only_once = yes
-	
-	trigger = {
-		original_tag = GER
-	}
-	
-	option = {	#English
-		name = germany.14.o1
-		ai_chance = { factor = 0 }
-	}
-	
-	option = {	#German
-		name = germany.14.o2
-		ai_chance = { factor = 100 }
-		#State Names
-		62 = { set_state_name = "Vorpommern" }
-		68 = { set_state_name = "Sachsen-Anhalt" }
-		51 = { set_state_name = "Nordrhein" }
-		57 = { set_state_name = "Westfalen" }
-		55 = { set_state_name = "Hessen" }
-		60 = { set_state_name = "Thüringen" }
-		65 = { set_state_name = "Sachsen" }
-		42 = { set_state_name = "Rheinland-Pfalz" }
-		50 = { set_state_name = "Baden-Württemberg" }
-		54 = { set_state_name = "Franken" }
-		53 = { set_state_name = "Niederbayern" }
-		52 = { set_state_name = "Oberbayern" }
-		#Province Names
-		set_province_name = { id = 587 name = "Köln" }
-		set_province_name = { id = 11544 name = "Nürnberg" }
-		set_province_name = { id = 692 name = "München" }
-	}
-}
-
 #SPD Leadership Contest 2017
 country_event = {
 	id = germany.15

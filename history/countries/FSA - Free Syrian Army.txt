@@ -152,8 +152,8 @@ create_country_leader = {
 }
 
 create_country_leader = { 
-    name = "Hassan Abdel Azim"
-	picture = "Hassan_Abdel_Azim.dds" 
+    name = "Hassan Abdul Azim"
+	picture = "Hassan_Abdul_Azim.dds" 
 	ideology = democratic_socialist_ideology
 }
 
@@ -165,6 +165,12 @@ create_country_leader = {
 
 create_field_marshal = {
 	name = "Bashar al-Zoubi"
-	picture = "Bashar al-Zoubi.dds"
+	picture = "Bashar_al_Zoubi.dds"
 	skill = 3
+}
+
+create_corps_commander = {
+	name = "Essam al-Buwaydhani"
+	picture = "Essam_al_Buwaydhani.dds"
+	skill = 2
 }

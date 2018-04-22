@@ -141,6 +141,10 @@ country_event = {
 				add = 100
 			}
 			modifier = {
+				has_idea = arab_league_member
+				add = 999
+			}
+			modifier = {
 				OR = {
 					has_government = islamist
 					has_government = fascist

@@ -144,7 +144,7 @@ set_politics = {
 	ruling_party = nationalist
 	last_election = "2014.6.3"
 	election_frequency = 48
-	elections_allowed = no
+	elections_allowed = yes
 }
 
 create_country_leader = {
@@ -208,9 +208,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Ali Sadreddine Al-Bayanouni"
+	name = "Mohammad Riad al-Shaqfeh"
 	ideology = islamic_republican
-	picture = "Ali_S_al_Bayanouni.dds"
+	picture = "Mohammad_Riad_al_Shaqfeh.dds"
 }
 
 create_country_leader = {
