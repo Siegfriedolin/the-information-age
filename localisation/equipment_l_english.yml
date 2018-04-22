@@ -400,3 +400,6 @@
  motorized_rocket_equipment_1:0 "Motorized Rocket Artillery"
  motorized_rocket_equipment_1_short:0 "Mot. R. Artillery"
  motorized_rocket_equipment_1_desc:0 "Multiple rocket launchers such as these deliver explosives to a target area more quickly than conventional artillery, but with lower accuracy and requiring a longer time to reload. Being mounted on trucks, this version is able to launch attacks and change positions before the enemy can return fire."
+ SOV_motorized_rocket_equipment_1:0 "BM-21 Grad"
+ SOV_motorized_rocket_equipment_1_short:0 "BM-21 Grad"
+ SOV_motorized_rocket_equipment_1_desc:0 "The BM-21 Grad is a truck-mounted 122 mm multiple rocket launcher developed in the Soviet Union. The weapons system and the M-21OF rocket it fires were developed in the early 1960s, and saw their first combat use in March 1969 during the Sino-Soviet border conflict."

@@ -451,6 +451,11 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_motorized_rocket_unit_medium"
 		texturefile = "gfx/interface/technologies/motorized_rocket_unit.dds"
+	}
+
+    SpriteType = {
+		name = "GFX_SOV_motorized_rocket_unit_medium"
+		texturefile = "gfx/interface/technologies/SOV_motorized_rocket_unit.dds"
 	}	
 		
 	### artillery tech	###
