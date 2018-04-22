@@ -1545,6 +1545,8 @@
  SIA_social_democrat_party_long:0 "National Development Party"
  SIA_progressive_party:0 "SAP" 
  SIA_progressive_party_long:0 "Social Action Party" 
+ SIK_islamist_party:0 "TIP"
+ SIK_islamist_party_long:0 "Turkistan Islamic Party"
  SIY_monarchist_party:0 "Bourbon-Two Sicilies"
  SIY_monarchist_party_long:0 "House of Bourbon-Two Sicilies"
  SOV_fascist_party:0 "Great Russia"

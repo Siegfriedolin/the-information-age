@@ -92,7 +92,7 @@ set_politics = {
 	}
 	
 	ruling_party = islamist
-	last_election = "2014.1.1"
+	last_election = "2013.4.7"
 	election_frequency = 48
 	elections_allowed = no
 }
