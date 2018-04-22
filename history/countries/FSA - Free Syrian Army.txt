@@ -152,8 +152,8 @@ create_country_leader = {
 }
 
 create_country_leader = { 
-    name = "Hassan Abdel Azim"
-	picture = "Hassan_Abdel_Azim.dds" 
+    name = "Hassan Abdul Azim"
+	picture = "Hassan_Abdul_Azim.dds" 
 	ideology = democratic_socialist_ideology
 }
 

@@ -463,7 +463,12 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_interwar_antitank_medium"
 		texturefile = "gfx/interface/technologies/AT_1_allies.dds"
-	}	
+	}
+	
+	SpriteType = {
+		name = "GFX_USA_interwar_antitank_medium"
+		texturefile = "gfx/interface/technologies/USA_AT_1.dds"
+	}
 	
 	SpriteType = {
 		name = "GFX_rocket_artillery_medium"
