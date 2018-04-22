@@ -168,3 +168,9 @@ create_field_marshal = {
 	picture = "Bashar_al_Zoubi.dds"
 	skill = 3
 }
+
+create_corps_commander = {
+	name = "Essam al-Buwaydhani"
+	picture = "Essam_al_Buwaydhani.dds"
+	skill = 2
+}
