@@ -15,4 +15,19 @@ ideas = {
 			}
 		}
 	}
+
+country = {
+		
+		idea_CHI_mainland = {
+			picture = national_mobilization
+			
+			allowed = { always = no }
+			
+			removal_cost = -1
+			
+			modifier = {
+            army_core_attack_factor = 0.9
+			}
+		}
+	}
 }	

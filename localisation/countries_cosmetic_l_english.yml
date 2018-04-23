@@ -319,3 +319,6 @@
  PRK_NorthKorea_communist:0 "North Korea"
  PRK_NorthKorea_communist_ADJ:0 "North Korean"
  PRK_NorthKorea_communist_DEF:0 "The People's Republic of North Korea"
+ CHI_Reunified_conservative:0 "China"
+ CHI_Reunified_conservative_ADJ:0 "Chinese"
+ CHI_Reunified_conservative_DEF:0 "The Chinese Republic"

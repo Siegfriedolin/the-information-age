@@ -897,7 +897,7 @@
 		}
 		add_stability = -0.01
 		country_event = generic.1
-		increase_conservative_influence_by_4 = yes
+		increase_conservative_influence_by_1 = yes
 		}
 		}
 		
@@ -970,6 +970,392 @@
 			factor = 35
 		}
 	}
+	
+	focus = {
+		id = CHI_Legacy_of_Chiang_Kai_Shek
+		icon = chiang_kai_shek
+		x = 16
+		y = 16
+		cost = 1
+		
+    available = {
+    CHI = { has_completed_focus = CHI_Explode_the_Powder_Keg }
+	CHI = { has_war_with = PRC }
+    }
+		completion_reward = {
+		add_war_support = 0.05
+		}
+		
+		ai_will_do = {
+			factor = 35
+		}
+	}
+	
+    focus = {
+		id = CHI_The_War_of_Reconquest
+		icon = chinese_democracy
+		x = 16
+		y = 17
+		cost = 1
+		
+		prerequisite = {
+			focus = CHI_Legacy_of_Chiang_Kai_Shek
+		}
+
+	
+		completion_reward = {
+		add_political_power = 200
+		add_war_support = 0.3
+		add_ideas = idea_CHI_mainland
+		}
+		
+		ai_will_do = {
+			factor = 35
+		}
+	}
+	
+	focus = {
+		id = CHI_At_Last_United
+		icon = chinese_united_front
+		x = 16
+		y = 18
+		cost = 1
+		
+    available = {
+	NOT = { country_exists = PRC }
+	NOT = { has_war = yes }
+     }
+		
+		prerequisite = {
+			focus = CHI_The_War_of_Reconquest
+		}
+
+	
+		completion_reward = {
+		add_political_power = 400
+		add_stability = 0.3
+		remove_ideas = idea_CHI_mainland
+		}
+		
+		ai_will_do = {
+			factor = 35
+		}
+	}
+	
+	focus = {
+		id = CHI_Reconquer_the_Lost_Land
+		icon = war2_purple
+		x = 16
+		y = 19
+		cost = 5
+		
+		prerequisite = {
+			focus = CHI_At_Last_United
+		}
+
+	
+		completion_reward = {
+		add_war_support = 0.01
+		}
+		
+		ai_will_do = {
+			factor = 35
+		}
+	}
+	
+   focus = {
+		id = CHI_The_Tibetan_Question
+		icon = attack_monarchy3
+		x = 20
+		y = 20
+		cost = 5
+		
+		prerequisite = {
+			focus = CHI_Reconquer_the_Lost_Land
+		}
+
+	
+		completion_reward = {
+		add_political_power = 30
+		}
+		
+		ai_will_do = {
+			factor = 35
+		}
+	}
+	
+	focus = {
+		id = CHI_Reconquer_the_Treaty_Ports
+		icon = attack_democracy2
+		x = 16
+		y = 20
+		cost = 5
+		
+		prerequisite = {
+			focus = CHI_Reconquer_the_Lost_Land
+		}
+
+	
+		completion_reward = {
+		HKN = { country_event = taiwan.8 }
+		MCU = { country_event = taiwan.8 }
+		}
+		
+		ai_will_do = {
+			factor = 35
+		}
+	}
+	
+	focus = {
+		id = CHI_The_Uyghur_Question
+		icon = political_pressure_dark_green
+		x = 12
+		y = 20
+		cost = 5
+		
+		prerequisite = {
+			focus = CHI_Reconquer_the_Lost_Land
+		}
+
+	
+		completion_reward = {
+		add_political_power = 30
+		}
+		
+		ai_will_do = {
+			factor = 35
+		}
+	}
+	
+	focus = {
+		id = CHI_Reconquer_Tibet
+		icon = attack_monarchy2
+		x = 18
+		y = 21
+		cost = 2
+		
+		mutually_exclusive = {
+		focus = CHI_Subjugate_Tibet 
+		}
+		
+		prerequisite = {
+			focus = CHI_The_Tibetan_Question
+		}
+
+	
+		completion_reward = {
+		create_wargoal = { type = take_core_state target = TIB }
+		add_stability = -0.01
+		}
+		
+		ai_will_do = {
+			factor = 35
+		}
+	}
+	
+    focus = {
+		id = CHI_Subjugate_Tibet
+		icon = attack_monarchy
+		x = 22
+		y = 21
+		cost = 2
+		
+		mutually_exclusive = {
+		focus = CHI_Reconquer_Tibet
+		}
+		
+		prerequisite = {
+			focus = CHI_The_Tibetan_Question
+		}
+
+	
+		completion_reward = {
+		TIB = { country_event = taiwan.7 }
+		add_stability = 0.01
+		}
+		
+		ai_will_do = {
+			factor = 35
+		}
+	}
+	
+	focus = {
+		id = CHI_Reconquer_Uyghuria
+		icon = war2_green
+		x = 14
+		y = 21
+		cost = 1
+		
+		mutually_exclusive = {
+		focus = CHI_Subjugate_the_Uyghurs
+		}
+		
+		prerequisite = {
+			focus = CHI_The_Uyghur_Question
+		}
+
+	
+		completion_reward = {
+		create_wargoal = { type = take_core_state target = SIK }
+		add_stability = -0.01
+		}
+		
+		ai_will_do = {
+			factor = 35
+		}
+	}
+	
+	focus = {
+		id = CHI_Subjugate_the_Uyghurs
+		icon = territorial_claims
+		x = 10
+		y = 21
+		cost = 1
+		
+		mutually_exclusive = {
+		focus = CHI_Reconquer_Uyghuria
+		}
+		
+		prerequisite = {
+			focus = CHI_The_Uyghur_Question
+		}
+
+	
+		completion_reward = {
+		SIK = { country_event = taiwan.7 }
+		add_stability = 0.01
+		}
+		
+		ai_will_do = {
+			factor = 35
+		}
+	}
+		
+	focus = {
+		id = CHI_To_The_North
+		icon = territory_or_war
+		x = 18
+		y = 22
+		cost = 5
+		
+	
+		prerequisite = {
+			focus = CHI_Reconquer_Uyghuria
+			focus = CHI_Subjugate_the_Uyghurs
+		}
+		prerequisite = {
+			focus = CHI_Reconquer_Tibet
+			focus = CHI_Subjugate_Tibet
+		}
+		prerequisite = {
+		focus = CHI_Reconquer_the_Treaty_Ports
+        }
+	
+		completion_reward = {
+	    add_war_support = 0.01
+		add_political_power = 30
+		}
+		
+		ai_will_do = {
+			factor = 35
+		}
+	}
+	
+	focus = {
+		id = CHI_Reconquer_Mongolia
+		icon = attack_mongolia
+		x = 16
+		y = 23
+		cost = 5
+		
+	
+		prerequisite = {
+			focus = CHI_To_The_North
+		}
+
+	
+		completion_reward = {
+	    create_wargoal = { type = take_core_state target = MON }
+		}
+		
+		ai_will_do = {
+			factor = 35
+		}
+	}
+	
+	focus = {
+		id = CHI_Purchase_Tannu_Tuva
+		icon = align_to_russia
+		x = 20
+		y = 23
+		cost = 5
+		
+	
+		prerequisite = {
+			focus = CHI_To_The_North
+		}
+
+	
+		completion_reward = {
+	    SOV = { country_event = taiwan.9}
+		}
+		
+		ai_will_do = {
+			factor = 35
+		}
+	}
+	
+	focus = {
+		id = CHI_Demand_Korean_Unification
+		icon = attack_north_korea
+		x = 18
+		y = 23
+		cost = 5
+		
+	
+		prerequisite = {
+			focus = CHI_To_The_North
+		}
+
+	
+		completion_reward = {
+	    PRK = { country_event = taiwan.10}
+		}
+		
+		ai_will_do = {
+			factor = 35
+		}
+	}
+	
+	focus = {
+		id = CHI_One_China
+		icon = black_dragon
+		x = 18
+		y = 24
+		cost = 5
+		
+	
+		prerequisite = {
+			focus = CHI_Reconquer_Mongolia
+		}
+		prerequisite = {
+			focus = CHI_Purchase_Tannu_Tuva
+		}
+		prerequisite = {
+			focus = CHI_Demand_Korean_Unification
+		}
+		
+
+	
+		completion_reward = {
+		set_cosmetic_tag = CHI_Reunified
+		remove_ideas = partially_recognized_state
+		}		
+		ai_will_do = {
+			factor = 35
+		}
+	}
+
 	
 	
 	

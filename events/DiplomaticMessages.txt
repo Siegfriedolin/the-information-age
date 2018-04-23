@@ -112,3 +112,18 @@ country_event = {
 		}
 	}
 }
+
+#FROM rejects!
+country_event = {
+	id = diplomatic_response.5
+	title = diplomatic_response.5.t
+	desc = diplomatic_response.5.d
+	picture = GFX_report_event_political_deal2
+	
+	is_triggered_only = yes
+	
+	option = {	#Well, too bad.
+		name = diplomatic_response.5.o1
+		ROOT = { create_wargoal = { type = annex_everything target = FROM } }
+	}
+}

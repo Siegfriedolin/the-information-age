@@ -289,3 +289,125 @@ country_event = {
 	}
 }
 
+#Taiwan demands subjugation!
+country_event = {
+	id = taiwan.7
+	title = taiwan.7.t
+	desc = taiwan.7.d
+	picture = GFX_report_event_war
+	
+	is_triggered_only = yes
+	
+	option = { #We submit.
+		name = taiwan.7.o1
+		CHI = { puppet = ROOT }
+		CHI = {
+			add_named_threat = {
+				threat = 1
+				name = threat_puppeteer
+			}
+		}
+		CHI = {
+			country_event = diplomatic_response.1
+		}
+		ai_chance = {
+			factor = 80
+		}
+	}
+	
+	option = { #Never!
+	    name = taiwan.7.o2
+		add_political_power = 5
+		CHI = { country_event = diplomatic_response.5 }
+		ai_chance = {
+			factor = 20
+		}
+	}
+}
+
+#Taiwan demands annexation!
+country_event = {
+	id = taiwan.8
+	title = taiwan.8.t
+	desc = taiwan.8.d
+	picture = GFX_report_event_war
+	
+	is_triggered_only = yes
+	
+	option = { #We submit.
+		name = taiwan.8.o1
+		CHI = { annex_country = { target = ROOT } }
+		CHI = {
+			add_named_threat = {
+				threat = 1
+				name = threat_annex
+			}
+		}
+		CHI = {
+			country_event = diplomatic_response.1
+		}
+		ai_chance = {
+			factor = 95
+		}
+	}
+	
+	option = { #Never!
+	    name = taiwan.8.o2
+		add_political_power = 5
+		CHI = { country_event = diplomatic_response.5 }
+		ai_chance = {
+			factor = 5
+		}
+	}
+}
+country_event = {
+	id = taiwan.9
+	title = taiwan.9.t
+	desc = taiwan.10.d
+	picture = GFX_report_event_war
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = taiwan.10.o1
+        CHI = { transfer_state = 329 }		
+		ai_chance = {
+			factor = 99
+		}
+	}
+	
+	option = { 
+	name = taiwan.9.o2
+	ai_chance = {
+	    factor = 1
+	}
+}
+}
+
+country_event = {
+	id = taiwan.10
+	title = taiwan.10.t
+	desc = taiwan.10.d
+	picture = GFX_report_event_war
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = taiwan.10.o1
+        KOR = { annex_country = { target = PRK } }
+        949  = { set_demilitarized_zone = no }
+        950 =  { set_demilitarized_zone = no }		
+		ai_chance = {
+			factor = 70
+		}
+	}
+	
+	option = { 
+	name = taiwan.9.o2
+    CHI = { create_wargoal = { type = topple_government target = PRK } }
+	ai_chance = {
+	    factor = 30
+	}
+	}
+}
+
