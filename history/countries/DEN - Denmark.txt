@@ -1,6 +1,6 @@
 ﻿capital = 37
 
-oob = "DEN_2000"
+oob = "DEN_2018"
 
 set_research_slots = 4
 set_convoys = 80
@@ -126,31 +126,30 @@ if = {
 set_politics = {
 
 	parties = {
-		social_democrat = { popularity = 35.9 }			#Social Democrats
-		market_liberal = { popularity = 27.9 }			#Venstre
-		conservative = { popularity = 8.9 }				#Conservative Peoples Party
-		progressive = { popularity = 7.6 }				#Socialist Peoples Party
-		reactionary = { popularity = 7.4 }				#Danish Peoples Party
-		social_liberal = { popularity = 4.3 }			#Danish SocLib Party
-		democratic_socialist = { popularity = 2.7 }		#Red-Greens
-		nationalist = { popularity = 2.4 }          	#Danish Unity
+		social_democrat = { popularity = 27.3 }			
+		market_liberal = { popularity = 23.7 }			
+		conservative = { popularity = 3.8 }				
+		progressive = { popularity = 5.8 }				
+		reactionary = { popularity = 22.1 }				
+		social_liberal = { popularity = 8.5 }			
+		democratic_socialist = { popularity = 8.8 }		         	
 	}
 	
-	ruling_party = social_democrat
-	last_election = "1998.3.11"
+	ruling_party = market_liberal
+	last_election = "2015.6.18"
 	election_frequency = 48
 	elections_allowed = yes
 }
 
 create_country_leader = {
-	name = "Poul Nyrup Rasmussen"
-	picture = "Poul_Nyrup_Rasmussen.dds"
+	name = "Mette Frederiksen"
+	picture = "Mette_Frederiksen.dds"
 	ideology = social_democrat_ideology
 }
 
 create_country_leader = {
-	name = "Holger K. Nielsen"
-	picture = "Holger_K_Nielsen.dds"
+	name = "Uffe Elbæk"
+	picture = "Uffe_Elbaek.dds"
 	ideology = progressive_ideology  
 }
 
@@ -161,141 +160,49 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Collective Leadership"
-	picture = "enhedslisten.dds"
+	name = "Pernille Skipper"
+	picture = "Pernille_Skipper.dds"
 	ideology = democratic_socialist_ideology  
 }
 
 create_country_leader = {
-	name = "Anders Fogh Rasmussen"
-	picture = "Anders_Fogh_Rasmussen.dds"
+	name = "Lars Løkke Rasmussen"
+	picture = "Lars_Lokke_Rasmussen.dds"
 	ideology = libertarian
 }
 
 create_country_leader = {
-	name = "Bendt Bendtsen"
-	picture = "Bendt_Bendtsen.dds"
+	name = "Søren Pape Poulsen"
+	picture = "Soren_Pape_Poulsen.dds"
 	ideology = right_wing_conservative 
 }
 
 create_country_leader = {
-	name = "Pia Kjaersgaard"
-	picture = "Pia_Kjaersgaard.dds"
+	name = "Kristian Thulesen Dahl"
+	picture = "Kristian_Thulesen_Dahl.dds"
 	ideology = counter_progressive_democrat 
 }
 
 create_country_leader = {
-	name = "Marianne Jelved"
-	picture = "Marianne_Jelved.dds"
-	ideology = centrist
+	name = "Anders Samuelsen"
+	picture = "Anders_Samuelsen.dds"
+	ideology = liberalist
 }
 
 create_country_leader = {
-	name = "Jonni Hansen"
-	picture = "Jonni_Hansen.dds"
+	name = "Esben Kristensen"
+	picture = "Esben_Kristensen.dds"
 	ideology = national_socialist
 }
 
 create_country_leader = {
-	name = "Fadi Abdullatif"
-	picture = "Fadi_Abdullatif.dds"
-	ideology = islamic_authoritarian
-}
-
-create_country_leader = {
-	name = "Adam Wagner"
-	picture = "Adam_Wagner.dds"
+	name = "Arne Sørensen"
+	picture = "Arne_Sorensen.dds"
 	ideology = national_democrat  
 }
 
 create_country_leader = {
 	name = "Margrethe II"
-	picture = "Margrethe.dds"
+	picture = "Margrethe_II.dds"
 	ideology = absolute_monarchist
-}
-
-2015.7.29 = {
-	set_politics = {
-		parties = {
-			social_democrat = { popularity = 24.9 }		#Social Democrats
-			market_liberal = { popularity = 26.7 }		#Venstre + DSLP
-			conservative = { popularity = 4.9 }		#Conservative Peoples Party
-			progressive = { popularity = 4.8 }			#The Alternative
-			nationalist = { popularity = 2.3 }			# Danish Unity
-			social_liberal = { popularity = 5 }			#Liberal Alliance
-			democratic_socialist = { popularity = 15.9 }	#Red-Greens + Socialist Peoples Party
-			reactionary = { popularity = 10.0 }            #Danish Peoples Party
-		}
-		ruling_party = market_liberal
-		last_election = "2015.7.28"
-		election_frequency = 48
-		elections_allowed = yes
-	}	
-	
-	create_country_leader = {
-		name = "Lars Lokke Rasmussen"
-		picture = "Lars_Lokke_Rasmussen.dds"
-		ideology = libertarian
-	}
-	
-	create_country_leader = {
-		name = "Morten Ostergaard"
-		picture = "Morten_Ostergaard.dds"
-		ideology = centrist
-	}
-
-	create_country_leader = {
-		name = "Soren Pape Poulsen"
-		picture = "Soren_Pape_Poulsen.dds"
-		ideology = right_wing_conservative
-	}
-	
-	create_country_leader = {
-		name = "Mette Frederiksen"
-		picture = "Mette_Frederiksen.dds"
-		ideology = social_democrat_ideology
-	}
-	
-	create_country_leader = {
-		name = "Pia Olsen Dyhr"
-		picture = "Pia_Olsen_Dyhr.dds"
-		ideology = progressive_ideology  
-	}
-	
-	create_country_leader = {
-		name = "Kristian Thulesen Dahl"
-		picture = "Kristian_Thulesen_Dahl.dds"
-		ideology = counter_progressive_democrat 
-	}	
-
-	create_country_leader = {
-		name = "Esben Rohde Kristensen"
-		picture = "Esben_Rohde_Kristensen.dds"
-		ideology = national_socialist 
-	}	
-
-	create_country_leader = {
-		name = "Junes Kock"
-		picture = "Junes_Kock.dds"
-		ideology = islamic_authoritarian 
-	}	
-
-	create_country_leader = {
-		name = "Morten Uhrskov Jensen"
-		picture = "Morten_Uhrskov.dds"
-		ideology = national_democrat  
-	}
-
-	create_country_leader = {
-		name = "Pernille Skipper"
-		picture = "Pernille_Skipper.dds"
-		ideology = democratic_socialist_ideology
-	}
-
-	create_country_leader = {
-		name = "Margrethe II"
-		picture = "Margrethe.dds"
-		ideology = absolute_monarchist
-	}
-	
 }

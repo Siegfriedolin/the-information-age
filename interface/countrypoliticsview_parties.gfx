@@ -343,4 +343,64 @@ spriteTypes = {
 		name = "GFX_ideology_SWE_monarchist_group"
 		texturefile = "gfx/interface/ideologies/SWE/bernadotte.dds"
 	}
+	
+	spriteType = {
+		name = "GFX_ideology_DEN_communist_group"
+		texturefile = "gfx/interface/ideologies/DEN/dkp.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_DEN_social_liberal_group"
+		texturefile = "gfx/interface/ideologies/DEN/liberal.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_DEN_conservative_group"
+		texturefile = "gfx/interface/ideologies/DEN/conservative.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_DEN_progressive_group"
+		texturefile = "gfx/interface/ideologies/DEN/alternativet.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_DEN_social_democrat_group"
+		texturefile = "gfx/interface/ideologies/DEN/socialdemokratiet.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_DEN_market_liberal_group"
+		texturefile = "gfx/interface/ideologies/DEN/venstre.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_DEN_reactionary_group"
+		texturefile = "gfx/interface/ideologies/DEN/dansk_folkeparti.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_DEN_democratic_socialist_group"
+		texturefile = "gfx/interface/ideologies/DEN/enhedslisten.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_DEN_islamist_group"
+		texturefile = "gfx/interface/ideologies/multinational/hizb_ut_tahrir.dds"
+	}
+	
+	spriteType = {
+	    name = "GFX_ideology_DEN_fascist_group"
+	    texturefile = "gfx/interface/ideologies/DEN/dnsb.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_DEN_nationalist_group"
+		texturefile = "gfx/interface/ideologies/DEN/dansk_samling.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_DEN_monarchist_group"
+		texturefile = "gfx/interface/ideologies/DEN/glucksburg.dds"
+	}
 }
