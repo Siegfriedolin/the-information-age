@@ -411,3 +411,19 @@ country_event = {
 	}
 }
 
+country_event = {
+	id = taiwan.11
+	title = taiwan.11.t
+	desc = taiwan.11.d
+	picture = GFX_report_event_china_diplomacy
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = taiwan.11.o1
+        PRC = { annex_country = { target = CHI } }		
+		ai_chance = {
+			factor = 100
+      }
+}	  
+}
