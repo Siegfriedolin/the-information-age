@@ -1,0 +1,21 @@
+state={
+	id=997
+	name="STATE_997"
+	history={
+		owner = UKR
+		buildings = {
+			infrastructure = 4
+			3491 = {
+				bunker = 5
+			}
+		}
+		add_core_of = UKR
+		add_core_of = NOV
+	}
+	provinces={
+		502 3449 3466 3491 6420 6776 
+	}
+	manpower=461810
+	buildings_max_level_factor=1.000
+	state_category=state_level_4
+}

@@ -1,6 +1,6 @@
 ﻿capital = 227
 
-oob = "NOV_2016"
+oob = "NOV_2018"
 
 set_research_slots = 2
 set_convoys = 10
@@ -92,6 +92,7 @@ add_ideas = {
 	closed_economy
 	war_economy
 	service_by_requirement
+	partially_recognized_state
 	minsk_ceasefire
 }
 
@@ -137,7 +138,7 @@ create_corps_commander = {
 	skill = 3
 }
 
-2014.4.1 = {
+2018.1.1 = {
 	declare_war_on = {
 		target = UKR
 		type = take_core_state
