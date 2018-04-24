@@ -196,8 +196,8 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Arne Sørensen"
-	picture = "Arne_Sorensen.dds"
+	name = "Morten Uhrskov Jensen"
+	picture = "Morten_Uhrskov_Jensen.dds"
 	ideology = national_democrat  
 }
 
