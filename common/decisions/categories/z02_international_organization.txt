@@ -29,3 +29,7 @@ european_union_decisions = {
 		}
 	}
 }
+
+security_council = {
+	icon = united_nations
+}
