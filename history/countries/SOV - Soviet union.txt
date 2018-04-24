@@ -1,6 +1,6 @@
 ﻿capital = 219
 
-oob = "SOV_2000"
+oob = "SOV_2018"
 
 set_research_slots = 4
 set_convoys = 1000
@@ -196,8 +196,8 @@ create_country_leader = {
 	ideology = stalinist
 }
 create_country_leader = {
-	name = "Nicholas Romanov"
-	picture = "Nicholas_Romanov.dds"
+	name = "Andrew Romanov"
+	picture = "Andrew_Romanov.dds"
 	ideology = absolute_monarchist
 }
 create_country_leader = {
@@ -460,16 +460,6 @@ create_navy_leader = {
 	complete_national_focus = SOV_putinism
 	complete_national_focus = SOV_strengthen_CSTO
 	complete_national_focus = SOV_focus_on_ukraine
-}
-
-2008.1.1 = {
-	
-	set_party_name = {
-		ideology = conservative
-		long_name = SOV_conservative_party_PD_long
-		name = SOV_conservative_party_PD
-	}
-
 }
 
 2018.1.1 = {
