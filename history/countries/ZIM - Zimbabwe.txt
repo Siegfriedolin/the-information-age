@@ -1,6 +1,6 @@
 ﻿capital = 782
 
-oob = "ZIM_2000"
+oob = "ZIM_2018"
 
 set_research_slots = 2
 set_convoys = 10
@@ -98,52 +98,29 @@ set_technology = {
 add_ideas = {
 	population_growth_explosion
 	african_union_member
-	commonwealth_of_nations_member
 	ZIM_disgruntled_veterans
 }
 
 set_politics = {
-
 	parties = {
-		fascist = {
-			popularity = 10
-		}
-		nationalist = {
-			popularity = 50
-		}
-		conservative = {
-			popularity = 2
-		}
-		market_liberal = {
-			popularity = 2
-		}
-		social_liberal = {
-			popularity = 9
-		}
-		social_democrat = {
-			popularity = 25
-		}
-		communist = {
-			popularity = 2
-		}
+		fascist = { popularity = 7 }
+		nationalist = { popularity = 55 }
+		conservative = { popularity = 1 }
+		social_liberal = { popularity = 32 }
+		democratic_socialist = { popularity = 5 }
+		communist = { popularity = 0 }
 	}
-	
+
 	ruling_party = nationalist
-	last_election = "1996.3.16"
+	last_election = "2013.7.31"
 	election_frequency = 72
 	elections_allowed = yes
 }
 
 create_country_leader = {
-	name = "Robert Mugabe"
-	picture = "Robert_Mugabe.dds"
-	ideology = black_supremacist
-}
-
-create_country_leader = {
-	name = "Robert Mugabe"
-	picture = "Robert_Mugabe.dds"
-	ideology = proto_fascist
+	name = "Emmerson Mnangagwa"
+	picture = "Emmerson_Mnangagwa.dds"
+	ideology = national_democrat 
 }
 
 create_country_leader = {
@@ -176,42 +153,8 @@ create_country_leader = {
 	ideology = progressive_ideology
 }
 
-create_country_leader = {
-	name = "Ian Smith"
-	picture = "Ian_Smith.dds"
-	ideology = fiscal_conservative
-}
-
-create_country_leader = {
-	name = "Ian Smith"
-	picture = "Ian_Smith.dds"
-	ideology = fiscal_conservative
-}
-
 create_corps_commander = {
 	name = "Constantine Chiwenga"
 	picture = "generals/Constantine_Chiwenga.dds"
 	skill = 1
-}
-
-2003.1.1 = {
-	remove_ideas = commonwealth_of_nations_member
-}
-
-2016.1.1 = {
-	set_politics = {
-		parties = {
-			fascist = { popularity = 7 }
-			nationalist = { popularity = 55 }
-			conservative = { popularity = 1 }
-			social_liberal = { popularity = 32 }
-			democratic_socialist = { popularity = 5 }
-			communist = { popularity = 0 }
-		}
-
-		ruling_party = nationalist
-		last_election = "2013.7.31"
-		election_frequency = 72
-		elections_allowed = yes
-	}
 }
