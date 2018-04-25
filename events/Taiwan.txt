@@ -281,7 +281,6 @@ country_event = {
 		PRC = { release = TIB }
 	    PRC = { end_puppet = MCU }
 		PRC = { end_puppet = HKN }
-		SIK = { transfer_state = 788 } #Aksai Chin
 		TIB = { load_oob = TIB_tibetan_uprising_rebels }
 		SIK = { load_oob = SIK }
 		CHI = { load_oob = CHI_civil_war }
