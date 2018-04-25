@@ -12,6 +12,8 @@
 	}
 
 	default = no
+	
+	continuous_focus_position = { x = 1500 y = 10000 }
 
     focus = {
 		id = CHI_Conflict_in_Asia
@@ -59,7 +61,7 @@
 	focus = {
 		id = CHI_A_New_Dream
 		icon = national_greatness
-		x = 6
+		x = 4
 		y = 1
 		cost = 10
 		
@@ -133,7 +135,7 @@
 			factor = 35
 		}
 	}
-	
+		
 	focus = {
 		id = CHI_Internal_Focus
 		icon = national_unity
@@ -1355,6 +1357,521 @@
 			factor = 35
 		}
 	}
+	
+	focus = {
+		id = CHI_Path_of_Change
+		icon = demand_territory3
+		x = 4
+		y = 3
+		cost = 10
+		
+		prerequisite = {
+			focus = CHI_A_New_Dream
+		}
+		
+	
+		completion_reward = {
+		add_stability = 0.01
+		add_political_power = 50
+		}
+		
+		ai_will_do = {
+			factor = 35
+		}
+	}
+	
+	focus = {
+		id = CHI_Weaken_the_KMT
+		icon = attack_fascism
+		x = 4
+		y = 2
+		cost = 10
+		
+		prerequisite = {
+			focus = CHI_Path_of_Change
+		}
+		
+	
+		completion_reward = {
+		add_political_power = -50
+		add_popularity = {
+	    ideology = conservative
+	    popularity = -0.05 }
+		
+		}
+		
+		ai_will_do = {
+			factor = 35
+		}
+	}
+	
+	focus = {
+		id = CHI_Start_The_Process_of_Reconciliation
+		icon = major_alliance
+		x = 4
+		y = 3
+		cost = 10
+		
+		prerequisite = {
+			focus = CHI_Weaken_the_KMT
+		}
+		
+	
+		completion_reward = {
+		add_stability = 0.01
+		add_political_power = 40
+		
+		}
+		
+		ai_will_do = {
+			factor = 35
+		}
+	}
+	
+	focus = {
+		id = CHI_End_Pro-War_Propaganda
+		icon = continuous_boost_freedom
+		x = 4
+		y = 4
+		cost = 10
+		
+		prerequisite = {
+			focus = CHI_Start_The_Process_of_Reconciliation
+		}
+		
+	
+		completion_reward = {
+		remove_ideas = idea_CHI_grudge
+		add_ideas = idea_focus_personal_freedoms
+		
+		}
+		
+		ai_will_do = {
+			factor = 35
+		}
+	}
+	
+	focus = {
+		id = CHI_Small_Trade_Agreements
+		icon = trade_with_china
+		x = 6
+		y = 4
+		cost = 10
+		
+		prerequisite = {
+			focus = CHI_Start_The_Process_of_Reconciliation
+		}
+		
+	
+		completion_reward = {
+		PRC = { add_opinion_modifier = { target = CHI modifier = trade_influence_1 } }
+		CHI = { add_opinion_modifier = { target = PRC modifier = trade_influence_1 } }
+		}
+		
+		ai_will_do = {
+			factor = 35
+		}
+	}
+	
+	focus = {
+		id = CHI_Give_Up_Senkaku_Islands
+		icon = align_to_japan
+		x = 2
+		y = 4
+		cost = 10
+		
+		prerequisite = {
+			focus = CHI_Start_The_Process_of_Reconciliation
+		}
+		
+	
+		completion_reward = {
+		PRC = { add_opinion_modifier = { target = CHI modifier = recent_actions_positive } }
+		JAP = { add_opinion_modifier = { target = PRC modifier = recent_actions_positive } }
+		876 = { remove_core_of = CHI }
+		}
+		
+		ai_will_do = {
+			factor = 35
+		}
+	}
+	
+	focus = {
+		id = CHI_Reconciliation_with_the_PRC
+		icon = align_to_china
+		x = 4
+		y = 5
+		cost = 10
+		
+		prerequisite = {
+			focus = CHI_Give_Up_Senkaku_Islands
+		}
+		prerequisite = {
+			focus = CHI_Small_Trade_Agreements
+		}
+		prerequisite = {
+			focus = CHI_End_Pro-War_Propaganda
+		}
+		
+	
+		completion_reward = {
+		PRC = { add_opinion_modifier = { target = CHI modifier = established_diplomatic_relations } }
+		CHI = { add_opinion_modifier = { target = PRC modifier = established_diplomatic_relations } }
+		PRC = { add_opinion_modifier  = { target = CHI modifier = new_diplomatic_missions } }
+		CHI = { add_opinion_modifier  = { target = PRC modifier = new_diplomatic_missions } }
+		add_stability = 0.04
+		add_political_power = 30
+		}
+		
+		ai_will_do = {
+			factor = 35
+		}
+	}
+	
+	focus = {
+		id = CHI_Open_the_Political_Sphere
+		icon = neutrality
+		x = 4
+		y = 6
+		cost = 10
+		
+		prerequisite = {
+			focus = CHI_Reconciliation_with_the_PRC
+		}
+		
+	
+		completion_reward = {
+		add_political_power = 300
+		}
+		
+		ai_will_do = {
+			factor = 35
+		}
+	}
+	
+	focus = {
+		id = CHI_Rise_of_Third_Parties
+		icon = improve_relations_green
+		x = 6
+		y = 7
+		cost = 10
+		
+		prerequisite = {
+			focus = CHI_Open_the_Political_Sphere
+		}
+		
+		mutually_exclusive = {
+		focus = CHI_Rise_of_the_DPP
+		}
+		
+	
+		completion_reward = {
+		add_political_power = -50
+		add_popularity = {
+	    ideology = social_liberal
+	    popularity = -0.05 }
+		add_popularity = {
+	    ideology = democratic_socialist
+	    popularity = 0.05 }
+		add_popularity = {
+	    ideology = communist
+	    popularity = 0.05 }
+		add_popularity = {
+	    ideology = progressive
+	    popularity = 0.05 }
+		
+		}
+		
+		ai_will_do = {
+			factor = 35
+		}
+	}
+	
+	focus = {
+		id = CHI_Rise_of_The_DPP
+		icon = improve_relations_green
+		x = 2
+		y = 7
+		cost = 10
+		
+		prerequisite = {
+			focus = CHI_Open_the_Political_Sphere
+		}
+		
+		mutually_exclusive = {
+		focus = CHI_Rise_of_Third_Parties
+		}
+		
+	
+		completion_reward = {
+		add_political_power = -50
+		add_popularity = {
+	    ideology = social_liberal
+	    popularity = 0.05 }
+		
+		}
+		
+		ai_will_do = {
+			factor = 35
+		}
+	}
+	
+	focus = {
+		id = CHI_Rise_of_The_Progressives
+		icon = leftism
+		x = 8
+		y = 8
+		cost = 10
+		
+		prerequisite = {
+			focus = CHI_Rise_of_Third_Parties
+		}
+		
+		mutually_exclusive = {
+		focus = CHI_Rise_of_the_Workers
+		}
+		
+	
+		completion_reward = {
+		add_popularity = {
+	    ideology = progressive
+	    popularity = 0.05 }
+		add_popularity = {
+	    ideology = social_liberal
+	    popularity = -0.05 }
+		
+		
+		}
+		
+		ai_will_do = {
+			factor = 35
+		}
+	}
+	
+	focus = {
+		id = CHI_Elect_a_Environmentalist_Government
+		icon = democracy
+		x = 8
+		y = 9
+		cost = 10
+		
+		prerequisite = {
+			focus = CHI_Rise_of_The_Progressives
+		}
+	
+		
+	
+		completion_reward = {
+		add_popularity = {
+	    ideology = progressive
+	    popularity = 0.1 }
+		add_popularity = {
+	    ideology = social_liberal
+	    popularity = -0.05 }
+		set_politics = {
+        ruling_party = progressive
+        elections_allowed = yes
+                              }
+		
+		
+		}
+		
+		ai_will_do = {
+			factor = 35
+		}
+	}
+	
+	focus = {
+		id = CHI_Ecological_Reforms
+		icon = agriculture
+		x = 8
+		y = 10
+		cost = 10
+		
+		prerequisite = {
+			focus = CHI_Elect_a_Environmentalist_Government
+		}
+		
+	
+		completion_reward = {
+		add_ideas = idea_focus_generic_progressive_doctrine
+		}
+		
+		ai_will_do = {
+			factor = 35
+		}
+	}
+	
+	focus = {
+		id = CHI_Rise_of_The_Workers
+		icon = communism5
+		x = 6
+		y = 8
+		cost = 10
+		
+		prerequisite = {
+			focus = CHI_Rise_of_Third_Parties
+		}
+		
+		mutually_exclusive = {
+		focus = CHI_Rise_of_The_Progressives
+		}
+		
+	
+		completion_reward = {
+		add_popularity = {
+	    ideology = communist
+	    popularity = 0.05 }
+		add_popularity = {
+	    ideology = social_liberal
+	    popularity = -0.05 }
+		
+		
+		}
+		
+		ai_will_do = {
+			factor = 35
+		}
+	}
+	
+	focus = {
+		id = CHI_Strenghten_Syndicalist_Movements
+		icon = communism5
+		x = 6
+		y = 9
+		cost = 10
+		
+		prerequisite = {
+			focus = CHI_Rise_of_The_Workers
+		}
+		
+
+		
+	
+		completion_reward = {
+		add_popularity = {
+	    ideology = communist
+	    popularity = 0.05 }
+		country_event = generic.1
+		
+		
+		}
+		
+		ai_will_do = {
+			factor = 35
+		}
+	}
+	
+	focus = {
+		id = CHI_Spread_Pro-Unification_Propaganda
+		icon = propaganda_communist
+		x = 6
+		y = 10
+		cost = 10
+		
+		prerequisite = {
+			focus = CHI_Strenghten_Syndicalist_Movements
+		}
+		
+		
+	
+		completion_reward = {
+		add_popularity = {
+	    ideology = communist
+	    popularity = 0.05 }
+		country_event = generic.1
+		
+		
+		}
+		
+		ai_will_do = {
+			factor = 35
+		}
+	}
+	
+	focus = {
+		id = CHI_Prepare_the_Revolution
+		icon = communism8
+		x = 6
+		y = 11
+		cost = 10
+		
+		prerequisite = {
+			focus = CHI_Spread_Pro-Unification_Propaganda
+		}
+		
+		
+	
+		completion_reward = {
+		add_popularity = {
+	    ideology = communist
+	    popularity = 0.05 }		
+		
+		}
+		
+		ai_will_do = {
+			factor = 35
+		}
+	}
+	
+	focus = {
+		id = CHI_Communist_Takeover
+		icon = red_dragon
+		x = 6
+		y = 12
+		cost = 10
+		
+		prerequisite = {
+			focus = CHI_Prepare_the_Revolution
+		}
+		
+		
+	
+		completion_reward = {
+		add_popularity = {
+	    ideology = communist
+	    popularity = 0.1 }
+        set_politics = {
+		ruling_party = communist
+		elections_allowed = no
+		}
+                 		
+		
+		}
+		
+		ai_will_do = {
+			factor = 35
+		}
+	}
+	
+	focus = {
+		id = CHI_Finally_Unified
+		icon = become_puppet
+		x = 6
+		y = 13
+		cost = 10
+		
+		prerequisite = {
+			focus = CHI_Communist_Takeover
+		}
+		
+		
+	
+		completion_reward = {
+		PRC = { country_event = taiwan.11 }
+		}
+                 		
+		
+		}
+		
+		ai_will_do = {
+			factor = 35
+		}
+	}
+	
+	
+	
+	
 
 	
 	
