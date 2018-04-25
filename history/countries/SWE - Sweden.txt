@@ -100,7 +100,7 @@ add_ideas = {
 
 2018.1.1 = {
 	set_country_flag = european_union_member_state
-	add_timed_idea = { idea = idea_united_nations_NP_security_council_member days = 358 }
+	add_timed_idea = { idea = idea_united_nations_NP_security_council_member days = 364 }
 }
 
 set_politics = {
