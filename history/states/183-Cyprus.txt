@@ -5,6 +5,7 @@ state={
 
 	history={
 		owner = CYP
+		add_core_of = CYP
 		buildings = {
 			infrastructure = 6
 			air_base = 1

@@ -403,4 +403,19 @@ spriteTypes = {
 		name = "GFX_ideology_DEN_monarchist_group"
 		texturefile = "gfx/interface/ideologies/DEN/glucksburg.dds"
 	}
+	
+	spriteType = {
+		name = "GFX_ideology_SYR_nationalist_group"
+		texturefile = "gfx/interface/ideologies/SYR/baath.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_SYR_conservative_group"
+		texturefile = "gfx/interface/ideologies/SYR/national_coalition.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_FSA_conservative_group"
+		texturefile = "gfx/interface/ideologies/SYR/national_coalition.dds"
+	}
 }
