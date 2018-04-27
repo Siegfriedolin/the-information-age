@@ -31,12 +31,12 @@ european_union_decisions = {
 	adopt_euro = {
 		visible = {
 			is_EU_member = yes
+			NOT = { has_idea = the_euro }
 		}
 		
 		available = {
 			has_democratic_form_of_government = yes
 			NOT = {
-			    has_idea = the_euro
 			    has_government = reactionary
 				has_government = democratic_socialist
 			}
