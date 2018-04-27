@@ -1,4 +1,4 @@
-add_namespace = taiwan_news
+﻿add_namespace = taiwan_news
 news_event = {
 	id = taiwan_news.1
 	title = taiwan_news.1.t

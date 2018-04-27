@@ -1,6 +1,6 @@
 ﻿capital = 230
 
-oob = "ARM_2000"
+oob = "ARM_2018"
 
 set_research_slots = 3
 set_convoys = 40
@@ -106,8 +106,8 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Robert Kocharyan"
-	picture = "Robert_Kocharyan.dds"
+	name = "Serzh Sargsyan"
+	picture = "Serzh_Sargsyan.dds"
 	ideology = fiscal_conservative
 }
 
