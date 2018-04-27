@@ -2101,7 +2101,7 @@
 		PRC = { every_owned_state =  { remove_core_of = CHI } }
 		MON = { every_owned_state = { remove_core_of = CHI } }
 		SOV = { every_owned_state = { remove_core_of = CHI } }
-		set_cosmetic_tag = CHI_Indepedent
+		set_cosmetic_tag = CHI_TAIWAN
 		
 		}
 	
