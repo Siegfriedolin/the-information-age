@@ -823,5 +823,10 @@ spriteTypes = {
 	   name = "GFX_news_event_chinesecivilwar"
 	   texturefile = "gfx/event_pictures/news_event/china/chinesecivilwar2.dds"
 	}
+	
+	spriteType= {
+	   name = "GFX_news_event_taiwanindepedence"
+	   texturefile = "gfx/event_pictures/news_event/china/taiwanindepedence.dds"
+	}
 
 }

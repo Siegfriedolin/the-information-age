@@ -1004,3 +1004,11 @@ spriteTypes = {
 	   name = "GFX_report_event_chinesecivilwar"
 	   texturefile = "gfx/event_pictures/report_event/china/chinesecivilwar.dds"
 	}
+	
+	spriteType= {
+	   name = "GFX_report_event_twochinas"
+	   texturefile = "gfx/event_pictures/report_event/china/twochinas.dds"
+	}
+	
+	}
+	

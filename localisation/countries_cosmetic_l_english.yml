@@ -322,3 +322,6 @@
  CHI_Reunified_conservative:0 "China"
  CHI_Reunified_conservative_ADJ:0 "Chinese"
  CHI_Reunified_conservative_DEF:0 "The Chinese Republic"
+ CHI_Indepedent_social_liberal:0 "Republic of Taiwan"
+ CHI_Indepedent_social_liberal_ADJ:0 "Taiwanese"
+ CHI_Indepedent_social_liberal_DEF:0 "The Republic of Taiwan"

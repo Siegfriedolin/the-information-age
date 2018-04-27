@@ -1359,28 +1359,6 @@
 	}
 	
 	focus = {
-		id = CHI_Path_of_Change
-		icon = demand_territory3
-		x = 4
-		y = 3
-		cost = 10
-		
-		prerequisite = {
-			focus = CHI_A_New_Dream
-		}
-		
-	
-		completion_reward = {
-		add_stability = 0.01
-		add_political_power = 50
-		}
-		
-		ai_will_do = {
-			factor = 35
-		}
-	}
-	
-	focus = {
 		id = CHI_Weaken_the_KMT
 		icon = attack_fascism
 		x = 4
@@ -1388,7 +1366,7 @@
 		cost = 10
 		
 		prerequisite = {
-			focus = CHI_Path_of_Change
+			focus = CHI_A_New_Dream	
 		}
 		
 	
@@ -1561,7 +1539,7 @@
 		}
 		
 		mutually_exclusive = {
-		focus = CHI_Rise_of_the_DPP
+		focus = CHI_Rise_of_The_DPP
 		}
 		
 	
@@ -1628,7 +1606,7 @@
 		}
 		
 		mutually_exclusive = {
-		focus = CHI_Rise_of_the_Workers
+		focus = CHI_Rise_of_The_Workers
 		}
 		
 	
@@ -1862,6 +1840,29 @@
 		}
                  		
 		
+		
+		
+		ai_will_do = {
+			factor = 35
+		}
+	
+	} 
+	focus = {
+		id = CHI_Stabilize_the_Politics
+		icon = neutrality
+		x = 2
+		y = 8
+		cost = 10
+		
+		prerequisite = {
+			focus = CHI_Rise_of_The_DPP
+		}
+		
+		
+	
+		completion_reward = {
+		add_political_power = 200
+		add_stability = 0.01
 		}
 		
 		ai_will_do = {
@@ -1869,13 +1870,244 @@
 		}
 	}
 	
+	focus = {
+		id = CHI_End_the_Anti-Secession_Law
+		icon = renounce_treaty
+		x = 2
+		y = 9
+		cost = 10
+		
+		prerequisite = {
+			focus = CHI_Stabilize_the_Politics
+		}
+		
+		
 	
+		completion_reward = {
+		add_political_power = 200
+		add_stability = 0.01
+		}
+		
+		ai_will_do = {
+			factor = 35
+		}
+	}
 	
+	focus = {
+		id = CHI_Unpopularize_the_One_China_Dream
+		icon = destroy_society
+		x = 0
+		y = 9
+		cost = 10
+		
+		prerequisite = {
+			focus = CHI_Stabilize_the_Politics
+		}
+		
+		
 	
+		completion_reward = {
+		add_political_power = -50
+		add_stability = 0.02
+		add_war_support = -0.1
+		add_popularity = {
+	    ideology = conservative
+	    popularity = -0.1 }
+		
+		}
+		
+		ai_will_do = {
+			factor = 35
+		}
+	}
+	
+	focus = {
+		id = CHI_Liberalization_Over_Tradition
+		icon = industry_democratic3
+		x = 4
+		y = 9
+		cost = 10
+		
+		prerequisite = {
+			focus = CHI_Stabilize_the_Politics
+		}
+		
+		
+	
+		completion_reward = {
+		add_political_power = 100
+		add_ideas = idea_focus_PRC_free_markets
+		
+		}
+		
+		ai_will_do = {
+			factor = 35
+		}
+	}
+	
+	focus = {
+		id = CHI_Spread_Pro-Indepedence_Propaganda
+		icon = propaganda
+		x = 2
+		y = 10
+		cost = 10
+		
+		prerequisite = {
+			focus = CHI_End_the_Anti-Secession_Law
+		}
+		
+		prerequisite = {
+			focus = CHI_Liberalization_Over_Tradition
+		}
+		
+		prerequisite = {
+			focus = CHI_Unpopularize_the_One_China_Dream
+		}
+		
+		
+	
+		completion_reward = {
+		add_political_power = 200
+		add_popularity = {
+	    ideology = social_liberal
+	    popularity = 0.1 }
+		increase_social_liberal_influence_by_1 = yes
+        }		
+		ai_will_do = {
+			factor = 35
+		}
+	}
+	
+	focus = {
+		id = CHI_Prepare_Negotiations
+		icon = intelligence_exchange
+		x = 2
+		y = 11
+		cost = 10
+		
+		prerequisite = {
+			focus = CHI_Spread_Pro-Indepedence_Propaganda
+		}
+		
+		
+	
+		completion_reward = {
+		add_political_power = 200
+		PRC = { add_opinion_modifier = { target = CHI modifier = diplomatic_support } }
+		}
+	
+		ai_will_do = {
+			factor = 35
+		}
+	}
+	
+	focus = {
+		id = CHI_Negotiate_our_Indepedence
+		icon = diplomatic_treaty
+		x = 2
+		y = 12
+		cost = 10
+		
+		prerequisite = {
+			focus = CHI_Prepare_Negotiations
+		}
+		
+		
+	
+		completion_reward = {
+		PRC = { add_opinion_modifier = { target = CHI modifier = diplomatic_support } }
+		PRC = { country_event =  taiwan.12  }
+		}
+	
+		ai_will_do = {
+			factor = 35
+		}
+	}
+	
+	focus = {
+		id = CHI_Offer_Coastal_Islands
+		icon = diplomatic_treaty
+		x = 0
+		y = 13
+		cost = 10
+		
+		prerequisite = {
+			focus = CHI_Negotiate_our_Indepedence
+		}
+		
+		mutually_exclusive = {
+		focus = CHI_Offer_Spratly_Islands
+		}
+		
+		
+	
+		completion_reward = {
+		add_political_power = -30
+		PRC = { country_event = taiwan.13  }
+		}
+	
+		ai_will_do = {
+			factor = 35
+		}
+	}
+	
+	focus = {
+		id = CHI_Offer_Spratly_Islands
+		icon = diplomatic_treaty
+		x = 4
+		y = 13
+		cost = 10
+		
+		mutually_exclusive = {
+		focus = CHI_Offer_Coastal_Islands
+		}
+		
+		prerequisite = {
+		focus = CHI_Negotiate_our_Indepedence
+		}	
+	
+		completion_reward = {
+		add_political_power = -30
+		PRC = { country_event = taiwan.14  }
+		}
+	
+		ai_will_do = {
+			factor = 35
+		}
+	}
+	
+	focus = {
+		id = CHI_Declare_our_Indepedence
+		icon = demand_territory2
+		x = 2
+		y = 14
+		cost = 10
+		available = {
+		NOT = {
+		any_owned_state = { is_core_of = PRC }
+        }
+        }
+		
+		prerequisite = {
+			focus = CHI_Offer_Coastal_Islands
+			focus = CHI_Offer_Spratly_Islands
+		}
+		
+		
+	
+		completion_reward = {
+		add_political_power = -30
+		every_country = { news_event =  taiwan_news.2  }
+		PRC = { every_owned_state =  { remove_core_of = CHI } }
+		MON = { every_owned_state = { remove_core_of = CHI } }
+		SOV = { every_owned_state = { remove_core_of = CHI } }
+		set_cosmetic_tag = CHI_Indepedent
+		
+		}
+	
+		ai_will_do = {
+			factor = 35
+		}
+	}
 
-	
-	
-	
-	
-	
 	}
