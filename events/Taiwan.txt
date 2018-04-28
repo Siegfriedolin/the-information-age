@@ -573,3 +573,61 @@ country_event = {
 }
 }
 
+country_event = {
+	id = taiwan.17
+	title = taiwan.17.t
+	desc = taiwan.17.d
+	picture = GFX_report_event_political_deal
+	
+	is_triggered_only = yes
+	
+	option = {	#Sure.
+		name = taiwan.17.o1
+		
+		CHI = { add_to_faction = ROOT }
+		CHI = { country_event = diplomatic_response.1 }
+		
+		ai_chance = {
+			factor = 90
+		}
+	}
+	
+	option = {
+		name = taiwan.17.o2
+		
+		CHI = { country_event = diplomatic_response.2 }
+		
+		ai_chance = {
+			factor = 10
+		}
+	}
+}
+
+country_event = {
+	id = taiwan.18
+	title = taiwan.18.t
+	desc = taiwan.18.d
+	picture = GFX_report_event_political_deal
+	
+	is_triggered_only = yes
+	
+	option = {	#Sure.
+		name = taiwan.18.o1
+		
+        CHI = { end_puppet = HKN }		
+		ai_chance = {
+			factor = 99
+		}
+	}
+	
+	option = {
+		name = taiwan.17.o2
+		
+		CHI = { add_opinion_modifier = { target = PRC modifier = recent_actions_negative } }
+		
+		ai_chance = {
+			factor = 1
+		}
+	}
+}
+

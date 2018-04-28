@@ -195,6 +195,11 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
+		name = "align_to_china2"
+		texturefile = "gfx/interface/goals/alignment/align_to_china2.dds"			
+	}
+	
+	SpriteType = {
 		name = "align_to_colombia"
 		texturefile = "gfx/interface/goals/alignment/align_to_colombia.dds"			
 	}
@@ -297,6 +302,11 @@ spriteTypes = {
 	SpriteType = {
 		name = "align_to_guyana"
 		texturefile = "gfx/interface/goals/alignment/align_to_guyana.dds"			
+	}
+	
+	SpriteType = {
+		name = "align_to_hong_kong"
+		texturefile = "gfx/interface/goals/alignment/align_to_hong_kong.dds"			
 	}
 	
 	SpriteType = {
@@ -465,6 +475,11 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
+		name = "align_to_singapore"
+		texturefile = "gfx/interface/goals/alignment/align_to_singapore.dds"			
+	}
+	
+	SpriteType = {
 		name = "align_to_solomons"
 		texturefile = "gfx/interface/goals/alignment/align_to_solomons.dds"			
 	}
@@ -477,6 +492,11 @@ spriteTypes = {
 	SpriteType = {
 		name = "align_to_south_korea"
 		texturefile = "gfx/interface/goals/alignment/align_to_south_korea.dds"			
+	}
+	
+	SpriteType = {
+		name = "align_to_south_korea2"
+		texturefile = "gfx/interface/goals/alignment/align_to_south_korea2.dds"			
 	}
 	
 	SpriteType = {
@@ -2755,11 +2775,15 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/taiwan/conflictroc.dds"			
 	}
 	
-		SpriteType = {
+	SpriteType = {
 		name = "nationalism"
 		texturefile = "gfx/interface/goals/diplomacy/nationalist.dds"			
 	}
 	
+	SpriteType = {
+		name = "tiger"
+		texturefile = "gfx/interface/goals/taiwan/tiger.dds"			
+	}
 
 	
 	#those without a category

@@ -1352,6 +1352,7 @@
 		completion_reward = {
 		set_cosmetic_tag = CHI_Reunified
 		remove_ideas = partially_recognized_state
+		add_ideas = idea_united_nations_security_council_member
 		}		
 		ai_will_do = {
 			factor = 35
@@ -2003,7 +2004,7 @@
 	
 	focus = {
 		id = CHI_Negotiate_our_Indepedence
-		icon = diplomatic_treaty
+		icon = align_to_china2
 		x = 2
 		y = 12
 		cost = 10
@@ -2109,5 +2110,167 @@
 			factor = 35
 		}
 	}
+	
+	focus = {
+		id = CHI_Push_for_Recognition
+		icon = align_to_united_nations
+		x = 2
+		y = 15
+		cost = 10
+		
+		prerequisite = {
+	    focus = CHI_Declare_our_Indepedence
+		}
+		
+		
+	
+		completion_reward = {
+		add_political_power = 50
+		remove_ideas = partially_recognized_state
+		}
+	
+		ai_will_do = {
+			factor = 35
+		}
+	}
+	
+	focus = {
+		id = CHI_The_Asian_Tigers
+		icon = tiger
+		x = 2
+		y = 16
+		cost = 10
+		
+		prerequisite = {
+	    focus = CHI_Push_for_Recognition
+		}
+		
+		
+	
+		completion_reward = {
+		create_faction = "The Asian Tigers"
+		add_stability = 0.01
+		}
+	
+		ai_will_do = {
+			factor = 35
+		}
+	}
+	
+	focus = {
+		id = CHI_Invite_Singapore
+		icon = align_to_singapore
+		x = 4
+		y = 17
+		cost = 10
+		
+		prerequisite = {
+	    focus = CHI_The_Asian_Tigers
+		}
+		
+		
+	
+		completion_reward = {
+		SIG = { country_event = taiwan.17 }
+		}
+	
+		ai_will_do = {
+			factor = 35
+		}
+	}
+	
+	focus = {
+		id = CHI_Invite_South_Korea
+		icon = align_to_south_korea2
+		x = 0
+		y = 17
+		cost = 10
+		
+		prerequisite = {
+	    focus = CHI_The_Asian_Tigers
+		}
+		
+		
+	
+		completion_reward = {
+		KOR = { country_event = taiwan.17 }
+		}
+	
+		ai_will_do = {
+			factor = 35
+		}
+	}
+	
+	focus = {
+		id = CHI_Purchase_Hong_Kong_Indepedence
+		icon = money
+		x = 2
+		y = 18
+		cost = 10
+		
+		prerequisite = {
+	    focus = CHI_The_Asian_Tigers
+		}
+		
+		
+	
+		completion_reward = {
+		PRC = { country_event = taiwan.18 }
+		}
+	
+		ai_will_do = {
+			factor = 35
+		}
+	}
+	
+	focus = {
+		id = CHI_Invite_Hong_Kong
+		icon = align_to_hong_kong
+		x = 2
+		y = 19
+		cost = 10
+		available = {
+		HKN = { is_puppet = no }
+		}
+		prerequisite = {
+	    focus = CHI_Purchase_Hong_Kong_Indepedence
+		}
+		
+		
+	
+		completion_reward = {
+		HKN = { country_event = taiwan.17 }
+		}
+	
+		ai_will_do = {
+			factor = 35
+		}
+	}
+	
+	focus = {
+		id = CHI_The_New_Dream_Realized
+		icon = golden_dragon
+		x = 2
+		y = 20
+		cost = 10
+		
+		prerequisite = {
+	    focus = CHI_Invite_Hong_Kong
+		}
+		
+		
+	
+		completion_reward = {
+        add_stability = 0.03
+		add_political_power = 100
+		}
+	
+		ai_will_do = {
+			factor = 35
+		}
+	}
 
+	
+	
+	
 	}
