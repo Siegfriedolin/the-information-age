@@ -514,6 +514,7 @@ focus_tree = {
 		
 		completion_reward = {
 		    remove_ideas = parliamentary_crisis
+		    remove_ideas = EST_communist_party_banned
 		}
 		
 		ai_will_do = {
