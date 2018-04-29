@@ -136,8 +136,8 @@ create_country_leader = {
 
 2016.1.1 = {
 	create_country_leader = {
-		name = "Tony Tan Keng Yam"
-		picture = "Tony_Tan_Keng_Yam.dds"
+		name = "Halimah Yacob"
+		picture = "Halimah_Yacob.dds"
 		ideology = constitutionalist
 	}
 }

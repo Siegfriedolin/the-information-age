@@ -1905,6 +1905,11 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
+		name = "chromium"
+		texturefile = "gfx/interface/goals/economy/chromium.dds"			
+	}
+	
+	SpriteType = {
 		name = "russian_ruble"
 		texturefile = "gfx/interface/goals/economy/russian_ruble.dds"			
 	}
@@ -2227,6 +2232,16 @@ spriteTypes = {
 	SpriteType = {
 		name = "samurai"
 		texturefile = "gfx/interface/goals/japan/samurai.dds"			
+	}
+	
+	SpriteType = {
+		name = "gay"
+		texturefile = "gfx/interface/goals/japan/gay.dds"			
+	}
+	
+	SpriteType = {
+		name = "zaibatsu"
+		texturefile = "gfx/interface/goals/japan/zaibatsu.dds"			
 	}
 	
 	SpriteType = {

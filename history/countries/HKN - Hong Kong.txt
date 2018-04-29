@@ -123,10 +123,10 @@ create_country_leader = {
 	picture = "Tung_Chee_Hwa.dds"
 }
 
-2015.1.1 = {
+2017.3.26 = {
 	create_country_leader = {
-		name = "Leung Chun-ying"
+		name = "Carrie Lam"
 		ideology = constitutionalist
-		picture = "Leung_Chun_Ying.dds"
+		picture = "Carrie_Lam.dds"
 	}
 }
