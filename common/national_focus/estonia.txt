@@ -191,7 +191,7 @@ focus_tree = {
 		
 		completion_reward = {
 		    add_stability = 0.02
-			add_political_power = 20
+			add_political_power = 100
 		}
 		
 		ai_will_do = {
@@ -523,8 +523,8 @@ focus_tree = {
 	}
 	
 	    focus = {
-		id = EST_fdgfbvcb
-		icon = military_mission
+		id = EST_nationalize_the_industry
+		icon = central_management
 		
 		x = 12
 		y = 9
@@ -539,12 +539,12 @@ focus_tree = {
 			focus = EST_favor_a_worker_society
 		}
 		
-		mutually_exclusive = {}
+		mutually_exclusive = {
+		    focus = EST_state_private_industry
+		}
 		
 		completion_reward = {
-		    set_party_name = {
-			ideology = communist long_name = "Eestimaa Kommunistlik Partei" = EKP
-			}
+		    add_stability = 0.05
 		}
 		
 		ai_will_do = {
@@ -655,8 +655,8 @@ focus_tree = {
 	}
 	
 	    focus = {
-		id = EST_european_development_aid
-		icon = align_to_europe
+		id = EST_expand_the_E263
+		icon = infrastructure
 		
 		x = 3
 		y = 1
@@ -672,10 +672,6 @@ focus_tree = {
 		}
 		
 		mutually_exclusive = {}
-		
-		available = {
-			IF = { has_idea = idea_eu_member }
-		}
 		
 		completion_reward = {
 		    if = {
@@ -694,7 +690,7 @@ focus_tree = {
 						add_extra_state_shared_building_slots = 1
 						add_building_construction = {
 							type = infrastructure
-							level = 1
+							level = 2
 							instant_build = yes
 						}
 					}
@@ -712,7 +708,7 @@ focus_tree = {
 		icon = oil_production
 		
 		x = 2
-		y = 2
+		y = 3
 		
 		cost = 10
         
@@ -721,17 +717,163 @@ focus_tree = {
 		available_if_capitulated = yes
 		
 		prerequisite = {
-			focus = EST_industrial_focus
+			focus = EST_first_five_year_plan
+		}
+		
+		mutually_exclusive = {
+		    focus = EST_support_alternative_energy
+		}
+		
+		completion_reward = {
+		add_stability = -0.02
+			840 = {
+				add_resource = {
+					type = oil
+					amount = 4
+				}
+			}
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	
+		focus = {
+		id = EST_support_alternative_energy
+		icon = agriculture
+		
+		x = 0
+		y = 3
+		
+		cost = 10
+        
+		cancel_if_invalid = no
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		
+		prerequisite = {
+			focus = EST_first_five_year_plan
+		}
+		
+		mutually_exclusive = {
+		    focus = EST_support_VKG
+		}
+		
+		completion_reward = {
+		add_stability = 0.02
+			13 = {
+				add_resource = {
+					type = steel
+					amount = 4
+				}
+			}
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	
+		focus = {
+		id = EST_first_five_year_plan
+		icon = five_year_plan
+		x = 1
+		y = 2
+		
+		cost = 10
+        
+		cancel_if_invalid = no
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		
+        prerequisite = { focus = EST_industrial_focus }
+		prerequisite = { focus = EST_expand_the_E263}
+		
+		mutually_exclusive = {}
+		
+		completion_reward = {
+		add_stability = 0.02
+		add_ideas = civilian_industry_project
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	
+	    focus = {
+		id = EST_state_private_industry
+		icon = local_management
+		
+		x = 10
+		y = 9
+		
+		cost = 10
+        
+		cancel_if_invalid = no
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		
+		prerequisite = {
+			focus = EST_favor_a_worker_society
+		}
+		
+		mutually_exclusive = {
+		    focus = EST_nationalize_the_industry
+		}
+		
+		completion_reward = {
+		    add_stability = 0.05
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	
+	    focus = {
+		id = EST_developmental_aid
+		icon = construction3
+		
+		x = 11
+		y = 10
+		
+		cost = 10
+        
+		cancel_if_invalid = no
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		
+		prerequisite = {
+			focus = EST_nationalize_the_industry
+			focus = EST_state_private_industry
 		}
 		
 		mutually_exclusive = {}
 		
 		completion_reward = {
-		    add_stability = -0.02
-			840 = {
-				add_resource = {
-					type = oil
-					amount = 4
+		    add_stability = 0.02
+		    if = {
+				limit = {
+					191 = { owner = { tag = EST } }
+				}
+				840 = {
+					if = {
+						limit = {
+							free_building_slots = {
+								building = industrial_complex
+								size > 1
+								include_locked = yes
+							}
+						}
+						add_extra_state_shared_building_slots = 1
+						add_building_construction = {
+							type = infrastructure
+							level = 1
+							instant_build = yes
+						}
+					}
 				}
 			}
 		}
