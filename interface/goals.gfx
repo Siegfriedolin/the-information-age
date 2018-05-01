@@ -2395,8 +2395,8 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
-		name = "zyuganov"
-		texturefile = "gfx/interface/goals/russia/zyuganov.dds"			
+		name = "grudinin"
+		texturefile = "gfx/interface/goals/russia/grudinin.dds"			
 	}
 	
 	SpriteType = {

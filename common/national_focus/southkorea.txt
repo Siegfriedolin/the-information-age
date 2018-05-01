@@ -131,6 +131,7 @@ focus_tree = {
 		
 		completion_reward = {
 			PRK = { add_opinion_modifier = { target = KOR modifier = recent_actions_positive } }
+			every_country = { news_event = korea_news.1 }
 		}
 		
 		ai_will_do = {

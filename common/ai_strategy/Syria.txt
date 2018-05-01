@@ -1,0 +1,101 @@
+syrian_civil_war_strategy = {
+    enable = {
+        tag = USA
+		tag = TUR
+		TAG = CAN
+		TAG = ENG
+		TAG = FRA
+		TAG = GER
+		TAG = PRC
+		TAG = SPA
+		TAG = RAJ
+		TAG = BRA
+		TAG = SAU
+    }
+     ai_strategy = {
+        type = send_volunteers_desire
+        id = "SYR"
+        value = -400
+    } 
+}
+syrian_civil_war_strategy2 = {
+    enable = {
+        tag = SOV
+		tag = PER
+		tag = VEN
+    }
+     ai_strategy = {
+        type = send_volunteers_desire
+        id = "SYR"
+        value = 400
+    } 
+}
+
+syrian_civil_war_strategy3 = {
+    enable = {
+        tag = SAU
+    }
+     ai_strategy = {
+        type = send_volunteers_desire
+        id = "ISS"
+        value = 400
+    } 
+}
+
+syrian_civil_war_strategy4 = {
+    enable = {
+        tag = USA
+		tag = TUR
+		TAG = CAN
+		TAG = ENG
+		TAG = FRA
+		TAG = GER
+		TAG = PRC
+		TAG = SPA
+		TAG = RAJ
+		TAG = BRA
+    }
+     ai_strategy = {
+        type = send_volunteers_desire
+        id = "ISS"
+        value = -400
+    } 
+}
+
+syrian_civil_war_strategy5 = {
+    enable = {
+        tag = TUR
+    }
+     ai_strategy = {
+        type = send_volunteers_desire
+        id = "ROJ"
+        value = -400
+    } 
+}
+
+syrian_civil_war_strategy6 = {
+    enable = {
+        tag = TUR
+    }
+     ai_strategy = {
+        type = send_volunteers_desire
+        id = "ROJ"
+        value = -400
+    } 
+}
+
+syrian_civil_war_strategy6 = {
+    enable = {
+        tag = USA
+		tag = TUR
+		TAG = CAN
+		TAG = ENG
+		TAG = FRA
+		TAG = GER
+    }
+     ai_strategy = {
+        type = send_volunteers_desire
+        id = "FSA"
+        value = 400
+    } 
+}
