@@ -157,3 +157,9 @@ create_country_leader = {
 	picture = "Jevgeni_Ossinovski.dds"
 	ideology = social_democrat_ideology
 }
+
+create_country_leader = {
+	name = "Vaino Väljas"
+	picture = "Vaino_Väljas.dds"
+	ideology = communism
+}
