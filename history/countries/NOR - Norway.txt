@@ -136,8 +136,8 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Max Hermansen"
-	picture = "Max_Hermansen.dds"
+	name = "Makvan Kasheikal"
+	picture = "Makvan_Kasheikal.dds"
 	ideology = national_democrat 
 }
 
@@ -172,7 +172,13 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Bjornar Moxnes"
+	name = "Bjørnar Moxnes"
 	picture = "Bjornar_Moxnes.dds"
 	ideology = marxist      
+}
+
+create_country_leader = {
+	name = "Rasmus Hansson"
+	picture = "Rasmus_Hansson.dds"
+	ideology = liberalist
 }
