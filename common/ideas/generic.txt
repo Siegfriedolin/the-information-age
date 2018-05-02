@@ -140,7 +140,7 @@ ideas = {
 		}
 		
 		parliamentary_crisis = {
-			picture = factory_strikes
+			picture = deal_with_the_devil
 			
 			allowed = {
 				always = no
