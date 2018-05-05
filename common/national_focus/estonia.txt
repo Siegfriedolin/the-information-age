@@ -782,7 +782,7 @@ focus_tree = {
 	
 		focus = {
 		id = EST_first_five_year_plan
-		icon = five_year_plan
+		icon = construction
 		x = 1
 		y = 2
 		
