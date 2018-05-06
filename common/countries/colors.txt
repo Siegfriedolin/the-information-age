@@ -1019,7 +1019,3 @@ D15 = {
 	color = rgb { 194 140 86 }
 	color_ui = rgb { 252 182 112 }
 }
-RHO = {
-color = rgb { 52 140 38 }
-color_ui = rgb { 52 140 38 }
-}
