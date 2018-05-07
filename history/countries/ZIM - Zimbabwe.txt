@@ -142,8 +142,8 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Kisinoti Mukwazhe"
-	picture = "Kisinoti_Mukwazhe.dds"
+	name = "Nelson Chamisa"
+	picture = "Nelson_Chamisa.dds"
 	ideology = social_democrat_ideology
 }
 
@@ -151,6 +151,12 @@ create_country_leader = {
 	name = "Simba Makoni"
 	picture = "Simba_Makoni.dds"
 	ideology = progressive_ideology
+}
+
+create_country_leader = {
+	name = "Fred Owen"
+	picture = "Fred_Owen.dds"
+	ideology = fascist_ideology
 }
 
 create_corps_commander = {
