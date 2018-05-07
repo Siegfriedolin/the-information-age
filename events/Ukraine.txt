@@ -58,6 +58,7 @@ country_event = {
 	option = {	#We will cooperate.
 		name = ukraine.2.o1
 		white_peace = UKR
+		country_event = ukraine.3
 		news_event = news.67
 	
 		ai_chance = {
@@ -78,4 +79,28 @@ country_event = {
 			}
 		}
 	}
+}
+
+country_event = {
+	id = ukraine.3
+	
+	is_triggered_only = yes
+	hidden = yes
+	
+	immediate = {
+		if = {
+			limit = { 997 = { is_demilitarized_zone = no }}
+			997 = {
+				set_demilitarized_zone = yes
+			}
+		}
+		if = {
+			limit = { 998 = { is_demilitarized_zone = no }}
+			998 = {
+				set_demilitarized_zone = yes
+			}
+		}
+	}
+
+	option = { }
 }
