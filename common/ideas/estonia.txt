@@ -15,7 +15,7 @@ ideas = {
 		}
 		
 		EST_communist_party_banned = {
-			picture = anti_soviet_pact
+			picture = communism_banned
 			
 			removal_cost = -1
 			
