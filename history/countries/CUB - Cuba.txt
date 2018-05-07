@@ -1,6 +1,6 @@
 ﻿capital = 315
 
-oob = "CUB_2000"
+oob = "CUB_2018"
 
 set_research_slots = 3
 set_convoys = 350
@@ -130,15 +130,7 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Fidel Castro"
+	name = "Raúl Castro"
 	ideology = leninist
-	picture = "Fidel_Castro.dds"
-}
-
-2004.1.1 = {
-	create_country_leader = {
-		name = "Raúl Castro"
-		ideology = leninist
-		picture = "Raul_Castro.dds"
-	}
+	picture = "Raul_Castro.dds"
 }

@@ -1,4 +1,4 @@
-﻿capital = 361
+﻿ capital = 361
 
 oob = "USA_2018"
 
@@ -266,8 +266,8 @@ give_guarantee = PLU
 give_guarantee = CHI
 
 create_country_leader = {
-	name = "Bernie Sanders"
-	picture = "Bernie_Sanders.dds"
+	name = "John Delaney"
+	picture = "John_Delaney.dds"
 	ideology = liberalist
 }
 
