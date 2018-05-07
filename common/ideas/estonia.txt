@@ -3,7 +3,7 @@ ideas = {
 	country = {
 	
 		EST_russian_minority = {
-			picture = scw_intervention_rep
+			picture = disjointed_government
 			
 			removal_cost = -1
 			
