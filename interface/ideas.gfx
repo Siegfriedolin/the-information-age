@@ -1105,4 +1105,8 @@ spriteTypes = {
 		name = "GFX_idea_minsk_ceasefire"
 		texturefile = "gfx/interface/ideas/UKR/minsk_ceasefire.dds"
 	}
+		spriteType = {
+		name = "GFX_idea_communism_banned"
+		texturefile = "gfx/interface/ideas/EST/communism_EST_banned.dds"
+	}
 }
