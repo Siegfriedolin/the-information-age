@@ -214,6 +214,11 @@ spriteTypes = {
 		name = "GFX_news_event_Bouanane"
 		texturefile = "gfx/event_pictures/news_event/finland/Bouanane.dds"
 	}
+	
+	spriteType = {
+		name = "GFX_news_event_penttila"
+		texturefile = "gfx/event_pictures/news_event/finland/penttila.dds"
+	}
 
 	spriteType = {
 		name = "GFX_news_event_chirac_assassination"
