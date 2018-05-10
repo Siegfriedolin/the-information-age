@@ -1,10 +1,10 @@
 ﻿capital = 202
 
-oob = "UKR_2000"
+oob = "UKR_2018"
 
 set_research_slots = 3
 set_convoys = 175
-set_stability = 0.4
+set_stability = 0.1
 
 set_country_flag = country_language_ukrainian
 
@@ -104,34 +104,31 @@ add_ideas = {
 set_politics = {
 
 	parties = {
+		fascist = {
+			popularity = 5
+		}
 		reactionary = {
 			popularity = 5
 		}
 		conservative = {
-			popularity = 35
+			popularity = 25
 		}
 		market_liberal = {
-			popularity = 6
+			popularity = 35
 		}
 		social_liberal = {
-			popularity = 4
+			popularity = 5
 		}
 		social_democrat = {
-			popularity = 3
-		}
-		progressive = {
-			popularity = 2
-		}
-		democratic_socialist = {
 			popularity = 5
 		}
 		communist = {
-			popularity = 30
+			popularity = 20
 		}
 	}
 	
-	ruling_party = conservative
-	last_election = "1999.10.31"
+	ruling_party = market_liberal
+	last_election = "2014.5.25"
 	election_frequency = 48
 	elections_allowed = yes
 }
@@ -161,16 +158,16 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Volodymyr Rybak"
-	picture = "Volodymyr_Rybak.dds"
+	name = "Viktor Yanukovych"
+	picture = "Viktor_Yanukovych.dds"
 	ideology = oligarchist
-} 
+}
 
 create_country_leader = {
-	name = "Viktor Yushchenko"
-	picture = "Viktor_Yushchenko.dds"
-	ideology = libertarian
-} 
+	name = "Petro Poroshenko"
+	picture = "Petro_Poroshenko.dds"
+	ideology = libertarian 
+}
 
 create_country_leader = {
 	name = "Oleh Lyashko"
@@ -279,50 +276,8 @@ create_navy_leader = {
 	skill = 1
 }
 
-
-2014.1.1 = {
-	set_politics = {
-		ruling_party = social_democrat
-		elections_allowed = yes
-		last_election = "2013.8.20"
-		parties = {
-			fascist = {
-				popularity = 5
-			}
-			reactionary = {
-				popularity = 5
-			}
-			conservative = {
-				popularity = 25
-			}
-			market_liberal = {
-				popularity = 35
-			}
-			social_liberal = {
-				popularity = 5
-			}
-			social_democrat = {
-				popularity = 5
-			}
-			communist = {
-				popularity = 20
-			}
-		}
-	}
-	create_country_leader = {
-		name = "Petro Poroshenko"
-		picture = "Petro_Poroshenko.dds"
-		ideology = libertarian 
-	}
-	create_country_leader = {
-		name = "Viktor Yanukovych"
-		picture = "Viktor_Yanukovych.dds"
-		ideology = oligarchist
-	}
-}
-
-2014.3.1 = {
-	oob = "UKR_2016"
+2018.1.1 = {
+    set_country_flag = ukraine_minsk_agreement
 	add_opinion_modifier = {
 		target = SOV
 		modifier = annexed_ukraine
@@ -331,9 +286,4 @@ create_navy_leader = {
 		target = SOV
 		modifier = annexed_ukraine_trade
 	}
-	set_stability = 0.1
-}
-
-2014.7.1 = {
-	set_country_flag = ukraine_minsk_agreement
 }
