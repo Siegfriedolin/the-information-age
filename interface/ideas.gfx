@@ -1109,4 +1109,8 @@ spriteTypes = {
 		name = "GFX_idea_communism_banned"
 		texturefile = "gfx/interface/ideas/EST/communism_EST_banned.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_lennart_meri"
+		texturefile = "gfx/interface/ideas/EST/lennart_meri.dds"
+	}
 }

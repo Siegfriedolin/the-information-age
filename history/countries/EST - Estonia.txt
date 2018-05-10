@@ -97,6 +97,7 @@ set_technology = {
 }
 
 add_ideas = {
+    EST_lennart_meri
 	population_growth_decline
 	limited_conscription
 	EST_russian_minority
