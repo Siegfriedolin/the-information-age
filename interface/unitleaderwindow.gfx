@@ -198,6 +198,12 @@ spriteTypes = {
 	}
 	
 	spriteType = {
+		name = "GFX_leader_selection_button"
+		texturefile = "gfx/interface/leader_selection_button.dds"
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+	}
+	
+	spriteType = {
 		name = "GFX_army_insignia_selection_bg"
 		texturefile = "gfx/interface/army_insignia_selection_bg.dds"
 		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
