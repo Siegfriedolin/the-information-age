@@ -1113,4 +1113,8 @@ spriteTypes = {
 		name = "GFX_idea_lennart_meri"
 		texturefile = "gfx/interface/ideas/EST/lennart_meri.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_gray_citizenship"
+		texturefile = "gfx/interface/ideas/EST/gray_citizenship.dds"
+	}
 }

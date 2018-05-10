@@ -49,6 +49,7 @@ ideas = {
 				consumer_goods_factor = -0.05
 			}
 		}
+		
 		EST_lennart_meri = {
 			picture = lennart_meri
 			
@@ -57,6 +58,18 @@ ideas = {
 			modifier = {
 				political_power_gain = 0.05
 				stability_factor = 0.05
+			}
+		}
+			EST_gray_citizenship = {
+			picture = gray_citizenship
+			
+			removal_cost = -1
+			
+			modifier = {
+			    conscription_factor = -0.30
+				consumer_goods_factor = 0.05
+				political_power_gain = -0.10
+				stability_factor = -0.10
 			}
 		}
 	
