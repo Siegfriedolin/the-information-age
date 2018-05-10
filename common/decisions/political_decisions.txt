@@ -1,4 +1,31 @@
 executive_policy = {
+
+	hold_snap_election = {
+		
+		visible = {
+			has_democratic_form_of_government = yes
+		}
+		
+		available = {
+			has_stability > 0.2
+		}
+		
+		icon = politics
+		
+		cost = 25
+		
+		days_re_enable = 365
+		
+		complete_effect = {
+			hold_election = yes
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+		
+	}
+	
 }
 
 judiciary_policy = {
