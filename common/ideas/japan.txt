@@ -134,7 +134,7 @@ ideas = {
 				always = no
 			}
 			modifier = {
-				fascist_drift = 0.1
+				nationalist_drift = 0.1
 				justify_war_goal_time = -0.05
 			}
 		}

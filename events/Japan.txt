@@ -542,3 +542,43 @@ country_event = {
 		}
 	}
 }
+
+country_event = {
+	id = japan.21
+	title = japan.21.t
+	desc = japan.21.d
+	picture = GFX_report_event_japanese_flag
+	
+	is_triggered_only = yes
+	
+	option = {	#Support them!
+		name = japan.21.o1
+		declare_war_on = { target = PRK type = topple_government }
+		JAP = { add_opinion_modifier = { target = ROOT modifier = recent_actions_positive } }			
+	}
+	
+	option = {	#Support them!
+		name = japan.21.o2
+		JAP = { add_opinion_modifier = { target = ROOT modifier = recent_actions_negative } } 		
+	}
+}
+
+country_event = {
+	id = japan.22
+	title = japan.22.t
+	desc = japan.22.d
+	picture = GFX_report_event_japanese_flag
+	
+	is_triggered_only = yes
+	
+	option = {	#Support them!
+		name = japan.22.o1
+		declare_war_on = { target = PRC type = topple_government }
+		JAP = { add_opinion_modifier = { target = ROOT modifier = recent_actions_positive } }			
+	}
+	
+	option = {	#Support them!
+		name = japan.22.o2
+		JAP = { add_opinion_modifier = { target = ROOT modifier = recent_actions_negative } }			
+	}
+}

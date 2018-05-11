@@ -1119,7 +1119,7 @@ focus_tree = {
 		}
 		
 		mutually_exclusive = {
-			focus = JAP_warrior_state
+			focus = JAP_traditionalist_state
 		}
 		
 		completion_reward = {
@@ -1135,10 +1135,6 @@ focus_tree = {
 				ideology = social_democrat
 				popularity = 0.03
 			}
-			add_popularity = {
-				ideology = reactionary
-				popularity = 0.01
-			}
 		}
 		
 		ai_will_do = {
@@ -1149,7 +1145,7 @@ focus_tree = {
 	
 	
 	focus = {
-		id = JAP_warrior_state
+		id = JAP_traditionalist_state
 		icon = samurai
 		x = 22
 		y = 2
@@ -1165,11 +1161,11 @@ focus_tree = {
 		
 		completion_reward = {
 			add_popularity = {
-				ideology = monarchist
+				ideology = reactionary
 				popularity = 0.1
 			}
 			add_popularity = {
-				ideology = fascist
+				ideology = nationalist
 				popularity = 0.1
 			}
 		}
@@ -1268,33 +1264,21 @@ focus_tree = {
 
 	
 	focus = {
-		id = JAP_government_authority
-		icon = fascism
+		id = JAP_weaken_socialist_movements
+		icon = anti_comintern_pact
 		x = 22
 		y = 3
 		cost = 10
 		
 		prerequisite = {
-			focus = JAP_warrior_state
+			focus = JAP_traditionalist_state
 		}
 		
 		
 		completion_reward = {
 			add_popularity = {
-				ideology = nationalist
-				popularity = 0.1
-			}
-			add_popularity = {
-				ideology = fascist
-				popularity = 0.05
-			}
-			if = {
-				limit = { has_idea = japanese_article_9 }
-				remove_ideas = japanese_article_9
-			}
-			if = {
-				limit = { has_idea = japanese_article_9_adapted }
-				remove_ideas = japanese_article_9_adapted
+				ideology = democratic_socialist
+				popularity = -0.15
 			}
 		}
 		
@@ -1311,20 +1295,12 @@ focus_tree = {
 		cost = 10
 		
 		prerequisite = {
-			focus = JAP_warrior_state
-		}
-		
-		available = {
-			OR = {
-				has_government = nationalist
-				has_government = fascist
-				threat > 0.35
-			}
+			focus = JAP_traditionalist_state
 		}
 		
 		completion_reward = {
 			add_political_power = -25
-			declare_mass_mobilization = yes
+			add_ideas = additional_recruits9
 		}
 		
 		ai_will_do = {
@@ -1425,27 +1401,22 @@ focus_tree = {
 
 	
 	focus = {
-		id = JAP_japanese_supremacy
-		icon = fascism2
+		id = JAP_denounce_the_communist_threat
+		icon = attack_communism
 		x = 23
 		y = 4
 		cost = 10
 		
 		prerequisite = {
-			focus = JAP_government_authority
+			focus = JAP_weaken_socialist_movements
 		}
 		
-		available = {
-			has_government = fascist
-		}
 		
 		completion_reward = {
-			news_event = news.79
-			add_popularity = {
-				ideology = fascist
-				popularity = 0.05
-			}
-			add_ideas = japanese_supremacy
+        PRK = { add_opinion_modifier = { target = JAP modifier = recent_actions_negative } }
+		PRC = { add_opinion_modifier = { target = JAP modifier = recent_actions_negative } }
+		add_war_support = 0.01
+		add_political_power = 30
 		}
 		
 		ai_will_do = {
@@ -1453,6 +1424,33 @@ focus_tree = {
 		}
 	}
 
+	
+	focus = {
+		id = JAP_strenghten_right_wing_parties
+		icon = propaganda
+		x = 21
+		y = 4
+		cost = 10
+		
+		prerequisite = {
+			focus = JAP_weaken_socialist_movements
+		}
+		
+		
+		completion_reward = {
+		add_stability = 0.01
+		add_political_power = 150
+		add_popularity = {
+				ideology = reactionary
+				popularity = 0.25
+			}
+		increase_reactionary_influence_by_1 = yes	
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+	}
 	focus = {
 		id = JAP_fortress_japan
 		icon = military_fort
@@ -1466,9 +1464,6 @@ focus_tree = {
 		
 		mutually_exclusive = {
 			focus = JAP_east_asian_alliance
-		}
-		mutually_exclusive = {
-			focus = JAP_ally_the_united_states
 		}
 		
 		completion_reward = {
@@ -1498,9 +1493,7 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = JAP_fortress_japan
 		}
-		mutually_exclusive = {
-			focus = JAP_ally_the_united_states
-		}
+
 		
 		completion_reward = {
 			create_faction = japanese_alliance_democratic
@@ -1516,44 +1509,7 @@ focus_tree = {
 		}
 	}
 	
-	focus = {
-		id = JAP_ally_the_united_states
-		icon = align_to_america
-		x = 10
-		y = 5
-		cost = 10
-		
-		mutually_exclusive = {
-			focus = JAP_fortress_japan
-		}
-		prerequisite = {
-			focus = JAP_befriend_south_korea
-		}
-		
-		available = {
-			USA = {
-				has_democratic_form_of_government = yes
-				is_in_faction = yes
-				is_faction_leader = yes
-			}
-		}
-		
-		mutually_exclusive = {
-			focus = JAP_east_asian_alliance
-		}
-		
-		completion_reward = {
-			USA = { add_to_faction = JAP }
-		}
-		
-		ai_will_do = {
-			factor = 10
-			modifier = {
-				is_historical_focus_on = yes
-				factor = 0
-			}
-		}
-	}
+
 
 	
 	focus = {
@@ -1632,30 +1588,24 @@ focus_tree = {
 	
 	
 	focus = {
-		id = JAP_subjugate_korea
-		icon = war
+		id = JAP_end_article_9
+		icon = renounce_treaty
 		x = 22
 		y = 5
 		cost = 10
 		
 		prerequisite = {
-			focus = JAP_government_authority
+			focus = JAP_weaken_socialist_movements
 		}
 		
 		available = {
-			NOT = { is_in_faction_with = KOR }
-			NOT = { is_in_faction_with = PRK }
+	    has_government = reactionary
 		}
 		
 		completion_reward = {
-			create_wargoal = {
-				target = PRK
-				type = puppet_wargoal_focus
-			}
-			create_wargoal = {
-				target = KOR
-				type = puppet_wargoal_focus
-			}
+        remove_ideas = japanese_article_9_adapted
+		add_war_support = 0.02
+		add_stability = -0.01
 		}
 		
 		ai_will_do = {
@@ -1689,40 +1639,7 @@ focus_tree = {
 		}
 	}
 	
-	focus = {
-		id = JAP_approach_NATO
-		icon = align_to_nato
-		x = 10
-		y = 6
-		cost = 10
-		
-		prerequisite = {
-			focus = JAP_ally_the_united_states
-		}
-		
-		available = {
-			is_in_faction_with = USA
-			any_country = {
-				NOT = { tag = USA }
-				NOT = { tag = JAP }
-				is_in_faction_with = USA
-			}
-		}
-		
-		completion_reward = {
-			every_country = {
-				limit = { is_in_faction_with = USA }
-				add_opinion_modifier = {
-					target = JAP
-					modifier = declaration_of_friendship
-				}
-			}
-		}
-		
-		ai_will_do = {
-			factor = 10
-		}
-	}
+
 	
 	focus = {
 		id = JAP_east_asian_pact
@@ -1812,29 +1729,20 @@ focus_tree = {
 
 	
 	focus = {
-		id = JAP_subjugate_china
-		icon = attack_china
+		id = JAP_prepare_the_intervention
+		icon = territorial_claims
 		x = 22
 		y = 6
 		cost = 10
 		
 		prerequisite = {
-			focus = JAP_subjugate_korea
+			focus = JAP_end_article_9
 		}
 		
-		available = {
-			NOT = { is_in_faction_with = PRC }
-		}
-		
-		bypass = {
-			is_in_faction_with = PRC
-		}
 		
 		completion_reward = {
-			create_wargoal = {
-				target = PRC
-				type = puppet_wargoal_focus
-			}
+        add_war_support = 0.01
+		add_political_power = 50
 		}
 		
 		ai_will_do = {
@@ -1877,27 +1785,7 @@ focus_tree = {
 		}
 	}
 	
-	focus = {
-		id = JAP_NATO_exercises
-		icon = align_to_nato
-		x = 10
-		y = 7
-		cost = 10
-		
-		prerequisite = {
-			focus = JAP_approach_NATO
-		}
-		
-		completion_reward = {
-			army_experience = 50
-			air_experience = 50
-			navy_experience = 50
-		}
-		
-		ai_will_do = {
-			factor = 10
-		}
-	}
+
 	
 	focus = {
 		id = JAP_allies_across_asia
@@ -1928,32 +1816,376 @@ focus_tree = {
 	
 	
 	focus = {
-		id = JAP_colonize_south_east_asia
-		icon = war
+		id = JAP_reform_the_high_command
+		icon = army_officers
 		x = 21
 		y = 7
 		cost = 10
 		
 		prerequisite = {
-			focus = JAP_subjugate_china
+			focus = JAP_prepare_the_intervention
 		}
 		
 		completion_reward = {
-			create_wargoal = {
-				target = VIN
-				type = puppet_wargoal_focus
+        add_ideas = commander_skill_bonus
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	
+	focus = {
+		id = JAP_reorganize_the_army
+		icon = military_sphere
+		x = 23
+		y = 7
+		cost = 10
+		
+		prerequisite = {
+			focus = JAP_prepare_the_intervention
+		}
+		
+		completion_reward = {
+        add_ideas = army_organization_bonus
+		army_experience = 30
+		add_war_support = 0.01
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	
+	focus = {
+		id = JAP_the_final_decision
+		icon = dangerous_deal
+		x = 22
+		y = 8
+		cost = 10
+		
+		prerequisite = {
+			focus = JAP_reorganize_the_army
+		}
+		prerequisite = {
+			focus = JAP_reform_the_high_command
+		}
+		
+		completion_reward = {
+        add_political_power = 5
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	
+	focus = {
+		id = JAP_contain_north_korean_agression
+		icon = attack_north_korea
+		x = 26
+		y = 9
+		cost = 10
+		
+		mutually_exclusive = {
+			focus = JAP_contain_chinese_agression
+		}
+		prerequisite = {
+			focus = JAP_the_final_decision
+		}
+		
+		completion_reward = {
+        create_wargoal = { type = puppet_wargoal_focus target = PRK }
+		USA = { country_event = japan.21 }
+		KOR = { country_event = japan.21 }
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	
+	focus = {
+		id = JAP_contain_chinese_agression
+		icon = attack_china
+		x = 18
+		y = 9
+		cost = 10
+		
+		mutually_exclusive = {
+			focus = JAP_contain_north_korean_agression
+		}
+		prerequisite = {
+			focus = JAP_the_final_decision
+		}
+		
+		completion_reward = {
+        create_wargoal = { type = puppet_wargoal_focus target = PRC }
+		USA = { country_event = japan.22 }
+		KOR = { country_event = japan.22 }
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	
+	focus = {
+		id = JAP_stand_alone
+		icon = demand_territory2
+		x = 18
+		y = 10
+		cost = 10
+		
+		prerequisite = {
+			focus = JAP_contain_chinese_agression
+		}
+		
+		completion_reward = {
+        add_popularity = {
+				ideology = nationalist
+				popularity = 0.02
 			}
-			create_wargoal = {
-				target = PHI
-				type = puppet_wargoal_focus
+		add_stability = 0.2	
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	
+	focus = {
+		id = JAP_embrace_nationalism
+		icon = fascism2
+		x = 18
+		y = 11
+		cost = 10
+
+		prerequisite = {
+			focus = JAP_stand_alone
+		}
+		
+		completion_reward = {
+        add_popularity = {
+				ideology = nationalist
+				popularity = 0.15
 			}
-			create_wargoal = {
-				target = MAY
-				type = puppet_wargoal_focus
+		add_political_power	= 55
+		add_stability = -0.02
+		add_war_support = 0.01
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	
+	
+	focus = {
+		id = JAP_end_relations_with_the_us
+		icon = renounce_treaty2
+		x = 19
+		y = 12
+		cost = 10
+
+		prerequisite = {
+			focus = JAP_embrace_nationalism
+		}
+		
+		completion_reward = {
+        add_popularity = {
+				ideology = nationalist
+				popularity = 0.01
 			}
-			create_wargoal = {
-				target = INS
-				type = puppet_wargoal_focus
+		USA = { diplomatic_relation = { country = JAP relation = guarantee active = no } }
+		USA = { add_opinion_modifier = { target = JAP modifier = recent_actions_negative } }
+		
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	
+	focus = {
+		id = JAP_ultranationalist_plot
+		icon = military_mission
+		x = 17
+		y = 12
+		cost = 10
+
+		prerequisite = {
+			focus = JAP_embrace_nationalism
+		}
+		
+		completion_reward = {
+        add_popularity = {
+				ideology = nationalist
+				popularity = 0.01
+			}
+       set_politics = {
+        ruling_party = nationalist
+        elections_allowed = no
+                              }
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	
+	focus = {
+		id = JAP_vilify_nuclear_attacks
+		icon = enemy_of_america
+		x = 18
+		y = 13
+		cost = 10
+
+		prerequisite = {
+			focus = JAP_ultranationalist_plot
+		}
+	    
+		prerequisite = {
+			focus = JAP_end_relations_with_the_us
+		}
+		
+		completion_reward = {
+        add_war_support = 0.3
+		USA = { add_opinion_modifier = { target = JAP modifier = rival } }
+		JAP = { add_opinion_modifier = { target = USA modifier = rival } }
+	
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	
+	focus = {
+		id = JAP_japanese_supremacy
+		icon = fascism3
+		x = 19
+		y = 14
+		cost = 10
+
+		prerequisite = {
+			focus = JAP_vilify_nuclear_attacks
+		}
+		
+		mutually_exclusive = {
+		focus = JAP_enpower_the_emperor
+		}
+		
+		completion_reward = {
+        add_popularity = {
+				ideology = nationalist
+				popularity = 0.02
+			}
+			add_stability = 0.01
+			every_country = { news_event = news.79 }
+		}
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	
+	focus = {
+		id = JAP_enpower_the_emperor
+		icon = japanese_monarchy
+		x = 17
+		y = 14
+		cost = 10
+
+		prerequisite = {
+			focus = JAP_vilify_nuclear_attacks
+		}
+		
+		mutually_exclusive = {
+		focus = JAP_japanese_supremacy
+		}
+		
+		completion_reward = {
+        add_popularity = {
+				ideology = monarchist
+				popularity = 0.35
+			}
+		set_politics = {
+		ruling_party = monarchist
+		elections_allowed = no
+		}
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	
+	focus = {
+		id = JAP_the_revenge
+		icon = attack_america
+		x = 18
+		y = 15
+		cost = 10
+
+		prerequisite = {
+			focus = JAP_enpower_the_emperor
+			focus = JAP_japanese_supremacy
+		}
+	
+		
+		completion_reward = {
+		create_wargoal = { type = annex_everything target = USA }
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	
+	focus = {
+		id = JAP_stand_with_the_west
+		icon = major_alliance
+		x = 26
+		y = 10
+		cost = 10
+		
+		prerequisite = {
+			focus = JAP_contain_north_korean_agression
+		}
+		
+		completion_reward = {
+        add_popularity = {
+				ideology = reactionary
+				popularity = 0.02
+			}
+		add_stability = 0.3	
+        USA = { add_opinion_modifier = { target = JAP modifier = recent_actions_positive } }
+		JAP = { add_opinion_modifier = { target = USA modifier = recent_actions_positive } }
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	
+	focus = {
+		id = JAP_befriend_nato_members
+		icon = national_unity
+		x = 26
+		y = 11
+		cost = 10
+		
+		prerequisite = {
+			focus = JAP_stand_with_the_west
+		}
+		
+		completion_reward = {
+			every_country = {
+				limit = { is_in_faction_with = USA }
+				add_opinion_modifier = {
+					target = JAP
+					modifier = declaration_of_friendship
+				}
 			}
 		}
 		
@@ -1961,6 +2193,185 @@ focus_tree = {
 			factor = 10
 		}
 	}
+	
+	focus = {
+		id = JAP_increase_american_japanese_military_drills
+		icon = align_to_america2
+		x = 25
+		y = 12
+		cost = 10
+		
+		prerequisite = {
+			focus = JAP_befriend_nato_members
+		}
+		
+		completion_reward = {
+		USA = { army_experience = 50 }
+		army_experience = 50
+		USA = {
+							diplomatic_relation = {
+									country = JAP
+									relation = military_access
+									active = yes
+		}
+		}
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	
+	focus = {
+		id = JAP_state_visit_to_the_EU
+		icon = align_to_europe
+		x = 27
+		y = 12
+		cost = 10
+		
+		prerequisite = {
+			focus = JAP_befriend_nato_members
+		}
+		
+		completion_reward = {
+			every_country = {
+				limit = { has_idea = idea_eu_member }
+				add_opinion_modifier = {
+					target = JAP
+					modifier = state_visit
+				}
+			}
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	
+	focus = {
+		id = JAP_join_nato
+		icon = align_to_nato
+		x = 26
+		y = 13
+		cost = 10
+		
+		prerequisite = {
+			focus = JAP_state_visit_to_the_EU
+		}
+		prerequisite = {
+			focus = JAP_increase_american_japanese_military_drills
+		}
+		available = {
+			USA = {
+				has_democratic_form_of_government = yes
+				is_in_faction = yes
+				is_faction_leader = yes
+			}
+		}
+		
+	    completion_reward = {
+			USA = { add_to_faction = JAP }
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	
+	focus = {
+		id = JAP_international_military_trainining
+		icon = small_arms
+		x = 26
+		y = 14
+		cost = 10
+		
+		prerequisite = {
+			focus = JAP_join_nato
+		}
+
+		
+		completion_reward = {
+	     every_country = {
+		 limit = { is_in_faction_with = USA }
+	     army_experience = 50
+		 air_experience = 50
+		 navy_experience = 50
+		}
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	
+	focus = {
+		id = JAP_international_research_cooperation
+		icon = tech_sharing
+		x = 26
+		y = 15
+		cost = 10
+		
+		prerequisite = {
+			focus = JAP_international_military_trainining
+		}
+
+		
+		completion_reward = {
+	     every_country = {
+		 limit = { is_in_faction_with = USA }
+	    add_research_slot = 1
+		}
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	
+	focus = {
+		id = JAP_reclaim_south_sakhalin
+		icon = territory_or_war
+		x = 22
+		y = 16
+		cost = 10
+		
+		prerequisite = {
+			focus = JAP_international_research_cooperation
+			focus = JAP_the_revenge
+		}
+
+		
+		completion_reward = {
+	    SOV = { add_opinion_modifier = { target = JAP modifier = recent_actions_negative } }
+		add_state_core = 537
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	
+	focus = {
+		id = JAP_strike_the_true_enemy
+		icon = attack_russia
+		x = 22
+		y = 17
+		cost = 10
+		
+		prerequisite = {
+			focus = JAP_reclaim_south_sakhalin
+		}
+
+		
+		completion_reward = {
+	    create_wargoal = { type = take_core_state target = SOV }
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
 	
 	focus = {
 		id = JAP_ally_indonesia
@@ -2018,13 +2429,11 @@ focus_tree = {
 	focus = {
 		id = JAP_asian_research_compact
 		icon = research
-		x = 10
+		x = 12
 		y = 8
 		cost = 10
 		
 		prerequisite = {
-			focus = JAP_ally_taiwan
-			focus = JAP_NATO_exercises
 			focus = JAP_allies_across_asia
 		}
 		
