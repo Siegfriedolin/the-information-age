@@ -329,10 +329,20 @@ spriteTypes = {
 	 texturefile = "gfx/interface/ideas/companies/tank/hyundai.dds"
 	 }
 	 
-	 spriteType = { 
+	spriteType = { 
 	 name = "GFX_idea_kai"
 	 texturefile = "gfx/interface/ideas/companies/aircraft/kai.dds"
+	}
 	
+    spriteType = {
+	 name = "GFX_idea_foxconn"
+	 texturefile = "gfx/interface/ideas/companies/industrial/foxconn.dds"
+	 }
+	 
+	spriteType = {
+	 name = "GFX_idea_tsmc"
+	 texturefile = "gfx/interface/ideas/companies/industrial/tsmc.dds"
+	 }
 	#TUR
 	spriteType = {
 		name = "GFX_idea_TUR_TAI"
