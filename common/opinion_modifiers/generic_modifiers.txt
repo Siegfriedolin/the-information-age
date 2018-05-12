@@ -294,9 +294,6 @@ opinion_modifiers = {
 		decay = 0.2
 	}
 	
-	terrorist_menace = {
-		value = -100
-	}
 	
 	terrorist_menace_trade = {
 		value = -100

@@ -2269,6 +2269,486 @@
 			factor = 35
 		}
 	}
+	
+	focus = {
+		id = CHI_Industrial_Development
+		icon = construction
+		x = 30
+		y = 1
+		cost = 10
+		
+		
+		completion_reward = {
+		add_political_power = 100
+		}
+	
+		ai_will_do = {
+			factor = 35
+		}
+	}
+	
+	focus = {
+		id = CHI_Infrastructure_Expansion
+		icon = infrastructure
+		x = 30
+		y = 2
+		cost = 10
+		
+		prerequisite = {
+		focus = CHI_Industrial_Development
+		}
+		
+		
+		completion_reward = {
+		524 = {
+            add_building_construction = {
+               type = infrastructure
+               level = 1
+               instant_build = yes
+            }
+            }
+		}
+	
+		ai_will_do = {
+			factor = 35
+		}
+	}
+	
+	focus = {
+		id = CHI_A_New_Taipei
+		icon = infrastructure
+		x = 32
+		y = 3
+		cost = 10
+		
+		prerequisite = {
+		focus = CHI_Infrastructure_Expansion
+		}
+		
+		
+		completion_reward = {
+		524 = {
+            add_building_construction = {
+               type = infrastructure
+               level = 2
+               instant_build = yes
+            }
+            }
+		}
+	
+		ai_will_do = {
+			factor = 35
+		}
+	}
+	
+	focus = {
+		id = CHI_Develop_the_Countryside
+		icon = infrastructure
+		x = 28
+		y = 3
+		cost = 10
+		
+		prerequisite = {
+		focus = CHI_Infrastructure_Expansion
+		}
+		
+		
+		completion_reward = {
+		524 = {
+            add_building_construction = {
+               type = infrastructure
+               level = 2
+               instant_build = yes
+            }
+            }
+		}
+	
+		ai_will_do = {
+			factor = 35
+		}
+	}
+	
+	focus = {
+		id = CHI_Strive_for_Oil
+		icon = oil_trade
+		x = 32
+		y = 4
+		cost = 10
+		
+		prerequisite = {
+		focus = CHI_A_New_Taipei
+		}
+		
+		
+		completion_reward = {
+		524 = { add_resource = { type = oil amount = 20 } }
+		}
+	
+		ai_will_do = {
+			factor = 35
+		}
+	}
+	
+	focus = {
+		id = CHI_Aluminum_Mining
+		icon = production2
+		x = 28
+		y = 4
+		cost = 10
+		
+		prerequisite = {
+		focus = CHI_Develop_the_Countryside
+		}
+		
+		
+		completion_reward = {
+		524 = { add_resource = { type = aluminium amount = 20 } }
+		}
+	
+		ai_will_do = {
+			factor = 35
+		}
+	}
+	
+	focus = {
+		id = CHI_Develop_the_Coastal_Islands
+		icon = infrastructure
+		x = 30
+		y = 5
+		cost = 10
+		
+		prerequisite = {
+		focus = CHI_Strive_for_Oil
+		}
+		prerequisite = {
+		focus = CHI_Aluminum_Mining
+		}
+		
+		completion_reward = {
+		976 = {
+            add_building_construction = {
+               type = infrastructure
+               level = 1
+               instant_build = yes
+            }
+            }
+	   977 = {
+            add_building_construction = {
+               type = infrastructure
+               level = 1
+               instant_build = yes
+            }
+            }	
+			
+		}
+	
+		ai_will_do = {
+			factor = 35
+		}
+	}
+	
+	focus = {
+		id = CHI_Military_Development
+		icon = license_production
+		x = 32
+		y = 6
+		cost = 10
+		
+		prerequisite = {
+		focus = CHI_Develop_the_Coastal_Islands
+		}
+		mutually_exclusive = {
+		focus = CHI_Civilian_Development
+		}
+		
+		completion_reward = {
+		add_ideas = military_industry_project4	
+		}
+	
+		ai_will_do = {
+			factor = 35
+		}
+	}
+	
+	focus = {
+		id = CHI_Civilian_Development
+		icon = industry_civilian
+		x = 28
+		y = 6
+		cost = 10
+		
+		prerequisite = {
+		focus = CHI_Develop_the_Coastal_Islands
+		}
+		mutually_exclusive = {
+		focus = CHI_Military_Development
+		}
+		
+		completion_reward = {
+		add_ideas = civilian_industry_project4	
+		}
+	
+		ai_will_do = {
+			factor = 35
+		}
+	}
+	
+	focus = {
+		id = CHI_Formosan_Military_Industry
+		icon = industry_military
+		x = 32
+		y = 7
+		cost = 10
+		
+		prerequisite = {
+		focus = CHI_Military_Development
+	    }
+		
+		completion_reward = {
+	   524 = {
+            add_building_construction = {
+               type = arms_factory
+               level = 2
+               instant_build = yes
+            }
+            }
+		}
+	
+		ai_will_do = {
+			factor = 35
+		}
+	}
+	
+	focus = {
+		id = CHI_Rapid_Industrialization
+		icon = industry_democratic
+		x = 28
+		y = 7
+		cost = 10
+		
+		prerequisite = {
+		focus = CHI_Civilian_Development
+	    }
+		
+		completion_reward = {
+	   add_extra_state_shared_building_slots = 2
+	   524 = {
+            add_building_construction = {
+               type = industrial_complex
+               level = 1
+               instant_build = yes
+            }
+            }
+		}
+	
+		ai_will_do = {
+			factor = 35
+		}
+	}
+	
+	focus = {
+		id = CHI_Revitalize_the_Army
+		icon = infantry_allies
+		x = 32
+		y = 8
+		cost = 10
+		
+		prerequisite = {
+		focus = CHI_Formosan_Military_Industry
+	    }
+		
+		completion_reward = {
+	   add_idea = army_morale_bonus
+	   add_idea = army_organization_bonus
+	   army_experience = 50
+		}
+	
+		ai_will_do = {
+			factor = 35
+		}
+	}
+	
+	focus = {
+		id = CHI_Industrial_Agreement_with_Japan
+		icon = industry_democratic2
+		x = 28
+		y = 8
+		cost = 10
+		
+		prerequisite = {
+		focus = CHI_Rapid_Industrialization
+	    }
+		
+		completion_reward = {
+	   add_extra_state_shared_building_slots = 2
+	   524 = {
+            add_building_construction = {
+               type = industrial_complex
+               level = 1
+               instant_build = yes
+            }
+            }
+		JAP = {
+       526 = {
+            add_building_construction = {
+               type = industrial_complex
+               level = 1
+               instant_build = yes
+            }
+            }
+          }
+ JAP = { add_opinion_modifier = { target = CHI modifier = recent_actions_positive } }		  
+		  
+		}
+	
+		ai_will_do = {
+			factor = 35
+		}
+	}
+	
+	focus = {
+		id = CHI_Improve_the_Navy
+		icon = navy
+		x = 32
+		y = 9
+		cost = 10
+		
+		prerequisite = {
+		focus = CHI_Revitalize_the_Army
+	    }
+		
+		completion_reward = {
+        524 = { add_building_construction = { type = naval_base province = 7186 level = 4 instant_build = yes } }
+		591 = { add_building_construction = { type = dockyard level = 4 instant_build = yes } }
+		navy_experience = 80
+		}
+	
+		ai_will_do = {
+			factor = 35
+		}
+	}
+	
+	focus = {
+		id = CHI_Industrial_Agreement_with_South_Korea
+		icon = industry_democratic4
+		x = 28
+		y = 9
+		cost = 10
+		
+		prerequisite = {
+		focus = CHI_Industrial_Agreement_with_Japan
+	    }
+		
+		completion_reward = {
+	   add_extra_state_shared_building_slots = 2
+	   524 = {
+            add_building_construction = {
+               type = industrial_complex
+               level = 1
+               instant_build = yes
+            }
+            }
+		KOR = {
+       869 = {
+            add_building_construction = {
+               type = industrial_complex
+               level = 1
+               instant_build = yes
+            }
+            }
+          }
+ KOR = { add_opinion_modifier = { target = CHI modifier = recent_actions_positive } }		  
+		  
+		}
+	
+		ai_will_do = {
+			factor = 35
+		}
+	}
+	
+	focus = {
+		id = CHI_Improve_the_Airforce
+		icon = airforce
+		x = 32
+		y = 10
+		cost = 10
+		
+		prerequisite = {
+		focus = CHI_Improve_the_Navy
+	    }
+		
+		completion_reward = {
+       	524 = {
+		add_building_construction = {
+		type = air_base
+		level = 2
+		instant_build = yes
+					}
+				}
+		air_experience = 80
+		}
+	
+		ai_will_do = {
+			factor = 35
+		}
+	}
+	
+	focus = {
+		id = CHI_Industrial_Development_Funding
+		icon = money
+		x = 28
+		y = 10
+		cost = 10
+		
+		prerequisite = {
+		focus = CHI_Industrial_Agreement_with_South_Korea
+	    }
+		
+		completion_reward = {
+		add_ideas = idea_focus_industrial_development_program
+		add_political_power = -50
+		}
+	
+		ai_will_do = {
+			factor = 35
+		}
+	}
+	
+	focus = {
+		id = CHI_Fortify_the_Capital
+		icon = military_fort
+		x = 30
+		y = 11
+		cost = 10
+		
+		prerequisite = {
+		focus = CHI_Improve_the_Airforce
+		focus = CHI_Industrial_Development_Funding
+	    }
+		
+		completion_reward = {
+				524 = {
+					add_building_construction = {
+						type = bunker
+						province = 7186
+						level = 6
+						instant_build = yes
+					}
+					add_building_construction = {
+						type = coastal_bunker
+						province = 7186
+						level = 4
+						instant_build = yes
+					}
+				}
+			}
+		air_experience = 80
+		}
+	
+		ai_will_do = {
+			factor = 35
+		}
+	}
 
 	
 	

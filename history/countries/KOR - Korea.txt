@@ -188,37 +188,37 @@ create_field_marshal = {
 create_corps_commander = {
 	name = "Han Min-goo"
 	picture = "generals/Han_Min_Goo.dds"
-	skill = 2
+	skill = 4
 }
 
 create_corps_commander = {
 	name = "Jang Jun-gyu"
 	picture = "generals/Jang_Jun_Gyu.dds"
-	skill = 2
+	skill = 3
 }
 
 create_corps_commander = {
 	name = "Jeong Seung-jo"
 	picture = "generals/Jeong_Seung_Jo.dds"
-	skill = 1
+	skill = 5
 }
 
 create_corps_commander = {
 	name = "Kim Kwan-jin"
 	picture = "generals/Kim_Kwan_Jin.dds"
-	skill = 1
+	skill = 2
 }
 
 create_corps_commander = {
 	name = "Lee Sang-hoon"
 	picture = "generals/Lee_Sang_Hoon.dds"
-	skill = 1
+	skill = 4
 }
 
 create_corps_commander = {
 	name = "Lee Soon-jin"
 	picture = "generals/Lee_Soon_Jin.dds"
-	skill = 1
+	skill = 6
 }
 
 create_navy_leader = {
@@ -230,7 +230,7 @@ create_navy_leader = {
 create_navy_leader = {
 	name = "Lee Ki-sik"
 	picture = "admirals/Lee_Ki_Sik.dds"
-	skill = 1
+	skill = 5
 }
 
 2018.1.1 = {

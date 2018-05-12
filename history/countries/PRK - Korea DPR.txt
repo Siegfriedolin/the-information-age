@@ -173,28 +173,28 @@ create_corps_commander = {
 	name = "Hyon Yong Chol"
 	picture = "generals/Hyon_Yong_Chol.dds"
 	traits = {  }
-	skill = 1
+	skill = 3
 }
 
 create_corps_commander = {
 	name = "Cho Ryong Hae"
 	picture = "generals/Cho_Ryong_Hae.dds"
 	traits = {  }
-	skill = 1
+	skill = 2
 }
 
 create_corps_commander = {
 	name = "Choe Pu Il"
 	picture = "generals/Choe_Pu_Il.dds"
 	traits = {  }
-	skill = 1
+	skill = 5
 }
 
 create_corps_commander = {
 	name = "Hwang Pyong So"
 	picture = "generals/Hwang_Pyong_So.dds"
 	traits = {  }
-	skill = 1
+	skill = 2
 }
 
 create_corps_commander = {
@@ -208,49 +208,49 @@ create_corps_commander = {
 	name = "Kim Chun Sop"
 	picture = "generals/Kim_Chun_Sop.dds"
 	traits = {  }
-	skill = 1
+	skill = 2
 }
 
 create_corps_commander = {
 	name = "Jo Kyong Chol"
 	picture = "generals/Jo_Kyong_Chol.dds"
 	traits = {  }
-	skill = 1
+	skill = 4
 }
 
 create_corps_commander = {
 	name = "Kim Kyok Sik"
 	picture = "generals/Kim_Kyok_Sik.dds"
 	traits = {  }
-	skill = 1
+	skill = 4
 }
 
 create_corps_commander = {
 	name = "Kim Myong Kuk"
 	picture = "generals/Kim_Myong_Kuk.dds"
 	traits = {  }
-	skill = 1
+	skill = 2
 }
 
 create_corps_commander = {
 	name = "Kim Won Hong"
 	picture = "generals/Kim_Won_Hong.dds"
 	traits = {  }
-	skill = 1
+	skill = 5
 }
 
 create_corps_commander = {
 	name = "Kim Yong Chun"
 	picture = "generals/Kim_Yong_Chun.dds"
 	traits = {  }
-	skill = 1
+	skill = 2
 }
 
 create_corps_commander = {
 	name = "Pak Yong Sik"
 	picture = "generals/Pak_Yong_Sik.dds"
-	traits = {  }
-	skill = 1
+	traits = { old_guard offensive_doctrine  }
+	skill = 6
 }
 
 2011.12.1 = {
