@@ -269,29 +269,7 @@ set_politics = {
 	}
 }
 
-2001.1.1 = {
-	complete_national_focus = JAP_develop_honshu
-	complete_national_focus = JAP_develop_kyushu
-	
-	complete_national_focus = JAP_national_renewal
-	complete_national_focus = JAP_path_of_peace
-	complete_national_focus = JAP_national_industrial_project
-	complete_national_focus = JAP_political_renewal
-	complete_national_focus = JAP_adapt_article_9
-	
-	complete_national_focus = JAP_bushido
-	complete_national_focus = JAP_continental_campaigns
-	complete_national_focus = JAP_ocean_campaigns
-	complete_national_focus = JAP_air_force_focus
-	
-	complete_national_focus = JAP_finish_nishiseto
-	complete_national_focus = JAP_southern_expressways
-	complete_national_focus = JAP_northern_expressways
-	
-	complete_national_focus = JAP_new_trade_policy
-	complete_national_focus = JAP_trade_with_america
-	complete_national_focus = JAP_trade_with_south_korea
-}
+
 
 2010.1.1 = {
 	set_party_name = {

@@ -99,3 +99,24 @@ syrian_civil_war_strategy6 = {
         value = 400
     } 
 }
+
+syrian_civil_war_strategy7 = {
+    enable = {
+        tag = USA
+		tag = TUR
+		TAG = CAN
+		TAG = ENG
+		TAG = FRA
+		TAG = GER
+		TAG = PRC
+		TAG = SPA
+		TAG = RAJ
+		TAG = BRA
+		TAG = SAU
+    }
+     ai_strategy = {
+        type = send_volunteers_desire
+        id = "IRQ"
+        value = -400
+    } 
+}
