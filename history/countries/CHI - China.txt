@@ -197,10 +197,11 @@ create_country_leader = {
 	ideology = maoist
 }
 
-create_corps_commander = {
+create_field_marshal = {
 	name = "Yen Teh-fa"
 	picture = "generals/Yen_Teh_Fa.dds"
-	skill = 2
+	traits = { defensive_doctrine }
+	skill = 5
 }
 
 create_corps_commander = {
@@ -212,31 +213,31 @@ create_corps_commander = {
 create_corps_commander = {
 	name = "Chiu_Kuo-cheng"
 	picture = "generals/Chiu_Kuo_Cheng.dds"
-	skill = 1
+	skill = 2
 }
 
 create_corps_commander = {
 	name = "Lee Shying-jow"
 	picture = "generals/Lee_Shying_Jow.dds"
-	skill = 1
+	skill = 3
 }
 
 create_corps_commander = {
 	name = "Chai Hui-chen"
 	picture = "generals/Chai_Hui_Chen.dds"
-	skill = 1
+	skill = 4
 }
 
 create_navy_leader = {
 	name = "Kao Kuang-chi"
 	picture = "admirals/Kao_Kuang_Chi.dds"
-	skill = 2
+	skill = 4
 }
 
 create_navy_leader = {
 	name = "Lee Hsi-min"
 	picture = "admirals/Lee_Hsi_Min.dds"
-	skill = 1
+	skill = 2
 }
 
 create_navy_leader = {

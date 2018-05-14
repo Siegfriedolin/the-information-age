@@ -173,8 +173,8 @@ set_politics = {
 	}
 
 	create_country_leader = {
-		name = "Kyoko Nakayama"
-		picture = "Kyoko_Nakayama.dds"
+		name = "Masashi Nakano"
+		picture = "Masashi_Nakano.dds"
 		ideology = national_democrat
 	}
 	
@@ -184,58 +184,58 @@ set_politics = {
 		ideology = absolute_monarchist
 	}
 
-	create_corps_commander = {
+	create_field_marshal = {
 		name = "Kiyofumi Iwata"
 		picture = "generals/Kiyofumi_Iwata.dds"
-		skill = 2
+		skill = 3
 	}
 
-	create_corps_commander = {
+	create_field_marshal = {
 		name = "Toshiya Okabe"
 		picture = "generals/Toshiya_Okabe.dds"
-		skill = 2
+		skill = 5
 	}
 
 	create_corps_commander = {
 		name = "Makiya Ota"
 		picture = "generals/Makiya_Ota.dds"
-		skill = 1
+		skill = 4
 	}
 
 	create_corps_commander = {
 		name = "Kazuaki Sumida"
 		picture = "generals/Kazuaki_Sumida.dds"
-		skill = 1
+		skill = 6
 	}
 
 	create_corps_commander = {
 		name = "Takayuki Onozuka"
 		picture = "generals/Takayuki_Onozuka.dds"
-		skill = 1
+		skill = 5
 	}
 
 	create_corps_commander = {
 		name = "Jiro Hiroe"
 		picture = "generals/Jiro_Hiroe.dds"
-		skill = 1
+		skill = 2
 	}
 
 	create_corps_commander = {
 		name = "Ichiro Kawasaki"
 		picture = "generals/Ichiro_Kawasaki.dds"
-		skill = 1
+		skill = 4
 	}
 
 	create_corps_commander = {
 		name = "Masahiro Nagai"
 		picture = "generals/Masahira_Nagai.dds"
-		skill = 1
+		skill = 3
 	}
 
 	create_corps_commander = {
 		name = "Shigeru Kobayashi"
 		picture = "generals/Shigeru_Kobayashi.dds"
-		skill = 1
+		skill = 4
 	}
 
 	create_navy_leader = {
@@ -259,7 +259,7 @@ set_politics = {
 	create_navy_leader = {
 		name = "Takashi Nishimura"
 		picture = "admirals/Takashi_Nishimura.dds"
-		skill = 1
+		skill = 6
 	}
 
 	create_navy_leader = {
@@ -269,29 +269,7 @@ set_politics = {
 	}
 }
 
-2001.1.1 = {
-	complete_national_focus = JAP_develop_honshu
-	complete_national_focus = JAP_develop_kyushu
-	
-	complete_national_focus = JAP_national_renewal
-	complete_national_focus = JAP_path_of_peace
-	complete_national_focus = JAP_national_industrial_project
-	complete_national_focus = JAP_political_renewal
-	complete_national_focus = JAP_adapt_article_9
-	
-	complete_national_focus = JAP_bushido
-	complete_national_focus = JAP_continental_campaigns
-	complete_national_focus = JAP_ocean_campaigns
-	complete_national_focus = JAP_air_force_focus
-	
-	complete_national_focus = JAP_finish_nishiseto
-	complete_national_focus = JAP_southern_expressways
-	complete_national_focus = JAP_northern_expressways
-	
-	complete_national_focus = JAP_new_trade_policy
-	complete_national_focus = JAP_trade_with_america
-	complete_national_focus = JAP_trade_with_south_korea
-}
+
 
 2010.1.1 = {
 	set_party_name = {

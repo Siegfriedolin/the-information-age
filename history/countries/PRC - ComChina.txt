@@ -216,7 +216,7 @@ create_country_leader = {
 create_field_marshal = {
 	name = "Chen Bingde"
 	picture = "generals/Chen_Bingde.dds"
-	skill = 3
+	skill = 7
 }
 
 create_field_marshal = {
@@ -248,7 +248,7 @@ create_corps_commander = {
 create_corps_commander = {
 	name = "Gao Xiaoyan"
 	picture = "generals/Gao_Xiaoyan.dds"
-	skill = 3
+	skill = 8
 }
 
 create_corps_commander = {
@@ -314,13 +314,13 @@ create_corps_commander = {
 create_corps_commander = {
 	name = "Zhang Shibo"
 	picture = "generals/Zhang_Shibo.dds"
-	skill = 1
+	skill = 5
 }
 
 create_corps_commander = {
 	name = "Zhao Zongqi"
 	picture = "generals/Zhao_Zongqi.dds"
-	skill = 1
+	skill = 3
 }
 
 create_navy_leader = {

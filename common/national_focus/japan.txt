@@ -1344,7 +1344,7 @@ focus_tree = {
 	focus = {
 		id = JAP_korean_unification_ultimatum
 		icon = political_pressure
-		x = 12
+		x = 13
 		y = 4
 		cost = 10
 		
@@ -1379,12 +1379,12 @@ focus_tree = {
 	focus = {
 		id = JAP_protect_our_nation
 		icon = defence
-		x = 14
-		y = 4
+		x = 6
+		y = 6
 		cost = 10
 		
 		prerequisite = {
-			focus = JAP_interventionism
+			focus = JAP_fortress_japan
 		}
 		
 		completion_reward = {
@@ -1515,7 +1515,7 @@ focus_tree = {
 	focus = {
 		id = JAP_chinese_unification_ultimatum
 		icon = attack_china
-		x = 12
+		x = 13
 		y = 5
 		cost = 10
 		
@@ -1567,8 +1567,8 @@ focus_tree = {
 	focus = {
 		id = JAP_vanguard_of_democracy
 		icon = attack_fascism
-		x = 14
-		y = 5
+		x = 6
+		y = 7
 		cost = 10
 		
 		prerequisite = {
@@ -1577,7 +1577,6 @@ focus_tree = {
 		
 		completion_reward = {
 			add_ideas = JAP_vanguards_of_democracy
-			set_rule = { can_create_factions = yes }
 		}
 		
 		ai_will_do = {
@@ -1644,7 +1643,7 @@ focus_tree = {
 	focus = {
 		id = JAP_east_asian_pact
 		icon = major_alliance
-		x = 12
+		x = 13
 		y = 6
 		cost = 10
 		
@@ -1709,8 +1708,8 @@ focus_tree = {
 	focus = {
 		id = JAP_democratic_militias
 		icon = entente
-		x = 14
-		y = 6
+		x = 6
+		y = 8
 		cost = 10
 		
 		prerequisite = {
@@ -1790,7 +1789,7 @@ focus_tree = {
 	focus = {
 		id = JAP_allies_across_asia
 		icon = alliance
-		x = 12
+		x = 13
 		y = 7
 		cost = 25
 		
@@ -2376,8 +2375,8 @@ focus_tree = {
 	focus = {
 		id = JAP_ally_indonesia
 		icon = tripartite_pact
-		x = 6
-		y = 8
+		x = 7
+		y = 9
 		cost = 10
 		
 		prerequisite = {
@@ -2429,7 +2428,7 @@ focus_tree = {
 	focus = {
 		id = JAP_asian_research_compact
 		icon = research
-		x = 12
+		x = 13
 		y = 8
 		cost = 10
 		
