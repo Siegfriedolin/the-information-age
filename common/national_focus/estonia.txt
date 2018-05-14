@@ -399,7 +399,7 @@ focus_tree = {
 	
 	    focus = {
 		id = EST_clear_the_parliament
-		icon = demand_territory2
+		icon = clear_parlament
 		
 		x = 15
 		y = 7
