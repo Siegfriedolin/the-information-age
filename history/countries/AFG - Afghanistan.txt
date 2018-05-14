@@ -1,6 +1,6 @@
 ﻿capital = 267
 
-oob = "AFG_2000"
+oob = "AFG_2018"
 
 set_research_slots = 2
 set_convoys = 10
@@ -52,86 +52,47 @@ add_ideas = {
 	population_growth_explosion
 	extensive_conscription
 	limited_exports
-	partially_recognized_state
 }
 
 set_country_flag = dominant_religion_islam
 set_country_flag = sunni_islam
 
 set_politics = {
-
 	parties = {
 		islamist = {
-			popularity = 60
+			popularity = 30
 		}
 		conservative = {
-			popularity = 20
-		}
-		market_liberal = {
-			popularity = 5
-		}
-		social_liberal = {
-			popularity = 5
+			popularity = 30
 		}
 		social_democrat = {
-			popularity = 5
+			popularity = 18
+		}
+		market_liberal = {
+			popularity = 2
 		}
 		communist = {
-			popularity = 5
+			popularity = 10
+		}
+		reactionary = {
+			popularity = 10
 		}
 	}
 	
-	ruling_party = islamist
-	last_election = "1997.1.1"
+	ruling_party = conservative
+	last_election = "2014.4.5"
+	elections_allowed = yes
 	election_frequency = 48
-	elections_allowed = no
 }
 
 create_country_leader = {
-	name = "Mohammed Omar"
+	name = "Hibatullah Akhundzada"
 	ideology = islamic_authoritarian
-	picture = "Mohammed_Omar.dds"
+	picture = "Hibatullah_Akhundzada.dds"
 }
 
 create_country_leader = {
-	name = "Hamid Karzai"
+	name = "Ashraf Ghani"
 	ideology = fiscal_conservative
-	picture = "Hamid_Karzai.dds"
-}
-
-2004.1.1 = {
-	oob = "AFG_2016"
-	set_party_name = {
-		ideology = islamist
-		name = AFG_islamist_party_islamic
-		long_name = AFG_islamist_party_islamic
-	}
-	set_politics = {
-		parties = {
-			islamist = {
-				popularity = 30
-			}
-			conservative = {
-				popularity = 30
-			}
-			social_democrat = {
-				popularity = 18
-			}
-			market_liberal = {
-				popularity = 2
-			}
-			communist = {
-				popularity = 10
-			}
-			reactionary = {
-				popularity = 10
-			}
-		}
-		ruling_party = conservative
-		elections_allowed = yes
-		last_election = "2003.6.1"
-	}
-	remove_ideas = {
-		partially_recognized_state
-	}
+	picture = "Ashraf_Ghani.dds"
 }
