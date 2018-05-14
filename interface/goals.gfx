@@ -2799,7 +2799,14 @@ spriteTypes = {
 		name = "tiger"
 		texturefile = "gfx/interface/goals/taiwan/tiger.dds"			
 	}
-
+    SpriteType = {
+		name = "farming_industry"
+		texturefile = "gfx/interface/goals/economy/farming_industry.dds"			
+	}
+	SpriteType = {
+		name = "support_workers"
+		texturefile = "gfx/interface/goals/economy/support_workers.dds"			
+	}
 	
 	#those without a category
 }

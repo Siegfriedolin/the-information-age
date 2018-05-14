@@ -262,9 +262,9 @@ focus_tree = {
 	
 	focus = {
 		id = EST_support_factory_workers
-		icon = consumer_goods
+		icon = support_workers
 		
-		x = 8
+		x = 9
 		y = 4
 		
 		cost = 10
@@ -771,6 +771,36 @@ focus_tree = {
 		completion_reward = {
 		add_stability = 0.02
 		add_ideas = civilian_industry_project
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	
+	    focus = {
+		id = EST_farming_society
+		icon = farming_industry
+		
+		x = 7
+		y = 4
+		
+		cost = 10
+        
+		cancel_if_invalid = no
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		
+		prerequisite = {
+			focus = EST_question_equality
+		}
+		
+		mutually_exclusive = {
+		    focus = EST_support_factory_workers
+		}
+		
+		completion_reward = {
+		    
 		}
 		
 		ai_will_do = {
