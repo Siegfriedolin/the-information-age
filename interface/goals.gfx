@@ -1340,6 +1340,11 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
+		name = "conflictkorea"
+		texturefile = "gfx/interface/goals/conflicts/conflictkorea.dds"			
+	}
+	
+	SpriteType = {
 		name = "continuous_air_production"
 		texturefile = "gfx/interface/goals/continuous/continuous_air_production.dds"			
 	}
@@ -2227,6 +2232,11 @@ spriteTypes = {
 	SpriteType = {
 		name = "japanese_monarchy"
 		texturefile = "gfx/interface/goals/japan/japanese_monarchy.dds"			
+	}
+	
+	SpriteType = {
+		name = "japan"
+		texturefile = "gfx/interface/goals/japan/japan.dds"			
 	}
 	
 	SpriteType = {
