@@ -142,11 +142,15 @@ country_event = {
 			}
 			modifier = {
 				has_idea = arab_league_member
-				add = 999
+				add = 200
 			}
 			modifier = {
+				has_government = islamist
+				add = 200
+			}
+			
+			modifier = {
 				OR = {
-					has_government = islamist
 					has_government = fascist
 					has_government = democratic_socialist
 					has_government = communist
@@ -190,8 +194,13 @@ country_event = {
 				add = 50
 			}
 			modifier = {
+			    ISR = { is_EU_member = yes }
+				is_EU_member = yes
+				add = 200
+			}
+			modifier = {
 				has_government = market_liberal
-				add = 10
+				add = 20
 			}
 			modifier = {
 				OR = {
@@ -207,6 +216,10 @@ country_event = {
 					original_tag = GER
 				}
 				add = 100
+			}
+			modifier = {
+				is_in_faction_with = ISR
+				add = 200
 			}
 			modifier = {
 				is_in_faction_with = USA

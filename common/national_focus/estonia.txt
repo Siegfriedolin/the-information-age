@@ -262,9 +262,9 @@ focus_tree = {
 	
 	focus = {
 		id = EST_support_factory_workers
-		icon = consumer_goods
+		icon = support_workers
 		
-		x = 8
+		x = 9
 		y = 4
 		
 		cost = 10
@@ -399,7 +399,7 @@ focus_tree = {
 	
 	    focus = {
 		id = EST_clear_the_parliament
-		icon = demand_territory2
+		icon = clear_parlament
 		
 		x = 15
 		y = 7
@@ -505,17 +505,17 @@ focus_tree = {
 		id = EST_rewrite_the_constitution
 		icon = constitution
 		
-		x = 14
-		y = 10
+		x = 13
+		y = 11
 		
-		cost = 14.3
+		cost = 10
         
 		cancel_if_invalid = no
 		continue_if_invalid = yes
 		available_if_capitulated = yes
 		
 		prerequisite = {
-			focus = EST_favor_a_worker_society
+			focus = EST_restore_trust
 		}
 		
 		mutually_exclusive = {}
@@ -771,6 +771,64 @@ focus_tree = {
 		completion_reward = {
 		add_stability = 0.02
 		add_ideas = civilian_industry_project
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	
+	    focus = {
+		id = EST_farming_society
+		icon = farming_industry
+		
+		x = 7
+		y = 4
+		
+		cost = 10
+        
+		cancel_if_invalid = no
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		
+		prerequisite = {
+			focus = EST_question_equality
+		}
+		
+		mutually_exclusive = {
+		    focus = EST_support_factory_workers
+		}
+		
+		completion_reward = {
+		    
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	
+		focus = {
+		id = EST_restore_trust
+		icon = neutrality
+		
+		x = 13
+		y = 10
+		
+		cost = 10
+        
+		cancel_if_invalid = no
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		
+		prerequisite = {
+			focus = EST_favor_a_worker_society
+		}
+		
+		mutually_exclusive = {}
+		
+		completion_reward = {
+		    add_stability = 0.05
 		}
 		
 		ai_will_do = {
