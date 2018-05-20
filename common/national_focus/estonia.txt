@@ -835,3 +835,31 @@ focus_tree = {
 			factor = 10
 		}
 	}
+	
+		focus = {
+		id = EST_setup_the_ESS
+		icon = neutrality
+		
+		x = 13
+		y = 10
+		
+		cost = 10
+        
+		cancel_if_invalid = no
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		
+		prerequisite = {
+			focus = EST_favor_a_worker_society
+		}
+		
+		mutually_exclusive = {}
+		
+		completion_reward = {
+		    add_stability = 0.05
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+	}
