@@ -976,7 +976,7 @@ focus_tree = {
 	
 	focus = {
 		id = JAP_the_future_of_japan
-		icon = demand_territory
+		icon = japan
 		x = 13
 		y = 0
 		cost = 10
@@ -1342,7 +1342,7 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = JAP_korean_unification_ultimatum
+		id = JAP_ensure_democracy
 		icon = political_pressure
 		x = 13
 		y = 4
@@ -1351,24 +1351,14 @@ focus_tree = {
 		prerequisite = {
 			focus = JAP_interventionism
 		}
-		
-		available = {
-			KOR = { has_democratic_form_of_government = yes }
-			PRK = { has_democratic_form_of_government = no }
-			NOT = { has_war_with = KOR }
-		}
-		
-		bypass = {
-			OR = {
-				KOR = { exists = no }
-				PRK = { exists = no }
-				KOR = { has_democratic_form_of_government = no }
-				PRK = { has_democratic_form_of_government = yes }
-			}
-		}
+	
 		
 		completion_reward = {
-			country_event = japan.2
+		add_stability = 0.01
+		add_popularity = {
+				ideology = conservative
+				popularity = 0.03
+			}
 		}
 		
 		ai_will_do = {
@@ -1379,7 +1369,7 @@ focus_tree = {
 	focus = {
 		id = JAP_protect_our_nation
 		icon = defence
-		x = 6
+		x = 9
 		y = 6
 		cost = 10
 		
@@ -1454,7 +1444,7 @@ focus_tree = {
 	focus = {
 		id = JAP_fortress_japan
 		icon = military_fort
-		x = 6
+		x = 9
 		y = 5
 		cost = 10
 		
@@ -1462,9 +1452,7 @@ focus_tree = {
 			focus = JAP_befriend_south_korea
 		}
 		
-		mutually_exclusive = {
-			focus = JAP_east_asian_alliance
-		}
+
 		
 		completion_reward = {
 			add_ideas = JAP_fortress_japan_idea
@@ -1475,88 +1463,30 @@ focus_tree = {
 		}
 	}
 	
-	focus = {
-		id = JAP_east_asian_alliance
-		icon = alliance
-		x = 8
-		y = 5
-		cost = 10
-		
-		prerequisite = {
-			focus = JAP_befriend_south_korea
-		}
-		
-		available = {
-			is_in_faction = no
-		}
-		
-		mutually_exclusive = {
-			focus = JAP_fortress_japan
-		}
 
-		
-		completion_reward = {
-			create_faction = japanese_alliance_democratic
-			add_war_support = 0.05
-		}
-		
-		ai_will_do = {
-			factor = 10
-			modifier = {
-				is_historical_focus_on = yes
-				factor = 0
-			}
-		}
-	}
 	
 
 
 	
 	focus = {
-		id = JAP_chinese_unification_ultimatum
-		icon = attack_china
+		id = JAP_ban_the_communist_party
+		icon = destroy_establishment
 		x = 13
 		y = 5
 		cost = 10
 		
 		prerequisite = {
-			focus = JAP_korean_unification_ultimatum
+			focus = JAP_ensure_democracy
 		}
 		
-		available = {
-			OR = {
-				custom_trigger_tooltip = {
-					tooltip = TT_korea_united_under_democracy
-					OR = {
-						AND = {
-							NOT = { country_exists = PRK }
-							KOR = { has_democratic_form_of_government = yes }
-						}
-						AND = {
-							NOT = { country_exists = KOR }
-							PRK = { has_democratic_form_of_government = yes }
-						}
-					}
-				}
-				has_war_with = PRC
-			}
-			NOT = { has_war_with = CHI }
-		}
-		
-		bypass = {
-			OR = {
-				AND = {
-					PRC = { has_democratic_form_of_government = no }
-					CHI = { has_democratic_form_of_government = no }
-				}
-				PRC = { has_democratic_form_of_government = yes }
-				PRC = { exists = no }
-				CHI = { exists = no }
-			}
-		}
-		
+
 		completion_reward = {
-			country_event = japan.10
+		add_popularity = {
+				ideology = communist
+				popularity = -0.05
+			}
+		add_political_power = -50
+        add_stability = 0.01		
 		}
 		
 		ai_will_do = {
@@ -1567,7 +1497,7 @@ focus_tree = {
 	focus = {
 		id = JAP_vanguard_of_democracy
 		icon = attack_fascism
-		x = 6
+		x = 9
 		y = 7
 		cost = 10
 		
@@ -1615,12 +1545,12 @@ focus_tree = {
 	focus = {
 		id = JAP_allies_in_indochina
 		icon = align_to_vietnam
-		x = 8
-		y = 6
+		x = 13
+		y = 7
 		cost = 10
 		
 		prerequisite = {
-			focus = JAP_east_asian_alliance
+			focus = JAP_east_asian_pact
 		}
 		
 		available = {
@@ -1648,36 +1578,7 @@ focus_tree = {
 		cost = 10
 		
 		prerequisite = {
-			focus = JAP_chinese_unification_ultimatum
-		}
-		
-		available = {
-			custom_trigger_tooltip = {
-				tooltip = TT_korea_united_under_democracy
-				OR = {
-					AND = {
-						NOT = { country_exists = PRK }
-						KOR = { has_democratic_form_of_government = yes }
-					}
-					AND = {
-						NOT = { country_exists = KOR }
-						PRK = { has_democratic_form_of_government = yes }
-					}
-				}
-			}
-			custom_trigger_tooltip = {
-				tooltip = TT_china_united_under_democracy
-				OR = {
-					AND = {
-						NOT = { country_exists = CHI }
-						PRC = { has_democratic_form_of_government = yes }
-					}
-					AND = {
-						NOT = { country_exists = PRC }
-						CHI = { has_democratic_form_of_government = yes }
-					}
-				}
-			}
+			focus = JAP_ban_the_communist_party
 		}
 		
 		bypass = {
@@ -1689,10 +1590,6 @@ focus_tree = {
 			if = {
 				limit = { is_in_faction = no }
 				create_faction = japanese_alliance_democratic
-			}
-			if = {
-				limit = { CHI = { NOT = { has_war_with = JAP } } }
-				CHI = { country_event = japan.1 }
 			}
 			if = {
 				limit = { KOR = { NOT = { has_war_with = JAP } } }
@@ -1708,7 +1605,7 @@ focus_tree = {
 	focus = {
 		id = JAP_democratic_militias
 		icon = entente
-		x = 6
+		x = 9
 		y = 8
 		cost = 10
 		
@@ -1752,8 +1649,8 @@ focus_tree = {
 	focus = {
 		id = JAP_ally_taiwan
 		icon = align_to_taiwan
-		x = 8
-		y = 7
+		x = 13
+		y = 8
 		cost = 10
 		
 		prerequisite = {
@@ -1786,32 +1683,7 @@ focus_tree = {
 	
 
 	
-	focus = {
-		id = JAP_allies_across_asia
-		icon = alliance
-		x = 13
-		y = 7
-		cost = 25
-		
-		prerequisite = {
-			focus = JAP_east_asian_pact
-		}
-		
-		completion_reward = {
-			every_country = {
-				limit = {
-					is_in_asia = yes
-					has_democratic_form_of_government = yes
-					is_in_faction = no
-				}
-				country_event = japan.1
-			}
-		}
-		
-		ai_will_do = {
-			factor = 10
-		}
-	}
+
 	
 	
 	focus = {
@@ -2375,7 +2247,7 @@ focus_tree = {
 	focus = {
 		id = JAP_ally_indonesia
 		icon = tripartite_pact
-		x = 7
+		x = 11
 		y = 9
 		cost = 10
 		
@@ -2401,8 +2273,8 @@ focus_tree = {
 	focus = {
 		id = JAP_ally_mongolia
 		icon = improve_relations
-		x = 8
-		y = 8
+		x = 15
+		y = 9
 		cost = 10
 		
 		prerequisite = {
@@ -2429,11 +2301,15 @@ focus_tree = {
 		id = JAP_asian_research_compact
 		icon = research
 		x = 13
-		y = 8
+		y = 10
 		cost = 10
 		
 		prerequisite = {
-			focus = JAP_allies_across_asia
+			focus = JAP_ally_indonesia
+		}
+		
+		prerequisite = {
+			focus = JAP_ally_mongolia
 		}
 		
 		available = {
@@ -2442,6 +2318,145 @@ focus_tree = {
 		
 		completion_reward = {
 			add_research_slot = 1
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	
+	focus = {
+		id = JAP_alliance_military_collaboration
+		icon = molotov_ribbentrop_pact
+		x = 13
+		y = 11
+		cost = 10
+		
+		prerequisite = {
+			focus = JAP_asian_research_compact
+		}
+		
+		
+		available = {
+			is_in_faction = yes
+		}
+		
+		completion_reward = {
+		every_country = {
+		limit = { is_in_faction_with = JAP }
+		army_experience = 50
+		}
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	
+	focus = {
+		id = JAP_the_conflict_in_korea
+		icon = conflictkorea
+		x = 13
+		y = 12
+		cost = 10
+		
+		prerequisite = {
+			focus = JAP_alliance_military_collaboration
+		}
+		
+		
+		available = {
+		PRK = {
+		has_democratic_form_of_government = no
+		}
+		}
+		
+		completion_reward = {
+		add_political_power = 120
+		add_war_support = 0.01
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	
+	focus = {
+		id = JAP_demand_korean_unification
+		icon = attack_north_korea
+		x = 15
+		y = 13
+		cost = 10
+		
+		prerequisite = {
+			focus = JAP_the_conflict_in_korea
+		}
+		
+		mutually_exclusive = {
+		focus = JAP_prepare_for_their_strike
+		}
+		
+		available = {
+	    PRK = { 
+		has_democratic_form_of_government = no
+		}
+		}
+		
+		completion_reward = {
+		PRK = { country_event = japan.23 }
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	
+	focus = {
+		id = JAP_prepare_for_their_strike
+		icon = defence
+		x = 11
+		y = 13
+		cost = 10
+		
+		prerequisite = {
+			focus = JAP_the_conflict_in_korea
+		}
+		
+		mutually_exclusive = {
+		focus = JAP_demand_korean_unification
+		}
+		
+		completion_reward = {
+		add_ideas = defensive_preparations3
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	
+	focus = {
+		id = JAP_japanese_nuclear_program
+		icon = nuclear_weapons
+		x = 11
+		y = 14
+		cost = 10
+		
+		prerequisite = {
+			focus = JAP_prepare_for_their_strike
+		}
+		
+		
+		completion_reward = {
+		add_stability = -0.02
+		add_political_power = -50
+		add_tech_bonus = {
+				name = secret_bonus
+				bonus = 0.5
+				uses = 10
+				category = nuclear
+				category = rocketry
+			}
 		}
 		
 		ai_will_do = {

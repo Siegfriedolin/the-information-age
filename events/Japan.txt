@@ -582,3 +582,30 @@ country_event = {
 		JAP = { add_opinion_modifier = { target = ROOT modifier = recent_actions_negative } }			
 	}
 }
+
+country_event = {
+	id = japan.23
+	title = japan.23.t
+	desc = japan.23.d
+	picture = GFX_report_event_war
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = japan.23.o1
+        KOR = { annex_country = { target = PRK } }
+        949  = { set_demilitarized_zone = no }
+        950 =  { set_demilitarized_zone = no }		
+		ai_chance = {
+			factor = 70
+		}
+	}
+	
+	option = { 
+	name = japan.23.o2
+    JAP = { create_wargoal = { type = topple_government target = PRK } }
+	ai_chance = {
+	    factor = 30
+	}
+	}
+}
