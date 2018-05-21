@@ -69,7 +69,6 @@ ideas = {
 			    conscription_factor = -0.30
 				consumer_goods_factor = 0.05
 				political_power_gain = -0.10
-				stability_factor = -0.10
 			}
 		}
 	
