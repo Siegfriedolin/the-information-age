@@ -191,8 +191,8 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Gennady Zyuganov"
-	picture = "Gennady_Zyuganov.dds"
+	name = "Pavel Grudinin"
+	picture = "Pavel_Grudinin.dds"
 	ideology = stalinist
 }
 create_country_leader = {

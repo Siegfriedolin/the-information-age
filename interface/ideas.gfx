@@ -630,6 +630,11 @@ spriteTypes = {
 		name = "GFX_idea_AU_member"
 		texturefile = "gfx/interface/ideas/international_organizations/AU_member.dds"
 	}
+	
+	spriteType = {
+		name = "GFX_idea_asia_member"
+		texturefile = "gfx/interface/ideas/international_organizations/asia_member.dds"
+	}
 
 	spriteType = {
 		name = "GFX_idea_EU_member"
