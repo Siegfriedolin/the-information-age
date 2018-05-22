@@ -1046,7 +1046,7 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = JAP_fortification_focus
+		id = JAP_defensive_isolationism
 		icon = military_fort
 		x = 8
 		y = 2
@@ -1054,6 +1054,10 @@ focus_tree = {
 		
 		prerequisite = {
 			focus = JAP_defensive_strategies
+		}
+		
+		mutually_exclusive = {
+			focus = JAP_defense_through_friendship
 		}
 		
 		completion_reward = {
@@ -1075,6 +1079,10 @@ focus_tree = {
 		
 		prerequisite = {
 			focus = JAP_defensive_strategies
+		}
+		
+		mutually_exclusive = {
+			focus = JAP_defensive_isolationism
 		}
 		
 		completion_reward = {
@@ -1178,12 +1186,12 @@ focus_tree = {
 	focus = {
 		id = JAP_befriend_vietnam
 		icon = align_to_vietnam
-		x = 8
-		y = 3
+		x = 10
+		y = 4
 		cost = 10
 		
 		prerequisite = {
-			focus = JAP_defense_through_friendship
+			focus = JAP_befriend_taiwan
 		}
 		
 		completion_reward = {
@@ -1311,12 +1319,12 @@ focus_tree = {
 	focus = {
 		id = JAP_befriend_south_korea
 		icon = align_to_south_korea
-		x = 9
-		y = 4
+		x = 10
+		y = 5
 		cost = 10
 		
 		prerequisite = {
-			focus = JAP_defense_through_friendship
+			focus = JAP_befriend_vietnam
 		}
 		
 		available = {
@@ -1369,8 +1377,8 @@ focus_tree = {
 	focus = {
 		id = JAP_protect_our_nation
 		icon = defence
-		x = 9
-		y = 6
+		x = 8
+		y = 4
 		cost = 10
 		
 		prerequisite = {
@@ -1444,12 +1452,12 @@ focus_tree = {
 	focus = {
 		id = JAP_fortress_japan
 		icon = military_fort
-		x = 9
-		y = 5
+		x = 8
+		y = 3
 		cost = 10
 		
 		prerequisite = {
-			focus = JAP_befriend_south_korea
+			focus = JAP_defensive_isolationism
 		}
 		
 
@@ -1497,8 +1505,8 @@ focus_tree = {
 	focus = {
 		id = JAP_vanguard_of_democracy
 		icon = attack_fascism
-		x = 9
-		y = 7
+		x = 8
+		y = 5
 		cost = 10
 		
 		prerequisite = {
@@ -1603,20 +1611,91 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = JAP_democratic_militias
+		id = JAP_defensive_militias
 		icon = entente
+		x = 9
+		y = 6
+		cost = 10
+		
+		prerequisite = {
+			focus = JAP_vanguard_of_democracy
+			focus = JAP_befriend_south_korea
+		}
+		
+		completion_reward = {
+			add_ideas = additional_recruits5
+			add_ideas = defensive_military_strategy
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	
+	focus = {
+		id = JAP_trading_with_our_allies
+		icon = trade_deal2
+		x = 10
+		y = 7
+		cost = 10
+		
+		prerequisite = {
+		focus = JAP_defensive_militias
+		}
+		
+		prerequisite = {
+		focus = JAP_befriend_south_korea
+		}
+		
+		completion_reward = {
+		JAP = { add_opinion_modifier = { target = CHI modifier = trade_influence_2 } 
+		JAP = { add_opinion_modifier = { target = KOR modifier = trade_influence_2 } }
+		JAP = { add_opinion_modifier = { target = VIN modifier = trade_influence_2 } }
+		}
+		}
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	
+	focus = {
+		id = JAP_create_the_asian_union
+		icon = align_to_asia
 		x = 9
 		y = 8
 		cost = 10
 		
 		prerequisite = {
-			focus = JAP_vanguard_of_democracy
+		focus = JAP_trading_with_our_allies
 		}
 		
 		completion_reward = {
-			add_ideas = JAP_democratic_militia
+		VIN = { country_event = japan.24 }
+		CHI = { country_event = japan.24 }
+		KOR = { country_event = japan.24 }
+		add_ideas = idea_asia_member
+		}
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	
+	focus = {
+		id = JAP_expand_the_asian_union
+		icon = align_to_asia
+		x = 9
+		y = 9
+		cost = 10
+		
+		prerequisite = {
+		focus = JAP_create_the_asian_union
 		}
 		
+		completion_reward = {
+		NZL = { country_event = japan.24 }
+		AUS = { country_event = japan.24 }
+		PAP = { country_event = japan.24 }
+		}
 		ai_will_do = {
 			factor = 10
 		}

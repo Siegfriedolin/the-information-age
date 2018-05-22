@@ -609,3 +609,36 @@ country_event = {
 	}
 	}
 }
+
+country_event = {
+	id japan.24
+	title = japan.24.t
+	desc = japan.24.d
+	picture = GFX_report_event_japanese_flag
+	
+	is_triggered_only = yes
+	
+	option = {	#Sure thing
+		name = japan.24.o1
+		add_ideas = idea_asia_member
+		JAP = {
+		country_event = diplomatic_response.1
+		}
+		
+		ai_chance = {
+			factor = 70
+		}
+	}
+	
+	option = {	#Aint nobody got time for that
+		name = japan.24.o2
+		add_political_power = 15
+		JAP = {
+		country_event = diplomatic_response.2 	
+		}
+		
+		ai_chance = {
+			factor = 30
+			}
+		}
+	}

@@ -125,6 +125,11 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
+		name = "align_to_asia"
+		texturefile = "gfx/interface/goals/alignment/align_to_asia.dds"			
+	}
+	
+	SpriteType = {
 		name = "align_to_australia"
 		texturefile = "gfx/interface/goals/alignment/align_to_australia.dds"			
 	}
