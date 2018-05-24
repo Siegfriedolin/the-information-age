@@ -168,11 +168,3 @@ create_corps_commander = {
 		ideology = absolute_monarchist
 	}
 }
-
-2018.1.1 = {
-	add_ai_strategy = {
-		type = support
-		id = "HTS"
-		value = 200
-	}	
-}

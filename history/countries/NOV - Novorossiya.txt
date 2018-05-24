@@ -141,6 +141,6 @@ create_corps_commander = {
 2018.1.1 = {
 	declare_war_on = {
 		target = UKR
-		type = take_core_state
+		type = annex_everything
 	}
 }

@@ -83,6 +83,7 @@ set_country_flag = dominant_religion_islam
 set_country_flag = sunni_islam
 
 give_military_access = TUR
+give_military_access = JOR
 
 add_ideas = {
 	population_growth_rapid
@@ -173,4 +174,11 @@ create_corps_commander = {
 	name = "Essam al-Buwaydhani"
 	picture = "Essam_al_Buwaydhani.dds"
 	skill = 2
+}
+
+2018.1.1 = {
+	declare_war_on = {
+		target = SYR
+		type = annex_everything
+	}
 }

@@ -55,7 +55,7 @@ country_event = {
 	trigger = {
 		original_tag = JTS
 		has_government = islamist
-		HTS = { has_government = islamist }
+		HTS = { has_government = islamist exists = yes }
 		NOT = { has_war_with = HTS }
 		date > 2018.2.18
 		date < 2019.1.1
@@ -114,6 +114,8 @@ country_event = {
 		ai_chance = {
 			factor = 85
 		}
+		annex_country = { target = JTS transfer_troops = yes }
+		set_cosmetic_tag = JAF
 		set_country_flag = army_of_conquest
 	}
 }

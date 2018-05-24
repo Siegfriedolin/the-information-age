@@ -166,4 +166,8 @@ create_field_marshal = {
 	remove_ideas = idea_focus_generic_path_of_allah
 	remove_ideas = idea_focus_generic_path_of_order
 	remove_ideas = idea_focus_generic_national_strength
+	add_to_war = {
+		targeted_alliance = FSA
+		enemy = SYR
+	}
 }

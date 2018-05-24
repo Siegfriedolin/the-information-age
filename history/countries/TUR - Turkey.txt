@@ -467,21 +467,3 @@ create_navy_leader = {
 	traits = { old_guard_navy }
 	skill = 1
 }
-
-2018.1.1 = {
-	add_ai_strategy = {
-		type = support
-		id = "FSA"
-		value = 200
-	}
-	add_ai_strategy = {
-		type = send_volunteers_desire
-		id = "FSA"
-		value = 200
-	}
-	add_ai_strategy = {
-		type = antagonize
-		id = "SYR"
-		value = 200
-	}
-}
