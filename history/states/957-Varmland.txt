@@ -1,0 +1,23 @@
+
+state={
+	id=957
+	name="STATE_957"
+
+	history={
+		owner = SWE
+	    victory_points = {
+			11114 2 
+		}
+		buildings = {
+			infrastructure = 5
+		}
+		add_core_of = SWE
+	}
+
+	provinces={
+		147 3128 3141 6028 6195 9054 9138 9218 11114 
+	}
+	manpower=318341
+	buildings_max_level_factor=1.000
+	state_category=state_level_6
+}

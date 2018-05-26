@@ -9,7 +9,7 @@ state={
 	history={
 		owner = ROJ
 		victory_points = {
-			1578 2 
+			1578 5
 		}
 		add_core_of = ROJ
 		add_core_of = SYR
@@ -29,14 +29,11 @@ state={
 			}
 
 		}
-		victory_points = {
-			1549 2 
-		}
 
 	}
 
 	provinces={
-		1549 1578 10882 
+		1578 13295 13296 
 	}
 	manpower=1512000
 	buildings_max_level_factor=1.000

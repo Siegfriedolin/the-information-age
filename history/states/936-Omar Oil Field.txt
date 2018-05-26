@@ -1,9 +1,11 @@
+
 state={
 	id=936
 	name="STATE_936"
 	resources={
 		oil=3.000
 	}
+
 	history={
 		owner = ROJ
 		add_core_of = SYR
@@ -11,9 +13,15 @@ state={
 		add_core_of = HTS
 		add_core_of = JTS
 		add_core_of = ISS
+        2018.1.1 = {
+			ISS = {
+				set_province_controller = 13369
+			}
+		}
 	}
+
 	provinces={
-		901 
+		901 13369 
 	}
 	manpower=1827
 	buildings_max_level_factor=1.000

@@ -6,7 +6,7 @@ state_categories={
 	}
 	
 	state_level_1 = {
-		local_building_slots = 0
+		local_building_slots = 1
 		color = { 240 0 0 }
 	}
 	

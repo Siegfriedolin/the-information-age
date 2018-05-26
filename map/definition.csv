@@ -2011,7 +2011,7 @@
 2010;9;108;225;land;false;desert;6
 2011;9;111;40;land;false;mountain;2
 2012;9;111;145;land;false;plains;5
-2013;9;111;190;land;false;desert;7
+2013;9;111;190;land;false;urban;7
 2014;9;114;5;land;false;desert;6
 2015;9;114;155;land;false;desert;6
 2016;9;114;210;land;false;plains;5
@@ -13293,8 +13293,8 @@
 13292;232;115;230;land;false;desert;0
 13293;155;255;210;land;false;hills;0
 13294;175;206;37;land;false;hills;0
-13295;144;158;105;land;false;urban;0
-13296;174;105;181;land;false;urban;0
+13295;144;158;105;land;false;plains;0
+13296;174;105;181;land;false;plains;0
 13297;78;47;93;land;false;desert;0
 13298;135;147;49;land;true;plains;0
 13299;158;120;82;land;false;desert;0
@@ -13322,7 +13322,7 @@
 13321;158;188;128;land;false;desert;0
 13322;140;56;99;land;false;desert;0
 13323;203;224;175;land;false;desert;0
-13324;224;222;114;land;false;plains;0
+13324;224;222;114;land;true;plains;0
 13325;203;224;134;land;false;desert;0
 13326;140;87;43;land;false;desert;0
 13327;170;224;166;land;false;desert;0
@@ -13331,9 +13331,9 @@
 13330;162;150;163;land;false;plains;0
 13331;39;188;91;land;false;desert;0
 13332;120;186;132;land;false;desert;0
-13333;92;94;89;land;false;plains;0
+13333;92;94;89;land;false;desert;0
 13334;221;128;190;land;false;desert;0
-13335;94;50;89;land;false;hills;0
+13335;94;50;89;land;true;plains;0
 13336;149;160;73;land;false;desert;0
 13337;160;128;125;land;false;desert;0
 13338;115;255;76;land;true;plains;0
@@ -13369,7 +13369,8 @@
 13368;252;178;255;land;false;desert;0
 13369;153;99;165;land;false;desert;0
 13370;173;245;255;land;false;desert;0
-13371;255;185;132;land;false;desert;0
+13371;255;185;132;land;false;plains;0
 13372;255;170;189;land;false;desert;0
 13373;200;122;219;land;false;hills;0
 13374;255;252;104;land;false;unknown;0
+13375;40;91;33;land;false;desert;0
