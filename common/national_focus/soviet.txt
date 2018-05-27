@@ -1096,6 +1096,29 @@ focus_tree = {
 		}
 	}
 	
+	focus = {
+		id = SOV_crack_down_on_the_oligarchy
+		icon = destroy_society
+		x = 11
+		y = 4
+		cost = 10
+		
+	    available = {
+		    has_government = social_liberal
+		}
+		
+		prerequisite = {
+		    focus = SOV_begin_the_reform
+		}
+		
+		completion_reward = {
+            swap_ideas = { 
+			    remove_idea = SOV_corrupt_oligarchy add_idea = idea_SOV_corrupt_oligarchy2
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
 	}
 	
 	

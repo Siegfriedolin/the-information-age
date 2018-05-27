@@ -98,6 +98,19 @@ ideas = {
 			}
 		}
 		
+		idea_SOV_corrupt_oligarchy2 = {
+			picture = high_society
+		
+			allowed = { always = no }
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = -0.05
+				industrial_capacity_factory = -0.05
+			}
+		}
+		
 	}
 	
 }
