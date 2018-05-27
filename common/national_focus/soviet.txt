@@ -1067,7 +1067,34 @@ focus_tree = {
 			factor = 10
 		}
 	}
-	
+	focus = {
+		id = SOV_begin_the_reform
+		icon = attack_fascism
+        x = 10
+		y = 3
+		cost = 10
+		
+		
+	    available = {
+		has_government = social_liberal
+		}
+		
+		prerequisite = {
+		focus = SOV_grigory_yavlinsky
+		}
+		
+		completion_reward = {
+		    add_political_power = 50
+            add_popularity = {
+				ideology = reactionary
+				popularity = -0.05
+			}
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+	}
 	
 	}
 	
