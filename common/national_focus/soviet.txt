@@ -693,7 +693,7 @@ focus_tree = {
 	
 	focus = {
 		id = SOV_weaken_ukraine
-		icon = destroy_establishment
+		icon = destory_influence_ukraine
 		x = 42
 		y = 2
 		cost = 1
