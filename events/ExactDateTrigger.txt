@@ -1291,6 +1291,22 @@ country_event = {
 	}
 }
 
+#March 18, 2017
+country_event = {
+	id = exact_date_trigger.6256
+	hidden = yes
+	fire_only_once = yes
+	
+	trigger = {
+		date > 2018.3.17
+		date < 2018.3.19
+	}
+	
+	option = {
+		GER = { news_event = russia. }
+	}
+}
+
 #July 24, 2020
 country_event = {
 	id = exact_date_trigger.7511

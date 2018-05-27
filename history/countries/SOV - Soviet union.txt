@@ -208,8 +208,8 @@ create_country_leader = {
 	ideology = fiscal_conservative
 }
 create_country_leader = {
-	name = "Emilia Slabunova"
-	picture = "Emilia_Slabunova.dds"
+	name = "Grigory Yavlinsky"
+	picture = "Grigory_Yavlinsky.dds"
 	ideology = liberalist
 }
 create_country_leader = {

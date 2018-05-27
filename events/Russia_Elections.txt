@@ -126,3 +126,84 @@ country_event = {
 		}
 	}
 }
+
+country_event = {
+	id = election_SOV.2
+	title = election_SOV.2.t
+	desc = election_SOV.2.d
+	picture = GFX_news_event_russianelection
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		set_country_flag = russia_elections
+	}
+	
+	option = {
+		name = election_SOV.2.o1
+		set_politics = {
+			ruling_party = reactionary
+			elections_allowed = no
+		}		
+		every_country = {
+		news_event = russia_news.5
+		}
+		add_popularity = { ideology = reactionary popularity = 0.05 }
+		
+		ai_chance = {
+			base = 70
+		}
+    }
+	
+	option = {
+		name = election_SOV.2.o2
+		set_politics = {
+			ruling_party = communist
+			elections_allowed = yes
+		}
+		
+        every_country = {
+		news_event = russia_news.6
+		}
+		add_popularity = { ideology = communist popularity = 0.15 }
+		
+		ai_chance = {
+			base = 15
+		}
+	}
+	
+	option = {
+		name = election_SOV.2.o3
+		set_politics = {
+			ruling_party = nationalist
+			elections_allowed = yes
+		}
+		
+        every_country = {
+		news_event = russia_news.7
+		}
+		add_popularity = { ideology = nationalist popularity = 0.15 }
+		
+		ai_chance = {
+			base = 10
+		}
+	}
+	
+	option = {
+		name = election_SOV.2.o4
+		set_politics = {
+			ruling_party = social_liberal
+			elections_allowed = yes
+		}
+		
+        every_country = {
+		news_event = russia_news.8
+		}
+		add_popularity = { ideology = social_liberal popularity = 0.15 }
+		
+		ai_chance = {
+			base = 5
+		}
+	}
+	
+	}

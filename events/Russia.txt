@@ -272,25 +272,35 @@ country_event = {
 }
 
 
-#Kazakhstan, Russia demands land.
+#Russia sends support to new russia 
 country_event = {
 	id = russia.11
 	title = russia.11.t
 	desc = russia.11.d
-	picture = GFX_report_event_russia_tanks
+	picture = GFX_report_event_russian_flag
 	
 	is_triggered_only = yes
 	
 	option = {
 		name = russia.11.o1
-		 SOV = {transfer_state = 407}
-		 SOV = {transfer_state = 406}
-		 SOV = {transfer_state = 804}
-		 add_stability = -0.05
-		 add_political_power = -50
+		NOV = { add_ideas = idea_SOV_russian_support }
+		NOV = { add_manpower = 100000 }
+		NOV = { load_oob = "NOVvolunteers" }
 			}
+		}
+		
+country_event = {
+	id = russia.12
+	title = russia.12.t
+	desc = russia.12.d
+	picture = GFX_report_event_russian_flag
+	
+	is_triggered_only = yes
+	
 	option = {
-	    name= russia.11.o2
-		leave_faction = {target = KAZ}
-		} 
+		name = russia.12.o1
+		UKR = { add_timed_idea = { idea = idea_SOV_russian_bombings days = 90 } }
+		every_country = {
+		news_event = russia_news.8 }
+			}
 		}

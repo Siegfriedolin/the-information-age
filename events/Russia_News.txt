@@ -58,11 +58,103 @@ news_event = {
 	option = {
 		name = russia_news.4.o1
 		trigger = { original_tag = SOV }
+		set_country_flag = libtard
 	}
 	
 	option = {
 		name = russia_news.4.o2
 		trigger = { NOT = { original_tag = SOV } }
+	}
+}
+
+news_event = {
+	id = russia_news.5
+	title = russia_news.5.t
+	desc = russia_news.5.d
+	picture = GFX_news_event_putinvictorious
+	
+	is_triggered_only = yes
+	major = yes
+	
+	option = {
+		name = russia_news.5.o1
+		trigger = { original_tag = SOV }
+		set_country_flag = putinboi
+	}
+	
+	option = {
+		name = russia_news.5.o2
+		trigger = { NOT = { original_tag = SOV } }
+	}
+}
+
+news_event = {
+	id = russia_news.6
+	title = russia_news.6.t
+	desc = russia_news.6.d
+	picture = GFX_news_event_grudininvictorious
+	
+	is_triggered_only = yes
+	major = yes
+	
+	option = {
+		name = russia_news.6.o1
+		trigger = { original_tag = SOV }
+		set_country_flag = commieboi
+	}
+	
+	option = {
+		name = russia_news.6.o2
+		trigger = { NOT = { original_tag = SOV } }
+	}
+}
+
+news_event = {
+	id = russia_news.7
+	title = russia_news.7.t
+	desc = russia_news.7.d
+	picture = GFX_news_event_zhirinovskyvictorious
+	
+	is_triggered_only = yes
+	major = yes
+	
+	option = {
+		name = russia_news.7.o1
+		trigger = { original_tag = SOV }
+		set_country_flag = nationalistboi
+	}
+	
+	option = {
+		name = russia_news.7.o2
+		trigger = { NOT = { original_tag = SOV } }
+	}
+}
+	
+news_event = {
+	id = russia_news.8
+	title = russia_news.8.t
+	desc = russia_news.8.d
+	picture = GFX_news_event_ukrainebombed
+	
+	is_triggered_only = yes
+	major = yes
+	
+	option = {
+		name = russia_news.8.o1
+		trigger = { original_tag = SOV }
+	}
+	
+	option = {
+		name = russia_news.8.o2
+		trigger = { NOT = { original_tag = SOV } 
+		has_ideas = idea_eu_member
+		}
+	}
+	
+	option = {
+		name = russia_news.8.o3
+		trigger = { NOT = { original_tag = SOV } 
+		}
 	}
 }
 

@@ -1350,6 +1350,11 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
+		name = "novoconflict"
+		texturefile = "gfx/interface/goals/conflicts/novoconflict.dds"			
+	}
+	
+	SpriteType = {
 		name = "continuous_air_production"
 		texturefile = "gfx/interface/goals/continuous/continuous_air_production.dds"			
 	}

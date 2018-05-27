@@ -529,7 +529,32 @@ spriteTypes = {
 		name = "GFX_news_event_vladimir_zhirinovsky"
 		texturefile = "gfx/event_pictures/news_event/russia/vladimir_zhirinovsky.dds"
 	}
-
+	
+	spriteType = {
+		name = "GFX_news_event_russianelection"
+		texturefile = "gfx/event_pictures/news_event/russia/russianelection.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_putinvictorious"
+		texturefile = "gfx/event_pictures/news_event/russia/putinvictorious.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_grudininvictorious"
+		texturefile = "gfx/event_pictures/news_event/russia/grudininvictorious.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_zhirinovskyvictorious"
+		texturefile = "gfx/event_pictures/news_event/russia/zhirinovskyvictorious.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_ukrainebombed"
+		texturefile = "gfx/event_pictures/news_event/russia/ukrainebombed.dds"
+	}
+	
 	spriteType = {
 		name = "GFX_news_event_fifa_world_cup_2002"
 		texturefile = "gfx/event_pictures/news_event/sports/fifa_world_cup/fifa_world_cup_2002.dds"
