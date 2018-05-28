@@ -690,7 +690,7 @@ focus_tree = {
 	
 	focus = {
 		id = SOV_weaken_ukraine
-		icon = destroy_establishment
+		icon = destory_influence_ukraine
 		x = 42
 		y = 2
 		cost = 1
@@ -1064,8 +1064,58 @@ focus_tree = {
 			factor = 10
 		}
 	}
+	focus = {
+		id = SOV_begin_the_reform
+		icon = attack_fascism
+        x = 10
+		y = 3
+		cost = 10
+		
+		
+	    available = {
+		has_government = social_liberal
+		}
+		
+		prerequisite = {
+		focus = SOV_grigory_yavlinsky
+		}
+		
+		completion_reward = {
+		    add_political_power = 50
+            add_popularity = {
+				ideology = reactionary
+				popularity = -0.05
+			}
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+	}
 	
-	
+	focus = {
+		id = SOV_crack_down_on_the_oligarchy
+		icon = destroy_society
+		x = 11
+		y = 4
+		cost = 10
+		
+	    available = {
+		    has_government = social_liberal
+		}
+		
+		prerequisite = {
+		    focus = SOV_begin_the_reform
+		}
+		
+		completion_reward = {
+            swap_ideas = { 
+			    remove_idea = SOV_corrupt_oligarchy add_idea = idea_SOV_corrupt_oligarchy2
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
 	}
 	
 	

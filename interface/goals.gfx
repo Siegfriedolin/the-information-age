@@ -2831,5 +2831,9 @@ spriteTypes = {
 		name = "clear_parlament"
 		texturefile = "gfx/interface/goals/diplomacy/clear_parlament.dds"			
 	}
+	SpriteType = {
+		name = "destory_influence_ukraine"
+		texturefile = "gfx/interface/goals/diplomacy/destroy_ukraine_establishment.dds"			
+	}
 	#those without a category
 }
