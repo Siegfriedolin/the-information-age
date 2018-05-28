@@ -128,6 +128,7 @@ add_ideas = {
 	idea_eu_sanctions
         idea_SOV_poor_inf
         idea_SOV_defender_of_orthotox
+		idea_SOV_major_oil_power
 }
 
 set_politics = {

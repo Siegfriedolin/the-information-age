@@ -99,7 +99,7 @@ ideas = {
 		}
 		
 		idea_SOV_corrupt_oligarchy2 = {
-			picture = high_society
+			picture = restricted_society
 		
 			allowed = { always = no }
 			allowed_civil_war = { always = yes }
@@ -108,6 +108,17 @@ ideas = {
 			modifier = {
 				political_power_factor = -0.05
 				industrial_capacity_factory = -0.05
+			}
+		}
+		idea_SOV_major_oil_power = {
+			picture = oil_profits
+		
+			allowed = { always = no }
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 0.10
 			}
 		}
 		

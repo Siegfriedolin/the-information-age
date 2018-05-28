@@ -1126,4 +1126,8 @@ spriteTypes = {
 		name = "GFX_idea_bad_infrastructure"
 		texturefile = "gfx/interface/ideas/RUS/bad_infrastructure.dds"
 	}
+	spriteType = {
+	name = "GFX_idea_restricted_society"
+	texturefile = "gfx/interface/ideas/diplomacy/restricted_society.dds"
+	}
 }
