@@ -726,6 +726,11 @@ spriteTypes = {
 	}
 	
 	spriteType = {
+		name = "GFX_report_event_russiaelections"
+		texturefile = "gfx/event_pictures/report_event/russia/elections.dds"
+	}
+	
+	spriteType = {
 		name = "GFX_report_event_south_sudanese_civil_war"
 		texturefile = "gfx/event_pictures/report_event/south_sudan/south_sudanese_civil_war.dds"
 	}

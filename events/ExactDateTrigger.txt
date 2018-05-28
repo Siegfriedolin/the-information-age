@@ -1291,7 +1291,7 @@ country_event = {
 	}
 }
 
-#March 18, 2017
+#March 18, 2018
 country_event = {
 	id = exact_date_trigger.6256
 	hidden = yes
@@ -1303,7 +1303,7 @@ country_event = {
 	}
 	
 	option = {
-		GER = { news_event = russia. }
+		SOV = { news_event = russia.13 }
 	}
 }
 

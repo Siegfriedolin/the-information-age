@@ -131,13 +131,9 @@ country_event = {
 	id = election_SOV.2
 	title = election_SOV.2.t
 	desc = election_SOV.2.d
-	picture = GFX_news_event_russianelection
+	picture = GFX_report_event_russiaelections
 	
 	is_triggered_only = yes
-	
-	immediate = {
-		set_country_flag = russia_elections
-	}
 	
 	option = {
 		name = election_SOV.2.o1
@@ -196,8 +192,9 @@ country_event = {
 			elections_allowed = yes
 		}
 		
+		
         every_country = {
-		news_event = russia_news.8
+		news_event = russia_news.4
 		}
 		add_popularity = { ideology = social_liberal popularity = 0.15 }
 		

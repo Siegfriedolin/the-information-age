@@ -35,15 +35,13 @@ focus_tree = {
 		cost = 0
 		
 		available = {
-        hidden_effect = { has_country_flag = russia_elections }
 		custom_trigger_tooltip = {
 		tooltip = SOV_elections
 		always = no
 		}
 		}
 		bypass = {
-		hidden_effect = { SOV = { has_country_flag = russia_elections } }
-		}
+	    SOV = { has_country_flag = russia_elections } }
 		completion_reward = {
 	    add_stability = -0.02
 		add_political_power = 50
@@ -52,8 +50,7 @@ focus_tree = {
 		ai_will_do = {
 			factor = 10
 		}
-	}
-	
+     }	
 	focus = {
 		id = SOV_vladimir_putin
 		icon = putin
@@ -64,14 +61,14 @@ focus_tree = {
 		focus = SOV_the_russian_presidential_election
 		}
 		available = {
-        hidden_effect = { has_country_flag = putinboi }
 	    custom_trigger_tooltip = {
 		tooltip = SOV_elections_putin
 		always = no
+		OR = { has_country_flag = putinboi }
 		}
 		}
 		bypass = {
-		hidden_effect = { SOV = { has_country_flag = putinboi } }
+	    has_country_flag = putinboi
 		}
 		completion_reward = {
 	    add_stability = 0.01
@@ -92,14 +89,14 @@ focus_tree = {
 		focus = SOV_the_russian_presidential_election
 		}
 		available = {
-        hidden_effect = { has_country_flag = commieboi }
 	   custom_trigger_tooltip = {
 		tooltip = SOV_elections_grudinin
 		always = no
+		OR = { has_country_flag = commieboi }
 		}
 		}
 		bypass = {
-		hidden_effect = { has_country_flag = commieboi }
+      has_country_flag = commieboi 
 		}
 		completion_reward = {
 	    add_stability = -0.01
@@ -121,14 +118,14 @@ focus_tree = {
 		}
 		
 		available = {
-        hidden_effect = { has_country_flag = libtard }
 	    custom_trigger_tooltip = {
 		tooltip = SOV_elections_yavlinsky
 		always = no
+		OR = { has_country_flag = libtard }
 		}
 		}
 		bypass = {
-		hidden_effect = { has_country_flag = libtard }
+	   has_country_flag = libtard 
 		}
 		completion_reward = {
 	    add_stability = -0.01
@@ -150,14 +147,14 @@ focus_tree = {
 		}
 		
 		available = {
-        hidden_effect = { has_country_flag = nationalistboi }
 	    custom_trigger_tooltip = {
 		tooltip = SOV_elections_zhirinovsky
 		always = no
+		OR = { has_country_flag = nationalistboi }
 		}
 		}
 		bypass = {
-		hidden_effect = { has_country_flag = nationalistboi }
+	    has_country_flag = nationalistboi
 		}
 		completion_reward = {
 	    add_stability = -0.01
