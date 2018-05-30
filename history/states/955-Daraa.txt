@@ -1,22 +1,27 @@
+
 state={
 	id=955
 	name="STATE_955"
+
 	history={
 		owner = FSA
 		victory_points = {
-			1074 3
+			1074 3 
 		}
 		buildings = {
 			infrastructure = 3
+
 		}
 		add_core_of = SYR
-	    add_core_of = FSA
+		add_core_of = FSA
 		add_core_of = HTS
 		add_core_of = JTS
 		add_core_of = ISS
+
 	}
+
 	provinces={
-		1074 
+		1074 13291 13292 13297 
 	}
 	manpower=428681
 	buildings_max_level_factor=1.000

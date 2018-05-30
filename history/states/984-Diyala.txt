@@ -1,15 +1,20 @@
+
 state={
 	id=984
 	name="STATE_984"
+
 	history={
 		owner = IRQ
 		buildings = {
 			infrastructure = 3
+
 		}
 		add_core_of = IRQ
+
 	}
+
 	provinces={
-		8123 10793 
+		10793 12855 13390 
 	}
 	manpower=1443200
 	buildings_max_level_factor=1.000
