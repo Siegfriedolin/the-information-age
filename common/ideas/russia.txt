@@ -60,9 +60,7 @@ ideas = {
 			allowed_civil_war = { always = yes }
 			removal_cost = -1
 			
-			modifier = {
-				political_power_factor = 0.10
-			}
+			modifier = {}
 		}
 		
 		idea_SOV_russian_support = {
@@ -118,7 +116,20 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				political_power_factor = 0.10
+			    production_oil_factor = 0.15
+				political_power_factor = 0.05
+				consumer_goods_factor = -0.05
+			}
+		}
+		idea_SOV_home_of_the_revolution = {
+			picture = home_of_the_new_revolution
+		
+			allowed = { always = no }
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
+			
+			modifier = {
+			    communist_drift = 0.01
 			}
 		}
 		

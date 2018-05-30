@@ -1130,4 +1130,8 @@ spriteTypes = {
 	name = "GFX_idea_restricted_society"
 	texturefile = "gfx/interface/ideas/diplomacy/restricted_society.dds"
 	}
+	spriteType = {
+	name = "GFX_idea_home_of_the_new_revolution"
+	texturefile = "gfx/interface/ideas/RUS/memoriesofcommunism.dds"
+	}
 }

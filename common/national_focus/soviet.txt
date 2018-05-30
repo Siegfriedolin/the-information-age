@@ -1064,6 +1064,7 @@ focus_tree = {
 			factor = 10
 		}
 	}
+	
 	focus = {
 		id = SOV_begin_the_reform
 		icon = attack_fascism
@@ -1096,7 +1097,7 @@ focus_tree = {
 	focus = {
 		id = SOV_crack_down_on_the_oligarchy
 		icon = destroy_society
-		x = 11
+		x = 13
 		y = 4
 		cost = 10
 		
@@ -1109,9 +1110,32 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-            swap_ideas = { 
-			    remove_idea = SOV_corrupt_oligarchy add_idea = idea_SOV_corrupt_oligarchy2
+        swap_ideas = {
+	        remove_idea = SOV_corrupt_oligarchy add_idea = idea_SOV_corrupt_oligarchy2
+		    }
 		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	
+	focus = {
+		id = SOV_attempt_to_reduce_oligarchy_corruption
+		icon = destroy_society
+		x = 11
+		y = 4
+		cost = 10
+		
+	    available = {
+		    has_government = social_liberal
+		}
+		
+		prerequisite = {
+		    focus = SOV_begin_the_reform
+		}
+		
+		completion_reward = {}
 		
 		ai_will_do = {
 			factor = 10
