@@ -1121,8 +1121,8 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = SOV_attempt_to_reduce_oligarchy_corruption
-		icon = destroy_society
+		id = SOV_discredit_putin
+		icon = putin
 		x = 11
 		y = 4
 		cost = 10
