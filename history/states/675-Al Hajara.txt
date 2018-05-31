@@ -1,24 +1,36 @@
+
 state={
 	id=675
 	name="STATE_675"
-	manpower = 785465
-	
-	state_category = state_level_2
-	
-	resources = {
-		oil=30
+	resources={
+		oil=30.000
 	}
 
 	history={
 		owner = IRQ
+		victory_points = {
+			2089 10
+		}
+		victory_points = {
+			8001 10 
+		}
 		buildings = {
-			infrastructure = 1
+			infrastructure = 5
 			air_base = 1
+			dockyard = 1
+			13377 = {
+			    naval_base = 3
+			}
+
 		}
 		add_core_of = IRQ
+
 	}
-	
+
 	provinces={
-		1631 4951 10744 12413 12879 
+		2089 8001 12879 13376 13377 13378 13380 
 	}
+	manpower=4700000
+	buildings_max_level_factor=1.000
+	state_category=state_level_6
 }

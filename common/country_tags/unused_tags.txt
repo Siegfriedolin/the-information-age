@@ -14,4 +14,3 @@
 #VOJ = "countries/Vojvodina.txt"
 #WGR = "countries/unused/West Germany.txt"
 #XSM = "countries/Xibei San Ma.txt"
-#YUN = "countries/Yunnan.txt"

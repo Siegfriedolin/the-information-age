@@ -198,5 +198,19 @@ news_event = {
 			has_war_with = SOV
 		}
 	}
+	
+	#Grigory speaks against Putin
+    news_event = {
+	id = russia_news.12
+	title = russia_news.9.t
+	desc = russia_news.9.d
+	picture = GFX_news_event_grigory_yavlinsky
+	
+	is_triggered_only = yes
+	major = yes
+	
+	option = {
+		name = russia_news.3.o1
+	    }
+    }
 }
-

@@ -1,0 +1,23 @@
+
+state={
+	id=914
+	name="STATE_914"
+
+	history={
+		owner = IRQ
+		add_core_of = IRQ
+		buildings = {
+			infrastructure = 4
+		}
+		victory_points = {
+			10876 5 
+		}
+	}
+
+	provinces={
+		10744 10876 13379 13381 13386 
+	}
+	manpower=1370000
+	buildings_max_level_factor=1.000
+	state_category=state_level_5
+}
