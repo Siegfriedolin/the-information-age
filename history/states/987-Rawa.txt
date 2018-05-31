@@ -1,16 +1,21 @@
+
 state={
 	id=987
 	name="STATE_987"
+
 	history={
 		owner = IRQ
 		buildings = {
 			infrastructure = 1
+
 		}
 		victory_points = {
 			13344 1 
 		}
 		add_core_of = IRQ
+
 	}
+
 	provinces={
 		13340 13341 13344 
 	}

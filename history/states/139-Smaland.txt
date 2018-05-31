@@ -2,14 +2,10 @@
 state={
 	id=139
 	name="STATE_139"
-	manpower = 1200011
-	
-	state_category = state_level_7
-	
-	resources = {
-		steel = 1
+	resources={
+		steel=1.000
 	}
-	
+
 	history={
 		owner = SWE
 		victory_points = {
@@ -22,7 +18,7 @@ state={
 			9329 1 
 		}
 		victory_points = {
-			242 1
+			242 1 
 		}
 		buildings = {
 			infrastructure = 6
@@ -30,12 +26,18 @@ state={
 			industrial_complex = 1
 			11380 = {
 				naval_base = 1
+
 			}
+
 		}
 		add_core_of = SWE
+
 	}
 
 	provinces={
 		211 242 299 329 363 3229 6148 6311 6397 9251 9308 9329 9393 9406 9410 11231 11280 11289 11311 11380 11390 13095 
 	}
+	manpower=1200011
+	buildings_max_level_factor=1.000
+	state_category=state_level_7
 }

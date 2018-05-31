@@ -958,6 +958,11 @@ KOR = {
 	color_ui = rgb { 0 52 120 }
 }
 
+YUN = {
+	color = rgb { 114 148 80 }
+	color_ui = rgb { 222 247 198 }
+}
+
 
 D01 = {
 	color = rgb { 200 100 31 }
