@@ -24,6 +24,7 @@ focus_tree = {
 	@air_force_tree_center = 61
 	@air_force_tree_right = 62
 
+	continuous_focus_position = { x = 1500 y = 10000 }
 	
 	
 	
@@ -158,6 +159,297 @@ focus_tree = {
 		}
 		completion_reward = {
 	    add_stability = -0.01
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	
+	focus = {
+		id = SOV_propaganda_speech
+		icon = propaganda
+		x = 20
+		y = 3
+		cost = 10
+		
+		
+		prerequisite = {
+		    focus = SOV_vladimir_putin
+		}
+		
+		completion_reward = {
+        add_stability = 0.01
+		add_war_support = 0.01
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	
+	focus = {
+		id = SOV_adress_internal_issues
+		icon = self_management
+		x = 20
+		y = 4
+		cost = 10
+		
+		
+		prerequisite = {
+		    focus = SOV_propaganda_speech
+		}
+		
+		completion_reward = {
+        add_political_power = 35
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	
+	focus = {
+		id = SOV_oligarchic_stance
+		icon = production
+		x = 22
+		y = 5
+		cost = 10
+		
+		
+		prerequisite = {
+		    focus = SOV_adress_internal_issues
+		}
+		
+		mutually_exclusive = {
+		focus = SOV_militaristic_stance
+		}
+		
+		completion_reward = {
+        add_political_power = 10
+		add_stability = 0.01
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	
+	focus = {
+		id = SOV_revitalize_the_south
+		icon = production2
+		x = 24
+		y = 6
+		cost = 10
+		
+		
+		prerequisite = {
+		    focus = SOV_oligarchic_stance
+		}
+		
+		
+		completion_reward = {
+			random_owned_state = {
+				limit = {
+					region = 135
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+			}
+			
+			random_owned_state = {
+				limit = {
+					region = 137
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+			}
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	
+	focus = {
+		id = SOV_build_the_crimean_bridge
+		icon = construction
+		x = 24
+		y = 7
+		cost = 10
+		
+		
+		prerequisite = {
+		    focus = SOV_revitalize_the_south
+		}
+		
+		
+		completion_reward = {
+		137 = {
+            add_building_construction = {
+               type = infrastructure
+               level = 2
+               instant_build = yes
+            }
+         }
+		add_political_power = 130 
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	
+	focus = {
+		id = SOV_improve_caucasian_infraestructure
+		icon = construction2
+		x = 26
+		y = 7
+		cost = 10
+		
+		
+		prerequisite = {
+		    focus = SOV_revitalize_the_south
+		}
+		
+		
+		completion_reward = {
+		233 = {
+            add_building_construction = {
+               type = infrastructure
+               level = 2
+               instant_build = yes
+            }
+         }
+		234 = {
+            add_building_construction = {
+               type = infrastructure
+               level = 2
+               instant_build = yes
+            }
+         }
+       235 = {
+            add_building_construction = {
+               type = infrastructure
+               level = 2
+               instant_build = yes
+            }
+         }
+    828 = {
+            add_building_construction = {
+               type = infrastructure
+               level = 2
+               instant_build = yes
+            }
+         }
+	    232 = {
+            add_building_construction = {
+               type = infrastructure
+               level = 2
+               instant_build = yes
+            }
+         }		 	 
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	
+	focus = {
+		id = SOV_crimean_industrialization
+		icon = infrastructure
+		x = 24
+		y = 8
+		cost = 10
+		
+		
+		prerequisite = {
+		    focus = SOV_build_the_crimean_bridge
+		}
+		
+		
+		completion_reward = {
+		137 = {
+            add_building_construction = {
+               type = industrial_complex
+               level = 2
+               instant_build = yes
+            }
+         }
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	
+	focus = {
+		id = SOV_the_caucasian_black_gold
+		icon = oil_trade
+		x = 26
+		y = 8
+		cost = 10
+		
+		
+		prerequisite = {
+		    focus = SOV_improve_caucasian_infraestructure
+		}
+		
+		
+		completion_reward = {
+		random_owned_state = {
+				limit = {
+					region = 135
+				}
+			add_resource = {
+					type = oil
+					amount = 40
+				}
+			}
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	
+	focus = {
+		id = SOV_deal_with_chechnya
+		icon = industry_civilian
+		x = 25
+		y = 9
+		cost = 10
+		
+		
+		prerequisite = {
+		    focus = SOV_the_caucasian_black_gold
+			focus = SOV_crimean_industrialization
+		}
+		
+		
+		completion_reward = {
+		828 = {
+		add_building_construction = {
+               type = infrastructure
+               level = 2
+               instant_build = yes
+            }
+	   add_building_construction = {
+               type = industrial_complex
+               level = 2
+               instant_build = yes
+            }	
+			}
+		CHE = { remove_state_core = 828 }	
 		}
 		
 		ai_will_do = {
@@ -1112,10 +1404,13 @@ focus_tree = {
             swap_ideas = { 
 			    remove_idea = SOV_corrupt_oligarchy add_idea = idea_SOV_corrupt_oligarchy2
 		}
+		}
 		
 		ai_will_do = {
 			factor = 10
 		}
 	}
 	
+	
+	}
 	
