@@ -1085,7 +1085,7 @@ focus_tree = {
 		    add_political_power = 50
             add_popularity = {
 				ideology = reactionary
-				popularity = -0.05
+				popularity = -0.03
 			}
 		}
 		
@@ -1124,7 +1124,7 @@ focus_tree = {
 		id = SOV_discredit_putin
 		icon = putin
 		x = 11
-		y = 4
+		y = 5
 		cost = 10
 		
 	    available = {
@@ -1135,7 +1135,14 @@ focus_tree = {
 		    focus = SOV_begin_the_reform
 		}
 		
-		completion_reward = {}
+		completion_reward = {
+		    add_popularity = {
+				ideology = reactionary
+				popularity = -0.05
+			}
+		decrease_reactionary_influence_by_1 = yes
+        news_event = russia_news.12
+		}
 		
 		ai_will_do = {
 			factor = 10
