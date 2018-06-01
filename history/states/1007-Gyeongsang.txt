@@ -1,9 +1,9 @@
 state={
-	id=870
-	name="STATE_870"
+	id=1007
+	name="STATE_1007"
 	
 	resources = {
-		steel = 20
+		steel = 43
 	}
 
 	history={
@@ -16,10 +16,6 @@ state={
 			industrial_complex = 5
 			arms_factory = 1
 			dockyard = 1
-			4056 = { naval_base = 6 }
-		}
-		victory_points = {
-			4056 20 
 		}
 		victory_points = {
 			12089 5 
@@ -27,9 +23,9 @@ state={
 	}
 
 	provinces={
-    4056
+		1081 4086 4103 7121 11912 12060 12089 
 	}
-	manpower=8202239
+	manpower=6230441
 	buildings_max_level_factor=1.000
-	state_category = state_level_14
+	state_category = state_level_13
 }

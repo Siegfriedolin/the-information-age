@@ -1,10 +1,9 @@
-
 state={
-	id=525
-	name="STATE_525"
+	id=1005
+	name="STATE_1005"
 	
 	resources = {
-		steel = 54
+		steel = 50
 	}
 	
 	history={
@@ -12,22 +11,21 @@ state={
 		buildings = {
 			infrastructure = 10
 			air_base = 10
-			industrial_complex = 10
+			industrial_complex = 5
 			arms_factory = 2
 			dockyard = 1
-			anti_air_building = 4
-			7125 = { bunker = 5 }
 		}
-		victory_points = { 7125 30 }
+		
+		victory_points = { 7221 10 }
 		add_core_of = PRK
 		add_core_of = KOR
 
 	}
 
 	provinces={
-		7125  
+    7221 
 	}
-	manpower=9838892
+	manpower=3002645
 	buildings_max_level_factor=1.000
-	state_category = state_level_19
+	state_category = state_level_18
 }
