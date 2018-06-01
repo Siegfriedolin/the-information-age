@@ -1,0 +1,82 @@
+﻿division_template = {
+	name = "Militia Brigade"
+	
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+	}
+	support = {
+	
+	}
+	
+	priority = 0
+}
+
+units = {
+	division = {
+		name = "Euphrates Jarabulus Battalions"
+		location = 13265
+		division_template = "Militia Brigade"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Asayish Jazira"
+		location = 1578
+		division_template = "Militia Brigade"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Jaysh al-Thuwar"
+		location = 13262
+		division_template = "Militia Brigade"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Khabour Guards"
+		location = 10882
+		division_template = "Militia Brigade"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Manbij Military Council"
+		location = 13260
+		division_template = "Militia Brigade"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Women's Protection Units"
+		location = 901
+		division_template = "Militia Brigade"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Self-Defense Forces"
+		location = 13261
+		division_template = "Militia Brigade"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "Deir ez-Zor Military Council"
+		location = 13275
+		division_template = "Militia Brigade"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Syriac Military Council"
+		location = 13275
+		division_template = "Militia Brigade"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Assyrian People's Guard – Nattoreh"
+		location = 13371
+		division_template = "Militia Brigade"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Jabhat Thuwar al-Raqqa"
+		location = 1606
+		division_template = "Militia Brigade"
+		start_experience_factor = 0.1
+	}
+}

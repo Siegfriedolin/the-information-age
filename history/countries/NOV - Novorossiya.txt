@@ -93,7 +93,6 @@ add_ideas = {
 	war_economy
 	service_by_requirement
 	partially_recognized_state
-	minsk_ceasefire
 }
 
 set_politics = {

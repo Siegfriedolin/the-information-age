@@ -138,3 +138,18 @@ create_corps_commander = {
 	remove_ideas = idea_focus_generic_path_of_order
 	remove_ideas = idea_focus_generic_national_strength
 }
+
+2018.1.1 = {
+	declare_war_on = {
+		target = ROJ
+		type = annex_everything
+	}
+	declare_war_on = {
+		target = SYR
+		type = annex_everything
+	}
+	declare_war_on = {
+		target = FSA
+		type = annex_everything
+	}
+}

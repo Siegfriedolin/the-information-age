@@ -119,6 +119,12 @@ units = {
 		start_experience_factor = 0.3
 	}
 	division = {
+		name = "13th Russian Separatists"
+		location = 6474
+		division_template = "Pro-Russian Separatists"
+		start_experience_factor = 0.3
+	}
+	division = {
 		name = "1st Donezk Civil Guard"
 		location = 6474
 		division_template = "Civil Guard"

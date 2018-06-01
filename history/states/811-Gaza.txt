@@ -4,7 +4,7 @@ state={
 	history = {
 		owner = PAL
 		add_core_of = PAL
-		add_claim_by = ISR
+		add_core_of = ISR
 		
 		buildings = {
 			infrastructure = 2
@@ -15,7 +15,7 @@ state={
 	provinces={
 		4088 
 	}
-	manpower=1236250
+	manpower=1795183
 	buildings_max_level_factor=1.000
 	
 	state_category = state_level_2
