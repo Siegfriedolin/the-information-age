@@ -306,7 +306,7 @@ guiTypes = {
 			quadTextureSprite ="consortium"
 			clicksound = click_default
 			pdx_tooltip = "MENU_CONSORTIUM"
-			web_link = "https://steamcommunity.com/groups/TheUnitedModConsortium"
+			web_link = "https://discord.gg/yfFnfvc"
 		}
 	}
 }
