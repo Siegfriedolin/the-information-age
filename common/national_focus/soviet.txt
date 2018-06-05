@@ -462,7 +462,7 @@ focus_tree = {
 	focus = {
 		id = SOV_revitalize_the_north
 		icon = production2
-		x = 20
+		x = 19
 		y = 6
 		cost = 10
 		
@@ -495,8 +495,7 @@ focus_tree = {
 					}
 				}
 				add_extra_state_shared_building_slots = 2
-			}
-		add_political_power = 110	
+			}	
 		}
 		
 		ai_will_do = {
@@ -507,7 +506,7 @@ focus_tree = {
 	focus = {
 		id = SOV_baltic_infraestructure
 		icon = baltic_development
-		x = 20
+		x = 19
 		y = 7
 		cost = 10
 		
@@ -556,7 +555,7 @@ focus_tree = {
 	focus = {
 		id = SOV_karelian_infraestructure
 		icon = karelia_development
-		x = 20
+		x = 19
 		y = 8
 		cost = 10
 		
@@ -605,7 +604,7 @@ focus_tree = {
 	focus = {
 		id = SOV_petersburg_industrial_innovation
 		icon = industry_democratic3
-		x = 20
+		x = 19
 		y = 9
 		cost = 10
 		
@@ -819,7 +818,7 @@ focus_tree = {
 	focus = {
 		id = SOV_develop_kazakhstan
 		icon = align_to_kazakhstan 
-		x = 21
+		x = 20
 		y = 12
 		cost = 10
 		
@@ -856,7 +855,7 @@ focus_tree = {
 	focus = {
 		id = SOV_develop_belarus
 		icon = align_to_belarus 
-		x = 23
+		x = 24
 		y = 12
 		cost = 10
 		
@@ -1868,13 +1867,41 @@ focus_tree = {
 		decrease_reactionary_influence_by_1 = yes
         news_event = russia_news.12
 		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	focus = {
+		id = SOV_clear_the_putinist_filled_parliament
+		icon = self_management
+		x = 11
+		y = 6
+		cost = 10
+		
+	    available = {
+		    has_government = social_liberal
+		}
+		
+		prerequisite = {
+		    focus = SOV_discredit_putin
+		}
+		
+		completion_reward = {
+		decrease_reactionary_influence_by_2 = yes
+		    add_popularity = {
+				ideology = reactionary
+				popularity = -0.10
+			}
+		increase_social_liberal_influence_by_3 = yes
+		increase_market_liberal_influence_by_1 = yes
+		increase_conservative_influence_by_1 = yes
 		}
 		
 		ai_will_do = {
 			factor = 10
 		}
 	}
-	
 	
 	}
 	
