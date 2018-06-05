@@ -211,7 +211,7 @@ focus_tree = {
 	
 	focus = {
 		id = SOV_oligarchic_stance
-		icon = production
+		icon = higher_society
 		x = 22
 		y = 5
 		cost = 10
@@ -506,7 +506,7 @@ focus_tree = {
 	
 	focus = {
 		id = SOV_baltic_infraestructure
-		icon = industry_democratic
+		icon = baltic_development
 		x = 20
 		y = 7
 		cost = 10
@@ -555,7 +555,7 @@ focus_tree = {
 	
 	focus = {
 		id = SOV_karelian_infraestructure
-		icon = industry_democratic2
+		icon = karelia_development
 		x = 20
 		y = 8
 		cost = 10
