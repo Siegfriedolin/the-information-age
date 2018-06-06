@@ -38,6 +38,12 @@ units = {
 		start_experience_factor = 0.2
 	}
 	division = {
+		name = "Alwiya al-Furqan"
+		location = 13293
+		division_template = "Militia Brigade"
+		start_experience_factor = 0.1
+	}
+	division = {
 		name = "National Front for the Liberation of Syria"
 		location = 13291
 		division_template = "Militia Brigade"
@@ -62,6 +68,12 @@ units = {
 		start_experience_factor = 0.1
 	}
 	division = {
+		name = "Jaysh al-Nukhba"
+		location = 13283
+		division_template = "Militia Brigade"
+		start_experience_factor = 0.2
+	}
+	division = {
 		name = "Faylaq al-Sham"
 		location = 13263
 		division_template = "Militia Brigade"
@@ -84,6 +96,18 @@ units = {
 		location = 10383
 		division_template = "Militia Brigade"
 		start_experience_factor = 0.2
+	}
+	division = {
+		name = "1st Coastal Division"
+		location = 13269
+		division_template = "Militia Brigade"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "Free Idlib Army"
+		location = 7140
+		division_template = "Militia Brigade"
+		start_experience_factor = 0.3
 	}
 	division = {
 		name = "Jabhat al-Aisalat wal-Tanmia"

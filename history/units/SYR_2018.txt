@@ -1,5 +1,5 @@
 ﻿division_template = {
-	name = "Peshmerga Regiment"
+	name = "Militia"
 	
 	regiments = {
 		infantry = { x = 0 y = 0 }
@@ -60,7 +60,7 @@ units = {
 		start_experience_factor = 0.3
 	}
 	division = {
-		name = "2nd Brigade"
+		name = "800th Regiment"
 		location = 1056
 		division_template = "Infantry Brigade"
 		start_experience_factor = 0.3
@@ -102,16 +102,52 @@ units = {
 		start_experience_factor = 0.3
 	}
 	division = {
-		name = "Tank Force"
+		name = "14th Special Forces Division"
+		location = 1056
+		division_template = "Infantry Brigade"
+		start_experience_factor = 0.4
+	}
+	division = {
+		name = "Syrian Marines"
+		location = 1088
+		division_template = "Infantry Brigade"
+		start_experience_factor = 0.4
+	}
+	division = {
+		name = "Tiger Forces"
+		location = 13284
+		division_template = "Armor Regiment"
+		start_experience_factor = 0.5
+	}
+	division = {
+		name = "4th Armoured Division"
 		location = 4550
 		division_template = "Armor Regiment"
 		start_experience_factor = 0.3
 	}
 	division = {
-		name = "Tank Force"
+		name = "9th Armoured Division"
 		location = 4550
 		division_template = "Armor Regiment"
 		start_experience_factor = 0.3
+	}
+	division = {
+		name = "Lionesses of Defense"
+		location = 4111
+		division_template = "Armor Regiment"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "Golan Regiment"
+		location = 13294
+		division_template = "Militia"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Qalamoun Shield Forces"
+		location = 13306
+		division_template = "Militia"
+		start_experience_factor = 0.1
 	}
 }	
 

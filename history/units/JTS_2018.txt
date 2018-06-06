@@ -40,6 +40,13 @@ division = {
 	division_template = "Militia Brigade"
 	start_experience_factor = 0.1
 }
+
+division = {
+	name = "Martyrs of Islam Brigade"
+	location = 13268
+	division_template = "Militia Brigade"
+	start_experience_factor = 0.1
+}
 	
 }
 
