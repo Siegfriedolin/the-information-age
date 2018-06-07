@@ -14,26 +14,15 @@ ideas = {
 			}
 		}
 		
-		EST_communist_party_banned = {
-			picture = communism_banned
+		EST_the_baltic_tiger = {
+			picture = great_inflation
 			
 			removal_cost = -1
 			
 			modifier = {
-				political_power_gain = 0.05
-				communist_drift = -0.01
-			}
-		}
-		
-		EST_conscription = {
-		    picture = army_war_college
-			
-			removal_cost = -1
-			
-			modifier = {
-			    war_support_factor = 0.05
-				conscription_factor = 0.07
-				consumer_goods_factor = 0.03
+			    industrial_capacity_factory = 0.05
+				trade_opinion_factor = 0.15
+				consumer_goods_factor = -0.03
 			}
 		}
 		
