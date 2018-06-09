@@ -102,8 +102,7 @@ add_ideas = {
 	the_euro
 	idea_eu_member
 	limited_conscription
-	EST_communist_party_banned
-	EST_conscription
+	EST_the_baltic_tiger
 	EST_russian_minority
 	EST_gray_citizenship
 }

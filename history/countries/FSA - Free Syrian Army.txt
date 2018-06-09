@@ -84,6 +84,8 @@ set_country_flag = sunni_islam
 
 give_military_access = TUR
 give_military_access = JOR
+give_military_access = HTS
+give_military_access = JTS
 
 add_ideas = {
 	population_growth_rapid

@@ -2835,5 +2835,17 @@ spriteTypes = {
 		name = "destory_influence_ukraine"
 		texturefile = "gfx/interface/goals/diplomacy/destroy_ukraine_establishment.dds"			
 	}
+	SpriteType = {
+		name = "higher_society"
+		texturefile = "gfx/interface/goals/diplomacy/higher_society.dds"			
+	}
+	SpriteType = {
+		name = "baltic_development"
+		texturefile = "gfx/interface/goals/economy/baltic_development.dds"			
+	}
+	SpriteType = {
+		name = "karelia_development"
+		texturefile = "gfx/interface/goals/economy/karelia_development.dds"			
+	}
 	#those without a category
 }
