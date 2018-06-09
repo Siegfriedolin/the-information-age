@@ -1,5 +1,5 @@
-﻿name="Conflict in Asia DEV"
-path="mod/mdcopy2"
+name="The Information Age DEV"
+path="mod/the-information-age/"
 tags={
 	"Alternative History"
 	"Balance"
