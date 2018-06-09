@@ -5,6 +5,11 @@ state={
 
 	history={
 		owner = SYR
+		2018.1.1 = {
+			ISS = {
+				set_province_controller = 13327
+			}
+		}
 		victory_points = {
 			13277 1 
 		}
