@@ -24,7 +24,7 @@ ideas = {
 			
 			modifier = {
 				political_power_factor = -0.25
-				industrial_capacity_factory = 0.25
+				industrial_capacity_factory = 0.20
 			}
 		}
 		
