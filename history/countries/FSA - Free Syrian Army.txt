@@ -179,6 +179,12 @@ create_corps_commander = {
 	skill = 2
 }
 
+create_corps_commander = {
+	name = "Jamal Maarouf"
+	picture = "Jamal_Maarouf.dds"
+	skill = 2
+}
+
 2018.1.1 = {
 	declare_war_on = {
 		target = SYR

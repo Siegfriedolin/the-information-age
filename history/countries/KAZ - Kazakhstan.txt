@@ -1,6 +1,6 @@
 ﻿capital = 590
 
-oob = "KAZ_2000"
+oob = "KAZ_2018"
 
 set_research_slots = 3
 set_convoys = 25
@@ -112,23 +112,7 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Kassym-Jomart Tokayev"
-	picture = "Kassym_Tokayev.dds"
+	name = "Nursultan Nazarbayev"
+	picture = "Nursultan_Nazarbayev.dds"
 	ideology = oligarchist
-}
-
-2010.1.1 = {
-	create_country_leader = {
-		name = "Karim Massimov"
-		picture = "Karim_Massimov.dds"
-		ideology = oligarchist
-	}
-}
-
-2016.1.1 = {
-	create_country_leader = {
-		name = "Bakhytzhan Sagintayev"
-		picture = "Bakhytzhan_Sagintayev.dds"
-		ideology = oligarchist
-	}
 }
