@@ -888,7 +888,33 @@ focus_tree = {
 			factor = 10
 		}
 	}
-
+    
+	
+	focus = {
+		id = SOV_militaristic_stance
+		icon = military_fort
+		x = 18
+		y = 5
+		cost = 10
+		
+		
+		prerequisite = {
+		    focus = SOV_adress_internal_issues
+		}
+		
+		mutually_exclusive = {
+		focus = SOV_oligarchic_stance
+		}
+		
+		completion_reward = {
+        add_political_power = 10
+		add_war_support = 0.01
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+	}
 	
 	focus = {
 		id = SOV_modernize_the_military

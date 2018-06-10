@@ -90,20 +90,26 @@ units = {
 		start_experience_factor = 0.3
 	}
 	division = {
-		name = "7th Brigade"
-		location = 7184
+		name = "17th Division"
+		location = 2013
 		division_template = "Infantry Brigade"
 		start_experience_factor = 0.3
 	}
 	division = {
-		name = "8th Brigade"
-		location = 1056
+		name = "ISIS Hunters"
+		location = 13276
 		division_template = "Infantry Brigade"
 		start_experience_factor = 0.3
 	}
 	division = {
 		name = "14th Special Forces Division"
 		location = 1056
+		division_template = "Infantry Brigade"
+		start_experience_factor = 0.4
+	}
+	division = {
+		name = "15th Special Forces Division"
+		location = 4486
 		division_template = "Infantry Brigade"
 		start_experience_factor = 0.4
 	}
@@ -140,6 +146,30 @@ units = {
 	division = {
 		name = "Golan Regiment"
 		location = 13294
+		division_template = "Militia"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Galilee Forces"
+		location = 12473
+		division_template = "Militia"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Liwa Fatemiyoun"
+		location = 13279
+		division_template = "Militia"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Liwa al-Quds"
+		location = 12316
+		division_template = "Militia"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Jaysh al-Muwahhideen"
+		location = 13300
 		division_template = "Militia"
 		start_experience_factor = 0.1
 	}

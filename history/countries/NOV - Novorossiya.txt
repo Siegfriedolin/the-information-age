@@ -5,6 +5,7 @@ oob = "NOV_2018"
 set_research_slots = 2
 set_convoys = 10
 set_stability = 0.5
+set_war_support = 1.0
 
 set_country_flag = country_language_russian
 

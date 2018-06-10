@@ -119,12 +119,6 @@ create_corps_commander = {
 }
 
 2016.5.1 = {
-
-	add_named_threat = {
-		threat = 8
-		name = threat_ISS_literally_muslim_hitler
-	}
-
 	complete_national_focus = generic_army_focus
 	complete_national_focus = generic_air_focus
 	complete_national_focus = generic_ideology_focus
@@ -133,7 +127,6 @@ create_corps_commander = {
 	complete_national_focus = generic_ideology_islamist
 	complete_national_focus = generic_shariah_lawcode
 	complete_national_focus = generic_jihad
-	
 	remove_ideas = idea_focus_generic_path_of_allah
 	remove_ideas = idea_focus_generic_path_of_order
 	remove_ideas = idea_focus_generic_national_strength

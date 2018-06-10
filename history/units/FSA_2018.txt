@@ -12,17 +12,31 @@
 	priority = 0
 }
 
+division_template = {
+	name = "ATGM Brigade"
+	
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+	}
+	support = {
+	    anti_tank = { x = 0 y = 4 }
+	}
+	
+	priority = 0
+}
+
 units = {
 	division = {
 		name = "Jaysh al-Islam"
 		location = 13281
-		division_template = "Militia Brigade"
+		division_template = "ATGM Brigade"
 		start_experience_factor = 0.3
 	}
 	division = {
 		name = "Jaysh al-Thawra"
 		location = 1074
-		division_template = "Militia Brigade"
+		division_template = "ATGM Brigade"
 		start_experience_factor = 0.3
 	}
 	division = {
@@ -82,7 +96,7 @@ units = {
 	division = {
 		name = "Jaysh Maghawir al-Thawra"
 		location = 10383
-		division_template = "Militia Brigade"
+		division_template = "ATGM Brigade"
 		start_experience_factor = 0.4
 	}
 	division = {
@@ -100,7 +114,7 @@ units = {
 	division = {
 		name = "1st Coastal Division"
 		location = 13269
-		division_template = "Militia Brigade"
+		division_template = "ATGM Brigade"
 		start_experience_factor = 0.3
 	}
 	division = {
@@ -116,3 +130,12 @@ units = {
 		start_experience_factor = 0.2
 	}
 }
+	
+    instant_effect = {
+
+	    add_equipment_to_stockpile = {
+		    type = anti_tank_equipment_1
+		    amount = 1958
+		    producer = USA
+	    }
+    }	

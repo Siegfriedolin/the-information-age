@@ -32,6 +32,12 @@ units = {
 		start_experience_factor = 0.2
 	}
 	division = {
+		name = "Ajnad al-Kavkaz"
+		location = 13269
+		division_template = "Jihadist Militia"
+		start_experience_factor = 0.2
+	}
+	division = {
 		name = "Liwa al-Haqq"
 		location = 7140
 		division_template = "Jihadist Militia"

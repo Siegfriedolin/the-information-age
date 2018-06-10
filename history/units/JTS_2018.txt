@@ -47,6 +47,13 @@ division = {
 	division_template = "Militia Brigade"
 	start_experience_factor = 0.1
 }
+
+division = {
+	name = "Martyr Abu Omar Battalion"
+	location = 13268
+	division_template = "Militia Brigade"
+	start_experience_factor = 0.1
+}
 	
 }
 
