@@ -461,11 +461,11 @@ focus_tree = {
 		idea = SOV_high_costing_investments
 		days = 230 }
 		
-		random_owned_state = {
-				limit = {
-					region = 135
+		owned_state = {
+					region = 234
 				}
-			add_resource = {
+                234 = {
+				add_resource = {
 					type = oil
 					amount = 47
 				}
