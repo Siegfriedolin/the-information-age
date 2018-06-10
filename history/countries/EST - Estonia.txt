@@ -161,6 +161,6 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "Vaino Väljas"
-	picture = "Vaino_Väljas.dds"
+	picture = "Vaino_Valjas.dds"
 	ideology = communism
 }

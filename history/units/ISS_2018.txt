@@ -27,7 +27,7 @@ units = {
 	division = {
 		name = "Daesh Elite Forces"
 		location = 13274
-		division_template = "Armored M§§§§ilitia"
+		division_template = "Armored Militia"
 		start_experience_factor = 0.50
 	}
 	
