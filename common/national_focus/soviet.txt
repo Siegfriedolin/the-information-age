@@ -374,7 +374,7 @@ focus_tree = {
 	
 	focus = {
 		id = SOV_establish_refineries_in_the_south
-		icon = construction
+		icon = oil_production
 		x = 27
 		y = 8
 		cost = 10
@@ -512,7 +512,7 @@ focus_tree = {
 	focus = {
 		id = SOV_revitalize_the_north
 		icon = production2
-		x = 19
+		x = 20
 		y = 6
 		cost = 10
 		
@@ -556,7 +556,7 @@ focus_tree = {
 	focus = {
 		id = SOV_baltic_infraestructure
 		icon = baltic_development
-		x = 19
+		x = 20
 		y = 7
 		cost = 10
 		
@@ -605,7 +605,7 @@ focus_tree = {
 	focus = {
 		id = SOV_karelian_infraestructure
 		icon = karelia_development
-		x = 19
+		x = 20
 		y = 8
 		cost = 10
 		
@@ -654,7 +654,7 @@ focus_tree = {
 	focus = {
 		id = SOV_petersburg_industrial_innovation
 		icon = industry_democratic3
-		x = 19
+		x = 20
 		y = 9
 		cost = 10
 		
