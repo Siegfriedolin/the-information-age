@@ -309,7 +309,7 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = SOV_improve_caucasian_infraestructure
+		id = SOV_establish_new_oil_pipes_in_the_south
 		icon = construction2
 		x = 27
 		y = 7
@@ -322,41 +322,91 @@ focus_tree = {
 		
 		
 		completion_reward = {
-		233 = {
+		232 = {
             add_building_construction = {
                type = infrastructure
                level = 2
                instant_build = yes
             }
          }
-		234 = {
+		 828 = {
             add_building_construction = {
                type = infrastructure
                level = 2
                instant_build = yes
             }
          }
-       235 = {
+		 237 = {
             add_building_construction = {
                type = infrastructure
                level = 2
                instant_build = yes
             }
          }
-    828 = {
+		 236 = {
             add_building_construction = {
                type = infrastructure
                level = 2
                instant_build = yes
             }
          }
-	    232 = {
+		 217 = {
             add_building_construction = {
                type = infrastructure
                level = 2
                instant_build = yes
             }
-         }		 	 
+         }
+		 238 = {
+            add_building_construction = {
+               type = infrastructure
+               level = 2
+               instant_build = yes
+            }
+         }
+			 	 
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	
+	focus = {
+		id = SOV_establish_refineries_in_the_south
+		icon = construction
+		x = 27
+		y = 8
+		cost = 10
+		
+		
+		prerequisite = {
+		    focus = SOV_establish_new_oil_pipes_in_the_south
+		}
+		
+		
+		completion_reward = {
+		238 = {
+            add_building_construction = {
+               type = synthetic_refinery
+               level = 2
+               instant_build = yes
+            }
+         }
+		 235 = {
+            add_building_construction = {
+               type = synthetic_refinery
+               level = 2
+               instant_build = yes
+            }
+         }
+		 235 = {
+            add_building_construction = {
+               type = infrastructure
+               level = 1
+               instant_build = yes
+            }
+         }
 		}
 		
 		ai_will_do = {
@@ -396,12 +446,12 @@ focus_tree = {
 		id = SOV_the_caucasian_black_gold
 		icon = oil_trade
 		x = 27
-		y = 8
+		y = 9
 		cost = 10
 		
 		
 		prerequisite = {
-		    focus = SOV_improve_caucasian_infraestructure
+		    focus = SOV_establish_refineries_in_the_south
 		}
 		
 		
@@ -431,7 +481,7 @@ focus_tree = {
 		id = SOV_deal_with_chechnya
 		icon = industry_civilian
 		x = 25
-		y = 9
+		y = 10
 		cost = 10
 		
 		
@@ -768,7 +818,7 @@ focus_tree = {
 		id = SOV_infraestructure_repair_program
 		icon = construction4 
 		x = 22
-		y = 10
+		y = 11
 		cost = 10
 		
 		
