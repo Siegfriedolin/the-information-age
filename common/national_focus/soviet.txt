@@ -513,7 +513,7 @@ focus_tree = {
 		id = SOV_revitalize_the_north
 		icon = production2
 		x = 20
-		y = 6
+		y = 7
 		cost = 10
 		
 		
@@ -557,7 +557,7 @@ focus_tree = {
 		id = SOV_baltic_infraestructure
 		icon = baltic_development
 		x = 20
-		y = 7
+		y = 8
 		cost = 10
 		
 		
@@ -606,7 +606,7 @@ focus_tree = {
 		id = SOV_karelian_infraestructure
 		icon = karelia_development
 		x = 20
-		y = 8
+		y = 9
 		cost = 10
 		
 		
@@ -655,7 +655,7 @@ focus_tree = {
 		id = SOV_petersburg_industrial_innovation
 		icon = industry_democratic3
 		x = 20
-		y = 9
+		y = 10
 		cost = 10
 		
 		
@@ -682,7 +682,7 @@ focus_tree = {
 		id = SOV_befriend_and_strenghten_the_oligarchs
 		icon = money
 		x = 22
-		y = 7
+		y = 8
 		cost = 10
 		
 		
@@ -710,7 +710,7 @@ focus_tree = {
 		id = SOV_develop_the_metropolitan_area
 		icon = industry_democratic4
 		x = 22
-		y = 8
+		y = 9
 		cost = 10
 		
 		
@@ -746,43 +746,7 @@ focus_tree = {
 		id = SOV_develop_the_east
 		icon = industry_civilian2
 		x = 22
-		y = 9
-		cost = 10
-		
-		
-		prerequisite = {
-		    focus = SOV_develop_the_metropolitan_area
-		}
-		
-		
-		
-		completion_reward = {
-	    every_state = {
-				limit = {
-					region = 148
-					free_building_slots = {
-						building = infrastructure
-						size > 1
-						include_locked = yes
-					}
-				}
-		add_building_construction = {
-               type = infrastructure
-               level = 2
-               instant_build = yes
-            }	
-			}
-		}
-		ai_will_do = {
-			factor = 10
-		}
-	}
-	
-	focus = {
-		id = SOV_develop_the_east
-		icon = industry_civilian2
-		x = 22
-		y = 9
+		y = 10
 		cost = 10
 		
 		
