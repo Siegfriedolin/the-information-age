@@ -1,24 +1,29 @@
+
 state={
 	id=945
 	name="STATE_945"
+
 	history={
-		owner = FSA
-		victory_points = {
-			13282 1 
-		}
-		buildings = {
-			infrastructure = 1
+		owner = SYR
+		2018.1.1 = {
+			FSA = {
+				set_province_controller = 13367
+
+			}
+
 		}
 		add_core_of = SYR
 		add_core_of = FSA
 		add_core_of = HTS
 		add_core_of = JTS
 		add_core_of = ISS
+
 	}
+
 	provinces={
-		13282 
+		13304 13305 13367 
 	}
 	manpower=24219
 	buildings_max_level_factor=1.000
-	state_category=state_level_1
+	state_category=state_level_0
 }

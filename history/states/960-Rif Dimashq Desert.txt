@@ -1,16 +1,30 @@
+
 state={
 	id=960
 	name="STATE_960"
+
 	history={
 		owner = SYR
+		2018.1.1 = {
+			FSA = {
+				set_province_controller = 13282
+
+			}
+
+		}
+		victory_points = {
+			13282 1 
+		}
 		add_core_of = SYR
 		add_core_of = FSA
 		add_core_of = HTS
 		add_core_of = JTS
 		add_core_of = ISS
+
 	}
+
 	provinces={
-		7184 13299 13301 13302 13303 
+		7184 13282 13299 13301 13302 13303 
 	}
 	manpower=89238
 	buildings_max_level_factor=1.000

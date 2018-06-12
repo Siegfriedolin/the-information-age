@@ -106,32 +106,26 @@ add_ideas = {
 set_politics = {
 
 		parties = {
-			nationalist = {
-				popularity = 1
-			}
 			reactionary = {
-				popularity = 14
+				popularity = 14.86
 			}
 			conservative = {
-				popularity = 6
+				popularity = 5.57
 			}
 			market_liberal = {
-				popularity = 24
+				popularity = 25.33
 			}
 			social_liberal = {
-				popularity = 6
+				popularity = 7.42
 			}
 			social_democrat = {
-				popularity = 32
+				popularity = 33.01
 			}
 			progressive = {
-				popularity = 8
+				popularity = 7.89
 			}
 			democratic_socialist = {
-				popularity = 7
-			}
-			communist = {
-				popularity = 2
+				popularity = 6.72
 			}
 		}
 	
