@@ -42,6 +42,7 @@
  #SOV Decisions
  decisions_SOV:0 "Russia"
  the_cities_of_the_revolution:0 "The Cities of the Revolution"
+ establish_a_new_chromium_mine:0 "Excavate a new Chromium site"
  #USA Decisions
  decisions_USA:0 "United States"
  dodd_frank_plan:0 "Dodd Frank Plan"
