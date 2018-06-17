@@ -112,22 +112,13 @@ set_politics = {
 
 	parties = {
 		social_liberal = {
-			popularity = 48.12
+			popularity = 48.2
 		}
 		conservative = {
-			popularity = 46.47
+			popularity = 46.1
 		}
 		market_liberal = {
-			popularity = 3.28
-		}
-		progressive = {
-			popularity = 1.06
-		}
-		reactionary = {
-			popularity = 0.15
-		}
-		communist = {
-			popularity = 0.05
+			popularity = 5.7
 		}
 	}
 	
@@ -305,11 +296,11 @@ create_country_leader = {
 	ideology = absolute_monarchist
 }
 
-#create_country_leader = {
-#	name = "Patrick Buchanan"
-#	picture = "Patrick_Buchanan.dds"
-#	ideology = social_democrat_ideology
-#}
+create_country_leader = {
+	name = "Patrick Buchanan"
+	picture = "Patrick_Buchanan.dds"
+	ideology = social_democrat_ideology
+}
 
 create_country_leader = {
 	name = "Howard Phillips"

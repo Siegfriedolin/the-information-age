@@ -1,0 +1,39 @@
+
+state={
+	id=938
+	name="STATE_938"
+	resources={
+		oil=3.000
+	}
+
+	history={
+		owner = ROJ
+		2018.1.1 = {
+			ISS = {
+				set_province_controller = 13369
+
+			}
+
+		}
+		victory_points = {
+			901 1 
+		}
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = SYR
+		add_core_of = FSA
+		add_core_of = HTS
+		add_core_of = JTS
+		add_core_of = ISS
+
+	}
+
+	provinces={
+		901 13275 13369 
+	}
+	manpower=21947
+	buildings_max_level_factor=1.000
+	state_category=state_level_1
+}

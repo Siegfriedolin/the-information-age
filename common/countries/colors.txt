@@ -963,6 +963,11 @@ YUN = {
 	color_ui = rgb { 222 247 198 }
 }
 
+TTP = {
+	color = rgb { 80 80 80 }
+	color_ui = rgb { 80 80 80 }
+}
+
 
 D01 = {
 	color = rgb { 200 100 31 }
