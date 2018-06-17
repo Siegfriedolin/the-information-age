@@ -158,6 +158,18 @@ ideas = {
 				consumer_goods_factor = 0.15
 			}
 		}
+		SOV_rouble_crisis = {
+			picture = great_depression
+		
+			allowed = { always = no }
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = -0.05
+				consumer_goods_factor = 0.15
+			}
+		}
 		
 	}
 	

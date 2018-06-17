@@ -124,11 +124,11 @@ create_equipment_variant = { name = "Tu-22M3" type = jet_bomber_equipment_1 upgr
 add_ideas = {
 	population_growth_stagnation
 	idea_united_nations_security_council_member
+        SOV_rouble_crisis
         idea_SOV_defender_of_orthotox
 	SOV_corrupt_oligarchy
 	idea_eu_sanctions
         idea_SOV_poor_inf
-	idea_SOV_major_oil_power
 }
 
 set_politics = {
