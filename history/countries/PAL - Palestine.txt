@@ -1,6 +1,6 @@
 ﻿capital = 811
 
-oob = "PAL_2000"
+oob = "PAL_2018"
 
 set_research_slots = 2
 set_convoys = 10
@@ -94,10 +94,7 @@ set_politics = {
 			popularity = 62
 		}
 		nationalist = {
-			popularity = 11
-		}
-		conservative = {
-			popularity = 6
+			popularity = 17
 		}
 		islamist = {
 			popularity = 21
@@ -105,21 +102,21 @@ set_politics = {
 	}
 	
 	ruling_party = social_democrat
-	last_election = "1997.1.1"
+	last_election = "2005.1.9"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 
 create_country_leader = {
-	name = "Yasser Arafat"
+	name = "Mahmoud Abbas"
 	ideology = social_democrat_ideology
-	picture = "Yasser_Arafat.dds"
+	picture = "Mahmoud_Abbas.dds"
 }
 
 create_country_leader = {
-	name = "Ahmed Yassin"
+	name = "Ismail Haniyeh"
 	ideology = islamic_authoritarian
-	picture = "Ahmed_Yassin.dds"
+	picture = "Ismail_Haniyeh.dds"
 }
 
 create_country_leader = {
@@ -196,24 +193,4 @@ create_corps_commander = {
 	name = "Amjad Abu-Omar" 
 	picture = "Amjad Abu-Omar.dds"
 	skill = 1
-}
-2005.7.17 = {
-    create_country_leader = {
-	    name = "Mahmoud Abbas"
-	    ideology = social_democrat_ideology
-	    picture = "Mahmoud_Abbas.dds"
-    }
-	create_country_leader = {
-		name = "Khaled Meshaal"
-	    ideology = islamic_republican
-	    picture = "Khaled_Meshaal.dds"
-	}
-}
-
-2017.3.6 = {
-	create_country_leader = {
-		name = "Ismail Haniya"
-	    ideology = islamic_republican
-	    picture = "Ismail_Haniya.dds"
-	}
 }

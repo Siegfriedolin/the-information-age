@@ -1,0 +1,22 @@
+﻿division_template = {
+	name = "Islamist Militia"
+	
+	regiments = {
+		infantry = { x = 0 y = 0 }
+	}
+}
+
+units = {
+	division = {
+		name = "Izz ad-Din al-Qassam Brigades"
+		location = 4088
+		division_template = "Militia"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Palestinian Islamic Jihad"
+		location = 4088
+		division_template = "Militia"
+		start_experience_factor = 0.1
+	}
+}

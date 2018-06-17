@@ -1,6 +1,6 @@
 ﻿capital = 454
 
-oob = "ISR_2000"
+oob = "ISR_2018"
 
 set_research_slots = 4
 set_convoys = 500
@@ -129,7 +129,7 @@ set_politics = {
 	}
 	
 	ruling_party = social_democrat
-	last_election = "1998.6.1"
+	last_election = "2015.3.17"
 	election_frequency = 48
 	elections_allowed = yes
 }
