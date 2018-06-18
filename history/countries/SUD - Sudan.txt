@@ -96,6 +96,7 @@ add_ideas = {
 	african_union_member
 	arab_league_member
 	extensive_conscription
+	non_aligned_movement_member
 }
 
 set_politics = {

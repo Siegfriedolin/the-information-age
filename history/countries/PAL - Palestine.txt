@@ -85,6 +85,7 @@ add_ideas = {
 	population_growth_rapid
 	arab_league_member
 	partially_recognized_state
+	non_aligned_movement_member
 }
 
 set_politics = {

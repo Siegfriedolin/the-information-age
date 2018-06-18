@@ -95,6 +95,7 @@ add_ideas = {
 	extensive_conscription
 	african_union_member
 	war_economy
+	non_aligned_movement_member
 }
 
 add_opinion_modifier = {

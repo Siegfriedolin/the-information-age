@@ -98,6 +98,7 @@ add_ideas = {
 	population_growth_rapid
 	service_by_requirement
 	islamic_sectarian_conflicts
+	non_aligned_movement_member
 }
 
 set_politics = {

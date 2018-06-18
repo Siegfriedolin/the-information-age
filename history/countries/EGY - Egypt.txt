@@ -99,6 +99,7 @@ add_ideas = {
 	limited_conscription
 	arab_league_member
 	african_union_member
+	non_aligned_movement_member
 }
 
 set_country_flag = dominant_religion_islam

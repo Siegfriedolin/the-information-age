@@ -95,6 +95,7 @@ add_ideas = {
 	population_growth_rapid
 	arab_league_member
 	limited_conscription
+	non_aligned_movement_member
 }
 
 create_faction = peninsula_shield_force
