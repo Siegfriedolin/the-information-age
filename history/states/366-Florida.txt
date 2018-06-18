@@ -25,7 +25,6 @@ state={
 		}
 		add_core_of = USA
 		add_core_of = CSA
-		#add_core_of = FLR
 		victory_points = { 1843 20 }	#Miami
 		victory_points = { 10407 10 }	#Tallahassee
 		victory_points = { 12381 25 }	#Jacksonville

@@ -1,6 +1,6 @@
 ﻿capital = 291
 
-oob = "IRQ_2016"
+oob = "IRQ_2018"
 
 set_research_slots = 2
 set_convoys = 100
@@ -96,6 +96,7 @@ set_country_flag = sunni_islam
 add_ideas = {
 	population_growth_explosion
 	arab_league_member
+	non_aligned_movement_member
 	extensive_conscription
 	islamic_sectarian_conflicts
 }

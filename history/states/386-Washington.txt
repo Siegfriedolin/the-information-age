@@ -25,7 +25,6 @@ state={
 			}
 		}
 		add_core_of = USA
-		#add_core_of = CAS
 		victory_points = { 7315 20 }	#Seattle
 		victory_points = { 1690 5 }		#Spokane
 		victory_points = { 7386 3 }		#Tacoma

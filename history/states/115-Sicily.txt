@@ -24,7 +24,6 @@ state={
 			4014 = { naval_base = 3 }
 		}
 		add_core_of = ITA
-		#add_core_of = SIY
 	}
 
 	provinces={

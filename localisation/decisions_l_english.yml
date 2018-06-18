@@ -104,7 +104,7 @@
  rojava_decisions:0 "Democratic Federation of Northern Syria"
  raqqa_canton:0 "Raqqa Canton"
  raqqa_canton_desc:0 "The military of the Syrian Democratic Forces, backed by international Coalition air power recently took over large parts of the Raqqa Governorate including the capital Al-Raqqah, previously held by ISIS. However this territory is not a part of any DFNS canton. The government is planning the creation of a 'Raqqa Canton' to administer this new land."
- #United Nations
- security_council:0 "United Nations Security Council"
- recognize_country:0 "Propose: Recognize [From.GetNameDef]"
- recognize_country_desc:0 "The self-proclaimed nation of [From.GetNameDef] is currently not recognized by the United Nations. We could propose to the rest of the Security Council to recognize the nation."
+ #Non-Aligned Movement
+ non_aligned_movement_decisions:0 "Non-Aligned Movement"
+ join_non_aligned_movement:0 "Join the Non-Aligned Movement"
+ join_non_aligned_movement_desc:0 "The Non-Aligned Movement is a group of states that are not formally aligned with or against any major power bloc. If we want to consolidate our position as a neutral nation, we should join this movement."

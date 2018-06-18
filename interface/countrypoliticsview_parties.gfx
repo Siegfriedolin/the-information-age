@@ -405,6 +405,11 @@ spriteTypes = {
 	}
 	
 	spriteType = {
+		name = "GFX_ideology_NOR_market_liberal_group"
+		texturefile = "gfx/interface/ideologies/NOR/hoyre.dds"
+	}
+	
+	spriteType = {
 		name = "GFX_ideology_SYR_nationalist_group"
 		texturefile = "gfx/interface/ideologies/SYR/baath.dds"
 	}

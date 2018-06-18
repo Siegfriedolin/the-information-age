@@ -1,0 +1,27 @@
+non_aligned_movement_decisions = {
+	
+	join_non_aligned_movement = {
+		visible = {
+			NOT = { has_idea = non_aligned_movement_member  } 
+		}
+		available = {
+			is_in_faction = no
+		}
+		modifier = {
+		}
+		remove = {
+		}
+		
+		complete_effect = {
+            add_ideas = non_aligned_movement_member
+		}
+		
+		icon = politics
+		
+		cost = 100
+		
+		ai_will_do = {
+			base = 0
+		}
+	}
+}

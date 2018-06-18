@@ -144,5 +144,18 @@ ideas = {
 				justify_war_goal_time = 0.15
 			}
 		}
+		###		Non-Aligned Movement		###
+		non_aligned_movement_member = {
+			picture = non_aligned_movement
+			allowed = {
+				always = no
+			}
+			modifier = {
+			    political_power_gain = 0.02
+			    ai_focus_aggressive_factor = -20
+				ai_get_ally_desire_factor = -20
+			    justify_war_goal_time = 0.15
+			}
+		}
 	}
 }

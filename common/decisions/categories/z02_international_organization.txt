@@ -14,6 +14,14 @@ arab_league_decisions = {
 	}
 }
 
+non_aligned_movement_decisions = {
+	icon = politics
+
+	visible = {
+		always = yes
+	}
+}
+
 european_union_decisions = {
 	icon = european_union
 	
@@ -28,8 +36,4 @@ european_union_decisions = {
 			original_tag = TUR
 		}
 	}
-}
-
-security_council = {
-	icon = united_nations
 }

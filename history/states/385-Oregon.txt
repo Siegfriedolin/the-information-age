@@ -23,7 +23,6 @@ state={
 			}
 		}
 		add_core_of = USA
-		#add_core_of = CAS
 		victory_points = { 3513 20 }	#Portland
 		victory_points = { 4328 5 }		#Salem
 		victory_points = { 4380 4 }		#Eugene

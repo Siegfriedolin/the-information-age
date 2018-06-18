@@ -16,7 +16,6 @@ state={
 			}
 		}
 		add_core_of = USA
-		#add_core_of = HAW
 		victory_points = { 4180 5 }
 		victory_points = { 12021 1 }
 	}
