@@ -6,21 +6,23 @@
 		infantry = { x = 0 y = 1 }
 	}
 	support = {
-	
+	    engineer = { x = 0 y = 2 }
 	}
 	
 	priority = 0
 }
 
 division_template = {
-	name = "ATGM Brigade"
+	name = "Elite Militia Brigade"
 	
 	regiments = {
 		infantry = { x = 0 y = 0 }
 		infantry = { x = 0 y = 1 }
 	}
 	support = {
-	    anti_tank = { x = 0 y = 4 }
+	    anti_tank = { x = 0 y = 0 }
+		artillery = { x = 0 y = 1 }
+		engineer = { x = 0 y = 2 }
 	}
 	
 	priority = 0
@@ -30,13 +32,13 @@ units = {
 	division = {
 		name = "Jaysh al-Islam"
 		location = 13281
-		division_template = "ATGM Brigade"
+		division_template = "Elite Militia Brigade"
 		start_experience_factor = 0.3
 	}
 	division = {
 		name = "Jaysh al-Thawra"
 		location = 1074
-		division_template = "ATGM Brigade"
+		division_template = "Elite Militia Brigade"
 		start_experience_factor = 0.3
 	}
 	division = {
@@ -90,13 +92,13 @@ units = {
 	division = {
 		name = "Faylaq al-Sham"
 		location = 13263
-		division_template = "Militia Brigade"
+		division_template = "Elite Militia Brigade"
 		start_experience_factor = 0.2
 	}
 	division = {
 		name = "Jaysh Maghawir al-Thawra"
 		location = 10383
-		division_template = "ATGM Brigade"
+		division_template = "Elite Militia Brigade"
 		start_experience_factor = 0.4
 	}
 	division = {
@@ -114,7 +116,7 @@ units = {
 	division = {
 		name = "1st Coastal Division"
 		location = 13269
-		division_template = "ATGM Brigade"
+		division_template = "Elite Militia Brigade"
 		start_experience_factor = 0.3
 	}
 	division = {
@@ -125,6 +127,12 @@ units = {
 	}
 	division = {
 		name = "Jabhat al-Aisalat wal-Tanmia"
+		location = 13282
+		division_template = "Militia Brigade"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Al-Qaryatayn Martyrs Brigade"
 		location = 13282
 		division_template = "Militia Brigade"
 		start_experience_factor = 0.2

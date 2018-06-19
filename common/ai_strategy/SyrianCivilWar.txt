@@ -47,6 +47,7 @@ assad_supporter_strategy_minor = {
             tag = PRC
 		    tag = PRK
 			tag = BLR
+			tag = IRQ
 		}
 	}
 	abort = {

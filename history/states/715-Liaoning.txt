@@ -1,29 +1,30 @@
+
 state={
 	id=715
 	name="STATE_715"
-	manpower = 13731149
-	
-	state_category = state_level_10
-	
-	resources = {
-		oil=30
+	resources={
+		oil=30.000
 	}
 
 	history={
 		owner = PRC
 		add_core_of = PRC
 		add_core_of = CHI
-		#add_core_of = MAN
+		add_core_of = MEN
 		buildings = {
 			infrastructure = 5
 			arms_factory = 1
 			industrial_complex = 6
 			air_base = 1
+
 		}
 
 	}
 
 	provinces={
-		916 930 1499 1508 1558 1627 1638 3877 3978 4561 4633 4642 6893 7812 9831 10429 11836 11903 12337 12469 12478 
+		916 930 1499 1502 1508 1558 1627 1638 1776 3877 3978 4561 4633 4642 4745 4852 4876 7697 7743 7812 7894 9831 10429 10541 10567 10612 10638 11836 11903 12337 12469 12478 12537 12690 13150 
 	}
+	manpower=13731149
+	buildings_max_level_factor=1.000
+	state_category=state_level_10
 }

@@ -1,4 +1,4 @@
-#reload countrycolors
+ #reload countrycolors
 
 GER = {
 	color = rgb { 115 115 115 }
@@ -113,8 +113,8 @@ FIN = {
 	color_ui = rgb { 255 255 255 }
 }
 IRE = {
-	color = rgb { 80 159 90 }
-	color_ui = rgb { 104 207 117 }
+	color = rgb { 22 155 98 }
+	color_ui = rgb { 22 155 98 }
 }
 HUN = {
 	color = rgb { 249 126 98 }
@@ -177,8 +177,8 @@ ELS = {
 	color_ui = rgb { 198 169 248 }
 }
 ETH = {
-	color = rgb { 152 130 191 }
-	color_ui = rgb { 198 169 248 }
+	color = rgb { 15 71 175 }
+	color_ui = rgb { 15 71 175 }
 }
 GUA = {
 	color = rgb { 72 49 112 }
@@ -641,8 +641,8 @@ MAY = {
 	color_ui = rgb { 100 100 0 }
 }
 PAK = {
-	color = rgb { 171 250 140 }
-	color_ui = rgb { 222 250 140 }
+	color = rgb { 0 100 0 }
+	color_ui = rgb { 0 100 0 }
 }
 SIG = {
 	color = rgb { 250 100 20 }

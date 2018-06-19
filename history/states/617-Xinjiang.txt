@@ -1,15 +1,11 @@
 
 state={
 	id=617
-	name="STATE_617" # Urumqi
-	manpower = 5900250
-	
-	state_category = state_level_7
-	
-	resources = {
-		aluminium=400
-		oil=90
-		steel = 5
+	name="STATE_617"
+	resources={
+		aluminium=400.000
+		oil=90.000
+		steel=5.000
 	}
 
 	history={
@@ -22,6 +18,7 @@ state={
 			industrial_complex = 3
 			arms_factory = 1
 			air_base = 1
+
 		}
 		victory_points = {
 			4709 3 
@@ -30,6 +27,9 @@ state={
 	}
 
 	provinces={
-		1703 1838 4682 4704 4709 4770 4843 7702 7732 7792 7850 10545 10614 10839 12524 12526 12598 12601 12656 12671 
+		1838 4704 4709 4770 4843 7702 7732 7792 7850 10545 10614 10839 12524 12598 12656 12671 
 	}
+	manpower=5900250
+	buildings_max_level_factor=1.000
+	state_category=state_level_7
 }

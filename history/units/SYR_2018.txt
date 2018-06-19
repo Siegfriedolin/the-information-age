@@ -127,7 +127,7 @@ units = {
 	}
 	division = {
 		name = "4th Armoured Division"
-		location = 4550
+		location = 13310
 		division_template = "Armor Regiment"
 		start_experience_factor = 0.3
 	}
@@ -179,6 +179,24 @@ units = {
 		division_template = "Militia"
 		start_experience_factor = 0.1
 	}
+	division = {
+		name = "Jaysh al-Muwahhideen"
+		location = 13292
+		division_template = "Militia"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Fatah al-Intifada"
+		location = 13301
+		division_template = "Militia"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Ba'ath Brigades"
+		location = 13307
+		division_template = "Militia"
+		start_experience_factor = 0.1
+	}
 }	
 
 ### Air OOB ###
@@ -188,7 +206,7 @@ air_wings = {
 		#MiG-21
 		jet_multirole_equipment_1 = {
 			owner = "SYR" 
-			amount = 53
+			amount = 70
 		}
 
 	}
@@ -196,7 +214,7 @@ air_wings = {
 		#MiG-29
 		jet_multirole_equipment_3 = {
 			owner = "SYR" 
-			amount = 20
+			amount = 18
 		}
 	}
 
@@ -204,7 +222,7 @@ air_wings = {
 		#MiG-23
 		jet_multirole_equipment_2 = {
 			owner = "SYR" 
-			amount = 90
+			amount = 89
 		}
 
 	}
@@ -212,7 +230,7 @@ air_wings = {
 		#Su-22
 		jet_attack_equipment_2 = {
 			owner = "SYR" 
-			amount = 42
+			amount = 41
 		}
 
 	}
@@ -220,7 +238,7 @@ air_wings = {
 		#Su-24 - Tactical Bomber
 		jet_attack_equipment_2 = {
 			owner = "SYR" 
-			amount = 8
+			amount = 20
 		}
 
 	}
