@@ -140,7 +140,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Sheikh Abdourahman Barkhad"
 	picture = "Abdourahman_Barkhad.dds"
-	ideology = islamic_authoritarian
+	ideology = salafism
 } 
 
 create_country_leader = {

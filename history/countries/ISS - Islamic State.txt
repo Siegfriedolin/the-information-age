@@ -108,7 +108,7 @@ add_ideas = {
 create_country_leader = {
 	name = "Abu Bakr al-Baghdadi"
 	picture = "Abu_Bakr.dds"
-	ideology = islamic_authoritarian
+	ideology = salafism
 }
 
 

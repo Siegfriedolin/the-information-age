@@ -87,7 +87,7 @@ set_politics = {
 
 create_country_leader = {
 	name = "Hibatullah Akhundzada"
-	ideology = islamic_authoritarian
+	ideology = salafism
 	picture = "Hibatullah_Akhundzada.dds"
 }
 

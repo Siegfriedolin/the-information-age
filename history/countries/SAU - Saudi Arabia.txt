@@ -141,7 +141,7 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "King Salman"
+	name = "Salman bin Abdulaziz"
 	picture = "King_Salman.dds"
 	ideology = absolute_monarchist
 }
@@ -161,7 +161,7 @@ create_country_leader = {
 create_country_leader = {
     name = "Abdul-Aziz Al ash-Sheikh" 
 	picture = "Abdulaziz_Al_Sheikh.dds"
-	ideology = islamic_authoritarian
+	ideology = salafism
 }
 
 create_country_leader = {

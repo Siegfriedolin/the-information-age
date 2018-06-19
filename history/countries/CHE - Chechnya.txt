@@ -119,5 +119,5 @@ set_politics = {
 create_country_leader = {
 	name = "Aslan Mashadov"
 	picture = "Aslan_Mashadov.dds"
-	ideology = islamic_authoritarian
+	ideology = salafism
 }

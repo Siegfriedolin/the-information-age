@@ -101,6 +101,8 @@ add_opinion_modifier = {
 	modifier = past_japanese_war_crimes
 }
 
+give_guarantee = USA
+
 set_politics = {
 
 	parties = {

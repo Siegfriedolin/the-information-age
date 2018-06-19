@@ -207,7 +207,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Abdirizak Waberi"
 	picture = "Abdirizak_Waberi.dds"
-	ideology = islamic_republican
+	ideology = sunni_islamism
 }
 
 create_field_marshal = {

@@ -104,6 +104,8 @@ add_ideas = {
 	limited_conscription
 }
 
+create_faction = "Axis of Resistance"
+
 set_politics = {
 
 	parties = {
@@ -164,7 +166,7 @@ set_politics = {
 
 create_country_leader = {
 	name = "Ali Hosseini Khamenei"
-	ideology = islamic_authoritarian
+	ideology = shia_islamism
 	picture = "Ali_Hosseini_Khamenei.dds"
 }
 

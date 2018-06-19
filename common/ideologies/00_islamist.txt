@@ -4,10 +4,13 @@ ideologies = {
 		
 		types = {
 		
-			islamic_republican = {
+			sunni_islamism = {
 			}
 			
-			islamic_authoritarian = {
+			shia_islamism = {
+			}
+			
+			salafism = {
 			}
 			
 		}

@@ -121,7 +121,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Ahmed Omar"
 	picture = "Ahmed_Omar.dds"
-	ideology = islamic_authoritarian
+	ideology = salafism
 }
 
 create_country_leader = {

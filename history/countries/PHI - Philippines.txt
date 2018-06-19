@@ -90,6 +90,8 @@ add_ideas = {
 	population_growth_rapid
 }
 
+give_guarantee = USA
+
 add_opinion_modifier = {
 	target = JAP
 	modifier = past_japanese_war_crimes
@@ -172,7 +174,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Murad Ibrahim"
 	picture = "Murad_Ibrahim.dds"
-	ideology = islamic_republican
+	ideology = sunni_islamism
 }
 
 create_country_leader = {

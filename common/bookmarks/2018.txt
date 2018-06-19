@@ -1,11 +1,28 @@
 bookmarks = {
-	bookmark = {	#Modern Day
+	bookmark = {
 		name = "BLITZKRIEG_NAME"
 		desc = "BLITZKRIEG_DESC"
 		date = 2018.1.1.1
 		picture = "GFX_select_date_1939"
 		default_country = "USA"
 	
+		"USA"={
+			history = "USA_BLITZKRIEG_DESC"
+			ideology = conservative
+			ideas = {
+				idea_USA_political_establishment
+				american_militarism
+				idea_united_nations_security_council_member
+			}
+		}
+		"SOV"={
+			history = "SOV_BLITZKRIEG_DESC"
+			ideology = reactionary
+			ideas = {
+				idea_united_nations_security_council_member
+				idea_eu_sanctions
+			}
+		}
 		"PRC"={
 			history = "PRC_BLITZKRIEG_DESC"
 			ideology = communist
@@ -13,6 +30,15 @@ bookmarks = {
 				idea_PRC_chinese_socialism
 				idea_united_nations_security_council_member
 			}			
+		}
+		"ENG"={
+			history = "ENG_BLITZKRIEG_DESC"
+			ideology = social_democrat
+			ideas = {
+				ENG_queen_elizabeth_2
+				idea_eu_member
+				idea_united_nations_security_council_member
+			}
 		}
 		"FRA"={
 			history = "FRA_BLITZKRIEG_DESC"
@@ -33,50 +59,25 @@ bookmarks = {
 		}
 		"JAP"={
 			history = "JAP_BLITZKRIEG_DESC"
-			ideology = social_liberal
+			ideology = conservative
 			ideas = {
 				idea_JAP_emperor_akihito
 				japanese_article_9
 			}
 		}
-		"SOV"={
-			history = "SOV_BLITZKRIEG_DESC"
-			ideology = reactionary
-			ideas = {
-				idea_united_nations_security_council_member
-				idea_eu_sanctions
-			}
-		}
-		"ENG"={
-			history = "ENG_BLITZKRIEG_DESC"
-			ideology = social_democrat
-			ideas = {
-				ENG_queen_elizabeth_2
-				idea_eu_member
-				idea_united_nations_security_council_member
-			}
-		}
-		"USA"={
-			history = "USA_BLITZKRIEG_DESC"
-			ideology = social_liberal
-			ideas = {
-				idea_USA_political_establishment
-				american_militarism
-				idea_united_nations_security_council_member
-			}
+		
+		"---"={
+			history = "OTHER_BLITZKRIEG_DESC"
 		}
 		
 		"PRK"={
+		    minor = yes
 			history = "PRK_BLITZKRIEG_DESC"
 			ideology = communist
 			ideas = {
-			idea_PRK_embargo
-	        idea_PRK_militarism
+			    idea_PRK_embargo
+	            idea_PRK_militarism
 			}
-		}
-			
-		"---"={
-			history = "OTHER_BLITZKRIEG_DESC"
 		}
 		
 		"KOR"={
@@ -84,10 +85,20 @@ bookmarks = {
 			history = "KOR_BLITZKRIEG_DESC"
 			ideology = social_liberal
 			ideas = {
-			idea_KOR_militarism
-			idea_KOR_USinvestment
+			    idea_KOR_militarism
+			    idea_KOR_USinvestment
 			}
+		}
+		
+		"SWE"={
+		    minor = yes
+			history = "SWE_BLITZKRIEG_DESC"
+			ideology = social_democrat
+			ideas = {
+			    idea_eu_member
+	            neutrality_idea
 			}
+		}
 			
 		effect = {
 			randomize_weather = 12345 # <- Obligatory in every bookmark !

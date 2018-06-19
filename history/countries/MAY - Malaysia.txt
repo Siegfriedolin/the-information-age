@@ -163,7 +163,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Fadzil Noor"
 	picture = "Fadzil_Noor.dds"
-	ideology = islamic_republican
+	ideology = sunni_islamism
 }
 
 create_country_leader = {
@@ -290,7 +290,7 @@ create_country_leader = {
 	desc = "POLITICIAN_MAY_ABDUL_HADI_AWANG_DESC"
 	picture = "Abdul_Hadi_Awang.dds"
 	expire = "2020.1.1"
-	ideology = islamic_republican
+	ideology = sunni_islamism
 	
 	traits = {
 	

@@ -129,13 +129,13 @@ set_politics = {
 create_country_leader = {
 	name = "Mohammed H. I. Egal"
 	picture = "Mohammed_HI_Egal.dds"
-	ideology = islamic_republican
+	ideology = sunni_islamism
 }
 
 2010.1.1 = {
 	create_country_leader = {
 		name = "Ahmed Mohammed Mahamoud"
 		picture = "Ahmed_M_Mahamoud.dds"
-		ideology = islamic_republican
+		ideology = sunni_islamism
 	}
 }

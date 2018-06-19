@@ -229,7 +229,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Anjem Choudary"
 	picture = "Anjem_Choudary.dds"
-	ideology = islamic_authoritarian
+	ideology = salafism
 }
 	
 create_country_leader = {

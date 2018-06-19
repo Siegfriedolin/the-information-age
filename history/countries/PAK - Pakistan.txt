@@ -135,7 +135,7 @@ set_politics = {
 create_country_leader = {
 	name = "Muhammad Rafiq Tarar"
 	picture = "Muhammad_R_Tarar.dds"
-	ideology = islamic_republican
+	ideology = sunni_islamism
 }
 
 create_country_leader = {
@@ -227,7 +227,7 @@ create_country_leader = {
 	create_country_leader = {
 		name = "Mamnoon Hussain"
 		picture = "Mamnoon_Hussain.dds"
-		ideology = islamic_republican
+		ideology = sunni_islamism
 	}
 }
 

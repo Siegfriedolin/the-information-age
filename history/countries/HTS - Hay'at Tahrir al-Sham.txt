@@ -144,7 +144,7 @@ set_politics = {
 
 create_country_leader = {
 	name = "Abu Mohammad al-Julani"
-	ideology = islamic_authoritarian
+	ideology = salafism
 	picture = "Julani.dds"
 }
 

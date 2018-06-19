@@ -139,7 +139,7 @@ set_politics = {
 
 create_country_leader = {
 	name = "Hassan Soufan"
-	ideology = islamic_republican
+	ideology = sunni_islamism
 	picture = "Hassan_Soufan.dds"
 }
 

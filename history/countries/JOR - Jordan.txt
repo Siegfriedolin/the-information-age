@@ -138,7 +138,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Hamza Mansour"
 	picture = "Hamza_Mansour.dds"
-	ideology = islamic_republican
+	ideology = sunni_islamism
 }
 
 create_country_leader = { 

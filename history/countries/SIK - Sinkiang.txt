@@ -123,5 +123,5 @@ set_politics = {
 create_country_leader = {
 	name = "Abdullah Mansour"
 	picture = "Abdullah_Mansour.dds"
-	ideology = islamic_authoritarian
+	ideology = salafism
 }

@@ -97,39 +97,34 @@ set_technology = {
 
 add_ideas = {
 	population_growth_decline
-	limited_conscription
+	volunteer_only
 	free_trade
 	GER_bundeswehr_shortcomings
 	idea_GER_german_legacy
 	idea_eu_member
+	the_euro
 }
 
 set_politics = {
 
 	parties = {
-		social_democrat = { popularity = 40.9 }		#SPD
-		conservative = { popularity = 35.4 }		#CDU + CSU + Graue + ÖDP
-		progressive = { popularity = 6.7 }			#Grüne
-		market_liberal = { popularity = 6.2 }		#FDP
-		democratic_socialist = { popularity = 5.1 }	#PDS
-		reactionary = { popularity = 2.8 }			#Republikaner + ProDM + BFB
-		nationalist = { popularity = 1.4 }			#DVU + NPD
-		social_liberal = { popularity = 0.3 }		#Tierschutzpartei
-		communist = { popularity = 0.05 }			#DKP + MLPD
-		fascist = {	popularity = 0.01 }				#Several completely insignifant groups
+		conservative = { popularity = 34.4 }			#CDU + CSU + FW + ÖDP + ADD
+		social_democrat = { popularity = 20.5 }			#SPD
+		reactionary = { popularity = 12.6 }				#AfD
+		market_liberal = { popularity = 10.7 }			#FDP
+		democratic_socialist = { popularity = 9.2 }		#Linke
+		progressive = { popularity = 8.9 }				#Grüne
+		social_liberal = { popularity = 1.5 }			#Tierschutzpartei + Piraten + BGE + Tierschutzallianz
+		nationalist = { popularity = 0.4 }				#NPD
+		communist = { popularity = 0.1 }				#MLPD + DKP
+		fascist = { popularity = 0.01 }					#Die Rechte
 	}
 	
-	ruling_party = social_democrat
-	last_election = "1998.9.27"
+	ruling_party = conservative
+	last_election = "2017.9.24"
 	election_frequency = 48
 	elections_allowed = yes
 }
-
-#create_import = {
-#	resource = oil
-#	factories = 3
-#	exporter = NOR
-#}
 
 add_opinion_modifier = { target = FRA modifier = franco_german_friendship }
 add_opinion_modifier = { target = HOL modifier = german_dutch_military_cooperation }
@@ -137,7 +132,7 @@ add_opinion_modifier = { target = HOL modifier = german_dutch_military_cooperati
 create_country_leader = {
 	name = "Pierre Vogel"
 	picture = "Pierre_Vogel.dds"
-	ideology = islamic_authoritarian
+	ideology = salafism
 }
 
 create_country_leader = {
@@ -159,8 +154,8 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Ronald Schill"
-	picture = "Ronald_Schill.dds"
+	name = "Alexander Gauland"
+	picture = "Alexander_Gauland.dds"
 	ideology = counter_progressive_democrat
 }
 
@@ -171,8 +166,8 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Wolfgang Gerhardt"
-	picture = "Wolfgang_Gerhardt.dds"
+	name = "Christian Lindner"
+	picture = "Christian_Lindner.dds"
 	ideology = libertarian
 }
 
@@ -183,8 +178,8 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Gerhard Schröder"
-	picture = "Gerhard_Schroeder.dds"
+	name = "Martin Schulz"
+	picture = "Martin_Schulz.dds"
 	ideology = social_democrat_ideology
 }
 
@@ -745,187 +740,4 @@ create_navy_leader = {
 	picture = "admirals/Rainer_Endres.dds"
 	traits = { blockade_runner }
 	skill = 1
-}
-
-2001.1.1 = {
-	complete_national_focus = GER_economic_focus
-	complete_national_focus = GER_ideology_focus
-	complete_national_focus = GER_restructure_the_foreign_ministry
-	complete_national_focus = GER_military_reform
-	
-	complete_national_focus = GER_osthilfe
-	
-	complete_national_focus = GER_emphasize_freedom
-	complete_national_focus = GER_restore_trust_in_the_system
-	complete_national_focus = GER_political_expertise
-	
-	complete_national_focus = GER_army_focus
-	complete_national_focus = GER_navy_focus
-	complete_national_focus = GER_air_force_focus
-	
-	complete_national_focus = GER_revive_the_ruhr_area
-	complete_national_focus = GER_military_buildup_1
-	complete_national_focus = GER_civilian_buildup_1
-	
-	complete_national_focus = GER_fund_eastern_infrastructure
-	complete_national_focus = GER_new_eastern_ports
-	complete_national_focus = GER_fund_eastern_industry
-	
-	complete_national_focus = GER_european_freedom
-	complete_national_focus = GER_european_cooperation_1
-	complete_national_focus = GER_european_logistics
-	
-	complete_national_focus = GER_european_cooperation_2
-	
-	complete_national_focus = GER_european_politics
-	complete_national_focus = GER_intercontinental_politics
-	complete_national_focus = GER_befriend_france
-	complete_national_focus = GER_befriend_poland
-	complete_national_focus = GER_with_britain
-	complete_national_focus = GER_befriend_italy
-	complete_national_focus = GER_befriend_scandinavia
-	
-	#complete_national_focus = GER_EU_expansion_of_2004
-	#complete_national_focus = GER_EU_expansion_of_2007
-	#complete_national_focus = GER_EU_expansion_of_2013
-}
-
-2002.1.1 = {
-	add_ideas = the_euro
-}
-
-2005.9.18 = {
-	set_politics = {
-		ruling_party = conservative
-		elections_allowed = yes
-	}
-}
-
-2007.1.1 = {
-	set_party_name = {
-		ideology = democratic_socialist
-		long_name = GER_democratic_socialist_party_DieLinke_long
-		name = GER_democratic_socialist_party_DieLinke
-	}
-}
-
-2009.1.1 = {
-	create_country_leader = {
-		name = "Frank-Walter Steinmeier"
-		picture = "Frank_Walter_Steinmeier.dds"
-		ideology = social_democrat_ideology
-	}
-}
-
-2009.2.1 = {
-	set_party_name = {
-		ideology = reactionary
-		long_name = GER_reactionary_party_AfD_long
-		name = GER_reactionary_party_AfD
-	}
-	create_country_leader = {
-		name = "Bernd Lucke"
-		picture = "Bernd_Lucke.dds"
-		ideology = oligarchist
-	}
-}
-
-2009.11.13 = {
-	create_country_leader = {
-		name = "Sigmar Gabriel"
-		picture = "Sigmar_Gabriel.dds"
-		ideology = social_democrat_ideology
-	}
-}
-
-2010.11.22 = {
-	add_ideas = {
-		volunteer_only
-	}
-}
-
-2011.1.1 = {
-	create_country_leader = {
-		name = "Christian Lindner"
-		picture = "Christian_Lindner.dds"
-		ideology = libertarian
-	}
-}
-
-2013.1.1 = {
-	create_country_leader = {
-		name = "Peer Steinbrück"
-		picture = "Peer_Steinbruck.dds"
-		ideology = social_democrat_ideology
-	}
-}
-
-2013.9.23 = {
-	create_country_leader = {
-		name = "Frauke Petry"
-		picture = "Frauke_Petry.dds"
-		ideology = counter_progressive_democrat
-	}
-	set_politics = {
-		last_election = "2013.9.22"
-		elections_allowed = yes
-		parties = {
-			conservative = { popularity = 42.6 }		#CDU + CSU + Freie Wähler + Rentner + ÖDP
-			social_democrat = { popularity = 25.7 }		#SPD
-			democratic_socialist = { popularity = 8.6 }	#Linke
-			progressive = { popularity = 8.4 }			#Grüne
-			market_liberal = { popularity = 4.8 }		#FDP
-			reactionary = { popularity = 4.8 }			#AfD + Republikaner + Volksabstimmung
-			social_liberal = { popularity = 2.8 }		#Piraten + Tierschutzpartei
-			nationalist = { popularity = 1.3 }			#NPD + Rechte
-			fascist = { popularity = 0.2 }				#pro Deutschland + BGD
-			communist = { popularity = 0.1 }			#MLPD + DKP
-		}
-	}
-}
-
-2014.1.1 = { 
-	add_popularity = { ideology = reactionary popularity = 0.01 }
-}
-
-2015.1.1 = { 
-	add_popularity = { ideology = reactionary popularity = 0.02 }
-}
-
-2016.1.1 = { 
-	add_popularity = { ideology = reactionary popularity = 0.03 }
-}
-
-2016.6.1 = {
-	create_country_leader = {
-		name = "Alexander Gauland"
-		picture = "Alexander_Gauland.dds"
-		ideology = counter_progressive_democrat
-	}
-}
-
-2017.1.26 = {
-	create_country_leader = {
-		name = "Martin Schulz"
-		picture = "Martin_Schulz.dds"
-		ideology = social_democrat_ideology
-	}
-}
-
-2017.9.25 = {
-	set_politics = {
-		last_election = "2017.9.24"
-		parties = {
-			conservative = { popularity = 34.4 }			#CDU + CSU + FW + ÖDP + ADD
-			social_democrat = { popularity = 20.5 }			#SPD
-			reactionary = { popularity = 12.6 }				#AfD
-			market_liberal = { popularity = 10.7 }			#FDP
-			democratic_socialist = { popularity = 9.2 }		#Linke
-			progressive = { popularity = 8.9 }				#Grüne
-			social_liberal = { popularity = 1.5 }			#Tierschutzpartei + Piraten + BGE + Tierschutzallianz
-			nationalist = { popularity = 0.4 }				#NPD
-			communist = { popularity = 0.1 }				#MLPD + DKP
-			fascist = { popularity = 0.01 }					#Die Rechte
-		}
-	}
 }

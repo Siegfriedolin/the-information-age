@@ -181,7 +181,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Wasfie Hassiem"
 	picture = "Wasfie_Hassiem.dds"
-	ideology = islamic_republican
+	ideology = sunni_islamism
 }
 
 create_field_marshal = {

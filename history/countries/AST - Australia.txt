@@ -167,7 +167,7 @@ add_opinion_modifier = {
 create_country_leader = {
 	name = "Diaa Mohamed"
 	picture = "Diaa_Mohamed.dds"
-	ideology = islamic_republican
+	ideology = sunni_islamism
 }
 
 create_country_leader = {

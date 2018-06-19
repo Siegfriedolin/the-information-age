@@ -101,24 +101,10 @@ create_equipment_variant = { name = "Preveze-class" type = submarine_2  }
 
 diplomatic_relation = { country = AZR relation = non_aggression_pact }
 give_guarantee = AZR
+give_guarantee = NCY
 give_military_access = AZR
 give_military_access = FSA
-# NORTHERN CYPRUS
-set_politics = {
-	ruling_party = reactionary
-}
-if = {
-	limit = {
-		has_dlc = "Together for Victory"
-	}
-	set_autonomy = {
-		target = NCY
-		autonomous_state = autonomy_puppet
-	}
-	else = {
-		puppet = NCY
-	}
-}
+give_military_access = NCY
 
 set_country_flag = dominant_religion_islam
 set_country_flag = sunni_islam
@@ -191,7 +177,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Mustafa Kamalak"
 	picture = "Mustafa_Kamalak.dds"
-	ideology = islamic_republican
+	ideology = sunni_islamism
 }
 
 create_country_leader = {

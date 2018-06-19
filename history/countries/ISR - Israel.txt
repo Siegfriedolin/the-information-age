@@ -197,7 +197,7 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "Abdulmalik Dehamshe"
-	ideology = islamic_republican
+	ideology = sunni_islamism
 	picture = "Abdulmalik_Dehamshe.dds"
 }
 

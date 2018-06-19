@@ -189,7 +189,7 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "Ammar al-Hakim"
-	ideology = islamic_authoritarian
+	ideology = shia_islamism
 	picture = "Ammar_al_Hakim.dds"
 }
 

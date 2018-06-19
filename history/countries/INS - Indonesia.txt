@@ -163,7 +163,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Malem Sambat Kaban"
 	picture = "Malem_S_Kaban.dds"
-	ideology = islamic_republican
+	ideology = sunni_islamism
 }
 
 create_country_leader = {

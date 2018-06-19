@@ -137,7 +137,7 @@ set_politics = {
 
 create_country_leader = {
 	name = "Maulana Qazi Fazlullah"
-	ideology = islamic_authoritarian
+	ideology = salafism
 	picture = "Fazlullah.dds"
 }
 

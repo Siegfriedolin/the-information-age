@@ -8109,7 +8109,7 @@
 8108;93;189;216;land;true;desert;7
 8109;93;192;31;land;false;plains;5
 8110;93;192;76;land;false;forest;2
-8111;93;192;181;land;false;desert;5
+8111;93;192;181;land;true;desert;5
 8112;93;195;41;land;false;mountain;6
 8113;93;195;96;land;true;desert;3
 8114;93;195;146;land;false;hills;6
@@ -13220,7 +13220,7 @@
 13219;180;90;45;land;false;desert;7
 13220;10;90;45;land;false;desert;7
 13221;90;190;240;land;false;mountain;7
-13222;50;50;200;land;false;desert;5
+13222;50;50;200;land;true;desert;5
 13223;200;50;200;land;false;desert;5
 13224;200;150;200;land;false;desert;5
 13225;100;150;100;land;false;desert;5

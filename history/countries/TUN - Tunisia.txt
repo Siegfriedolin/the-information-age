@@ -158,7 +158,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Ali Laarayedh"
 	picture = "Ali_Laarayedh.dds"
-	ideology = islamic_republican
+	ideology = sunni_islamism
 }
 create_country_leader = {
 	name = "Slim Riahi"

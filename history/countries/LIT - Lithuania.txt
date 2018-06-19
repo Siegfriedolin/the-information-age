@@ -206,7 +206,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Mykolas Rimša"
 	picture = "Mykolas_Rimsa.dds"
-	ideology = islamic_authoritarian
+	ideology = salafism
 }
 
 2002.1.1 = {

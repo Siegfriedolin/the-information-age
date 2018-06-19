@@ -138,7 +138,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Mohammed Sawan"
 	picture = "Mohammed_Sawan.dds"
-	ideology = islamic_republican
+	ideology = sunni_islamism
 } 
 create_country_leader = {
     name = "Mustafa Abdul Jalil"

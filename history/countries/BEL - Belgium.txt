@@ -135,7 +135,7 @@ set_politics = {
 create_country_leader = {
 	name = "Abdelhay Bakkali Tahiri"
 	picture = "Abdelhay_Bakkali_Tahiri.dds"
-	ideology = islamic_authoritarian
+	ideology = salafism
 }
 create_country_leader = {
 	name = "Herve Van Laethem"

@@ -123,7 +123,7 @@ create_country_leader = {
 create_country_leader = {
     name = "Salaheddine Bahaaeddin"
 	picture = "Salaheddine_Bahaaeddin.dds"
-	ideology = islamic_republican
+	ideology = sunni_islamism
 }
 
 create_country_leader = { 

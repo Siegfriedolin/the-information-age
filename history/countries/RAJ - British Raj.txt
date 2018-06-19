@@ -197,7 +197,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "K. M. Kader Mohideen"
 	picture = "K_M_Kader_Mohideen.dds"
-	ideology = islamic_republican   
+	ideology = sunni_islamism   
 }
 
 create_country_leader = {
