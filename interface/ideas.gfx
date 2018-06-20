@@ -1134,4 +1134,8 @@ spriteTypes = {
 	name = "GFX_idea_home_of_the_new_revolution"
 	texturefile = "gfx/interface/ideas/RUS/memoriesofcommunism.dds"
 	}
+	spriteType = {
+	name = "GFX_idea_non_aligned_movement"
+	texturefile = "gfx/interface/ideas/international_organizations/non_aligned_movement.dds"
+	}
 }
