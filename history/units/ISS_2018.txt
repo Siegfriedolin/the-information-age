@@ -7,6 +7,7 @@
 	}
 	support = {
 		artillery = { x = 0 y = 0 }
+		engineer = { x = 0 y = 0 }
 	}
 }
 division_template = {
@@ -19,48 +20,49 @@ division_template = {
 	}
 	support = {
 		artillery = { x = 0 y = 0 }
+		engineer = { x = 0 y = 0 }
 	}
 }
 
 units = {
 	
 	division = {
-		name = "Daesh Elite Forces"
+		name = "Daesh Stormtroopers"
 		location = 13274
 		division_template = "Armored Militia"
 		start_experience_factor = 0.50
 	}
 	
 	division = {
-		name = "First Khabur Brigade"
+		name = "Dokumacilar"
 		location = 13334
 		division_template = "Militia"
 		start_experience_factor = 0.30
 	}
 	
 	division = {
-		name = "Second Khabur Brigade"
+		name = "Group of the One and Only"
 		location = 13369
 		division_template = "Militia"
 		start_experience_factor = 0.25
 	}
 	
 	division = {
-		name = "Daesh Militia"
+		name = "Liwa Dawud"
 		location = 13327
 		division_template = "Militia"
 		start_experience_factor = 0.25
 	}
 	
 	division = {
-		name = "Daesh Militia"
+		name = "Jaysh al-Jihad"
 		location = 13368
 		division_template = "Militia"
 		start_experience_factor = 0.25
 	}
 	
 	division = {
-		name = "Daesh Militia"
+		name = "Islamic Muthanna Movement"
 		location = 13320
 		division_template = "Militia"
 		start_experience_factor = 0.25
