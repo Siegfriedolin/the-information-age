@@ -1,13 +1,13 @@
 bookmarks = {
 	bookmark = {
-		name = "BLITZKRIEG_NAME"
-		desc = "BLITZKRIEG_DESC"
+		name = "INFORMATION_AGE_NAME"
+		desc = "INFORMATION_AGE_DESC"
 		date = 2018.1.1.1
 		picture = "GFX_select_date_1939"
 		default_country = "USA"
 	
 		"USA"={
-			history = "USA_BLITZKRIEG_DESC"
+			history = "USA_INFORMATION_AGE_DESC"
 			ideology = conservative
 			ideas = {
 				idea_USA_political_establishment
@@ -16,7 +16,7 @@ bookmarks = {
 			}
 		}
 		"SOV"={
-			history = "SOV_BLITZKRIEG_DESC"
+			history = "SOV_INFORMATION_AGE_DESC"
 			ideology = reactionary
 			ideas = {
 				idea_united_nations_security_council_member
@@ -24,7 +24,7 @@ bookmarks = {
 			}
 		}
 		"PRC"={
-			history = "PRC_BLITZKRIEG_DESC"
+			history = "PRC_INFORMATION_AGE_DESC"
 			ideology = communist
 			ideas={
 				idea_PRC_chinese_socialism
@@ -32,7 +32,7 @@ bookmarks = {
 			}			
 		}
 		"ENG"={
-			history = "ENG_BLITZKRIEG_DESC"
+			history = "ENG_INFORMATION_AGE_DESC"
 			ideology = social_democrat
 			ideas = {
 				ENG_queen_elizabeth_2
@@ -41,7 +41,7 @@ bookmarks = {
 			}
 		}
 		"FRA"={
-			history = "FRA_BLITZKRIEG_DESC"
+			history = "FRA_INFORMATION_AGE_DESC"
 			ideology = conservative
 			ideas = {
 				idea_eu_member
@@ -49,7 +49,7 @@ bookmarks = {
 			}
 		}
 		"GER"={
-			history = "GER_BLITZKRIEG_DESC"
+			history = "GER_INFORMATION_AGE_DESC"
 			ideology = social_democrat
 			ideas = {
 				idea_GER_german_legacy
@@ -58,7 +58,7 @@ bookmarks = {
 			}
 		}
 		"JAP"={
-			history = "JAP_BLITZKRIEG_DESC"
+			history = "JAP_INFORMATION_AGE_DESC"
 			ideology = conservative
 			ideas = {
 				idea_JAP_emperor_akihito
@@ -67,12 +67,12 @@ bookmarks = {
 		}
 		
 		"---"={
-			history = "OTHER_BLITZKRIEG_DESC"
+			history = "OTHER_INFORMATION_AGE_DESC"
 		}
 		
 		"PRK"={
 		    minor = yes
-			history = "PRK_BLITZKRIEG_DESC"
+			history = "PRK_INFORMATION_AGE_DESC"
 			ideology = communist
 			ideas = {
 			    idea_PRK_embargo
@@ -82,7 +82,7 @@ bookmarks = {
 		
 		"KOR"={
 		    minor = yes
-			history = "KOR_BLITZKRIEG_DESC"
+			history = "KOR_INFORMATION_AGE_DESC"
 			ideology = social_liberal
 			ideas = {
 			    idea_KOR_militarism
@@ -92,11 +92,22 @@ bookmarks = {
 		
 		"SWE"={
 		    minor = yes
-			history = "SWE_BLITZKRIEG_DESC"
+			history = "SWE_INFORMATION_AGE_DESC"
 			ideology = social_democrat
 			ideas = {
 			    idea_eu_member
 	            neutrality_idea
+			}
+		}
+		
+		"CHI"={
+		    minor = yes
+			history = "CHI_INFORMATION_AGE_DESC"
+			ideology = social_liberal
+			ideas = {
+			    partially_recognized_state
+	            limited_conscription
+	            idea_CHI_grudge
 			}
 		}
 			
