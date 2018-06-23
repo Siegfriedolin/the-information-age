@@ -1,6 +1,6 @@
 ﻿capital = 796
 
-oob = "ABK_2000"
+oob = "ABK_2018"
 
 set_research_slots = 2
 set_convoys = 25
@@ -97,22 +97,19 @@ add_ideas = {
 set_politics = {
 
 	parties = {
-		social_democrat = { popularity = 67 }
-		conservative = { popularity = 23 }
-		reactionary = { popularity = 6 }	
-		nationalist = { popularity = 2 }
-		progressive = { popularity = 2 }
+		social_democrat = { popularity = 63.49 }
+		conservative = { popularity = 36.59 }	
 	}
 	
 	ruling_party = social_democrat
-	last_election = "1999.10.3"
+	last_election = "2014.8.24"
 	election_frequency = 48
 	elections_allowed = yes
 }
 
 create_country_leader = {
-	name = "Vladislav Ardzinba"
-	picture = "Vladislav_Ardzinba.dds"
+	name = "Raul Khajimba"
+	picture = "Raul_Khajimba.dds"
 	ideology = social_democrat_ideology
 }
 
@@ -122,39 +119,8 @@ create_field_marshal = {
 	skill = 1
 }
 
-create_corps_commander = {	#passed away November 26, 2008
-	name = "Sultan Sosnaliev"
-	picture = "generals/Sultan_Sosnaliyev.dds"
+create_field_marshal = {
+	name = "Anatoly Khrulyov"
+	picture = "generals/Anatoly_Khrulyov.dds"
 	skill = 1
-}
-
-2008.1.1 = {
-	create_field_marshal = {
-		name = "Anatoly Khrulyov"
-		picture = "generals/Anatoly_Khrulyov.dds"
-		skill = 1
-	}
-}
-
-2015.1.1 = {
-	set_politics = {
-		parties = {
-			social_democrat = { popularity = 49 }
-			conservative = { popularity = 35 }
-			reactionary = { popularity = 9 }
-			communist = { popularity = 4 }
-			nationalist = { popularity = 1 }
-			social_liberal = { popularity = 1 }
-			progressive = { popularity = 1 }
-		}
-		ruling_party = social_democrat
-		elections_allowed = yes
-		last_election = "2014.8.24"
-	}
-	
-	create_country_leader = {
-		name = "Raul Khajimba"
-		picture = "Raul_Khajimba.dds"
-		ideology = social_democrat_ideology
-	}
 }
