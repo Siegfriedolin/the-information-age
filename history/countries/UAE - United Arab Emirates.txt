@@ -1,6 +1,6 @@
 ﻿capital = 658
 
-oob = "UAE_2000"
+oob = "UAE_2018"
 
 set_research_slots = 4
 set_convoys = 500

@@ -1,6 +1,6 @@
 ﻿capital = 293
 
-oob = "YEM_2000"
+oob = "YEM_2018"
 
 set_research_slots = 2
 set_convoys = 100
@@ -98,35 +98,37 @@ add_ideas = {
 }
 
 set_politics = {
+	
 	parties = {
 		islamist = {
-			popularity = 19
+			popularity = 23
 		}
 		nationalist = {
-			popularity = 21
+			popularity = 15
 		}
 		reactionary = {
-			popularity = 31
+			popularity = 30
 		}
 		conservative = {
-			popularity = 10
+			popularity = 7
 		}
 		communist = {
-			popularity = 11
+			popularity = 16
 		}
 		social_liberal = {
-			popularity = 8
+			popularity = 9
 		}
 	}
+		
 	ruling_party = reactionary
-	last_election = "1997.1.1"
-	election_frequency = 48
-	elections_allowed = no
+	last_election = "2012.2.21"
+	election_frequency = 72
+	elections_allowed = yes
 }
 
 create_country_leader = {
-	name = "Ali Abdullah Saleh"
-	picture = "Ali_Abdullah_Saleh.dds"
+	name = "Abd Rabbuh Mansur Hadi"
+	picture = "Abd_Rabbuh_Mansuh_Hadi.dds"
 	ideology = oligarchist
 }
 
@@ -399,13 +401,4 @@ create_navy_leader = {
 		election_frequency = 48
 		elections_allowed = no
 	}
-	create_country_leader = {
-		name = "Abd Rabbuh Mansur Hadi"
-		picture = "Abd_Rabbuh_Mansuh_Hadi.dds"
-		ideology = oligarchist
-	}
-}
-
-2015.1.1 = {	#Yemeni Civil War
-	set_stability = 0.05
 }

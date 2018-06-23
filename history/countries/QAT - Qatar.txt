@@ -1,6 +1,6 @@
 ﻿capital = 825
 
-oob = "QAT_2000"
+oob = "QAT_2018"
 
 set_research_slots = 3
 set_convoys = 100
@@ -114,14 +114,14 @@ set_politics = {
 	}
 	
 	ruling_party = monarchist
-	last_election = "1997.1.1"
+	last_election = "2018.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 create_country_leader = {
-	name = "Hamad bin Khalifa"
-	picture = "Hamad.dds"
+	name = "Tamim bin Hamad"
+	picture = "Tamim.dds"
 	ideology = absolute_monarchist
 }
 
@@ -162,10 +162,4 @@ create_corps_commander = {
 	traits = {} 
 	skill = 1
 }
-2010.1.1 = {
-	create_country_leader = {
-		name = "Tamim bin Hamad"
-		picture = "Tamim.dds"
-		ideology = absolute_monarchist
-	}
-}
+

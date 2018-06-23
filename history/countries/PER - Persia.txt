@@ -1,6 +1,6 @@
 ﻿capital = 266
 
-oob = "PER_2000"
+oob = "PER_2018"
 
 set_research_slots = 4
 set_convoys = 320
@@ -130,7 +130,7 @@ set_politics = {
 	    }
 		
 	    conservative = {
-	        popularity = 15
+	        popularity = 16
 	    }
 		
 	    market_liberal = {
@@ -138,7 +138,7 @@ set_politics = {
 	    }
 		
 	    social_liberal = {
-	        popularity = 1
+	        popularity = 0
 	    }
 		
 	    social_democrat = {
@@ -159,9 +159,9 @@ set_politics = {
 	}
 	
 	ruling_party = islamist
-	last_election = "1997.5.23"
+	last_election = "2017.5.19"
 	election_frequency = 48
-	elections_allowed = no
+	elections_allowed = yes
 }
 
 create_country_leader = {
