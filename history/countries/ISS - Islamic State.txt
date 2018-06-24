@@ -6,7 +6,7 @@ set_research_slots = 1
 set_convoys = 1
 set_stability = 0.2
 
-set_war_support = 0.3
+set_war_support = 0.8
 
 set_country_flag = country_language_arabic
 
@@ -118,7 +118,7 @@ create_corps_commander = {
 	skill = 2
 }
 
-2016.5.1 = {
+2018.1.1 = {
 	complete_national_focus = generic_army_focus
 	complete_national_focus = generic_air_focus
 	complete_national_focus = generic_ideology_focus
@@ -130,9 +130,6 @@ create_corps_commander = {
 	remove_ideas = idea_focus_generic_path_of_allah
 	remove_ideas = idea_focus_generic_path_of_order
 	remove_ideas = idea_focus_generic_national_strength
-}
-
-2018.1.1 = {
 	declare_war_on = {
 		target = ROJ
 		type = annex_everything

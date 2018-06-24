@@ -1,6 +1,6 @@
 ﻿capital = 527
 
-oob = "PRK_2000"
+oob = "PRK_2018"
 
 set_research_slots = 2
 set_convoys = 270
@@ -84,6 +84,9 @@ set_technology = {
 	construction1 = 1
 	manufacturing1 = 1
 	excavation1 = 1
+	atomic_research = 1
+	nuclear_reactor = 1
+	nukes = 1
 }
 
 add_ideas = {
@@ -92,6 +95,8 @@ add_ideas = {
 	service_by_requirement
 	closed_economy
 	idea_united_nations_sanctions
+	idea_PRK_embargo
+	idea_PRK_militarism
 }
 
 add_opinion_modifier = {
@@ -145,8 +150,8 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Kim Jong-Il"
-	picture = "Kim_Jong_Il.dds"
+	name = "Kim Jong-Un"
+	picture = "Kim_Jong_Un.dds"
 	ideology = juche
 }
 
@@ -253,27 +258,9 @@ create_corps_commander = {
 	skill = 6
 }
 
-2011.12.1 = {
-	set_country_flag = prk_death_of_kim_jong_il
-	create_country_leader = {
-		name = "Kim Jong-Un"
-		picture = "Kim_Jong_Un.dds"
-		ideology = juche
-	}
-}
-
-2014.1.1 = {
-	set_technology = {
-		atomic_research = 1
-		nuclear_reactor = 1
-		nukes = 1
-	}
+2018.1.1 = {
 	add_named_threat = {
-		threat = 25
+		threat = 15
 		name = threat_PRK_nuclear_program
 	}
-	add_ideas = {
-	idea_PRK_embargo
-	idea_PRK_militarism
-}
 }
