@@ -1,6 +1,6 @@
 ﻿capital = 111
 
-oob = "FIN_2016"
+oob = "FIN_2018"
 
 set_research_slots = 4
 set_convoys = 200
@@ -144,11 +144,10 @@ set_politics = {
 }
 
 create_country_leader = {
-		name = "Antti Rinne"
-		picture = "Antti_Rinne.dds"
-		ideology = social_democrat_ideology
-	}
-
+	name = "Antti Rinne"
+	picture = "Antti_Rinne.dds"
+	ideology = social_democrat_ideology
+}
 
 create_country_leader = {
 	name = "Otto Rutanen"
@@ -169,10 +168,10 @@ create_country_leader = {
 }
 
 create_country_leader = {
-		name = "Sari Essayah"
-		picture = "Sari_Essayah.dds"
-		ideology = christian_democrat
-	}
+	name = "Sari Essayah"
+	picture = "Sari_Essayah.dds"
+	ideology = christian_democrat
+}
 
 create_country_leader = {
 	name = "Petteri Orpo"
@@ -181,9 +180,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-		name = "Juha Sipila"
-		picture = "Juha_Sipila.dds"
-		ideology = moderate
+	name = "Juha Sipila"
+	picture = "Juha_Sipila.dds"
+	ideology = moderate
 }
 
 create_country_leader = {
@@ -192,11 +191,11 @@ create_country_leader = {
 	ideology = green
 }
 
-	create_country_leader = {
-		name = "Li Andersson"
-		picture = "Li_Andersson.dds"
-		ideology = democratic_socialist_ideology
-	}
+create_country_leader = {
+	name = "Li Andersson"
+	picture = "Li_Andersson.dds"
+	ideology = democratic_socialist_ideology
+}
 
 create_country_leader = {
 	name = "Juha-Pekka Väisänen"

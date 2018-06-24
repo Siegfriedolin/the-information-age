@@ -1,6 +1,6 @@
 ﻿capital = 12
 
-oob = "LAT_2000"
+oob = "LAT_2018"
 
 set_research_slots = 3
 set_convoys = 100
@@ -98,42 +98,44 @@ set_technology = {
 add_ideas = {
 	population_growth_decline
 	limited_conscription
+	the_euro
+	idea_eu_member
 }
 
 set_politics = {
 
 	parties = {
 		nationalist = {
-			popularity = 3
+			popularity = 5
 		}
 		reactionary = {
-			popularity = 7
+		    popularity = 12
 		}
 		conservative = {
 			popularity = 25
 		}
+		market_liberal = {
+			popularity = 5
+		}
 		social_liberal = {
-			popularity = 15
+			popularity = 5
 		}
 		social_democrat = {
-			popularity = 20
+			popularity = 8
 		}
 		progressive = {
-			popularity = 20
+			popularity = 28
 		}
 		democratic_socialist = {
-			popularity = 10
+			popularity = 12
 		}
 	}
 	
-	ruling_party = conservative
-	last_election = "1997.1.1"
+	ruling_party = progressive
+	last_election = "2014.10.4"
 	election_frequency = 48
 	elections_allowed = yes
 }
-
-2002.1.1 = { add_ideas = the_euro }
-2004.1.1 = { add_ideas = idea_eu_member }
 
 create_country_leader = {
 	name = "Andris Šķēle"
@@ -147,43 +149,3 @@ create_country_leader = {
 	ideology = green
 }
 
-2016.1.1 = {
-
-	oob = "LAT_2016"
-
-	set_politics = {
-
-		parties = {
-			nationalist = {
-				popularity = 5
-			}
-			reactionary = {
-				popularity = 12
-			}
-			conservative = {
-				popularity = 25
-			}
-			market_liberal = {
-				popularity = 5
-			}
-			social_liberal = {
-				popularity = 5
-			}
-			social_democrat = {
-				popularity = 8
-			}
-			progressive = {
-				popularity = 28
-			}
-			democratic_socialist = {
-				popularity = 12
-			}
-		}
-		
-		ruling_party = progressive
-		last_election = "2012.1.1"
-		election_frequency = 48
-		elections_allowed = yes
-	}
-
-}
