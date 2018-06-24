@@ -1,6 +1,6 @@
 ﻿capital = 882
 
-oob = "WSH_2000"
+oob = "WSH_2018"
 
 set_research_slots = 1
 set_convoys = 25
