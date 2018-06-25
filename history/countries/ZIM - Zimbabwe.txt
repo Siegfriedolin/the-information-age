@@ -99,6 +99,7 @@ add_ideas = {
 	population_growth_explosion
 	african_union_member
 	ZIM_disgruntled_veterans
+	non_aligned_movement_member
 }
 
 set_politics = {

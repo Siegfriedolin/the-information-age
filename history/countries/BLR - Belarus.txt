@@ -85,6 +85,7 @@ set_technology = {
 add_ideas = {
 	population_growth_decline
 	limited_conscription
+	non_aligned_movement_member
 }
 
 set_politics = {

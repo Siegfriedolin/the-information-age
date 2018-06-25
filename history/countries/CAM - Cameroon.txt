@@ -92,6 +92,7 @@ add_ideas = {
 	population_growth_explosion
 	commonwealth_of_nations_member
 	african_union_member
+	non_aligned_movement_member
 }
 
 set_politics = {

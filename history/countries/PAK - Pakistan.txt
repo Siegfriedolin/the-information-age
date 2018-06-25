@@ -1,6 +1,6 @@
 ﻿capital = 440
 
-oob = "PKS_2000"
+oob = "PAK_2018"
 
 set_research_slots = 2
 set_convoys = 320
@@ -101,6 +101,7 @@ set_country_flag = sunni_islam
 add_ideas = {
 	population_growth_rapid
 	commonwealth_of_nations_member
+	non_aligned_movement_member
 }
 
 set_politics = {

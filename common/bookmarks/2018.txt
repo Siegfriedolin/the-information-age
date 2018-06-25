@@ -77,6 +77,7 @@ bookmarks = {
 			ideas = {
 			    idea_PRK_embargo
 	            idea_PRK_militarism
+				non_aligned_movement_member
 			}
 		}
 		
@@ -106,7 +107,6 @@ bookmarks = {
 			ideology = social_liberal
 			ideas = {
 			    partially_recognized_state
-	            limited_conscription
 	            idea_CHI_grudge
 			}
 		}

@@ -97,6 +97,7 @@ add_ideas = {
 	idea_united_nations_sanctions
 	idea_PRK_embargo
 	idea_PRK_militarism
+    non_aligned_movement_member
 }
 
 add_opinion_modifier = {

@@ -151,10 +151,7 @@ ideas = {
 				always = no
 			}
 			modifier = {
-			    political_power_gain = 0.05
-			    ai_focus_aggressive_factor = -0.20
 				ai_get_ally_desire_factor = -20
-			    justify_war_goal_time = 0.15
 			}
 		}
 	}

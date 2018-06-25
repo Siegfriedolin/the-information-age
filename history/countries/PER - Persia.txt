@@ -102,6 +102,7 @@ set_country_flag = shia_islam
 add_ideas = {
 	population_growth_explosion
 	limited_conscription
+	non_aligned_movement_member
 }
 
 create_faction = "Axis of Resistance"

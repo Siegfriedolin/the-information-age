@@ -94,6 +94,7 @@ set_technology = {
 add_ideas = {
 	population_growth_steady
 	commonwealth_of_nations_member
+	non_aligned_movement_member
 }
 
 set_politics = {
