@@ -32,90 +32,14 @@ news_event = {
 	option = {
 		name = syria.1.o3
 		trigger = {
-			OR = { original_tag = HTS original_tag = JTS original_tag = FSA }
+			OR = { original_tag = HTS original_tag = FSA original_tag = ISS }
 		}
 	}
 	
 	option = {
 		name = syria.1.o4
 		trigger = {
-			NOT = { original_tag = FSA original_tag = HTS original_tag = JTS original_tag = SYR original_tag = SOV original_tag = PER is_in_faction_with = SYR }
+			NOT = { original_tag = FSA original_tag = HTS original_tag = SYR original_tag = SOV original_tag = PER original_tag = ISS is_in_faction_with = SYR }
 		}
-	}
-}
-
-#2018 Idlib Infighting - JTS
-country_event = {
-	id = syria.2
-	title = syria.2.t
-	desc = syria.2.d
-	
-	fire_only_once = yes
-	
-	trigger = {
-		original_tag = JTS
-		has_government = islamist
-		HTS = { has_government = islamist exists = yes }
-		NOT = { has_war_with = HTS }
-		date > 2018.2.18
-		date < 2019.1.1
-		has_country_flag = placeholder_WIP
-	}
-	
-	#Start war with HTS - Historical
-	option = {
-		name = syria.2.o1
-		ai_chance = {
-			factor = 80
-			modifier = {
-				factor = 20
-				is_historical_focus_on = yes
-			}
-		}
-	    HTS = { declare_war_on = { target = JTS type = annex_everything } }
-		set_country_flag = 2018_idlib_infighting
-	}
-	
-	#Offer to reform Jaish al-Fatah - Alt History
-	option = {
-		name = syria.2.o2
-		ai_chance = {
-			factor = 20
-			modifier = {
-				factor = -20
-				is_historical_focus_on = yes
-			}
-		}
-		HTS = { country_event = syria.3 }
-	}
-}
-
-#2018 Idlib Infighting - HTS Jaish al-Fatah
-country_event = {
-	id = syria.3
-	title = syria.3.t
-	desc = syria.3.d
-	
-	is_triggered_only = yes
-	
-	#Refuse, start war with JTS
-	option = {
-		name = syria.3.o1
-		ai_chance = {
-			factor = 15
-		}
-	    declare_war_on = { target = JTS type = annex_everything }
-		set_country_flag = 2018_idlib_infighting
-	}
-	
-	#Accept, become Jaish al-Fatah
-	option = {
-		name = syria.3.o2
-		ai_chance = {
-			factor = 85
-		}
-		annex_country = { target = JTS transfer_troops = yes }
-		set_cosmetic_tag = JAF
-		set_country_flag = army_of_conquest
 	}
 }

@@ -86,7 +86,6 @@ set_country_flag = sunni_islam
 give_military_access = TUR
 give_military_access = JOR
 give_military_access = HTS
-give_military_access = JTS
 
 add_ideas = {
 	population_growth_rapid
@@ -100,7 +99,7 @@ set_politics = {
 
 	parties = {
 		islamist = {
-			popularity = 0
+			popularity = 37
 		}
 		nationalist = {
 			popularity = 0
@@ -109,7 +108,7 @@ set_politics = {
 			popularity = 0
 		}
 		conservative = {
-			popularity = 100
+			popularity = 63
 		}
 		market_liberal = {
 			popularity = 0
@@ -145,14 +144,16 @@ set_politics = {
 
 create_country_leader = {
 	name = "Riad Seif"
-	ideology = right_wing_conservative
 	picture = "Riad_Seif.dds"
+	ideology = right_wing_conservative
+	traits = { defensive_strategist }
 }
 
 create_country_leader = {
-	name = "Mohammad Riad al-Shaqfeh"
+	name = "Hassan Soufan"
+	picture = "Hassan_Soufan.dds"
 	ideology = sunni_islamism
-	picture = "Mohammad_Riad_al_Shaqfeh.dds"
+	traits = { defensive_strategist }
 }
 
 create_country_leader = { 
@@ -171,6 +172,18 @@ create_field_marshal = {
 	name = "Bashar al-Zoubi"
 	picture = "Bashar_al_Zoubi.dds"
 	skill = 3
+}
+
+create_field_marshal = {
+	name = "Hassan Soufan"
+	picture = "Hassan_Soufan.dds"
+	skill = 2
+}
+
+create_corps_commander = {
+	name = "Sheikh Tawfiq Shahabuddin"
+	picture = "Sheikh_Tawfiq_Shahabuddin.dds"
+	skill = 2
 }
 
 create_corps_commander = {

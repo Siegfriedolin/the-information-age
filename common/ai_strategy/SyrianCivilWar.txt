@@ -82,28 +82,31 @@ west_antagonize_assad_strategy = {
     }
 }
 
-hts_supporter_strategy = {
+gulf_opposition_strategy = {
     enable = {
         tag = QAT
+		tag = SAU
+		tag = UAE
+		tag = YEM
     }
 	abort = {
         has_war_with = HTS
-    }
-    ai_strategy = {
-        type = send_volunteers_desire
-        id = "HTS"
-        value = 400
     }
 	ai_strategy = {
         type = support
         id = "HTS"
         value = 400
-    } 
+    }
+	ai_strategy = {
+        type = support
+        id = "FSA"
+        value = 400
+    }
 }
 
 anti_islamist_strategy = {
     enable = {
-        NOT = { has_government = islamist original_tag = QAT original_tag = SAU }
+        NOT = { has_government = islamist }
     }
 	abort = {
         has_government = islamist  
@@ -155,39 +158,6 @@ turkey_fsa_supporter_strategy = {
     } 
 }
 
-saudi_jts_supporter_strategy = {
-    enable = {
-		tag = SAU
-    }
-	abort = {
-		has_war_with = JTS
-    }
-	ai_strategy = {
-        type = send_volunteers_desire
-        id = "JTS"
-        value = 400
-    }
-	ai_strategy = {
-        type = support
-        id = "JTS"
-        value = 400
-    } 
-}
-
-turkey_jts_supporter_strategy = {
-    enable = {
-		tag = TUR
-    }
-	abort = {
-		has_war_with = JTS
-    }
-	ai_strategy = {
-        type = support
-        id = "JTS"
-        value = 400
-    } 
-}
-
 fsa_supporter_strategy = {
     enable = {
 	    OR = {
@@ -207,4 +177,33 @@ fsa_supporter_strategy = {
         id = "FSA"
         value = 400
     } 
+}
+
+nam_scw_strategy = {
+    enable = {
+	    has_idea = non_aligned_movement_member
+    }
+	abort = {
+	    has_global_flag = syrian_civil_war_over
+    }
+	ai_strategy = {
+        type = send_volunteers_desire
+        id = "ROJ"
+        value = -400
+    }
+	ai_strategy = {
+        type = send_volunteers_desire
+        id = "SYR"
+        value = -400
+    }
+	ai_strategy = {
+        type = send_volunteers_desire
+        id = "HTS"
+        value = -400
+    }
+	ai_strategy = {
+        type = send_volunteers_desire
+        id = "FSA"
+        value = -400
+    }
 }

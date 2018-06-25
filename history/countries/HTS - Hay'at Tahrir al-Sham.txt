@@ -95,6 +95,8 @@ add_ideas = {
     closed_economy
 }
 
+give_military_access = FSA
+
 set_politics = {
 
 	parties = {
@@ -146,6 +148,7 @@ create_country_leader = {
 	name = "Abu Mohammad al-Julani"
 	ideology = salafism
 	picture = "Julani.dds"
+	traits = { defensive_strategist }
 }
 
 create_field_marshal = {
