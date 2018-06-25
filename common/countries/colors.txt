@@ -973,6 +973,11 @@ MEN = {
 	color_ui = rgb { 165 230 132 }
 }
 
+XSM = {
+	color = rgb { 105 90 132 }
+	color_ui = rgb { 105 90 132 }
+}
+
 
 D01 = {
 	color = rgb { 200 100 31 }

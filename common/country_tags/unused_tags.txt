@@ -3,4 +3,3 @@
 #MAN = "countries/Manchukou.txt"
 #SHX = "countries/Shanxi.txt"
 #WGR = "countries/unused/West Germany.txt"
-#XSM = "countries/Xibei San Ma.txt"
