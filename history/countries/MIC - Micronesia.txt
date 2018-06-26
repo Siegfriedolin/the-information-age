@@ -1,6 +1,6 @@
 ﻿capital = 684
 
-oob = "MIC_2000"
+oob = "MIC_2018"
 
 set_research_slots = 2
 set_convoys = 30
@@ -127,7 +127,7 @@ set_politics = {
 	}
 	
 	ruling_party = conservative
-	last_election = "1997.1.1"
-	election_frequency = 48
+	last_election = "2017.3.7"
+	election_frequency = 24
 	elections_allowed = yes
 }
