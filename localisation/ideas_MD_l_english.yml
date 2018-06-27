@@ -3,7 +3,7 @@
  ###Law Categories###
  ####################
  government:0 "Government Policy"
- government2:0 "Political Advisors"
+ cabinet:0 "Cabinet"
  homosexual_rights:0 "Stance on Homosexuality"
  ###Laws###
  #Homosexuality Laws
@@ -11,6 +11,13 @@
  homosexuality_banned:0 "Ban"
  homosexuality_tolerated:0 "Tolerance"
  homosexuality_equalized:0 "Equality"
+ #Cabinet
+ defence_minister:0 "Minister of Defence"
+ foreign_affairs_minister:0 "Minister of Foreign Affairs"
+ finance_minister:0 "Minister of Finance"
+ commerce_minister:0 "Minister of Commerce"
+ justice_minister:0 "Minister of Justice"
+ culture_minister:0 "Minister of Culture"
  #Female Rights
  female_rights:0 "Female Rights"
  female_rights_patriarchy:0 "Patriarchy"
