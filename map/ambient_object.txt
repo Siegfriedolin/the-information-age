@@ -277,7 +277,7 @@ type={
 	object={
 		name="statue_of_liberty_entity"
 		position={
-			1650.040 9.700 1559.540 
+			1653.820 9.700 1557.370 
 		}
 		rotation={
 			0.000 -35.000 0.000 
