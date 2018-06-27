@@ -1,0 +1,286 @@
+type={
+	type="ambient_wind_entity"
+	use_animation=no
+	always_visible=yes
+	object={
+		name="ambient_wind"
+		position={
+			0.000 0.000 0.000 
+		}
+		rotation={
+			0.000 0.000 0.000 
+		}
+	}
+}
+type={
+	type="ambient_water_entity"
+	use_animation=no
+	scale=10.000000
+	object={
+		name="ambient_water"
+		position={
+			420.090 10.000 382.670 
+		}
+		rotation={
+			0.000 0.000 0.000 
+		}
+	}
+	object={
+		name="ambient_water"
+		position={
+			1234.890 10.000 407.440 
+		}
+		rotation={
+			0.000 0.000 0.000 
+		}
+	}
+	object={
+		name="ambient_water"
+		position={
+			2541.140 10.000 370.870 
+		}
+		rotation={
+			0.000 0.000 0.000 
+		}
+	}
+	object={
+		name="ambient_water"
+		position={
+			4201.620 10.000 358.560 
+		}
+		rotation={
+			0.000 0.000 0.000 
+		}
+	}
+	object={
+		name="ambient_water"
+		position={
+			685.150 10.000 1008.290 
+		}
+		rotation={
+			0.000 0.000 0.000 
+		}
+	}
+	object={
+		name="ambient_water"
+		position={
+			100.000 10.000 1000.000 
+		}
+		rotation={
+			0.000 0.000 0.000 
+		}
+	}
+	object={
+		name="ambient_water"
+		position={
+			3865.330 10.000 555.220 
+		}
+		rotation={
+			0.000 0.000 0.000 
+		}
+	}
+	object={
+		name="ambient_water"
+		position={
+			5217.910 10.000 1005.380 
+		}
+		rotation={
+			0.000 0.000 0.000 
+		}
+	}
+	object={
+		name="ambient_water"
+		position={
+			5465.920 10.000 559.670 
+		}
+		rotation={
+			0.000 0.000 0.000 
+		}
+	}
+	object={
+		name="ambient_water"
+		position={
+			205.110 10.000 1517.910 
+		}
+		rotation={
+			0.000 0.000 0.000 
+		}
+	}
+	object={
+		name="ambient_water"
+		position={
+			1773.610 10.000 1295.370 
+		}
+		rotation={
+			0.000 0.000 0.000 
+		}
+	}
+	object={
+		name="ambient_water"
+		position={
+			2224.790 10.000 1268.600 
+		}
+		rotation={
+			0.000 0.000 0.000 
+		}
+	}
+	object={
+		name="ambient_water"
+		position={
+			5315.160 10.000 1328.670 
+		}
+		rotation={
+			0.000 0.000 0.000 
+		}
+	}
+	object={
+		name="ambient_water"
+		position={
+			2427.300 10.000 1655.700 
+		}
+		rotation={
+			0.000 0.000 0.000 
+		}
+	}
+}
+type={
+	type="frame_border_entity"
+	use_animation=no
+	scale=100.000000
+	always_visible=yes
+	object={
+		name="frame_border_entity_top"
+		position={
+			0.000 0.000 2190.000 
+		}
+		rotation={
+			0.000 0.000 0.000 
+		}
+	}
+}
+type={
+	type="frame_border_bottom_entity"
+	use_animation=no
+	scale=100.000000
+	always_visible=yes
+	object={
+		name="frame_border_bottom_entity_bottom"
+		position={
+			0.000 0.000 -140.000 
+		}
+		rotation={
+			0.000 0.000 0.000 
+		}
+	}
+}
+type={
+	type="frame_border_logo_entity"
+	use_animation=no
+	scale=300.000000
+	always_visible=yes
+	object={
+		name="frame_border_logo_entity_top"
+		position={
+			3000.000 0.000 2130.000 
+		}
+		rotation={
+			0.000 0.000 0.000 
+		}
+	}
+}
+type={
+	type="vejle_wave_entity"
+	use_animation=no
+	scale=125.000000
+	always_visible=yes
+	object={
+		name="vejle_wave_entity"
+		position={
+			2959.610 10.000 1641.340 
+		}
+		rotation={
+			0.000 -20.000 0.000 
+		}
+	}
+}
+type={
+	type="brandenburger_tor_entity"
+	use_animation=no
+	scale=0.150000
+	always_visible=yes
+	object={
+		name="brandenburger_tor_entity"
+		position={
+			3009.830 9.900 1569.740 
+		}
+		rotation={
+			0.000 40.000 0.000 
+		}
+	}
+}
+type={
+	type="eiffel_tower_entity"
+	use_animation=no
+	scale=0.200000
+	always_visible=yes
+	object={
+		name="eiffel_tower_entity"
+		position={
+			2838.100 9.900 1491.690 
+		}
+		rotation={
+			0.000 40.000 0.000 
+		}
+	}
+}
+type={
+	type="parliement_london_entity"
+	use_animation=no
+	scale=0.200000
+	always_visible=yes
+}
+type={
+	type="parliament_london_entity"
+	use_animation=no
+	scale=0.150000
+	always_visible=yes
+	object={
+		name="eiffel_tower_entity"
+		position={
+			2794.940 9.900 1561.650 
+		}
+		rotation={
+			0.000 -90.000 0.000 
+		}
+	}
+}
+type={
+	type="statue_of_liberty_entity"
+	use_animation=no
+	scale=0.100000
+	always_visible=yes
+	object={
+		name="statue_of_liberty_entity"
+		position={
+			1648.860 9.400 1553.330 
+		}
+		rotation={
+			0.000 -90.000 0.000 
+		}
+	}
+}
+type={
+	type="un_hq_entity"
+	use_animation=no
+	scale=0.100000
+	always_visible=yes
+	object={
+		name="statue_of_liberty_entity"
+		position={
+			1650.040 9.700 1559.540 
+		}
+		rotation={
+			0.000 -35.000 0.000 
+		}
+	}
+}
