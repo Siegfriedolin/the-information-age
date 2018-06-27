@@ -1,3 +1,4 @@
+
 state={
 	id=821
 	name="STATE_821"
@@ -8,14 +9,15 @@ state={
 		buildings = {
 			infrastructure = 3
 			air_base = 2
+
 		}
 
 	}
 
 	provinces={
-		1573 7639 10671 12239 12722 7775 1623 10470 
+		1573 7639 10671 12239 12722 
 	}
 	manpower=4400000
 	buildings_max_level_factor=1.000
-	state_category = state_level_2
+	state_category=state_level_2
 }

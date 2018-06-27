@@ -2,22 +2,31 @@
 state={
 	id=65
 	name="STATE_65"
-	
-	resources = {
-		steel = 6
+	resources={
+		steel=6.000
 	}
-	
+
 	history={
 		owner = GER
 		buildings = {
 			infrastructure = 7
 			industrial_complex = 2
 			air_base = 2
+
 		}
-		victory_points = { 514 10 }		#Dresden
-		victory_points = { 3535 5 }		#Leipzig
-		victory_points = { 9471 3 }		#Chemnitz
-		victory_points = { 9441 2 }		#Zwickau
+		victory_points = {
+			514 10 
+		}
+		victory_points = {
+			3535 5 
+		}
+		victory_points = {
+			9471 3 
+		}
+		victory_points = {
+			9441 2 
+		}
+
 	}
 
 	provinces={
@@ -25,5 +34,5 @@ state={
 	}
 	manpower=4084000
 	buildings_max_level_factor=1.000
-	state_category = state_level_10
+	state_category=state_level_10
 }
