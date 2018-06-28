@@ -104,25 +104,6 @@ add_ideas = {
 	idea_eu_member
 }
 
-set_politics = { ruling_party = social_democrat }
-if = {
-	limit = {
-		has_dlc = "Together for Victory"
-	}
-	set_autonomy = {
-		target = FAI
-		autonomous_state = autonomy_dominion
-	}
-	set_autonomy = {
-		target = GRN
-		autonomous_state = autonomy_dominion
-	}
-	else = {
-		puppet = FAI
-		puppet = GRN
-	}
-}
-
 set_politics = {
 
 	parties = {
@@ -132,7 +113,10 @@ set_politics = {
 		progressive = { popularity = 5.8 }				
 		reactionary = { popularity = 22.1 }				
 		social_liberal = { popularity = 8.5 }			
-		democratic_socialist = { popularity = 8.8 }		         	
+		democratic_socialist = { popularity = 8.8 }
+        islamist = { popularity = 0.0 }
+        nationalist = { popularity = 0.0 }
+        fascist = { popularity = 0.0 }			
 	}
 	
 	ruling_party = market_liberal

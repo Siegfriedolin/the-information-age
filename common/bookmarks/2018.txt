@@ -45,6 +45,7 @@ bookmarks = {
 			ideology = conservative
 			ideas = {
 				idea_eu_member
+				the_euro
 				idea_united_nations_security_council_member
 			}
 		}
@@ -54,6 +55,7 @@ bookmarks = {
 			ideas = {
 				idea_GER_german_legacy
 				idea_eu_member
+				the_euro
 				GER_bundeswehr_shortcomings
 			}
 		}
@@ -91,10 +93,32 @@ bookmarks = {
 			}
 		}
 		
+		"ITA"={
+		    minor = yes
+			history = "ITA_INFORMATION_AGE_DESC"
+			ideology = social_democrat
+			ideas = {
+			    idea_eu_member
+				the_euro
+	            ITA_mafia
+	            ITA_corruption
+			}
+		}
+		
 		"SWE"={
 		    minor = yes
 			history = "SWE_INFORMATION_AGE_DESC"
 			ideology = social_democrat
+			ideas = {
+			    idea_eu_member
+	            neutrality_idea
+			}
+		}
+		
+		"DEN"={
+		    minor = yes
+			history = "DEN_INFORMATION_AGE_DESC"
+			ideology = market_liberal
 			ideas = {
 			    idea_eu_member
 	            neutrality_idea

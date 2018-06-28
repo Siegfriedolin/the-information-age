@@ -1,6 +1,6 @@
 ﻿capital = 101
 
-oob = "GRN_2000"
+oob = "GRN_2018"
 
 set_research_slots = 2
 set_convoys = 10
@@ -112,21 +112,13 @@ set_politics = {
 	}
 	
 	ruling_party = social_democrat
-	last_election = "1997.1.1"
+	last_election = "2014.11.28"
 	election_frequency = 48
 	elections_allowed = yes
 }
 
 create_country_leader = {
-	name = "Jonathan Motzfeldt"
-	picture = "Jonathan_Motzfeldt.dds"
+	name = "Kim Kielsen"
+	picture = "Kim_Kielsen.dds"
 	ideology = social_democrat_ideology
-}
-
-2016.1.1 = {
-	create_country_leader = {
-		name = "Kim Kielsen"
-		picture = "Kim_Kielsen.dds"
-		ideology = social_democrat_ideology
-	}
 }

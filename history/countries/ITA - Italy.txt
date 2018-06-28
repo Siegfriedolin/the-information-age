@@ -1,6 +1,6 @@
 ﻿capital = 2
 
-oob = "ITA_2000"
+oob = "ITA_2018"
 
 set_research_slots = 4
 set_convoys = 600
@@ -104,26 +104,49 @@ give_guarantee = MLT
 add_ideas = {
 	population_growth_stagnation
 	idea_eu_member
+	the_euro
 	ITA_mafia
 	ITA_corruption
 }
 
 set_politics = {
 	parties = {
-		islamist = { popularity = 0 }
-		fascist = { popularity = 2 }
-		nationalist = { popularity = 0 }
-		reactionary = { popularity = 5 }
-		conservative = { popularity = 37 }
-		market_liberal = { popularity = 2 }
-		social_liberal = { popularity = 5 }
-		social_democrat = { popularity = 38 }
-		progressive = { popularity = 2 }
-		democratic_socialist = { popularity = 2 }
-		communist = { popularity = 7 }
+		islamist = {
+			popularity = 0
+		}
+		fascist = {
+			popularity = 0
+		}
+		nationalist = {
+			popularity = 1
+		}
+		reactionary = {
+			popularity = 27
+		}
+		conservative = {
+			popularity = 30
+		}
+		monarchist = {
+			popularity = 1
+		}
+		social_liberal = {
+			popularity = 10
+		}
+		social_democrat = {
+			popularity = 32
+		}
+		progressive = {
+			popularity = 0
+		}
+		democratic_socialist = {
+			popularity = 0
+		}
+		communist = {
+			popularity = 1
+		}
 	}
 	ruling_party = social_democrat
-	last_election = "1996.4.21"
+	last_election = "2013.2.25"
 	election_frequency = 60
 	elections_allowed = yes
 }
@@ -136,15 +159,15 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Massimo D'Alema"
-	picture = "Massimo_dAlema.dds"
+	name = "Paolo Gentinoli"
+	picture = "Paolo_Gentiloni.dds"
 	ideology = social_democrat_ideology
 }
 
 create_country_leader = {
-	name = "Gianfranco Fini"
-	picture = "Gianfranco_Fini.dds"
-	ideology = national_democrat
+	name = "Giorgia Meloni"
+	picture = "Giorgia_Meloni.dds"
+	ideology = proto_fascist
 }
 
 create_country_leader = {
@@ -154,20 +177,20 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Pierluigi Castagnetti"
-	picture = "Pierluigi_Castagnetti.dds"
-	ideology = moderate
+	name = "Angelino Alfano"
+	picture = "Angelino_Aldano.dds"
+	ideology = liberalist
 }
 
 create_country_leader = {
-	name = "Franco Corleone"
-	picture = "Franco_Corleone.dds"
+	name = "Angelo Bonelli"
+	picture = "Angelo_Bonelli.dds"
 	ideology = green
 }
 
 create_country_leader = {
-	name = "Pino Rauti"
-	picture = "Pino_Rauti.dds"
+	name = "Simone di Stefano"
+	picture = "Simone_di_Stefano.dds"
 	ideology = fascist_ideology
 }
 
@@ -184,14 +207,14 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Umberto Bossi"
-	picture = "Umberto_Bossi.dds"
+	name = "Beppe Grillo"
+	picture = "Beppe_Grillo.dds"
 	ideology = counter_progressive_democrat
 }
 
 create_country_leader = {
-	name = "Francesco Rutelli"
-	picture = "Francesco_Rutelli.dds"
+	name = "Nichi Vendola"
+	picture = "Nichi_Vendola.dds"
 	ideology = democratic_socialist_ideology
 }
 
@@ -658,152 +681,3 @@ create_navy_leader = {
 	skill = 1
 }
 
-2001.1.1 = {
-	complete_national_focus = ITA_diplomatic_focus
-	complete_national_focus = ITA_strenghten_ties_with_west
-	complete_national_focus = ITA_befriend_america
-	complete_national_focus = ITA_befriend_europeans
-	
-	complete_national_focus = ITA_industrial_focus
-	complete_national_focus = ITA_north_italian_dev
-	complete_national_focus = ITA_south_italian_dev
-	complete_national_focus = ITA_islands_dev
-	complete_national_focus = ITA_north_infrastructure
-	
-	complete_national_focus = ITA_ideology_focus
-	complete_national_focus = ITA_what_we_are
-	
-	complete_national_focus = ITA_military_focus
-	complete_national_focus = ITA_army_focus
-	complete_national_focus = ITA_navy_focus
-	complete_national_focus = ITA_air_focus
-}
-
-2002.1.1 = {
-	add_ideas = the_euro
-}
-
-2012.1.1 = {
-	set_party_name = {
-		ideology = democratic_socialist
-		long_name = ITA_democratic_socialist_party_SEL_long
-		name = ITA_democratic_socialist_party_SEL
-	}
-	set_party_name = {
-		ideology = social_liberal
-		long_name = ITA_social_liberal_party_NCD_long
-		name = ITA_social_liberal_party_NCD
-	}
-	set_party_name = {
-		ideology = reactionary
-		long_name = ITA_reactionary_party_M5S_long
-		name = ITA_reactionary_party_M5S
-	}
-	set_party_name = {
-		ideology = social_democrat
-		long_name = ITA_social_democrat_party_PD_long
-		name = ITA_social_democrat_party_PD
-	}
-	set_party_name = {
-		ideology = communist
-		long_name = ITA_communist_party_PCI_long
-		name = ITA_communist_party_PCI
-	}
-	set_party_name = {
-		ideology = nationalist
-		long_name = ITA_nationalist_party_FDI_long
-		name = ITA_nationalist_party_FDI
-	}
-}
-
-2013.2.24 = {
-	
-	set_politics = {
-
-		parties = {
-			islamist = {
-				popularity = 0
-			}
-			fascist = {
-				popularity = 0
-			}
-			nationalist = {
-				popularity = 1
-			}
-			reactionary = {
-				popularity = 27
-			}
-			conservative = {
-				popularity = 30
-			}
-			monarchist = {
-				popularity = 1
-			}
-			social_liberal = {
-				popularity = 10
-			}
-			social_democrat = {
-				popularity = 32
-			}
-			progressive = {
-				popularity = 0
-			}
-			democratic_socialist = {
-				popularity = 0
-			}
-			communist = {
-				popularity = 1
-			}
-		}
-		
-		ruling_party = social_democrat
-		last_election = "2013.2.24"
-		election_frequency = 60
-		elections_allowed = yes
-	}
-	
-	create_country_leader = {                    #Leader of NCD
-		name = "Angelino Alfano"
-		picture = "Angelino_Aldano.dds"
-		ideology = liberalist
-	}
-
-	create_country_leader = {
-		name = "Beppe Grillo"
-		picture = "Beppe_Grillo.dds"
-		ideology = counter_progressive_democrat
-	}
-	
-	create_country_leader = {
-		name = "Nichi Vendola"
-		picture = "Nichi_Vendola.dds"
-		ideology = democratic_socialist_ideology
-	}
-	    
-	create_country_leader = {
-	    name = "Giorgia Meloni"
-	    picture = "Giorgia_Meloni.dds"
-	    ideology = proto_fascist
-    }
-
-	create_country_leader = {
-		name = "Angelo Bonelli"
-		picture = "Angelo_Bonelli.dds"
-		ideology = green
-	}
-	
-	create_country_leader = {
-		name = "Simone di Stefano"
-		picture = "Simone_di_Stefano.dds"
-		ideology = fascist_ideology
-	}
-	
-}
-
-2014.1.1 = {
-	create_country_leader = {
-		name = "Paolo Gentinoli"
-		picture = "Paolo-Gentiloni.dds"
-		ideology = social_democrat_ideology
-	}
-}
