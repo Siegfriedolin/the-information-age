@@ -365,8 +365,12 @@ UKR = {
 	color_ui = rgb { 255 173 0 }
 }
 KOS = {
-	color = rgb { 0 0 240 }
-	color_ui = rgb { 0 0 240 }
+	color = rgb { 57 116 211 }
+	color_ui = rgb { 57 116 211 }
+}
+NCY = {
+	color = rgb { 249 19 19 }
+	color_ui = rgb { 249 19 19 }
 }
 MNT = {
 	color = rgb { 211 174 59 }
@@ -565,12 +569,12 @@ MAU = {
 	color_ui = rgb { 200 180 90 }
 }
 ABK = {
-	color = rgb { 0 240 10 }
-	color_ui = rgb { 0 230 5 }
+	color = rgb { 0 204 2 }
+	color_ui = rgb { 0 204 2 }
 }
 SOS = {
-	color = rgb { 160 190 0 }
-	color_ui = rgb { 150 180 0 }
+	color = rgb { 255 204 2 }
+	color_ui = rgb { 255 204 2 }
 }
 GEO = {
 	color = rgb { 255 236 236 }
@@ -600,7 +604,7 @@ LAO = {
 	color = rgb { 130 160 250 }
 	color_ui = rgb { 120 150 240 }
 }
-CAM = {
+CMB = {
 	color = rgb { 0 122 94 }
 	color_ui = rgb { 80 130 30 }
 }
@@ -725,8 +729,8 @@ SML = {
 	color_ui = rgb { 0 200 50 }
 }
 BAH = {
-	color = rgb { 0 171 201 }
-	color_ui = rgb { 20 120 190 }
+	color = rgb { 71  81  57 }
+	color_ui = rgb { 71  81  57 }
 }
 KUW = {
 	color = rgb { 206 17 38 }

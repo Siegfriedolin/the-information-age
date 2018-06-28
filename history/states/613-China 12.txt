@@ -25,26 +25,15 @@ state={
 
 		}
 		victory_points = {
-			11913 20 
-		}
-		victory_points = {
 			7014 50 
-		}
-		2016.1.1 = {
-			buildings = {
-				industrial_complex = 9
-				arms_factory = 3
-
-			}
-
 		}
 
 	}
 
 	provinces={
-		996 7014 7120 10034 10076 11982 12052 12076 13142 
+		7014 10034 12052 12076 
 	}
-	manpower=24152700
+	manpower=24183300
 	buildings_max_level_factor=1.000
 	state_category=state_level_20
 }

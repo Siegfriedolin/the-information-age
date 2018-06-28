@@ -1,6 +1,6 @@
 ﻿capital = 785
 
-oob = "KOS_2016"
+oob = "KOS_2018"
 
 set_research_slots = 3
 set_convoys = 10
@@ -102,13 +102,69 @@ set_politics = {
 		communist = { popularity = 5 }
 	}
 	ruling_party = social_democrat
-	last_election = "1997.1.1"
+	last_election = "2017.6.11"
 	election_frequency = 48
 	elections_allowed = yes
 }
 
 create_country_leader = {
-	name = "Atifete Jahjaga"
-	ideology = social_democrat_ideology
-	picture = "Atifete_Jahjaga.dds"
+	name = "Hashim Thaçi"
+	picture = "Hashim_Thaci.dds"
+	ideology = fiscal_conservative
+}
+
+create_field_marshal = {
+	name = "Rrahman Rama"
+	picture = "Portrait_Rrahman_Rama.dds"
+	traits = { organisational_leader }
+	skill = 1
+}
+
+create_field_marshal = {
+	name = "Sylejman Selimi"
+	picture = "Portrait_Sylejman_Selimi.dds"
+	traits = { inspirational_leader }
+	skill = 1
+}
+
+create_corps_commander = {
+	name = "Kadri Kastrati"
+	picture = "Portrait_Kadri_Kastrati.dds"
+	traits = { trickster }
+	skill = 1
+}
+
+create_corps_commander = {
+	name = "Bashkim Jashari"
+	picture = "Portrait_Bashkim_Jashari.dds"
+	traits = { fortress_buster }
+	skill = 1
+}
+
+create_corps_commander = {
+	name = "Nazmi Brahimaj"
+	picture = "Portrait_Nazmi_Brahimaj.dds"
+	traits = { commando }
+	skill = 1
+}
+
+create_corps_commander = {
+	name = "Zymer Halimi"
+	picture = "Portrait_Zymer_Halimi.dds"
+	traits = { ranger }
+	skill = 1
+}
+
+create_corps_commander = {
+	name = "Imri Ilazi"
+	picture = "Portrait_Imri_Ilazi.dds"
+	traits = { trait_engineer }
+	skill = 1
+}
+
+create_corps_commander = {
+	name = "Enver Cikaqi"
+	picture = "Portrait_Enver_Cikaqi.dds"
+	traits = { panzer_leader }
+	skill = 1
 }
