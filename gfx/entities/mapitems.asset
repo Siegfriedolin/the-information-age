@@ -77,3 +77,8 @@ entity = {
 	name = "un_hq_entity"
 	pdxmesh = "un_hq_mesh"
 }
+
+entity = {
+	name = "golden_gate_entity"
+	pdxmesh = "golden_gate_mesh"
+}
