@@ -196,7 +196,7 @@ type={
 	object={
 		name="vejle_wave_entity"
 		position={
-			2959.610 10.000 1641.340 
+			2956.840 10.000 1639.750 
 		}
 		rotation={
 			0.000 -20.000 0.000 
