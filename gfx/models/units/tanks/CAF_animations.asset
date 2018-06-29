@@ -1,0 +1,93 @@
+
+##########################
+# AMX 12 (FRA_light_armor_2)
+##########################
+animation = {
+	name = "CAF_FRA_light_armor_2_idle_animation"
+	file = "CAF_FRA_light_armor_2_idle.anim"
+}
+
+animation = {
+	name = "CAF_FRA_light_armor_2_moving_animation"
+	file = "CAF_FRA_light_armor_2_moving.anim"
+}
+
+animation = {
+	name = "CAF_FRA_light_armor_2_attack_animation"
+	file = "CAF_FRA_light_armor_2_attack.anim"
+}
+
+
+##########################
+# AMX 50t (FRA_modern_armor)
+##########################
+animation = {
+	name = "CAF_FRA_modern_armor_idle_animation"
+	file = "CAF_FRA_modern_armor_idle.anim"
+}
+
+animation = {
+	name = "CAF_FRA_modern_armor_moving_animation"
+	file = "CAF_FRA_modern_armor_moving.anim"
+}
+
+animation = {
+	name = "CAF_FRA_modern_armor_attack_animation"
+	file = "CAF_FRA_modern_armor_attack.anim"
+}
+
+
+
+##########################
+# IS-7 (SOV_super_heavy_armor)
+##########################
+animation = {
+	name = "CAF_SOV_super_heavy_armor_idle_animation"
+	file = "CAF_SOV_super_heavy_armor_idle.anim"
+}
+
+animation = {
+	name = "CAF_SOV_super_heavy_armor_moving_animation"
+	file = "CAF_SOV_super_heavy_armor_moving.anim"
+}
+
+animation = {
+	name = "CAF_SOV_super_heavy_armor_attack_animation"
+	file = "CAF_SOV_super_heavy_armor_attack.anim"
+}
+
+##########################
+# T-54 (SOV_modern_armor)
+##########################
+animation = {
+	name = "CAF_SOV_modern_armor_idle_animation"
+	file = "CAF_SOV_modern_armor_idle.anim"
+}
+
+animation = {
+	name = "CAF_SOV_modern_armor_moving_animation"
+	file = "CAF_SOV_modern_armor_moving.anim"
+}
+
+animation = {
+	name = "CAF_SOV_modern_armor_attack_animation"
+	file = "CAF_SOV_modern_armor_attack.anim"
+}
+
+##########################
+# Centurion (ENG_modern_armor)
+##########################
+animation = {
+	name = "CAF_ENG_modern_armor_idle_animation"
+	file = "CAF_ENG_modern_armor_idle.anim"
+}
+
+animation = {
+	name = "CAF_ENG_modern_armor_moving_animation"
+	file = "CAF_ENG_modern_armor_moving.anim"
+}
+
+animation = {
+	name = "CAF_ENG_modern_armor_attack_animation"
+	file = "CAF_ENG_modern_armor_attack.anim"
+}
