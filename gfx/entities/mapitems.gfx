@@ -93,6 +93,19 @@ objectTypes = {
 		scale = 1.000
 		cull_distance = 99999.0
 	}
-	
+
+		pdxmesh = {
+		name = "trade_center_mesh"
+		file = "gfx/models/buildings/trade_center.mesh"		
+		scale = 1.000
+		cull_distance = 99999.0
+	}	
+
+		pdxmesh = {
+		name = "skyscraper_low_01_mesh"
+		file = "gfx/models/buildings/skyscraper_low_01.mesh"		
+		scale = 1.000
+		cull_distance = 99999.0
+	}	
 }
 

@@ -82,3 +82,13 @@ entity = {
 	name = "golden_gate_entity"
 	pdxmesh = "golden_gate_mesh"
 }
+
+entity = {
+	name = "trade_center_entity"
+	pdxmesh = "trade_center_mesh"
+}
+
+entity = {
+	name = "skyscraper_low_01_entity"
+	pdxmesh = "skyscraper_low_01_mesh"
+}

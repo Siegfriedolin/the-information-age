@@ -270,17 +270,17 @@ type={
 	}
 }
 type={
-	type="un_hq_entity"
+	type="trade_center_entity"
 	use_animation=no
-	scale=0.100000
+	scale=0.200000
 	always_visible=yes
 	object={
-		name="statue_of_liberty_entity"
+		name="trade_center_entity"
 		position={
-			1653.820 9.700 1557.370 
+			1654.380 9.700 1555.650 
 		}
 		rotation={
-			0.000 -35.000 0.000 
+			0.000 50.000 0.000 
 		}
 	}
 }
