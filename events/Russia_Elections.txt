@@ -1,70 +1,49 @@
 ﻿add_namespace = election_SOV
 
-#Russian Election of 2000
+#2018
 country_event = {
 	id = election_SOV.1
 	title = election_SOV.1.t
 	desc = election_SOV.1.d
-	picture = GFX_report_event_vladimir_putin_young
+	picture = GFX_report_event_russiaelections
 	
 	is_triggered_only = yes
 	
 	trigger = {
-		original_tag = SOV
-		date > 2000.3.1
-		date < 2001.1.1
-		NOT = { has_country_flag = russia_election_2000 }
-	}
-	
-	immediate = {
-		set_country_flag = russia_election_2000
+	    original_tag = SOV
+		date > 2018.1.1
+		date < 2019.1.1
 	}
 	
 	option = {
 		name = election_SOV.1.o1
-		
+		set_country_flag = russia_elections_2018
 		set_politics = {
 			ruling_party = reactionary
 			elections_allowed = yes
-		}
-		effect_tooltip = {
-			create_country_leader = {
-				name = "Vladimir Putin"
-				picture = "Vladimir_Putin.dds"
-				ideology = oligarchist
-				traits = {
-					popular_figurehead
-				}
+		}		
+		news_event = russia_news.5
+		add_popularity = { ideology = reactionary popularity = 0.05 }
+		ai_chance = { 
+			factor = 70
+			modifier = {
+				is_historical_focus_on = yes
+				factor = 200
 			}
 		}
-		
-		news_event = russia_news.1
-		
-		ai_chance = {
-			base = 70
-		}
-	}
+    }
 	
 	option = {
 		name = election_SOV.1.o2
+		set_country_flag = russia_elections_2018
 		set_politics = {
-			ruling_party = nationalist
+			ruling_party = communist
 			elections_allowed = yes
 		}
-		
-		effect_tooltip = {
-			create_country_leader = {
-				name = "Vladimir Zhirinovsky"
-				picture = "Vladimir_Zhirinovsky.dds"
-				ideology = proto_fascist
-			}
-		}
-		
-		news_event = russia_news.2
-		add_popularity = { ideology = nationalist popularity = 0.15 }
-		
-		ai_chance = {
-			base = 10
+		news_event = russia_news.6
+		add_popularity = { ideology = communist popularity = 0.15 }
+		ai_chance = { 
+			factor = 15
 			modifier = {
 				is_historical_focus_on = yes
 				factor = 0
@@ -74,24 +53,15 @@ country_event = {
 	
 	option = {
 		name = election_SOV.1.o3
+		set_country_flag = russia_elections_2018
 		set_politics = {
-			ruling_party = communist
+			ruling_party = nationalist
 			elections_allowed = yes
 		}
-		
-		effect_tooltip = {
-			create_country_leader = {
-				name = "Gennady Zyuganov"
-				picture = "Gennady_Zyuganov.dds"
-				ideology = stalinist
-			}
-		}
-		
-		news_event = russia_news.3
-		add_popularity = { ideology = communist popularity = 0.15 }
-		
-		ai_chance = {
-			base = 10
+		news_event = russia_news.7
+		add_popularity = { ideology = nationalist popularity = 0.15 }
+		ai_chance = { 
+			factor = 10
 			modifier = {
 				is_historical_focus_on = yes
 				factor = 0
@@ -101,24 +71,15 @@ country_event = {
 	
 	option = {
 		name = election_SOV.1.o4
+		set_country_flag = russia_elections_2018
 		set_politics = {
 			ruling_party = social_liberal
 			elections_allowed = yes
 		}
-		
-		effect_tooltip = {
-			create_country_leader = {
-				name = "Grigory Yavlinski"
-				picture = "Grigory_Yavlinski.dds"
-				ideology = liberalist
-			}
-		}
-		
 		news_event = russia_news.4
 		add_popularity = { ideology = social_liberal popularity = 0.15 }
-		
-		ai_chance = {
-			base = 10
+		ai_chance = { 
+			factor = 5
 			modifier = {
 				is_historical_focus_on = yes
 				factor = 0
@@ -126,81 +87,3 @@ country_event = {
 		}
 	}
 }
-
-country_event = {
-	id = election_SOV.2
-	title = election_SOV.2.t
-	desc = election_SOV.2.d
-	picture = GFX_report_event_russiaelections
-	
-	is_triggered_only = yes
-	
-	option = {
-		name = election_SOV.2.o1
-		set_politics = {
-			ruling_party = reactionary
-			elections_allowed = no
-		}		
-		every_country = {
-		news_event = russia_news.5
-		}
-		add_popularity = { ideology = reactionary popularity = 0.05 }
-		
-		ai_chance = {
-			base = 70
-		}
-    }
-	
-	option = {
-		name = election_SOV.2.o2
-		set_politics = {
-			ruling_party = communist
-			elections_allowed = yes
-		}
-		
-        every_country = {
-		news_event = russia_news.6
-		}
-		add_popularity = { ideology = communist popularity = 0.15 }
-		
-		ai_chance = {
-			base = 15
-		}
-	}
-	
-	option = {
-		name = election_SOV.2.o3
-		set_politics = {
-			ruling_party = nationalist
-			elections_allowed = yes
-		}
-		
-        every_country = {
-		news_event = russia_news.7
-		}
-		add_popularity = { ideology = nationalist popularity = 0.15 }
-		
-		ai_chance = {
-			base = 10
-		}
-	}
-	
-	option = {
-		name = election_SOV.2.o4
-		set_politics = {
-			ruling_party = social_liberal
-			elections_allowed = yes
-		}
-		
-		
-        every_country = {
-		news_event = russia_news.4
-		}
-		add_popularity = { ideology = social_liberal popularity = 0.15 }
-		
-		ai_chance = {
-			base = 5
-		}
-	}
-	
-	}

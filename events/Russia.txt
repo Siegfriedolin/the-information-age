@@ -304,18 +304,3 @@ country_event = {
 		news_event = russia_news.8 }
 			}
 		}
-		
-country_event = {
-	id = russia.13
-	title = russia.13.t
-	desc = russia.13.d
-	picture = GFX_report_event_vladimir_putin_old
-	
-	is_triggered_only = yes
-	
-	option = {
-		name = russia.13.o1
-		set_country_flag = russia_elections
-		SOV = { news_event = election_SOV.2 }
-			}
-		}

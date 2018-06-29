@@ -42,7 +42,7 @@ focus_tree = {
 		}
 		}
 		bypass = {
-	    SOV = { has_country_flag = russia_elections } }
+	    SOV = { has_country_flag = russia_elections_2018 } }
 		completion_reward = {
 	    add_stability = -0.02
 		add_political_power = 50
@@ -1473,7 +1473,7 @@ focus_tree = {
 		completion_reward = {
 		UKR = { add_opinion_modifier = { target = SOV modifier = recent_actions_negative } }
 		UKR = { country_event = russia.12 }
-		
+		add_named_threat = { threat = 10 name = "Airstrikes on Ukraine" }
 		}
 		
 		ai_will_do = {
@@ -1501,7 +1501,7 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-		UKR = { country_event = ukraine.1 }
+		    UKR = { country_event = ukraine.1 }
 		}
 		
 		ai_will_do = {

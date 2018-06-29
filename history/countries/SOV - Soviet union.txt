@@ -124,7 +124,7 @@ create_equipment_variant = { name = "Tu-22M3" type = jet_bomber_equipment_1 upgr
 add_ideas = {
 	population_growth_stagnation
 	idea_united_nations_security_council_member
-        SOV_rouble_crisis
+    SOV_rouble_crisis
         idea_SOV_defender_of_orthotox
 	SOV_corrupt_oligarchy
 	idea_eu_sanctions
@@ -161,8 +161,8 @@ set_politics = {
 	}
 	
 	ruling_party = reactionary
-	last_election = "2011.12.4"
-	election_frequency = 48
+	last_election = "2012.3.18"
+	election_frequency = 72
 	elections_allowed = yes
 }
 
@@ -242,11 +242,6 @@ create_country_leader = {
 	name = "Andrey Savelyev"
 	picture = "Andrey_Savelyev.dds"
 	ideology = national_socialist
-}
-
-add_namespace = {
-	name = "sov_unit_leader"
-	type = unit_leader
 }
 
 create_field_marshal = {
@@ -435,9 +430,6 @@ create_navy_leader = {
 	picture = "admirals/Vladimir_Vysotskiy.dds"
 	skill = 1
 }
-
-
-2000.8.12 = { set_country_flag = sov_kursk_sinking }
 
 2018.1.1 = {
 	add_ai_strategy = {

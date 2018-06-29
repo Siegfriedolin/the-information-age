@@ -141,8 +141,8 @@ CAN = {
 	color_ui = rgb { 155 62 51 }
 }
 CHI = {
-	color = rgb { 220 32 0 } #255 244 190
-	color_ui = rgb { 220 32 0 }
+	color = rgb { 130 81  81 }
+	color_ui = rgb { 130 81 81 }
 }
 CHL = {
 	color = rgb { 213 43 30 }
@@ -296,12 +296,10 @@ CRO = {
 	color = rgb { 23 23 150 }
 	color_ui = rgb { 255 255 122 }
 }
-
 PRC = {
 	color = rgb { 220 32 0 }
 	color_ui = rgb { 220 32 0 }
 }
-
 LBA = {
 	color = rgb { 0 166 81 }
 	color_ui = rgb { 200 180 90 }
@@ -605,8 +603,8 @@ LAO = {
 	color_ui = rgb { 120 150 240 }
 }
 CMB = {
-	color = rgb { 0 122 94 }
-	color_ui = rgb { 80 130 30 }
+	color = rgb { 114 71 53 }
+	color_ui = rgb { 114 71 53 }
 }
 PRK = {
 	color = rgb { 165 0 0 }
