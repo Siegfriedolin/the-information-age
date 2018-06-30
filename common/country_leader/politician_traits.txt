@@ -64,8 +64,8 @@ leader_traits = {
 	
 		max_dig_in = 5
 		army_attack_factor = -0.25
-		army_defence_factor = 0.25
-		ai_focus_defense_factor = 0.5
+		army_defence_factor = 0.30
+		ai_focus_defense_factor = 0.7
 		
 		ai_will_do = { factor = 1 }
 	}

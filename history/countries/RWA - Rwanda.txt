@@ -87,6 +87,7 @@ add_ideas = {
 	african_union_member
 	extensive_conscription
 	non_aligned_movement_member
+	neutrality_idea
 }
 
 set_politics = {

@@ -46,8 +46,10 @@ on_actions = {
 	on_wargoal_expire = {
 	}
 
-	#FROM is state #ROOT is broken as hell
 	on_nuke_drop = {
+		random_events = {
+			10000 = nuke_dropped.100
+		}
 	}
 
 	on_border_war_lost = {

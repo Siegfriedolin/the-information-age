@@ -1,1 +1,129 @@
-﻿
+#######################################
+# Nuclear Bomb Events Written by swf541
+#######################################
+
+add_namespace = nuke_dropped
+
+news_event = {
+	id = nuke_dropped.100
+
+	major = yes
+
+	is_triggered_only = yes
+
+	hidden = yes
+
+
+	immediate = {
+			ROOT = {
+				set_state_category = wasteland 		
+                add_named_threat = { threat = 15 name = "Nuclear Attack" }				
+			}
+			every_enemy_country = {
+				limit = { owns_state = FROM }
+				add_stability = -5
+			}
+			FROM = {
+			    set_state_category = wasteland 	
+				remove_building = { type = arms_factory level = 10 }
+				remove_building = { type = industrial_complex level = 10 }
+				remove_building = { type = air_base level = 10 }
+				remove_building = { type = infrastructure level = 10 }
+				remove_building = { type = industrial_complex level = 10 }
+				remove_building = { type = arms_factory level = 10 }
+			}
+		if = {
+			limit = {
+				
+				FROM = { 
+					state_population > 50000
+					NOT = { state_population > 100000 }
+				}				
+			}
+			FROM = {
+				add_manpower = -10000
+				
+				
+			}
+			break = yes
+		}
+		if = {
+			limit = {
+				
+				FROM = { 
+					state_population > 100000
+					NOT = { state_population > 500000 }
+				}				
+			}
+			FROM = {
+				add_manpower = -75000
+				
+				
+			}
+			break = yes
+		}
+		if = {
+			limit = {
+				
+				FROM = { 
+					state_population > 1000000
+					NOT = { state_population > 2000000 }
+				}				
+			}
+			FROM = {
+				add_manpower = -500000
+				
+				
+			}
+			break = yes
+		}
+		if = {
+			limit = {
+				
+				FROM = { 
+					state_population > 2000000
+					NOT = { state_population > 5000000 }
+				}				
+			}
+			FROM = {
+				add_manpower = -1000000
+				
+				
+			}
+			break = yes
+		}
+		if = {
+			limit = {
+				
+				FROM = { 
+					state_population > 5000000
+					NOT = { state_population > 10000000 }
+				}				
+			}
+			FROM = {
+				add_manpower = -5000000
+				
+				
+			}
+			break = yes
+		}
+		if = {
+			limit = {
+				
+				FROM = { 
+					state_population > 10000000
+				}		
+			}
+			FROM = {
+				add_manpower = -30000000
+				
+				
+			}
+			break = yes
+		}
+	}
+	
+	option = {
+		# name = dummy_nuke_option
+	}
+}

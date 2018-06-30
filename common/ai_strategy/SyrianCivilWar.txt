@@ -179,9 +179,12 @@ fsa_supporter_strategy = {
     } 
 }
 
-nam_scw_strategy = {
+neutral_scw_strategy = {
     enable = {
-	    has_idea = non_aligned_movement_member
+	    OR = {
+	        has_idea = non_aligned_movement_member
+			has_idea = neutrality_idea
+		}
     }
 	abort = {
 	    has_global_flag = syrian_civil_war_over

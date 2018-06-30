@@ -90,6 +90,7 @@ set_technology = {
 add_ideas = {
 	population_growth_steady
 	disarmed_nation
+	neutrality_idea
 }
 
 set_politics = {

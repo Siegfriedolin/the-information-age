@@ -93,6 +93,7 @@ set_technology = {
 
 add_ideas = {
 	idea_eu_member
+	neutrality_idea
 }
 
 add_ideas = {

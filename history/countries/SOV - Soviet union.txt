@@ -245,12 +245,6 @@ create_country_leader = {
 }
 
 create_field_marshal = {
-	name = "Igor Sergeyev"
-	picture = "generals/Igor_Sergeyev.dds"
-	skill = 1
-	traits = { old_guard defensive_doctrine }
-}
-create_field_marshal = {
 	name = "Valery Gerasimov"
 	picture = "generals/Valery_Gerasimov.dds"
 	skill = 1

@@ -11,6 +11,7 @@ state={
 		owner = DEN
 		victory_points = { 6364 3 } #Aarhus
 		victory_points = { 6235 1 } #Aalborg
+		victory_points = { 3277 1 } #Vejle
 		victory_points = { 399 1 } #Esbjerg
 		buildings = {
 			infrastructure = 9
