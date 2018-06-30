@@ -1,15 +1,19 @@
+
 state={
 	id=966
 	name="STATE_966"
+
 	history={
 		owner = SYR
 		add_core_of = SYR
 		add_core_of = FSA
 		add_core_of = HTS
 		add_core_of = ISS
+
 	}
+
 	provinces={
-		12316 13314 
+		12316 13307 13312 13314 
 	}
 	manpower=1238
 	buildings_max_level_factor=1.000

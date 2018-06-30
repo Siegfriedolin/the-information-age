@@ -2,7 +2,7 @@
 state={
 	id=551
 	name="STATE_551"
-	
+
 	history={
 		owner = SUD
 		add_core_of = SUD
@@ -28,9 +28,9 @@ state={
 	}
 
 	provinces={
-		2003 2046 2088 4961 4963 7925 7989 8105 10743 10745 10784 10902 12725 12796 12806 12826 12836 12862 12881 
+		2003 2046 2088 4963 7925 7989 8105 10743 10745 10784 10902 12725 12796 12806 12826 12862 12881 
 	}
 	manpower=21593507
 	buildings_max_level_factor=1.000
-	state_category = state_level_12
+	state_category=state_level_12
 }
