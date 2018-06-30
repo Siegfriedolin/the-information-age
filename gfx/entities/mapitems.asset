@@ -92,3 +92,25 @@ entity = {
 	name = "skyscraper_low_01_entity"
 	pdxmesh = "skyscraper_low_01_mesh"
 }
+
+#####Cities#####
+
+entity = {
+	name = "city_4_01_entity"
+	pdxmesh = "city_4_01_mesh"
+}
+
+entity = {
+	name = "city_4_02_entity"
+	pdxmesh = "city_4_02_mesh"
+}
+
+entity = {
+	name = "city_4_03_entity"
+	pdxmesh = "city_4_03_mesh"
+}
+
+entity = {
+	name = "city_4_04_entity"
+	pdxmesh = "city_4_04_mesh"
+}

@@ -35,6 +35,30 @@ music = {
 }
 
 music = {
+	name = "No Man Behind"
+	file = "No_Man_Behind.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "Platoons"
+	file = "Platoons.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "Fargone"
+	file = "Fargo.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "Hurt Lockers"
+	file = "Hurt_Locker.ogg"
+	volume = 0.65
+}
+
+music = {
 name = "Seven Nation Army"
 file = "Army.ogg"
 }

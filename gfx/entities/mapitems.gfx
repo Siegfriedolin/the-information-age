@@ -107,5 +107,37 @@ objectTypes = {
 		scale = 1.000
 		cull_distance = 99999.0
 	}	
+	
+	#### cities ####	
+	
+		pdxmesh = {
+		name = "city_4_01_mesh"
+		file = "gfx/models/buildings/vanilla/city_4_01.mesh"		
+		scale = 1.000
+		cull_distance = 99999.0
+	}	
+
+		pdxmesh = {
+		name = "city_4_02_mesh"
+		file = "gfx/models/buildings/vanilla/city_4_02.mesh"		
+		scale = 1.000
+		cull_distance = 99999.0
+	}	
+
+		pdxmesh = {
+		name = "city_4_03_mesh"
+		file = "gfx/models/buildings/vanilla/city_4_03.mesh"		
+		scale = 1.000
+		cull_distance = 99999.0
+	}	
+
+		pdxmesh = {
+		name = "city_4_04_mesh"
+		file = "gfx/models/buildings/vanilla/city_4_04.mesh"		
+		scale = 1.000
+		cull_distance = 99999.0
+	}	
+		
+	
 }
 
