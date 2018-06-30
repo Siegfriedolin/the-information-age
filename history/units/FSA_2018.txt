@@ -50,13 +50,13 @@ units = {
 	}
 	division = {
 		name = "Alliance of Southern Forces"
-		location = 13293
+		location = 13291
 		division_template = "Militia Brigade"
 		start_experience_factor = 0.2
 	}
 	division = {
 		name = "Alwiya al-Furqan"
-		location = 13293
+		location = 13291
 		division_template = "Militia Brigade"
 		start_experience_factor = 0.1
 	}

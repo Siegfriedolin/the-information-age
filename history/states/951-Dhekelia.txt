@@ -2,22 +2,19 @@ state={
 	id=951
 	name="STATE_951"
 	history={
-		owner = FSA
+		owner = ENG
 		victory_points = {
 			13293 1
 		}
 		buildings = {
 			infrastructure = 1
 		}
-		add_core_of = SYR
-		add_core_of = FSA
-		add_core_of = HTS
-		add_core_of = ISS
+		add_core_of = CYP
 	}
 	provinces={
-		13293 
+		13293
 	}
-	manpower=4318
+	manpower=10100
 	buildings_max_level_factor=1.000
 	state_category=state_level_1
 }

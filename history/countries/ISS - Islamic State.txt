@@ -6,7 +6,7 @@ set_research_slots = 1
 set_convoys = 1
 set_stability = 0.2
 
-set_war_support = 0.8
+set_war_support = 1.0
 
 set_country_flag = country_language_arabic
 
@@ -109,6 +109,7 @@ create_country_leader = {
 	name = "Abu Bakr al-Baghdadi"
 	picture = "Abu_Bakr.dds"
 	ideology = salafism
+	traits = { defensive_strategist }
 }
 
 

@@ -1,41 +1,5 @@
 ﻿add_namespace = switzerland_news
 
-#Switzerland joins the United Nations
-news_event = {
-	id = switzerland_news.1
-	title = switzerland_news.1.t
-	desc = switzerland_news.1.d
-	picture = GFX_news_event_switzerland_un
-	
-	is_triggered_only = yes
-	major = yes
-	
-	option = {
-		name = switzerland_news.1.o1
-		
-		trigger = {
-			NOT = { has_idea = partially_recognized_state }
-			NOT = { original_tag = SWI }
-		}
-	}
-	
-	option = {
-		name = switzerland_news.1.o2
-		
-		trigger = {
-			has_idea = partially_recognized_state
-			NOT = { original_tag = SWI }
-		}
-	}
-	
-	option = {
-		name = switzerland_news.1.o3
-		
-		trigger = {
-			original_tag = SWI
-		}
-	}
-}
 
 #The End of Swiss Neutrality
 news_event = {

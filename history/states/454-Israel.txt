@@ -13,6 +13,7 @@ state={
 			arms_factory = 1
 			dockyard = 1
 			air_base = 9
+			nuclear_reactor = 1
 			1065 = {
 				bunker = 2
 				naval_base = 1
