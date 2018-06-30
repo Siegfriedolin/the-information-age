@@ -78,6 +78,17 @@ music = {
 }
 
 music = {
+	song = "Sand Castle"
+	
+	chance = {
+		modifier = {
+			factor = 1
+
+		}		
+	}	
+}
+
+music = {
 	song = "Wars Of Faith"
 	
 	chance = {
