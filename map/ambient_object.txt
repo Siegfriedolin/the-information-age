@@ -299,3 +299,69 @@ type={
 		}
 	}
 }
+type={
+	type="tower_pisa_entity"
+	use_animation=no
+	scale=0.100000
+	always_visible=yes
+	object={
+		name="tower_pisa_entity"
+		position={
+			2968.310 10.000 1390.240 
+		}
+		rotation={
+			0.000 -100.000 0.000 
+		}
+	}
+}
+type={
+	type="pyramids_entity"
+	use_animation=no
+	scale=0.250000
+	always_visible=yes
+	object={
+		name="pyramids_entity"
+		position={
+			3287.980 9.800 1131.640 
+		}
+		rotation={
+			0.000 0.000 0.000 
+		}
+	}
+}
+type={
+	type="phinx_entity"
+	use_animation=no
+	scale=0.250000
+	always_visible=yes
+}
+type={
+	type="sphinx_entity"
+	use_animation=no
+	scale=0.150000
+	always_visible=yes
+	object={
+		name="sphinx_entity"
+		position={
+			3290.880 9.800 1133.320 
+		}
+		rotation={
+			0.000 0.000 0.000 
+		}
+	}
+}
+type={
+	type="basil_cathedral_entity"
+	use_animation=no
+	scale=0.250000
+	always_visible=yes
+	object={
+		name="basil_cathedral_entity"
+		position={
+			3393.090 10.800 1640.620 
+		}
+		rotation={
+			0.000 0.000 0.000 
+		}
+	}
+}

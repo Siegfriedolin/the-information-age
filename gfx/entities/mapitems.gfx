@@ -108,6 +108,34 @@ objectTypes = {
 		cull_distance = 99999.0
 	}	
 	
+		pdxmesh = {
+		name = "pyramids_mesh"
+		file = "gfx/models/buildings/pyramids.mesh"		
+		scale = 1.000
+		cull_distance = 99999.0
+	}	
+
+		pdxmesh = {
+		name = "sphinx_mesh"
+		file = "gfx/models/buildings/sphinx.mesh"		
+		scale = 1.000
+		cull_distance = 99999.0
+	}	
+
+		pdxmesh = {
+		name = "tower_pisa_mesh"
+		file = "gfx/models/buildings/tower_pisa.mesh"		
+		scale = 1.000
+		cull_distance = 99999.0
+	}	
+
+		pdxmesh = {
+		name = "basil_cathedral_mesh"
+		file = "gfx/models/buildings/basil_cathedral.mesh"		
+		scale = 1.000
+		cull_distance = 99999.0
+	}	
+	
 	#### cities ####	
 	
 		pdxmesh = {

@@ -112,6 +112,40 @@ music = {
 }
 
 music = {
+	song = "Cycles In The Night"
+	
+	chance = {
+		modifier = {
+			factor = 1
+
+		}		
+	}	
+}
+
+music = {
+	song = "Now Is War"
+	
+	chance = {
+		modifier = {
+			factor = 1
+			has_war = yes
+
+		}		
+	}	
+}
+
+music = {
+	song = "A World Of Glass"
+	
+	chance = {
+		modifier = {
+			factor = 1
+
+		}		
+	}	
+}
+
+music = {
 	song = "The New Earth"
 	
 	chance = {

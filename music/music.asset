@@ -41,6 +41,24 @@ music = {
 }
 
 music = {
+	name = "Cycles In The Night"
+	file = "Cycles_In_The_Night.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "Now Is War"
+	file = "Now_Is_War.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "A World Of Glass"
+	file = "A_World_Beyond.ogg"
+	volume = 0.65
+}
+
+music = {
 	name = "Platoons"
 	file = "Platoons.ogg"
 	volume = 0.65
