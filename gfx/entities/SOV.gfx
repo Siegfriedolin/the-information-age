@@ -1,7 +1,7 @@
 objectTypes = {
 	pdxmesh = {
 		name = "SOV_infantry_rifle_mesh"
-		file = "gfx/models/units/SOV_infantry.mesh"
+		file = "gfx/models/units/SOV_infantry.mesh/"
 
 		animation = { id = "idle"			type = "GER_infantry_rifle_idle_animation" }
 		animation = { id = "attack"			type = "GER_infantry_rifle_attack_animation" }
@@ -57,14 +57,14 @@ objectTypes = {
 objectTypes = {	
 	pdxmesh = {
 			name = "SOV_infantry_weapon_rifle_mesh"
-			file = "gfx/models/units/ENG_weapon_rifle.mesh"
+			file = "gfx/models/units/weapons/SOV_weapon.mesh"
 	}
 }
 
 objectTypes = {		
 	pdxmesh = {
 		name = "SOV_infantry_weapon_mg_mesh"
-		file = "gfx/models/units/western_european_infantry_weapon_mg.mesh"
+		file = "gfx/models/units/weapons/SOV_weapon.mesh"
 	}
 }
 

@@ -50,6 +50,19 @@ objectTypes = {
 		
 		scale = 0.8
 	}
+	
+	pdxmesh = {
+		name = "GER_weapon_mesh"
+		file = "gfx/models/units/weapons/GER_weapon.mesh"
+	}	
+	pdxmesh = {
+		name = "SOV_weapon_mesh"
+		file = "gfx/models/units/weapons/SOV_weapon.mesh"
+	}		
+	pdxmesh = {
+		name = "USA_weapon_mesh"
+		file = "gfx/models/units/weapons/USA_weapon.mesh"
+	}	
 
 }
 	
@@ -60,7 +73,7 @@ objectTypes = {
 objectTypes = {		
 	pdxmesh = {
 		name = "SOV_infantry_rifle_mesh"
-		file = "gfx/models/units/CAF_SOV_infantry_std.mesh"
+		file = "gfx/models/units/SOV_infantry.mesh"
 
 		animation = { id = "idle"			type = "GER_infantry_mg_idle_animation" }
 		animation = { id = "attack"			type = "GER_infantry_mg_attack_animation" }
@@ -88,7 +101,7 @@ objectTypes = {
 objectTypes = {		
 	pdxmesh = {
 		name = "SOV_infantry_mg_mesh"
-		file = "gfx/models/units/CAF_SOV_infantry_std.mesh"
+		file = "gfx/models/units/SOV_infantry.mesh"
 
 		animation = { id = "idle"			type = "GER_infantry_mg_idle_animation" }
 		animation = { id = "attack"			type = "GER_infantry_mg_attack_animation" }
@@ -122,7 +135,7 @@ objectTypes = {
 objectTypes = {	
 	pdxmesh = {
 		name = "SOV_marine_mesh"
-		file = "gfx/models/units/CAF_SOV_marine.mesh"
+		file = "gfx/models/units/SOV_infantry.mesh"
 
 		animation = { id = "idle"			type = "GER_infantry_rifle_idle_animation" }
 		animation = { id = "attack"			type = "GER_infantry_rifle_attack_animation" }
@@ -156,7 +169,7 @@ objectTypes = {
 	objectTypes = {	
 	pdxmesh = {
 		name = "SOV_paratrooper_mesh"
-		file = "gfx/models/units/CAF_SOV_para.mesh"
+		file = "gfx/models/units/SOV_infantry.mesh"
 
 		animation = { id = "idle"			type = "GER_infantry_rifle_idle_animation" }
 		animation = { id = "attack"			type = "GER_infantry_rifle_attack_animation" }
@@ -189,7 +202,7 @@ objectTypes = {
 objectTypes = {	
 	pdxmesh = {
 		name = "SOV_mountaineers_mesh"
-		file = "gfx/models/units/SOV_mountain.mesh"
+		file = "gfx/models/units/SOV_infantry.mesh"
 		
 		animation = { id = "idle"			type = "GER_infantry_rifle_idle_animation" }
 		animation = { id = "attack"			type = "GER_infantry_rifle_attack_animation" }
@@ -239,7 +252,7 @@ objectTypes = {
 objectTypes = {	
 	pdxmesh = {
 		name = "SOV_motorized_inf_mesh"
-		file = "gfx/models/units/CAF_SOV_mot.mesh"
+		file = "gfx/models/units/SOV_infantry.mesh"
 
 		animation = { id = "idle"			type = "GER_infantry_mg_idle_animation" }
 		animation = { id = "attack"			type = "GER_infantry_mg_attack_animation" }
@@ -273,7 +286,7 @@ objectTypes = {
 objectTypes = {	
 	pdxmesh = {
 		name = "SOV_mechanized_inf_mesh"
-		file = "gfx/models/units/CAF_SOV_mech.mesh"
+		file = "gfx/models/units/SOV_infantry.mesh"
 
 		animation = { id = "idle"			type = "GER_infantry_mg_idle_animation" }
 		animation = { id = "attack"			type = "GER_infantry_mg_attack_animation" }
@@ -732,7 +745,7 @@ objectTypes = {
 	
 	pdxmesh = {
 		name = "GER_infantry_rifle_mesh"
-		file = "gfx/models/units/GER_infantry.mesh"
+		file = "gfx/models/units/GER_01_infantry.mesh"
 
 		animation = { id = "idle"			type = "GER_infantry_mg_idle_animation" }
 		animation = { id = "attack"			type = "GER_infantry_mg_attack_animation" }
@@ -759,7 +772,7 @@ objectTypes = {
 	
 	pdxmesh = {
 		name = "GER_infantry_mg_mesh"
-		file = "gfx/models/units/GER_infantry.mesh"
+		file = "gfx/models/units/GER_01_infantry.mesh"
 
 		animation = { id = "idle"			type = "GER_infantry_mg_idle_animation" }
 		animation = { id = "attack"			type = "GER_infantry_mg_attack_animation" }
@@ -786,7 +799,7 @@ objectTypes = {
 	
 	pdxmesh = {
 		name = "GER_infantry_weapon_rifle_mesh"
-		file = "gfx/models/units/weapons/CAF_scar.mesh"
+		file = "gfx/models/units/weapons/GER_weapon.mesh"
 		
 		scale = 0.8
 	}
@@ -798,7 +811,7 @@ objectTypes = {
 	
 	pdxmesh = {
 		name = "GER_infantry_weapon_mg_mesh"
-		file = "gfx/models/units/weapons/CAF_scar.mesh"
+		file = "gfx/models/units/weapons/GER_weapon.mesh"
 		
 		scale = 0.8
 	}
@@ -884,7 +897,7 @@ objectTypes = {
 	
 	pdxmesh = {
 		name = "SOV_infantry_rifle_mesh"
-		file = "gfx/models/units/CAF_SOV_infantry_std.mesh"
+		file = "gfx/models/units/SOV_infantry.mesh"
 
 		animation = { id = "idle"			type = "GER_infantry_mg_idle_animation" }
 		animation = { id = "attack"			type = "GER_infantry_mg_attack_animation" }
@@ -911,7 +924,7 @@ objectTypes = {
 	
 	pdxmesh = {
 		name = "SOV_infantry_mg_mesh"
-		file = "gfx/models/units/CAF_SOV_infantry_std.mesh"
+		file = "gfx/models/units/SOV_infantry.mesh"
 
 		animation = { id = "idle"			type = "GER_infantry_mg_idle_animation" }
 		animation = { id = "attack"			type = "GER_infantry_mg_attack_animation" }
@@ -938,12 +951,12 @@ objectTypes = {
 	
 	pdxmesh = {
 		name = "SOV_infantry_weapon_rifle_mesh"
-		file = "gfx/models/units/weapons/CAF_ak47.mesh"
+		file = "gfx/models/units/weapons/SOV_weapon.mesh"
 	}	
 	
 	pdxmesh = {
 		name = "SOV_infantry_weapon_mg_mesh"
-		file = "gfx/models/units/weapons/CAF_ak47.mesh"
+		file = "gfx/models/units/weapons/SOV_weapon.mesh"
 	}
 
 	
@@ -1005,12 +1018,12 @@ objectTypes = {
 	
 	pdxmesh = {
 		name = "USA_infantry_weapon_rifle_mesh"
-		file = "gfx/models/units/weapons/CAF_coltXM.mesh"
+		file = "gfx/models/units/weapons/USA_weapon.mesh"
 	}	
 	
 	pdxmesh = {
 		name = "USA_infantry_weapon_mg_mesh"
-		file = "gfx/models/units/weapons/CAF_coltXM.mesh"
+		file = "gfx/models/units/weapons/USA_weapon.mesh"
 	}
 
 	

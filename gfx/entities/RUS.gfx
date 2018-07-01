@@ -58,13 +58,13 @@ objectTypes = {
 objectTypes = {	
 	pdxmesh = {
 			name = "RUS_infantry_weapon_rifle_mesh"
-			file = "gfx/models/units/ENG_weapon_rifle.mesh"
+			file = "gfx/models/units/weapons/SOV_weapon.mesh"
 	}
 }
 
 objectTypes = {		
 	pdxmesh = {
 		name = "RUS_infantry_weapon_mg_mesh"
-		file = "gfx/models/units/western_european_infantry_weapon_mg.mesh"
+		file = "gfx/models/units/weapons/SOV_weapon.mesh"
 	}
 }
