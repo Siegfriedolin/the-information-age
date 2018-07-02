@@ -510,14 +510,14 @@ objectTypes = {
 	}
 	
 	pdxmesh = {
-		name = "US_mechanized_mesh"
+		name = "USA_mechanized_mesh"
 		file = "gfx/models/units/tanks/CAF_mechanized_green.mesh"
 		
 	}
 	
 	pdxmesh = {
-		name = "US_motorized_mesh"
-		file = "gfx/models/units/vehicles/US_motorized_01.mesh"
+		name = "USA_motorized_mesh"
+		file = "gfx/models/units/vehicles/USA_motorized.mesh"
 		
 		animation = { id = "idle"			type = "US_motorized_01_idle_animation" }
 		animation = { id = "move"			type = "US_motorized_01_move_animation" }

@@ -688,7 +688,6 @@ entity = {
 	}
 	
 
-### BTR
 
 #Generic		
 	entity = {
@@ -1757,10 +1756,6 @@ entity = {
 		attach = { 	name = "infantry"			infantry = "ITA_vehicle_infantry_rifle_entity" }
 	}
 	
-	#######
-	# SOVIET removed to other file
-	#######
-
 	
 	#######
 	# UNITED STATES OF AMERICA
@@ -1803,7 +1798,7 @@ entity = {
 	
 	entity = {
 		name = "USA_motorized_vehicle_entity"
-		pdxmesh = "US_motorized_mesh"
+		pdxmesh = "USA_motorized_mesh"
 		
 		state = { name = "idle"				animation = "idle" 				animation_blend_time = 0.3 animation_speed = 1.0 }
 		state = { name = "retreat"			animation = "move" 	 		animation_blend_time = 0.3 animation_speed = 1.0 
