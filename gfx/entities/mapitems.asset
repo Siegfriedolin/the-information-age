@@ -115,7 +115,7 @@ entity = {
 
 entity = {
 	name = "burj_dubai_entity"
-	pdxmesh = "burj_dubai_mesh"
+	pdxmesh = "burj_khalifa_mesh"
 }
 
 entity = {

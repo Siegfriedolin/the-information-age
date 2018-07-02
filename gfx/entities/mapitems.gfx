@@ -137,8 +137,8 @@ objectTypes = {
 	}	
 	
 		pdxmesh = {
-		name = "burj_dubai_mesh"
-		file = "gfx/models/buildings/burj_dubai.mesh"		
+		name = "burj_khalifa_mesh"
+		file = "gfx/models/buildings/burj_khalifa.mesh"		
 		scale = 1.000
 		cull_distance = 99999.0
 	}	
