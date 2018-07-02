@@ -196,7 +196,7 @@ type={
 	object={
 		name="vejle_wave_entity"
 		position={
-			2956.840 10.000 1639.750 
+			2960.250 10.000 1638.850 
 		}
 		rotation={
 			0.000 -20.000 0.000 
@@ -362,6 +362,36 @@ type={
 		}
 		rotation={
 			0.000 0.000 0.000 
+		}
+	}
+}
+type={
+	type="burj_dubai_entity"
+	use_animation=no
+	scale=0.850000
+	always_visible=yes
+	object={
+		name="burj_dubai_entity"
+		position={
+			3673.590 10.100 1060.340 
+		}
+		rotation={
+			0.000 -20.000 0.000 
+		}
+	}
+}
+type={
+	type="tokyo_tower_entity"
+	use_animation=no
+	scale=0.400000
+	always_visible=yes
+	object={
+		name="tokyo_tower_entity"
+		position={
+			4985.290 9.500 1241.270 
+		}
+		rotation={
+			0.000 45.000 0.000 
 		}
 	}
 }

@@ -113,6 +113,17 @@ entity = {
 	pdxmesh = "basil_cathedral_mesh"
 }
 
+entity = {
+	name = "burj_dubai_entity"
+	pdxmesh = "burj_dubai_mesh"
+}
+
+entity = {
+	name = "tokyo_tower_entity"
+	pdxmesh = "tokyo_tower_mesh"
+}
+
+
 #####Cities#####
 
 entity = {
