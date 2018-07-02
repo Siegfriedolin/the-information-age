@@ -1,6 +1,6 @@
 ﻿capital = 112
 
-oob = "POR_2000"
+oob = "POR_2018"
 
 set_research_slots = 4
 set_convoys = 240
@@ -129,8 +129,8 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "António Guterres"
-	picture = "Antonio_Guterres.dds"
+	name = "António Costa"
+	picture = "Antonio_Costa.dds"
 	ideology = social_democrat_ideology
 }
 
@@ -177,9 +177,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Jose Manuel Barroso"
-	picture = "Jose_Manuel_Barroso.dds"
-	ideology = libertarian     
+	name = "Pedro Passos Coelho"
+	picture = "Pedro_Passos_Coelho.dds"
+	ideology = libertarian 
 }
 
 create_country_leader = {
@@ -192,17 +192,4 @@ create_country_leader = {
 	name = "Joana Camara Pereira"
 	picture = "Joana_Camara_Pereira.dds"
 	ideology = counter_progressive_democrat     
-}
-
-2014.9.1 = {
-	create_country_leader = {
-		name = "António Costa"
-		picture = "Antonio_Costa.dds"
-		ideology = social_democrat_ideology
-	}
-	create_country_leader = {
-		name = "Pedro Passos Coelho"
-		picture = "Pedro_Passos_Coelho.dds"
-		ideology = libertarian 
-	}
 }
