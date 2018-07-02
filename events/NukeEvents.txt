@@ -15,8 +15,7 @@ news_event = {
 
 
 	immediate = {
-			ROOT = {
-				set_state_category = wasteland 		
+			ROOT = {		
                 add_named_threat = { threat = 15 name = "Nuclear Attack" }				
 			}
 			every_enemy_country = {
@@ -24,7 +23,7 @@ news_event = {
 				add_stability = -5
 			}
 			FROM = {
-			    set_state_category = wasteland 	
+			    set_state_category = state_level_0
 				remove_building = { type = arms_factory level = 10 }
 				remove_building = { type = industrial_complex level = 10 }
 				remove_building = { type = air_base level = 10 }
