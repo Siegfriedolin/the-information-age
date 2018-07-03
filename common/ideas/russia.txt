@@ -87,11 +87,11 @@ ideas = {
 			
 			modifier = {
 			army_core_attack_factor = -0.25
-			army_core_defence_factor = -0.20
+			army_core_defence_factor = -0.25
 		    production_speed_buildings_factor = -0.15
 			production_factory_max_efficiency_factor = -0.1
 			industrial_capacity_factory = -0.25
-			war_support_weekly	= 0.02
+			war_support_weekly	= 0.03
 			stability_factor = -0.1
 			}
 		}
@@ -142,7 +142,7 @@ ideas = {
 			
 			modifier = {
 				political_power_factor = -0.2
-				industrial_capacity_factory = 0.15
+				industrial_capacity_factory = 0.1
 			}
 		}
 		SOV_high_costing_investments = {
@@ -168,6 +168,19 @@ ideas = {
 			modifier = {
 				stability_factor = -0.05
 				consumer_goods_factor = 0.15
+			}
+		}
+		SOV_industrial_development_aid = {
+			picture = foreign_capital
+		
+			allowed = { always = no }
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = -0.2
+				industrial_capacity_factory = -0.2
+				production_speed_buildings_factor = 0.2
 			}
 		}
 		

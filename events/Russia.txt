@@ -1,41 +1,5 @@
 ﻿add_namespace = russia
 
-#Kursk Submarine Disaster
-country_event = {
-	id = russia.1
-	title = russia.1.t
-	desc = russia.1.d
-	picture = GFX_report_event_kursk_sinking
-	
-	fire_only_once = yes
-	
-	trigger = {
-		tag = SOV
-		date > 2000.8.10
-		date < 2001.1.1
-		not = { has_country_flag = sov_kursk_sinking }
-	}
-	
-	immediate = {
-		set_country_flag = sov_kursk_sinking
-	}
-	
-	option = {	#Horrible!
-		name = russia.1.o1
-		navy_experience = 2
-		add_stability = -0.02
-		add_political_power = -10
-		add_popularity = {
-			ideology = reactionary
-			popularity = -0.03
-		}
-		news_event = {
-			hours = 6
-			id = news.50
-		}
-	}
-}
-
 #Belarus: Russia offers Union State
 country_event = {
 	id = russia.2
@@ -288,19 +252,36 @@ country_event = {
 		NOV = { load_oob = "NOVvolunteers" }
 			}
 		}
-		
+	}
+
 country_event = {
-	id = russia.12
-	title = russia.12.t
-	desc = russia.12.d
-	picture = GFX_report_event_russian_flag
+	id = russia.27
+	title = russia.27.t
+	desc = russia.27.d
+	picture = stock_market
 	
 	is_triggered_only = yes
 	
 	option = {
-		name = russia.12.o1
-		UKR = { add_timed_idea = { idea = idea_SOV_russian_bombings days = 90 } }
-		every_country = {
-		news_event = russia_news.8 }
-			}
+		name = russia.27.o1
+		effect_tooltip = {
+		    add_political_power = -100
+		    add_stability = 0.03
+			add_timed_idea = {
+                idea = SOV_industrial_development_aid
+                days = 270
+            }
 		}
+	}
+	option = {
+		name = russia.27.o2
+		effect_tooltip = {
+		    add_stability = -0.08
+			add_political_power = -180
+			swap_ideas = {
+            add_idea = SOV_corrupt_oligarchy3
+            remove_idea = SOV_corrupt_oligarchy
+            }
+		}
+	}
+}

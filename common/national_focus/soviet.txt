@@ -72,6 +72,7 @@ focus_tree = {
 	    has_country_flag = putinboi
 		}
 		completion_reward = {
+		unlock_national_focus = SOV_stabilizing_the_economy
 	    add_stability = 0.01
 		}
 		
@@ -100,6 +101,7 @@ focus_tree = {
       has_country_flag = commieboi 
 		}
 		completion_reward = {
+		unlock_national_focus = SOV_stabilizing_the_economy
 	    add_stability = -0.01
 		}
 		
@@ -129,6 +131,7 @@ focus_tree = {
 	   has_country_flag = libtard 
 		}
 		completion_reward = {
+		unlock_national_focus = SOV_stabilizing_the_economy
 	    add_stability = -0.01
 		}
 		
@@ -158,6 +161,7 @@ focus_tree = {
 	    has_country_flag = nationalistboi
 		}
 		completion_reward = {
+		unlock_national_focus = SOV_stabilizing_the_economy
 	    add_stability = -0.01
 		}
 		
@@ -167,7 +171,30 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = SOV_propaganda_speech
+		id = SOV_
+		icon = propaganda
+		x = 20
+		y = 4
+		cost = 10
+		
+		
+		prerequisite = {
+		    focus = SOV_putins_patriotic_speech
+		}
+		
+		completion_reward = {
+		add_political_power = 50
+		add_war_support = 0.01
+		add_stability = 0.01
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	
+		focus = {
+		id = SOV_putins_patriotic_speech
 		icon = propaganda
 		x = 20
 		y = 3
@@ -179,54 +206,8 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-        add_stability = 0.01
+		add_political_power = 50
 		add_war_support = 0.01
-		}
-		
-		ai_will_do = {
-			factor = 10
-		}
-	}
-	
-	focus = {
-		id = SOV_adress_internal_issues
-		icon = self_management
-		x = 20
-		y = 4
-		cost = 10
-		
-		
-		prerequisite = {
-		    focus = SOV_propaganda_speech
-		}
-		
-		completion_reward = {
-        add_political_power = 35
-		}
-		
-		ai_will_do = {
-			factor = 10
-		}
-	}
-	
-	focus = {
-		id = SOV_oligarchic_stance
-		icon = higher_society
-		x = 22
-		y = 5
-		cost = 10
-		
-		
-		prerequisite = {
-		    focus = SOV_adress_internal_issues
-		}
-		
-		mutually_exclusive = {
-		focus = SOV_militaristic_stance
-		}
-		
-		completion_reward = {
-        add_political_power = 10
 		add_stability = 0.01
 		}
 		
@@ -235,42 +216,30 @@ focus_tree = {
 		}
 	}
 	
-	focus = {
-		id = SOV_revitalize_the_south
-		icon = construction2
-		x = 25
-		y = 6
+		focus = {
+		id = SOV_stabilizing_the_economy
+		icon = russian_ruble
+		x = 37
+		y = 0
 		cost = 10
 		
+		available = {
+        OR = {
+        has_completed_focus = SOV_vladimir_putin 
+        has_completed_focus = SOV_pavel_grudinin 
+        has_completed_focus = SOV_vladimir_zhirinovsky
+        has_completed_focus = SOV_grigory_yavlinsky
+            }
+        }
 		
-		prerequisite = {
-		    focus = SOV_oligarchic_stance
-		}
-		
+		prerequisite = {}
 		
 		completion_reward = {
-			random_owned_state = {
-				limit = {
-					region = 135
-					free_building_slots = {
-						building = industrial_complex
-						size > 1
-						include_locked = yes
-					}
-				}
-				add_extra_state_shared_building_slots = 2
-			}
-			
-			random_owned_state = {
-				limit = {
-					region = 137
-					free_building_slots = {
-						building = industrial_complex
-						size > 1
-						include_locked = yes
-					}
-				}
-				add_extra_state_shared_building_slots = 2
+				add_tech_bonus = {
+				name = industrial_bonus
+				bonus = 0.25
+				uses = 2
+				category = industry
 			}
 		}
 		
@@ -279,196 +248,33 @@ focus_tree = {
 		}
 	}
 	
-	focus = {
-		id = SOV_build_the_crimean_bridge
+	    focus = {
+		id = SOV_reform_the_economy
 		icon = construction
-		x = 25
-		y = 7
+		x = 39
+		y = 1
 		cost = 10
 		
+		available = {
+        OR = {
+        has_completed_focus = SOV_grigory_yavlinsky
+            }
+        }
+		
+		mutually_exclusive = {
+		    focus = SOV_keep_a_grasp_on_the_economy
+		}
 		
 		prerequisite = {
-		    focus = SOV_revitalize_the_south
+		    focus = SOV_stabilizing_the_economy 
 		}
-		
 		
 		completion_reward = {
-		137 = {
-            add_building_construction = {
-               type = infrastructure
-               level = 2
-               instant_build = yes
-            }
-         }
-		add_political_power = 130 
-		}
-		
-		ai_will_do = {
-			factor = 10
-		}
-	}
-	
-	focus = {
-		id = SOV_establish_new_oil_pipes_in_the_south
-		icon = construction2
-		x = 27
-		y = 7
-		cost = 10
-		
-		
-		prerequisite = {
-		    focus = SOV_revitalize_the_south
-		}
-		
-		
-		completion_reward = {
-		232 = {
-            add_building_construction = {
-               type = infrastructure
-               level = 2
-               instant_build = yes
-            }
-         }
-		 828 = {
-            add_building_construction = {
-               type = infrastructure
-               level = 2
-               instant_build = yes
-            }
-         }
-		 237 = {
-            add_building_construction = {
-               type = infrastructure
-               level = 2
-               instant_build = yes
-            }
-         }
-		 236 = {
-            add_building_construction = {
-               type = infrastructure
-               level = 2
-               instant_build = yes
-            }
-         }
-		 217 = {
-            add_building_construction = {
-               type = infrastructure
-               level = 2
-               instant_build = yes
-            }
-         }
-		 238 = {
-            add_building_construction = {
-               type = infrastructure
-               level = 2
-               instant_build = yes
-            }
-         }
-			 	 
-		}
-		
-		ai_will_do = {
-			factor = 10
-		}
-	}
-	
-	focus = {
-		id = SOV_establish_refineries_in_the_south
-		icon = oil_production
-		x = 27
-		y = 8
-		cost = 10
-		
-		
-		prerequisite = {
-		    focus = SOV_establish_new_oil_pipes_in_the_south
-		}
-		
-		
-		completion_reward = {
-		238 = {
-            add_building_construction = {
-               type = synthetic_refinery
-               level = 2
-               instant_build = yes
-            }
-         }
-		 235 = {
-            add_building_construction = {
-               type = synthetic_refinery
-               level = 2
-               instant_build = yes
-            }
-         }
-		 235 = {
-            add_building_construction = {
-               type = infrastructure
-               level = 1
-               instant_build = yes
-            }
-         }
-		}
-		
-		ai_will_do = {
-			factor = 10
-		}
-	}
-	
-	focus = {
-		id = SOV_crimean_industrialization
-		icon = infrastructure
-		x = 25
-		y = 8
-		cost = 10
-		
-		
-		prerequisite = {
-		    focus = SOV_build_the_crimean_bridge
-		}
-		
-		
-		completion_reward = {
-		137 = {
-            add_building_construction = {
-               type = industrial_complex
-               level = 2
-               instant_build = yes
-            }
-         }
-		}
-		
-		ai_will_do = {
-			factor = 10
-		}
-	}
-	
-	focus = {
-		id = SOV_the_caucasian_black_gold
-		icon = oil_trade
-		x = 27
-		y = 9
-		cost = 10
-		
-		
-		prerequisite = {
-		    focus = SOV_establish_refineries_in_the_south
-		}
-		
-		
-		completion_reward = {
-		
-		add_timed_idea = { 
-		idea = SOV_high_costing_investments
-		days = 230 }
-		
-		owned_state = {
-					region = 234
-				}
-                234 = {
-				add_resource = {
-					type = oil
-					amount = 47
-				}
+				add_tech_bonus = {
+				name = industrial_bonus
+				bonus = 0.25
+				uses = 2
+				category = industry
 			}
 		}
 		
@@ -477,31 +283,64 @@ focus_tree = {
 		}
 	}
 	
-	focus = {
-		id = SOV_deal_with_chechnya
-		icon = industry_civilian
-		x = 25
-		y = 10
+		focus = {
+		id = SOV_keep_a_grasp_on_the_economy
+		icon = self_management
+		x = 35
+		y = 1
 		cost = 10
 		
+		available = {
+        OR = {
+        has_completed_focus = SOV_vladimir_putin 
+        has_completed_focus = SOV_pavel_grudinin 
+        has_completed_focus = SOV_vladimir_zhirinovsky
+            }
+        }
 		
-		prerequisite = { focus = SOV_the_caucasian_black_gold }
-		prerequisite = { focus = SOV_crimean_industrialization }
+	    mutually_exclusive = {
+		    focus = SOV_reform_the_economy
+		}
+		
+		prerequisite = {
+		    focus = SOV_stabilizing_the_economy 
+		}
 		
 		completion_reward = {
-		828 = {
-		add_building_construction = {
-               type = infrastructure
-               level = 2
-               instant_build = yes
-            }
-	   add_building_construction = {
-               type = industrial_complex
-               level = 2
-               instant_build = yes
-            }	
+				add_tech_bonus = {
+				name = industrial_bonus
+				bonus = 0.25
+				uses = 2
+				category = industry
 			}
-		CHE = { remove_state_core = 828 }	
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	
+		focus = {
+		id = SOV_begin_laying_plans
+		icon = consumer_goods
+		x = 35
+		y = 2
+		cost = 10
+		
+		available = {}
+		
+	    mutually_exclusive = {}
+		
+		prerequisite = {
+		    focus = SOV_keep_a_grasp_on_the_economy
+		}
+		
+		completion_reward = {
+	        country_event = {
+            id = russia.27
+            days = 10
+            random = 50
+            }
 		}
 		
 		ai_will_do = {
@@ -510,231 +349,137 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = SOV_revitalize_the_north
-		icon = production2
-		x = 20
-		y = 7
+		id = SOV_the_russian_army
+		icon = infantry_allies
+		x = @army_tree_center
+		y = 2
 		cost = 10
-		
-		
-		prerequisite = {
-		    focus = SOV_oligarchic_stance
-		}
-		
+		prerequisite = { focus = SOV_modernize_the_military }
 		
 		completion_reward = {
-			random_owned_state = {
-				limit = {
-					region = 132
-					free_building_slots = {
-						building = industrial_complex
-						size > 1
-						include_locked = yes
-					}
-				}
-				add_extra_state_shared_building_slots = 2
+			army_experience = 10
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	
+	focus = {
+		id = SOV_the_russian_navy
+		icon = navy
+		x = @navy_tree_center
+		y = 2
+		cost = 10
+		
+		prerequisite = { focus = SOV_modernize_the_military }
+		
+		completion_reward = {
+			navy_experience = 10
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	
+	focus = {
+		id = SOV_the_russian_air_force
+		icon = airforce
+		x = @air_force_tree_center
+		y = 2
+		cost = 10
+		
+		prerequisite = { focus = SOV_modernize_the_military }
+		
+		completion_reward = {
+			air_experience = 10
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	
+	
+	focus = {
+		id = SOV_land_doctrine_focus_1
+		icon = army_doctrine
+		x = @army_tree_left
+		y = 3
+		cost = 10
+		
+		prerequisite = { focus = SOV_the_russian_army }
+	
+		completion_reward = {
+			add_tech_bonus = {
+				name = land_doc_bonus
+				bonus = 0.25
+				uses = 1
+				category = land_doctrine
 			}
-			
-			random_owned_state = {
-				limit = {
-					region = 133
-					free_building_slots = {
-						building = industrial_complex
-						size > 1
-						include_locked = yes
+		}
+	}
+	
+	focus = {
+		id = SOV_motorized_forces
+		icon = motorized
+		x = @army_tree_right
+		y = 3
+		cost = 10
+		
+		prerequisite = { focus = SOV_the_russian_army }
+	
+		completion_reward = {
+			add_ideas = idea_focus_generic_motorized_focus
+		}
+	}
+	
+	focus = {
+		id = SOV_carrier_program
+		icon = carriers
+		x = @navy_tree_left
+		y = 3
+		cost = 10
+		
+		prerequisite = { focus = SOV_the_russian_navy }
+		
+		completion_reward = {
+			add_tech_bonus = {
+				name = carrier_bonus
+				bonus = 0.5
+				uses = 1
+				category = cv_tech
+			}
+		}
+	}
+	
+	focus = {
+		id = SOV_naval_production_program
+		icon = naval_dockyards
+		x = @navy_tree_right
+		y = 3
+		cost = 10
+		
+		prerequisite = { focus = SOV_the_russian_navy }
+		
+		completion_reward = {
+			213 = {
+				if = {
+					limit = {
+						free_building_slots = {
+							building = dockyard
+							size > 0
+							include_locked = yes
+						}
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = dockyard
+						level = 1
+						instant_build = yes
 					}
 				}
-				add_extra_state_shared_building_slots = 2
-			}	
-		}
-		
-		ai_will_do = {
-			factor = 10
-		}
-	}
-	
-	focus = {
-		id = SOV_baltic_infraestructure
-		icon = baltic_development
-		x = 20
-		y = 8
-		cost = 10
-		
-		
-		prerequisite = {
-		    focus = SOV_revitalize_the_north
-		}
-		
-		
-		completion_reward = {
-		208 = {
-		add_building_construction = {
-               type = infrastructure
-               level = 2
-               instant_build = yes
-            }
-		}
-		209 = {
-		add_building_construction = {
-               type = infrastructure
-               level = 2
-               instant_build = yes
-            }
-		}
-		1003 = {
-		add_building_construction = {
-               type = infrastructure
-               level = 2
-               instant_build = yes
-            }
-		}
-		210 = {
-		add_building_construction = {
-               type = infrastructure
-               level = 2
-               instant_build = yes
-            }
-		}
-        }		
-		
-		ai_will_do = {
-			factor = 10
-		}
-	}
-	
-	focus = {
-		id = SOV_karelian_infraestructure
-		icon = karelia_development
-		x = 20
-		y = 9
-		cost = 10
-		
-		
-		prerequisite = {
-		    focus = SOV_baltic_infraestructure
-		}
-		
-		
-		completion_reward = {
-		146 = {
-		add_building_construction = {
-               type = infrastructure
-               level = 2
-               instant_build = yes
-            }
-		}
-		216 = {
-		add_building_construction = {
-               type = infrastructure
-               level = 2
-               instant_build = yes
-            }
-		}
-		215 = {
-		add_building_construction = {
-               type = infrastructure
-               level = 2
-               instant_build = yes
-            }
-		}
-		213 = {
-		add_building_construction = {
-               type = infrastructure
-               level = 2
-               instant_build = yes
-            }
-		}
-        }		
-		
-		ai_will_do = {
-			factor = 10
-		}
-	}
-	
-	focus = {
-		id = SOV_petersburg_industrial_innovation
-		icon = industry_democratic3
-		x = 20
-		y = 10
-		cost = 10
-		
-		
-		prerequisite = {
-		    focus = SOV_karelian_infraestructure
-		}
-		
-		
-		completion_reward = {
-		195 = {
-		add_building_construction = {
-               type = industrial_complex
-               level = 3
-               instant_build = yes
-            }
-        }		
-		}
-		ai_will_do = {
-			factor = 10
-		}
-	}
-	
-	focus = {
-		id = SOV_befriend_and_strenghten_the_oligarchs
-		icon = money
-		x = 22
-		y = 8
-		cost = 10
-		
-		
-		prerequisite = {
-		    focus = SOV_oligarchic_stance
-		}
-		
-		prerequisite = {
-		    focus = SOV_revitalize_the_north
-			focus = SOV_revitalize_the_south
-		}
-		
-		
-		completion_reward = {
-		swap_ideas = {
-	        remove_idea = SOV_corrupt_oligarchy add_idea = SOV_corrupt_oligarchy3
-		    }
-		}
-		ai_will_do = {
-			factor = 10
-		}
-	}
-	
-	focus = {
-		id = SOV_develop_the_metropolitan_area
-		icon = industry_democratic4
-		x = 22
-		y = 9
-		cost = 10
-		
-		
-		prerequisite = {
-		    focus = SOV_befriend_and_strenghten_the_oligarchs
-		}
-		
-		
-		
-		completion_reward = {
-	    every_state = {
-				limit = {
-					region = 133
-					free_building_slots = {
-						building = infrastructure
-						size > 1
-						include_locked = yes
-					}
-				}
-		add_building_construction = {
-               type = infrastructure
-               level = 2
-               instant_build = yes
-            }	
 			}
 		}
 		ai_will_do = {
@@ -1084,23 +829,6 @@ focus_tree = {
 					}
 				}
 			}
-			195 = {
-				if = {
-					limit = {
-						free_building_slots = {
-							building = dockyard
-							size > 0
-							include_locked = yes
-						}
-					}
-					add_extra_state_shared_building_slots = 1
-					add_building_construction = {
-						type = dockyard
-						level = 1
-						instant_build = yes
-					}
-				}
-			}
 			208 = {
 				if = {
 					limit = {
@@ -1399,7 +1127,7 @@ focus_tree = {
     focus = {
 		id = SOV_the_war_in_donbass
 		icon = novoconflict
-		x = 40
+		x = 43
 		y = 0
 		cost = 1
 		
@@ -1411,417 +1139,6 @@ focus_tree = {
 		
 		completion_reward = {
 		add_political_power = 30
-		}
-		
-		ai_will_do = {
-			factor = 10
-		}
-	}
-	
-	
-	focus = {
-		id = SOV_support_for_novorossiya
-		icon = align_to_russia
-		x = 42
-		y = 1
-		cost = 1
-		
-		
-		mutually_exclusive = {
-		focus = SOV_distance_from_the_conflict
-		}
-	    available = {
-		OR= {
-		has_government = reactionary
-		has_government = nationalist
-		}
-		}
-		
-		prerequisite = {
-		focus = SOV_the_war_in_donbass
-		}
-		
-		completion_reward = {
-		SOV = { add_opinion_modifier = { target = NOV modifier = recent_actions_positive } }
-		NOV = { add_opinion_modifier = { target = SOV modifier = recent_actions_positive } }
-		NOV = { country_event = russia.11 }
-		}
-		
-		ai_will_do = {
-			factor = 10
-		}
-	}
-	
-	focus = {
-		id = SOV_weaken_ukraine
-		icon = destory_influence_ukraine
-		x = 42
-		y = 2
-		cost = 1
-		
-	    available = {
-		OR={
-		has_government = reactionary
-		has_government = nationalist
-		}
-		}
-		
-		prerequisite = {
-		focus = SOV_support_for_novorossiya
-		}
-		
-		completion_reward = {
-		UKR = { add_opinion_modifier = { target = SOV modifier = recent_actions_negative } }
-		UKR = { country_event = russia.12 }
-		add_named_threat = { threat = 10 name = "Airstrikes on Ukraine" }
-		}
-		
-		ai_will_do = {
-			factor = 10
-		}
-	}
-
-	focus = {
-		id = SOV_request_minsk_stalemate
-		icon = tripartite_pact
-		x = 44
-		y = 3
-		cost = 1
-		
-	    available = {
-		UKR = { has_war_with = NOV }
-		}
-		
-		mutually_exclusive = {
-		focus = SOV_the_loss_of_novorossiya
-		}
-		
-		prerequisite = {
-		focus = SOV_weaken_ukraine
-		}
-		
-		completion_reward = {
-		    UKR = { country_event = ukraine.1 }
-		}
-		
-		ai_will_do = {
-			factor = 10
-		}
-	}
-	
-	focus = {
-		id = SOV_invite_novorossyia
-		icon = align_to_csto
-		x = 46
-		y = 4
-		cost = 1
-		
-	    available = {
-		UKR = { has_war = no }
-		country_exists = NOV
-		}
-		
-		mutually_exclusive = {
-		focus = SOV_back_off
-		}
-		
-		prerequisite = {
-		focus = SOV_request_minsk_stalemate
-		}
-		
-		completion_reward = {
-		add_to_faction = NOV
-		add_stability = -0.02
-		}
-		
-		ai_will_do = {
-			factor = 10
-		}
-	}
-	
-	focus = {
-		id = SOV_back_off
-		icon = renounce_treaty
-		x = 42
-		y = 4
-		cost = 1
-		
-	    available = {
-		UKR = { has_war = no }
-		country_exists = NOV
-		}
-		
-		mutually_exclusive = {
-		focus = SOV_invite_novorossyia
-		}
-		
-		prerequisite = {
-		focus = SOV_request_minsk_stalemate
-		}
-		
-		completion_reward = {
-	   add_stability = 0.02
-		}
-		
-		ai_will_do = {
-			factor = 10
-		}
-	}
-	
-	focus = {
-		id = SOV_the_loss_of_novorossiya
-		icon = demand_territory
-		x = 40
-		y = 3
-		cost = 1
-		
-	    available = {
-		NOV = { exists = no }
-		}
-		
-		mutually_exclusive = {
-		focus = SOV_request_minsk_stalemate
-		}
-		
-		prerequisite = {
-		focus = SOV_weaken_ukraine
-		}
-		
-		completion_reward = {
-		add_war_support = 0.01
-		add_political_power = -120
-		}
-		
-		ai_will_do = {
-			factor = 10
-		}
-	}
-	
-	
-	focus = {
-		id = SOV_exile_to_the_novorossyian_government
-		icon = dangerous_deal
-		x = 40
-		y = 4
-		cost = 1
-		
-	    available = {
-		NOV = { exists = no }
-		}
-		
-		prerequisite = {
-		focus = SOV_the_loss_of_novorossiya
-		}
-		
-		completion_reward = {
-		add_war_support = 0.01
-		add_manpower = 80000
-		hidden_effect = { load_oob = NOV_exile }
-		}
-		
-		ai_will_do = {
-			factor = 10
-		}
-	}
-	
-	
-	focus = {
-		id = SOV_reclaim_ethnic_russian_land
-		icon = attack_ukraine
-		x = 40
-		y = 5
-		cost = 1
-		
-	    available = {
-		NOV = { exists = no }
-		}
-
-		prerequisite = {
-		focus = SOV_exile_to_the_novorossyian_government
-		}
-		
-		completion_reward = {
-		add_state_core = 228
-		add_state_core = 227
-		add_state_core = 998
-		add_state_core = 997
-		add_state_core = 200
-		add_state_core = 196
-		add_war_support = 0.03
-		}
-		
-		ai_will_do = {
-			factor = 10
-		}
-	}
-	
-	focus = {
-		id = SOV_distance_from_the_conflict
-		icon = national_unity
-		x = 38
-		y = 1
-		cost = 1
-		
-		
-		mutually_exclusive = {
-		focus = SOV_support_for_novorossiya
-		}
-	    available = {
-		NOT= {
-		has_government = reactionary
-		has_government = nationalist
-		}
-		}
-		
-		prerequisite = {
-		focus = SOV_the_war_in_donbass
-		}
-		
-		completion_reward = {
-		SOV = {
-							diplomatic_relation = {
-									country = NOV
-									relation = military_access
-									active = no
-		}
-		}
-		NOV = { add_opinion_modifier = { target = SOV modifier = betrayed_guarantee } }
-		}
-		
-		ai_will_do = {
-			factor = 10
-		}
-	}
-	
-	
-	focus = {
-		id = SOV_fortify_rostov
-		icon = military_fort
-		x = 39
-		y = 2
-		cost = 1
-		
-		
-		mutually_exclusive = {
-		focus = SOV_reapproach_ukraine
-		}
-	    available = {
-		has_government = communist
-		}
-		
-		prerequisite = {
-		focus = SOV_distance_from_the_conflict
-		}
-		
-		completion_reward = {
-		218 = {
-					add_building_construction = {
-						type = bunker
-						province = 11434
-						level = 5
-						instant_build = yes
-					}
-					add_building_construction = {
-						type = bunker
-						province = 11450
-						level = 5
-						instant_build = yes
-					}
-				add_building_construction = {
-						type = bunker
-						province = 9430
-						level = 5
-						instant_build = yes
-					}
-					add_building_construction = {
-						type = bunker
-						province = 6445
-						level = 5
-						instant_build = yes
-					}
-		}
-
-		}
-		
-		ai_will_do = {
-			factor = 10
-		}
-	}
-	
-	focus = {
-		id = SOV_reapproach_ukraine
-		icon = improve_relations_red
-		x = 36
-		y = 2
-		cost = 1
-		
-		
-		mutually_exclusive = {
-		focus = SOV_fortify_rostov
-		}
-	    available = {
-		has_government = social_liberal
-		}
-		
-		prerequisite = {
-		focus = SOV_distance_from_the_conflict
-		}
-		
-		completion_reward = {
-       UKR = { add_opinion_modifier = { target = SOV modifier = recent_actions_positive } }
-	   SOV = { add_opinion_modifier = { target = UKR modifier = recent_actions_positive } }
-		}
-		
-		ai_will_do = {
-			factor = 10
-		}
-	}
-	
-	focus = {
-		id = SOV_return_of_crimea
-		icon = major_alliance
-		x = 36
-		y = 3
-		cost = 1
-		
-		
-	    available = {
-		has_government = social_liberal
-		}
-		
-		prerequisite = {
-		focus = SOV_reapproach_ukraine
-		}
-		
-		completion_reward = {
-       UKR = { remove_opinion_modifier = { target = SOV modifier = annexed_ukraine } }
-	   UKR = { transfer_state = 137 }
-	   remove_state_core = 137
-		}
-		
-		ai_will_do = {
-			factor = 10
-		}
-	}
-	
-	focus = {
-		id = SOV_invite_ukraine
-		icon = align_to_ukraine
-		x = 36
-		y = 4
-		cost = 1
-		
-		
-	    available = {
-		has_government = social_liberal
-		}
-		
-		prerequisite = {
-		focus = SOV_return_of_crimea
-		}
-		
-		completion_reward = {
-       add_to_faction = UKR
 		}
 		
 		ai_will_do = {
@@ -1912,6 +1229,7 @@ focus_tree = {
 			factor = 10
 		}
 	}
+	
 	focus = {
 		id = SOV_clear_the_putinist_filled_parliament
 		icon = self_management
@@ -1936,6 +1254,24 @@ focus_tree = {
 		increase_social_liberal_influence_by_3 = yes
 		increase_market_liberal_influence_by_1 = yes
 		increase_conservative_influence_by_1 = yes
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	
+	focus = {
+		id = SOV_modernize_the_military
+		icon = defence
+		x = @navy_tree_center
+		y = 1
+		cost = 10
+		
+		
+		completion_reward = {
+			army_experience = 5
+			add_political_power = 25
 		}
 		
 		ai_will_do = {
