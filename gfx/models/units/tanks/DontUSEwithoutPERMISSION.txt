@@ -10,3 +10,6 @@
 #Sub based of CadNav model. 
 #C130 & Eurofighter based of Jason Owen model. 
 #Other imports based of CadNav models. 
+
+
+#everything else made by official 3D dev from TIA (The Information Age) team, nich2649

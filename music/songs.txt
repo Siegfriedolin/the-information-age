@@ -66,6 +66,65 @@ music = {
 	}	
 }
 
+#arma
+
+music = {
+	song = "Reinforcements"
+	
+	chance = {
+		modifier = {
+			factor = 1
+
+		}		
+	}	
+}
+
+music = {
+	song = "Lost Battlespace"
+	
+	chance = {
+		modifier = {
+			factor = 1
+
+		}		
+	}	
+}
+
+music = {
+	song = "Debriefs"
+	
+	chance = {
+		modifier = {
+			factor = 1
+
+		}		
+	}	
+}
+
+music = {
+	song = "Slavonics"
+	
+	chance = {
+		modifier = {
+			factor = 1
+
+		}		
+	}	
+}
+
+music = {
+	song = "Valentina"
+	
+	chance = {
+		modifier = {
+			factor = 1
+
+		}		
+	}	
+}
+
+#general
+
 music = {
 	song = "Seven Nation Army"
 	

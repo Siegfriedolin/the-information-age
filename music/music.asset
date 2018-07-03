@@ -53,6 +53,37 @@ music = {
 }
 
 music = {
+	name = "Reinforcements"
+	file = "Reinforcements.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "Lost Battlespace"
+	file = "Lost_Battlespace.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "Debriefs"
+	file = "Debrief.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "Slavonics"
+	file = "Slavonic.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "Valentina"
+	file = "Valentina.ogg"
+	volume = 0.65
+}
+
+
+music = {
 	name = "A World Of Glass"
 	file = "A_World_Beyond.ogg"
 	volume = 0.65
