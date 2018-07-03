@@ -3,7 +3,7 @@ NDefines_Graphics = {
 NWiki = {
 	BASE_URL = "http://www.hoi4wiki.com/",
 	FORUM_URL = "http://forum.paradoxplaza.com/forum/index.php?link-forums/hearts-of-iron-iv.847/"
-}
+},
 
 NMapMode = {
 	FABRICATE_CLAIM_SELECTED_SECONDARY_COLOR = { 0, 1, 0, 1 },
