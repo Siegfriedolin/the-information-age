@@ -136,6 +136,13 @@ on_actions = {
 	#Not run on a specific country.
 	on_startup = {
 		effect = {
+		    every_country = {
+				country_event = pulse.1
+			}
+            random_country = {
+                limit = { is_ai = yes has_war = no }
+                set_country_flag = pulse_one_flag
+            }	
 			every_country = { #Democracies must love each other.
 				limit = { has_democratic_form_of_government = yes }
 				country_event = ideology.4

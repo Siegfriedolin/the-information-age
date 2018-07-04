@@ -1,35 +1,5 @@
 ﻿add_namespace = denmark
 
-#Eurovision 2000
-country_event = {
-	id = denmark.1
-	title = denmark.1.t
-	desc = denmark.1.d
-	picture = GFX_report_event_denmark_olsen_brothers
-	
-	fire_only_once = yes
-	
-	trigger = {
-		original_tag = DEN
-#		NOT = { has_country_flag = usa_uss_cole_attack }
-		date > 2000.5.13
-		date < 2001.5.20
-	}
-	
-#	immediate = {
-#		set_country_flag = usa_uss_cole_attack
-#	}
-	
-	option = {
-		name = denmark.1.o1
-#		news_event = {
-#			hours = 6
-#			id = news.11
-#		}
-		add_political_power = 20
-	}
-}
-
 #Social Democrat Focus
 country_event = {
 	id = denmark.2
