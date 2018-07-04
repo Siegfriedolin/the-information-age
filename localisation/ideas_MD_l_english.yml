@@ -12,12 +12,12 @@
  homosexuality_tolerated:0 "Tolerance"
  homosexuality_equalized:0 "Equality"
  #Cabinet
- idea_group_defence_minister:0 "Minister of Defence"
- idea_group_foreign_affairs_minister:0 "Minister of Foreign Affairs"
- idea_group_finance_minister:0 "Minister of Finance"
- idea_group_commerce_minister:0 "Minister of Commerce"
- idea_group_justice_minister:0 "Minister of Justice"
- idea_group_culture_minister:0 "Minister of Culture"
+ defence_minister:0 "Minister of Defence"
+ foreign_affairs_minister:0 "Minister of Foreign Affairs"
+ finance_minister:0 "Minister of Finance"
+ commerce_minister:0 "Minister of Commerce"
+ justice_minister:0 "Minister of Justice"
+ culture_minister:0 "Minister of Culture"
  #Female Rights
  female_rights:0 "Female Rights"
  female_rights_patriarchy:0 "Patriarchy"
