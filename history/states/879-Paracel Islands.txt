@@ -11,15 +11,9 @@ state={
 		add_core_of = VIN
 		
 		buildings = {
-			infrastructure = 0
-		}
-		
-		2015.1.1 = {
-			buildings = {
-				infrastructure = 2
-				13217 = { naval_base = 1 }
-				air_base = 1
-			}
+			infrastructure = 2
+			13217 = { naval_base = 1 }
+			air_base = 1
 		}
 		
 		victory_points = { 13217 1 }
