@@ -144,7 +144,7 @@ set_politics = {
 	
 	ruling_party = nationalist
 	last_election = "2014.6.3"
-	election_frequency = 48
+	election_frequency = 84
 	elections_allowed = yes
 }
 
