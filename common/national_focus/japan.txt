@@ -1098,7 +1098,7 @@ focus_tree = {
 						original_tag = KOR
 						original_tag = VIN
 						original_tag = LAO
-						original_tag = CMB
+						original_tag = CAM
 						original_tag = MAY
 						original_tag = INS
 					}
@@ -1568,7 +1568,7 @@ focus_tree = {
 		completion_reward = {
 			VIN = { country_event = japan.1 }
 			LAO = { country_event = japan.1 }
-			CMB = { country_event = japan.1 }
+			CAM = { country_event = japan.1 }
 		}
 		
 		ai_will_do = {

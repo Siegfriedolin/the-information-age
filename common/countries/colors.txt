@@ -442,7 +442,7 @@ NIG = {
 	color = rgb { 225 85 5 }
 	color_ui = rgb { 225 85 5 }
 }
-CAM = {
+CMR = {
 	color = rgb { 90 20 0 }
 	color_ui = rgb { 80 10 0 }
 }
@@ -602,7 +602,7 @@ LAO = {
 	color = rgb { 130 160 250 }
 	color_ui = rgb { 120 150 240 }
 }
-CMB = {
+CAM = {
 	color = rgb { 114 71 53 }
 	color_ui = rgb { 114 71 53 }
 }

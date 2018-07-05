@@ -1,6 +1,6 @@
 ﻿capital = 670
 
-oob = "LAO_2000"
+oob = "LAO_2018"
 
 set_research_slots = 2
 set_convoys = 10
@@ -89,48 +89,34 @@ set_politics = {
 
 	parties = {
 		
-		nationalist = {
-			popularity = 7
+		reactionary = {
+			popularity = 4
 		}
 		social_democrat = {
-			popularity = 2
+			popularity = 0
 		}
 		conservative = {
-			popularity = 8
+			popularity = 9
 		}
 		democratic_socialist = {
-			popularity = 3
+			popularity = 9
 		}
 		social_liberal = {
-			popularity = 5
+			popularity = 0
 		}
 		communist = {
-			popularity = 75
+			popularity = 96
 		}
 	}
 	
 	ruling_party = communist
-	last_election = "1992.11.24"
+	last_election = "2016.3.16"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 create_country_leader = {
-	name = "Khamtay Siphandone"
-	picture = "Khamtay_Siphandone.dds"
+	name = "Bounnhang Vorachith"
+	picture = "Bounnhang_Vorachith.dds"
 	ideology = maoist
-}
-create_corps_commander = {
-	name = "Douangchay Phichit"
-	picture = "generals/Douangchay_Phichit.dds"
-	skill = 1
-}
-
-
-2016.1.22 = {
-	create_country_leader = {
-		name = "Bounnhang Vorachith"
-		picture = "Bounnhang_Vorachith.dds"
-		ideology = maoist
-	}
 }

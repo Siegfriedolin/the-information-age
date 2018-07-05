@@ -11,8 +11,8 @@ state={
 	}
 	
 	history={
-		owner = CMB
-		add_core_of = CMB
+		owner = CAM
+		add_core_of = CAM
 		buildings = {
 			infrastructure = 5
 			industrial_complex = 4

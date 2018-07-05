@@ -2,10 +2,7 @@
 state={
 	id=293
 	name="STATE_293"
-	manpower = 18550550
-	
-	state_category = state_level_5
-	
+
 	history={
 		owner = YEM
 		buildings = {
@@ -13,19 +10,35 @@ state={
 			air_base = 4
 			industrial_complex = 3
 			arms_factory = 1
-			10840 = {
+			13333 = {
 				naval_base = 1
+
 			}
+
 		}
-		victory_points = { 10840 20 }
-		victory_points = { 10752 5 }
-		victory_points = { 1973 2 }
-		victory_points = { 4924 1 }
-		victory_points = { 1920 1 }
+		victory_points = {
+			10840 20 
+		}
+		victory_points = {
+			10752 5 
+		}
+		victory_points = {
+			1973 2 
+		}
+		victory_points = {
+			4924 1 
+		}
+		victory_points = {
+			1920 1 
+		}
 		add_core_of = YEM
+
 	}
 
 	provinces={
-		1920 1973 4924 10752 10840 
+		1920 1973 4924 10752 10840 13333 
 	}
+	manpower=18550550
+	buildings_max_level_factor=1.000
+	state_category=state_level_5
 }

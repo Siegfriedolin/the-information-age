@@ -483,7 +483,7 @@
       completion_reward = {
          SIA = { add_opinion_modifier = { target = CHI modifier = recent_actions_positive } }
 		 VIN = { add_opinion_modifier = { target = CHI modifier = recent_actions_positive } }
-		 CMB = { add_opinion_modifier = { target = CHI modifier = recent_actions_positive } }
+		 CAM = { add_opinion_modifier = { target = CHI modifier = recent_actions_positive } }
 		 "PHI" = { add_opinion_modifier = { target = CHI modifier = recent_actions_positive } }
 		 MYA = { add_opinion_modifier = { target = CHI modifier = recent_actions_positive } }
 		 MAY = { add_opinion_modifier = { target = CHI modifier = recent_actions_positive } }
