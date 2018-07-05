@@ -321,7 +321,7 @@ focus_tree = {
 	}
 	
 		focus = {
-		id = SOV_begin_laying_plans
+		id = SOV_plan_the_industry
 		icon = consumer_goods
 		x = 35
 		y = 2
@@ -488,194 +488,6 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = SOV_develop_the_east
-		icon = industry_civilian2
-		x = 22
-		y = 10
-		cost = 10
-		
-		
-		prerequisite = {
-		    focus = SOV_develop_the_metropolitan_area
-		}
-		
-		
-		
-		completion_reward = {
-	    every_state = {
-				limit = {
-					region = 148
-					free_building_slots = {
-						building = infrastructure
-						size > 1
-						include_locked = yes
-					}
-				}
-		add_building_construction = {
-               type = infrastructure
-               level = 2
-               instant_build = yes
-            }	
-			}
-		}
-		ai_will_do = {
-			factor = 10
-		}
-	}
-	
-	focus = {
-		id = SOV_infraestructure_repair_program
-		icon = construction4 
-		x = 22
-		y = 11
-		cost = 10
-		
-		
-		prerequisite = {
-		    focus = SOV_develop_the_east
-		}
-		
-		prerequisite = {
-		    focus = SOV_petersburg_industrial_innovation
-		}
-		
-	   prerequisite = {
-		    focus = SOV_deal_with_chechnya
-		}
-		
-		
-		completion_reward = {
-	    remove_ideas = idea_SOV_poor_inf
-		add_political_power = 50
-		add_ideas = idea_focus_industrial_development_program
-		}
-		ai_will_do = {
-			factor = 10
-		}
-	}
-	
-	focus = {
-		id = SOV_develop_csto
-		icon = align_to_csto 
-		x = 22
-		y = 11
-		cost = 10
-		
-		
-		prerequisite = {
-		    focus = SOV_infraestructure_repair_program
-		}
-		
-		completion_reward = {
-	    add_political_power = 100
-		}
-		ai_will_do = {
-			factor = 10
-		}
-	}
-	
-	focus = {
-		id = SOV_develop_kazakhstan
-		icon = align_to_kazakhstan 
-		x = 20
-		y = 12
-		cost = 10
-		
-		
-		prerequisite = {
-		    focus = SOV_develop_csto
-		}
-		
-		completion_reward = {
-	    KAZ = {
-		 add_opinion_modifier = { target = SOV modifier = recent_actions_positive } 
-		every_state = {
-				limit = {
-					region = 136
-					free_building_slots = {
-						building = infrastructure
-						size > 1
-						include_locked = yes
-					}
-				}
-		add_building_construction = {
-               type = infrastructure
-               level = 2
-               instant_build = yes
-            }	
-			}
-			}
-		}
-		ai_will_do = {
-			factor = 10
-		}
-	}
-	
-	focus = {
-		id = SOV_develop_belarus
-		icon = align_to_belarus 
-		x = 24
-		y = 12
-		cost = 10
-		
-		
-		prerequisite = {
-		    focus = SOV_develop_csto
-		}
-		
-		completion_reward = {
-	    BEL = {
-		 add_opinion_modifier = { target = SOV modifier = recent_actions_positive } 
-		every_state = {
-				limit = {
-					region = 131
-					free_building_slots = {
-						building = infrastructure
-						size > 1
-						include_locked = yes
-					}
-				}
-		add_building_construction = {
-               type = infrastructure
-               level = 2
-               instant_build = yes
-            }	
-			}
-			}
-		}
-		ai_will_do = {
-			factor = 10
-		}
-	}
-    
-	
-	focus = {
-		id = SOV_militaristic_stance
-		icon = military_fort
-		x = 18
-		y = 5
-		cost = 10
-		
-		
-		prerequisite = {
-		    focus = SOV_adress_internal_issues
-		}
-		
-		mutually_exclusive = {
-		focus = SOV_oligarchic_stance
-		}
-		
-		completion_reward = {
-        add_political_power = 10
-		add_war_support = 0.01
-		}
-		
-		ai_will_do = {
-			factor = 10
-		}
-	}
-	
-	focus = {
 		id = SOV_modernize_the_military
 		icon = defence
 		x = @navy_tree_center
@@ -692,9 +504,7 @@ focus_tree = {
 			factor = 10
 		}
 	}
-	
 
-	
 	focus = {
 		id = SOV_the_russian_army
 		icon = infantry_allies
