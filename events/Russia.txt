@@ -265,24 +265,18 @@ country_event = {
 	
 	option = {
 		name = russia.27.o1
-		    add_political_power = -100
-			add_timed_idea = {
-                idea = SOV_industrial_development_aid
-                days = 430
-			}
+		add_political_power = -100
+	    add_timed_idea = {
+            idea = SOV_industrial_development_aid
+            days = 430
 		}
 	}
 	
 	option = {
-		    name = russia.27.o2
-		    add_stability = -0.03
-			add_political_power = -180
-			
-			    swap_ideas = {
-                add_idea = SOV_corrupt_oligarchy3
-                    remove_idea = SOV_corrupt_oligarchy
-				}
-            }
-		}
-	}
+		name = russia.27.o2
+		add_stability = -0.03
+		add_political_power = -180
+        add_idea = SOV_corrupt_oligarchy3
+        remove_idea = SOV_corrupt_oligarchy
+    }
 }
