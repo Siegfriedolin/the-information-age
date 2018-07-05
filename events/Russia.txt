@@ -267,11 +267,15 @@ country_event = {
 		name = russia.27.o1
 		effect_tooltip = {
 		    add_political_power = -100
-		    add_stability = 0.03
 			add_timed_idea = {
                 idea = SOV_industrial_development_aid
                 days = 270
-            }
+			}
+			
+			    SOV = { add_timed_idea = idea = SOV_industrial_development_aid
+                days = 270 }
+			    SOV = { add_political_power = -100 }
+			}
 		}
 	}
 	option = {
