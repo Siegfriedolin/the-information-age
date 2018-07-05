@@ -1,0 +1,7 @@
+pulse_decisions = {
+	icon = pulse
+
+	allowed = {
+		always = yes
+	}
+}

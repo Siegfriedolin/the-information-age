@@ -1,0 +1,41 @@
+pulse_decisions = {
+    pulse_one = {
+        
+        allowed = {
+           is_ai = yes
+        }
+        
+        available = {
+            has_country_flag = pulse_one_flag
+            is_ai = yes
+        }
+
+        visible = {
+			always = no
+        }
+
+        selectable_mission = yes
+        days_mission_timeout = 1
+        days_remove = 30
+		
+        timeout_effect = {
+            clr_country_flag = pulse_one_flag
+            random_country = {
+                limit = { is_ai = yes has_war = no }
+                set_country_flag = pulse_one_flag
+                country_event = { id = pulse.1 }
+            }
+        }
+
+
+        complete_effect = {
+            every_country = {
+                country_event = { id = pulse.1 }
+            }
+        }
+        
+        ai_will_do = {
+            factor = 100
+        }
+    }
+}

@@ -1,6 +1,6 @@
 ﻿capital = 756
 
-oob = "CAM_2000"
+oob = "CAM_2018"
 
 set_research_slots = 2
 set_convoys = 80
@@ -99,16 +99,16 @@ set_politics = {
 
 	parties = {
 		islamist = {
-			popularity = 1
+			popularity = 0
 		}
 		nationalist = {
-			popularity = 1
+			popularity = 43
 		}
 		reactionary = {
-			popularity = 1
+			popularity = 0
 		}
 		conservative = {
-			popularity = 20
+			popularity = 22
 		}
 		market_liberal = {
 			popularity = 2
@@ -117,27 +117,27 @@ set_politics = {
 			popularity = 2
 		}
 		social_democrat = {
-			popularity = 30
+			popularity = 31
 		}
 		progressive = {
-			popularity = 2
+			popularity = 0
 		}
 		democratic_socialist = {
-			popularity = 40
+			popularity = 0
 		}
 		communist = {
-			popularity = 1
+			popularity = 0
 		}
 	}
 	
-	ruling_party = democratic_socialist
-	last_election = "1997.10.12"
-	election_frequency = 60
+	ruling_party = nationalist
+	last_election = "2011.10.9"
+	election_frequency = 84
 	elections_allowed = yes
 }
 
 create_country_leader = {
 	name = "Paul Biya"
 	picture = "Paul_Biya.dds"
-	ideology = democratic_socialist_ideology
+	ideology = autocrat
 }

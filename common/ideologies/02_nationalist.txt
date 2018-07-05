@@ -13,6 +13,9 @@ ideologies = {
 			autocrat = {
 			}
 			
+			baathist = {
+			}
+			
 		}
 		
 		dynamic_faction_names = {
