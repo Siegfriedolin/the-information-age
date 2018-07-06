@@ -348,6 +348,48 @@ focus_tree = {
 		}
 	}
 	
+		focus = {
+		id = SOV_industiral_plans
+		icon = defence
+		x = 32
+		y = 3
+		cost = 10
+		
+		prerequisite = {
+		    focus = SOV_plan_the_industry 
+		}
+		
+		completion_reward = {
+			army_experience = 5
+			add_political_power = 25
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	
+		focus = {
+		id = SOV_internal_economic_plans
+		icon = defence
+		x = 35
+		y = 3
+		cost = 10
+		
+		prerequisite = {
+		    focus = SOV_plan_the_industry 
+		}
+		
+		completion_reward = {
+			army_experience = 5
+			add_political_power = 25
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	
 	focus = {
 		id = SOV_the_russian_army
 		icon = infantry_allies
