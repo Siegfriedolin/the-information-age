@@ -119,124 +119,7 @@ country_event = {
 	}
 }
 
-#Ukraine: Russia invades Crimea!
-country_event = {
-	id = russia.7
-	title = russia.7.t
-	desc = russia.7.d
-	picture = GFX_report_event_russian_flag
-	
-	is_triggered_only = yes
-	
-	option = {	#We shall stand down.
-		name = russia.7.o1
-		ai_chance = {
-			factor = 75
-		}
-		SOV = { country_event = { id = russia.8 } }
-		SOV = { transfer_state = 137 }
-	}
-	
-	option = { #We will stand and fight!
-		name = russia.7.o2
-		ai_chance = {
-			factor = 25
-			modifier = {
-				is_historical_focus_on = yes
-				factor = 0
-			}
-		}
-		effect_tooltip = { 
-			SOV = { 
-				declare_war_on = {
-					target = UKR
-					type = take_state_focus
-					generator = { 137 }
-				}
-			}
-		}
-	}
-}
-
-#Russia: Ukraine folds Crimea.
-country_event = {
-	id = russia.8
-	title = russia.8.t
-	desc = russia.8.d
-	picture = GFX_report_event_russian_flag
-	
-	is_triggered_only = yes
-	
-	option = {	#Excellent
-		name = russia.8.o1
-		effect_tooltip = {
-			SOV = { transfer_state = 137 }
-		}
-		add_named_threat = {
-			threat = 6
-			name = threat_SOV_annexiation_of_crimea
-		}
-		hidden_effect = {
-			add_opinion_modifier = {
-				target = SOV
-				modifier = annexed_ukraine
-			}
-			add_opinion_modifier = {
-				target = SOV
-				modifier = annexed_ukraine_trade
-			}
-			add_opinion_modifier = {
-				target = UKR
-				modifier = annexed_ukraine_trade
-			}
-		}
-	}
-}
-
-#Russia: Ukraine resists.
-country_event = {
-	id = russia.9
-	title = russia.9.t
-	desc = russia.9.d
-	picture = GFX_report_event_russian_flag
-	
-	is_triggered_only = yes
-	
-	option = {	#They know very well what the consequence is.
-		name = russia.9.o1
-		declare_war_on = {
-			target = UKR
-			type = take_state_focus
-			generator = { 137 }
-		}
-	}
-}
-
-#Ukraine: Novorossiya rises against us!
-country_event = {
-	id = russia.10
-	title = russia.10.t
-	desc = russia.10.d
-	picture = GFX_report_event_russian_flag
-	
-	is_triggered_only = yes
-	
-	option = {
-		name = russia.10.o1
-		NOV = { transfer_state = 227 }
-		NOV = { transfer_state = 228 }
-		NOV = { load_oob = "NOV_2016" }
-		NOV = {
-			declare_war_on = {
-				target = UKR
-				type = annex_everything
-			}
-		}
-	}
-}
-
-
-#Russia sends support to new russia 
+#Russia sends support to Donbass 
 country_event = {
 	id = russia.11
 	title = russia.11.t
@@ -250,8 +133,6 @@ country_event = {
 		NOV = { add_ideas = idea_SOV_russian_support }
 		NOV = { add_manpower = 100000 }
 		NOV = { load_oob = "NOVvolunteers" }
-			}
-		}
 	}
 }
 
@@ -277,8 +158,8 @@ country_event = {
 		add_stability = -0.03
 		add_political_power = -180
 		swap_ideas = {
-        add_idea = SOV_corrupt_oligarchy3
-        remove_idea = SOV_corrupt_oligarchy
+            add_idea = SOV_corrupt_oligarchy3
+            remove_idea = SOV_corrupt_oligarchy
 		}
     }
 }
