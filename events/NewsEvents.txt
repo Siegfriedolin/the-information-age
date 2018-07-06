@@ -437,37 +437,6 @@ news_event = {
 	}
 }
 
-#Hearts of Iron IV released
-news_event = {
-	id = news.65
-	title = news.65.t
-	desc = news.65.d
-	picture = GFX_news_event_hearts_of_iron_4
-	
-	is_triggered_only = yes
-	
-	option = {
-		name = news.65.o1
-		trigger = { original_tag = SWE }
-	}
-	
-	option = {
-		name = news.65.o2
-		trigger = { 
-			NOT = { original_tag = SWE } 
-			NOT = { has_government = islamist }
-		}
-	}
-	
-	option = {
-		name = news.65.o3
-		trigger = {
-			NOT = { original_tag = SWE }
-			has_government = islamist
-		}
-	}
-}
-
 #Minsk Agreement goes into action
 news_event = {
 	id = news.67
@@ -659,27 +628,6 @@ news_event = {
 		trigger = {
 			has_war_with = ROOT
 		}
-	}
-}
-
-#The Euro
-news_event = {
-	id = news.96
-	title = news.96.t
-	desc = news.96.d
-	picture = GFX_news_event_euro
-	
-	is_triggered_only = yes
-	major = yes
-	
-	option = {	#A new era for Europe
-		name = news.96.o1
-		trigger = { has_idea = idea_eu_member }
-	}
-	
-	option = {	#A new economic power rises
-		name = news.96.o1
-		trigger = { NOT = { has_idea = idea_eu_member } }
 	}
 }
 
