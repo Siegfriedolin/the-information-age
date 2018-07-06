@@ -741,3 +741,5 @@
  SOV_rouble_crisis_desc:0 "The Russian rouble value has decreased dramaticly thanks to our recent activities in Ukraine and Syria. The European Union has also placed sanctions on us for destabilizing Ukraine. This has reduced our ability to trade with the western markets."
  non_aligned_movement_member:0 "Non-Aligned Movement Member"
  non_aligned_movement_member_desc:0 "This country is a member of the Non-Aligned Movement."
+ SOV_industrial_development_aid:0 "Industrial Development Aid"
+ SOV_industrial_development_aid_desc:0 "The Russian Industrial Developmental Aid or IDA is focusing on growing industries and helping companies who aren't well off."

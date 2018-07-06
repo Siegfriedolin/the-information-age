@@ -276,7 +276,9 @@ country_event = {
 		name = russia.27.o2
 		add_stability = -0.03
 		add_political_power = -180
+		swap_ideas = {
         add_idea = SOV_corrupt_oligarchy3
         remove_idea = SOV_corrupt_oligarchy
+		}
     }
 }
