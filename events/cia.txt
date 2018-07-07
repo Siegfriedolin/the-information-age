@@ -14,3 +14,18 @@ news_event = {
 		}
 	}
 }
+
+#Baltics reach 100 years of indepentence
+news_event = {
+	id = cia.2
+	title = cia.2.t
+	desc = cia.2.d
+	picture = GFX_news_event_baltics100
+	is_triggered_only = yes
+	option = { #Who?
+	    name = cia.2.o1
+		ai_chance = { 
+		    factor = 100
+		}
+	}
+}
