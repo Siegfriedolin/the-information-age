@@ -203,9 +203,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Ali Haidar"
-	picture = "Ali_Haidar.dds"
-	ideology = national_socialist
+	name = "Ali Qanso"
+	picture = "Ali_Qanso.dds"
+	ideology = fascist_ideology
 }
 
 create_country_leader = {
