@@ -36,7 +36,7 @@ country_event = {
 			limit = { has_full_control_of_state = 720 }
 			ARG = { transfer_state = 720 }
 		}
-		299 = { set_state_name = "Islas Mavlinas" }
+		299 = { set_state_name = "Islas Malvinas" }
 		720 = { set_state_name = "Isla San Pedro" }
 		ai_chance = {
 			factor = 10

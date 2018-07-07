@@ -1,6 +1,6 @@
 ﻿capital = 323
 
-oob = "NEP_2000"
+oob = "NEP_2018"
 
 set_research_slots = 3
 set_convoys = 10
@@ -85,112 +85,41 @@ add_ideas = {
 }
 
 set_politics = {
-
 	parties = {
-		monarchist = {
-			popularity = 50
+		social_liberal = {
+			popularity = 4.95
 		}
-		conservative = {
-			popularity = 10
+		democratic_socialist = {
+			popularity = 4.93
 		}
 		social_democrat = {
-			popularity = 10
+			popularity = 44.21
 		}
 		communist = {
-			popularity = 30
+			popularity = 46.91
 		}
 	}
 	
-	ruling_party = monarchist
-	last_election = "1300.1.1"
-	election_frequency = 48
-	elections_allowed = no
+	ruling_party = communist
+	last_election = "2013.3.13"
+	election_frequency = 60
+	elections_allowed = yes
 }
 
 create_country_leader = {
-	name = "Birendra Bir Bikram Shah Dev"
-	picture = "Birendra_BBS_Dev.dds"
+	name = "Gyanendra Bir Bikram Shah Dev"
+	picture = "Gyanendra_BBS_Dev.dds"
 	ideology = absolute_monarchist
 }
 
 create_country_leader = {
 	name = "Bidhya Devi Bhandari"
 	picture = "Bidhya_D_Bhandari.dds"
-	ideology = democratic_socialist_ideology
+	ideology = marxist
 }
 
-2001.6.2 = {
-	create_country_leader = {
-		name = "Dipendra Bir Bikram Shah Dev"
-		picture = "Dipendra_BBS_Dev.dds"
-		ideology = absolute_monarchist
-	}
-}
-
-2001.6.4 = {
-		create_country_leader = {
-		name = "Gyanendra Bir Bikram Shah Dev"
-		picture = "Gyanendra_BBS_Dev.dds"
-		ideology = absolute_monarchist
-	}
-}
-
-2008.7.23 = {
-
-	create_country_leader = {
-		name = "Ram Baran Yadav"
-		picture = "Dipendra_RB_Yadav.dds"
-		ideology = social_democrat_ideology
-	}
-	
-	set_politics = {
-		parties = {
-			monarchist = {
-				popularity = 20
-			}
-			nationalist = {
-				popularity = 5
-			}
-			conservative = {
-				popularity = 25
-			}
-			democratic_socialist = {
-				popularity = 30
-			}
-			communist = {
-				popularity = 20
-			}
-		}
-		ruling_party = democratic_socialist
-		last_election = "2008.6.23"
-		election_frequency = 42
-		elections_allowed = yes
-	}
-}
-
-2016.1.1 = {
-	set_politics = {
-		parties = {
-			monarchist = {
-				popularity = 20
-			}
-			nationalist = {
-				popularity = 5
-			}
-			conservative = {
-				popularity = 25
-			}
-			democratic_socialist = {
-				popularity = 30
-			}
-			communist = {
-				popularity = 20
-			}
-		}
-	
-		ruling_party = democratic_socialist
-		last_election = "2015.10.28"
-		election_frequency = 42
-		elections_allowed = yes
-	}
+create_country_leader = {
+	name = "Sher Bahadur Deuba"
+	picture = "Sher_Bahadur_Deuba.dds"
+	ideology = social_democrat_ideology
 }

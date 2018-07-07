@@ -415,8 +415,18 @@ spriteTypes = {
 	}
 	
 	spriteType = {
+		name = "GFX_ideology_SYR_fascist_group"
+		texturefile = "gfx/interface/ideologies/multinational/ssnp.dds"
+	}
+	
+	spriteType = {
 		name = "GFX_ideology_SYR_conservative_group"
 		texturefile = "gfx/interface/ideologies/SYR/national_coalition.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_LEB_fascist_group"
+		texturefile = "gfx/interface/ideologies/multinational/ssnp.dds"
 	}
 	
 	spriteType = {

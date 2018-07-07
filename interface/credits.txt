@@ -1,0 +1,35 @@
+﻿#Hearts of Iron IV: The Information Age
+#HEAD OF DEVELOPMENT
+Generalis
+
+#HEAD OF MEDIA & PUBLICITY
+SilverRed
+
+#SENIOR DEVELOPERS
+CMDR Voltages
+Nichlas
+
+#DEVELOPERS
+Kreunz
+Nicolas Eskubi
+
+#CONTRIBUTORS
+swf541
+stuffi3000
+Plasomus
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

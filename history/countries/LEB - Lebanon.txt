@@ -160,21 +160,25 @@ create_country_leader = {
 	picture = "Suleiman_Frangieh_Jr.dds"
 	ideology = libertarian
 }
+
 create_country_leader = {
-	name = "Ali Kanso"
-	picture = "Ali_Kanso.dds"
-	ideology = national_socialist
+	name = "Ali Qanso"
+	picture = "gfx/leaders/SYR/Ali_Qanso.dds"
+	ideology = fascist_ideology
 }
+
 create_country_leader = {
 	name = "Nada Zaarour"
 	picture = "Nada_Zaarour.dds"
 	ideology = green
 }
+
 create_country_leader = {
 	name = "Ghida al-Talal"
 	picture = "Ghida_al-Talal.dds"
 	ideology = absolute_monarchist
 }
+
 create_country_leader = {
 	name = "Nabih Berri"
 	picture = "Nabih_Berri.dds"
