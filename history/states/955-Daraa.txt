@@ -12,13 +12,11 @@ state={
 			infrastructure = 3
 
 		}
-		2018.1.1 = {
-			ISS = {
-				set_province_controller = 13297
-			}
-			SYR = {
-				set_province_controller = 13292
-			}
+		ISS = {
+			set_province_controller = 13297
+		}
+		SYR = {
+			set_province_controller = 13292
 		}
 		add_core_of = SYR
 		add_core_of = FSA

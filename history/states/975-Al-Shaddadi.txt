@@ -10,10 +10,8 @@ state={
 		add_core_of = HTS
 		add_core_of = ISS
 		add_core_of = ROJ
-		2018.1.1 = {
-			ISS = {
-				set_province_controller = 13334
-			}
+		ISS = {
+			set_province_controller = 13334
 		}
 		buildings = {
 			infrastructure = 2

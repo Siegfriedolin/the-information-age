@@ -8,12 +8,10 @@ state={
 		victory_points = {
 			7513 1 
 		}
-		2018.1.1 = {
-			ISS = {
-				set_province_controller = 13326
-				set_province_controller = 13368
-				set_province_controller = 13320
-			}
+		ISS = {
+			set_province_controller = 13326
+			set_province_controller = 13368
+			set_province_controller = 13320
 		}
 		buildings = {
 			infrastructure = 1

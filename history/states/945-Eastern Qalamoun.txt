@@ -5,12 +5,8 @@ state={
 
 	history={
 		owner = SYR
-		2018.1.1 = {
-			FSA = {
-				set_province_controller = 13367
-
-			}
-
+		FSA = {
+			set_province_controller = 13367
 		}
 		add_core_of = SYR
 		add_core_of = FSA

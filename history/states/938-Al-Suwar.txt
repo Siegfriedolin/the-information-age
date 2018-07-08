@@ -8,12 +8,8 @@ state={
 
 	history={
 		owner = ROJ
-		2018.1.1 = {
-			ISS = {
-				set_province_controller = 13369
-
-			}
-
+		ISS = {
+			set_province_controller = 13369
 		}
 		victory_points = {
 			901 1 
