@@ -118,6 +118,9 @@ create_country_leader = {
 	name = "Masoud Barzani" 
 	picture = "Masoud_Barzani.dds"
 	ideology = fiscal_conservative
+	traits = {
+		vacancy
+	}
 }
 
 create_country_leader = {

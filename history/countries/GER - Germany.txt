@@ -1,6 +1,6 @@
 ﻿capital = 64
 
-oob = "GER_2000"
+oob = "GER_2018"
 
 set_research_slots = 5
 set_convoys = 400
@@ -142,8 +142,8 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Udo Pastörs"
-	picture = "Udo_Pastors.dds"
+	name = "Frank Franz"
+	picture = "Frank_Franz.dds"
 	ideology = national_democrat
 }
 

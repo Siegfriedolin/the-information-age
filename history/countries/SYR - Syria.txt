@@ -152,6 +152,9 @@ create_country_leader = {
 	name = "Bashar al-Assad"
 	ideology = autocrat
 	picture = "Bashar_Al_Assad.dds"
+	traits = {
+		brutal_dictator
+	}
 }
 
 create_country_leader = {

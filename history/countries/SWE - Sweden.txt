@@ -130,7 +130,7 @@ set_politics = {
 		}
 	
 		ruling_party = social_democrat
-		last_election = "2014.9.14"
+		last_election = "2014.9.9"
 		election_frequency = 48
 		elections_allowed = yes
 }
@@ -190,6 +190,9 @@ create_country_leader = {
 	name = "Gustav Fridolin"
 	picture = "Gustav_Fridolin.dds"
 	ideology = green
+	traits = {
+		environmentalist
+	}
 }
 
 create_country_leader = {

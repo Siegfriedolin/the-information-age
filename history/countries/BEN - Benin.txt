@@ -1,6 +1,6 @@
 ﻿capital = 769
 
-oob = "BEN_2000"
+oob = "BEN_2018"
 
 set_research_slots = 2
 set_convoys = 240
@@ -108,29 +108,13 @@ set_politics = {
 	}
 	
 	ruling_party = social_liberal
-	last_election = "1990.1.1"
-	election_frequency = 48
+	last_election = "2016.3.20"
+	election_frequency = 60
 	elections_allowed = yes
 }
 
 create_country_leader = {
-	name = "Mathieu Kerekou"
-	picture = "Mathieu_Kerekou.dds"
-	ideology = liberalist	
-}
-
-2006.4.6 = {
-	create_country_leader = {
-		name = "Thomas Boni Yayi"
-		picture = "Thomas_Boni_Yayi.dds"
-		ideology = liberalist
-	}
-}
-	
-2016.1.1 = {
-	create_country_leader = {
-		name = "Patrice Talon"
-		picture = "Thomas_Patrice_Talon.dds"
-		ideology = liberalist
-	}
+	name = "Patrice Talon"
+	picture = "Thomas_Patrice_Talon.dds"
+	ideology = liberalist
 }

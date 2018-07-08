@@ -154,6 +154,9 @@ create_country_leader = {
 	name = "Kim Jong-Un"
 	picture = "Kim_Jong_Un.dds"
 	ideology = juche
+	traits = {
+		brutal_dictator
+	}
 }
 
 add_namespace = {
