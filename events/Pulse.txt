@@ -9,6 +9,16 @@ country_event = {
 	immediate = {
 		if = {
 			limit = {
+		        NOT = { has_idea = population_growth_explosion }
+		        NOT = { has_idea = population_growth_rapid }
+		        NOT = { has_idea = population_growth_steady }
+		        NOT = { has_idea = population_growth_stagnation }
+		        NOT = { has_idea = population_growth_decline }
+			}
+			add_ideas = population_growth_stagnation
+		}
+		if = {
+			limit = {
 			    original_tag = JAP
 				date > 2020.7.23
 				date < 2021.1.1

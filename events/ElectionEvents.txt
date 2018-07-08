@@ -71,6 +71,7 @@ country_event = {
 			ruling_party = communist
 			elections_allowed = no
 		}
+		hidden_effect = { news_event = election.2 }
 	}
 	
 	option = {	#Democratic Socialists
@@ -87,6 +88,7 @@ country_event = {
 			ruling_party = democratic_socialist
 			elections_allowed = yes
 		}
+		hidden_effect = { news_event = election.2 }
 	}
 	
 	option = {	#Social Democrats
@@ -103,6 +105,7 @@ country_event = {
 			ruling_party = social_democrat
 			elections_allowed = yes
 		}
+		hidden_effect = { news_event = election.2 }
 	}
 	
 	option = {	#Progressives
@@ -119,6 +122,7 @@ country_event = {
 			ruling_party = progressive
 			elections_allowed = yes
 		}
+		hidden_effect = { news_event = election.2 }
 	}
 	
 	option = {	#Social Liberals
@@ -135,6 +139,7 @@ country_event = {
 			ruling_party = social_liberal
 			elections_allowed = yes
 		}
+		hidden_effect = { news_event = election.2 }
 	}
 	
 	option = {	#Market Liberals
@@ -151,6 +156,7 @@ country_event = {
 			ruling_party = market_liberal
 			elections_allowed = yes
 		}
+		hidden_effect = { news_event = election.2 }
 	}
 	
 	option = {	#Conservatives
@@ -167,6 +173,7 @@ country_event = {
 			ruling_party = conservative
 			elections_allowed = yes
 		}
+		hidden_effect = { news_event = election.2 }
 	}
 	
 	option = {	#Reactionaries
@@ -183,6 +190,7 @@ country_event = {
 			ruling_party = reactionary
 			elections_allowed = yes
 		}
+		hidden_effect = { news_event = election.2 }
 	}
 	
 	option = {	#Nationalists
@@ -199,6 +207,7 @@ country_event = {
 			ruling_party = nationalist
 			elections_allowed = no
 		}
+		hidden_effect = { news_event = election.2 }
 	}
 	
 	option = {	#Fascists
@@ -215,6 +224,7 @@ country_event = {
 			ruling_party = fascist
 			elections_allowed = no
 		}
+		hidden_effect = { news_event = election.2 }
 	}
 	
 	option = {	#Islamists
@@ -231,6 +241,7 @@ country_event = {
 			ruling_party = islamist
 			elections_allowed = no
 		}
+		hidden_effect = { news_event = election.2 }
 	}
 	
 	option = {	#Absolute Monarchists
@@ -246,6 +257,31 @@ country_event = {
 		set_politics = {
 			ruling_party = monarchist
 			elections_allowed = no
+		}
+		hidden_effect = { news_event = election.2 }
+	}
+}
+
+country_event = {
+	id = election.2
+	title = election.2.t
+	desc = election.2.d
+	picture = GFX_report_event_election
+	
+	is_triggered_only = yes
+	major = yes
+	
+	option = {
+		name = election.2.o1
+		trigger = {
+			original_tag = FROM
+		}
+	}
+	
+	option = {
+		name = election.2.o2
+		trigger = {
+			NOT = { original_tag = FROM }
 		}
 	}
 }

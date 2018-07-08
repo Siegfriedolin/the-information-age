@@ -1,4 +1,4 @@
 # the-information-age
-The Information Age, a Modern Day mod for Hearts of Iron IV by @Generalis, @CMDRVoltages
-Managed by @SilverRed
-This readme.md is work in progress.
+The Information Age, a Modern Day 2018 mod for Hearts of Iron IV.
+Head of Development: Generalis
+Head of Media & Publicity: SilverRed
