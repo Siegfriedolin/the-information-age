@@ -910,47 +910,42 @@ NEG = {
 	color = rgb { 121 119 206 }
 	color_ui = rgb { 121 119 206 }
 }
-
 ROJ = {
 	color = rgb { 255 131 0 }
 	color_ui = rgb { 255 131 0 }
 }
-
 HTS = {
 	color = rgb { 9 140 83 }
 	color_ui = rgb { 0 222 31 }
 }
-
 FSA = {
 	color = rgb { 0 222 31 }
 	color_ui = rgb { 0 222 31 }
 }
-
 KOR = {
 	color = rgb { 0 52 120 }
 	color_ui = rgb { 0 52 120 }
 }
-
 YUN = {
 	color = rgb { 114 148 80 }
 	color_ui = rgb { 222 247 198 }
 }
-
 TTP = {
 	color = rgb { 80 80 80 }
 	color_ui = rgb { 80 80 80 }
 }
-
 MEN = {
 	color = rgb { 185 255 152 }
 	color_ui = rgb { 165 230 132 }
 }
-
 XSM = {
 	color = rgb { 105 90 132 }
 	color_ui = rgb { 105 90 132 }
+} 
+SHX = {
+	color = rgb { 82 2 15 }
+	color_ui = rgb { 101 30 41 }
 }
-
 
 D01 = {
 	color = rgb { 200 100 31 }
