@@ -745,7 +745,7 @@ objectTypes = {
 	
 	pdxmesh = {
 		name = "GER_infantry_rifle_mesh"
-		file = "gfx/models/units/GER_01_infantry.mesh"
+		file = "gfx/models/units/western_european_infantry.mesh"
 
 		animation = { id = "idle"			type = "GER_infantry_mg_idle_animation" }
 		animation = { id = "attack"			type = "GER_infantry_mg_attack_animation" }
@@ -772,7 +772,7 @@ objectTypes = {
 	
 	pdxmesh = {
 		name = "GER_infantry_mg_mesh"
-		file = "gfx/models/units/GER_01_infantry.mesh"
+		file = "gfx/models/units/western_european_infantry.mesh"
 
 		animation = { id = "idle"			type = "GER_infantry_mg_idle_animation" }
 		animation = { id = "attack"			type = "GER_infantry_mg_attack_animation" }
@@ -1019,11 +1019,16 @@ objectTypes = {
 	pdxmesh = {
 		name = "USA_infantry_weapon_rifle_mesh"
 		file = "gfx/models/units/weapons/USA_weapon.mesh"
+		
+		scale = 0.8		
+		
 	}	
 	
 	pdxmesh = {
 		name = "USA_infantry_weapon_mg_mesh"
 		file = "gfx/models/units/weapons/USA_weapon.mesh"
+		
+		scale = 0.8
 	}
 
 	
