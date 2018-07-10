@@ -527,15 +527,15 @@
       y = 14
       cost = 10
 
-      prerequisite = {
-         focus = CHI_Secure_the_Island
-      }
+    prerequisite = {
+        focus = CHI_Secure_the_Island
+    }
 
-      completion_reward = {
-      add_war_support = 0.01
-	  add_ideas = defensive_constructions4
-	  add_ideas = defensive_military_strategy
-	 }
+    completion_reward = {
+        add_war_support = 0.01
+	    add_ideas = defensive_constructions4
+	    add_ideas = defensive_military_strategy
+	}
 
 		ai_will_do = {
 			factor = 35
@@ -555,11 +555,11 @@
 
 	
 		completion_reward = {
-		add_political_power = 100
-		increase_conservative_influence_by_1 = yes
-	    add_popularity = {
-	    ideology = conservative
-	    popularity = 0.02 } 
+		    add_political_power = 100
+	        add_popularity = {
+	            ideology = conservative
+	            popularity = 0.02 
+			} 
 		}
 		
 		ai_will_do = {
@@ -670,10 +670,10 @@
 
 	
 		completion_reward = {
-		add_popularity = {
-	    ideology = conservative
-	    popularity = 0.02 }
-        increase_conservative_influence_by_1 = yes		
+		    add_popularity = {
+	            ideology = conservative
+	            popularity = 0.02 
+		    }	
 		}
 		
 		ai_will_do = {
@@ -893,14 +893,14 @@
 
 	
 		completion_reward = {
-		PRC = { add_popularity = {
-	    ideology = conservative
-	    popularity = 0.1
-		}
-		add_stability = -0.01
-		country_event = generic.1
-		increase_conservative_influence_by_1 = yes
-		}
+		    PRC = {
+		        add_popularity = {
+	                ideology = conservative
+	                popularity = 0.1
+		        }
+		        add_stability = -0.01
+		        country_event = generic.1
+		    }
 		}
 		
 		ai_will_do = {
@@ -1968,11 +1968,11 @@
 		
 	
 		completion_reward = {
-		add_political_power = 200
-		add_popularity = {
-	    ideology = social_liberal
-	    popularity = 0.1 }
-		increase_social_liberal_influence_by_1 = yes
+		    add_political_power = 200
+		    add_popularity = {
+	            ideology = social_liberal
+	            popularity = 0.1
+			}
         }		
 		ai_will_do = {
 			factor = 35
