@@ -13312,7 +13312,7 @@
 13311;109;140;123;land;false;desert;0
 13312;224;159;161;land;false;desert;0
 13313;82;117;140;land;false;mountain;0
-13314;221;191;188;land;false;desert;0
+13314;221;191;188;land;true;plains;0
 13315;224;221;177;land;false;hills;0
 13316;142;132;115;land;false;desert;0
 13317;94;94;41;land;false;desert;0

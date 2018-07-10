@@ -10,6 +10,9 @@ ideologies = {
 			oligarchist = {
 			}
 			
+			independent = {
+			}
+			
 		}
 		
 		dynamic_faction_names = {

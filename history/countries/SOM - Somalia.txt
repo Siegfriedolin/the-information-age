@@ -1,6 +1,6 @@
 ﻿capital = 559
 
-oob = "SOM_2000"
+oob = "SOM_2018"
 
 set_research_slots = 2
 set_convoys = 30
@@ -100,35 +100,29 @@ add_ideas = {
 
 set_politics = {
 	parties = {
-		islamist = { popularity = 28 }
-		nationalist = { popularity = 18 }
-		reactionary = { popularity = 36 }        
-		conservative = { popularity = 8 }
-		social_liberal = ( popularity = 10 } 
+		islamist = { popularity = 29.5 }
+		nationalist = { popularity = 0 }
+		reactionary = { popularity = 14.6 }        
+		conservative = { popularity = 0 }
+		social_liberal = ( popularity = 55.9 } 
 	}
 	
-	ruling_party = reactionary
-	last_election = "2000.8.27"
-	election_frequency = 48
+	ruling_party = social_liberal
+	last_election = "2017.2.8"
+	election_frequency = 60
 	elections_allowed = yes
 }
 
 create_country_leader = {
-	name = "Abdiqasim Salad Hassan"
-	picture = "Abdiqasim_S_Hassan.dds"
-	ideology = counter_progressive_democrat
+	name = "Hassan Sheikh Mohamud"
+	picture = "Hassan_Sheikh_Mohamud.dds"
+	ideology = sunni_islamism
 }
 
-create_country_leader = {
-	name = "Ahmed Omar"
-	picture = "Ahmed_Omar.dds"
-	ideology = salafism
-}
-
-create_country_leader = {
-	name = "Mohamed Abdullahi Mohamed" 
+create_country_leader = {   
+	name = "Mohamed Abdullahi Mohamed"
 	picture = "Mohamed_Abdullahi_Mohamed.dds"
-	ideology = centrist
+	ideology = liberalist
 }
 
 create_country_leader = {   
@@ -156,9 +150,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Ali Mohammed Ghedi"
-	picture = "Ali_Ghedi.dds"
-	ideology = social_democrat_ideology
+	name = "Sharif Sheikh Ahmed"
+	picture = "Sharif_Sheikh_Ahmed.dds"
+	ideology = independent
 }
 
 create_country_leader = {
@@ -220,19 +214,4 @@ create_navy_leader = {
 	picture = "Mohamed_Isse_Ali.dds" 
 	traits = { spotter }
 	skill = 2
-}
-
-
-2016.1.1 = {
-	create_country_leader = {
-		name = "Hassan Sheikh Mohamud"
-		picture = "Hassan_S_Mohamud.dds"
-		ideology = counter_progressive_democrat
-	}
-	
-	create_country_leader = {   
-	name = "Maryam Qaasim"
-	picture = "Portrait_SOM_Maryam_Qaasim.dds"
-	ideology = liberalist
-	}
 }

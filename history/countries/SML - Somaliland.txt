@@ -1,6 +1,6 @@
 ﻿capital = 269
 
-oob = "SML_2000"
+oob = "SML_2018"
 
 set_research_slots = 2
 set_convoys = 10
@@ -100,42 +100,28 @@ add_ideas = {
 set_politics = {
 
 	parties = {
-		islamist = {
-			popularity = 42
-		}
-		conservative = {
-			popularity = 22
-		}
 		social_democrat = {
-			popularity = 20
+			popularity = 55.1
 		}
-		democratic_socialist = {
-			popularity = 12
-		}
-		communist = {
-			popularity = 3
-		}
-		progressive = {
-			popularity = 1
+		social_liberal = {
+			popularity = 44.9
 		}
 	}
 	
-	ruling_party = islamist
-	last_election = "1997.6.15"
+	ruling_party = social_democrat
+	last_election = "2017.11.13"
 	election_frequency = 60
 	elections_allowed = yes
 }
 
 create_country_leader = {
-	name = "Mohammed H. I. Egal"
-	picture = "Mohammed_HI_Egal.dds"
-	ideology = sunni_islamism
+	name = "Muse Bihi Abdi"
+	picture = "Muse_Bihi_Abdi.dds"
+	ideology = social_democrat_ideology
 }
 
-2010.1.1 = {
-	create_country_leader = {
-		name = "Ahmed Mohammed Mahamoud"
-		picture = "Ahmed_M_Mahamoud.dds"
-		ideology = sunni_islamism
-	}
+create_country_leader = {
+	name = "Abdirahman Mohamed Abdullahi"
+	picture = "Abdirahman_Mohamed_Abdullahi.dds"
+	ideology = liberalist
 }

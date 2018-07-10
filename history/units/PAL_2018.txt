@@ -10,12 +10,13 @@ units = {
 	division = {
 		name = "Izz ad-Din al-Qassam Brigades"
 		location = 4088
-		division_template = "Militia"
+		division_template = "Islamist Militia"
 		start_experience_factor = 0.2
 	}
 	division = {
 		name = "Palestinian Islamic Jihad"
 		location = 4088
-		division_template = "Militia"
+		division_template = "Islamist Militia"
 		start_experience_factor = 0.1
 	}
+}
