@@ -1,6 +1,6 @@
 ﻿capital = 303
 
-oob = "PRU_2000"
+oob = "PRU_2018"
 
 set_research_slots = 3
 set_convoys = 110
@@ -101,43 +101,43 @@ add_ideas = {
 set_politics = {
 	parties = {		
 		nationalist = {
-			popularity = 9
+			popularity = 7
 		}
 		reactionary = {
-			popularity = 66
+			popularity = 28
 		}
 		conservative = {
-			popularity = 15
+			popularity = 6
 		}
 		market_liberal = {
-			popularity = 5
+			popularity = 40
 		}
 		social_liberal = {
-			popularity = 5
+			popularity = 19
 		}
 	}
 	
-	ruling_party = reactionary
-	last_election = "1995.7.28"
+	ruling_party = market_liberal
+	last_election = "2016.6.5"
 	election_frequency = 60
 	elections_allowed = yes
 }
 
 create_country_leader = {
-	name = "Alberto Fujimori"
-	picture = "Alberto_Fujimori.dds"
+	name = "Keiko Fujimori"
+	picture = "Keiko_Fujimori.dds"
 	ideology = counter_progressive_democrat
 }
 
 create_country_leader = {
-	name = "Valentín Paniagua"
-	picture = "Valentin_Paniagua.dds"
+	name = "Alfredo Barnechea"
+	picture = "Alfredo_Barnechea.dds"
 	ideology = national_democrat
 }
 
 create_country_leader = {
-	name = "Alejandro Toledo"
-	picture = "Alejandro_Toledo.dds"
+	name = "Pedro Pablo Kuczynski"
+	picture = "Pedro_Pablo_Kuczynski.dds"
 	ideology = libertarian
 }
 
@@ -157,6 +157,12 @@ create_country_leader = {
 	name = "Martín Mayta"
 	picture = "Martin_Matya.dds"
 	ideology = national_socialist
+}
+
+create_country_leader = {
+	name = "Veronika Mendoza"
+	picture = "Veronika_Mendoza.dds"
+	ideology = liberalist
 }
 
 create_country_leader = {
@@ -258,53 +264,3 @@ create_navy_leader = {
 	traits = { seawolf }
 	skill = 1
 }
-
-2011.7.28 = {
-	create_country_leader = {
-		name = "Keiko Fujimori"
-		picture = "Keiko_Fujimori.dds"
-		ideology = counter_progressive_democrat
-	}
-}
-
-2016.1.1 = {
-	set_politics = {
-		parties = {		
-			nationalist = {
-				popularity = 7
-			}
-			reactionary = {
-				popularity = 28
-			}
-			conservative = {
-				popularity = 6
-			}
-			market_liberal = {
-				popularity = 40
-			}
-			social_liberal = {
-				popularity = 19
-			}
-		}
-		
-		ruling_party = market_liberal
-		last_election = 2011.7.28
-		elections_allowed = yes
-	}
-	create_country_leader = {
-		name = "Pedro Kuczynski"
-		picture = "Pedro_Kuczynski.dds"
-		ideology = libertarian
-	}
-	create_country_leader = {
-		name = "Alfredo Barnechea"
-		picture = "Alfredo_Barnechea.dds"
-		ideology = national_democrat
-	}
-	create_country_leader = {
-		name = "Veronika Mendoza"
-		picture = "Veronika_Mendoza.dds"
-		ideology = liberalist
-	}
-}
-
