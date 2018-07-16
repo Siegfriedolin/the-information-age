@@ -1927,8 +1927,13 @@
  cia.1.t:0 "Welcome to The Information Age!"
  cia.1.d:0 "Welcome to The Information Age, a spinoff of Millenium Dawn created by Generalis, Silver and CMDR Voltages! Special thanks to Millenium Dawn for allowing us to use their mod files, Modern Day 4 for a lot of assets, and for the Iron Curtain team for helping us in modding. Please check their mods out!"
  cia.1.o1:0 "Cool!"
- russia_news.9.t:0 "Grigory Yavlinsky discredits Putins rule.
- russia_news.9.d:0 "In the recent election Grigory Yavlinsky talks about the future of Russia and discredits Putins rule saying: "Putin has been running Russia under his own eyes and putting the pepole in fear of speaking out against his rule. He has weakened Russia and ruined our relations with the United States of America and all of Europe."
  cia.2.t:0 "Baltic countries reach 100 years of independence!"
  cia.2.d:0 "The three Baltic states of the former soviet union are celebrating there declaration of independence as it has reached 100 years. The pepole of the Baltic countries of Estonia, Latvia and Lithuania are celebrating with pride and liberty as there countries fought threw the Soviet occupation and in 1991 they regained there independence as the Soviet Union dissolved."
  cia.2.o1:0 "Who?"
+ russia_news.9.t:0 "Grigory Yavlinsky discredits Putins rule.
+ russia_news.9.d:0 "In the recent election Grigory Yavlinsky talks about the future of Russia and discredits Putins rule saying: "Putin has been running Russia under his own eyes and putting the pepole in fear of speaking out against his rule. He has weakened Russia and ruined our relations with the United States of America and all of Europe."
+ eurovision.1.t:0 "Eurovision Song Contest 2018"
+ eurovision.1.d:0 "The Eurovision Song Contest 2018 was the 63rd edition of the annual Eurovision Song Contest. It took place for the first time in Portugal following the country's first victory at the 2017 contest in Kiev, Ukraine with the song Amar pelos dois, performed by Salvador Sobral. The contest was held at the Altice Arena in Lisbon, and consisted of two semi-finals on 8 and 10 May, and the final on 12 May 2018. Forty-three countries participated in the contest, equalling the record of the 2008 and 2011 editions. Russia returned after their absence from the previous edition, and for the first time since 2011, no country withdrew from the contest. The winner was Israel with the song Toy, performed by Netta. This was Israel's fourth victory in the contest, following their wins in 1978, 1979, and 1998."
+ eurovision.o1:0 "A great day for our nation!"
+ eurovision.o2:0 "Congratulations to Israel!"
+ eurovision.o3:0 "We will retaliate against the Zionist scum!"
