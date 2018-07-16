@@ -1,0 +1,22 @@
+
+state={
+	id=928
+	name="STATE_928"
+
+	history={
+		owner = SOM
+		add_core_of = SOM
+		buildings = {
+			infrastructure = 3
+
+		}
+
+	}
+
+	provinces={
+		11014 12941 13370 
+	}
+	manpower=953045
+	buildings_max_level_factor=1.000
+	state_category=state_level_2
+}

@@ -43,7 +43,6 @@ education_policy = {
 		complete_effect = {
 			set_country_flag = racial_theories_in_schools
 			add_stability = -0.05
-			increase_fascist_influence_by_1 = yes
 			add_popularity = { ideology = fascist popularity = 0.03 }
 			every_country = {
 				limit = {
@@ -114,9 +113,6 @@ education_policy = {
 				limit = { has_democratic_form_of_government = yes }
 				add_stability = 0.01
 			}
-			decrease_fascist_influence_by_1 = yes
-			decrease_communist_influence_by_1 = yes
-			decrease_nationalist_influence_by_1 = yes
 		}
 		
 		icon = democracy
@@ -146,7 +142,6 @@ education_policy = {
 		complete_effect = {
 			set_country_flag = embraced_far_left_philosophy
 			add_stability = -0.01
-			increase_communist_influence_by_1 = yes
 		}
 		
 		icon = communism

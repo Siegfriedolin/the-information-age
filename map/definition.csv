@@ -13368,7 +13368,7 @@
 13367;255;188;253;land;false;desert;0
 13368;252;178;255;land;false;desert;0
 13369;153;99;165;land;false;desert;0
-13370;173;245;255;land;false;desert;0
+13370;173;245;255;land;true;plains;0
 13371;255;185;132;land;false;plains;0
 13372;255;170;189;land;false;desert;0
 13373;200;122;219;land;false;hills;0
