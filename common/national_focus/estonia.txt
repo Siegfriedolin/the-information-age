@@ -59,7 +59,7 @@ focus_tree = {
 		
 		mutually_exclusive = {
 		    focus = EST_nationalist_pride
-			focus = EST_same_order
+			focus = EST_democracy
 		}
 		
 		completion_reward = {
@@ -92,7 +92,7 @@ focus_tree = {
 		
 		mutually_exclusive = {
 		    focus = EST_socialist_unity
-			focus = EST_same_order
+			focus = EST_democracy
 		}
 		
 		completion_reward = {
@@ -168,7 +168,7 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = EST_same_order
+		id = EST_democracy
 		icon = industry_democratic
 		
 		x = 5
@@ -203,7 +203,7 @@ focus_tree = {
 		id = EST_social_ideas
 		icon = anti_comintern_pact
 		
-		x = 11
+		x = 7
 		y = 2
 		
 		cost = 10
@@ -213,7 +213,7 @@ focus_tree = {
 		available_if_capitulated = yes
 		
 		prerequisite = {
-			focus = EST_socialist_unity
+			focus = EST_democracy
 		}
 		
 		mutually_exclusive = {
