@@ -862,6 +862,10 @@ ISS = {
 	color = rgb { 80 80 80 }
 	color_ui = rgb { 80 80 80 }
 }
+HSM = {
+	color = rgb { 80 80 80 }
+	color_ui = rgb { 80 80 80 }
+}
 NOV = {
 	color = rgb { 152 71 131 }
 	color_ui = rgb { 152 71 131 }

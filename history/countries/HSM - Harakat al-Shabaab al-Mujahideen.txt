@@ -1,6 +1,6 @@
 ﻿capital = 680
 
-oob = "ISS_2018"
+oob = "HSM_2018"
 
 set_research_slots = 1
 set_convoys = 1
@@ -92,14 +92,13 @@ set_politics = {
 	}
 	
 	ruling_party = islamist
-	last_election = "2013.4.7"
+	last_election = "2018.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 add_ideas = {
 	population_growth_rapid
-	partially_recognized_state
 	service_by_requirement
 	war_economy
 	closed_economy
@@ -116,28 +115,19 @@ remove_ideas = idea_focus_generic_path_of_order
 remove_ideas = idea_focus_generic_national_strength
 
 declare_war_on = {
-	target = ROJ
-	type = annex_everything
-}
-declare_war_on = {
-	target = SYR
-	type = annex_everything
-}
-declare_war_on = {
-	target = FSA
+	target = SOM
 	type = annex_everything
 }
 
 create_country_leader = {
-	name = "Abu Bakr al-Baghdadi"
-	picture = "Abu_Bakr.dds"
+	name = "Ahmad Umar"
+	picture = "Ahmad_Umar.dds"
 	ideology = salafism
-	traits = { defensive_strategist }
 }
 
 
 create_corps_commander = {
-	name = "Abu Hamza al-Amriki"
-	picture = "Abu_Hamza_al_Amriki.dds"	
+	name = "Abdulkadir Mohamed Abdulkadir"
+	picture = "Abdulkadir_Mohamed_Abdulkadir.dds"	
 	skill = 2
 }
