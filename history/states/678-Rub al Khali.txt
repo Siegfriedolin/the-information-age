@@ -2,24 +2,35 @@
 state={
 	id=678
 	name="STATE_678"
-	manpower=460250
-	state_category = state_level_2
-	
 	resources={
-		oil=105
+		oil=105.000
 	}
 
 	history={
 		owner = SAU
 		buildings = {
 			infrastructure = 2
-			industrial_complex = 1
+			industrial_complex = 3
+			dockyard = 1
+			12702 = {
+				naval_base = 6
+
+			}
 		}
-		victory_points = { 8030 3 }
+		victory_points = {
+			8030 3 
+		}
+		victory_points = {
+			12702 10 
+		}
 		add_core_of = SAU
+
 	}
 
 	provinces={
-		4932 5081 8030 8118 10870 12740 12768 
+		1955 4932 5024 5081 7995 8118 10791 10850 10923 12702 12740 12749 
 	}
+	manpower=4105780
+	buildings_max_level_factor=1.000
+	state_category=state_level_5
 }

@@ -5004,7 +5004,7 @@
 5003;51;102;153;land;false;desert;6
 5004;51;102;208;land;false;desert;5
 5005;51;105;68;land;true;desert;7
-5006;51;105;173;land;false;desert;7
+5006;51;105;173;land;true;hills;7
 5007;51;108;33;land;false;hills;6
 5008;51;108;88;land;false;jungle;3
 5009;51;108;138;land;false;mountain;6

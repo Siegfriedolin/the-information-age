@@ -167,7 +167,7 @@ set_politics = {
 	elections_allowed = yes
 }
 
-create_faction = CSTO
+create_faction = "Collective Security Treaty Organization"
 add_to_faction = SOV
 add_to_faction = BLR
 add_to_faction = ARM
@@ -178,7 +178,6 @@ add_to_faction = KYR
 give_guarantee = ABK
 give_guarantee = SOS
 give_guarantee = TRA
-give_guarantee = PRC
 
 give_military_access = SOS
 give_military_access = ABK

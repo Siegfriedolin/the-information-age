@@ -111,46 +111,58 @@ set_politics = {
 
 	parties = {
 		nationalist = {
-			popularity = 3
+			popularity = 0
 		}
 		reactionary = {
-			popularity = 7
+			popularity = 8.1
 		}
 		conservative = {
-			popularity = 35
+			popularity = 22.4
 		}
 		market_liberal = {
-			popularity = 35
+			popularity = 27.7
 		}
 		social_liberal = {
-			popularity = 3
+			popularity = 24.8
 		}
 		social_democrat = {
-			popularity = 7
+			popularity = 15.2
 		}
 		progressive = {
-			popularity = 2
+			popularity = 0
 		}
 		democratic_socialist = {
-			popularity = 8
+			popularity = 0
 		}
 	}	
-	ruling_party = market_liberal
-	last_election = "2017.10.15"
+	ruling_party = social_liberal
+	last_election = "2015.3.3"
 	election_frequency = 48
 	elections_allowed = yes
 }
 
 create_country_leader = {
-	name = "Mart Laar"
-	picture = "Mart_Laar.dds"
+	name = "Helir-Valdor Seeder"
+	picture = "Helir_Valdor_Seeder.dds"
 	ideology = christian_democrat
 }
 
 create_country_leader = {
 	name = "Hanno Pevkur"
-	picture = "Hanno_Pevkuri.dds"
+	picture = "Hanno_Pevkur.dds"
 	ideology = libertarian
+}
+
+create_country_leader = {
+	name = "Jüri Ratas"
+	picture = "Juri_Ratas.dds"
+	ideology = liberalist
+}
+
+create_country_leader = {
+	name = "Mart Helme"
+	picture = "Mart_Helme.dds"
+	ideology = counter_progressive_democrat
 }
 
 create_country_leader = {
