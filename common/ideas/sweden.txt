@@ -17,4 +17,82 @@ ideas = {
 		}
 	}
 	
+	defence_minister = {
+	
+		peter_hultqvist = {
+			
+			allowed = {
+				original_tag = SWE
+			}
+			
+			traits = { social_democrat_party_membership }
+		}
+	
+	}
+	
+	foreign_minister = {
+	
+		margot_wallstrom = {
+			
+			allowed = {
+				original_tag = SWE
+			}
+			
+			traits = { social_democrat_party_membership }
+		}
+	
+	}
+	
+	finance_minister = {
+	
+		magdalena_andersson = {
+			
+			allowed = {
+				original_tag = SWE
+			}
+			
+			traits = { social_democrat_party_membership }
+		}
+	
+	}
+	
+	commerce_minister = {
+	
+		mikael_damberg = {
+			
+			allowed = {
+				original_tag = SWE
+			}
+			
+			traits = { social_democrat_party_membership }
+		}
+	
+	}
+	
+	justice_minister = {
+	
+		morgan_johansson = {
+			
+			allowed = {
+				original_tag = SWE
+			}
+			
+			traits = { social_democrat_party_membership }
+		}
+	
+	}
+	
+	culture_minister = {
+	
+		alice_bah_kuhnke = {
+			
+			allowed = {
+				original_tag = SWE
+			}
+			
+			traits = { progressive_party_membership }
+		}
+	
+	}
+	
 }
