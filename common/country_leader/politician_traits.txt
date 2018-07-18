@@ -262,6 +262,7 @@ leader_traits = {
 		random = yes
 		
 		trade_opinion_factor = 0.2
+		opinion_gain_monthly_factor = 0.2
 		political_power_factor = 0.05
 		
 		ai_will_do = { factor = 1 }
@@ -299,6 +300,14 @@ leader_traits = {
 		justify_war_goal_time = -0.1
 		political_power_factor = -0.15
 		stability_weekly = -0.001
+		
+		ai_will_do = { factor = 1 }
+	}
+	
+	celebrity = {
+		
+		opinion_gain_monthly_factor = 0.1
+		stability_factor = 0.02
 		
 		ai_will_do = { factor = 1 }
 	}

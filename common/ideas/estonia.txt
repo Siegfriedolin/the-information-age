@@ -90,6 +90,21 @@ ideas = {
 				smooth_talking_charmer
             }
 		}
+	}
+	
+	culture_minister = {
+	
+		indrek_saar = {
+			
+			allowed = {
+				original_tag = EST
+			}
+			
+			traits = {
+			    social_democrat_party_membership
+				celebrity
+            }
+		}
 	
 	}
 	

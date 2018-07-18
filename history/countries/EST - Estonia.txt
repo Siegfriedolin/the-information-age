@@ -107,6 +107,7 @@ add_ideas = {
 	EST_gray_citizenship
 	toomas_toniste
 	sven_mikser
+	indrek_saar
 }
 
 set_politics = {
