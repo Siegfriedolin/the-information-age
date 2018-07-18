@@ -210,7 +210,7 @@ add_ideas = {
 	idea_united_nations_security_council_member
 }
 
-create_faction = NATO
+create_faction = "North Atlantic Treaty Organization"
 
 add_to_faction = USA
 add_to_faction = BEL

@@ -104,7 +104,7 @@ units = {
 	}
 	division = {
 		name = "Jaysh Usud al-Sharqiya"
-		location = 10383
+		location = 13366
 		division_template = "Militia Brigade"
 		start_experience_factor = 0.2
 	}
