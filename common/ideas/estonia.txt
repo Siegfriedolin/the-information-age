@@ -20,8 +20,8 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-			    industrial_capacity_factory = 0.05
-				trade_opinion_factor = 0.15
+			    industrial_capacity_factory = 0.10
+				trade_opinion_factor = 0.10
 				consumer_goods_factor = -0.03
 			}
 		}
@@ -45,7 +45,7 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				stability_factor = 0.05
+				stability_factor = 0.02
 			}
 		}
 			EST_gray_citizenship = {
