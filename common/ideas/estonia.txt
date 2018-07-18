@@ -105,7 +105,37 @@ ideas = {
 				celebrity
             }
 		}
+	}
+    
+	justice_minister = {
 	
+		urmas_reinsalu = {
+			
+			allowed = {
+				original_tag = EST
+			}
+			
+			traits = {
+			    conservative_party_membership
+            }
+		}
+	}
+	
+	defence_minister = {
+	
+		jüri_luik = {
+			
+			allowed = {
+				original_tag = EST
+			}
+			
+			traits = {
+			    conservative_party_membership
+				experienced_politician
+				warfare_expert
+            }
+		}
+		
 	}
 	
 }

@@ -108,6 +108,8 @@ add_ideas = {
 	toomas_toniste
 	sven_mikser
 	indrek_saar
+	urmas_reinsalu
+	jüri_luik
 }
 
 set_politics = {
