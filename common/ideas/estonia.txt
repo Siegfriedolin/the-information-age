@@ -62,4 +62,17 @@ ideas = {
 	
 	}
 	
+	finance_minister = {
+	
+		toomas_toniste = {
+			
+			allowed = {
+				original_tag = EST
+			}
+			
+			traits = {  }
+		}
+	
+	}
+	
 }
