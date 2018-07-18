@@ -79,6 +79,10 @@
  judiciary_policy:0 "Judiciary Policy"
  ##Legislative Policy
  legislative_policy:0 "Legislative Policy"
+ #Foreign Policy
+ foreign_policy:0 "Foreign Policy"
+ declare_neutrality:0 "Declare Neutrality"
+ abandon_neutrality:0 "Abandon Neutrality"
  #Army Decisions
  army_decisions:0 "Army"
  expand_the_army_officer_corps:0 "Expand the Army Officer Corps"

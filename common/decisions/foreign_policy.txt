@@ -1,0 +1,52 @@
+foreign_policy = {
+	
+	declare_neutrality = {
+		visible = {
+			is_in_faction = no
+		}
+		available = {
+            is_in_faction = no
+			has_war = no
+		}
+		modifier = {
+		}
+		remove = {
+		}
+		complete_effect = {
+			add_ideas = neutrality_idea
+		}
+		
+		icon = democracy
+		
+		cost = 10
+		
+		ai_will_do = {
+			base = 0
+		}
+	}
+	
+	abandon_neutrality = {
+		visible = {
+			has_idea = neutrality_idea
+		}
+		available = {
+            always = yes
+		}
+		modifier = {
+		}
+		remove = {
+		}
+		complete_effect = {
+			remove_ideas = neutrality_idea
+			add_named_threat = { threat = 5 name = "Abandoned Neutrality" }		
+		}
+		
+		icon = democracy
+		
+		cost = 10
+		
+		ai_will_do = {
+			base = 0
+		}
+	}
+}

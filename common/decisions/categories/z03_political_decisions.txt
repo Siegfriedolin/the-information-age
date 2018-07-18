@@ -21,3 +21,7 @@ judiciary_policy = {
 legislative_policy = {
 	icon = politics
 }
+
+foreign_policy = {
+	icon = politics
+}

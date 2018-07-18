@@ -1,6 +1,6 @@
 ﻿capital = 835
 
-oob = "HLS_2000"
+oob = "HLS_2018"
 
 set_research_slots = 1
 set_convoys = 1
@@ -91,6 +91,7 @@ add_ideas = {
 	population_growth_stagnation
 	idea_HLS_holy_see
 	disarmed_nation
+	the_euro
 	neutrality_idea
 }
 
@@ -101,33 +102,13 @@ set_politics = {
 		}
 	}
 	ruling_party = monarchist
-	last_election = "1998.9.20"
+	last_election = "2013.3.13"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 create_country_leader = {
-	name = "John Paul II"
+	name = "Francis"
+	picture = "Francis.dds"
 	ideology = pope
-	picture = "John_Paul_2.dds"
-}
-
-2002.1.1 = {
-	add_ideas = the_euro
-}
-
-2005.4.2 = {
-	create_country_leader = {
-		name = "Benedict XVI"
-		ideology = pope
-		picture = "Benedict_16.dds"
-	}
-}
-
-2014.1.1 = {
-	create_country_leader = {
-		name = "Francis"
-		ideology = pope
-		picture = "Francis_1.dds"
-	}
 }

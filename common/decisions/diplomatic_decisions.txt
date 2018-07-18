@@ -10,7 +10,7 @@ diplomatic_decisions = {
 		target_trigger = {
 			exists = yes
 			FROM = { is_neighbor_of = ROOT }
-			FROM = { NOT = { tag = ISS } }
+			FROM = { NOT = { original_tag = ISS has_war_with = ROOT } }
 		}
 		
 		available = {
