@@ -230,7 +230,7 @@ scripted_gui = {
 			state_riseup_partisan_click = {
 				weight = 1
 				ai_will_do = {
-					factor = 200
+					factor = 1000
 				}
 			}
 		}
