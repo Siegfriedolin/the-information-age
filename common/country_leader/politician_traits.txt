@@ -303,11 +303,4 @@ leader_traits = {
 		ai_will_do = { factor = 1 }
 	}
 	
-	Conservative = {
-		
-		conservative_drift = 0.01
-		
-		ai_will_do = { factor = 1 }
-	}
-	
 }

@@ -71,7 +71,7 @@ ideas = {
 			}
 			
 			traits = {
-			    Conservative
+			    conservative_party_membership
 				financial_veteran
             }
 		}
