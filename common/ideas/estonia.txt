@@ -75,6 +75,7 @@ ideas = {
 				financial_veteran
             }
 		}
+	}
 	
 	foreign_affairs_minister = {
 	
