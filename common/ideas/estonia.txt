@@ -123,7 +123,7 @@ ideas = {
 	
 	defence_minister = {
 	
-		jüri_luik = {
+		juri_luik = {
 			
 			allowed = {
 				original_tag = EST
