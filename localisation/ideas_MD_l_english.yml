@@ -3,32 +3,37 @@
  ###Law Categories###
  ####################
  government:0 "Government Policy"
- cabinet:0 "Cabinet"
  homosexual_rights:0 "Stance on Homosexuality"
+ 
  ###Laws###
  #Homosexuality Laws
  homosexuality_persecuted:0 "Persecution"
  homosexuality_banned:0 "Ban"
  homosexuality_tolerated:0 "Tolerance"
  homosexuality_equalized:0 "Equality"
+ 
  #Cabinet
+ cabinet:0 "Cabinet"
  defence_minister:0 "Minister of Defence"
  foreign_affairs_minister:0 "Minister of Foreign Affairs"
  finance_minister:0 "Minister of Finance"
  commerce_minister:0 "Minister of Commerce"
  justice_minister:0 "Minister of Justice"
  culture_minister:0 "Minister of Culture"
+ 
  #Female Rights
  female_rights:0 "Female Rights"
  female_rights_patriarchy:0 "Patriarchy"
  female_rights_traditional_values:0 "Traditional Values"
  female_rights_equal_rights:0 "Gender Equality"
+ 
  #Immigration Laws
  immigration_policy:0 "Immigration Policy"
  immigration_closed_borders:0 "Closed Borders"
  immigration_heavily_regulated:0 "Heavily Regulated"
  immigration_lightly_regulated:0 "Lightly Regulated"
  immigration_open_country:0 "Open Country"
+ 
  #Tax Policy
  tax_policy:0 "Tax Policy"
  very_high_taxes:0 "Very High Taxes"
@@ -36,11 +41,13 @@
  moderate_taxes:0 "Moderate Taxes"
  low_taxes:0 "Low Taxes"
  very_low_taxes:0 "Very Low Taxes"
+ 
  #Popularities
  national_policy:0 "National Policy"
  national_circumstances:0 "National Circumstances"
  stability:0 "Stability"
  population_growth:0 "Population Growth"
+ 
  #Population Growth
  population_growth_explosion:0 "Insane Birth Rate"
  population_growth_explosion_desc:0 "This country is experiencing a massive population growth. The birth rate is out of control."
