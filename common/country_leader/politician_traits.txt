@@ -108,7 +108,6 @@ leader_traits = {
 		
 		consumer_goods_factor = -0.02
 		political_power_factor = 0.05
-		justify_war_goal_time = 0.4
 		
 		ai_will_do = { factor = 1 }
 	}
@@ -300,6 +299,13 @@ leader_traits = {
 		justify_war_goal_time = -0.1
 		political_power_factor = -0.15
 		stability_weekly = -0.001
+		
+		ai_will_do = { factor = 1 }
+	}
+	
+	Conservative = {
+		
+		conservative_drift = 0.01
 		
 		ai_will_do = { factor = 1 }
 	}

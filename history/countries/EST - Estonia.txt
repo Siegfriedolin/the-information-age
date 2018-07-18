@@ -105,6 +105,7 @@ add_ideas = {
 	EST_the_baltic_tiger
 	EST_russian_minority
 	EST_gray_citizenship
+	toomas_toniste
 }
 
 set_politics = {

@@ -70,7 +70,10 @@ ideas = {
 				original_tag = EST
 			}
 			
-			traits = {  }
+			traits = {
+			    Conservative
+				financial_veteran
+            }
 		}
 	
 	}
