@@ -106,6 +106,7 @@ add_ideas = {
 	EST_russian_minority
 	EST_gray_citizenship
 	toomas_toniste
+	sven_mikser
 }
 
 set_politics = {
