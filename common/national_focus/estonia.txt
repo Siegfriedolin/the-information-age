@@ -295,7 +295,6 @@ focus_tree = {
 				}
 			}
 			
-			
 			LAT = {
 				add_opinion_modifier = {
 					target = EST
