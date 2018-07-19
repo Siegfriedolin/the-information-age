@@ -215,7 +215,9 @@ focus_tree = {
 		    focus = EST_baltic_stability
 		}
 		
-		mutually_exclusive = {}
+		mutually_exclusive = {
+		    focus = EST_new_dream
+		}
 		
 		completion_reward = {
 		    add_stability = 0.02
@@ -245,7 +247,9 @@ focus_tree = {
 		    focus = EST_baltic_stability
 		}
 		
-		mutually_exclusive = {}
+		mutually_exclusive = {
+		    focus = EST_one_dream
+		}
 		
 		completion_reward = {
 		    add_stability = 0.02
@@ -441,10 +445,10 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = EST_social_ideas
-		icon = anti_comintern_pact
+		id = EST_provide_subsidies_to_farmers
+		icon = farming_industry
 		
-		x = 7
+		x = 9
 		y = 3
 		
 		cost = 10
@@ -460,7 +464,11 @@ focus_tree = {
 		mutually_exclusive = {}
 		
 		completion_reward = {
+		    add_ideas = EST_agricultural_subsidies
 		    add_stability = 0.02
+			add_political_power = -70
+			
+			
 		}
 		
 		ai_will_do = {
@@ -848,105 +856,6 @@ focus_tree = {
 					}
 				}
 			}
-		}
-		
-		ai_will_do = {
-			factor = 10
-		}
-	}
-	
-		focus = {
-		id = EST_support_VKG
-		icon = oil_production
-		
-		x = 2
-		y = 3
-		
-		cost = 10
-        
-		cancel_if_invalid = no
-		continue_if_invalid = yes
-		available_if_capitulated = yes
-		
-		prerequisite = {
-			focus = EST_first_five_year_plan
-		}
-		
-		mutually_exclusive = {
-		    focus = EST_support_alternative_energy
-		}
-		
-		completion_reward = {
-		add_stability = -0.02
-			840 = {
-				add_resource = {
-					type = oil
-					amount = 4
-				}
-			}
-		}
-		
-		ai_will_do = {
-			factor = 10
-		}
-	}
-	
-		focus = {
-		id = EST_support_alternative_energy
-		icon = agriculture
-		
-		x = 0
-		y = 3
-		
-		cost = 10
-        
-		cancel_if_invalid = no
-		continue_if_invalid = yes
-		available_if_capitulated = yes
-		
-		prerequisite = {
-			focus = EST_first_five_year_plan
-		}
-		
-		mutually_exclusive = {
-		    focus = EST_support_VKG
-		}
-		
-		completion_reward = {
-		add_stability = 0.02
-			13 = {
-				add_resource = {
-					type = steel
-					amount = 4
-				}
-			}
-		}
-		
-		ai_will_do = {
-			factor = 10
-		}
-	}
-	
-		focus = {
-		id = EST_first_five_year_plan
-		icon = construction
-		x = 1
-		y = 2
-		
-		cost = 10
-        
-		cancel_if_invalid = no
-		continue_if_invalid = yes
-		available_if_capitulated = yes
-		
-        prerequisite = { focus = EST_industrial_focus }
-		prerequisite = { focus = EST_expand_the_E263}
-		
-		mutually_exclusive = {}
-		
-		completion_reward = {
-		add_stability = 0.02
-		add_ideas = civilian_industry_project
 		}
 		
 		ai_will_do = {

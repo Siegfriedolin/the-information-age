@@ -59,6 +59,16 @@ ideas = {
 				political_power_gain = -0.10
 			}
 		}
+			EST_agricultural_subsidies = {
+			picture = agriculture
+			
+			removal_cost = -1
+			
+			modifier = {
+                monthly_population = 0.06
+				consumer_goods_factor = 0.02
+			}
+		}
 	
 	}
 	
