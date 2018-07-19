@@ -282,6 +282,19 @@ focus_tree = {
 				ideology = progressive
 				popularity = 0.03
 			}
+			LAT = {
+			    add_popularity = {
+				    ideology = progressive
+				    popularity = 0.03
+				}
+			}
+			LIT = {
+			    add_popularity = {
+				    ideology = progressive
+				    popularity = 0.03
+				}
+			}
+			
 			
 			LAT = {
 				add_opinion_modifier = {
