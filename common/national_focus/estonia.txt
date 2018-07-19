@@ -21,7 +21,7 @@ focus_tree = {
 	    id = EST_baltic_unity
 		icon = national_unity
 		
-		x = 13
+		x = 15
 		y = 0
 		
 		cost = 10
@@ -59,7 +59,7 @@ focus_tree = {
 		
 		mutually_exclusive = {
 		    focus = EST_nationalist_pride
-			focus = EST_democracy
+			focus = EST_ensure_democracy
 		}
 		
 		completion_reward = {
@@ -92,7 +92,7 @@ focus_tree = {
 		
 		mutually_exclusive = {
 		    focus = EST_socialist_unity
-			focus = EST_democracy
+			focus = EST_ensure_democracy
 		}
 		
 		completion_reward = {
@@ -153,13 +153,10 @@ focus_tree = {
 			focus = EST_socialist_unity
 		}
 		
-		mutually_exclusive = {
-		    focus = EST_social_ideas
-		}
+		mutually_exclusive = {}
 		
 		completion_reward = {
 		    add_stability = -0.05
-            increase_communist_influence_by_1 = yes
 		}
 		
 		ai_will_do = {
@@ -168,8 +165,8 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = EST_democracy
-		icon = industry_democratic
+		id = EST_ensure_democracy
+		icon = democracy
 		
 		x = 5
 		y = 1
@@ -198,7 +195,33 @@ focus_tree = {
 			factor = 10
 		}
 	}
-    
+	
+    	focus = {
+		id = EST_one_dream_one_baltic
+		icon = align_to_baltic_states2
+		
+		x = 11
+		y = 0
+		
+		cost = 10
+
+		cancel_if_invalid = no
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		
+		prerequisite = {}
+		
+		mutually_exclusive = {}
+		
+		completion_reward = {
+		    add_stability = 0.02
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	
 	focus = {
 		id = EST_social_ideas
 		icon = anti_comintern_pact
@@ -213,78 +236,13 @@ focus_tree = {
 		available_if_capitulated = yes
 		
 		prerequisite = {
-			focus = EST_democracy
+			focus = EST_ensure_democracy
 		}
 		
-		mutually_exclusive = {
-		    focus = EST_legacy_of_the_SSR
-		}
+		mutually_exclusive = {}
 		
 		completion_reward = {
 		    add_stability = 0.02
-			increase_democratic_socialist_influence_by_1 = yes
-			increase_social_democrat_influence_by_1 = yes
-		}
-		
-		ai_will_do = {
-			factor = 10
-		}
-	}
-	
-	focus = {
-		id = EST_question_equality
-		icon = neutrality
-		
-		x = 11
-		y = 3
-		
-		cost = 10
-
-		cancel_if_invalid = no
-		continue_if_invalid = yes
-		available_if_capitulated = yes
-		
-		prerequisite = {
-			focus = EST_social_ideas
-		}
-		
-		mutually_exclusive = {}
-		
-		completion_reward = {
-			increase_social_democrat_influence_by_1 = yes
-			add_ideas = idea_focus_generic_census_reform
-		}
-		
-		ai_will_do = {
-			factor = 10
-		}
-	}
-	
-	focus = {
-		id = EST_support_factory_workers
-		icon = support_workers
-		
-		x = 9
-		y = 4
-		
-		cost = 10
-
-		cancel_if_invalid = no
-		continue_if_invalid = yes
-		available_if_capitulated = yes
-		
-		prerequisite = {
-			focus = EST_question_equality
-		}
-		
-		mutually_exclusive = {}
-		
-		completion_reward = {
-		add_popularity = {
-				ideology = social_democrat
-				popularity = 0.05
-			}
-		add_ideas = production_efficiency_bonus2
 		}
 		
 		ai_will_do = {
@@ -771,36 +729,6 @@ focus_tree = {
 		completion_reward = {
 		add_stability = 0.02
 		add_ideas = civilian_industry_project
-		}
-		
-		ai_will_do = {
-			factor = 10
-		}
-	}
-	
-	    focus = {
-		id = EST_farming_society
-		icon = farming_industry
-		
-		x = 7
-		y = 4
-		
-		cost = 10
-        
-		cancel_if_invalid = no
-		continue_if_invalid = yes
-		available_if_capitulated = yes
-		
-		prerequisite = {
-			focus = EST_question_equality
-		}
-		
-		mutually_exclusive = {
-		    focus = EST_support_factory_workers
-		}
-		
-		completion_reward = {
-		    
 		}
 		
 		ai_will_do = {
