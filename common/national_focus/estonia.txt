@@ -18,10 +18,10 @@ focus_tree = {
 	default = no
 
 	focus = {
-	    id = EST_baltic_unity
-		icon = national_unity
+	    id = EST_baltic_stability
+		icon = neutrality
 		
-		x = 15
+		x = 13
 		y = 0
 		
 		cost = 10
@@ -45,7 +45,7 @@ focus_tree = {
 		icon = industry_democratic4
 		
 		x = 13
-		y = 1
+		y = 2
 		
 		cost = 10
 
@@ -54,7 +54,7 @@ focus_tree = {
 		available_if_capitulated = yes
 		
 		prerequisite = {
-			focus = EST_baltic_unity
+			focus = EST_new_dream
 		}
 		
 		mutually_exclusive = {
@@ -64,8 +64,6 @@ focus_tree = {
 		
 		completion_reward = {
             add_political_power = 100
-			increase_democratic_socialist_influence_by_1 = yes
-			increase_social_democrat_influence_by_1 = yes
 		}
 		
 		ai_will_do = {
@@ -78,7 +76,7 @@ focus_tree = {
 		icon = fascism
 		
 		x = 21
-		y = 1
+		y = 2
 		
 		cost = 10
 
@@ -86,8 +84,13 @@ focus_tree = {
 		continue_if_invalid = yes
 		available_if_capitulated = yes
 		
+		available = {
+			threat > 0.2
+			reactionary > 0.1
+		}
+		
 		prerequisite = {
-			focus = EST_baltic_unity
+			focus = EST_new_dream
 		}
 		
 		mutually_exclusive = {
@@ -97,9 +100,6 @@ focus_tree = {
 		
 		completion_reward = {
             add_political_power = 100
-			increase_reactionary_influence_by_1 = yes
-		    increase_nationalist_influence_by_1 = yes
-			increase_fascist_influence_by_1 = yes
 		}
 		
 		ai_will_do = {
@@ -112,7 +112,7 @@ focus_tree = {
 		icon = align_to_russia
 		
 		x = 21
-		y = 2
+		y = 3
 		
 		cost = 10
 
@@ -126,10 +126,7 @@ focus_tree = {
 		
 		mutually_exclusive = {}
 		
-		completion_reward = {
-            increase_reactionary_influence_by_1 = yes
-			increase_nationalist_influence_by_1 = yes
-		}
+		completion_reward = {}
 		
 		ai_will_do = {
 			factor = 10
@@ -141,7 +138,7 @@ focus_tree = {
 		icon = communism12
 		
 		x = 15
-		y = 2
+		y = 3
 		
 		cost = 10
         
@@ -169,7 +166,7 @@ focus_tree = {
 		icon = democracy
 		
 		x = 5
-		y = 1
+		y = 2
 		
 		cost = 10
 
@@ -177,8 +174,9 @@ focus_tree = {
 		continue_if_invalid = yes
 		available_if_capitulated = yes
 		
-		prerequisite = {
-			focus = EST_baltic_unity
+		prerequisite = { 
+		    focus = EST_one_dream
+		    focus = EST_new_dream 
 		}
 		
 		mutually_exclusive = {
@@ -196,20 +194,26 @@ focus_tree = {
 		}
 	}
 	
-    	focus = {
-		id = EST_one_dream_one_baltic
+    focus = {
+		id = EST_one_dream
 		icon = align_to_baltic_states2
 		
-		x = 11
-		y = 0
+		x = 9
+		y = 1
 		
 		cost = 10
 
-		cancel_if_invalid = no
-		continue_if_invalid = yes
-		available_if_capitulated = yes
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
 		
-		prerequisite = {}
+		available = {
+			threat > 0.2
+		}
+		
+		prerequisite = {
+		    focus = EST_baltic_stability
+		}
 		
 		mutually_exclusive = {}
 		
@@ -223,11 +227,213 @@ focus_tree = {
 	}
 	
 	focus = {
+		id = EST_new_dream
+		icon = national_greatness
+		
+		x = 17
+		y = 1
+		
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		available = {}
+		
+		prerequisite = {
+		    focus = EST_baltic_stability
+		}
+		
+		mutually_exclusive = {}
+		
+		completion_reward = {
+		    add_stability = 0.02
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	
+	focus = {
+	    id = EST_rail_baltica_project
+		icon = baltic_development
+		
+		x = 4
+		y = 4
+		
+		cost = 30
+
+		prerequisite = {
+		    focus = EST_expand_the_E263
+		}
+		
+		prerequisite = {
+		    focus = EST_ensure_democracy
+		}
+		
+		cancel_if_invalid = no
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		
+		completion_reward = {
+			add_popularity = {
+				ideology = progressive
+				popularity = 0.03
+			}
+			
+			LAT = {
+				add_opinion_modifier = {
+					target = EST
+					modifier = joint_infrastructure_projects
+				}
+			}
+			
+			LAT = {
+				add_opinion_modifier = {
+					target = EST
+					modifier = economic_mission
+				}
+			}
+			
+			LIT = {
+				add_opinion_modifier = {
+					target = EST
+					modifier = joint_infrastructure_projects
+				}
+			}
+			
+			LIT = {
+				add_opinion_modifier = {
+					target = EST
+					modifier = economic_mission
+				}
+			}
+			
+			if = {
+		    limit = {
+				EST = { owns_state = 13 }
+			}
+				13 = {
+					if = {
+						limit = {
+							free_building_slots = {
+								building = industrial_complex
+								size > 1
+								include_locked = yes
+							}
+						}
+						add_extra_state_shared_building_slots = 1
+						add_building_construction = {
+							type = infrastructure
+							level = 2
+							instant_build = yes
+						}
+					}
+				}
+			}
+			if = {
+		    limit = {
+				LAT = { owns_state = 12 }
+			}
+				12 = {
+					if = {
+						limit = {
+							free_building_slots = {
+								building = industrial_complex
+								size > 1
+								include_locked = yes
+							}
+						}
+						add_extra_state_shared_building_slots = 1
+						add_building_construction = {
+							type = infrastructure
+							level = 2
+							instant_build = yes
+						}
+					}
+				}
+			}
+			if = {
+		    limit = {
+				LAT = { owns_state = 190 }
+			}
+				190 = {
+					if = {
+						limit = {
+							free_building_slots = {
+								building = industrial_complex
+								size > 1
+								include_locked = yes
+							}
+						}
+						add_extra_state_shared_building_slots = 1
+						add_building_construction = {
+							type = infrastructure
+							level = 1
+							instant_build = yes
+						}
+					}
+				}
+			}
+			if = {
+		    limit = {
+				LIT = { owns_state = 11 }
+			}
+				11 = {
+					if = {
+						limit = {
+							free_building_slots = {
+								building = industrial_complex
+								size > 1
+								include_locked = yes
+							}
+						}
+						add_extra_state_shared_building_slots = 1
+						add_building_construction = {
+							type = infrastructure
+							level = 2
+							instant_build = yes
+						}
+					}
+				}
+			}
+			if = {
+		    limit = {
+				LIT = { owns_state = 96 }
+			}
+				96 = {
+					if = {
+						limit = {
+							free_building_slots = {
+								building = industrial_complex
+								size > 1
+								include_locked = yes
+							}
+						}
+						add_extra_state_shared_building_slots = 1
+						add_building_construction = {
+							type = infrastructure
+							level = 1
+							instant_build = yes
+						}
+					}
+				}
+			}
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	
+	focus = {
 		id = EST_social_ideas
 		icon = anti_comintern_pact
 		
 		x = 7
-		y = 2
+		y = 3
 		
 		cost = 10
 
@@ -550,10 +756,10 @@ focus_tree = {
 								include_locked = yes
 							}
 						}
-						add_extra_state_shared_building_slots = 2
+						add_extra_state_shared_building_slots = 1
 						add_building_construction = {
 							type = industrial_complex
-							level = 2
+							level = 1
 							instant_build = yes
 						}
 					}
@@ -572,10 +778,10 @@ focus_tree = {
 								include_locked = yes
 							}
 						}
-						add_extra_state_shared_building_slots = 2
+						add_extra_state_shared_building_slots = 1
 						add_building_construction = {
 							type = industrial_complex
-							level = 2
+							level = 1
 							instant_build = yes
 						}
 					}
@@ -624,7 +830,7 @@ focus_tree = {
 						add_extra_state_shared_building_slots = 1
 						add_building_construction = {
 							type = infrastructure
-							level = 2
+							level = 1
 							instant_build = yes
 						}
 					}
