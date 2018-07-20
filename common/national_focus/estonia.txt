@@ -229,6 +229,38 @@ focus_tree = {
 	}
 	
 	focus = {
+		id = EST_estonia_first
+		icon = entente
+		
+		x = 8
+		y = 5
+		
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		available = {
+			reactionary > 0.1
+		}
+		
+		prerequisite = {
+		    focus = EST_ensure_democracy
+		}
+		
+		mutually_exclusive = {}
+		
+		completion_reward = {
+		    
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	
+	focus = {
 		id = EST_new_dream
 		icon = national_greatness
 		

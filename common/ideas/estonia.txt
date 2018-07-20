@@ -145,7 +145,21 @@ ideas = {
 				warfare_expert
             }
 		}
-		
 	}
 	
+	finance_minister = {
+	
+		sven_sester = {
+			
+			allowed = {
+				original_tag = EST
+			}
+			
+			traits = {
+			    market_liberal_party_membership
+				famous_businessman
+            }
+		}
+		
+	}
 }
