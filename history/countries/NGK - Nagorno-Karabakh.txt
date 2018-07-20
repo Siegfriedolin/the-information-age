@@ -1,6 +1,6 @@
 ﻿capital = 832
 
-oob = "NGK_2000"
+oob = "NGK_2018"
 
 set_research_slots = 2
 set_convoys = 10
@@ -85,6 +85,9 @@ add_ideas = {
 add_opinion_modifier = { target = TUR modifier = rival }
 add_opinion_modifier = { target = AZR modifier = rival }
 
+give_guarantee = ARM
+give_military_access = ARM
+
 set_politics = {
 
 	parties = {
@@ -100,21 +103,13 @@ set_politics = {
 	}
 	
 	ruling_party = conservative
-	last_election = "1997.1.1"
-	election_frequency = 48
+	last_election = "2015.5.3"
+	election_frequency = 60
 	elections_allowed = yes
 }
 
 create_country_leader = {
-	name = "Arkadi Ghuksyan"
-	picture = "Arkadi_Ghuksyan.dds"
+	name = "Bako Sahakyan"
+	picture = "Bako_Sahakyan.dds"
 	ideology = fiscal_conservative
-}
-
-2007.1.1 = {
-	create_country_leader = {
-		name = "Bako Sahakyan"
-		picture = "Bako_Sahakyan.dds"
-		ideology = fiscal_conservative
-	}
 }

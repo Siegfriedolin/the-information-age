@@ -78,8 +78,6 @@ set_technology = {
 	excavation1 = 1
 }
 
-give_guarantee = NGK
-
 add_ideas = {
 	population_growth_stagnation
 	limited_conscription
@@ -87,6 +85,8 @@ add_ideas = {
 
 add_opinion_modifier = { target = TUR modifier = rival }
 add_opinion_modifier = { target = AZR modifier = rival }
+
+give_guarantee = NGK
 give_military_access = NGK
 
 set_politics = {

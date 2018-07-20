@@ -22,10 +22,9 @@ economic_policy = {
 		complete_effect = {
 			add_stability = -0.02
 			add_war_support = -0.02
-			increase_communist_influence_by_1 = yes
 			add_popularity = {
 				ideology = communist
-				popularity = 0.03
+				popularity = 0.1
 			}
 			create_random_factory_CIV_1 = yes
 		}
@@ -65,10 +64,9 @@ economic_policy = {
 		complete_effect = {
 			add_stability = -0.02
 			add_war_support = -0.02
-			increase_fascist_influence_by_1 = yes
 			add_popularity = {
 				ideology = fascist
-				popularity = 0.03
+				popularity = 0.1
 			}
 			create_random_factory_MIL_1 = yes
 		}

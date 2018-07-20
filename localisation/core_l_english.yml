@@ -43,7 +43,7 @@
  diff_very_hard_player:0 "Elite Difficulty"
  NOT_READY_TO_PLAY_MP:0 "$PLAYER|H$ is not ready"
  READY_TO_PLAY_MP:0 "$PLAYER|H$ is ready"
- LOADING_GUI:0 "Loading iPhone"
+ LOADING_GUI:0 "Loading OS"
  LOADING_HISTORY:0 "Loading World Map"
  NOT_SELECT:0 "No country selected"
  April:0 "April"

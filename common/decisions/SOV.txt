@@ -9,7 +9,6 @@ decisions_SOV = {
 		}
 		complete_effect = {
 			set_country_flag = the_cities_of_the_revolution
-			increase_communist_influence_by_1 = yes
 			add_popularity = { ideology = communist popularity = 0.05 }
 			#Leningrad
 			set_province_name = {

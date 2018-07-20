@@ -10,7 +10,7 @@ state={
 
 		}
 		victory_points = {
-			13342 2 
+			3795 4
 		}
 		add_core_of = IRQ
 

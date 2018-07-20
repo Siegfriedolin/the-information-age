@@ -1,0 +1,31 @@
+
+state={
+	id=915
+	name="STATE_915"
+
+	history={
+		owner = PAL
+		add_core_of = PAL
+		add_core_of = ISR
+		set_demilitarized_zone = yes
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+
+		}
+		victory_points = {
+			13250 3
+		}
+		victory_points = {
+			7107 2
+		}
+
+	}
+
+	provinces={
+		7107 13247 13249 13250 
+	}
+	manpower=2747943
+	buildings_max_level_factor=1.000
+	state_category=state_level_3
+}

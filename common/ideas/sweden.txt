@@ -30,7 +30,7 @@ ideas = {
 	
 	}
 	
-	foreign_minister = {
+	foreign_affairs_minister = {
 	
 		margot_wallstrom = {
 			
