@@ -90,7 +90,7 @@ set_technology = {
 add_ideas = {
 	population_growth_stagnation
 	idea_HLS_holy_see
-	disarmed_nation
+	volunteer_only
 	the_euro
 	neutrality_idea
 }
