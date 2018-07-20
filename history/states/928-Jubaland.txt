@@ -6,6 +6,9 @@ state={
 	history={
 		owner = SOM
 		add_core_of = SOM
+		HSM = {
+			set_province_controller = 13370
+		}
 		buildings = {
 			infrastructure = 3
 
