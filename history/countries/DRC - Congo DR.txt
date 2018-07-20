@@ -1,6 +1,6 @@
 ﻿capital = 295
 
-oob = "DRC_2000"
+oob = "DRC_2018"
 
 set_research_slots = 2
 set_convoys = 60
@@ -100,41 +100,35 @@ add_ideas = {
 set_politics = {
 
 	parties = {
-		democratic_socialist = {	#Dictator
-			popularity = 47
+		democratic_socialist = {
+			popularity = 48.95
 		}
-		reactionary = {				#MftLoC + FCDCoFfCD + CD
-			popularity = 24.09
+		reactionary = {
+			popularity = 18.72
 		}
-		social_democrat = {			#ULP + RoSaFF
-			popularity = 15.46
+		social_democrat = {
+			popularity = 32.33
 		}
-		market_liberal = {			#UMD + USL
-			popularity = 6.28
+		market_liberal = {
+			popularity = 0
 		}
-		social_liberal = {			#UCG + CRD
-			popularity = 6.1
+		social_liberal = {
+			popularity = 0
 		}
-		progressive = {				#Renewal Forces
-			popularity = 0.57
+		progressive = {
+			popularity = 0
 		}
 		
 	}
 	
 	ruling_party = democratic_socialist
-	last_election = "1997.1.1"
-	election_frequency = 48
+	last_election = "2011.12.23"
+	election_frequency = 84
 	elections_allowed = no
 }
+
 create_country_leader = {
-	name = "Laurent-Désiré Kabila"
+	name = "Joseph Kabila"
+	picture = "Joseph_Kabila.dds"
 	ideology = democratic_socialist_ideology
-	picture = "Laurent_Desire_Kabila.dds"
-}
-2015.1.1 = {
-	create_country_leader = {
-		name = "Joseph Kabila"
-		ideology = democratic_socialist_ideology
-		picture = "Joseph_Kabila.dds"
-	}
 }
