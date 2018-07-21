@@ -98,10 +98,8 @@ add_ideas = {
 	neutrality_idea
 }
 
-2018.1.1 = {
-	set_country_flag = european_union_member_state
-	add_timed_idea = { idea = idea_united_nations_NP_security_council_member days = 364 }
-}
+set_country_flag = european_union_member_state
+add_timed_idea = { idea = idea_united_nations_NP_security_council_member days = 365 }
 
 set_politics = {
 

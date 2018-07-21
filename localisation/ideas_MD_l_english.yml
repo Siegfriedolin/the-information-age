@@ -21,6 +21,21 @@
  justice_minister:0 "Minister of Justice"
  culture_minister:0 "Minister of Culture"
  
+ #Covert Party Support
+ covert_party_support:0 "Covert Party Support"
+ islamist_support:0 "Islamist"
+ fascist_support:0 "Fascist"
+ nationalist_support:0 "Nationalist"
+ monarchist_support:0 "Monarchist"
+ reactionary_support:0 "Reactionary"
+ conservative_support:0 "Conservative"
+ market_liberal_support:0 "Libertarian"
+ social_liberal_support:0 "Social Liberal"
+ social_democrat_support:0 "Social Democrat"
+ progressive_support:0 "Progressive"
+ democratic_socialist_support:0 "Democratic Socialist"
+ communist_support:0 "Communist"
+ 
  #Female Rights
  female_rights:0 "Female Rights"
  female_rights_patriarchy:0 "Patriarchy"

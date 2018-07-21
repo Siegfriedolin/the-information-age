@@ -98,6 +98,8 @@ add_ideas = {
 	non_aligned_movement_member
 }
 
+add_timed_idea = { idea = idea_united_nations_NP_security_council_member days = 730 }
+
 set_politics = {
 	parties = {		
 		nationalist = {
@@ -181,11 +183,6 @@ create_corps_commander = {
 	name = "Cesar Salcedo"
 	picture = "generals/Cesar_Salcedo.dds"
 	skill = 1
-}
-
-add_namespace = {
-	name = "pru_unit_leader"
-	type = unit_leader
 }
 
 create_field_marshal = {

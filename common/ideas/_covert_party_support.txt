@@ -1,0 +1,186 @@
+ideas = {
+
+	covert_party_support = {
+		law = yes
+		
+		islamist_support = {
+			cost = 75
+			
+			available = {
+				NOT = { has_government = islamist }
+			}
+			
+			modifier = {
+				islamist_drift = 0.1
+				political_power_gain = -0.15
+			}
+			
+			cancel_if_invalid = yes
+		}
+		
+		fascist_support = {
+			cost = 75
+			
+			available = {
+				NOT = { has_government = fascist }
+			}
+			
+			modifier = {
+				fascist_drift = 0.1
+				political_power_gain = -0.15
+			}
+			
+			cancel_if_invalid = yes
+		}
+		
+		nationalist_support = {
+			cost = 75
+			
+			available = {
+				NOT = { has_government = nationalist }
+			}
+			
+			modifier = {
+				nationalist_drift = 0.1
+				political_power_gain = -0.15
+			}
+			
+			cancel_if_invalid = yes
+		}
+		
+		monarchist_support = {
+			cost = 75
+			
+			available = {
+				NOT = { has_government = monarchist }
+			}
+			
+			modifier = {
+				monarchist_drift = 0.1
+				political_power_gain = -0.15
+			}
+			
+			cancel_if_invalid = yes
+		}
+		
+		reactionary_support = {
+			cost = 75
+			
+			available = {
+				NOT = { has_government = reactionary }
+			}
+			
+			modifier = {
+				reactionary_drift = 0.1
+				political_power_gain = -0.15
+			}
+			
+			cancel_if_invalid = yes
+		}
+		
+		conservative_support = {
+			cost = 75
+			
+			available = {
+				NOT = { has_government = conservative }
+			}
+			
+			modifier = {
+				conservative_drift = 0.1
+				political_power_gain = -0.15
+			}
+			
+			cancel_if_invalid = yes
+		}
+		
+		market_liberal_support = {
+			cost = 75
+			
+			available = {
+				NOT = { has_government = market_liberal }
+			}
+			
+			modifier = {
+				market_liberal_drift = 0.1
+				political_power_gain = -0.15
+			}
+			
+			cancel_if_invalid = yes
+		}
+		
+		social_liberal_support = {
+			cost = 75
+			
+			available = {
+				NOT = { has_government = social_liberal }
+			}
+			
+			modifier = {
+				social_liberal_drift = 0.1
+				political_power_gain = -0.15
+			}
+			
+			cancel_if_invalid = yes
+		}
+		
+		social_democrat_support = {
+			cost = 75
+			
+			available = {
+				NOT = { has_government = social_democrat }
+			}
+			
+			modifier = {
+				social_democrat_drift = 0.1
+				political_power_gain = -0.15
+			}
+			
+			cancel_if_invalid = yes
+		}
+		
+		progressive_support = {
+			cost = 75
+			
+			available = {
+				NOT = { has_government = progressive }
+			}
+			
+			modifier = {
+				progressive_drift = 0.1
+				political_power_gain = -0.15
+			}
+			
+			cancel_if_invalid = yes
+		}
+		
+		democratic_socialist_support = {
+			cost = 75
+			
+			available = {
+				NOT = { has_government = democratic_socialist }
+			}
+			
+			modifier = {
+				democratic_socialist_drift = 0.1
+				political_power_gain = -0.15
+			}
+			
+			cancel_if_invalid = yes
+		}
+		
+		communist_support = {
+			cost = 75
+			
+			available = {
+				NOT = { has_government = communist }
+			}
+			
+			modifier = {
+				commmunist_drift = 0.1
+				political_power_gain = -0.15
+			}
+			
+			cancel_if_invalid = yes
+		}
+	}
+}

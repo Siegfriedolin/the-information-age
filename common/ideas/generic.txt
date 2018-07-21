@@ -93,7 +93,7 @@ ideas = {
 			}
 			removal_cost = -1
 			modifier = {
-				air_accidents_factor = -0.1
+				air_accidents_factor = -0.15
 			}
 		}
 		
@@ -110,8 +110,8 @@ ideas = {
 			modifier = {
 				conscription_factor = 0.3
 				industrial_capacity_factory = 0.15
-				political_power_factor = -0.25
-				stability_factor = -0.1
+				political_power_gain = -0.25
+				stability_factor = -0.15
 			}
 		}
 	
@@ -152,7 +152,7 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				political_power_factor = -0.5
+				political_power_gain = -0.5
 			}
 		}
 	
@@ -246,11 +246,11 @@ ideas = {
 			
 			equipment_bonus = {
 				strategic_bomber = {
-					build_cost_ic = -0.10
+					build_cost_ic = -0.150
 					instant = yes
 				}
 				naval_bomber = {
-					build_cost_ic = -0.10
+					build_cost_ic = -0.150
 					instant = yes
 				}
 			}
@@ -336,11 +336,11 @@ ideas = {
 			
 			equipment_bonus = {
 				fighter = {
-					build_cost_ic = -0.10
+					build_cost_ic = -0.150
 					instant = yes
 				}
 				cas = {
-					build_cost_ic = -0.10
+					build_cost_ic = -0.150
 					instant = yes
 				}
 			}
@@ -746,7 +746,7 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				research_time_factor = -0.1
+				research_time_factor = -0.15
 			}
 		}
 		
@@ -760,7 +760,7 @@ ideas = {
 				conscription = 0.02
 				army_morale_factor = 0.05
 				political_power_gain = 0.25
-				justify_war_goal_time = -0.1
+				justify_war_goal_time = -0.15
 			}
 		}
 		
@@ -786,7 +786,7 @@ ideas = {
 				conscription = -0.01
 				army_org_Factor = 0.15
 				army_morale_factor = 0.15
-				justify_war_goal_time = -0.1
+				justify_war_goal_time = -0.15
 			}
 		}
 		
@@ -818,7 +818,7 @@ ideas = {
 				political_power_gain = 0.2
 				army_morale_factor = 0.3
 				justify_war_goal_time = -0.9
-				industrial_capacity_factory = -0.1
+				industrial_capacity_factory = -0.15
 				research_time_factor = 0.50
 			}
 		}
@@ -830,7 +830,7 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				stability_factor = -0.1
+				stability_factor = -0.15
 				conscription_factor = -0.2
 			}
 		}
@@ -849,7 +849,7 @@ ideas = {
 			
 			modifier = {
 				industrial_capacity_factory = -0.25
-				political_power_factor = -0.1
+				political_power_gain = -0.15
 			}
 		}
 		
@@ -867,7 +867,7 @@ ideas = {
 			
 			modifier = {
 				industrial_capacity_factory = -0.5
-				political_power_factor = -0.2
+				political_power_gain = -0.2
 			}
 		}
 		
@@ -885,7 +885,7 @@ ideas = {
 			
 			modifier = {
 				industrial_capacity_factory = -0.75
-				political_power_factor = -0.3
+				political_power_gain = -0.3
 			}
 		}
 		
@@ -903,7 +903,7 @@ ideas = {
 			
 			modifier = {
 				industrial_capacity_factory = -1
-				political_power_factor = -0.4
+				political_power_gain = -0.4
 			}
 		}
 	

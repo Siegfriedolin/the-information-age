@@ -2,10 +2,15 @@ non_aligned_movement_decisions = {
 	
 	join_non_aligned_movement = {
 		visible = {
-			NOT = { has_idea = non_aligned_movement_member  } 
+			NOT = { has_idea = non_aligned_movement_member }
+			NOT = { is_in_faction_with = USA }
+			NOT = { is_in_faction_with = SOV }
+			NOT = { is_in_faction_with = PRC }
 		}
 		available = {
-			is_in_faction = no
+			NOT = { is_in_faction_with = USA }
+			NOT = { is_in_faction_with = SOV }
+			NOT = { is_in_faction_with = PRC }
 		}
 		modifier = {
 		}
