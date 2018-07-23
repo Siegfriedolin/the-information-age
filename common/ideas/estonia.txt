@@ -15,14 +15,14 @@ ideas = {
 		}
 		
 		EST_the_baltic_tiger = {
-			picture = great_inflation
+			picture = high_society
 			
 			removal_cost = -1
 			
 			modifier = {
-			    industrial_capacity_factory = 0.10
-				trade_opinion_factor = 0.10
-				consumer_goods_factor = -0.03
+			    industrial_capacity_factory = 0.2
+				consumer_goods_factor = -0.1
+				political_power_gain = 0.20
 			}
 		}
 		
@@ -55,7 +55,6 @@ ideas = {
 			
 			modifier = {
 			    conscription_factor = -0.30
-				consumer_goods_factor = 0.05
 				political_power_gain = -0.10
 			}
 		}
