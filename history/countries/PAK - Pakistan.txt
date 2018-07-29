@@ -108,34 +108,37 @@ set_politics = {
 
 	parties = {
 		nationalist = {
-			popularity = 5
+			popularity = 29.88
 		}
 		reactionary = {
-			popularity = 20
+			popularity = 10.28
 		}
 		islamist = {
-			popularity = 45
+			popularity = 5.34
+		}
+		conservative = {
+			popularity = 32.77
 		}
 		social_liberal = {
-			popularity = 10
+			popularity = 5.41
 		}
 		social_democrat = {
-			popularity = 6
+			popularity = 15.32
 		}
-		communist = {
-			popularity = 15
+		democratic_socialist = {
+			popularity = 1
 		}
 	}
 	
 	ruling_party = islamist
-	last_election = "1998.2.1"
-	election_frequency = 48
+	last_election = "2013.7.25"
+	election_frequency = 60
 	elections_allowed = yes
 }
 
 create_country_leader = {
-	name = "Muhammad Rafiq Tarar"
-	picture = "Muhammad_R_Tarar.dds"
+	name = "Siraj-ul-Haq"
+	picture = "Siraj_ul_Haq.dds"
 	ideology = sunni_islamism
 }
 
@@ -197,44 +200,4 @@ create_country_leader = {
 	name = "Imran Khan"
 	picture = "Imran_Khan.dds"
 	ideology = national_democrat
-}
-
-2013.1.1 = {
-	set_politics = {
-	
-	parties = {
-		nationalist = {
-			popularity = 13
-		}
-		reactionary = {
-			popularity = 20
-		}
-		islamist = {
-			popularity = 40
-		}
-		social_liberal = {
-			popularity = 10
-		}
-		progressive = {
-			popularity = 18
-		}
-	}
-		
-		ruling_party = islamist
-		last_election = "2013.5.11"
-		election_frequency = 48
-		elections_allowed = yes
-    }
-	create_country_leader = {
-		name = "Mamnoon Hussain"
-		picture = "Mamnoon_Hussain.dds"
-		ideology = sunni_islamism
-	}
-}
-
-2015.1.1 = {
-	set_politics = {
-		last_election = "2013.5.11"
-		elections_allowed = yes
-	}	
 }

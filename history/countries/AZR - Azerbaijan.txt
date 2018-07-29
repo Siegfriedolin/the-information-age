@@ -1,6 +1,6 @@
 ﻿capital = 229
 
-oob = "AZB_2000"
+oob = "AZR_2018"
 
 set_research_slots = 3
 set_convoys = 130
@@ -97,52 +97,53 @@ set_politics = {
 
 	parties = {
 		islamist = {
-			popularity = 10
+			popularity = 0
 		}
 		nationalist = {
-			popularity = 10
+			popularity = 0
 		}
 		reactionary = {
-			popularity = 30
+			popularity = 84.54
 		}
 		conservative = {
-			popularity = 20
+			popularity = 15.46
 		}
 		market_liberal = {
-			popularity = 2
+			popularity = 0
 		}
 		social_liberal = {
-			popularity = 10
+			popularity = 0
 		}
 		social_democrat = {
-			popularity = 2
+			popularity = 0
 		}
 		progressive = {
-			popularity = 2
+			popularity = 0
 		}
 		democratic_socialist = {
-			popularity = 2
+			popularity = 0
 		}
 		communist = {
-			popularity = 12
+			popularity = 0
 		}
 	}
 	
 	ruling_party = reactionary
-	last_election = "1997.1.1"
-	election_frequency = 48
+	last_election = "2013.4.11"
+	election_frequency = 60
 	elections_allowed = yes
 }
 
 create_country_leader = {
-	name = "Heydar Aliyev"
-	picture = "Heydar_Aliyev.dds"
+	name = "Ilham Aliyev"
+	picture = "Ilham_Aliyev.dds"
 	ideology = oligarchist
 }
 
-add_namespace = {
-	name = "azr_unit_leader"
-	type = unit_leader
+create_country_leader = {
+	name = "Zahid Oruc"
+	picture = "Zahid_Oruc.dds"
+	ideology = fiscal_conservative
 }
 
 create_field_marshal = {
@@ -206,12 +207,4 @@ create_navy_leader = {
 	picture = "admirals/Shahin_Sultanov.dds"
 	traits = { blockade_runner }
 	skill = 1
-}
-
-2016.1.1 = {
-	create_country_leader = {
-		name = "Ilham Aliyev"
-		picture = "Ilham_Aliyev.dds"
-		ideology = oligarchist
-	}
 }
