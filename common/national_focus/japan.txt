@@ -1327,10 +1327,6 @@ focus_tree = {
 			focus = JAP_befriend_vietnam
 		}
 		
-		available = {
-			NOT = { has_completed_focus = JAP_trade_with_north_korea }
-		}
-		
 		completion_reward = {
 			KOR = {
 				remove_opinion_modifier = {

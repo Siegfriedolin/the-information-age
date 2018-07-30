@@ -813,11 +813,8 @@ focus_tree = {
 		}
 		
 		available = {
-			GER = {
-                AND = {			
-				    is_faction_leader = yes
-					has_completed_focus = GER_split_NATO
-				}
+			GER = {		
+				is_faction_leader = yes
 			}
 		}
 

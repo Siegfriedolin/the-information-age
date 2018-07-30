@@ -53,8 +53,6 @@ seek_NATO_membership = {
 			has_democratic_form_of_government = no
 			USA = { has_democratic_form_of_government = no }
 			USA = { exists = no }
-			USA = { has_completed_focus = USA_quit_nato }
-			USA = { has_completed_focus = USA_the_monroe_alliance }
 		}
 	}
 	
