@@ -538,9 +538,6 @@ focus_tree = {
 			}
 		    add_political_power = -50
 		    add_stability = -0.10
-            increase_communist_influence_by_1 = yes
-			increase_democratic_socialist_influence_by_1 = yes
-			increase_social_democrat_influence_by_1 = yes
 			add_timed_idea = {
 			idea = idea_focus_generic_path_of_equality
 			days = 280
@@ -574,8 +571,6 @@ focus_tree = {
 		completion_reward = {
 		    add_political_power = -100
 		    add_stability = -0.10
-            increase_communist_influence_by_1 = yes
-			increase_social_democrat_influence_by_1 = yes
 			add_ideas = parliamentary_crisis
 		}
 		
@@ -638,9 +633,6 @@ focus_tree = {
 		
 		completion_reward = {
 		    remove_ideas = parliamentary_crisis
-			decrease_conservative_influence_by_1 = yes
-			decrease_market_liberal_influence_by_1 = yes
-			increase_communist_influence_by_1 = yes
 		    add_popularity = {
 				ideology = communist
 				popularity = 0.10

@@ -1497,7 +1497,6 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			increase_democratic_socialist_influence_by_1 = yes
 			add_ideas = idea_focus_generic_leftist_doctrine
 		}
 		
@@ -1525,7 +1524,6 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			increase_progressive_influence_by_1 = yes
 			add_ideas = idea_focus_generic_progressive_doctrine
 		}
 		
@@ -1553,7 +1551,6 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			increase_social_democrat_influence_by_1 = yes
 			add_ideas = idea_focus_generic_social_democrat_doctrine
 		}
 		
@@ -1578,7 +1575,6 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			increase_social_liberal_influence_by_1 = yes
 			add_ideas = idea_focus_generic_liberal_doctrine
 		}
 		
@@ -1603,7 +1599,6 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			increase_market_liberal_influence_by_1 = yes
 			add_ideas = idea_focus_generic_capitalist_doctrine
 		}
 		
@@ -1628,7 +1623,6 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			increase_conservative_influence_by_1 = yes
 			add_ideas = idea_focus_generic_conservative_doctrine
 		}
 		
@@ -1653,7 +1647,6 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			increase_reactionary_influence_by_1 = yes
 			add_ideas = idea_focus_generic_reactionary_doctrine
 		}
 		
@@ -1674,7 +1667,6 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			increase_communist_influence_by_1 = yes
 			add_ideas = idea_focus_generic_marxist_doctrine
 		}
 		
@@ -1705,7 +1697,6 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			increase_fascist_influence_by_1 = yes
 			add_ideas = idea_focus_generic_neo_fascist_doctrine
 		}
 		
@@ -1736,7 +1727,6 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			increase_nationalist_influence_by_1 = yes
 			add_ideas = idea_focus_generic_nationalist_doctrine
 		}
 		
@@ -1767,7 +1757,6 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			increase_monarchist_influence_by_1 = yes
 			add_ideas = idea_focus_generic_royal_doctrine
 		}
 		
@@ -1802,7 +1791,6 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			increase_islamist_influence_by_1 = yes
 			add_ideas = idea_focus_generic_path_of_allah
 		}
 		
@@ -2359,7 +2347,6 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			increase_democratic_socialist_influence_by_1 = yes
 			if = {
 				limit = { NOT = { has_government = democratic_socialist } }
 				add_stability = -0.05
@@ -2392,7 +2379,6 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			increase_progressive_influence_by_1 = yes
 			if = {
 				limit = { NOT = { has_government = progressive } }
 				add_stability = -0.05
@@ -2425,7 +2411,6 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			increase_social_democrat_influence_by_1 = yes
 			if = {
 				limit = { NOT = { has_government = social_democrat } }
 				add_stability = -0.05
@@ -2458,7 +2443,6 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			increase_social_liberal_influence_by_1 = yes
 			if = {
 				limit = { NOT = { has_government = social_liberal } }
 				add_stability = -0.05
@@ -2491,7 +2475,6 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			increase_market_liberal_influence_by_1 = yes
 			if = {
 				limit = { NOT = { has_government = market_liberal } }
 				add_stability = -0.05
@@ -2524,7 +2507,6 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			increase_conservative_influence_by_1 = yes
 			if = {
 				limit = { NOT = { has_government = conservative } }
 				add_stability = -0.05
@@ -2557,7 +2539,6 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			increase_reactionary_influence_by_1 = yes
 			if = {
 				limit = { NOT = { has_government = reactionary } }
 				add_stability = -0.05
@@ -2590,7 +2571,6 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			increase_communist_influence_by_1 = yes
 			if = {
 				limit = { NOT = { has_government = communist } }
 				add_stability = -0.15
@@ -2622,7 +2602,6 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			increase_fascist_influence_by_1 = yes
 			if = {
 				limit = { NOT = { has_government = fascist } }
 				add_stability = -0.15
@@ -2654,7 +2633,6 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			increase_nationalist_influence_by_1 = yes
 			if = {
 				limit = { NOT = { has_government = nationalist } }
 				add_stability = -0.15
@@ -2687,7 +2665,6 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			increase_monarchist_influence_by_1 = yes
 			if = {
 				limit = { NOT = { has_government = monarchist } }
 				add_stability = -0.10
@@ -2719,7 +2696,6 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			increase_islamist_influence_by_1 = yes
 			if = {
 				limit = { NOT = { has_government = islamist } }
 				add_stability = -0.15
@@ -3349,9 +3325,6 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			increase_democratic_socialist_influence_by_1 = yes
-			increase_progressive_influence_by_1 = yes
-			increase_social_democrat_influence_by_1 = yes
 			add_ideas = idea_focus_generic_reckless_progress
 		}
 		
@@ -3373,8 +3346,6 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			increase_social_liberal_influence_by_1 = yes
-			increase_market_liberal_influence_by_1 = yes
 			add_ideas = idea_focus_generic_commerce_efficiency
 		}
 		
@@ -3396,8 +3367,6 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			increase_conservative_influence_by_1 = yes
-			increase_reactionary_influence_by_1 = yes
 			add_political_power = 250
 			add_ideas = idea_focus_generic_realpolitik
 		}
@@ -3419,7 +3388,6 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			increase_communist_influence_by_2 = yes
 			add_ideas = idea_focus_generic_will_of_the_people
 		}
 		
@@ -3441,8 +3409,6 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			increase_nationalist_influence_by_1 = yes
-			increase_fascist_influence_by_1 = yes
 			add_war_support = 0.05
 			add_ideas = idea_focus_generic_army_of_purity
 		}
@@ -3464,7 +3430,6 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			increase_monarchist_influence_by_2 = yes
 			add_ideas = idea_focus_generic_national_heritage
 		}
 		
@@ -3485,7 +3450,6 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			increase_islamist_influence_by_2 = yes
 			add_ideas = idea_focus_generic_jihad
 			#Trigger the global news event.
 			news_event = news.2

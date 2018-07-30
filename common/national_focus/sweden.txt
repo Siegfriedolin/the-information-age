@@ -1773,7 +1773,6 @@ focus_tree = {
 		bypass = {}
 		
 		completion_reward = {
-			increase_fascist_influence_by_3 = yes
 			add_war_support = -0.1
 			add_political_power = -40
 		}
@@ -1808,7 +1807,6 @@ focus_tree = {
 		bypass = {}
 		
 		completion_reward = {
-			increase_monarchist_influence_by_2 = yes
 			add_war_support = 0.05
 		}
 		
@@ -1876,10 +1874,6 @@ focus_tree = {
 		
 		completion_reward = {
 			add_popularity = { ideology = fascist popularity = 0.05 }
-			increase_fascist_influence_by_1 = yes
-			NOR = { increase_fascist_influence_by_2 = yes }
-			DEN = { increase_fascist_influence_by_2 = yes }
-			ICE = { increase_fascist_influence_by_1 = yes }
 			if = {
 				limit = { NOR = { NOT = { has_government = fascist } } }
 				NOR = { add_opinion_modifier = { target = SWE modifier = ideological_attacks } }
@@ -1925,8 +1919,6 @@ focus_tree = {
 		
 		completion_reward = {
 			add_popularity = { ideology = fascist popularity = 0.05 }
-			increase_fascist_influence_by_1 = yes
-			FIN = { increase_fascist_influence_by_2 = yes }
 			if = {
 				limit = { FIN = { NOT = { has_government = fascist } } }
 				FIN = { add_opinion_modifier = { target = SWE modifier = ideological_attacks } }
@@ -1967,7 +1959,6 @@ focus_tree = {
 		bypass = {}
 		
 		completion_reward = {
-			increase_monarchist_influence_by_2 = yes
 			add_popularity = { ideology = monarchist popularity = 0.05 }
 			set_politics = {
 				ruling_party = monarchist
@@ -2044,11 +2035,6 @@ focus_tree = {
 		
 		completion_reward = {
 			add_political_power = 30
-			increase_fascist_influence_by_1 = yes
-			decrease_social_democrat_influence_by_1 = yes
-			decrease_market_liberal_influence_by_1 = yes
-			decrease_democratic_socialist_influence_by_1 = yes
-			decrease_social_liberal_influence_by_1 = yes
 			add_popularity = { ideology = fascist popularity = 0.05 }
 		}
 		
@@ -2085,7 +2071,6 @@ focus_tree = {
 		bypass = {}
 		
 		completion_reward = {
-			increase_fascist_influence_by_1 = yes
 			add_popularity = { ideology = fascist popularity = 0.05 }
 			set_politics = {
 				ruling_party = fascist
@@ -2158,7 +2143,6 @@ focus_tree = {
 		bypass = {}
 		
 		completion_reward = {
-			increase_monarchist_influence_by_2 = yes
 			add_political_power = 200
 		}
 		
@@ -2451,14 +2435,14 @@ focus_tree = {
 		bypass = {}
 		
 		completion_reward = {
-			decrease_reactionary_influence_by_1 = yes
-			decrease_conservative_influence_by_1 = yes
-			decrease_market_liberal_influence_by_1 = yes
-			decrease_social_liberal_influence_by_1 = yes
-			decrease_social_democrat_influence_by_1 = yes
-			decrease_progressive_influence_by_1 = yes
-			decrease_democratic_socialist_influence_by_1 = yes
-			decrease_communist_influence_by_3 = yes
+			add_popularity = {
+				ideology = nationalist
+				popularity = 0.05
+			}
+			add_popularity = {
+				ideology = fascist
+				popularity = 0.05
+			}
 		}
 		
 		ai_will_do = {
