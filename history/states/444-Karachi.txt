@@ -1,10 +1,7 @@
 
 state={
 	id=444
-	name="STATE_444" # Baluchistan
-	manpower = 3463500
-	
-	state_category = state_level_10
+	name="STATE_444"
 
 	history={
 		owner = PAK
@@ -14,11 +11,15 @@ state={
 			industrial_complex = 2
 			arms_factory = 1
 			air_base = 1
+
 		}
 
 	}
 
 	provinces={
-		1179 5043 5075 7917 8013 8066 12761 12774 
+		1179 5043 5075 5105 7917 8013 8066 8098 12761 12774 
 	}
+	manpower=3463500
+	buildings_max_level_factor=1.000
+	state_category=state_level_10
 }

@@ -19,6 +19,20 @@ country_event = {
 		}
 		if = {
 			limit = {
+			    original_tag = CAN
+				has_idea = quebec_separatism
+			    OR = {
+			        has_country_flag = quebec_appeased
+			        AND = {
+				        466 = { NOT = { is_owned_by = CAN } }
+				        468 = { NOT = { is_owned_by = CAN } }
+			        }
+				}
+			}
+			remove_ideas = quebec_separatism
+		}
+		if = {
+			limit = {
 			    original_tag = JAP
 				date > 2022.2.3
 				date < 2023.1.1
