@@ -38,7 +38,6 @@ country_event = {
 	
 	option = {
 		name = political.1.o1
-		increase_fascist_influence_by_1 = yes
 		set_politics = {
 			ruling_party = fascist
 			elections_allowed = no
@@ -819,7 +818,6 @@ country_event = {
 				has_idea = islamist_influence_1
 			}
 		}
-		increase_islamist_influence_by_1 = yes
 	}
 }
 
@@ -856,7 +854,6 @@ country_event = {
 				has_idea = fascist_influence_1
 			}
 		}
-		increase_fascist_influence_by_1 = yes
 	}
 }
 
@@ -893,7 +890,6 @@ country_event = {
 				has_idea = nationalist_influence_1
 			}
 		}
-		increase_nationalist_influence_by_1 = yes
 	}
 }
 
@@ -930,7 +926,6 @@ country_event = {
 				has_idea = monarchist_influence_1
 			}
 		}
-		increase_monarchist_influence_by_1 = yes
 	}
 }
 
@@ -967,7 +962,6 @@ country_event = {
 				has_idea = reactionary_influence_1
 			}
 		}
-		increase_reactionary_influence_by_1 = yes
 	}
 }
 
@@ -1004,7 +998,6 @@ country_event = {
 				has_idea = conservative_influence_1
 			}
 		}
-		increase_conservative_influence_by_1 = yes
 	}
 }
 
@@ -1041,7 +1034,6 @@ country_event = {
 				has_idea = market_liberal_influence_1
 			}
 		}
-		increase_market_liberal_influence_by_1 = yes
 	}
 }
 
@@ -1078,7 +1070,6 @@ country_event = {
 				has_idea = social_liberal_influence_1
 			}
 		}
-		increase_social_liberal_influence_by_1 = yes
 	}
 }
 
@@ -1115,7 +1106,6 @@ country_event = {
 				has_idea = social_democrat_influence_1
 			}
 		}
-		increase_social_democrat_influence_by_1 = yes
 	}
 }
 
@@ -1152,7 +1142,6 @@ country_event = {
 				has_idea = progressive_influence_1
 			}
 		}
-		increase_progressive_influence_by_1 = yes
 	}
 }
 
@@ -1189,7 +1178,6 @@ country_event = {
 				has_idea = democratic_socialist_influence_1
 			}
 		}
-		increase_democratic_socialist_influence_by_1 = yes
 	}
 }
 
@@ -1226,7 +1214,6 @@ country_event = {
 				has_idea = communist_influence_1
 			}
 		}
-		increase_communist_influence_by_1 = yes
 	}
 }
 
@@ -1241,7 +1228,6 @@ country_event = {
 	
 	option = {
 		name = option.OK
-		increase_islamist_influence_by_1 = yes
 	}
 }
 
@@ -1256,7 +1242,6 @@ country_event = {
 	
 	option = {
 		name = option.OK
-		decrease_islamist_influence_by_1 = yes
 	}
 }
 
@@ -1271,7 +1256,6 @@ country_event = {
 	
 	option = {
 		name = option.OK
-		increase_fascist_influence_by_1 = yes
 	}
 }
 
@@ -1286,7 +1270,6 @@ country_event = {
 	
 	option = {
 		name = option.OK
-		decrease_fascist_influence_by_1 = yes
 	}
 }
 
@@ -1301,7 +1284,6 @@ country_event = {
 	
 	option = {
 		name = option.OK
-		increase_nationalist_influence_by_1 = yes
 	}
 }
 
@@ -1316,7 +1298,6 @@ country_event = {
 	
 	option = {
 		name = option.OK
-		decrease_nationalist_influence_by_1 = yes
 	}
 }
 
@@ -1331,7 +1312,6 @@ country_event = {
 	
 	option = {
 		name = option.OK
-		increase_monarchist_influence_by_1 = yes
 	}
 }
 
@@ -1346,7 +1326,6 @@ country_event = {
 	
 	option = {
 		name = option.OK
-		decrease_monarchist_influence_by_1 = yes
 	}
 }
 
@@ -1361,7 +1340,6 @@ country_event = {
 	
 	option = {
 		name = option.OK
-		increase_reactionary_influence_by_1 = yes
 	}
 }
 
@@ -1376,7 +1354,6 @@ country_event = {
 	
 	option = {
 		name = option.OK
-		decrease_reactionary_influence_by_1 = yes
 	}
 }
 
@@ -1391,7 +1368,6 @@ country_event = {
 	
 	option = {
 		name = option.OK
-		increase_conservative_influence_by_1 = yes
 	}
 }
 
@@ -1406,7 +1382,6 @@ country_event = {
 	
 	option = {
 		name = option.OK
-		decrease_conservative_influence_by_1 = yes
 	}
 }
 
@@ -1421,7 +1396,6 @@ country_event = {
 	
 	option = {
 		name = option.OK
-		increase_market_liberal_influence_by_1 = yes
 	}
 }
 
@@ -1436,7 +1410,6 @@ country_event = {
 	
 	option = {
 		name = option.OK
-		decrease_market_liberal_influence_by_1 = yes
 	}
 }
 
@@ -1451,7 +1424,6 @@ country_event = {
 	
 	option = {
 		name = option.OK
-		increase_social_liberal_influence_by_1 = yes
 	}
 }
 
@@ -1466,7 +1438,6 @@ country_event = {
 	
 	option = {
 		name = option.OK
-		decrease_social_liberal_influence_by_1 = yes
 	}
 }
 
@@ -1481,7 +1452,6 @@ country_event = {
 	
 	option = {
 		name = option.OK
-		increase_social_democrat_influence_by_1 = yes
 	}
 }
 
@@ -1496,7 +1466,6 @@ country_event = {
 	
 	option = {
 		name = option.OK
-		decrease_social_democrat_influence_by_1 = yes
 	}
 }
 
@@ -1511,7 +1480,6 @@ country_event = {
 	
 	option = {
 		name = option.OK
-		increase_progressive_influence_by_1 = yes
 	}
 }
 
@@ -1526,7 +1494,6 @@ country_event = {
 	
 	option = {
 		name = option.OK
-		decrease_progressive_influence_by_1 = yes
 	}
 }
 
@@ -1541,7 +1508,6 @@ country_event = {
 	
 	option = {
 		name = option.OK
-		increase_democratic_socialist_influence_by_1 = yes
 	}
 }
 
@@ -1556,7 +1522,6 @@ country_event = {
 	
 	option = {
 		name = option.OK
-		decrease_democratic_socialist_influence_by_1 = yes
 	}
 }
 
@@ -1571,7 +1536,6 @@ country_event = {
 	
 	option = {
 		name = option.OK
-		increase_communist_influence_by_1 = yes
 	}
 }
 
@@ -1586,7 +1550,6 @@ country_event = {
 	
 	option = {
 		name = option.OK
-		decrease_communist_influence_by_1 = yes
 	}
 }
 

@@ -1959,12 +1959,6 @@ focus_tree = {
 				ideology = fascist
 				popularity = 0.04
 			}
-		    increase_fascist_influence_by_2 = yes
-			increase_nationalist_influence_by_2 = yes
-			increase_monarchist_influence_by_2 = yes
-			decrease_conservative_influence_by_1 = yes
-			decrease_social_liberal_influence_by_1 = yes
-			decrease_social_democrat_influence_by_1 = yes
 			add_stability = -0.05
 			hidden_effect = {
 			    swap_ideas = {
@@ -2006,17 +2000,12 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-		    increase_fascist_influence_by_1 = yes
 			add_popularity = {
 			    ideology = fascist
 				popularity = 0.2
 			}
 			EU_membership_termination = yes
 			news_event = news.4
-			hidden_effect = {
-			    decrease_monarchist_influence_by_2 = yes
-				decrease_nationalist_influence_by_2 = yes
-			}
 		}
 	}
 	
@@ -2040,10 +2029,9 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-		    increase_monarchist_influence_by_1 = yes
-			hidden_effect = {
-			    decrease_fascist_influence_by_2 = yes
-				decrease_nationalist_influence_by_2 = yes
+			add_popularity = {
+				ideology = monarchist
+				popularity = 0.2	
 			}
 		}
 	}
@@ -2064,7 +2052,6 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-		increase_monarchist_influence_by_1 = yes
 		    set_politics = {
 			    ruling_party = monarchist
 				elections_allowed = no
@@ -2116,11 +2103,6 @@ focus_tree = {
 			        ideology = fascist
 				    popularity = 0.5
 			    }
-				increase_fascist_influence_by_1 = yes
-				hidden_effect = {
-			        decrease_monarchist_influence_by_2 = yes
-				    decrease_nationalist_influence_by_2 = yes
-			    }
 			}
 			if = {
 			    limit = {
@@ -2135,11 +2117,6 @@ focus_tree = {
 				    popularity = 0.5
 			    }
 				set_cosmetic_tag = ITA_RomanEmpire
-				increase_monarchist_influence_by_1 = yes
-				hidden_effect = {
-			        decrease_fascist_influence_by_2 = yes
-				    decrease_nationalist_influence_by_2 = yes
-			    }
 			}
 			if = {
 				limit = {
@@ -2325,7 +2302,6 @@ focus_tree = {
 			add_ideas = { ITA_new_march_on_rome }
 			set_cosmetic_tag = ITA_Mussolinisfascism #Default Fascist Italy is the Roman Empire
 			remove_ideas = ITA_corruption
-			increase_fascist_influence_by_1 = yes
 			add_stability = -0.01
 			news_event = news.90
 		}
@@ -4969,12 +4945,6 @@ focus_tree = {
 				ideology = social_democrat
 				popularity = 0.04
 			}
-			increase_conservative_influence_by_2 = yes
-			increase_social_liberal_influence_by_2 = yes
-			increase_social_democrat_influence_by_2 = yes
-			decrease_fascist_influence_by_1 = yes
-			decrease_monarchist_influence_by_1 = yes
-			decrease_nationalist_influence_by_1 = yes
 			add_stability = 0.05
 		}
 		
@@ -5012,7 +4982,6 @@ focus_tree = {
 				}
 				news_event = { id = news.93 }
 			}
-			decrease_reactionary_influence_by_2 = yes
 		}
 		
 		ai_will_do = {
@@ -5728,7 +5697,6 @@ focus_tree = {
 		completion_reward = {
 		    add_war_support = 0.05
 			add_political_power = 50
-			increase_reactionary_influence_by_1 = yes
 		}
 		
 		ai_will_do = {
@@ -5809,7 +5777,6 @@ focus_tree = {
 		            }
 	            }
 			}
-			increase_reactionary_influence_by_1 = yes
 		}
 		
 		ai_will_do = {
@@ -5897,7 +5864,6 @@ focus_tree = {
 	                }
                 }				
 			}
-			increase_social_democrat_influence_by_1 = yes
 	    }
 		
 		ai_will_do = {
@@ -5973,7 +5939,6 @@ focus_tree = {
 			    ideology = reactionary 
 				popularity = 0.1
 			}
-			increase_reactionary_influence_by_3 = yes
 		}
 	}
 	
@@ -6004,8 +5969,6 @@ focus_tree = {
 				ideology = conservative
 				popularity = 0.03
 			}
-			increase_conservative_influence_by_1 = yes
-			increase_social_democrat_influence_by_1 = yes
 			news_event = { id = news.102 }
 		    custom_effect_tooltip = ITA_begin_war_on_mafia
 		}
@@ -6097,7 +6060,10 @@ focus_tree = {
 			    limit = {
 				    has_country_flag = italeave_referendum_leave
 				}
-				increase_reactionary_influence_by_2 = yes
+				add_popularity = {
+					ideology = reactionary
+					popularity = 0.2
+				}
 			}
 			EU_membership_termination = yes
 		    news_event = news.4
@@ -6164,7 +6130,6 @@ focus_tree = {
 		completion_reward = {
 			remove_ideas = { the_euro }
 		    add_ideas = { ITA_restore_the_currency_idea }
-			increase_reactionary_influence_by_1 = yes
 			add_stability = -0.01
 	    }
 	}
@@ -6326,7 +6291,6 @@ focus_tree = {
 		
 		completion_reward = {
 		    add_ideas = ITA_italy_first_development
-			increase_nationalist_influence_by_1 = yes
 	    }
 	}
 	
@@ -6355,8 +6319,6 @@ focus_tree = {
 				add_idea = ITA_migrants_from_africa_limited
 				remove_idea = ITA_migrants_from_africa
 			}
-			increase_nationalist_influence_by_1 = yes
-			decrease_social_democrat_influence_by_1 = yes
 	    }
 		
 		ai_will_do = {
@@ -6388,8 +6350,6 @@ focus_tree = {
 				add_idea = ITA_migrants_from_africa_encouraged
 				remove_idea = ITA_migrants_from_africa
 			}
-			decrease_nationalist_influence_by_1 = yes
-			increase_social_democrat_influence_by_1 = yes
 	    }
 		
 		ai_will_do = {

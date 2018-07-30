@@ -12,7 +12,6 @@ country_event = {
 	#Excellent!
 	option = {
 		name = canada.1.o1
-		increase_conservative_influence_by_1 = yes
 		air_experience = 15
 		add_popularity = {
 			ideology = conservative
@@ -25,7 +24,6 @@ country_event = {
 	#We should probably stop monopolies in their wake.
 	option = {
 		name = canada.1.o2
-		decrease_conservative_influence_by_1 = yes
 		add_stability = 0.01
 		add_political_power = -30
 		add_popularity = {

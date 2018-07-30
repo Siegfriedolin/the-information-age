@@ -529,8 +529,6 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			increase_social_democrat_influence_by_1 = yes
-			increase_social_liberal_influence_by_1 = yes
 			add_political_power = 25
 			add_popularity = {
 				popularity = 0.05
@@ -566,7 +564,6 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			increase_conservative_influence_by_1 = yes
 			add_political_power = 25
 			add_popularity = {
 				popularity = 0.05
@@ -598,7 +595,6 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			increase_reactionary_influence_by_1 = yes
 			add_political_power = 50
 			add_popularity = {
 				popularity = 0.05
@@ -631,7 +627,6 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			increase_communist_influence_by_2 = yes
 			news_event = news.59
 			add_popularity = {
 				ideology = social_democrat
@@ -668,9 +663,6 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			increase_nationalist_influence_by_1 = yes
-			increase_fascist_influence_by_1 = yes
-			increase_monarchist_influence_by_1 = yes
 			news_event = news.60
 			add_popularity = {
 				ideology = conservative
@@ -1874,7 +1866,6 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			increase_reactionary_influence_by_2 = yes
 			add_war_support = -0.3
 			EU_membership_termination = yes
 			news_event = news.61
@@ -1993,7 +1984,6 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			increase_monarchist_influence_by_1 = yes
 			add_ideas = ENG_benevolent_monarchy_idea
 		}
 		
@@ -2022,8 +2012,6 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			increase_monarchist_influence_by_1 = yes
-			increase_nationalist_influence_by_1 = yes
 			add_ideas = ENG_imperialistic_ambitions
 		}
 		
@@ -2051,8 +2039,6 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			increase_nationalist_influence_by_1 = yes
-			increase_fascist_influence_by_1 = yes
 			add_timed_idea = {
 				idea = ENG_nationalism_idea
 				days = 365

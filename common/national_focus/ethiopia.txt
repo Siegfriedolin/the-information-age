@@ -2000,11 +2000,6 @@ focus_tree = {
 		bypass = {}
 		
 		completion_reward = {
-			increase_monarchist_influence_by_1 = yes
-			decrease_communist_influence_by_2 = yes
-			decrease_democratic_socialist_influence_by_1 = yes
-			decrease_conservative_influence_by_1 = yes
-			decrease_social_liberal_influence_by_1 = yes
 			add_political_power = 50
 			add_popularity = {
 				ideology = monarchist
@@ -2070,8 +2065,6 @@ focus_tree = {
 		bypass = {}
 		
 		completion_reward = {
-			increase_monarchist_influence_by_2 = yes
-			decrease_communist_influence_by_1 = yes
 			add_popularity = {
 				ideology = monarchist
 				popularity = 0.1
@@ -2156,7 +2149,6 @@ focus_tree = {
 		bypass = {}
 		
 		completion_reward = {
-			increase_monarchist_influence_by_1 = yes
 			create_country_leader = {
 				name = "Zera Yacob"
 				picture = "Zera_Selassie.dds"
@@ -2233,7 +2225,6 @@ focus_tree = {
 		bypass = {}
 		
 		completion_reward = {
-			increase_monarchist_influence_by_1 = yes
 			add_ideas = army_organization_bonus
 		}
 		
@@ -2619,7 +2610,6 @@ focus_tree = {
 		bypass = {}
 		
 		completion_reward = {
-			increase_communist_influence_by_1 = yes
 			add_popularity = {
 				ideology = communist
 				popularity = 0.05
@@ -2652,7 +2642,6 @@ focus_tree = {
 		bypass = {}
 		
 		completion_reward = {
-			increase_communist_influence_by_1 = yes
 			add_popularity = {
 				ideology = communist
 				popularity = 0.15
@@ -2697,10 +2686,6 @@ focus_tree = {
 		bypass = {}
 		
 		completion_reward = {
-			increase_communist_influence_by_2 = yes
-			decrease_democratic_socialist_influence_by_1 = yes
-			decrease_conservative_influence_by_1 = yes
-			decrease_social_liberal_influence_by_1 = yes
 			add_popularity = {
 				ideology = communist
 				popularity = 0.05
@@ -2822,7 +2807,6 @@ focus_tree = {
 					NOT = { has_government = communist }
 					is_puppet = no
 				}
-				increase_communist_influence_by_3 = yes
 			}
 		}
 		
