@@ -49,8 +49,8 @@
 
 	
 		completion_reward = {
-		add_war_support = 0.02
-		add_political_power = 25
+			add_war_support = 0.02
+			add_political_power = 25
 		}
 		
 		ai_will_do = {
@@ -75,8 +75,8 @@
 
 	
 		completion_reward = {
-		add_stability = 0.01
-		add_political_power = 30
+			add_stability = 0.01
+			add_political_power = 30
 		}
 		
 		ai_will_do = {
@@ -100,9 +100,9 @@
 
 	
 		completion_reward = {
-		add_stability = 0.01
-		add_political_power = 10
-		add_war_support = -0.01
+			add_stability = 0.01
+			add_political_power = 10
+			add_war_support = -0.01
 		}
 		
 		ai_will_do = {
@@ -126,9 +126,9 @@
 
 	
 		completion_reward = {
-		add_stability = -0.01
-		add_political_power = 15
-		add_war_support = 0.01
+			add_stability = -0.01
+			add_political_power = 15
+			add_war_support = 0.01
 		}
 		
 		ai_will_do = {
@@ -149,7 +149,7 @@
 
 	
 		completion_reward = {
-		add_political_power = 60
+			add_political_power = 60
 		}
 		
 		ai_will_do = {
@@ -170,8 +170,8 @@
 
 	
 		completion_reward = {
-		add_political_power = 15
-		add_stability = 0.01
+			add_political_power = 15
+			add_stability = 0.01
 		}
 		
 		ai_will_do = {
@@ -192,7 +192,7 @@
 
 	
 		completion_reward = {
-		add_political_power = 40
+			add_political_power = 40
 		}
 		
 		ai_will_do = {
@@ -213,7 +213,7 @@
 
 	
 		completion_reward = {
-		add_stability = 0.03
+			add_stability = 0.03
 		}
 		
 		ai_will_do = {
@@ -232,11 +232,10 @@
 		prerequisite = {
 			focus = CHI_Strenghten_the_Yuan
 		}
-
 	
 		completion_reward = {
-		add_political_power = -40
-		add_stability = 0.01
+			add_political_power = -40
+			add_stability = 0.01
 		}
 		
 		ai_will_do = {
@@ -254,11 +253,10 @@
 		prerequisite = {
 			focus = CHI_Strenghten_the_Yuan
 		}
-
 	
 		completion_reward = {
-		add_political_power = 50
-		add_ideas = agricultural_investments2
+			add_political_power = 50
+			add_ideass = agricultural_investments2
 		}
 		
 		ai_will_do = {
@@ -276,11 +274,10 @@
 		prerequisite = {
 			focus = CHI_Strenghten_the_Yuan
 		}
-
 	
 		completion_reward = {
-		add_political_power = 50
-		add_ideas = idea_focus_PRC_free_markets
+			add_political_power = 50
+			add_ideass = idea_focus_PRC_free_markets
 		}
 		
 		ai_will_do = {
@@ -306,9 +303,8 @@
 			focus = CHI_Reforms_in_the_Executive_Yuan
 		}
 
-	
 		completion_reward = {
-		add_political_power = 30
+			add_political_power = 30
 		}
 		
 		ai_will_do = {
@@ -317,20 +313,19 @@
 	}
 	
 	focus = {
-      id = CHI_The_Old_Alliance
-      icon = align_to_america
-      x = 12
-      y = 9
-      cost = 10
+		id = CHI_The_Old_Alliance
+		icon = align_to_america
+		x = 12
+		y = 9
+		cost = 10
 
-      prerequisite = {
-         focus = CHI_Look_Outside
-      }
+		prerequisite = {
+			focus = CHI_Look_Outside
+		}
 
-      completion_reward = {
-         USA = { add_opinion_modifier = { target = CHI modifier = recent_actions_positive } }
- 
-      }
+		completion_reward = {
+			USA = { add_opinion_modifier = { target = CHI modifier = recent_actions_positive } }
+		}
 
 		ai_will_do = {
 			factor = 35
@@ -338,20 +333,19 @@
    }
    
     focus = {
-      id = CHI_Trade_Deals
-      icon = trade_with_america
-      x = 12
-      y = 10
-      cost = 10
+		id = CHI_Trade_Deals
+		icon = trade_with_america
+		x = 12
+		y = 10
+		cost = 10
 
-      prerequisite = {
-         focus = CHI_The_Old_Alliance
-      }
+		prerequisite = {
+			focus = CHI_The_Old_Alliance
+		}
 
-      completion_reward = {
-         USA = { add_opinion_modifier = { target = CHI modifier = trade_influence_1 } }
- 
-      }
+		completion_reward = {
+			USA = { add_opinion_modifier = { target = CHI modifier = trade_influence_1 } }
+		}
 
 		ai_will_do = {
 			factor = 35
@@ -359,20 +353,19 @@
    }
    
    	focus = {
-      id = CHI_Reapproach_Japan
-      icon = align_to_japan
-      x = 10
-      y = 9
-      cost = 10
+		id = CHI_Reapproach_Japan
+		icon = align_to_japan
+		x = 10
+		y = 9
+		cost = 10
 
-      prerequisite = {
-         focus = CHI_Look_Outside
-      }
+		prerequisite = {
+			focus = CHI_Look_Outside
+		}
 
-      completion_reward = {
-         JAP = { add_opinion_modifier = { target = CHI modifier = recent_actions_positive } }
- 
-      }
+		completion_reward = {
+			JAP = { add_opinion_modifier = { target = CHI modifier = recent_actions_positive } }
+		}
 
 		ai_will_do = {
 			factor = 35
@@ -380,20 +373,20 @@
    }
    
     focus = {
-      id = CHI_Senkaku_Islands_Question
-      icon = dangerous_deal
-      x = 10
-      y = 10
-      cost = 10
+		id = CHI_Senkaku_Islands_Question
+		icon = dangerous_deal
+		x = 10
+		y = 10
+		cost = 10
 
-      prerequisite = {
-         focus = CHI_Reapproach_Japan
-      }
+		prerequisite = {
+			focus = CHI_Reapproach_Japan
+		}
 
-      completion_reward = {
-         JAP = { country_event = taiwan.4 }
- 
-      }
+		completion_reward = {
+			JAP = { country_event = taiwan.4 }
+	
+		}
 
 		ai_will_do = {
 			factor = 35
@@ -401,20 +394,20 @@
    }
    
     focus = {
-      id = CHI_Agreements_with_South_Korea
-      icon = align_to_south_korea
-      x = 14
-      y = 9
-      cost = 10
+		id = CHI_Agreements_with_South_Korea
+		icon = align_to_south_korea
+		x = 14
+		y = 9
+		cost = 10
 
-      prerequisite = {
-         focus = CHI_Look_Outside
-      }
+		prerequisite = {
+			focus = CHI_Look_Outside
+		}
 
-      completion_reward = {
-         KOR = { add_opinion_modifier = { target = CHI modifier = recent_actions_positive } }
- 
-      }
+		completion_reward = {
+			KOR = { add_opinion_modifier = { target = CHI modifier = recent_actions_positive } }
+	
+		}
 
 		ai_will_do = {
 			factor = 35
@@ -422,20 +415,20 @@
    }
    
     focus = {
-      id = CHI_Scientific_Deals
-      icon = scientific_exchange
-      x = 14
-      y = 10
-      cost = 10
+		id = CHI_Scientific_Deals
+		icon = scientific_exchange
+		x = 14
+		y = 10
+		cost = 10
 
-      prerequisite = {
-         focus = CHI_Agreements_with_South_Korea
-      }
+		prerequisite = {
+			focus = CHI_Agreements_with_South_Korea
+		}
 
-      completion_reward = {
-         add_ideas = scientific_advances2
-		 add_political_power = 30
-      }
+		completion_reward = {
+			add_ideass = scientific_advances2
+			add_political_power = 30
+		}
 
 		ai_will_do = {
 			factor = 35
@@ -443,26 +436,26 @@
    }
    
     focus = {
-      id = CHI_International_Outreach
-      icon = align_to_united_nations
-      x = 12
-      y = 11
-      cost = 10
+    	id = CHI_International_Outreach
+    	icon = align_to_united_nations
+    	x = 12
+    	y = 11
+     	cost = 10
 
-      prerequisite = {
-         focus = CHI_Senkaku_Islands_Question
-      }
-      prerequisite = {
-         focus = CHI_Scientific_Deals
-      }
+     	prerequisite = {
+        	focus = CHI_Senkaku_Islands_Question
+     	}
+     	prerequisite = {
+        	focus = CHI_Scientific_Deals
+     	}
 	  
-	  prerequisite = {
-         focus = CHI_Trade_Deals
-      }
+	  	prerequisite = {
+         	focus = CHI_Trade_Deals
+      	}
 	  
-      completion_reward = {
-		 add_political_power = 50
-      }
+      	completion_reward = {
+		 	add_political_power = 50
+      	}
 
 		ai_will_do = {
 			factor = 35
@@ -470,29 +463,28 @@
    }
    
     focus = {
-      id = CHI_Approach_ASEAN
-      icon = align_to_asean
-      x = 12
-      y = 12
-      cost = 10
+    	id = CHI_Approach_ASEAN
+    	icon = align_to_asean
+		x = 12
+    	y = 12
+    	cost = 10
 
-      prerequisite = {
-         focus = CHI_International_Outreach
-      }
+    	prerequisite = {
+        	focus = CHI_International_Outreach
+      	}
 
-      completion_reward = {
-         SIA = { add_opinion_modifier = { target = CHI modifier = recent_actions_positive } }
-		 VIN = { add_opinion_modifier = { target = CHI modifier = recent_actions_positive } }
-		 CAM = { add_opinion_modifier = { target = CHI modifier = recent_actions_positive } }
-		 "PHI" = { add_opinion_modifier = { target = CHI modifier = recent_actions_positive } }
-		 MYA = { add_opinion_modifier = { target = CHI modifier = recent_actions_positive } }
-		 MAY = { add_opinion_modifier = { target = CHI modifier = recent_actions_positive } }
-		 INS = { add_opinion_modifier = { target = CHI modifier = recent_actions_positive } }
-		 LAO = { add_opinion_modifier = { target = CHI modifier = recent_actions_positive } }
-		 SIG = { add_opinion_modifier = { target = CHI modifier = recent_actions_positive } }
-		 BRU = { add_opinion_modifier = { target = CHI modifier = recent_actions_positive } }
- 
-      }
+		completion_reward = {
+			SIA = { add_opinion_modifier = { target = CHI modifier = recent_actions_positive } }
+			VIN = { add_opinion_modifier = { target = CHI modifier = recent_actions_positive } }
+			CAM = { add_opinion_modifier = { target = CHI modifier = recent_actions_positive } }
+			"PHI" = { add_opinion_modifier = { target = CHI modifier = recent_actions_positive } }
+			MYA = { add_opinion_modifier = { target = CHI modifier = recent_actions_positive } }
+			MAY = { add_opinion_modifier = { target = CHI modifier = recent_actions_positive } }
+			INS = { add_opinion_modifier = { target = CHI modifier = recent_actions_positive } }
+			LAO = { add_opinion_modifier = { target = CHI modifier = recent_actions_positive } }
+			SIG = { add_opinion_modifier = { target = CHI modifier = recent_actions_positive } }
+			BRU = { add_opinion_modifier = { target = CHI modifier = recent_actions_positive } }
+		}
 
 		ai_will_do = {
 			factor = 35
@@ -500,42 +492,42 @@
    }
    
     focus = {
-      id = CHI_Secure_the_Island
-      icon = defence
-      x = 12
-      y = 13
-      cost = 10
+    	id = CHI_Secure_the_Island
+    	icon = defence
+    	x = 12
+    	y = 13
+    	cost = 10
 
-      prerequisite = {
-         focus = CHI_Approach_ASEAN
-      }
+    	prerequisite = {
+        	focus = CHI_Approach_ASEAN
+      	}
 
-      completion_reward = {
-		 add_war_support = 0.01
-		 add_ideas = defensive_preparations3
-      }
+    	completion_reward = {
+			add_war_support = 0.01
+			add_ideass = defensive_preparations3
+    	}
 
 		ai_will_do = {
 			factor = 35
 		}
-   }
+   	}
    
     focus = {
-      id = CHI_Republic_Never_Fall
-      icon = blue_dragon
-      x = 12
-      y = 14
-      cost = 10
+    	id = CHI_Republic_Never_Fall
+    	icon = blue_dragon
+    	x = 12
+    	y = 14
+    	cost = 10
 
-    prerequisite = {
-        focus = CHI_Secure_the_Island
-    }
+    	prerequisite = {
+        	focus = CHI_Secure_the_Island
+    	}
 
-    completion_reward = {
-        add_war_support = 0.01
-	    add_ideas = defensive_constructions4
-	    add_ideas = defensive_military_strategy
-	}
+    	completion_reward = {
+        	add_war_support = 0.01
+	    	add_ideas = defensive_constructions4
+	    	add_ideas = defensive_military_strategy
+		}
 
 		ai_will_do = {
 			factor = 35
@@ -580,10 +572,11 @@
 
 	
 		completion_reward = {
-		add_political_power = -50
-	    add_popularity = {
-	    ideology = conservative
-	    popularity = 0.01 } 
+			add_political_power = -50
+	    	add_popularity = {
+	    		ideology = conservative
+	    		popularity = 0.01 
+			} 
 		}
 		
 		ai_will_do = {
@@ -601,11 +594,10 @@
 		prerequisite = {
 			focus = CHI_Conservative_Propaganda
 		}
-
 	
 		completion_reward = {
-		add_stability = -0.04
-		country_event = taiwan.5
+			add_stability = -0.04
+			country_event = taiwan.5
 		}
 		
 		ai_will_do = {
@@ -626,8 +618,8 @@
 
 	
 		completion_reward = {
-		add_stability = 0.01
-		add_political_power = -50
+			add_stability = 0.01
+			add_political_power = -50
 		}
 		
 		ai_will_do = {
@@ -647,9 +639,10 @@
 		}
 
 	    completion_reward = {
-	    add_popularity = {
-	    ideology = social_liberal
-	    popularity = -0.01 } 
+	    	add_popularity = {
+	    		ideology = social_liberal
+	    		popularity = -0.01
+			} 
 		}
 		
 		ai_will_do = {
@@ -692,11 +685,10 @@
 			focus = CHI_A_New_Parliament
 		}
 
-	
 		completion_reward = {
-		add_popularity = {
-	    ideology = conservative
-	    popularity = 0.05 }
+			add_popularity = {
+	   			ideology = conservative
+	    		popularity = 0.05 }
 		}
 		
 		ai_will_do = {
@@ -720,11 +712,11 @@
 		prerequisite = {
 			focus = CHI_Emphasize_the_Anti-Secession_Law
 		}
-
 	
 		completion_reward = {
-		add_war_support = 0.02
+			add_war_support = 0.02
 		}
+
 		ai_will_do = {
 			factor = 35
 		}
@@ -740,16 +732,16 @@
 		prerequisite = {
 			focus = CHI_Start_the_Plan
 		}
-
 	
 		completion_reward = {
-		add_popularity = {
-	    ideology = conservative
-	    popularity = 0.1 }
-		set_politics = {
-        ruling_party = conservative
-        elections_allowed = no
-                              }
+			add_popularity = {
+	    		ideology = conservative
+	    		popularity = 0.1 
+			}
+			set_politics = {
+        		ruling_party = conservative
+       			elections_allowed = no
+            }
 		}
 		ai_will_do = {
 			factor = 35
@@ -772,13 +764,14 @@
 
 	
 		completion_reward = {
-		add_popularity = {
-	    ideology = conservative
-	    popularity = 0.02 }
-		set_politics = {
-        ruling_party = conservative
-		elections_allowed = yes
-        }
+			add_popularity = {
+				ideology = conservative
+				popularity = 0.02
+			}
+			set_politics = {
+				ruling_party = conservative
+				elections_allowed = yes
+			}
 		}
 		ai_will_do = {
 			factor = 35
@@ -800,10 +793,12 @@
 		}
 	
 		completion_reward = {
-		add_popularity = {
-	    ideology = conservative
-	    popularity = -0.02 }
+			add_popularity = {
+	    		ideology = conservative
+	   			popularity = -0.02 
+			}
 		}
+
 		ai_will_do = {
 			factor = 35
 		}
@@ -823,9 +818,10 @@
 
 	
 		completion_reward = {
-		add_popularity = {
-	    ideology = conservative
-	    popularity = 0.05 }
+			add_popularity = {
+	    		ideology = conservative
+	    		popularity = 0.05
+			}
 		}
 		
 		ai_will_do = {
@@ -846,7 +842,7 @@
 
 	
 		completion_reward = {
-		PRC = { add_stability = -0.02 }
+			PRC = { add_stability = -0.02 }
 		}
 		
 		ai_will_do = {
@@ -867,12 +863,13 @@
 
 	
 		completion_reward = {
-		PRC = { add_popularity = {
-	    ideology = conservative
-	    popularity = 0.04
-		}
-		add_stability = -0.01
-		}
+			PRC = { 
+				add_popularity = {
+	    			ideology = conservative
+	   				popularity = 0.04
+				}
+				add_stability = -0.01
+			}
 		}
 		
 		ai_will_do = {
@@ -921,20 +918,21 @@
 
 	
 		completion_reward = {
-		PRC = { add_popularity = {
-	    ideology = conservative
-	    popularity = 0.02
-		}
-		add_popularity = {
-	    ideology = social_liberal
-	    popularity = 0.02
-		}
-		add_popularity = {
-	    ideology = democratic_socialist
-	    popularity = 0.02
-		}
-		add_stability = -0.04
-		}
+			PRC = { 
+				add_popularity = {
+	   				ideology = conservative
+	    			popularity = 0.02
+				}
+				add_popularity = {
+	    			ideology = social_liberal
+	    			popularity = 0.02
+				}
+				add_popularity = {
+	    			ideology = democratic_socialist
+	    			popularity = 0.02
+				}
+				add_stability = -0.04
+			}
 		}
 		
 		ai_will_do = {
@@ -960,12 +958,9 @@
 		prerequisite = {
 			focus = CHI_Agreements_with_Chinese_Companies	
 		}
-
-
-
 	
 		completion_reward = {
-		PRC = { country_event = { days = 3 id = taiwan.6 } }
+			PRC = { country_event = { days = 3 id = taiwan.6 } }
 		}
 		
 		ai_will_do = {
@@ -980,12 +975,13 @@
 		y = 16
 		cost = 1
 		
-    available = {
-    CHI = { has_completed_focus = CHI_Explode_the_Powder_Keg }
-	CHI = { has_war_with = PRC }
-    }
+   		available = {
+			CHI = { has_completed_focus = CHI_Explode_the_Powder_Keg }
+			CHI = { has_war_with = PRC }
+		}
+
 		completion_reward = {
-		add_war_support = 0.05
+			add_war_support = 0.05
 		}
 		
 		ai_will_do = {
@@ -1003,12 +999,11 @@
 		prerequisite = {
 			focus = CHI_Legacy_of_Chiang_Kai_Shek
 		}
-
 	
 		completion_reward = {
-		add_political_power = 200
-		add_war_support = 0.3
-		add_ideas = idea_CHI_mainland
+			add_political_power = 200
+			add_war_support = 0.3
+			add_ideas = idea_CHI_mainland
 		}
 		
 		ai_will_do = {
@@ -1023,10 +1018,10 @@
 		y = 18
 		cost = 1
 		
-    available = {
-	NOT = { country_exists = PRC }
-	NOT = { has_war = yes }
-     }
+		available = {
+			NOT = { country_exists = PRC }
+			NOT = { has_war = yes }
+		}
 		
 		prerequisite = {
 			focus = CHI_The_War_of_Reconquest
@@ -1034,9 +1029,9 @@
 
 	
 		completion_reward = {
-		add_political_power = 400
-		add_stability = 0.3
-		remove_ideas = idea_CHI_mainland
+			add_political_power = 400
+			add_stability = 0.3
+			remove_ideas = idea_CHI_mainland
 		}
 		
 		ai_will_do = {
@@ -1057,7 +1052,7 @@
 
 	
 		completion_reward = {
-		add_war_support = 0.01
+			add_war_support = 0.01
 		}
 		
 		ai_will_do = {
@@ -1078,7 +1073,7 @@
 
 	
 		completion_reward = {
-		add_political_power = 30
+			add_political_power = 30
 		}
 		
 		ai_will_do = {
@@ -1099,8 +1094,8 @@
 
 	
 		completion_reward = {
-		HKN = { country_event = taiwan.8 }
-		MCU = { country_event = taiwan.8 }
+			HKN = { country_event = taiwan.8 }
+			MCU = { country_event = taiwan.8 }
 		}
 		
 		ai_will_do = {
@@ -1121,7 +1116,7 @@
 
 	
 		completion_reward = {
-		add_political_power = 30
+			add_political_power = 30
 		}
 		
 		ai_will_do = {
@@ -1137,7 +1132,7 @@
 		cost = 2
 		
 		mutually_exclusive = {
-		focus = CHI_Subjugate_Tibet 
+			focus = CHI_Subjugate_Tibet 
 		}
 		
 		prerequisite = {
@@ -1146,8 +1141,8 @@
 
 	
 		completion_reward = {
-		create_wargoal = { type = take_core_state target = TIB }
-		add_stability = -0.01
+			create_wargoal = { type = take_core_state target = TIB }
+			add_stability = -0.01
 		}
 		
 		ai_will_do = {
@@ -1169,11 +1164,10 @@
 		prerequisite = {
 			focus = CHI_The_Tibetan_Question
 		}
-
 	
 		completion_reward = {
-		TIB = { country_event = taiwan.7 }
-		add_stability = 0.01
+			TIB = { country_event = taiwan.7 }
+			add_stability = 0.01
 		}
 		
 		ai_will_do = {
@@ -1195,11 +1189,10 @@
 		prerequisite = {
 			focus = CHI_The_Uyghur_Question
 		}
-
 	
 		completion_reward = {
-		create_wargoal = { type = take_core_state target = SIK }
-		add_stability = -0.01
+			create_wargoal = { type = take_core_state target = SIK }
+			add_stability = -0.01
 		}
 		
 		ai_will_do = {
@@ -1222,10 +1215,9 @@
 			focus = CHI_The_Uyghur_Question
 		}
 
-	
 		completion_reward = {
-		SIK = { country_event = taiwan.7 }
-		add_stability = 0.01
+			SIK = { country_event = taiwan.7 }
+			add_stability = 0.01
 		}
 		
 		ai_will_do = {
@@ -1239,7 +1231,6 @@
 		x = 18
 		y = 22
 		cost = 5
-		
 	
 		prerequisite = {
 			focus = CHI_Reconquer_Uyghuria
@@ -1250,12 +1241,12 @@
 			focus = CHI_Subjugate_Tibet
 		}
 		prerequisite = {
-		focus = CHI_Reconquer_the_Treaty_Ports
+			focus = CHI_Reconquer_the_Treaty_Ports
         }
 	
 		completion_reward = {
-	    add_war_support = 0.01
-		add_political_power = 30
+			add_war_support = 0.01
+			add_political_power = 30
 		}
 		
 		ai_will_do = {
@@ -1270,14 +1261,12 @@
 		y = 23
 		cost = 5
 		
-	
 		prerequisite = {
 			focus = CHI_To_The_North
 		}
 
-	
 		completion_reward = {
-	    create_wargoal = { type = take_core_state target = MON }
+	    	create_wargoal = { type = take_core_state target = MON }
 		}
 		
 		ai_will_do = {
@@ -1292,14 +1281,12 @@
 		y = 23
 		cost = 5
 		
-	
 		prerequisite = {
 			focus = CHI_To_The_North
 		}
-
 	
 		completion_reward = {
-	    SOV = { country_event = taiwan.9}
+	   		SOV = { country_event = taiwan.9}
 		}
 		
 		ai_will_do = {
@@ -1314,14 +1301,12 @@
 		y = 23
 		cost = 5
 		
-	
 		prerequisite = {
 			focus = CHI_To_The_North
 		}
-
 	
 		completion_reward = {
-	    PRK = { country_event = taiwan.10}
+	    	PRK = { country_event = taiwan.10}
 		}
 		
 		ai_will_do = {
@@ -1336,7 +1321,6 @@
 		y = 24
 		cost = 5
 		
-	
 		prerequisite = {
 			focus = CHI_Reconquer_Mongolia
 		}
@@ -1346,13 +1330,11 @@
 		prerequisite = {
 			focus = CHI_Demand_Korean_Unification
 		}
-		
-
 	
 		completion_reward = {
-		set_cosmetic_tag = CHI_Reunified
-		remove_ideas = partially_recognized_state
-		add_ideas = idea_united_nations_security_council_member
+			set_cosmetic_tag = CHI_Reunified
+			remove_ideas = partially_recognized_state
+			add_ideass = idea_united_nations_security_council_member
 		}		
 		ai_will_do = {
 			factor = 35
@@ -1369,14 +1351,13 @@
 		prerequisite = {
 			focus = CHI_A_New_Dream	
 		}
-		
 	
 		completion_reward = {
-		add_political_power = -50
-		add_popularity = {
-	    ideology = conservative
-	    popularity = -0.05 }
-		
+			add_political_power = -50
+			add_popularity = {
+	    		ideology = conservative
+	    		popularity = -0.05
+			}
 		}
 		
 		ai_will_do = {
@@ -1397,9 +1378,8 @@
 		
 	
 		completion_reward = {
-		add_stability = 0.01
-		add_political_power = 40
-		
+			add_stability = 0.01
+			add_political_power = 40
 		}
 		
 		ai_will_do = {
@@ -1420,9 +1400,8 @@
 		
 	
 		completion_reward = {
-		remove_ideas = idea_CHI_grudge
-		add_ideas = idea_focus_personal_freedoms
-		
+			remove_ideas = idea_CHI_grudge
+			add_ideass = idea_focus_personal_freedoms
 		}
 		
 		ai_will_do = {
@@ -1443,8 +1422,8 @@
 		
 	
 		completion_reward = {
-		PRC = { add_opinion_modifier = { target = CHI modifier = trade_influence_1 } }
-		CHI = { add_opinion_modifier = { target = PRC modifier = trade_influence_1 } }
+			PRC = { add_opinion_modifier = { target = CHI modifier = trade_influence_1 } }
+			CHI = { add_opinion_modifier = { target = PRC modifier = trade_influence_1 } }
 		}
 		
 		ai_will_do = {
@@ -1465,9 +1444,9 @@
 		
 	
 		completion_reward = {
-		PRC = { add_opinion_modifier = { target = CHI modifier = recent_actions_positive } }
-		JAP = { add_opinion_modifier = { target = PRC modifier = recent_actions_positive } }
-		876 = { remove_core_of = CHI }
+			PRC = { add_opinion_modifier = { target = CHI modifier = recent_actions_positive } }
+			JAP = { add_opinion_modifier = { target = PRC modifier = recent_actions_positive } }
+			876 = { remove_core_of = CHI }
 		}
 		
 		ai_will_do = {
@@ -1494,12 +1473,12 @@
 		
 	
 		completion_reward = {
-		PRC = { add_opinion_modifier = { target = CHI modifier = established_diplomatic_relations } }
-		CHI = { add_opinion_modifier = { target = PRC modifier = established_diplomatic_relations } }
-		PRC = { add_opinion_modifier  = { target = CHI modifier = new_diplomatic_missions } }
-		CHI = { add_opinion_modifier  = { target = PRC modifier = new_diplomatic_missions } }
-		add_stability = 0.04
-		add_political_power = 30
+			PRC = { add_opinion_modifier = { target = CHI modifier = established_diplomatic_relations } }
+			CHI = { add_opinion_modifier = { target = PRC modifier = established_diplomatic_relations } }
+			PRC = { add_opinion_modifier  = { target = CHI modifier = new_diplomatic_missions } }
+			CHI = { add_opinion_modifier  = { target = PRC modifier = new_diplomatic_missions } }
+			add_stability = 0.04
+			add_political_power = 30
 		}
 		
 		ai_will_do = {
@@ -1520,7 +1499,7 @@
 		
 	
 		completion_reward = {
-		add_political_power = 300
+			add_political_power = 300
 		}
 		
 		ai_will_do = {
@@ -1540,25 +1519,28 @@
 		}
 		
 		mutually_exclusive = {
-		focus = CHI_Rise_of_The_DPP
+			focus = CHI_Rise_of_The_DPP
 		}
 		
 	
 		completion_reward = {
-		add_political_power = -50
-		add_popularity = {
-	    ideology = social_liberal
-	    popularity = -0.05 }
-		add_popularity = {
-	    ideology = democratic_socialist
-	    popularity = 0.05 }
-		add_popularity = {
-	    ideology = communist
-	    popularity = 0.05 }
-		add_popularity = {
-	    ideology = progressive
-	    popularity = 0.05 }
-		
+			add_political_power = -50
+			add_popularity = {
+				ideology = social_liberal
+				popularity = -0.05
+			}
+			add_popularity = {
+				ideology = democratic_socialist
+				popularity = 0.05
+			}
+			add_popularity = {
+				ideology = communist
+				popularity = 0.05
+			}
+			add_popularity = {
+				ideology = progressive
+				popularity = 0.05
+			}
 		}
 		
 		ai_will_do = {
@@ -1578,15 +1560,16 @@
 		}
 		
 		mutually_exclusive = {
-		focus = CHI_Rise_of_Third_Parties
+			focus = CHI_Rise_of_Third_Parties
 		}
 		
 	
 		completion_reward = {
-		add_political_power = -50
-		add_popularity = {
-	    ideology = social_liberal
-	    popularity = 0.05 }
+			add_political_power = -50
+			add_popularity = {
+	   			ideology = social_liberal
+	    		popularity = 0.05
+			}
 		
 		}
 		
@@ -1607,19 +1590,18 @@
 		}
 		
 		mutually_exclusive = {
-		focus = CHI_Rise_of_The_Workers
+			focus = CHI_Rise_of_The_Workers
 		}
-		
 	
 		completion_reward = {
-		add_popularity = {
-	    ideology = progressive
-	    popularity = 0.05 }
-		add_popularity = {
-	    ideology = social_liberal
-	    popularity = -0.05 }
-		
-		
+			add_popularity = {
+	   			ideology = progressive
+	   			popularity = 0.05
+			}
+			add_popularity = {
+	    		ideology = social_liberal
+	    		popularity = -0.05
+			}
 		}
 		
 		ai_will_do = {
@@ -1638,21 +1620,19 @@
 			focus = CHI_Rise_of_The_Progressives
 		}
 	
-		
-	
 		completion_reward = {
-		add_popularity = {
-	    ideology = progressive
-	    popularity = 0.1 }
-		add_popularity = {
-	    ideology = social_liberal
-	    popularity = -0.05 }
-		set_politics = {
-        ruling_party = progressive
-        elections_allowed = yes
-                              }
-		
-		
+			add_popularity = {
+				ideology = progressive
+				popularity = 0.1
+			}
+			add_popularity = {
+	    		ideology = social_liberal
+	    		popularity = -0.05 
+			}
+			set_politics = {
+        		ruling_party = progressive
+        		elections_allowed = yes
+       		}
 		}
 		
 		ai_will_do = {
@@ -1673,7 +1653,7 @@
 		
 	
 		completion_reward = {
-		add_ideas = idea_focus_generic_progressive_doctrine
+			add_ideas = idea_focus_generic_progressive_doctrine
 		}
 		
 		ai_will_do = {
@@ -1693,19 +1673,19 @@
 		}
 		
 		mutually_exclusive = {
-		focus = CHI_Rise_of_The_Progressives
+			focus = CHI_Rise_of_The_Progressives
 		}
 		
 	
 		completion_reward = {
-		add_popularity = {
-	    ideology = communist
-	    popularity = 0.05 }
-		add_popularity = {
-	    ideology = social_liberal
-	    popularity = -0.05 }
-		
-		
+			add_popularity = {
+				ideology = communist
+				popularity = 0.05 
+			}
+			add_popularity = {
+	  			ideology = social_liberal
+	    		popularity = -0.05 
+			}		
 		}
 		
 		ai_will_do = {
@@ -1723,17 +1703,13 @@
 		prerequisite = {
 			focus = CHI_Rise_of_The_Workers
 		}
-		
-
-		
 	
 		completion_reward = {
-		add_popularity = {
-	    ideology = communist
-	    popularity = 0.05 }
-		country_event = generic.1
-		
-		
+			add_popularity = {
+	    		ideology = communist
+	    		popularity = 0.05
+			}
+			country_event = generic.1	
 		}
 		
 		ai_will_do = {
@@ -1751,16 +1727,13 @@
 		prerequisite = {
 			focus = CHI_Strenghten_Syndicalist_Movements
 		}
-		
-		
 	
 		completion_reward = {
-		add_popularity = {
-	    ideology = communist
-	    popularity = 0.05 }
-		country_event = generic.1
-		
-		
+			add_popularity = {
+				ideology = communist
+				popularity = 0.05 
+			}
+			country_event = generic.1
 		}
 		
 		ai_will_do = {
@@ -1778,14 +1751,12 @@
 		prerequisite = {
 			focus = CHI_Spread_Pro-Unification_Propaganda
 		}
-		
-		
 	
 		completion_reward = {
-		add_popularity = {
-	    ideology = communist
-	    popularity = 0.05 }		
-		
+			add_popularity = {
+	    		ideology = communist
+	    		popularity = 0.05 
+			}	
 		}
 		
 		ai_will_do = {
@@ -1803,19 +1774,16 @@
 		prerequisite = {
 			focus = CHI_Prepare_the_Revolution
 		}
-		
-		
 	
 		completion_reward = {
-		add_popularity = {
-	    ideology = communist
-	    popularity = 0.1 }
-        set_politics = {
-		ruling_party = communist
-		elections_allowed = no
-		}
-                 		
-		
+			add_popularity = {
+				ideology = communist
+				popularity = 0.1 
+			}
+			set_politics = {
+				ruling_party = communist
+				elections_allowed = no
+			}
 		}
 		
 		ai_will_do = {
@@ -1833,16 +1801,11 @@
 		prerequisite = {
 			focus = CHI_Communist_Takeover
 		}
-		
-		
 	
 		completion_reward = {
-		PRC = { country_event = taiwan.11 }
+			PRC = { country_event = taiwan.11 }
 		}
                  		
-		
-		
-		
 		ai_will_do = {
 			factor = 35
 		}
@@ -1857,13 +1820,11 @@
 		
 		prerequisite = {
 			focus = CHI_Rise_of_The_DPP
-		}
-		
-		
+		}	
 	
 		completion_reward = {
-		add_political_power = 200
-		add_stability = 0.01
+			add_political_power = 200
+			add_stability = 0.01
 		}
 		
 		ai_will_do = {
@@ -1881,12 +1842,10 @@
 		prerequisite = {
 			focus = CHI_Stabilize_the_Politics
 		}
-		
-		
 	
 		completion_reward = {
-		add_political_power = 200
-		add_stability = 0.01
+			add_political_power = 200
+			add_stability = 0.01
 		}
 		
 		ai_will_do = {
@@ -1904,17 +1863,14 @@
 		prerequisite = {
 			focus = CHI_Stabilize_the_Politics
 		}
-		
-		
 	
 		completion_reward = {
-		add_political_power = -50
-		add_stability = 0.02
-		add_war_support = -0.1
-		add_popularity = {
-	    ideology = conservative
-	    popularity = -0.1 }
-		
+			add_political_power = -50
+			add_stability = 0.02
+			add_war_support = -0.1
+			add_popularity = {
+			ideology = conservative
+			popularity = -0.1 }
 		}
 		
 		ai_will_do = {
@@ -1932,13 +1888,10 @@
 		prerequisite = {
 			focus = CHI_Stabilize_the_Politics
 		}
-		
-		
 	
 		completion_reward = {
-		add_political_power = 100
-		add_ideas = idea_focus_PRC_free_markets
-		
+			add_political_power = 100
+			add_ideass = idea_focus_PRC_free_markets
 		}
 		
 		ai_will_do = {
@@ -1964,8 +1917,6 @@
 		prerequisite = {
 			focus = CHI_Unpopularize_the_One_China_Dream
 		}
-		
-		
 	
 		completion_reward = {
 		    add_political_power = 200
@@ -1989,12 +1940,10 @@
 		prerequisite = {
 			focus = CHI_Spread_Pro-Indepedence_Propaganda
 		}
-		
-		
 	
 		completion_reward = {
-		add_political_power = 200
-		PRC = { add_opinion_modifier = { target = CHI modifier = diplomatic_support } }
+			add_political_power = 200
+			PRC = { add_opinion_modifier = { target = CHI modifier = diplomatic_support } }
 		}
 	
 		ai_will_do = {
@@ -2012,12 +1961,10 @@
 		prerequisite = {
 			focus = CHI_Prepare_Negotiations
 		}
-		
-		
 	
 		completion_reward = {
-		PRC = { add_opinion_modifier = { target = CHI modifier = diplomatic_support } }
-		PRC = { country_event =  taiwan.12  }
+			PRC = { add_opinion_modifier = { target = CHI modifier = diplomatic_support } }
+			PRC = { country_event =  taiwan.12  }
 		}
 	
 		ai_will_do = {
@@ -2037,14 +1984,12 @@
 		}
 		
 		mutually_exclusive = {
-		focus = CHI_Offer_Spratly_Islands
+			focus = CHI_Offer_Spratly_Islands
 		}
-		
-		
 	
 		completion_reward = {
-		add_political_power = -30
-		PRC = { country_event = taiwan.13  }
+			add_political_power = -30
+			PRC = { country_event = taiwan.13  }
 		}
 	
 		ai_will_do = {
@@ -2060,16 +2005,16 @@
 		cost = 10
 		
 		mutually_exclusive = {
-		focus = CHI_Offer_Coastal_Islands
+			focus = CHI_Offer_Coastal_Islands
 		}
 		
 		prerequisite = {
-		focus = CHI_Negotiate_our_Indepedence
+			focus = CHI_Negotiate_our_Indepedence
 		}	
 	
 		completion_reward = {
-		add_political_power = -30
-		PRC = { country_event = taiwan.14  }
+			add_political_power = -30
+			PRC = { country_event = taiwan.14  }
 		}
 	
 		ai_will_do = {
@@ -2083,10 +2028,11 @@
 		x = 2
 		y = 14
 		cost = 10
+
 		available = {
-		NOT = {
-		any_owned_state = { is_core_of = PRC }
-        }
+			NOT = {
+				any_owned_state = { is_core_of = PRC }
+			}
         }
 		
 		prerequisite = {
@@ -2097,13 +2043,12 @@
 		
 	
 		completion_reward = {
-		add_political_power = -30
-		every_country = { news_event =  taiwan_news.2  }
-		PRC = { every_owned_state =  { remove_core_of = CHI } }
-		MON = { every_owned_state = { remove_core_of = CHI } }
-		SOV = { every_owned_state = { remove_core_of = CHI } }
-		set_cosmetic_tag = CHI_TAIWAN
-		
+			add_political_power = -30
+			every_country = { news_event =  taiwan_news.2  }
+			PRC = { every_owned_state =  { remove_core_of = CHI } }
+			MON = { every_owned_state = { remove_core_of = CHI } }
+			SOV = { every_owned_state = { remove_core_of = CHI } }
+			set_cosmetic_tag = CHI_TAIWAN
 		}
 	
 		ai_will_do = {
@@ -2119,14 +2064,12 @@
 		cost = 10
 		
 		prerequisite = {
-	    focus = CHI_Declare_our_Indepedence
+	    	focus = CHI_Declare_our_Indepedence
 		}
-		
-		
 	
 		completion_reward = {
-		add_political_power = 50
-		remove_ideas = partially_recognized_state
+			add_political_power = 50
+			remove_ideas = partially_recognized_state
 		}
 	
 		ai_will_do = {
@@ -2142,14 +2085,12 @@
 		cost = 10
 		
 		prerequisite = {
-	    focus = CHI_Push_for_Recognition
+	    	focus = CHI_Push_for_Recognition
 		}
-		
-		
 	
 		completion_reward = {
-		create_faction = "The Asian Tigers"
-		add_stability = 0.01
+			create_faction = "The Asian Tigers"
+			add_stability = 0.01
 		}
 	
 		ai_will_do = {
@@ -2165,13 +2106,11 @@
 		cost = 10
 		
 		prerequisite = {
-	    focus = CHI_The_Asian_Tigers
+	    	focus = CHI_The_Asian_Tigers
 		}
-		
-		
 	
 		completion_reward = {
-		SIG = { country_event = taiwan.17 }
+			SIG = { country_event = taiwan.17 }
 		}
 	
 		ai_will_do = {
@@ -2187,13 +2126,11 @@
 		cost = 10
 		
 		prerequisite = {
-	    focus = CHI_The_Asian_Tigers
-		}
-		
-		
+	    	focus = CHI_The_Asian_Tigers
+		}		
 	
 		completion_reward = {
-		KOR = { country_event = taiwan.17 }
+			KOR = { country_event = taiwan.17 }
 		}
 	
 		ai_will_do = {
@@ -2209,13 +2146,11 @@
 		cost = 10
 		
 		prerequisite = {
-	    focus = CHI_The_Asian_Tigers
+	    	focus = CHI_The_Asian_Tigers
 		}
 		
-		
-	
 		completion_reward = {
-		PRC = { country_event = taiwan.18 }
+			PRC = { country_event = taiwan.18 }
 		}
 	
 		ai_will_do = {
@@ -2229,17 +2164,17 @@
 		x = 2
 		y = 19
 		cost = 10
+
 		available = {
-		HKN = { is_puppet = no }
+			HKN = { is_puppet = no }
 		}
+
 		prerequisite = {
-	    focus = CHI_Purchase_Hong_Kong_Indepedence
+	    	focus = CHI_Purchase_Hong_Kong_Indepedence
 		}
 		
-		
-	
 		completion_reward = {
-		HKN = { country_event = taiwan.17 }
+			HKN = { country_event = taiwan.17 }
 		}
 	
 		ai_will_do = {
@@ -2255,14 +2190,12 @@
 		cost = 10
 		
 		prerequisite = {
-	    focus = CHI_Invite_Hong_Kong
+	    	focus = CHI_Invite_Hong_Kong
 		}
 		
-		
-	
 		completion_reward = {
-        add_stability = 0.03
-		add_political_power = 100
+			add_stability = 0.03
+			add_political_power = 100
 		}
 	
 		ai_will_do = {
@@ -2279,7 +2212,7 @@
 		
 		
 		completion_reward = {
-		add_political_power = 100
+			add_political_power = 100
 		}
 	
 		ai_will_do = {
@@ -2295,17 +2228,17 @@
 		cost = 10
 		
 		prerequisite = {
-		focus = CHI_Industrial_Development
+			focus = CHI_Industrial_Development
 		}
 		
 		
 		completion_reward = {
-		524 = {
-            add_building_construction = {
-               type = infrastructure
-               level = 1
-               instant_build = yes
-            }
+			524 = {
+				add_building_construction = {
+				type = infrastructure
+				level = 1
+				instant_build = yes
+				}
             }
 		}
 	
@@ -2322,17 +2255,17 @@
 		cost = 10
 		
 		prerequisite = {
-		focus = CHI_Infrastructure_Expansion
+			focus = CHI_Infrastructure_Expansion
 		}
 		
 		
 		completion_reward = {
-		524 = {
-            add_building_construction = {
-               type = infrastructure
-               level = 2
-               instant_build = yes
-            }
+			524 = {
+				add_building_construction = {
+				type = infrastructure
+				level = 2
+				instant_build = yes
+				}
             }
 		}
 	
@@ -2349,17 +2282,17 @@
 		cost = 10
 		
 		prerequisite = {
-		focus = CHI_Infrastructure_Expansion
+			focus = CHI_Infrastructure_Expansion
 		}
 		
 		
 		completion_reward = {
-		524 = {
-            add_building_construction = {
-               type = infrastructure
-               level = 2
-               instant_build = yes
-            }
+			524 = {
+				add_building_construction = {
+				type = infrastructure
+				level = 2
+				instant_build = yes
+				}
             }
 		}
 	
@@ -2376,12 +2309,12 @@
 		cost = 10
 		
 		prerequisite = {
-		focus = CHI_A_New_Taipei
+			focus = CHI_A_New_Taipei
 		}
 		
 		
 		completion_reward = {
-		524 = { add_resource = { type = oil amount = 20 } }
+			524 = { add_resource = { type = oil amount = 20 } }
 		}
 	
 		ai_will_do = {
@@ -2397,12 +2330,12 @@
 		cost = 10
 		
 		prerequisite = {
-		focus = CHI_Develop_the_Countryside
+			focus = CHI_Develop_the_Countryside
 		}
 		
 		
 		completion_reward = {
-		524 = { add_resource = { type = aluminium amount = 20 } }
+			524 = { add_resource = { type = aluminium amount = 20 } }
 		}
 	
 		ai_will_do = {
@@ -2418,28 +2351,27 @@
 		cost = 10
 		
 		prerequisite = {
-		focus = CHI_Strive_for_Oil
+			focus = CHI_Strive_for_Oil
 		}
 		prerequisite = {
-		focus = CHI_Aluminum_Mining
+			focus = CHI_Aluminum_Mining
 		}
 		
 		completion_reward = {
-		976 = {
-            add_building_construction = {
-               type = infrastructure
-               level = 1
-               instant_build = yes
+			976 = {
+            	add_building_construction = {
+               		type = infrastructure
+               		level = 1
+              		instant_build = yes
+           		}
             }
-            }
-	   977 = {
-            add_building_construction = {
-               type = infrastructure
-               level = 1
-               instant_build = yes
-            }
+	   		977 = {
+            	add_building_construction = {
+              		type = infrastructure
+               		level = 1
+               		instant_build = yes
+            	}
             }	
-			
 		}
 	
 		ai_will_do = {
@@ -2455,14 +2387,14 @@
 		cost = 10
 		
 		prerequisite = {
-		focus = CHI_Develop_the_Coastal_Islands
+			focus = CHI_Develop_the_Coastal_Islands
 		}
 		mutually_exclusive = {
-		focus = CHI_Civilian_Development
+			focus = CHI_Civilian_Development
 		}
 		
 		completion_reward = {
-		add_ideas = military_industry_project4	
+			add_ideass = military_industry_project4	
 		}
 	
 		ai_will_do = {
@@ -2478,14 +2410,14 @@
 		cost = 10
 		
 		prerequisite = {
-		focus = CHI_Develop_the_Coastal_Islands
+			focus = CHI_Develop_the_Coastal_Islands
 		}
 		mutually_exclusive = {
-		focus = CHI_Military_Development
+			focus = CHI_Military_Development
 		}
 		
 		completion_reward = {
-		add_ideas = civilian_industry_project4	
+			add_ideass = civilian_industry_project4	
 		}
 	
 		ai_will_do = {
@@ -2501,16 +2433,16 @@
 		cost = 10
 		
 		prerequisite = {
-		focus = CHI_Military_Development
+			focus = CHI_Military_Development
 	    }
 		
 		completion_reward = {
-	   524 = {
-            add_building_construction = {
-               type = arms_factory
-               level = 2
-               instant_build = yes
-            }
+	   		524 = {
+            	add_building_construction = {
+              		type = arms_factory
+               		level = 2
+               		instant_build = yes
+            	}
             }
 		}
 	
@@ -2527,18 +2459,18 @@
 		cost = 10
 		
 		prerequisite = {
-		focus = CHI_Civilian_Development
+			focus = CHI_Civilian_Development
 	    }
 		
 		completion_reward = {
-	   add_extra_state_shared_building_slots = 2
-	   524 = {
-            add_building_construction = {
-               type = industrial_complex
-               level = 1
-               instant_build = yes
-            }
-            }
+			524 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+				}
+			}
 		}
 	
 		ai_will_do = {
@@ -2554,13 +2486,13 @@
 		cost = 10
 		
 		prerequisite = {
-		focus = CHI_Formosan_Military_Industry
+			focus = CHI_Formosan_Military_Industry
 	    }
 		
 		completion_reward = {
-	   add_idea = army_morale_bonus
-	   add_idea = army_organization_bonus
-	   army_experience = 50
+			add_ideas = army_morale_bonus
+			add_ideas = army_organization_bonus
+	   		army_experience = 50
 		}
 	
 		ai_will_do = {
@@ -2576,29 +2508,29 @@
 		cost = 10
 		
 		prerequisite = {
-		focus = CHI_Rapid_Industrialization
+			focus = CHI_Rapid_Industrialization
 	    }
 		
 		completion_reward = {
-	   add_extra_state_shared_building_slots = 2
-	   524 = {
-            add_building_construction = {
-               type = industrial_complex
-               level = 1
-               instant_build = yes
+	   		524 = {
+		   		add_extra_state_shared_building_slots = 2
+           		add_building_construction = {
+               		type = industrial_complex
+               		level = 1
+               		instant_build = yes
+            	}
             }
-            }
-		JAP = {
-       526 = {
-            add_building_construction = {
-               type = industrial_complex
-               level = 1
-               instant_build = yes
-            }
-            }
-          }
- JAP = { add_opinion_modifier = { target = CHI modifier = recent_actions_positive } }		  
-		  
+			JAP = {
+    			526 = {
+					add_extra_state_shared_building_slots = 2
+            		add_building_construction = {
+              			type = industrial_complex
+              			level = 1
+            			instant_build = yes
+            		}
+            	}
+				add_opinion_modifier = { target = CHI modifier = recent_actions_positive }
+          	}		  
 		}
 	
 		ai_will_do = {
@@ -2614,13 +2546,13 @@
 		cost = 10
 		
 		prerequisite = {
-		focus = CHI_Revitalize_the_Army
+			focus = CHI_Revitalize_the_Army
 	    }
 		
 		completion_reward = {
-        524 = { add_building_construction = { type = naval_base province = 7186 level = 4 instant_build = yes } }
-		591 = { add_building_construction = { type = dockyard level = 4 instant_build = yes } }
-		navy_experience = 80
+       		524 = { add_building_construction = { type = naval_base province = 7186 level = 4 instant_build = yes } }
+			591 = { add_building_construction = { type = dockyard level = 4 instant_build = yes } }
+			navy_experience = 80
 		}
 	
 		ai_will_do = {
@@ -2640,25 +2572,25 @@
 	    }
 		
 		completion_reward = {
-	   add_extra_state_shared_building_slots = 2
-	   524 = {
-            add_building_construction = {
-               type = industrial_complex
-               level = 1
-               instant_build = yes
+			524 = {
+		   		add_extra_state_shared_building_slots = 2
+            	add_building_construction = {
+               		type = industrial_complex
+               		level = 1
+               		instant_build = yes
+            	}
             }
-            }
-		KOR = {
-       869 = {
-            add_building_construction = {
-               type = industrial_complex
-               level = 1
-               instant_build = yes
-            }
-            }
-          }
- KOR = { add_opinion_modifier = { target = CHI modifier = recent_actions_positive } }		  
-		  
+			KOR = {
+       			869 = {
+		   			add_extra_state_shared_building_slots = 2
+            		add_building_construction = {
+              			type = industrial_complex
+              			level = 1
+             			instant_build = yes
+          			}
+            	}
+				add_opinion_modifier = { target = CHI modifier = recent_actions_positive }
+          	}	  
 		}
 	
 		ai_will_do = {
@@ -2674,18 +2606,18 @@
 		cost = 10
 		
 		prerequisite = {
-		focus = CHI_Improve_the_Navy
+			focus = CHI_Improve_the_Navy
 	    }
 		
 		completion_reward = {
-       	524 = {
-		add_building_construction = {
-		type = air_base
-		level = 2
-		instant_build = yes
-					}
+      	 	524 = {
+				add_building_construction = {
+					type = air_base
+					level = 2
+					instant_build = yes
 				}
-		air_experience = 80
+			}
+			air_experience = 80
 		}
 	
 		ai_will_do = {
@@ -2701,12 +2633,12 @@
 		cost = 10
 		
 		prerequisite = {
-		focus = CHI_Industrial_Agreement_with_South_Korea
+			focus = CHI_Industrial_Agreement_with_South_Korea
 	    }
 		
 		completion_reward = {
-		add_ideas = idea_focus_industrial_development_program
-		add_political_power = -50
+			add_ideass = idea_focus_industrial_development_program
+			add_political_power = -50
 		}
 	
 		ai_will_do = {
@@ -2722,35 +2654,30 @@
 		cost = 10
 		
 		prerequisite = {
-		focus = CHI_Improve_the_Airforce
-		focus = CHI_Industrial_Development_Funding
+			focus = CHI_Improve_the_Airforce
+			focus = CHI_Industrial_Development_Funding
 	    }
 		
 		completion_reward = {
-				524 = {
-					add_building_construction = {
-						type = bunker
-						province = 7186
-						level = 6
-						instant_build = yes
-					}
-					add_building_construction = {
-						type = coastal_bunker
-						province = 7186
-						level = 4
-						instant_build = yes
-					}
+			524 = {
+				add_building_construction = {
+					type = bunker
+					province = 7186
+					level = 6
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = coastal_bunker
+					province = 7186
+					level = 4
+					instant_build = yes
 				}
 			}
-		air_experience = 80
+			air_experience = 80
 		}
 	
 		ai_will_do = {
 			factor = 35
 		}
-	}
-
-	
-	
-	
-	}
+	}	
+}

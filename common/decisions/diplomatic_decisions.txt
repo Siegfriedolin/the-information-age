@@ -43,10 +43,6 @@ diplomatic_decisions = {
 			NOT = { has_war_with = PAL }
 			NOT = { has_war_with = ISR }
 		}
-		modifier = {
-		}
-		remove = {
-		}
 		complete_effect = {
 			set_country_flag = palestine_doctrine
 			country_event = decision_event.2
@@ -91,10 +87,6 @@ diplomatic_decisions = {
 			NOT = { has_war_with = CHI }
 			NOT = { has_war_with = PRC }
 		}
-		modifier = {
-		}
-		remove = {
-		}
 		complete_effect = {
 			country_event = decision_event.1
 		}
@@ -117,5 +109,4 @@ diplomatic_decisions = {
 			}
 		}
 	}
-	
 }

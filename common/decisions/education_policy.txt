@@ -36,10 +36,6 @@ education_policy = {
 			NOT = { has_government = social_liberal }
 			NOT = { has_government = market_liberal }
 		}
-		modifier = {
-		}
-		remove = {
-		}
 		complete_effect = {
 			set_country_flag = racial_theories_in_schools
 			add_stability = -0.05
@@ -98,10 +94,6 @@ education_policy = {
 				fascist < 0.25
 			}
 		}
-		modifier = {
-		}
-		remove = {
-		}
 		complete_effect = {
 			set_country_flag = enlightenment_values_in_school
 			if = { 
@@ -134,10 +126,6 @@ education_policy = {
 				has_government = communist
 				communist > 0.1
 			}
-		}
-		modifier = {
-		}
-		remove = {
 		}
 		complete_effect = {
 			set_country_flag = embraced_far_left_philosophy

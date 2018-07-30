@@ -12,10 +12,6 @@ non_aligned_movement_decisions = {
 			NOT = { is_in_faction_with = SOV }
 			NOT = { is_in_faction_with = PRC }
 		}
-		modifier = {
-		}
-		remove = {
-		}
 		
 		complete_effect = {
             add_ideas = non_aligned_movement_member
