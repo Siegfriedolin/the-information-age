@@ -280,7 +280,6 @@ country_event = {
 			target = ITA
 			modifier = ITA_oil_investments_africa
 		}
-		increase_fascist_influence_by_1 = yes
 		ITA = { country_event = italy.8 }
 		ITA = { set_country_flag = EGY_oil_deal_through_fascist_tree }
 	}
@@ -626,7 +625,6 @@ country_event = {
 	
 	option = {
 	    name = italy.23.o1
-		increase_reactionary_influence_by_1 = yes
 	}
 }
 #Salerno-to-Reggio Calabria Motorway
