@@ -176,7 +176,7 @@ ideas = {
 			}
 			
 			modifier = {
-				commmunism_drift = 0.1
+				communist_drift = 0.1
 				political_power_gain = -0.15
 			}
 			
