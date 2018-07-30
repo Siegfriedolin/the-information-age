@@ -98,6 +98,7 @@ add_ideas = {
 	free_trade
 	idea_eu_member
 	belgian_political_system
+	the_euro
 }
 
 set_politics = {

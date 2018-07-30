@@ -87,6 +87,7 @@ set_technology = {
 }
 add_ideas = {
 	population_growth_stagnation
+	idea_eu_member
 }
 set_politics = {
 

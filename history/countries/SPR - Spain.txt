@@ -102,6 +102,7 @@ add_ideas = {
 	population_growth_stagnation
 	idea_eu_member
 	catalonia_separatism
+	the_euro
 }
 
 set_politics = {

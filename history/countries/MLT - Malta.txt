@@ -95,6 +95,8 @@ add_ideas = {
 	population_growth_steady
 	commonwealth_of_nations_member
 	neutrality_idea
+	the_euro
+	idea_eu_member
 }
 
 set_politics = {
@@ -205,12 +207,5 @@ create_country_leader = {
 		name = "Arnold Cassola"
 		picture = "Arnold_Cassola.dds"
 		ideology = green
-	}
-
-}
-
-2004.1.1 = {
-	add_ideas = {
-		idea_eu_member
 	}
 }
