@@ -1512,7 +1512,6 @@ focus_tree = {
 	   
 		completion_reward = {
         add_ideas = ideological_defense
-		add_ideas = government_expansion5
 		}
 		ai_will_do = {
 			factor = 35

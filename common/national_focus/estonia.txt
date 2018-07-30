@@ -708,7 +708,7 @@ focus_tree = {
 		
 		completion_reward = {
 		    set_party_name = {
-			ideology = communist long_name = "Eestimaa Kommunistlik Partei" = EKP
+			ideology = communist long_name = "Eestimaa Kommunistlik Partei" name = EKP
 			}
 		}
 		
@@ -717,7 +717,7 @@ focus_tree = {
 		}
 	}
 	
-	    focus = {
+	focus = {
 		id = EST_rewrite_the_constitution
 		icon = constitution
 		

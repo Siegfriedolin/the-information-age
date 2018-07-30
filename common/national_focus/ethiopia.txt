@@ -1927,7 +1927,7 @@ focus_tree = {
 		bypass = {}
 		
 		completion_reward = {
-			add_ideas = government_expansion2
+			add_political_power = 200
 		}
 		
 		ai_will_do = {
@@ -2040,12 +2040,7 @@ focus_tree = {
 		bypass = {}
 		
 		completion_reward = {
-			increase_monarchist_influence_by_1 = yes
 			add_war_support = 0.05
-			swap_ideas = {
-				remove_idea = government_expansion2
-				add_idea = government_expansion4
-			}
 		}
 		
 		ai_will_do = {

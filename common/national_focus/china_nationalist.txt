@@ -256,7 +256,7 @@
 	
 		completion_reward = {
 			add_political_power = 50
-			add_ideass = agricultural_investments2
+			add_ideas = agricultural_investments2
 		}
 		
 		ai_will_do = {
@@ -277,7 +277,7 @@
 	
 		completion_reward = {
 			add_political_power = 50
-			add_ideass = idea_focus_PRC_free_markets
+			add_ideas = idea_focus_PRC_free_markets
 		}
 		
 		ai_will_do = {
@@ -426,7 +426,7 @@
 		}
 
 		completion_reward = {
-			add_ideass = scientific_advances2
+			add_ideas = scientific_advances2
 			add_political_power = 30
 		}
 
@@ -504,7 +504,7 @@
 
     	completion_reward = {
 			add_war_support = 0.01
-			add_ideass = defensive_preparations3
+			add_ideas = defensive_preparations3
     	}
 
 		ai_will_do = {
@@ -1334,7 +1334,7 @@
 		completion_reward = {
 			set_cosmetic_tag = CHI_Reunified
 			remove_ideas = partially_recognized_state
-			add_ideass = idea_united_nations_security_council_member
+			add_ideas = idea_united_nations_security_council_member
 		}		
 		ai_will_do = {
 			factor = 35
@@ -1401,7 +1401,7 @@
 	
 		completion_reward = {
 			remove_ideas = idea_CHI_grudge
-			add_ideass = idea_focus_personal_freedoms
+			add_ideas = idea_focus_personal_freedoms
 		}
 		
 		ai_will_do = {
@@ -1891,7 +1891,7 @@
 	
 		completion_reward = {
 			add_political_power = 100
-			add_ideass = idea_focus_PRC_free_markets
+			add_ideas = idea_focus_PRC_free_markets
 		}
 		
 		ai_will_do = {
@@ -2394,7 +2394,7 @@
 		}
 		
 		completion_reward = {
-			add_ideass = military_industry_project4	
+			add_ideas = military_industry_project4	
 		}
 	
 		ai_will_do = {
@@ -2417,7 +2417,7 @@
 		}
 		
 		completion_reward = {
-			add_ideass = civilian_industry_project4	
+			add_ideas = civilian_industry_project4	
 		}
 	
 		ai_will_do = {
@@ -2637,7 +2637,7 @@
 	    }
 		
 		completion_reward = {
-			add_ideass = idea_focus_industrial_development_program
+			add_ideas = idea_focus_industrial_development_program
 			add_political_power = -50
 		}
 	

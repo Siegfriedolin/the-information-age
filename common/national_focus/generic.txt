@@ -3530,10 +3530,6 @@ focus_tree = {
 					}
 					add_opinion_modifier = {
 						target = ROOT
-						modifier = terrorist_menace
-					}
-					add_opinion_modifier = {
-						target = ROOT
 						modifier = terrorist_menace_trade
 					}
 				}
@@ -3548,10 +3544,6 @@ focus_tree = {
 							has_country_flag = sunni_islam
 							NOT = { has_government = islamist }
 						}
-					}
-					add_opinion_modifier = {
-						target = ROOT
-						modifier = terrorist_menace
 					}
 					add_opinion_modifier = {
 						target = ROOT

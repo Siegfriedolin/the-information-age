@@ -4,6 +4,29 @@ leader_traits = {
 ##################################
 # Common Traits
 ##################################
+
+	brilliant_strategist = { 
+		type = all
+		trait_type = personality_trait
+		
+		attack_skill = 1
+		planning_skill = 1
+		
+		attack_skill_factor = 1
+		planning_skill_factor = 1
+	}
+	
+	
+	inflexible_strategist = { 
+		type = all
+		trait_type = personality_trait
+		
+		defense_skill = 1
+		logistics_skill = 1
+		
+		defense_skill_factor = 1
+		logistics_skill_factor = 1
+	}
 	old_guard = { 
 		type = all
 		allowed = {
@@ -88,6 +111,58 @@ leader_traits = {
 		mutually_exclusive = cavalry_expert
 		
 		gui_row = 1
+	}
+
+	combined_arms_expert = { 
+		type = corps_commander
+		gain_xp = {
+			always = no # not gainable
+		}
+		cost = 500
+		modifier = {
+			motorized_defence_factor = 0.15
+			mechanized_defence_factor = 0.15
+		}
+		
+		custom_effect_tooltip = INCREASED_BLITZ_AND_ENCIRCLEMENT_CHANCE
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		trait_type = assignable_trait
+		parent = cavalry_leader
+		parent = panzer_leader
+		
+		mutually_exclusive = panzer_expert
+		mutually_exclusive = cavalry_expert
+		
+		num_parents_needed = 1
+		gui_row = 2
+	}
+	
+	cavalry_expert = { 
+		type = corps_commander
+		gain_xp = {
+			always = no # not gainable
+		}
+		cost = 500
+		modifier = {
+			cavalry_attack_factor = 0.10
+			cavalry_defence_factor = 0.15
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		trait_type = assignable_trait
+		parent = cavalry_leader
+		
+		mutually_exclusive = panzer_expert
+		mutually_exclusive = combined_arms_expert
+		
+		gui_row = 3
 	}
 	
 ##################################
