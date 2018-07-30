@@ -1,22 +1,29 @@
+
 state={
 	id=923
 	name="STATE_923"
-		history = {
+
+	history={
 		owner = ROJ
-		victory_points = { 13261 2 }
+		victory_points = {
+			13261 2 
+		}
 		add_core_of = ROJ
 		add_core_of = SYR
 		add_core_of = FSA
 		add_core_of = HTS
 		add_core_of = ISS
 		buildings = {
-			infrastructure = 1
+			infrastructure = 2
+
 		}
+
 	}
+
 	provinces={
-		13261 
+		13261 13262 
 	}
-	manpower=36562
+	manpower=172095
 	buildings_max_level_factor=1.000
 	state_category=state_level_2
 }

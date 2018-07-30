@@ -813,10 +813,6 @@ country_event = {
 		trigger = {
 			is_puppet = no
 			NOT = { has_government = islamist }
-			OR = {
-				has_any_islamist_influence = no
-				has_idea = islamist_influence_1
-			}
 		}
 	}
 }
@@ -849,10 +845,6 @@ country_event = {
 		trigger = {
 			is_puppet = no
 			NOT = { has_government = fascist }
-			OR = {
-				has_any_fascist_influence = no
-				has_idea = fascist_influence_1
-			}
 		}
 	}
 }
@@ -885,10 +877,6 @@ country_event = {
 		trigger = {
 			is_puppet = no
 			NOT = { has_government = nationalist }
-			OR = {
-				has_any_nationalist_influence = no
-				has_idea = nationalist_influence_1
-			}
 		}
 	}
 }
@@ -921,10 +909,6 @@ country_event = {
 		trigger = {
 			is_puppet = no
 			NOT = { has_government = monarchist }
-			OR = {
-				has_any_monarchist_influence = no
-				has_idea = monarchist_influence_1
-			}
 		}
 	}
 }
@@ -957,10 +941,6 @@ country_event = {
 		trigger = {
 			is_puppet = no
 			NOT = { has_government = reactionary }
-			OR = {
-				has_any_reactionary_influence = no
-				has_idea = reactionary_influence_1
-			}
 		}
 	}
 }
@@ -993,10 +973,6 @@ country_event = {
 		trigger = {
 			is_puppet = no
 			NOT = { has_government = conservative }
-			OR = {
-				has_any_conservative_influence = no
-				has_idea = conservative_influence_1
-			}
 		}
 	}
 }
@@ -1029,10 +1005,6 @@ country_event = {
 		trigger = {
 			is_puppet = no
 			NOT = { has_government = market_liberal }
-			OR = {
-				has_any_market_liberal_influence = no
-				has_idea = market_liberal_influence_1
-			}
 		}
 	}
 }
@@ -1065,10 +1037,6 @@ country_event = {
 		trigger = {
 			is_puppet = no
 			NOT = { has_government = social_liberal }
-			OR = {
-				has_any_social_liberal_influence = no
-				has_idea = social_liberal_influence_1
-			}
 		}
 	}
 }
@@ -1101,10 +1069,6 @@ country_event = {
 		trigger = {
 			is_puppet = no
 			NOT = { has_government = social_democrat }
-			OR = {
-				has_any_social_democrat_influence = no
-				has_idea = social_democrat_influence_1
-			}
 		}
 	}
 }
@@ -1137,10 +1101,6 @@ country_event = {
 		trigger = {
 			is_puppet = no
 			NOT = { has_government = progressive }
-			OR = {
-				has_any_progressive_influence = no
-				has_idea = progressive_influence_1
-			}
 		}
 	}
 }
@@ -1173,10 +1133,6 @@ country_event = {
 		trigger = {
 			is_puppet = no
 			NOT = { has_government = democratic_socialist }
-			OR = {
-				has_any_democratic_socialist_influence = no
-				has_idea = democratic_socialist_influence_1
-			}
 		}
 	}
 }
@@ -1209,10 +1165,6 @@ country_event = {
 		trigger = {
 			is_puppet = no
 			NOT = { has_government = communist }
-			OR = {
-				has_any_communist_influence = no
-				has_idea = communist_influence_1
-			}
 		}
 	}
 }

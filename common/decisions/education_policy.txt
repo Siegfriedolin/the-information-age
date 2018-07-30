@@ -15,7 +15,6 @@ education_policy = {
 					original_tag = GER
 				}
 				NOT = { has_idea = idea_GER_german_legacy }
-				has_completed_focus = GER_racial_laws
 			}
 			if = {
 				limit = { original_tag = FRA }
