@@ -147,7 +147,7 @@ news_event = {
 	option = {
 		name = russia_news.8.o2
 		trigger = { NOT = { original_tag = SOV } 
-		has_ideas = idea_eu_member
+		has_idea = idea_eu_member
 		}
 	}
 	

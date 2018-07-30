@@ -444,15 +444,15 @@ country_event = {
 }
 
 country_event = {
-	id = taiwan.12
-	title = taiwan.12.t
-	desc = taiwan.12.d
+	id = taiwan.121
+	title = taiwan.121.t
+	desc = taiwan.121.d
 	picture = GFX_report_event_political_deal
 	
 	is_triggered_only = yes
 	
 	option = { 
-		name = taiwan.12.o1		
+		name = taiwan.121.o1		
 		ai_chance = {
 			factor = 100
       }

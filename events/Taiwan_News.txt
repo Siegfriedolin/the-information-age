@@ -13,14 +13,14 @@ news_event = {
 		trigger = { original_tag = CHI  }
 	}
 	option = {
-	name = taiwan_news.1.o2
-	trigger = { NOT = { original_tag = CHI original_tag = PRC } 
-}
-option = {
+		name = taiwan_news.1.o2
+		trigger = { NOT = { original_tag = CHI original_tag = PRC } }
+	}
+
+	option = {
 		name = taiwan_news.1.o3
 		trigger = { original_tag = PRC  }
 	}
-}
 }
 
 news_event = {
@@ -34,11 +34,10 @@ news_event = {
 	
 	option = {
 		name = taiwan_news.2.o1
-		trigger = { original_tag = CHI  }
+		trigger = { original_tag = CHI }
 	}
 	option = {
-	name = taiwan_news.2.o2
-	trigger = { NOT = { original_tag = CHI }
-}
-}
+		name = taiwan_news.2.o2
+		trigger = { NOT = { original_tag = CHI } }
+	}
 }

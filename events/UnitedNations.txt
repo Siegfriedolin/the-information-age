@@ -685,7 +685,7 @@ country_event = {
 		ai_chance = {
 			factor = 100
 		}
-        all_country = { 
+        every_country = { 
 			    if = {
 				    limit  = {
 					    OR  = {
