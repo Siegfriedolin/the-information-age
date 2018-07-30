@@ -33,6 +33,7 @@ units = {
 		location = 13274
 		division_template = "Armored Militia"
 		start_experience_factor = 0.50
+		start_equipment_factor = 1.0
 	}
 	
 	division = {
@@ -103,6 +104,21 @@ units = {
 		location = 13297
 		division_template = "Militia"
 		start_experience_factor = 0.40
+	}
+	
+	division = {
+		name = "Wilayat Sinai"
+		location = 4161
+		division_template = "Militia"
+		start_experience_factor = 0.40
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "Ansar al-Sharia"
+		location = 4161
+		division_template = "Militia"
+		start_experience_factor = 0.25
 	}
 	
 }

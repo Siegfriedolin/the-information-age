@@ -8,6 +8,11 @@ state={
 
 	history={
 		owner = EGY
+		add_core_of = EGY
+		add_core_of = ISS
+		ISS = {
+			set_province_controller = 4161
+		}
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 1

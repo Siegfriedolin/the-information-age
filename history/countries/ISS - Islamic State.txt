@@ -131,6 +131,10 @@ declare_war_on = {
 	target = HTS
 	type = annex_everything
 }
+declare_war_on = {
+	target = EGY
+	type = annex_everything
+}
 
 create_country_leader = {
 	name = "Abu Bakr al-Baghdadi"
