@@ -8,10 +8,6 @@ foreign_policy = {
             is_in_faction = no
 			has_war = no
 		}
-		modifier = {
-		}
-		remove = {
-		}
 		complete_effect = {
 			add_ideas = neutrality_idea
 		}
@@ -31,10 +27,6 @@ foreign_policy = {
 		}
 		available = {
             always = yes
-		}
-		modifier = {
-		}
-		remove = {
 		}
 		complete_effect = {
 			remove_ideas = neutrality_idea

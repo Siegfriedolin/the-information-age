@@ -17,10 +17,6 @@ rojava_decisions = {
 				owns_state = 943
 			}
 		}
-		modifier = {
-		}
-		remove = {
-		}
 		
 		complete_effect = {
             add_state_core = 933

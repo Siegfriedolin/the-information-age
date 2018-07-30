@@ -685,65 +685,55 @@ ideas = {
 			picture = propaganda
 			
 			allowed = { always = no }
-			available = {}
-			cancel = {}
 			
 			removal_cost = -1
 			
 			modifier = {
-				political_advisor_cost_factor = -0.05
+				political_advisor_cost_factor = 0.05
 			}
 		}
 		government_expansion2 = {
 			picture = propaganda
 			
 			allowed = { always = no }
-			available = {}
-			cancel = {}
 			
 			removal_cost = -1
 			
 			modifier = {
-				political_advisor_cost_factor = -0.1
+				political_advisor_cost_factor = 0.1
 			}
 		}
 		government_expansion3 = {
 			picture = propaganda
 			
 			allowed = { always = no }
-			available = {}
-			cancel = {}
 			
 			removal_cost = -1
 			
 			modifier = {
-				political_advisor_cost_factor = -0.15
+				political_advisor_cost_factor = 0.15
 			}
 		}
 		government_expansion4 = {
 			picture = propaganda
 			
 			allowed = { always = no }
-			available = {}
-			cancel = {}
 			
 			removal_cost = -1
 			
 			modifier = {
-				political_advisor_cost_factor = -0.2
+				political_advisor_cost_factor = 0.2
 			}
 		}
 		government_expansion5 = {
 			picture = propaganda
 			
 			allowed = { always = no }
-			available = {}
-			cancel = {}
 			
 			removal_cost = -1
 			
 			modifier = {
-				political_advisor_cost_factor = -0.25
+				political_advisor_cost_factor = 0.25
 			}
 		}
 		
