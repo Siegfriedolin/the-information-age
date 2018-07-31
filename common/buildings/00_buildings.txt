@@ -116,6 +116,7 @@ buildings = {
 		base_cost = 3375
 		icon_frame = 11
 		radar = yes
+		disabled_in_dmz = yes
 		#max_level = 0 # max: 5
 		max_level = 6 # This is the max unlock level
 		damage_factor = 0.5

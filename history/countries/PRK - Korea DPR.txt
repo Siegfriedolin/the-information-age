@@ -119,6 +119,11 @@ add_opinion_modifier = {
 	modifier = recent_tensions_in_asia
 }
 
+add_named_threat = {
+	threat = 10
+	name = threat_PRK_nuclear_program
+}
+
 set_politics = {
 
 	parties = {
@@ -259,11 +264,4 @@ create_corps_commander = {
 	picture = "generals/Pak_Yong_Sik.dds"
 	traits = { old_guard offensive_doctrine  }
 	skill = 6
-}
-
-2018.1.1 = {
-	add_named_threat = {
-		threat = 15
-		name = threat_PRK_nuclear_program
-	}
 }

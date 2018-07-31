@@ -45,3 +45,87 @@ korean_rivalry_south = {
 	}
 
 }
+
+iran_saudi_rivalry_SAU = {
+
+	enable = {
+		original_tag = SAU
+		country_exists = PER
+		PER = { has_government = islamist }
+	}
+	
+	abort = {
+		PER = { NOT = { has_government = islamist } }
+	}
+	
+	ai_strategy = {
+		type = antagonize
+		id = PER
+		value = 200
+	}
+	ai_strategy = {
+		type = contain
+		id = PER
+		value = 200
+	}
+}
+
+iran_saudi_rivalry_PER = {
+
+	enable = {
+		original_tag = PER
+		country_exists = SAU
+		has_government = islamist
+	}
+	
+	abort = {
+		NOT = { has_government = islamist }
+	}
+	
+	ai_strategy = {
+		type = antagonize
+		id = SAU
+		value = 200
+	}
+	ai_strategy = {
+		type = contain
+		id = SAU
+		value = 200
+	}
+}
+
+shia_hates_jihadists = {
+
+	enable = {
+		has_country_flag = shia_islam
+	}
+	
+	abort = {
+		NOT = { has_country_flag = shia_islam }
+	}
+	
+	ai_strategy = {
+		type = antagonize
+		id = "ISS"
+		value = 1000
+	}
+	
+	ai_strategy = {
+		type = antagonize
+		id = "HSM"
+		value = 1000
+	}
+	
+	ai_strategy = {
+		type = antagonize
+		id = "HTS"
+		value = 1000
+	}
+	
+	ai_strategy = {
+		type = antagonize
+		id = "TTP"
+		value = 1000
+	}
+
+}

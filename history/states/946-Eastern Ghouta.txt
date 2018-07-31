@@ -8,6 +8,9 @@ state={
 		}
 		buildings = {
 			infrastructure = 2
+			13281 = {
+				bunker = 4
+			}
 		}
 		add_core_of = SYR
 		add_core_of = FSA

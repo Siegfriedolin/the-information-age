@@ -8,8 +8,12 @@ ctjf_oir_strategy = {
 		    tag = FRA
 		    tag = GER
 		    tag = ENG
+			tag = JOR
 		}
     }
+	abort = {
+	    has_global_flag = syrian_civil_war_over
+    } 
     ai_strategy = {
         type = send_volunteers_desire
         id = "ROJ"
@@ -51,7 +55,7 @@ assad_supporter_strategy_minor = {
 		}
 	}
 	abort = {
-        has_war_with = SYR
+        has_global_flag = syrian_civil_war_over
     }
     ai_strategy = {
         type = support
@@ -63,6 +67,7 @@ assad_supporter_strategy_minor = {
 west_antagonize_assad_strategy = {
     enable = {
 	    OR = {
+		    original_tag = USA
             is_in_faction_with = USA
 			has_idea = idea_eu_member
 		}
@@ -90,7 +95,7 @@ gulf_opposition_strategy = {
 		tag = YEM
     }
 	abort = {
-        has_war_with = HTS
+		has_global_flag = syrian_civil_war_over
     }
 	ai_strategy = {
         type = support
@@ -104,7 +109,7 @@ gulf_opposition_strategy = {
     }
 }
 
-anti_islamist_strategy = {
+anti_isis_strategy = {
     enable = {
         NOT = { has_government = islamist }
     }
@@ -117,15 +122,15 @@ anti_islamist_strategy = {
         value = -400
     }
 	ai_strategy = {
-        type = send_volunteers_desire
-        id = "HTS"
+        type = support
+        id = "ISS"
         value = -400
-    } 
+    }
 }
 
 turkey_vs_rojava_strategy = {
     enable = {
-        tag = TUR
+        original_tag = TUR
     }
     ai_strategy = {
         type = send_volunteers_desire
@@ -133,18 +138,24 @@ turkey_vs_rojava_strategy = {
         value = -400
     }
 	ai_strategy = {
+        type = support
+        id = "ROJ"
+        value = -400
+    }
+	ai_strategy = {
         type = antagonize
         id = "ROJ"
         value = 400
-    } 
+    }
 }
 
 turkey_fsa_supporter_strategy = {
     enable = {
-		tag = TUR
+		original_tag = TUR
+		has_government = conservative
     }
 	abort = {
-		has_war_with = FSA
+		has_global_flag = syrian_civil_war_over
     }
     ai_strategy = {
         type = send_volunteers_desire
@@ -208,5 +219,40 @@ neutral_scw_strategy = {
         type = send_volunteers_desire
         id = "FSA"
         value = -400
+    }
+	ai_strategy = {
+        type = send_volunteers_desire
+        id = "ISS"
+        value = -400
+    }
+}
+
+unify_syria_assad_strategy = {
+    enable = {
+	    original_tag = SYR
+		has_government = nationalist
+    }
+	abort = {
+	    has_global_flag = syrian_civil_war_over
+    }
+	ai_strategy = {
+        type = invade
+        id = "ROJ"
+        value = 200
+    }
+	ai_strategy = {
+        type = invade
+        id = "SYR"
+        value = 200
+    }
+	ai_strategy = {
+        type = invade
+        id = "HTS"
+        value = 200
+    }
+	ai_strategy = {
+        type = invade
+        id = "FSA"
+        value = 200
     }
 }

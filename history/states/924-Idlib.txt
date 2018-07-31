@@ -14,7 +14,9 @@ state={
 		add_core_of = ISS
 		buildings = {
 			infrastructure = 4
-
+			7140 = {
+				bunker = 7
+			}
 		}
 
 	}

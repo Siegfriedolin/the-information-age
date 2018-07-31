@@ -10,7 +10,9 @@ state={
 		}
 		buildings = {
 			infrastructure = 3
-
+            1074 = {
+				bunker = 4
+			}
 		}
 		ISS = {
 			set_province_controller = 13297

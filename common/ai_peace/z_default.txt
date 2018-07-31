@@ -15,7 +15,7 @@ default_peace = {
 	
 	# ROOT = Taker, FROM = Giver
 	annex = {
-		factor = 500
+		factor = 250
 		
 		modifier = {
 			factor = 0
@@ -66,10 +66,10 @@ default_peace = {
 
 	# ROOT = Taker, FROM = State
 	take_states = {
-		factor = 50
+		factor = 25
 
 		modifier = {
-			factor = 200
+			factor = 1000
 
 			FROM = {
 			    OR = {
@@ -241,7 +241,7 @@ default_peace = {
 		
 		modifier = {
 			factor = 0
-			FROM = { tag = ISS }
+			FROM = { original_tag = ISS }
 		}
 	}
 }
