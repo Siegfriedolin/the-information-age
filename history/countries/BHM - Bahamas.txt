@@ -1,6 +1,6 @@
 ﻿capital = 690
 
-oob = "BHM_2000"
+oob = "BHM_2018"
 
 set_research_slots = 2
 set_convoys = 60
@@ -101,53 +101,51 @@ set_politics = {
 
 	parties = {
 		islamist = {
-			popularity = 1
+			popularity = 0
 		}
 		nationalist = {
-			popularity = 1
+			popularity = 0
 		}
 		reactionary = {
-			popularity = 2
+			popularity = 0
 		}
 		conservative = {
-			popularity = 25
+			popularity = 56.99
 		}
 		market_liberal = {
-			popularity = 6
+			popularity = 4.72
 		}
 		social_liberal = {
-			popularity = 30
+			popularity = 36.94
 		}
 		social_democrat = {
-			popularity = 5
+			popularity = 0
 		}
 		progressive = {
-			popularity = 10
+			popularity = 0
 		}
 		democratic_socialist = {
-			popularity = 10
+			popularity = 0
 		}
 		communist = {
-			popularity = 10
+			popularity = 0
 		}
 	}
 	
-	ruling_party = social_liberal
-	last_election = "1997.1.1"
-	election_frequency = 48
+	ruling_party = conservative
+	last_election = "2017.5.10"
+	election_frequency = 60
 	elections_allowed = yes
 }
 	
 create_country_leader = {
-	name = "Orville Turnquest"
-	picture = "Orville_Turnquest.dds"
-	ideology = liberalist 
+	name = "Hubert Minnis"
+	picture = "Hubert_Minnis.dds"
+	ideology = right_wing_conservative 
 }
 
-2016.1.1 = {
-	create_country_leader = {
-		name = "Marguerite Pindling"
-		picture = "Marguerite_Pindling.dds"
-		ideology = liberalist 
-	}
+create_country_leader = {
+	name = "Perry Christie"
+	picture = "Perry_Christie.dds"
+	ideology = liberalist 
 }

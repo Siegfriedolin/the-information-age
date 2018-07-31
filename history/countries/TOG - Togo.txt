@@ -1,6 +1,6 @@
 ﻿capital = 770
 
-oob = "TOG_2000"
+oob = "TOG_2018"
 
 set_research_slots = 2
 set_convoys = 220
@@ -97,13 +97,13 @@ set_politics = {
 
 	parties = {
 		reactionary = {
-			popularity = 40
+			popularity = 25
 		}
 		social_liberal = {
-			popularity = 30
+			popularity = 40
 		}
 		conservative = {
-			popularity = 20
+			popularity = 25
 		}
 		communist = {
 			popularity = 10
@@ -111,8 +111,8 @@ set_politics = {
 	}
 	
 	ruling_party = reactionary
-	last_election = "1967.4.14"
-	election_frequency = 48
+	last_election = "2015.4.25"
+	election_frequency = 60
 	elections_allowed = no
 }
 
@@ -121,31 +121,9 @@ create_country_leader = {
 	picture = "Gnassingbe_Eyandema.dds"
 	ideology = counter_progressive_democrat
 }
+
 create_country_leader = {
 	name = "Faure Gnassingbe"
 	picture = "Faure_Gnassingbe.dds"
 	ideology = moderate
-}
-	
-2016.1.1 = {
-	set_politics = {
-		parties = {
-			reactionary = {
-				popularity = 25
-			}
-			social_liberal = {
-				popularity = 40
-			}
-			conservative = {
-				popularity = 25
-			}
-			communist = {
-				popularity = 10
-			}
-		}
-		ruling_party = social_liberal
-		last_election = "2015.4.25"
-		election_frequency = 60
-		elections_allowed = yes
-	}
 }
