@@ -101,6 +101,11 @@ add_ideas = {
 	extensive_conscription
 }
 
+add_opinion_modifier = { target = PAL modifier = rival }
+add_opinion_modifier = { target = PAL modifier = rival_trade }
+
+give_guarantee = USA
+
 set_politics = {
 	parties = {
 		islamist = {
