@@ -97,3 +97,15 @@ create_country_leader = {
 	ideology = fiscal_conservative
 	picture = "Ashraf_Ghani.dds"
 }
+
+create_country_leader = {
+	name = "Mohammad Khan"
+	ideology = libertarian
+	picture = "Mohammad_Khan.dds"
+}
+
+create_country_leader = {
+	name = "Zalmai Rassoul"
+	ideology = centrist
+	picture = "Zalmai_Rassoul.dds"
+}
