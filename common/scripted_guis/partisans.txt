@@ -203,7 +203,7 @@ scripted_gui = {
 		
 		triggers = {
 			state_riseup_partisan_click_enabled = {
-				check_variable = { FROM.FROM.resistance > 0.5 }
+				check_variable = { FROM.FROM.resistance > 0.4 }
 				check_variable = { FROM.FROM.risedup_partizan = 0 }
 				FROM.FROM = { is_core_of = ROOT }
 			}

@@ -1,6 +1,6 @@
 ﻿capital = 749
 
-oob = "NIG_2000"
+oob = "NIG_2018"
 
 set_research_slots = 2
 set_convoys = 10
@@ -92,49 +92,42 @@ set_politics = {
 
 	parties = {
 		democratic_socialist = {
-			popularity = 32.33
+			popularity = 0
 		}
 		conservative = {
-			popularity = 22.79
+			popularity = 7.51
 		}
 		social_democrat = {
-			popularity = 22.51
+			popularity = 92.49
 		}
 		market_liberal = {
-			popularity = 10.83
+			popularity = 0
 		}
 		progressive = {
-			popularity = 7.73
+			popularity = 0
 		}
 		social_liberal = {
-			popularity = 2.08
+			popularity = 0
 		}
 		nationalist = {
-			popularity = 1.73
+			popularity = 0
 		}
 	}
 	
-	ruling_party = conservative
-	last_election = "1999.10.17"
-	election_frequency = 48
+	ruling_party = social_democrat
+	last_election = "2016.3.20"
+	election_frequency = 60
 	elections_allowed = yes
 }
 
 create_country_leader = {
-	name = "Mamadou Tandja"
-	picture = "Mamadou_Tandja.dds"
-	ideology = right_wing_conservative
+	name = "Hama Amadou"
+	picture = "Hama_Amadou.dds"
+	ideology = fiscal_conservative
 }
 
 create_country_leader = {
 	name = "Mahamadou Issoufou"
 	picture = "Mahamadou_Issoufou.dds"
-	ideology = democratic_socialist_ideology
-}
-
-2010.1.1 = {
-	set_politics = {
-		ruling_party = democratic_socialist
-		elections_allowed = yes
-	}
+	ideology = social_democrat_ideology
 }
