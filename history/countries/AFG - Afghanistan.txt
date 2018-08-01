@@ -99,9 +99,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Mohammad Khan"
+	name = "Abdullah Abdullah"
 	ideology = libertarian
-	picture = "Mohammad_Khan.dds"
+	picture = "Abdullah_Abdullah.dds"
 }
 
 create_country_leader = {
