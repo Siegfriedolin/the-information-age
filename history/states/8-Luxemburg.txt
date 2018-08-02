@@ -5,7 +5,7 @@ state=
 	
 	state_category = state_level_10
 	
-	manpower = 540000
+	manpower = 602005
 	
 	resources = {
 		steel = 25
