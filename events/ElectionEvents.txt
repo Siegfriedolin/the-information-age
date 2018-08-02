@@ -53,7 +53,7 @@ country_event = {
 		ai_chance = {
 			factor = 10
 		}
-		
+		add_stability = 0.1
 		add_political_power = 20
 	}
 	
@@ -64,7 +64,7 @@ country_event = {
 		}
 		trigger = {
 			NOT = { has_government = communist }
-			communist > 0.29
+			communist > 0.25
 		}
 		
 		set_politics = {
@@ -78,7 +78,7 @@ country_event = {
 		name = election.1.o2
 		trigger = {
 			NOT = { has_government = democratic_socialist }
-			democratic_socialist > 0.29
+			democratic_socialist > 0.25
 		}
 		ai_chance = {
 			factor = 4
@@ -98,7 +98,7 @@ country_event = {
 		}
 		trigger = {
 			NOT = { has_government = social_democrat }
-			social_democrat > 0.29
+			social_democrat > 0.25
 		}
 		
 		set_politics = {
@@ -112,7 +112,7 @@ country_event = {
 		name = election.1.o4
 		trigger = {
 			NOT = { has_government = progressive }
-			progressive > 0.29
+			progressive > 0.25
 		}
 		ai_chance = {
 			factor = 4
@@ -132,7 +132,7 @@ country_event = {
 		}	
 		trigger = {
 			NOT = { has_government = social_liberal }
-			social_liberal > 0.29
+			social_liberal > 0.25
 		}
 		
 		set_politics = {
@@ -149,7 +149,7 @@ country_event = {
 		}
 		trigger = {
 			NOT = { has_government = market_liberal }
-			market_liberal > 0.29
+			market_liberal > 0.25
 		}
 		
 		set_politics = {
@@ -166,7 +166,7 @@ country_event = {
 		}
 		trigger = {
 			NOT = { has_government = conservative }
-			conservative > 0.29
+			conservative > 0.25
 		}
 		
 		set_politics = {
@@ -183,7 +183,7 @@ country_event = {
 		}
 		trigger = {
 			NOT = { has_government = reactionary }
-			reactionary > 0.29
+			reactionary > 0.25
 		}
 		
 		set_politics = {
@@ -200,7 +200,7 @@ country_event = {
 		}
 		trigger = {
 			NOT = { has_government = nationalist }
-			nationalist > 0.29
+			nationalist > 0.25
 		}
 		
 		set_politics = {
@@ -217,7 +217,7 @@ country_event = {
 		}
 		trigger = {
 			NOT = { has_government = fascist }
-			fascist > 0.29
+			fascist > 0.25
 		}
 		
 		set_politics = {
@@ -234,7 +234,7 @@ country_event = {
 		}
 		trigger = {
 			NOT = { has_government = islamist }
-			islamist > 0.29
+			islamist > 0.25
 		}
 		
 		set_politics = {
@@ -251,7 +251,7 @@ country_event = {
 		}
 		trigger = {
 			NOT = { has_government = monarchist }
-			monarchist > 0.29
+			monarchist > 0.25
 		}
 		
 		set_politics = {
