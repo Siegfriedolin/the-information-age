@@ -113,7 +113,7 @@ set_politics = {
 		progressive = { popularity = 5 }
 	}
 		
-	ruling_party = social_liberal
+	ruling_party = reactionary
 	last_election = "2014.2.2"
 	election_frequency = 60
 	elections_allowed = yes
