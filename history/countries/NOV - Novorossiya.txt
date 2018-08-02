@@ -96,6 +96,8 @@ add_ideas = {
 	partially_recognized_state
 }
 
+give_military_access = SOV
+
 set_politics = {
 
 	parties = {
@@ -120,9 +122,9 @@ set_politics = {
 	}
 	
 	ruling_party = reactionary 
-	last_election = "1997.9.15"
+	last_election = "2018.1.1"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 
 create_country_leader = {
@@ -138,9 +140,7 @@ create_corps_commander = {
 	skill = 3
 }
 
-2018.1.1 = {
-	declare_war_on = {
-		target = UKR
-		type = annex_everything
-	}
+declare_war_on = {
+	target = UKR
+	type = annex_everything
 }

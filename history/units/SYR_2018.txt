@@ -79,7 +79,7 @@ units = {
 	}
 	division = {
 		name = "5th Brigade"
-		location = 1072
+		location = 13311
 		division_template = "Infantry Brigade"
 		start_experience_factor = 0.3
 	}
