@@ -199,6 +199,9 @@ ideologies = {
 			independent = {
 			}
 			
+			military_junta = {
+			}
+			
 		}
 		
 		dynamic_faction_names = {
