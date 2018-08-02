@@ -1,13 +1,12 @@
 ﻿capital = 823
 
-oob = "UZB_2000"
+oob = "UZB_2018"
 
 set_research_slots = 3
 set_convoys = 10
 set_stability = 0.4
 
 set_country_flag = country_language_uzbek
-set_country_flag = country_language_russian
 
 set_technology = {
 	infantry_weapons = 1
@@ -89,27 +88,33 @@ set_politics = {
 
 	parties = {
 		nationalist = {
-			popularity = 39
+			popularity = 11.39
 		}
 		social_liberal = {
-			popularity = 27
+			popularity = 0
 		}
 		reactionary = {
-			popularity = 24
+			popularity = 88.61
 		}
 		communist = {
-			popularity = 8
+			popularity = 0
 		}
 	}
 	
 	ruling_party = nationalist
-	last_election = "1997.1.1"
-	election_frequency = 48
-	elections_allowed = no
+	last_election = "2016.12.4"
+	election_frequency = 60
+	elections_allowed = yes
 }
 
 create_country_leader = {
-	name = "Islam Karimov"
-	picture = "Islam_Karimov.dds"
-	ideology = autocrat
+	name = "Shavkat Mirziyoyev"
+	picture = "Shavkat_Mirziyoyev.dds"
+	ideology = counter_progressive_democrat
+}
+
+create_country_leader = {
+	name = "Khatamjon Ketmonov"
+	picture = "Khatamjon_Ketmonov.dds"
+	ideology = national_democrat
 }

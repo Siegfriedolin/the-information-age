@@ -1,6 +1,6 @@
 ﻿capital = 797
 
-oob = "SOS_2000"
+oob = "SOS_2018"
 
 set_research_slots = 3
 set_convoys = 10
@@ -90,36 +90,18 @@ set_politics = {
 
 	parties = {
 		reactionary = {
-			popularity = 50
-		}
-		market_liberal = {
-			popularity = 3
-		}
-		social_democrat = {
-			popularity = 40
-		}
-		progressive = {
-			popularity = 2
-		}
-		communist = {
-			popularity = 5
+			popularity = 100
 		}
 	}
 	
 	ruling_party = reactionary
-	last_election = "1997.1.1"
-	election_frequency = 48
+	last_election = "2017.4.9"
+	election_frequency = 60
 	elections_allowed = yes
 }
+
 create_country_leader = {
-	name = "Ludwig Chibirov"
-	picture = "Ludwig_Chibirov.dds"
+	name = "Anatoly Bibilov"
+	picture = "Anatoly_Bibilov.dds"
 	ideology = counter_progressive_democrat
-}
-2012.4.19 = {
-	create_country_leader = {
-		name = "Leonid Tibilov"
-		picture = "Leonid_Tibilov.dds"
-		ideology = counter_progressive_democrat
-	}
 }
