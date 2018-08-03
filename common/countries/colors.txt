@@ -950,6 +950,10 @@ SHX = {
 	color = rgb { 82 2 15 }
 	color_ui = rgb { 101 30 41 }
 }
+HOU = {
+	color = rgb { 137 153 102 }
+	color_ui = rgb { 137 153 102 }
+}
 
 D01 = {
 	color = rgb { 200 100 31 }
