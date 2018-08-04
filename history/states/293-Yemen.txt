@@ -5,6 +5,11 @@ state={
 
 	history={
 		owner = HOU
+		YEM = {
+			set_province_controller = 1086
+			set_province_controller = 4924
+			set_province_controller = 13308
+		}
 		buildings = {
 			infrastructure = 3
 			air_base = 4

@@ -101,7 +101,7 @@ set_politics = {
 		}
 	}
 	
-	ruling_party = nationalist
+	ruling_party = reactionary
 	last_election = "2016.12.4"
 	election_frequency = 60
 	elections_allowed = yes
