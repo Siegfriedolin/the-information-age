@@ -225,7 +225,7 @@ objectTypes = {
 
 	pdxmesh = {
 		name = "building_industrial_complex"
-		file = "gfx/models/buildings/civilian_factory.mesh"
+		file = "gfx/models/buildings/factory.mesh"
 		scale = 0.14
 	}
 	pdxmesh = {
