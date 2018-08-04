@@ -89,7 +89,7 @@ set_politics = {
 		}
 	}
 	
-	ruling_party = reactionary
+	ruling_party = social_democrat
 	last_election = "2015.4.26"
 	election_frequency = 60
 	elections_allowed = yes
