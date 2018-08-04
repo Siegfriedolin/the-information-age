@@ -1,6 +1,6 @@
 ﻿capital = 300
 
-oob = "URG_2000"
+oob = "URG_2018"
 
 set_research_slots = 3
 set_convoys = 235
@@ -128,20 +128,15 @@ set_politics = {
 	}
 	
 	ruling_party = social_liberal
-	last_election = "1997.1.1"
-	election_frequency = 48
+	last_election = "2014.10.26"
+	election_frequency = 60
 	elections_allowed = yes
 }
 
 create_country_leader = {
-	name = "Julio María Sanguinetti"
-	ideology = centrist
-	picture = "Julio_M_Sanguinetti.dds"
-}
-
-add_namespace = {
-	name = "urg_unit_leader"
-	type = unit_leader
+	name = "Tabaré Vázquez"
+	picture = "Tabare_Vazquez.dds"
+	ideology = liberalist
 }
 
 create_field_marshal = {
@@ -233,14 +228,6 @@ create_navy_leader = {
 	picture = "admirals/Ricardo_Giambruno.dds"
 	traits = { superior_tactician }
 	skill = 1
-}
-
-2015.1.1 = {
-	create_country_leader = {
-		name = "Tabaré Vázquez"
-		ideology = liberalist
-		picture = "Tabare_Vazquez.dds"
-	}
 }
 
 

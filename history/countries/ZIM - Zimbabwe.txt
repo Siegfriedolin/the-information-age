@@ -104,17 +104,17 @@ add_ideas = {
 
 set_politics = {
 	parties = {
-		fascist = { popularity = 7 }
-		nationalist = { popularity = 55 }
-		conservative = { popularity = 1 }
-		social_liberal = { popularity = 32 }
-		democratic_socialist = { popularity = 5 }
+		fascist = { popularity = 0 }
+		nationalist = { popularity = 50.8 }
+		conservative = { popularity = 0 }
+		social_democrat = { popularity = 44.3 }
+		democratic_socialist = { popularity = 4.9 }
 		communist = { popularity = 0 }
 	}
 
 	ruling_party = nationalist
-	last_election = "2013.7.31"
-	election_frequency = 72
+	last_election = "2013.7.30"
+	election_frequency = 60
 	elections_allowed = yes
 }
 

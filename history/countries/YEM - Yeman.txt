@@ -139,8 +139,8 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Abdul-Malik al-Houthi"
-	picture = "Abdul-Malik_al-Houthi.dds"
+	name = "Abdul-Malik Badreddin al-Houthi"
+	picture = "Abdul_Malik_Badreddin_al_Houthi.dds"
 	ideology = salafism
 }
 
