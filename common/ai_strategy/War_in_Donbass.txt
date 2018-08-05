@@ -1,0 +1,53 @@
+SOV_novorossiya = {
+    enable = {
+	    original_tag = SOV
+		has_government = reactionary
+    }
+	abort = {
+	    is_in_faction_with = UKR
+    }
+	ai_strategy = {
+        type = send_volunteers_desire
+        id = "NOV"
+        value = 200
+    }
+	ai_strategy = {
+        type = support
+        id = "NOV"
+        value = 200
+    }
+}
+
+UKR_lend_lease = {
+    enable = {
+	    OR = {
+		    original_tag = LIT
+			original_tag = EST
+			original_tag = USA
+		}
+		NOT = { is_in_faction_with = SOV }
+    }
+	abort = {
+	    is_in_faction_with = SOV
+    }
+	ai_strategy = {
+        type = support
+        id = "UKR"
+        value = 200
+    }
+}
+
+UKR_EST = {
+    enable = {
+		original_tag = EST
+	    NOT = { is_in_faction_with = SOV }
+    }
+	abort = {
+	    is_in_faction_with = SOV
+    }
+	ai_strategy = {
+        type = send_volunteers_desire
+        id = "UKR"
+        value = 200
+    }
+}

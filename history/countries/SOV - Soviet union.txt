@@ -424,16 +424,3 @@ create_navy_leader = {
 	picture = "admirals/Vladimir_Vysotskiy.dds"
 	skill = 1
 }
-
-2018.1.1 = {
-	add_ai_strategy = {
-		type = support
-		id = "NOV"
-		value = 200
-	}
-	add_ai_strategy = {
-		type = send_volunteers_desire
-		id = "NOV"
-		value = 200
-	}
-}
