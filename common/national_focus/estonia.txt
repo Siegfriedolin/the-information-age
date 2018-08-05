@@ -295,7 +295,7 @@ focus_tree = {    ### Made by CMDR Voltages ###
 	
 	focus = {
 		id = EST_estonia_first
-		icon = entente
+		icon = estonia_first
 		
 		x = 19
 		y = 3

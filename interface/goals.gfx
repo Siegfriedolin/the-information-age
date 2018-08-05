@@ -2851,6 +2851,10 @@ spriteTypes = {
 		name = "ekre"
 		texturefile = "gfx/interface/goals/estonia/ekre.dds"		
 	}
+	SpriteType = {
+		name = "estonia_first"
+		texturefile = "gfx/interface/goals/estonia/estonia_first.dds"		
+	}
 	
 	#those without a category
 }
