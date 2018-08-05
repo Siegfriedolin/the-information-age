@@ -2847,5 +2847,10 @@ spriteTypes = {
 		name = "karelia_development"
 		texturefile = "gfx/interface/goals/economy/karelia_development.dds"			
 	}
+	SpriteType = {
+		name = "ekre"
+		texturefile = "gfx/interface/goals/estonia/ekre.dds"		
+	}
+	
 	#those without a category
 }

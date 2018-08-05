@@ -231,7 +231,7 @@ focus_tree = {    ### Made by CMDR Voltages ###
 	### Estonia First Path ###
 	focus = {
 		id = EST_ekre
-		icon = entente
+		icon = ekre
 		
 		x = 22
 		y = 4
