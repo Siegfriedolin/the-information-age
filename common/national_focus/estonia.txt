@@ -161,6 +161,8 @@ focus_tree = {    ### Made by CMDR Voltages ###
 		}
 	}
 	
+	### Democracy ###
+	
 	focus = {
 		id = EST_ensure_democracy
 		icon = democracy
@@ -183,6 +185,64 @@ focus_tree = {    ### Made by CMDR Voltages ###
 		    focus = EST_socialist_unity
 			focus = EST_nationalist_pride
 		}
+		
+		completion_reward = {
+		    add_stability = 0.02
+			add_political_power = 100
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	
+	focus = {
+		id = EST_the_impossible_dream
+		icon = democracy
+		
+		x = 12
+		y = 3
+		
+		cost = 10
+
+		cancel_if_invalid = no
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		
+		prerequisite = { 
+		    focus = EST_ensure_democracy
+		}
+		
+		mutually_exclusive = {}
+		
+		completion_reward = {
+		    add_stability = 0.02
+			add_political_power = 100
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	
+	focus = {
+		id = EST_
+		icon = democracy
+		
+		x = 8
+		y = 3
+		
+		cost = 10
+
+		cancel_if_invalid = no
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		
+		prerequisite = { 
+		    focus = EST_ensure_democracy
+		}
+		
+		mutually_exclusive = {}
 		
 		completion_reward = {
 		    add_stability = 0.02
@@ -233,7 +293,7 @@ focus_tree = {    ### Made by CMDR Voltages ###
 		id = EST_ekre
 		icon = ekre
 		
-		x = 22
+		x = 19
 		y = 4
 		
 		cost = 10
@@ -262,10 +322,10 @@ focus_tree = {    ### Made by CMDR Voltages ###
 	}
 	
 	focus = {
-		id = EST_rue
+		id = EST_eip
 		icon = entente
 		
-		x = 16
+		x = 36
 		y = 4
 		
 		cost = 10
@@ -279,7 +339,7 @@ focus_tree = {    ### Made by CMDR Voltages ###
 		}
 		
 		prerequisite = {
-		    focus = EST_estonia_first
+		    focus = EST_nationalist_pride
 		}
 		
 		mutually_exclusive = {}
@@ -312,6 +372,38 @@ focus_tree = {    ### Made by CMDR Voltages ###
 		
 		prerequisite = {
 		    focus = EST_ensure_democracy
+		}
+		
+		mutually_exclusive = {}
+		
+		completion_reward = {
+		    
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	
+		focus = {
+		id = EST_plans_for_2019
+		icon = ekre
+		
+		x = 19
+		y = 5
+		
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		available = {
+			reactionary > 0.1
+		}
+		
+		prerequisite = {
+		    focus = EST_ekre
 		}
 		
 		mutually_exclusive = {}
