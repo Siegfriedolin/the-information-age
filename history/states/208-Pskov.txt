@@ -1,13 +1,9 @@
 
 state={
 	id=208
-	name="STATE_208" # Luga
-	manpower = 591819
-	
-	state_category = state_level_5
-	
-	resources = {
-		steel = 22
+	name="STATE_208"
+	resources={
+		steel=22.000
 	}
 
 	history={
@@ -16,11 +12,16 @@ state={
 			infrastructure = 5
 			industrial_complex = 1
 			air_base = 3
+
 		}
 		add_core_of = SOV
+
 	}
 
 	provinces={
-		104 126 181 3120 6139 6197 9097 9098 11032 11080 11139 11186 
+		79 104 126 149 181 3060 3120 6139 6174 6197 9097 9098 9100 9105 9150 9206 11032 11068 11080 11139 11162 11186 
 	}
+	manpower=591819
+	buildings_max_level_factor=1.000
+	state_category=state_level_5
 }
