@@ -138,7 +138,7 @@ units = {
 		start_experience_factor = 0.3
 	}
 	division = {
-		name = "Jabhat al-Aisalat wal-Tanmia"
+		name = "Saraya Ahl al-Sham"
 		location = 13282
 		division_template = "Militia Brigade"
 		start_experience_factor = 0.2
@@ -149,43 +149,6 @@ units = {
 		division_template = "Militia Brigade"
 		start_experience_factor = 0.2
 	}
-	division = {
-	    name = "Harakat Ahrar al-Sham"
-	    location = 13271
-	    division_template = "Elite Militia Brigade"
-	    start_experience_factor = 0.5
-		start_equipment_factor = 1.0
-    }
-    division = {
-	    name = "Nour al-Din al-Zenki"
-	    location = 13268
-	    division_template = "Militia Brigade"
-	    start_experience_factor = 0.3
-    }
-    division = {
-	    name = "Suqour al-Sham"
-	    location = 13271
-	    division_template = "Militia Brigade"
-	    start_experience_factor = 0.2
-    }
-    division = {
-	    name = "al-Iqaab Battalion"
-	    location = 13268
-	    division_template = "Militia Brigade"
-	    start_experience_factor = 0.1
-    }
-    division = {
-	    name = "Martyrs of Islam Brigade"
-	    location = 13268
-	    division_template = "Militia Brigade"
-	    start_experience_factor = 0.1
-    }
-    division = {
-	    name = "Martyr Abu Omar Battalion"
-	    location = 13268
-	    division_template = "Militia Brigade"
-	    start_experience_factor = 0.1
-    }
 }
    
    instant_effect = {

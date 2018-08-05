@@ -107,6 +107,7 @@ add_ideas = {
 	the_euro
 	ITA_mafia
 	ITA_corruption
+	ITA_migrants_from_africa
 }
 
 set_politics = {

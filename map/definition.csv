@@ -13291,7 +13291,7 @@
 13290;205;255;124;land;false;plains;0
 13291;191;33;33;land;false;desert;0
 13292;232;115;230;land;false;desert;0
-13293;155;255;210;land;false;hills;0
+13293;155;255;210;land;true;plains;0
 13294;175;206;37;land;false;hills;0
 13295;144;158;105;land;false;plains;0
 13296;174;105;181;land;false;plains;0

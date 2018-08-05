@@ -164,18 +164,6 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Adriatik Alimadhi"
-	picture = "Adriatik_Alimadhi.dds"
-	ideology = proto_fascist 
-}
-
-create_country_leader = {
-	name = "Idajet Beqiri"
-	picture = "Idajet_Beqiri.dds"
-	ideology = fascist_ideology  
-}
-
-create_country_leader = {
 	name = "Idajet Beqiri"
 	picture = "Idajet_Beqiri.dds"
 	ideology = fascist_ideology  

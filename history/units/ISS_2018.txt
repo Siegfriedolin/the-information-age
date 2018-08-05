@@ -116,20 +116,4 @@ units = {
 		start_equipment_factor = 1.0
 	}
 	
-	division = {
-		name = "Wilayat Sinai"
-		location = 4161
-		division_template = "Militia"
-		start_experience_factor = 0.40
-		start_equipment_factor = 1.0
-	}
-	
-	division = {
-		name = "Ansar al-Sharia"
-		location = 4161
-		division_template = "Militia"
-		start_experience_factor = 0.25
-		start_equipment_factor = 1.0
-	}
-	
 }
