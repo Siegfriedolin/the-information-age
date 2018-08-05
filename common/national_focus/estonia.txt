@@ -1,4 +1,4 @@
-focus_tree = {
+focus_tree = {    ### Made by CMDR Voltages ###
 	id = estonia_focus
 	
 	country = {
@@ -137,7 +137,7 @@ focus_tree = {
 		id = EST_legacy_of_the_SSR
 		icon = communism12
 		
-		x = 15
+		x = 25
 		y = 3
 		
 		cost = 10
@@ -228,12 +228,77 @@ focus_tree = {
 		}
 	}
 	
+	### Estonia First Path ###
+	focus = {
+		id = EST_ekre
+		icon = entente
+		
+		x = 22
+		y = 4
+		
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		available = {
+			reactionary > 0.1
+		}
+		
+		prerequisite = {
+		    focus = EST_estonia_first
+		}
+		
+		mutually_exclusive = {}
+		
+		completion_reward = {
+		    
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	
+	focus = {
+		id = EST_rue
+		icon = entente
+		
+		x = 16
+		y = 4
+		
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		available = {
+			reactionary > 0.1
+		}
+		
+		prerequisite = {
+		    focus = EST_estonia_first
+		}
+		
+		mutually_exclusive = {}
+		
+		completion_reward = {
+		    
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	
 	focus = {
 		id = EST_estonia_first
 		icon = entente
 		
-		x = 8
-		y = 5
+		x = 19
+		y = 3
 		
 		cost = 10
 
@@ -481,7 +546,7 @@ focus_tree = {
 		icon = farming_industry
 		
 		x = 9
-		y = 3
+		y = 6
 		
 		cost = 10
 
@@ -512,7 +577,7 @@ focus_tree = {
 		id = EST_spread_marxism
 		icon = propaganda_communist
 		
-		x = 15
+		x = 25
 		y = 4
 		
 		cost = 20
@@ -553,7 +618,7 @@ focus_tree = {
 		id = EST_change_the_constitution
 		icon = dangerous_laws
 		
-		x = 15
+		x = 25
 		y = 5
 		
 		cost = 10
@@ -583,7 +648,7 @@ focus_tree = {
 		id = EST_leave_the_EU
 		icon = align_to_europe
 		
-		x = 18
+		x = 28
 		y = 6
 		
 		cost = 20
@@ -612,7 +677,7 @@ focus_tree = {
 		id = EST_clear_the_parliament
 		icon = clear_parlament
 		
-		x = 15
+		x = 25
 		y = 7
 		
 		cost = 10
@@ -648,7 +713,7 @@ focus_tree = {
 		id = EST_favor_a_worker_society
 		icon = national_greatness
 		
-		x = 13
+		x = 23
 		y = 8
 		
 		cost = 10
@@ -681,7 +746,7 @@ focus_tree = {
 		id = EST_communist_dictatorship
 		icon = military_mission
 		
-		x = 17
+		x = 26
 		y = 8
 		
 		cost = 10
@@ -713,7 +778,7 @@ focus_tree = {
 		id = EST_rewrite_the_constitution
 		icon = constitution
 		
-		x = 13
+		x = 24
 		y = 11
 		
 		cost = 10
@@ -891,7 +956,7 @@ focus_tree = {
 		id = EST_restore_trust
 		icon = neutrality
 		
-		x = 13
+		x = 23
 		y = 10
 		
 		cost = 10
@@ -919,7 +984,7 @@ focus_tree = {
 		id = EST_setup_the_ESS
 		icon = neutrality
 		
-		x = 13
+		x = 25
 		y = 10
 		
 		cost = 10
