@@ -9,17 +9,16 @@ state={
 	history={
 		owner = EGY
 		add_core_of = EGY
-		add_core_of = ISS
-		ISS = {
-			set_province_controller = 4161
-		}
+		set_demilitarized_zone = yes
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 1
 			air_base = 1
 			4161 = {
 				bunker = 5
+
 			}
+
 		}
 		victory_points = {
 			9947 5 
