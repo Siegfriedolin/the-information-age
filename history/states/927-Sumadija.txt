@@ -1,0 +1,22 @@
+
+state={
+	id=927
+	name="STATE_927"
+
+	history={
+		owner = SER
+		add_core_of = SER
+		buildings = {
+			infrastructure = 4
+
+		}
+
+	}
+
+	provinces={
+		797 937 3609 3922 3939 3956 3984 6970 9599 
+	}
+	manpower=2031697
+	buildings_max_level_factor=1.000
+	state_category=state_level_3
+}

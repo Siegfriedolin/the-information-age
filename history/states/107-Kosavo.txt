@@ -18,17 +18,14 @@ state={
 		victory_points = {
 			11586 20 
 		}
-		victory_points = {
-			11583 2 
-		}
 		add_core_of = SER
 
 	}
 
 	provinces={
-		797 3609 3956 3984 6634 9599 11583 11586 
+		11586 
 	}
-	manpower=5564700
+	manpower=1166763
 	buildings_max_level_factor=1.000
-	state_category=state_level_12
+	state_category=state_level_8
 }
