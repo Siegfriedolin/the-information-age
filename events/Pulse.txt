@@ -33,14 +33,6 @@ country_event = {
 		}
 		if = {
 			limit = {
-			    original_tag = JAP
-				date > 2022.2.3
-				date < 2023.1.1
-			}
-			news_event = olympic_games.12
-		}
-		if = {
-			limit = {
 			    original_tag = POR
 				date > 2018.5.11
 				date < 2019.1.1
@@ -49,11 +41,35 @@ country_event = {
 		}
 		if = {
 			limit = {
+			    original_tag = KOR
+				date > 2018.6.13
+				date < 2019.1.1
+			}
+			news_event = fifa_world_cup.1
+		}
+		if = {
+			limit = {
+			    original_tag = KOR
+				date > 2018.2.8
+				date < 2019.1.1
+			}
+			news_event = olympic_games.1
+		}
+		if = {
+			limit = {
+			    original_tag = JAP
+				date > 2020.7.23
+				date < 2021.1.1
+			}
+			news_event = olympic_games.2
+		}
+		if = {
+			limit = {
 			    original_tag = PRC
 				date > 2022.2.3
 				date < 2023.1.1
 			}
-			news_event = olympic_games.12
+			news_event = olympic_games.3
 		}
 		if = {
 			limit = {

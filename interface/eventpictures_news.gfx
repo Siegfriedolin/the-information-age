@@ -554,75 +554,15 @@ spriteTypes = {
 		name = "GFX_news_event_ukrainebombed"
 		texturefile = "gfx/event_pictures/news_event/russia/ukrainebombed.dds"
 	}
-	
-	spriteType = {
-		name = "GFX_news_event_fifa_world_cup_2002"
-		texturefile = "gfx/event_pictures/news_event/sports/fifa_world_cup/fifa_world_cup_2002.dds"
-	}
 
 	spriteType = {
-		name = "GFX_news_event_fifa_world_cup_2006"
-		texturefile = "gfx/event_pictures/news_event/sports/fifa_world_cup/fifa_world_cup_2006.dds"
-	}
-
-	spriteType = {
-		name = "GFX_news_event_fifa_world_cup_2010"
-		texturefile = "gfx/event_pictures/news_event/sports/fifa_world_cup/fifa_world_cup_2010.dds"
-	}
-
-	spriteType = {
-		name = "GFX_news_event_fifa_world_cup_2014"
-		texturefile = "gfx/event_pictures/news_event/sports/fifa_world_cup/fifa_world_cup_2014.dds"
+		name = "GFX_news_event_fifa_world_cup_2018"
+		texturefile = "gfx/event_pictures/news_event/sports/fifa_world_cup/fifa_world_cup_2018.dds"
 	}
 
 	spriteType = {
 		name = "GFX_news_event_olympic_games"
 		texturefile = "gfx/event_pictures/news_event/sports/olympic_games/olympic_games.dds"
-	}
-
-	spriteType = {
-		name = "GFX_news_event_olympic_games_2000"
-		texturefile = "gfx/event_pictures/news_event/sports/olympic_games/olympic_games_2000.dds"
-	}
-
-	spriteType = {
-		name = "GFX_news_event_olympic_games_2002"
-		texturefile = "gfx/event_pictures/news_event/sports/olympic_games/olympic_games_2002.dds"
-	}
-
-	spriteType = {
-		name = "GFX_news_event_olympic_games_2004"
-		texturefile = "gfx/event_pictures/news_event/sports/olympic_games/olympic_games_2004.dds"
-	}
-
-	spriteType = {
-		name = "GFX_news_event_olympic_games_2006"
-		texturefile = "gfx/event_pictures/news_event/sports/olympic_games/olympic_games_2006.dds"
-	}
-
-	spriteType = {
-		name = "GFX_news_event_olympic_games_2008"
-		texturefile = "gfx/event_pictures/news_event/sports/olympic_games/olympic_games_2008.dds"
-	}
-
-	spriteType = {
-		name = "GFX_news_event_olympic_games_2010"
-		texturefile = "gfx/event_pictures/news_event/sports/olympic_games/olympic_games_2010.dds"
-	}
-
-	spriteType = {
-		name = "GFX_news_event_olympic_games_2012"
-		texturefile = "gfx/event_pictures/news_event/sports/olympic_games/olympic_games_2012.dds"
-	}
-
-	spriteType = {
-		name = "GFX_news_event_olympic_games_2014"
-		texturefile = "gfx/event_pictures/news_event/sports/olympic_games/olympic_games_2014.dds"
-	}
-
-	spriteType = {
-		name = "GFX_news_event_olympic_games_2016"
-		texturefile = "gfx/event_pictures/news_event/sports/olympic_games/olympic_games_2016.dds"
 	}
 
 	spriteType = {
