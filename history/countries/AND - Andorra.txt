@@ -1,6 +1,6 @@
 ﻿capital = 852
 
-oob = "generic_2000"
+oob = "AND_2018"
 
 set_research_slots = 2
 set_convoys = 10
@@ -81,6 +81,7 @@ set_technology = {
 add_ideas = {
 	population_growth_steady
 	neutrality_idea
+	the_euro
 }
 
 set_politics = {
@@ -96,23 +97,13 @@ set_politics = {
 		communist = { popularity = 1 }
 	}
 	ruling_party = conservative
-	last_election = "1998.9.20"
+	last_election = "2015.3.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
 
 create_country_leader = {
-	name = "Marc Forné i Moln"
+	name = "Antoni Martí"
+	picture = "Antoni_Marti.dds"
 	ideology = fiscal_conservative
-	picture = "Marc_Forne.dds"
-}
-
-2002.1.1 = { add_ideas = the_euro }
-
-2015.1.1 = {
-	create_country_leader = {
-		name = "Antoni Martí Petit"
-		ideology = fiscal_conservative
-		picture = "Antoni_Marti.dds"
-	}
 }

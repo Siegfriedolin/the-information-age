@@ -140,8 +140,8 @@ create_country_leader = {
 }
 	
 create_country_leader = {
-	name = "Leka I"
-	picture = "Leka_I.dds"
+	name = "Leka II"
+	picture = "Leka_II.dds"
 	ideology = absolute_monarchist
 }
 
@@ -170,8 +170,8 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Hysni Milloshi"
-	picture = "Hysni_Milloshi.dds"
+	name = "Qemal Cicollari"
+	picture = "Qemal_Cicollari.dds"
 	ideology = stalinist   
 }
 
