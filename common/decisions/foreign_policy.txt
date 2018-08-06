@@ -3,6 +3,7 @@ foreign_policy = {
 	declare_neutrality = {
 		visible = {
 			is_in_faction = no
+			NOT = { has_idea = neutrality_idea }
 		}
 		available = {
             is_in_faction = no
