@@ -63,7 +63,7 @@ ideas = {
 			}
 		}
 		
-		 = {
+		ITA_migrants_from_africa = {
 			
 			allowed = {
 				always = no

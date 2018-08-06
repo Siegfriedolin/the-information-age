@@ -5,3 +5,11 @@ pulse_decisions = {
 		always = yes
 	}
 }
+
+israel_palestine_conflict = {
+	icon = israel_palestine_conflict
+
+	allowed = {
+		always = yes
+	}
+}

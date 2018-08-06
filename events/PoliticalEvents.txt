@@ -1505,26 +1505,6 @@ country_event = {
 	}
 }
 
-#Puppet: Lose all influences
-country_event = {
-	id = political.49
-	hidden = yes
-	
-	trigger = {
-		is_puppet = yes
-		NOT = { has_country_flag = puppet_lost_influence }
-	}
-	
-	mean_time_to_happen = {
-		days = 2
-	}
-	
-	option = {
-		set_country_flag = puppet_lost_influence
-		remove_all_ideological_influences = yes
-	}
-}
-
 #Puppet: No longer lose all influences
 country_event = {
 	id = political.50

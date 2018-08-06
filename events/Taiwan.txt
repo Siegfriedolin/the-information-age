@@ -483,16 +483,17 @@ country_event = {
 		
 		ai_chance = {
 			factor = 40
-      }
+		}
+    }
+	
 	option = {
-	name = taiwan.13.o2
-	CHI = { add_opinion_modifier = { target = PRC modifier = recent_actions_negative } }
-	CHI = { country_event = taiwan.16 }
-	ai_chance = {
-	factor = 60
-	}
-}	  
-}
+	    name = taiwan.13.o2
+	    CHI = { add_opinion_modifier = { target = PRC modifier = recent_actions_negative } }
+	    CHI = { country_event = taiwan.16 }
+	    ai_chance = {
+	        factor = 60
+	    }
+    }
 }
 
 country_event = {
