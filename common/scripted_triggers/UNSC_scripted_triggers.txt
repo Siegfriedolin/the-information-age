@@ -1,0 +1,19 @@
+permanent_unsc_member_saved = {
+	OR = {
+		has_country_flag = permanent_unsc_member_1
+		has_country_flag = permanent_unsc_member_2
+		has_country_flag = permanent_unsc_member_3
+		has_country_flag = permanent_unsc_member_4
+		has_country_flag = permanent_unsc_member_5
+	}
+}
+
+temp_unsc_member_saved = {
+	OR = {
+		has_country_flag = temp_unsc_member_1
+		has_country_flag = temp_unsc_member_2
+		has_country_flag = temp_unsc_member_3
+		has_country_flag = temp_unsc_member_4
+		has_country_flag = temp_unsc_member_5
+	}
+}

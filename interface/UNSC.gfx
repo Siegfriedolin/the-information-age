@@ -1,0 +1,7 @@
+spriteTypes = {	
+
+	spriteType = {
+		name = "GFX_UNSC_button"
+		texturefile = "gfx/interface/ideas/international_organizations/UNSC_member.dds"
+	}	
+}

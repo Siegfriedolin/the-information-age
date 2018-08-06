@@ -154,6 +154,12 @@ on_actions = {
 				news_event = cia.1
 				news_event = cia.2
 			}
+			USA = {	set_permanent_UNSC_members_effect = yes }
+			SOV = {	set_permanent_UNSC_members_effect = yes }
+			CHI = {	set_permanent_UNSC_members_effect = yes }
+			FRA = {	set_permanent_UNSC_members_effect = yes }
+			ENG = {	set_permanent_UNSC_members_effect = yes }
+			}
 		}
 	}
 }

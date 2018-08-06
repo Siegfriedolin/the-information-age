@@ -1,0 +1,48 @@
+guiTypes = {
+	containerWindowType = {
+		name = "open_unsc_window_button"
+		position = { x = -35 y = -272 }
+		size = { width = 50 height = 50 }
+		orientation = upper_right
+		
+		buttonType = {
+			name = "open_unsc_window"
+			spriteType = "GFX_UNSC_button"
+			position = { x = -4 y = -2 }
+			pdx_tooltip = "OPEN_CLOSE_UNSC_WINDOW"
+		}
+	}
+
+	containerWindowType = {
+		name = "unsc_window"
+		position = { x = 50% y = 50% }
+		size = { width = 850 height = 700 }
+		orientation = center
+		
+		buttonType = {
+		}
+
+		containerWindowType = {
+			name = "unsc_members_list"
+			position = { x = 25 y = 180 }
+			size = { width = 210 height = 180 }
+	
+			background = {
+				name = "background"
+				spriteType ="GFX_tiled_window_1b_border"
+				pdx_tooltip = "UNSC_LIST_DESC"
+			}
+			
+			instantTextBoxType = {
+				name = "unsc_members_list"
+				position = { x = 11 y = 13 }
+				font = "hoi_18mbs"
+				maxWidth = 175
+				maxHeight = 152
+				text = "UNSC_MEMBERS_LIST"	
+				format = center
+				scrollbarType = standardtext_slider
+			}
+		}
+	}
+}
