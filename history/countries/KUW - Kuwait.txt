@@ -1,6 +1,6 @@
 ﻿capital = 656
 
-oob = "KUW_2000"
+oob = "KUW_2018"
 
 set_research_slots = 3
 set_convoys = 100
@@ -89,6 +89,7 @@ set_technology = {
 
 set_country_flag = dominant_religion_islam
 set_country_flag = sunni_islam
+add_timed_idea = { idea = idea_united_nations_NP_security_council_member days = 365 }
 
 add_ideas = {
 	population_growth_steady
@@ -103,34 +104,27 @@ set_politics = {
 			popularity = 30
 		}
 		monarchist = {
-			popularity = 10
-		}
-		conservative = {
 			popularity = 50
 		}
+		conservative = {
+			popularity = 10
+		}
 		social_democrat = {
-			popularity = 5
+			popularity = 15
 		}
 		communist = {
-			popularity = 5
+			popularity = 0
 		}
 	}
 	
-	ruling_party = conservative
-	last_election = "1997.1.1"
+	ruling_party = monarchist
+	last_election = "2018.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 create_country_leader = {
-	name = "Jaber III of Kuwait"
-	picture = "Jaber_III.dds"
-	ideology = constitutional_monarchist
-}
-2007.1.1 = {
-	create_country_leader = {
-		name = "Sabah IV of Kuwait"
-		picture = "Sabah_IV.dds"
-		ideology = constitutional_monarchist
-	}
+	name = "Sabah al-Ahmad al-Jaber al-Sabah"
+	picture = "Sabah_al_Ahmad_al_Jaber_al_Sabah.dds"
+	ideology = absolute_monarchist
 }
