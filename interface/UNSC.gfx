@@ -2,6 +2,11 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_UNSC_button"
-		texturefile = "gfx/interface/ideas/international_organizations/UNSC_member.dds"
+		texturefile = "gfx/interface/UNSC/UNSC_button.dds"
 	}	
+
+	spriteType = {
+		name = "GFX_UNSC_button_bg"
+		texturefile = "gfx/interface/UNSC/UNSC_button_bg.dds"
+	}
 }

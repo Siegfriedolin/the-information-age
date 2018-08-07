@@ -4,6 +4,11 @@ guiTypes = {
 		position = { x = -55 y = 90 }
 		size = { width = 50 height = 50 }
 		orientation = upper_right
+
+		background = {
+			name = "background"
+			spriteType ="GFX_UNSC_button_bg"
+		}
 		
 		buttonType = {
 			name = "open_unsc_window"
@@ -15,14 +20,19 @@ guiTypes = {
 
 	containerWindowType = {
 		name = "unsc_window_container"
-		position = { x = 50% y = 50% }
+		position = { x = 500 y = 250 }
 		size = { width = 850 height = 700 }
-		orientation = center
+		orientation = upper_left
+
+		background = {
+			name = "background"
+			spriteType ="GFX_tiled_window_2b_border"
+		}
 
 		containerWindowType = {
-			name = "unsc_members_list"
+			name = "unsc_members_list_window"
 			position = { x = 25 y = 180 }
-			size = { width = 210 height = 180 }
+			size = { width = 250 height = 200 }
 	
 			background = {
 				name = "background"
@@ -31,11 +41,11 @@ guiTypes = {
 			}
 			
 			instantTextBoxType = {
-				name = "unsc_members_list"
-				position = { x = 11 y = 13 }
+				name = "unsc_members_list_list"
+				position = { x = 1 y = 13 }
 				font = "hoi_18mbs"
-				maxWidth = 175
-				maxHeight = 152
+				maxWidth = 250
+				maxHeight = 200
 				text = "UNSC_MEMBERS_LIST"	
 				format = center
 				scrollbarType = standardtext_slider

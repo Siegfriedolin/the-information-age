@@ -4,7 +4,7 @@ defined_text = {
 	text = {
 		trigger = {
 			any_country = {
-				has_country_flag = permanent_unsc_member_list_entry_1
+				has_country_flag = permanent_unsc_member_1
 				exists = yes
 			}
 		}
@@ -24,7 +24,7 @@ defined_text = {
 	text = {
 		trigger = {
 			any_country = {
-				has_country_flag = permanent_unsc_member_list_entry_2
+				has_country_flag = permanent_unsc_member_2
 				exists = yes
 			}
 		}
@@ -44,7 +44,7 @@ defined_text = {
 	text = {
 		trigger = {
 			any_country = {
-				has_country_flag = permanent_unsc_member_list_entry_3
+				has_country_flag = permanent_unsc_member_3
 				exists = yes
 			}
 		}
@@ -64,7 +64,7 @@ defined_text = {
 	text = {
 		trigger = {
 			any_country = {
-				has_country_flag = permanent_unsc_member_list_entry_4
+				has_country_flag = permanent_unsc_member_4
 				exists = yes
 			}
 		}
@@ -84,7 +84,7 @@ defined_text = {
 	text = {
 		trigger = {
 			any_country = {
-				has_country_flag = permanent_unsc_member_list_entry_5
+				has_country_flag = permanent_unsc_member_5
 				exists = yes
 			}
 		}
@@ -104,7 +104,7 @@ defined_text = {
 	text = {
 		trigger = {
 			any_country = {
-				has_country_flag = temp_unsc_member_list_entry_1
+				has_country_flag = temp_unsc_member_1
 				exists = yes
 			}
 		}
@@ -124,7 +124,7 @@ defined_text = {
 	text = {
 		trigger = {
 			any_country = {
-				has_country_flag = temp_unsc_member_list_entry_2
+				has_country_flag = temp_unsc_member_2
 				exists = yes
 			}
 		}
@@ -144,7 +144,7 @@ defined_text = {
 	text = {
 		trigger = {
 			any_country = {
-				has_country_flag = temp_unsc_member_list_entry_3
+				has_country_flag = temp_unsc_member_3
 				exists = yes
 			}
 		}
@@ -164,7 +164,7 @@ defined_text = {
 	text = {
 		trigger = {
 			any_country = {
-				has_country_flag = temp_unsc_member_list_entry_4
+				has_country_flag = temp_unsc_member_4
 				exists = yes
 			}
 		}
@@ -184,7 +184,7 @@ defined_text = {
 	text = {
 		trigger = {
 			any_country = {
-				has_country_flag = temp_unsc_member_list_entry_5
+				has_country_flag = temp_unsc_member_5
 				exists = yes
 			}
 		}

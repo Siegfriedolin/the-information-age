@@ -23,17 +23,16 @@ scripted_gui = {
 		}
 	}
 	
+	unsc_window = {
+		context_type = player_context
 
-#	unsc_window = {
-#		context_type = player_context
-#
-#		window_name = "unsc_window_container"
-#		
-#		visible = {
-#			check_variable = { show_unsc > 0 }
-#		}
-#		
-#		effects = {
-#		}
-#	}
+		window_name = "unsc_window_container"
+		
+		visible = {
+			check_variable = { show_unsc > 0 }
+		}
+		
+		effects = {
+		}
+	}
 }

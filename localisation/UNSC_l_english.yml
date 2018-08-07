@@ -2,19 +2,17 @@
  OPEN_CLOSE_UNSC_WINDOW:0 "Use this button to open and close the UNSC window."
  UNSC_LIST_DESC:0 "This list shows all current members of the United Nations Security Council"
 
- LEAGUE_OF_NATIONS_MEMBERS_LIST: "[This.GetUNSCListEntry1][This.GetUNSCListEntry2][This.GetUNSCListEntry3][This.GetUNSCListEntry4][This.GetUNSCListEntry5][This.GetUNSCListEntry6][This.GetUNSCListEntry7][This.GetUNSCListEntry8][This.GetUNSCListEntry9][This.GetUNSCListEntry10]"
+ UNSC_MEMBERS_LIST: "[This.GetUNSCListEntry1][This.GetUNSCListEntry2][This.GetUNSCListEntry3][This.GetUNSCListEntry4][This.GetUNSCListEntry5][This.GetUNSCListEntry6][This.GetUNSCListEntry7][This.GetUNSCListEntry8][This.GetUNSCListEntry9][This.GetUNSCListEntry10]"
 
  unsc_member_no_entry:0 ""
 
- unsc_list_entry_1: "[permanent_unsc_member_list_entry_1.GetFlag] §R[permanent_unsc_member_list_entry_1.GetName]§!\n"
- unsc_list_entry_2: "[permanent_unsc_member_list_entry_2.GetFlag] §R[permanent_unsc_member_list_entry_2.GetName]§!\n"
- unsc_list_entry_3: "[permanent_unsc_member_list_entry_3.GetFlag] §R[permanent_unsc_member_list_entry_3.GetName]§!\n"
- unsc_list_entry_4: "[permanent_unsc_member_list_entry_4.GetFlag] §R[permanent_unsc_member_list_entry_4.GetName]§!\n"
- unsc_list_entry_5: "[permanent_unsc_member_list_entry_5.GetFlag] §R[permanent_unsc_member_list_entry_5.GetName]§!\n"
- unsc_list_entry_6: "[temp_unsc_member_list_entry_1.GetFlag] §W[temp_unsc_member_list_entry_1.GetName]§!\n"
- unsc_list_entry_7: "[temp_unsc_member_list_entry_2.GetFlag] §W[temp_unsc_member_list_entry_2.GetName]§!\n"
- unsc_list_entry_8: "[temp_unsc_member_list_entry_3.GetFlag] §W[temp_unsc_member_list_entry_3.GetName]§!\n"
- unsc_list_entry_9: "[temp_unsc_member_list_entry_4.GetFlag] §W[temp_unsc_member_list_entry_4.GetName]§!\n"
- unsc_list_entry_10: "[temp_unsc_member_list_entry_5.GetFlag] §W[temp_unsc_member_list_entry_5.GetName]§!\n"
-
- 
+ unsc_list_entry_1: "[permanent_unsc_member_1.GetFlag] §G[permanent_unsc_member_1.GetName]§!\n"
+ unsc_list_entry_2: "[permanent_unsc_member_2.GetFlag] §G[permanent_unsc_member_2.GetName]§!\n"
+ unsc_list_entry_3: "[permanent_unsc_member_3.GetFlag] §G[permanent_unsc_member_3.GetName]§!\n"
+ unsc_list_entry_4: "[permanent_unsc_member_4.GetFlag] §G[permanent_unsc_member_4.GetName]§!\n"
+ unsc_list_entry_5: "[permanent_unsc_member_5.GetFlag] §G[permanent_unsc_member_5.GetName]§!\n"
+ unsc_list_entry_6: "[temp_unsc_member_1.GetFlag] §W[temp_unsc_member_1.GetName]§!\n"
+ unsc_list_entry_7: "[temp_unsc_member_2.GetFlag] §W[temp_unsc_member_2.GetName]§!\n"
+ unsc_list_entry_8: "[temp_unsc_member_3.GetFlag] §W[temp_unsc_member_3.GetName]§!\n"
+ unsc_list_entry_9: "[temp_unsc_member_4.GetFlag] §W[temp_unsc_member_4.GetName]§!\n"
+ unsc_list_entry_10: "[temp_unsc_member_5.GetFlag] §W[temp_unsc_member_5.GetName]§!\n"
