@@ -72,7 +72,7 @@ air_wings = {
 	229 = {
 		#MiG-29
 		jet_multirole_equipment_3 = {
-			owner = "AZB" 
+			owner = "AZR"
 			amount = 13
 		}
 
@@ -80,7 +80,7 @@ air_wings = {
 	229 = {
 		#MiG-21 - Downgraded to fit icon and for variety.
 		jet_multirole_equipment_1 = {
-			owner = "AZB" 
+			owner = "AZR" 
 			amount = 5
 		}
 
@@ -88,7 +88,7 @@ air_wings = {
 	229 = {
 		#Su-25
 		jet_attack_equipment_2 = {
-			owner = "AZB" 
+			owner = "AZR" 
 			amount = 11
 		}
 
