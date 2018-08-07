@@ -226,7 +226,7 @@ units = {
 	
 	division = {
 		name = "British Forces in Germany"
-		location = 6377
+		location = 9509
 		division_template = "Armoured Brigade"
 		start_experience_factor = 0.3
 	}
