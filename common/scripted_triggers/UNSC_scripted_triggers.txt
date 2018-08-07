@@ -15,6 +15,11 @@ temp_unsc_member_saved = {
 		has_country_flag = temp_unsc_member_3
 		has_country_flag = temp_unsc_member_4
 		has_country_flag = temp_unsc_member_5
+		has_country_flag = temp_unsc_member_6
+		has_country_flag = temp_unsc_member_7
+		has_country_flag = temp_unsc_member_8
+		has_country_flag = temp_unsc_member_9
+		has_country_flag = temp_unsc_member_10
 	}
 }
 

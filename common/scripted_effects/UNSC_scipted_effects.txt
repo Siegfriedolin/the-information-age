@@ -131,6 +131,66 @@ set_temp_unsc_member_effect = {
 			set_country_flag = temp_unsc_member_5
 			save_global_event_target_as = temp_unsc_member_5
 		}
+		else_if = {
+			limit = {
+				NOT = {
+					any_country = {
+						has_country_flag = temp_unsc_member_6
+					}
+				}
+				NOT = { temp_unsc_member_saved = yes }
+			}
+			set_country_flag = temp_unsc_member_6
+			save_global_event_target_as = temp_unsc_member_6
+		}
+		else_if = {
+			limit = {
+				NOT = {
+					any_country = {
+						has_country_flag = temp_unsc_member_7
+					}
+				}
+				NOT = { temp_unsc_member_saved = yes }
+			}
+			set_country_flag = temp_unsc_member_7
+			save_global_event_target_as = temp_unsc_member_7
+		}
+		else_if = {
+			limit = {
+				NOT = {
+					any_country = {
+						has_country_flag = temp_unsc_member_8
+					}
+				}
+				NOT = { temp_unsc_member_saved = yes }
+			}
+			set_country_flag = temp_unsc_member_8
+			save_global_event_target_as = temp_unsc_member_8
+		}
+		else_if = {
+			limit = {
+				NOT = {
+					any_country = {
+						has_country_flag = temp_unsc_member_9
+					}
+				}
+				NOT = { temp_unsc_member_saved = yes }
+			}
+			set_country_flag = temp_unsc_member_9
+			save_global_event_target_as = temp_unsc_member_9
+		}
+		else_if = {
+			limit = {
+				NOT = {
+					any_country = {
+						has_country_flag = temp_unsc_member_10
+					}
+				}
+				NOT = { temp_unsc_member_saved = yes }
+			}
+			set_country_flag = temp_unsc_member_10
+			save_global_event_target_as = temp_unsc_member_10
+		}
     }
 }
 

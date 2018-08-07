@@ -29,3 +29,197 @@ news_event = {
 		}
 	}
 }
+
+add_namespace = unsc
+
+country_event = {
+	id = unsc.1
+	hidden = yes
+
+	is_triggered_only = yes
+
+	option = {
+		every_country = {
+			if = {
+				limit = {
+					has_country_flag = at_war_country_1
+					check_variable = { global.sanction_country_val = 1 }
+				}
+				save_global_event_target_as = sanctions_country
+				set_country_flag = sanctions_country
+				break = yes
+			}
+			if = {
+				limit = {
+					has_country_flag = at_war_country_2
+					check_variable = { global.sanction_country_val = 2 }
+				}
+				save_global_event_target_as = sanctions_country
+				set_country_flag = sanctions_country
+				break = yes
+			}
+			if = {
+				limit = {
+					has_country_flag = at_war_country_3
+					check_variable = { global.sanction_country_val = 3 }
+				}
+				save_global_event_target_as = sanctions_country
+				set_country_flag = sanctions_country
+				break = yes
+			}
+			if = {
+				limit = {
+					has_country_flag = at_war_country_4
+					check_variable = { global.sanction_country_val = 4 }
+				}
+				save_global_event_target_as = sanctions_country
+				set_country_flag = sanctions_country
+				break = yes
+			}
+			if = {
+				limit = {
+					has_country_flag = at_war_country_5
+					check_variable = { global.sanction_country_val = 5 }
+				}
+				save_global_event_target_as = sanctions_country
+				set_country_flag = sanctions_country
+				break = yes
+			}
+			if = {
+				limit = {
+					has_country_flag = at_war_country_6
+					check_variable = { global.sanction_country_val = 6 }
+				}
+				save_global_event_target_as = sanctions_country
+				set_country_flag = sanctions_country
+				break = yes
+			}
+			if = {
+				limit = {
+					has_country_flag = at_war_country_7
+					check_variable = { global.sanction_country_val = 7 }
+				}
+				save_global_event_target_as = sanctions_country
+				set_country_flag = sanctions_country
+				break = yes
+			}
+			if = {
+				limit = {
+					has_country_flag = at_war_country_8
+					check_variable = { global.sanction_country_val = 8 }
+				}
+				save_global_event_target_as = sanctions_country
+				set_country_flag = sanctions_country
+				break = yes
+			}
+			if = {
+				limit = {
+					has_country_flag = at_war_country_9
+					check_variable = { global.sanction_country_val = 9 }
+				}
+				save_global_event_target_as = sanctions_country
+				set_country_flag = sanctions_country
+				break = yes
+			}
+			if = {
+				limit = {
+					has_country_flag = at_war_country_10
+					check_variable = { global.sanction_country_val = 10 }
+				}
+				save_global_event_target_as = sanctions_country
+				set_country_flag = sanctions_country
+				break = yes
+			}
+			if = {
+				limit = {
+					has_country_flag = at_war_country_11
+					check_variable = { global.sanction_country_val = 11 }
+				}
+				save_global_event_target_as = sanctions_country
+				set_country_flag = sanctions_country
+				break = yes
+			}
+			if = {
+				limit = {
+					has_country_flag = at_war_country_12
+					check_variable = { global.sanction_country_val = 12 }
+				}
+				save_global_event_target_as = sanctions_country
+				set_country_flag = sanctions_country
+				break = yes
+			}
+			if = {
+				limit = {
+					has_country_flag = at_war_country_13
+					check_variable = { global.sanction_country_val = 13 }
+				}
+				save_global_event_target_as = sanctions_country
+				set_country_flag = sanctions_country
+				break = yes
+			}
+			if = {
+				limit = {
+					has_country_flag = at_war_country_14
+					check_variable = { global.sanction_country_val = 14 }
+				}
+				save_global_event_target_as = sanctions_country
+				set_country_flag = sanctions_country
+				break = yes
+			}
+			if = {
+				limit = {
+					has_country_flag = at_war_country_15
+					check_variable = { global.sanction_country_val = 15 }
+				}
+				save_global_event_target_as = sanctions_country
+				set_country_flag = sanctions_country
+				break = yes
+			}
+			if = {
+				limit = {
+					has_country_flag = at_war_country_16
+					check_variable = { global.sanction_country_val = 16 }
+				}
+				save_global_event_target_as = sanctions_country
+				set_country_flag = sanctions_country
+				break = yes
+			}
+			if = {
+				limit = {
+					has_country_flag = at_war_country_17
+					check_variable = { global.sanction_country_val = 17 }
+				}
+				save_global_event_target_as = sanctions_country
+				set_country_flag = sanctions_country
+				break = yes
+			}
+			if = {
+				limit = {
+					has_country_flag = at_war_country_18
+					check_variable = { global.sanction_country_val = 18 }
+				}
+				save_global_event_target_as = sanctions_country
+				set_country_flag = sanctions_country
+				break = yes
+			}
+			if = {
+				limit = {
+					has_country_flag = at_war_country_19
+					check_variable = { global.sanction_country_val = 19 }
+				}
+				save_global_event_target_as = sanctions_country
+				set_country_flag = sanctions_country
+				break = yes
+			}
+			if = {
+				limit = {
+					has_country_flag = at_war_country_20
+					check_variable = { global.sanction_country_val = 20 }
+				}
+				save_global_event_target_as = sanctions_country
+				set_country_flag = sanctions_country
+				break = yes
+			}
+		}
+	}
+}

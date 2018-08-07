@@ -2,7 +2,7 @@
  OPEN_CLOSE_UNSC_WINDOW:0 "Use this button to open and close the UNSC window."
  UNSC_LIST_DESC:0 "This list shows all current members of the United Nations Security Council.\nPermanent members are marked it §Ggreen§! and temporary members are marked in white."
 
- UNSC_MEMBERS_LIST:0 "[This.GetUNSCListEntry1][This.GetUNSCListEntry2][This.GetUNSCListEntry3][This.GetUNSCListEntry4][This.GetUNSCListEntry5][This.GetUNSCListEntry6][This.GetUNSCListEntry7][This.GetUNSCListEntry8][This.GetUNSCListEntry9][This.GetUNSCListEntry10]"
+ UNSC_MEMBERS_LIST:0 "[This.GetUNSCListEntry1][This.GetUNSCListEntry2][This.GetUNSCListEntry3][This.GetUNSCListEntry4][This.GetUNSCListEntry5][This.GetUNSCListEntry6][This.GetUNSCListEntry7][This.GetUNSCListEntry8][This.GetUNSCListEntry9][This.GetUNSCListEntry10][This.GetUNSCListEntry11][This.GetUNSCListEntry12][This.GetUNSCListEntry13][This.GetUNSCListEntry14][This.GetUNSCListEntry15]"
  UNSC_WARLIST_DESC:0 "This list shows all countries currently at war."
 
  unsc_member_no_entry:0 ""
@@ -17,6 +17,11 @@
  unsc_list_entry_8:0 "[temp_unsc_member_3.GetFlag] §W[temp_unsc_member_3.GetName]§!\n"
  unsc_list_entry_9:0 "[temp_unsc_member_4.GetFlag] §W[temp_unsc_member_4.GetName]§!\n"
  unsc_list_entry_10:0 "[temp_unsc_member_5.GetFlag] §W[temp_unsc_member_5.GetName]§!\n"
+ unsc_list_entry_11:0 "[temp_unsc_member_6.GetFlag] §W[temp_unsc_member_6.GetName]§!\n"
+ unsc_list_entry_12:0 "[temp_unsc_member_7.GetFlag] §W[temp_unsc_member_7.GetName]§!\n"
+ unsc_list_entry_13:0 "[temp_unsc_member_8.GetFlag] §W[temp_unsc_member_8.GetName]§!\n"
+ unsc_list_entry_14:0 "[temp_unsc_member_9.GetFlag] §W[temp_unsc_member_9.GetName]§!\n"
+ unsc_list_entry_15:0 "[temp_unsc_member_10.GetFlag] §W[temp_unsc_member_10.GetName]§!\n"
 
  UNSC_WAR_LIST:0 "[This.GetUNSCWarListEntry1][This.GetUNSCWarListEntry2][This.GetUNSCWarListEntry3][This.GetUNSCWarListEntry4][This.GetUNSCWarListEntry5][This.GetUNSCWarListEntry6][This.GetUNSCWarListEntry7][This.GetUNSCWarListEntry8][This.GetUNSCWarListEntry9][This.GetUNSCWarListEntry10][This.GetUNSCWarListEntry11][This.GetUNSCWarListEntry12][This.GetUNSCWarListEntry13][This.GetUNSCWarListEntry14][This.GetUNSCWarListEntry15][This.GetUNSCWarListEntry16][This.GetUNSCWarListEntry17][This.GetUNSCWarListEntry18][This.GetUNSCWarListEntry19][This.GetUNSCWarListEntry20]"
 
