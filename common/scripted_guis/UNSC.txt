@@ -36,20 +36,6 @@ scripted_gui = {
 			close_button_click = {
 				set_variable = { show_unsc = 0 }
 			}
-			unsc_war_list_entry_1_button_click = {
-				set_temp_variable = { show = 1 }
-				subtract_from_temp_variable = { show = show_unsc_sanctions }
-				set_variable = { show_unsc_sanctions = show }
-				country_event = unsc.1
-				set_variable = { global.sanction_country_val = 1 }
-			}
-			unsc_war_list_entry_2_button_click = {
-				set_temp_variable = { show = 1 }
-				subtract_from_temp_variable = { show = show_unsc_sanctions }
-				set_variable = { show_unsc_sanctions = show }
-				country_event = unsc.1
-				set_variable = { global.sanction_country_val = 2 }
-			}
 		}
 	}
 
@@ -60,21 +46,6 @@ scripted_gui = {
 		
 		visible = {
 			check_variable = { show_unsc_sanctions > 0 }
-		}
-		
-		effects = {
-			close_button_click = {
-				set_variable = { show_unsc_sanctions = 0 }
-				every_country = {
-					if = {
-						limit = {
-							has_country_flag = sanctions_country
-						}
-						clr_country_flag = sanctions_country
-						clear_global_event_target = sanctions_country
-					}
-				}
-			}
 		}
 	}
 }

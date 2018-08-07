@@ -101,40 +101,16 @@ guiTypes = {
 				spriteType ="GFX_tiled_window2_1b_border"
 				pdx_tooltip = "UNSC_WARLIST_DESC"
 			}
-
-			buttonType = {
-				name = "unsc_war_list_entry_1_button" 
-				position = { x = 1 y = 1 }	
-				spriteType = "GFX_generic_bg2"
-			}
 			
 			instantTextBoxType = {
-				name = "unsc_war_list_entry_1"
+				name = "unsc_war_list"
 				position = { x = 43 y = 9 }
 				font = "hoi_18mbs"
 				maxWidth = 270
 				maxHeight = 220
-				text = "[This.GetUNSCWarListEntry1]"	
+				text = "UNSC_WAR_LIST"	
 				format = center
-				# pdx_tooltip = "UNSC_WARLIST_DESC"
-				scrollbarType = standardtext_slider
-			}
-
-			buttonType = {
-				name = "unsc_war_list_entry_2_button" 
-				position = { x = 1 y = 34 }	
-				spriteType = "GFX_generic_bg2"
-			}
-			
-			instantTextBoxType = {
-				name = "unsc_war_list_entry_2"
-				position = { x = 43 y = 43 }
-				font = "hoi_18mbs"
-				maxWidth = 270
-				maxHeight = 220
-				text = "[This.GetUNSCWarListEntry2]"	
-				format = center
-				# pdx_tooltip = "UNSC_WARLIST_DESC"
+				pdx_tooltip = "UNSC_WARLIST_DESC"
 				scrollbarType = standardtext_slider
 			}
 		}
