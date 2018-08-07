@@ -46,6 +46,7 @@ set_technology = {
 	interwar_artillery = 1
 	antitank1 = 1
 	interwar_antiair = 1
+	antitank = 1
 	
 	destroyer1 = 1
 	destroyer2 = 1
