@@ -1,14 +1,14 @@
 guiTypes = {
 	containerWindowType = {
 		name = "open_unsc_window_button_container"
-		position = { x = -55 y = 90 }
+		position = { x = -390 y = 10 }
 		size = { width = 50 height = 50 }
 		orientation = upper_right
 
-		background = {
-			name = "background"
-			spriteType ="GFX_UNSC_button_bg"
-		}
+#		background = {
+#			name = "background"
+#			spriteType ="GFX_UNSC_button_bg"
+#		}
 		
 		buttonType = {
 			name = "open_unsc_window"
@@ -29,14 +29,41 @@ guiTypes = {
 			spriteType ="GFX_tiled_window_2b_border"
 		}
 
+		instantTextBoxType = {
+			name ="title"
+			position = { x=210 y =40 }
+			font = "hoi_30header"
+			text = "United Nations Security Council"
+			format = left
+			maxWidth = 450
+			maxHeight = 30
+			fixedsize = no
+		}
+
+		buttonType = {
+			name = "close_button"
+			spriteType = "GFX_closebutton"
+			position = { x = 805 y = 10 }
+		}
+
+		instantTextBoxType = {
+			name = "member_list_title"
+			position = { x = 30 y = 100 }
+			font = "hoi_24header"
+			maxWidth = 250
+			maxHeight = 200
+			text = "Member List"	
+			format = center
+		}
+
 		containerWindowType = {
 			name = "unsc_members_list_window"
-			position = { x = 25 y = 180 }
-			size = { width = 250 height = 200 }
+			position = { x = 25 y = 130 }
+			size = { width = 250 height = 220 }
 	
 			background = {
 				name = "background"
-				spriteType ="GFX_tiled_window_1b_border"
+				spriteType ="GFX_tiled_window2_1b_border"
 				pdx_tooltip = "UNSC_LIST_DESC"
 			}
 			
@@ -45,10 +72,45 @@ guiTypes = {
 				position = { x = 1 y = 13 }
 				font = "hoi_18mbs"
 				maxWidth = 250
-				maxHeight = 200
+				maxHeight = 220
 				text = "UNSC_MEMBERS_LIST"	
 				format = center
 				scrollbarType = standardtext_slider
+				pdx_tooltip = "UNSC_LIST_DESC"
+			}
+		}
+
+		instantTextBoxType = {
+			name = "war_list_title"
+			position = { x = -10 y = 370 }
+			font = "hoi_24header"
+			maxWidth = 350
+			maxHeight = 200
+			text = "Countries currenty at War"	
+			format = center
+		}
+
+		containerWindowType = {
+			name = "unsc_war_list_window"
+			position = { x = 25 y = 400 }
+			size = { width = 270 height = 240 }
+	
+			background = {
+				name = "background"
+				spriteType ="GFX_tiled_window2_1b_border"
+				pdx_tooltip = "UNSC_LIST_DESC"
+			}
+			
+			instantTextBoxType = {
+				name = "unsc_war_list_list"
+				position = { x = 1 y = 13 }
+				font = "hoi_18mbs"
+				maxWidth = 270
+				maxHeight = 220
+				text = "UNSC_WAR_LIST"	
+				format = center
+				scrollbarType = standardtext_slider
+				pdx_tooltip = "UNSC_WARLIST_DESC"
 			}
 		}
 	}

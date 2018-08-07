@@ -197,3 +197,384 @@ defined_text = {
 		localization_key = unsc_member_no_entry
 	}
 }
+
+
+defined_text = {
+	name = GetUNSCWarListEntry1
+	
+	text = {
+		trigger = {
+			any_country = {
+				has_war = yes
+			}
+		}
+		localization_key = unsc_warlist_entry_1
+	}
+	text = {
+		trigger = {
+			always = yes
+		}
+		localization_key = unsc_member_no_entry
+	}
+}
+
+defined_text = {
+	name = GetUNSCWarListEntry2
+	
+	text = {
+		trigger = {
+			any_country = {
+				has_war = yes
+			}
+		}
+		localization_key = unsc_warlist_entry_2
+	}
+	text = {
+		trigger = {
+			always = yes
+		}
+		localization_key = unsc_member_no_entry
+	}
+}
+
+defined_text = {
+	name = GetUNSCWarListEntry3
+	
+	text = {
+		trigger = {
+			any_country = {
+				has_war = yes
+			}
+		}
+		localization_key = unsc_warlist_entry_3
+	}
+	text = {
+		trigger = {
+			always = yes
+		}
+		localization_key = unsc_member_no_entry
+	}
+}
+
+defined_text = {
+	name = GetUNSCWarListEntry4
+	
+	text = {
+		trigger = {
+			any_country = {
+				has_war = yes
+			}
+		}
+		localization_key = unsc_warlist_entry_4
+	}
+	text = {
+		trigger = {
+			always = yes
+		}
+		localization_key = unsc_member_no_entry
+	}
+}
+
+defined_text = {
+	name = GetUNSCWarListEntry5
+	
+	text = {
+		trigger = {
+			any_country = {
+				has_war = yes
+			}
+		}
+		localization_key = unsc_warlist_entry_5
+	}
+	text = {
+		trigger = {
+			always = yes
+		}
+		localization_key = unsc_member_no_entry
+	}
+}
+
+defined_text = {
+	name = GetUNSCWarListEntry6
+	
+	text = {
+		trigger = {
+			any_country = {
+				has_war = yes
+			}
+		}
+		localization_key = unsc_warlist_entry_6
+	}
+	text = {
+		trigger = {
+			always = yes
+		}
+		localization_key = unsc_member_no_entry
+	}
+}
+
+defined_text = {
+	name = GetUNSCWarListEntry7
+	
+	text = {
+		trigger = {
+			any_country = {
+				has_war = yes
+			}
+		}
+		localization_key = unsc_warlist_entry_7
+	}
+	text = {
+		trigger = {
+			always = yes
+		}
+		localization_key = unsc_member_no_entry
+	}
+}
+
+defined_text = {
+	name = GetUNSCWarListEntry8
+	
+	text = {
+		trigger = {
+			any_country = {
+				has_war = yes
+			}
+		}
+		localization_key = unsc_warlist_entry_8
+	}
+	text = {
+		trigger = {
+			always = yes
+		}
+		localization_key = unsc_member_no_entry
+	}
+}
+
+defined_text = {
+	name = GetUNSCWarListEntry9
+	
+	text = {
+		trigger = {
+			any_country = {
+				has_war = yes
+			}
+		}
+		localization_key = unsc_warlist_entry_9
+	}
+	text = {
+		trigger = {
+			always = yes
+		}
+		localization_key = unsc_member_no_entry
+	}
+}
+
+defined_text = {
+	name = GetUNSCWarListEntry10
+	
+	text = {
+		trigger = {
+			any_country = {
+				has_war = yes
+			}
+		}
+		localization_key = unsc_warlist_entry_10
+	}
+	text = {
+		trigger = {
+			always = yes
+		}
+		localization_key = unsc_member_no_entry
+	}
+}
+
+defined_text = {
+	name = GetUNSCWarListEntry11
+	
+	text = {
+		trigger = {
+			any_country = {
+				has_war = yes
+			}
+		}
+		localization_key = unsc_warlist_entry_11
+	}
+	text = {
+		trigger = {
+			always = yes
+		}
+		localization_key = unsc_member_no_entry
+	}
+}
+
+defined_text = {
+	name = GetUNSCWarListEntry12
+	
+	text = {
+		trigger = {
+			any_country = {
+				has_war = yes
+			}
+		}
+		localization_key = unsc_warlist_entry_12
+	}
+	text = {
+		trigger = {
+			always = yes
+		}
+		localization_key = unsc_member_no_entry
+	}
+}
+
+defined_text = {
+	name = GetUNSCWarListEntry13
+	
+	text = {
+		trigger = {
+			any_country = {
+				has_war = yes
+			}
+		}
+		localization_key = unsc_warlist_entry_13
+	}
+	text = {
+		trigger = {
+			always = yes
+		}
+		localization_key = unsc_member_no_entry
+	}
+}
+
+defined_text = {
+	name = GetUNSCWarListEntry14
+	
+	text = {
+		trigger = {
+			any_country = {
+				has_war = yes
+			}
+		}
+		localization_key = unsc_warlist_entry_14
+	}
+	text = {
+		trigger = {
+			always = yes
+		}
+		localization_key = unsc_member_no_entry
+	}
+}
+
+defined_text = {
+	name = GetUNSCWarListEntry15
+	
+	text = {
+		trigger = {
+			any_country = {
+				has_war = yes
+			}
+		}
+		localization_key = unsc_warlist_entry_15
+	}
+	text = {
+		trigger = {
+			always = yes
+		}
+		localization_key = unsc_member_no_entry
+	}
+}
+
+defined_text = {
+	name = GetUNSCWarListEntry16
+	
+	text = {
+		trigger = {
+			any_country = {
+				has_war = yes
+			}
+		}
+		localization_key = unsc_warlist_entry_16
+	}
+	text = {
+		trigger = {
+			always = yes
+		}
+		localization_key = unsc_member_no_entry
+	}
+}
+
+defined_text = {
+	name = GetUNSCWarListEntry17
+	
+	text = {
+		trigger = {
+			any_country = {
+				has_war = yes
+			}
+		}
+		localization_key = unsc_warlist_entry_17
+	}
+	text = {
+		trigger = {
+			always = yes
+		}
+		localization_key = unsc_member_no_entry
+	}
+}
+
+defined_text = {
+	name = GetUNSCWarListEntry18
+	
+	text = {
+		trigger = {
+			any_country = {
+				has_war = yes
+			}
+		}
+		localization_key = unsc_warlist_entry_18
+	}
+	text = {
+		trigger = {
+			always = yes
+		}
+		localization_key = unsc_member_no_entry
+	}
+}
+
+defined_text = {
+	name = GetUNSCWarListEntry19
+	
+	text = {
+		trigger = {
+			any_country = {
+				has_war = yes
+			}
+		}
+		localization_key = unsc_warlist_entry_19
+	}
+	text = {
+		trigger = {
+			always = yes
+		}
+		localization_key = unsc_member_no_entry
+	}
+}
+
+defined_text = {
+	name = GetUNSCWarListEntry20
+	
+	text = {
+		trigger = {
+			any_country = {
+				has_war = yes
+			}
+		}
+		localization_key = unsc_warlist_entry_20
+	}
+	text = {
+		trigger = {
+			always = yes
+		}
+		localization_key = unsc_member_no_entry
+	}
+}

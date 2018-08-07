@@ -166,6 +166,12 @@ on_actions = {
 				}
 				set_temp_unsc_member_effect = yes
 			}
+			every_country = {
+				limit = {
+					has_war = yes
+				}
+				set_country_at_war_effect = yes
+			}
 		}
 	}
 }

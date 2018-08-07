@@ -133,3 +133,252 @@ set_temp_unsc_member_effect = {
 		}
     }
 }
+
+set_country_at_war_effect = {
+	if = {
+		limit = {
+			NOT = { has_country_flag = at_war }
+		}
+		if = {
+			limit = {
+				NOT = {
+					any_country = {
+						has_country_flag = at_war_country_1
+					}
+				}
+				NOT = { at_war_country_saved = yes }
+			}
+			set_country_flag = at_war_country_1
+			save_global_event_target_as = at_war_country_1
+		}
+		else_if = {
+			limit = {
+				NOT = {
+					any_country = {
+						has_country_flag = at_war_country_2
+					}
+				}
+				NOT = { at_war_country_saved = yes }
+			}
+			set_country_flag = at_war_country_2
+			save_global_event_target_as = at_war_country_2
+		}
+		else_if = {
+			limit = {
+				NOT = {
+					any_country = {
+						has_country_flag = at_war_country_3
+					}
+				}
+				NOT = { at_war_country_saved = yes }
+			}
+			set_country_flag = at_war_country_3
+			save_global_event_target_as = at_war_country_3
+		}
+		else_if = {
+			limit = {
+				NOT = {
+					any_country = {
+						has_country_flag = at_war_country_4
+					}
+				}
+				NOT = { at_war_country_saved = yes }
+			}
+			set_country_flag = at_war_country_4
+			save_global_event_target_as = at_war_country_4
+		}
+		else_if = {
+			limit = {
+				NOT = {
+					any_country = {
+						has_country_flag = at_war_country_5
+					}
+				}
+				NOT = { at_war_country_saved = yes }
+			}
+			set_country_flag = at_war_country_5
+			save_global_event_target_as = at_war_country_5
+		}
+		else_if = {
+			limit = {
+				NOT = {
+					any_country = {
+						has_country_flag = at_war_country_6
+					}
+				}
+				NOT = { at_war_country_saved = yes }
+			}
+			set_country_flag = at_war_country_6
+			save_global_event_target_as = at_war_country_6
+		}
+		else_if = {
+			limit = {
+				NOT = {
+					any_country = {
+						has_country_flag = at_war_country_7
+					}
+				}
+				NOT = { at_war_country_saved = yes }
+			}
+			set_country_flag = at_war_country_7
+			save_global_event_target_as = at_war_country_7
+		}
+		else_if = {
+			limit = {
+				NOT = {
+					any_country = {
+						has_country_flag = at_war_country_8
+					}
+				}
+				NOT = { at_war_country_saved = yes }
+			}
+			set_country_flag = at_war_country_8
+			save_global_event_target_as = at_war_country_8
+		}
+		else_if = {
+			limit = {
+				NOT = {
+					any_country = {
+						has_country_flag = at_war_country_9
+					}
+				}
+				NOT = { at_war_country_saved = yes }
+			}
+			set_country_flag = at_war_country_9
+			save_global_event_target_as = at_war_country_9
+		}
+		else_if = {
+			limit = {
+				NOT = {
+					any_country = {
+						has_country_flag = at_war_country_10
+					}
+				}
+				NOT = { at_war_country_saved = yes }
+			}
+			set_country_flag = at_war_country_10
+			save_global_event_target_as = at_war_country_10
+		}
+		else_if = {
+			limit = {
+				NOT = {
+					any_country = {
+						has_country_flag = at_war_country_11
+					}
+				}
+				NOT = { at_war_country_saved = yes }
+			}
+			set_country_flag = at_war_country_11
+			save_global_event_target_as = at_war_country_11
+		}
+		else_if = {
+			limit = {
+				NOT = {
+					any_country = {
+						has_country_flag = at_war_country_12
+					}
+				}
+				NOT = { at_war_country_saved = yes }
+			}
+			set_country_flag = at_war_country_12
+			save_global_event_target_as = at_war_country_12
+		}
+		else_if = {
+			limit = {
+				NOT = {
+					any_country = {
+						has_country_flag = at_war_country_13
+					}
+				}
+				NOT = { at_war_country_saved = yes }
+			}
+			set_country_flag = at_war_country_13
+			save_global_event_target_as = at_war_country_13
+		}
+		else_if = {
+			limit = {
+				NOT = {
+					any_country = {
+						has_country_flag = at_war_country_14
+					}
+				}
+				NOT = { at_war_country_saved = yes }
+			}
+			set_country_flag = at_war_country_14
+			save_global_event_target_as = at_war_country_14
+		}
+		else_if = {
+			limit = {
+				NOT = {
+					any_country = {
+						has_country_flag = at_war_country_15
+					}
+				}
+				NOT = { at_war_country_saved = yes }
+			}
+			set_country_flag = at_war_country_15
+			save_global_event_target_as = at_war_country_15
+		}
+		else_if = {
+			limit = {
+				NOT = {
+					any_country = {
+						has_country_flag = at_war_country_16
+					}
+				}
+				NOT = { at_war_country_saved = yes }
+			}
+			set_country_flag = at_war_country_16
+			save_global_event_target_as = at_war_country_16
+		}
+		else_if = {
+			limit = {
+				NOT = {
+					any_country = {
+						has_country_flag = at_war_country_17
+					}
+				}
+				NOT = { at_war_country_saved = yes }
+			}
+			set_country_flag = at_war_country_17
+			save_global_event_target_as = at_war_country_17
+		}
+		else_if = {
+			limit = {
+				NOT = {
+					any_country = {
+						has_country_flag = at_war_country_18
+					}
+				}
+				NOT = { at_war_country_saved = yes }
+			}
+			set_country_flag = at_war_country_18
+			save_global_event_target_as = at_war_country_18
+		}
+		else_if = {
+			limit = {
+				NOT = {
+					any_country = {
+						has_country_flag = at_war_country_19
+					}
+				}
+				NOT = { at_war_country_saved = yes }
+			}
+			set_country_flag = at_war_country_19
+			save_global_event_target_as = at_war_country_19
+		}
+		else_if = {
+			limit = {
+				NOT = {
+					any_country = {
+						has_country_flag = at_war_country_20
+					}
+				}
+				NOT = { at_war_country_saved = yes }
+			}
+			set_country_flag = at_war_country_20
+			save_global_event_target_as = at_war_country_20
+		}
+		
+    }
+}

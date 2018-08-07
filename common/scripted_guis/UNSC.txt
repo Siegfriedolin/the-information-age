@@ -33,6 +33,9 @@ scripted_gui = {
 		}
 		
 		effects = {
+			close_button_click = {
+				set_variable = { show_unsc = 0 }
+			}
 		}
 	}
 }
