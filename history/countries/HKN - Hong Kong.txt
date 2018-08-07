@@ -1,6 +1,6 @@
 ﻿capital = 326
 
-oob = "generic_2000"
+oob = "HKN_2018"
 
 set_research_slots = 4
 set_convoys = 60
@@ -94,39 +94,19 @@ add_ideas = {
 set_politics = {
 
 	parties = {
-		communist = {
-			popularity = 30
-		}
-		social_liberal = {
-			popularity = 10
-		}
-		conservative = {
-			popularity = 40
-		}
 		reactionary = {
-			popularity = 10
-		}
-		social_democrat = {
-			popularity = 10
+			popularity = 100
 		}
 	}
 	
-	ruling_party = conservative
-	last_election = "1999.6.13"
-	election_frequency = 56
+	ruling_party = reactionary
+	last_election = "2017.6.30"
+	election_frequency = 60
 	elections_allowed = yes
 }
 
 create_country_leader = {
-	name = "Tung Chee-hwa"
-	ideology = christian_democrat
-	picture = "Tung_Chee_Hwa.dds"
-}
-
-2017.3.26 = {
-	create_country_leader = {
-		name = "Carrie Lam"
-		ideology = constitutionalist
-		picture = "Carrie_Lam.dds"
-	}
+	name = "Carrie Lam"
+	picture = "Carrie_Lam.dds"
+	ideology = independent
 }
