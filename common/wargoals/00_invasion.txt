@@ -1,2 +1,0 @@
-wargoal_types = {
-}
