@@ -281,6 +281,7 @@ country_event = {
 
 	option = {
 		name = "Veto"
+		add_political_power = -50
 		trigger = {
 			has_idea = idea_united_nations_security_council_member
 			NOT = {
