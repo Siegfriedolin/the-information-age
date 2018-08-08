@@ -550,6 +550,13 @@ country_event = {
 	}
 	option = {
 		name = "Abstain"
+		trigger = {
+			NOT = {
+				ROOT = {
+					has_country_flag = sanctions_country_flag
+				}
+			}
+		}
 	}
 }
 
