@@ -444,9 +444,6 @@ set_country_at_war_effect = {
 
 start_trade_sanctions_effect = {
 	set_global_flag = UNSC_trade_sanctions
-	set_variable = { global.UNSC_positive_votes = 0 }
-	set_variable = { global.UNSC_negative_votes = 0 }
-	set_variable = { global.UNSC_vetos = 0 }
 	if = {
 		limit = {
 			has_event_target = permanent_unsc_member_1
@@ -574,7 +571,6 @@ UNSC_cleanup_effect = {
 	clr_global_flag = UNSC_trade_sanctions
 	clr_global_flag = UNSC_vote_failed
 	clr_global_flag = UNSC_trade_sanctions_applied
-	clr_global_flag = UNSC_cleanup
 	clear_variable = global.UNSC_vetos
 	clear_variable = global.UNSC_negative_votes
 	clear_variable = global.UNSC_positive_votes

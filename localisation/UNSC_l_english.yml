@@ -76,8 +76,9 @@
  UNSC_voting_vetos_ok:0 "Amount of §YVetos§!: [This.GetVetosColor][?global.UNSC_vetos]§!" 
  UNSC_VOTING_SUCCESSFUL:0 "Voting against [sanctions_country_target.GetName] successful!"
  UNSC_VOTING_FAILED:0 "Voting against [sanctions_country_target.GetName] failed!"
- UNSC_VOTING_SUCCESSFUL_DESC:0 "The voting on [This.GetSanctionType] started by [sanctions_country_starter.GetNameDef] against [sanctions_country_target.GetNameDef] was successful."
- UNSC_VOTING_FAILED_DESC:0 "The voting on [This.GetSanctionType] started by [sanctions_country_starter.GetNameDef] against [sanctions_country_target.GetNameDef] failed."
+ UNSC_VOTING_SUCCESSFUL_DESC:0 "The voting on [This.GetSanctionType] started by [sanctions_country_starter.GetNameDef] against [sanctions_country_target.GetNameDef] was successful.\nThe votes were as followed:\n- Positive Votes: [?global.UNSC_positive_votes]\n- Negative Votes: [?global.UNSC_negative_votes]\n- Vetos: [?global.UNSC_vetos]."
+ UNSC_VOTING_FAILED_DESC:0 "The voting on [This.GetSanctionType] started by [sanctions_country_starter.GetNameDef] against [sanctions_country_target.GetNameDef] failed.\nThe votes were as followed:\n- Positive Votes: [?global.UNSC_positive_votes]\n- Negative Votes: [?global.UNSC_negative_votes]\n- Vetos: [?global.UNSC_vetos]."
  UNSC_trade_sanctions_type:0 "§YTrade Sanctions§!"
-
+ UNSC_TRADING_SANCTION_NEWS:0 "UNSC Trading Sactions against [sanctions_country_target.GetName]!"
+ UNSC_TRADING_SANCTION_NEWS_DESC:0 "On the behalf of [sanctions_country_starter.GetNameDef], the Unite Nations Security Council voted to establish Trading Sanctions against [sanctions_country_target.GetNameDef] because of their recent actions affecting the rest of world. The sanctions are meant to stay in action for 2 years."
  UNSC_trade_sanctions_idea:0 "Trade Sanctions by the UNSC"
