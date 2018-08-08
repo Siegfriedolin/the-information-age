@@ -141,19 +141,19 @@ set_politics = {
 	
 create_country_leader = {
 	name = "Shinzo Abe"
-	ideology = fiscal_conservative
 	picture = "Shinzo_Abe.dds"
+	ideology = fiscal_conservative
 }
 
 create_country_leader = {
-	name = "Banri Kaieda"
-	picture = "Banri_Kaieda.dds"
+	name = "Yuichiro Tamaki"
+	picture = "Yuichiro_Tamaki.dds"
 	ideology = liberalist
 }
 
 create_country_leader = {
-	name = "Toru Hashimoto"
-	picture = "Toru_Hashimoto.dds"
+	name = "Ichiro Matsui"
+	picture = "Ichiro_Matsui.dds"
 	ideology = libertarian
 }
 
@@ -164,8 +164,8 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Tetsuzo Fuwa"
-	picture = "Tetsuzo_Fuwa.dds"
+	name = "Kazuo Shii"
+	picture = "Kazuo_Shii.dds"
 	ideology = marxist
 }
 
@@ -188,7 +188,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Noboyuki Suzuki"
+	name = "Nobuyuki Suzuki"
 	picture = "Nobuyuki_Suzuki.dds"
 	ideology = fascist_ideology
 }
@@ -203,12 +203,6 @@ create_country_leader = {
 	name = "Akihito"
 	picture = "Akihito.dds"
 	ideology = absolute_monarchist
-}
-
-create_country_leader = {
-	name = "Kazuo Shii"
-	picture = "Kazuo_Shii.dds"
-	ideology = marxist
 }
 
 create_field_marshal = {
