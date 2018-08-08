@@ -2,6 +2,7 @@ israel_palestine_conflict = {
 	
 	annex_the_west_bank = {
 		visible = {
+		    original_tag = ISR
 		    PAL = { owns_state = 915 }
 			915 = { is_demilitarized_zone = yes }
 		}

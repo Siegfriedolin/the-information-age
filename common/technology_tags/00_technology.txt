@@ -70,6 +70,8 @@ technology_categories = {
 	mot_rockets
 	support_tech
 	para_tech
+	light_mechanized
+	heavy_mechanized
 }
 
 technology_folders = {

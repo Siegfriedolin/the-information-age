@@ -35,9 +35,6 @@ state={
 		victory_points = {
 			6474 10 
 		}
-		victory_points = {
-			3421 3 
-		}
 		add_core_of = UKR
 		add_core_of = NOV
 	}

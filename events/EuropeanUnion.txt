@@ -466,9 +466,6 @@ country_event = {
 	is_triggered_only = yes
 	
 	option = {	#We want in!
-		trigger = {
-			NOT = { has_completed_focus = ITA_restore_the_currency }
-		}
 		name = european_union.16.o1
 		add_ideas = the_euro
 		if = {

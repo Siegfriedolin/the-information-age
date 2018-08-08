@@ -24,7 +24,6 @@ ideas = {
 				stability_factor = 0.05
 				conscription = 0.01
 			}
-			
 		}
 	
 		sisu = {
@@ -36,7 +35,6 @@ ideas = {
 
 			cancel = {
 				OR = {
-					has_war = yes
 					is_in_faction = yes
 					has_democratic_form_of_government = no
 				}
@@ -48,17 +46,6 @@ ideas = {
 				army_core_defence_factor = 0.3
 				conscription = 0.02
 			}
-			
 		}
-		
-		FIN_king_donatus = {
-			picture = king_donatus
-			allowed = { always = no }
-			modifier = {
-				stability_factor = 0.05
-			}
-		}
-		
 	}
-	
 }

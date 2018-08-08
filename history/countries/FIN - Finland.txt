@@ -102,6 +102,7 @@ add_ideas = {
 	idea_eu_member
 	limited_conscription
 	finnish_neutrality
+	sisu
 	the_euro
 }
 
