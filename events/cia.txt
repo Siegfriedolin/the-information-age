@@ -548,6 +548,9 @@ country_event = {
 			}
 		}
 	}
+	option = {
+		name = "Abstain"
+	}
 }
 
 country_event = {
