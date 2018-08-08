@@ -639,7 +639,7 @@ defined_text = {
 			check_variable = {
 				var = global.UNSC_sanction_days_left
 				value = 3
-				compare = more_than
+				compare = greater_than
 			}
 		}
 		localization_key = UNSC_sanctions_days_green
@@ -664,7 +664,7 @@ defined_text = {
 			check_variable = {
 				var = global.UNSC_vetos
 				value = 0
-				compare = more_than
+				compare = greater_than
 			}
 		}
 		localization_key = UNSC_sanctions_days_red
@@ -705,7 +705,7 @@ defined_text = {
 		trigger = {
 			has_global_flag = UNSC_sanction_voting_ongoing
 		}
-		localization_key = UNSC_voting_positive_votes_ok
+		localization_key = UNSC_voting_negative_votes_ok
 	}
 	text = {
 		trigger = {
@@ -722,12 +722,29 @@ defined_text = {
 		trigger = {
 			has_global_flag = UNSC_sanction_voting_ongoing
 		}
-		localization_key = UNSC_voting_positive_votes_ok
+		localization_key = UNSC_voting_vetos_ok
 	}
 	text = {
 		trigger = {
 			NOT = { has_global_flag = UNSC_sanction_voting_ongoing }
 		}
 		localization_key = UNSC_voting_days_no
+	}
+}
+
+defined_text = {
+	name = GetSanctionType
+	
+	text = {
+		trigger = {
+			has_global_flag = UNSC_trade_sanctions
+		}
+		localization_key = UNSC_trade_sanctions_type
+	}
+	text = {
+		trigger = {
+			has_global_flag = UNSC_other_sanction
+		}
+		localization_key = UNSC_other_sanction_type
 	}
 }

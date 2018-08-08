@@ -9,15 +9,6 @@ country_event = {
 	immediate = {
 		if = {
 			limit = {
-				has_global_flag = UNSC_voting_running
-			}
-			subtract_from_variable = {
-				var = global.UNSC_sanction_days_left
-				value = 1
-			}
-		}
-		if = {
-			limit = {
 				has_war = yes
 				NOT = { has_country_flag = at_war }
 			}

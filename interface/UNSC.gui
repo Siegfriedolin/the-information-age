@@ -149,7 +149,7 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "unsc_voting_ongoing_days_left"
-				position = { x = 50 y = 55 }
+				position = { x = 50 y = 70 }
 				font = "hoi_18mbs"
 				maxWidth = 270
 				maxHeight = 220

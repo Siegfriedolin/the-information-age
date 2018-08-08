@@ -1,0 +1,16 @@
+ideas = {
+	country = {
+		UNSC_trade_sanctions_idea = {
+			picture = closed_economy
+		
+			allowed = { always = yes }
+
+			allowed_civil_war = { always = yes }
+			
+			modifier = {
+				stability_factor = -0.05
+				trade_opinion_factor = -0.25
+				local_resources_factor = -0.1
+			}
+		}
+	}
