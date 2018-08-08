@@ -578,3 +578,156 @@ defined_text = {
 		localization_key = unsc_member_no_entry
 	}
 }
+
+defined_text = {
+	name = GetSanctionsOkay
+	
+	text = {
+		trigger = {
+			has_global_flag = UNSC_sanction_voting_ongoing
+		}
+		localization_key = UNSC_sanctions_ongoing
+	}
+	text = {
+		trigger = {
+			NOT = { has_global_flag = UNSC_sanction_voting_ongoing }
+		}
+		localization_key = UNSC_trade_sanctions_loc
+	} 
+}
+
+defined_text = {
+	name = GetSanctionOngoing
+	
+	text = {
+		trigger = {
+			NOT = { has_global_flag = UNSC_sanction_voting_ongoing }
+		}
+		localization_key = UNSC_no_sanctions_ongoing
+	}
+	text = {
+		trigger = {
+			has_global_flag = UNSC_sanction_voting_ongoing
+			has_global_flag = UNSC_trade_sanctions
+		}
+		localization_key = UNSC_trade_sanctions_ongoing
+	} 
+}
+
+defined_text = {
+	name = GetSanctionDaysLeft
+	
+	text = {
+		trigger = {
+			has_global_flag = UNSC_sanction_voting_ongoing
+		}
+		localization_key = UNSC_voting_days_ok
+	}
+	text = {
+		trigger = {
+			NOT = { has_global_flag = UNSC_sanction_voting_ongoing }
+		}
+		localization_key = UNSC_voting_days_no
+	}
+}
+
+defined_text = {
+	name = GetSanctionDaysLeftColor
+	
+	text = {
+		trigger = {
+			check_variable = {
+				var = global.UNSC_sanction_days_left
+				value = 3
+				compare = more_than
+			}
+		}
+		localization_key = UNSC_sanctions_days_green
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = global.UNSC_sanction_days_left
+				value = 3
+				compare = less_than_or_equals
+			}
+		}
+		localization_key = UNSC_sanctions_days_red
+	}
+}
+
+defined_text = {
+	name = GetVetosColor
+	
+	text = {
+		trigger = {
+			check_variable = {
+				var = global.UNSC_vetos
+				value = 0
+				compare = more_than
+			}
+		}
+		localization_key = UNSC_sanctions_days_red
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = global.UNSC_sanction_days_left
+				value = 0
+				compare = less_than_or_equals
+			}
+		}
+		localization_key = UNSC_sanctions_days_green
+	}
+}
+
+defined_text = {
+	name = GetPositiveVotes
+	
+	text = {
+		trigger = {
+			has_global_flag = UNSC_sanction_voting_ongoing
+		}
+		localization_key = UNSC_voting_positive_votes_ok
+	}
+	text = {
+		trigger = {
+			NOT = { has_global_flag = UNSC_sanction_voting_ongoing }
+		}
+		localization_key = UNSC_voting_days_no
+	}
+}
+
+defined_text = {
+	name = GetNegativeVotes
+	
+	text = {
+		trigger = {
+			has_global_flag = UNSC_sanction_voting_ongoing
+		}
+		localization_key = UNSC_voting_positive_votes_ok
+	}
+	text = {
+		trigger = {
+			NOT = { has_global_flag = UNSC_sanction_voting_ongoing }
+		}
+		localization_key = UNSC_voting_days_no
+	}
+}
+
+defined_text = {
+	name = GetVetos
+	
+	text = {
+		trigger = {
+			has_global_flag = UNSC_sanction_voting_ongoing
+		}
+		localization_key = UNSC_voting_positive_votes_ok
+	}
+	text = {
+		trigger = {
+			NOT = { has_global_flag = UNSC_sanction_voting_ongoing }
+		}
+		localization_key = UNSC_voting_days_no
+	}
+}

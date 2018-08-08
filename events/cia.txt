@@ -39,187 +39,136 @@ country_event = {
 	is_triggered_only = yes
 
 	option = {
-		every_country = {
+		save_global_event_target_as = sanctions_country
+		set_country_flag = sanctions_country
+	}
+}
+
+country_event = {
+	id = unsc.2
+	title = Sanctions
+	title = {
+		text = "Apply for Trade Sanctions"
+		trigger = {
+			ROOT = { has_country_flag = apply_for_trade_sanctions }
+		}
+	}
+	desc = {
+		text = UNSC_TRADE_SANCTIONS
+		trigger = {
+			has_country_flag = apply_for_trade_sanctions
+		}
+	}
+
+	is_triggered_only = yes
+
+	option = {
+		name = "Yes"
+		custom_effect_tooltip = "UNSC_TRADE_SANCTION_OPTION_TT"
+		set_global_flag = UNSC_sanction_voting_ongoing
+		event_target:sanctions_country = {
+			save_global_event_target_as = sanctions_country_target
+		}
+		ROOT = {
+			save_global_event_target_as = sanctions_country_starter
+		}
+		hidden_effect = {
 			if = {
 				limit = {
-					has_country_flag = at_war_country_1
-					check_variable = { global.sanction_country_val = 1 }
+					has_country_flag = apply_for_trade_sanctions
 				}
-				save_global_event_target_as = sanctions_country
-				set_country_flag = sanctions_country
-				break = yes
-			}
-			if = {
-				limit = {
-					has_country_flag = at_war_country_2
-					check_variable = { global.sanction_country_val = 2 }
-				}
-				save_global_event_target_as = sanctions_country
-				set_country_flag = sanctions_country
-				break = yes
-			}
-			if = {
-				limit = {
-					has_country_flag = at_war_country_3
-					check_variable = { global.sanction_country_val = 3 }
-				}
-				save_global_event_target_as = sanctions_country
-				set_country_flag = sanctions_country
-				break = yes
-			}
-			if = {
-				limit = {
-					has_country_flag = at_war_country_4
-					check_variable = { global.sanction_country_val = 4 }
-				}
-				save_global_event_target_as = sanctions_country
-				set_country_flag = sanctions_country
-				break = yes
-			}
-			if = {
-				limit = {
-					has_country_flag = at_war_country_5
-					check_variable = { global.sanction_country_val = 5 }
-				}
-				save_global_event_target_as = sanctions_country
-				set_country_flag = sanctions_country
-				break = yes
-			}
-			if = {
-				limit = {
-					has_country_flag = at_war_country_6
-					check_variable = { global.sanction_country_val = 6 }
-				}
-				save_global_event_target_as = sanctions_country
-				set_country_flag = sanctions_country
-				break = yes
-			}
-			if = {
-				limit = {
-					has_country_flag = at_war_country_7
-					check_variable = { global.sanction_country_val = 7 }
-				}
-				save_global_event_target_as = sanctions_country
-				set_country_flag = sanctions_country
-				break = yes
-			}
-			if = {
-				limit = {
-					has_country_flag = at_war_country_8
-					check_variable = { global.sanction_country_val = 8 }
-				}
-				save_global_event_target_as = sanctions_country
-				set_country_flag = sanctions_country
-				break = yes
-			}
-			if = {
-				limit = {
-					has_country_flag = at_war_country_9
-					check_variable = { global.sanction_country_val = 9 }
-				}
-				save_global_event_target_as = sanctions_country
-				set_country_flag = sanctions_country
-				break = yes
-			}
-			if = {
-				limit = {
-					has_country_flag = at_war_country_10
-					check_variable = { global.sanction_country_val = 10 }
-				}
-				save_global_event_target_as = sanctions_country
-				set_country_flag = sanctions_country
-				break = yes
-			}
-			if = {
-				limit = {
-					has_country_flag = at_war_country_11
-					check_variable = { global.sanction_country_val = 11 }
-				}
-				save_global_event_target_as = sanctions_country
-				set_country_flag = sanctions_country
-				break = yes
-			}
-			if = {
-				limit = {
-					has_country_flag = at_war_country_12
-					check_variable = { global.sanction_country_val = 12 }
-				}
-				save_global_event_target_as = sanctions_country
-				set_country_flag = sanctions_country
-				break = yes
-			}
-			if = {
-				limit = {
-					has_country_flag = at_war_country_13
-					check_variable = { global.sanction_country_val = 13 }
-				}
-				save_global_event_target_as = sanctions_country
-				set_country_flag = sanctions_country
-				break = yes
-			}
-			if = {
-				limit = {
-					has_country_flag = at_war_country_14
-					check_variable = { global.sanction_country_val = 14 }
-				}
-				save_global_event_target_as = sanctions_country
-				set_country_flag = sanctions_country
-				break = yes
-			}
-			if = {
-				limit = {
-					has_country_flag = at_war_country_15
-					check_variable = { global.sanction_country_val = 15 }
-				}
-				save_global_event_target_as = sanctions_country
-				set_country_flag = sanctions_country
-				break = yes
-			}
-			if = {
-				limit = {
-					has_country_flag = at_war_country_16
-					check_variable = { global.sanction_country_val = 16 }
-				}
-				save_global_event_target_as = sanctions_country
-				set_country_flag = sanctions_country
-				break = yes
-			}
-			if = {
-				limit = {
-					has_country_flag = at_war_country_17
-					check_variable = { global.sanction_country_val = 17 }
-				}
-				save_global_event_target_as = sanctions_country
-				set_country_flag = sanctions_country
-				break = yes
-			}
-			if = {
-				limit = {
-					has_country_flag = at_war_country_18
-					check_variable = { global.sanction_country_val = 18 }
-				}
-				save_global_event_target_as = sanctions_country
-				set_country_flag = sanctions_country
-				break = yes
-			}
-			if = {
-				limit = {
-					has_country_flag = at_war_country_19
-					check_variable = { global.sanction_country_val = 19 }
-				}
-				save_global_event_target_as = sanctions_country
-				set_country_flag = sanctions_country
-				break = yes
-			}
-			if = {
-				limit = {
-					has_country_flag = at_war_country_20
-					check_variable = { global.sanction_country_val = 20 }
-				}
-				save_global_event_target_as = sanctions_country
-				set_country_flag = sanctions_country
-				break = yes
+				start_trade_sanctions_effect = yes
 			}
 		}
+	}
+
+	option = {
+		name = "No"
+		if = {
+			limit = {
+				ROOT = {
+					has_country_flag = apply_for_trade_sanctions
+				}
+			}
+			clr_country_flag = apply_for_trade_sanctions
+		}
+	}
+}
+
+country_event = {
+	id = unsc.3
+	title = Voting
+	title = {
+		text = UNSC_TRADE_SANCTIONS_VOTING_TITLE
+		trigger = {
+			has_global_flag = UNSC_trade_sanctions
+		}
+	}
+	desc = {
+		text = UNSC_TRADE_SANCTIONS_VOTING_DESC_PERM
+		trigger = {
+			has_global_flag = UNSC_trade_sanctions
+			has_idea = idea_united_nations_security_council_member
+		}
+	}
+	desc = {
+		text = UNSC_TRADE_SANCTIONS_VOTING_DESC_TEMP
+		trigger = {
+			has_global_flag = UNSC_trade_sanctions
+			has_idea = idea_united_nations_NP_security_council_member
+		}
+	}
+
+	is_triggered_only = yes
+
+	immediate = {
+		hidden_effect = {
+			set_variable = {
+				var = global.UNSC_sanction_days_left
+				value = 7
+			}
+			set_global_flag = UNSC_voting_running
+			country_event = { id = unsc.4 days = 8 }
+		}
+	}
+
+	option = {
+		name = "Positive Vote"
+		add_to_variable = {
+			var = global.UNSC_postive_votes
+			value = 1
+		}
+	}
+
+	option = {
+		name = "Veto"
+		trigger = {
+			has_idea = idea_united_nations_security_council_member
+		}
+		add_to_variable = {
+			var = global.UNSC_vetos
+			value = 1
+		}
+	}
+
+	option = {
+		name = "Negative Vote"
+		trigger = {
+			has_idea = idea_united_nations_NP_security_council_member
+		}
+		add_to_variable = {
+			var = global.UNSC_negative_votes
+			value = 1
+		}
+	}
+}
+
+country_event = {
+	id = unsc.4
+	hidden = yes
+
+	option = {
+		clr_global_flag = UNSC_voting_running
+		clr_global_flag = UNSC_trade_sanctions
 	}
 }

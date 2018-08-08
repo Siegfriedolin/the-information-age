@@ -45,7 +45,55 @@ scripted_gui = {
 		window_name = "unsc_sactions_country_window_container"
 		
 		visible = {
-			check_variable = { show_unsc_sanctions > 0 }
+			ROOT = {
+				check_variable = { show_unsc_sanctions > 0 }
+			}
+		}
+
+		effects = {
+			trade_sanctions_button_click = {
+				ROOT = {
+					set_country_flag = apply_for_trade_sanctions
+					country_event = unsc.2
+				}
+			}
+			close_button_click = {
+				ROOT = {
+					set_variable = { show_unsc_sanctions = 0 }
+				}
+			}
+		}
+
+		triggers = {
+			trade_sanctions_button_click_enabled = {
+				NOT = { has_global_flag = UNSC_sanction_voting_ongoing }
+			}
+		}
+	}
+
+	unsc_open_sanctions_country_window_button = {
+		context_type = selected_country_context
+		parent_window_token = selected_country_view
+
+		window_name = "unsc_open_sanctions_country_window_button_container"
+		
+		visible = {
+			ROOT = {
+				OR = {
+					has_idea = idea_united_nations_security_council_member
+					has_idea = idea_united_nations_NP_security_council_member
+				}
+			}
+			NOT = { tag = ROOT }
+		}
+		
+		effects = {	
+			open_unsc_sanction_window_click = {
+				ROOT = {
+					set_variable = { show_unsc_sanctions = 1 }
+				}
+				country_event = unsc.1
+			}
 		}
 	}
 }

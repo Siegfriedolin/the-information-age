@@ -439,6 +439,159 @@ set_country_at_war_effect = {
 			set_country_flag = at_war_country_20
 			save_global_event_target_as = at_war_country_20
 		}
-		
     }
+}
+
+start_trade_sanctions_effect = {
+	set_global_flag = UNSC_trade_sanctions
+	if = {
+		limit = {
+			event_target:permanent_unsc_member_1 = {
+				exists = yes
+			}
+		}
+		event_target:permanent_unsc_member_1 = {
+			country_event = unsc.3
+		}
+	}
+	if = {
+		limit = {
+			event_target:permanent_unsc_member_2 = {
+				exists = yes
+			}
+		}
+		event_target:permanent_unsc_member_2 = {
+			country_event = unsc.3
+		}
+	}
+	if = {
+		limit = {
+			event_target:permanent_unsc_member_3 = {
+				exists = yes
+			}
+		}
+		event_target:permanent_unsc_member_3 = {
+			country_event = unsc.3
+		}
+	}
+	if = {
+		limit = {
+			event_target:permanent_unsc_member_4 = {
+				exists = yes
+			}
+		}
+		event_target:permanent_unsc_member_4 = {
+			country_event = unsc.3
+		}
+	}
+	if = {
+		limit = {
+			event_target:permanent_unsc_member_5 = {
+				exists = yes
+			}
+		}
+		event_target:permanent_unsc_member_5 = {
+			country_event = unsc.3
+		}
+	}
+	if = {
+		limit = {
+			event_target:temp_unsc_member_1 = {
+				exists = yes
+			}
+		}
+		event_target:temp_unsc_member_1 = {
+			country_event = unsc.3
+		}
+	}
+	if = {
+		limit = {
+			event_target:temp_unsc_member_2 = {
+				exists = yes
+			}
+		}
+		event_target:temp_unsc_member_2 = {
+			country_event = unsc.3
+		}
+	}
+	if = {
+		limit = {
+			event_target:temp_unsc_member_3 = {
+				exists = yes
+			}
+		}
+		event_target:temp_unsc_member_3 = {
+			country_event = unsc.3
+		}
+	}
+	if = {
+		limit = {
+			event_target:temp_unsc_member_4 = {
+				exists = yes
+			}
+		}
+		event_target:temp_unsc_member_4 = {
+			country_event = unsc.3
+		}
+	}
+	if = {
+		limit = {
+			event_target:temp_unsc_member_5 = {
+				exists = yes
+			}
+		}
+		event_target:temp_unsc_member_5 = {
+			country_event = unsc.3
+		}
+	}
+	if = {
+		limit = {
+			event_target:temp_unsc_member_6 = {
+				exists = yes
+			}
+		}
+		event_target:temp_unsc_member_6 = {
+			country_event = unsc.3
+		}
+	}
+	if = {
+		limit = {
+			event_target:temp_unsc_member_7 = {
+				exists = yes
+			}
+		}
+		event_target:temp_unsc_member_7 = {
+			country_event = unsc.3
+		}
+	}
+	if = {
+		limit = {
+			event_target:temp_unsc_member_8 = {
+				exists = yes
+			}
+		}
+		event_target:temp_unsc_member_8 = {
+			country_event = unsc.3
+		}
+	}
+	if = {
+		limit = {
+			event_target:temp_unsc_member_9 = {
+				exists = yes
+			}
+		}
+		event_target:temp_unsc_member_9 = {
+			country_event = unsc.3
+		}
+	}
+	if = {
+		limit = {
+			event_target:temp_unsc_member_10 = {
+				exists = yes
+			}
+		}
+		event_target:temp_unsc_member_10 = {
+			country_event = unsc.3
+		}
+	}
 }

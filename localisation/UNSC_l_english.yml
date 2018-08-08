@@ -45,3 +45,32 @@
  unsc_warlist_entry_18:0 "[at_war_country_18.GetFlag] [at_war_country_18.GetName]\n"
  unsc_warlist_entry_19:0 "[at_war_country_19.GetFlag] [at_war_country_19.GetName]\n"
  unsc_warlist_entry_20:0 "[at_war_country_20.GetFlag] [at_war_country_20.GetName]\n"
+
+ UNSC_APPLY_SANCTIONS:0 "Apply Sanctions on:\n[sanctions_country.GetFlag] [sanctions_country.GetName]"
+
+ UNSC_TRADE_SANCTIONS:0 "You are about to apply §RTrade Sanctions§! on §G[sanctions_country.GetName]§!.\n\n Are you sure?"
+ UNSC_TRADE_SANCTION_OPTION_TT:0 "Starts the Voting Process for the selected Sanction.\n"
+
+ UNSC_TRADE_SANCTIONS_TT:0 "[This.GetSanctionsOkay]"
+ UNSC_sanctions_ongoing:0 "There is currently a §Rsanctions voting ongoing§!. You cannot vote for new sanctions during this time."
+ UNSC_trade_sanctions_loc:0 "This allows you to start a vote on §RTrade Sanctions§! for §G[sanctions_country.GetName]§!."
+
+ UNSC_TRADE_SANCTIONS_VOTING_TITLE:0 "Voting on Trade Sanctions against [sanctions_country_target.GetName]"
+ UNSC_TRADE_SANCTIONS_VOTING_DESC_PERM:0 "[sanctions_country_starter.GetName] initiated a call for Trade Sanctions against [sanctions_country_target.GetNameDef]. As a permanent member of the United Nations Security Council, we can veto this decision.\nHow do we proceed?"
+ UNSC_TRADE_SANCTIONS_VOTING_DESC_TEMP:0 "[sanctions_country_starter.GetName] initiated a call for Trade Sanctions against [sanctions_country_target.GetNameDef]. In case none of the permament members issues a veto against this decision, our opinion will count.\nWhat do we do?"
+
+ UNSC_ONGOING_VOTING_DESC:0 "Ongoing Votings for Sanctions are displayed here."
+ UNSC_VOTING_LIST:0 "[This.GetSanctionOngoing]"
+ UNSC_no_sanctions_ongoing:0 "There is currently no sanction ongoing."
+ UNSC_trade_sanctions_ongoing:0 "There is currently a §YTrade Sanction§! ongoing against  [sanctions_country_target.GetFlag] [sanctions_country_target.GetName]."
+ UNSC_VOTING_DAYS_LEFT:0 "[This.GetSanctionDaysLeft]"
+ UNSC_voting_days_ok:0 "There are [This.GetSanctionDaysLeftColor][?global.UNSC_sanction_days_left]§! days left to vote for this sanction."
+ UNSC_voting_days_no:0 ""
+ UNSC_sanctions_days_green:0 "§G"
+ UNSC_sanctions_days_red:0 "§R"
+ UNSC_VOTING_POSITIVE_VOTES:0 "[This.GetPositiveVotes]"
+ UNSC_voting_positive_votes_ok:0 "Amount of §GPositive§! Votes: [?global.UNSC_postive_votes]"
+ UNSC_VOTING_NEGATIVE_VOTES:0 "[This.GetNegativeVotes]"
+ UNSC_voting_negative_votes_ok:0 "Amount of §RNegative§! Votes: [?global.UNSC_negative_votes]" 
+ UNSC_VOTING_VETOS:0 "[This.GetVetos]"
+ UNSC_voting_vetos_ok:0 "Amount of §YVetos§!: [This.GetVetosColor][?global.UNSC_vetos]§!" 
