@@ -233,7 +233,7 @@ guiTypes = {
 			name ="trade_sanctions_title"
 			position = { x=135 y =134 }
 			font = "hoi_24header"
-			text = "Trade Sanctions"
+			text = "Economic Sanctions"
 			format = left
 			maxWidth = 800
 			maxHeight = 30
