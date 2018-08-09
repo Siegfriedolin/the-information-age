@@ -71,6 +71,7 @@ country_event = {
 
 	option = {
 		name = "Yes"
+		add_political_power = -25
 		custom_effect_tooltip = "UNSC_TRADE_SANCTION_OPTION_TT"
 		set_global_flag = UNSC_sanction_voting_ongoing
 		event_target:sanctions_country = {
@@ -145,7 +146,7 @@ country_event = {
 	}
 
 	option = {
-		name = "Positive Vote"
+		name = "For"
 		add_to_variable = {
 			var = global.UNSC_positive_votes
 			value = 1
@@ -278,6 +279,137 @@ country_event = {
 			}
 		}
 	}
+	
+	option = {
+		name = "Against"
+		trigger = {
+			has_idea = idea_united_nations_NP_security_council_member
+			NOT = {
+				ROOT = {
+					has_country_flag = sanctions_country_flag
+				}
+			}
+		}
+		add_to_variable = {
+			var = global.UNSC_negative_votes
+			value = 1
+		}
+		ai_chance = {
+			factor = 1
+			modifier = {
+				event_target:sanctions_country_target = {
+					is_in_faction_with = ROOT
+				}
+				add = 75
+			}
+			modifier = {
+				event_target:sanctions_country_target = {
+					has_war_with = ROOT
+				}
+				add = -100
+			}
+			modifier = {
+				event_target:sanctions_country_target = {
+					has_non_aggression_pact_with = ROOT
+				}
+				add = 25
+			}
+			modifier = {
+				event_target:sanctions_country_target = {
+					is_guaranteed_by = ROOT
+				}
+				add = 25
+			}
+			modifier = {
+				event_target:sanctions_country_target = {
+					is_subject_of = ROOT
+				}
+				add = 100
+			}
+			modifier = {
+				ROOT = {
+					has_opinion = {
+						target = event_target:sanctions_country_target
+						value = 100
+					}
+				}
+				add = 100
+			}
+			modifier = {
+				ROOT = {
+					has_opinion = {
+						target = event_target:sanctions_country_target
+						value > 75
+					}
+				}
+				add = 75
+			}
+			modifier = {
+				ROOT = {
+					has_opinion = {
+						target = event_target:sanctions_country_target
+						value > 50
+					}
+				}
+				add = 50
+			}
+			modifier = {
+				ROOT = {
+					has_opinion = {
+						target = event_target:sanctions_country_target
+						value > 25
+					}
+				}
+				add = 25
+			}
+			modifier = {
+				ROOT = {
+					has_opinion = {
+						target = event_target:sanctions_country_target
+						value > 0
+					}
+				}
+				add = -1
+			}
+			modifier = {
+				ROOT = {
+					has_opinion = {
+						target = event_target:sanctions_country_target
+						value < -24
+					}
+				}
+				add = -25
+			}
+			modifier = {
+				ROOT = {
+					has_opinion = {
+						target = event_target:sanctions_country_target
+						value < 49
+					}
+				}
+				add = -50
+			}
+			modifier = {
+				ROOT = {
+					has_opinion = {
+						target = event_target:sanctions_country_target
+						value < 74
+					}
+				}
+				add = -75
+			}
+			modifier = {
+				ROOT = {
+					has_opinion = {
+						target = event_target:sanctions_country_target
+						value < 99
+					}
+				}
+				add = -100
+			}
+		}
+
+	}
 
 	option = {
 		name = "Veto"
@@ -409,146 +541,17 @@ country_event = {
 			}
 		}
 	}
-
-	option = {
-		name = "Negative Vote"
-		trigger = {
-			has_idea = idea_united_nations_NP_security_council_member
-			NOT = {
-				ROOT = {
-					has_country_flag = sanctions_country_flag
-				}
-			}
-		}
-		add_to_variable = {
-			var = global.UNSC_negative_votes
-			value = 1
-		}
-		ai_chance = {
-			factor = 1
-			modifier = {
-				event_target:sanctions_country_target = {
-					is_in_faction_with = ROOT
-				}
-				add = 75
-			}
-			modifier = {
-				event_target:sanctions_country_target = {
-					has_war_with = ROOT
-				}
-				add = -100
-			}
-			modifier = {
-				event_target:sanctions_country_target = {
-					has_non_aggression_pact_with = ROOT
-				}
-				add = 25
-			}
-			modifier = {
-				event_target:sanctions_country_target = {
-					is_guaranteed_by = ROOT
-				}
-				add = 25
-			}
-			modifier = {
-				event_target:sanctions_country_target = {
-					is_subject_of = ROOT
-				}
-				add = 100
-			}
-			modifier = {
-				ROOT = {
-					has_opinion = {
-						target = event_target:sanctions_country_target
-						value = 100
-					}
-				}
-				add = 100
-			}
-			modifier = {
-				ROOT = {
-					has_opinion = {
-						target = event_target:sanctions_country_target
-						value > 75
-					}
-				}
-				add = 75
-			}
-			modifier = {
-				ROOT = {
-					has_opinion = {
-						target = event_target:sanctions_country_target
-						value > 50
-					}
-				}
-				add = 50
-			}
-			modifier = {
-				ROOT = {
-					has_opinion = {
-						target = event_target:sanctions_country_target
-						value > 25
-					}
-				}
-				add = 25
-			}
-			modifier = {
-				ROOT = {
-					has_opinion = {
-						target = event_target:sanctions_country_target
-						value > 0
-					}
-				}
-				add = -1
-			}
-			modifier = {
-				ROOT = {
-					has_opinion = {
-						target = event_target:sanctions_country_target
-						value < -24
-					}
-				}
-				add = -25
-			}
-			modifier = {
-				ROOT = {
-					has_opinion = {
-						target = event_target:sanctions_country_target
-						value < 49
-					}
-				}
-				add = -50
-			}
-			modifier = {
-				ROOT = {
-					has_opinion = {
-						target = event_target:sanctions_country_target
-						value < 74
-					}
-				}
-				add = -75
-			}
-			modifier = {
-				ROOT = {
-					has_opinion = {
-						target = event_target:sanctions_country_target
-						value < 99
-					}
-				}
-				add = -100
-			}
-		}
-
-	}
+	
 	option = {
 		name = "Forced Abstain"
-		custom_effect_tooltip = "We need to abstain because we are the sanction's target."
+		custom_effect_tooltip = "We have to abstain because we are the target of the vote."
 		trigger = {
 			ROOT = {
 				has_country_flag = sanctions_country_flag
 			}
 		}
 	}
+	
 	option = {
 		name = "Abstain"
 		trigger = {
