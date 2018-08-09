@@ -418,6 +418,38 @@ focus_tree = {    ### Made by CMDR Voltages ###
 	}
 	
 	focus = {
+		id = EST_plans_for
+		icon = plans_for_2019
+		
+		x = 19
+		y = 6
+		
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		available = {
+			reactionary > 0.1
+		}
+		
+		prerequisite = {
+		    focus = EST_ekre
+		}
+		
+		mutually_exclusive = {}
+		
+		completion_reward = {
+		    
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	
+	focus = {
 		id = EST_new_dream
 		icon = national_greatness
 		
