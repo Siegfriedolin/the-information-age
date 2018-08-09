@@ -1,0 +1,18 @@
+usa_support_som_strategy = {
+    enable = {
+        original_tag = USA
+    }
+	abort = {
+	    has_global_flag = somali_civil_war_over
+    } 
+    ai_strategy = {
+        type = send_volunteers_desire
+        id = "SOM"
+        value = 400
+    }
+	ai_strategy = {
+        type = support
+        id = "SOM"
+        value = 400
+    } 
+}
