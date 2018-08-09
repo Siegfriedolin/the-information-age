@@ -109,8 +109,8 @@ units = {
 	}
 	
 	division = {
-		name = "Khalid ibn al-Walid Army"
-		location = 13297
+		name = "Jaysh Khalid ibn al-Walid"
+		location = 13274
 		division_template = "Militia"
 		start_experience_factor = 0.40
 		start_equipment_factor = 1.0
