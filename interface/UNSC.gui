@@ -240,6 +240,25 @@ guiTypes = {
 			fixedsize = no
 			pdx_tooltip = "UNSC_TRADE_SANCTIONS_TT"
 		}
+
+		buttonType = {
+			name = "security_risk_button"
+			spriteType = "GFX_generic_bg"
+			position = { x = 500 y = 120 }
+			pdx_tooltip = "UNSC_SECURITY_RISK_SANCTIONS_TT"
+		}
+
+		instantTextBoxType = {
+			name ="security_risk_title"
+			position = { x=485 y =122 }
+			font = "hoi_24header"
+			text = "Declare International Security Risk"
+			format = center
+			maxWidth = 300
+			maxHeight = 200
+			fixedsize = no
+			pdx_tooltip = "UNSC_SECURITY_RISK_SANCTIONS_TT"
+		}
 	}
 
 	containerWindowType = {
