@@ -231,7 +231,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name ="trade_sanctions_title"
-			position = { x=135 y =134 }
+			position = { x=113 y =134 }
 			font = "hoi_24header"
 			text = "Economic Sanctions"
 			format = left

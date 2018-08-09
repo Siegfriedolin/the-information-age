@@ -48,6 +48,7 @@
 
  UNSC_APPLY_SANCTIONS:0 "Apply Sanctions on:\n[sanctions_country.GetFlag] [sanctions_country.GetName]"
 
+ UNSC_TRADE_SANCTIONS_TITLE:0 "Apply for Trade Sanctions"
  UNSC_TRADE_SANCTIONS:0 "You are about to apply §REconomic Sanctions§! on §G[sanctions_country.GetName]§!.\n\n Are you sure?"
  UNSC_TRADE_SANCTION_OPTION_TT:0 "Starts the Voting Process for the selected Sanction.\n"
 

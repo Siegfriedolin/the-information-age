@@ -54,7 +54,7 @@ country_event = {
 country_event = {
 	id = unsc.2
 	title = {
-		text = "Apply for Trade Sanctions"
+		text = UNSC_TRADE_SANCTIONS_TITLE
 		trigger = {
 			ROOT = { has_country_flag = apply_for_trade_sanctions }
 		}
