@@ -1,6 +1,6 @@
 ﻿capital = 296
 
-oob = "GBS_2000"
+oob = "GBS_2018"
 
 set_research_slots = 2
 set_convoys = 70
@@ -100,29 +100,18 @@ add_ideas = {
 set_politics = {
 
 	parties = {
-		reactionary = { popularity = 5 }
-		progressive = { popularity = 11 }
-		social_liberal = { popularity = 23 }
-		market_liberal = { popularity = 1 }
-		nationalist = { popularity = 60 }
+		reactionary = { popularity = 38.08 }
+		democratic_socialist = { popularity = 61.92 }
 	}
 	
-	ruling_party = nationalist
-	last_election = "2000.1.1"
+	ruling_party = democratic_socailist
+	last_election = "2014.11.18"
 	election_frequency = 48
-	elections_allowed = no
+	elections_allowed = yes
 }
 
 create_country_leader = {
-	name = "Kumba Iala"
-	picture = "Kumba_Iala.dds"
-	ideology = autocrat
-}
-	
-2003.9.14 = {
-	create_country_leader = {
-		name = "Verissomo Correia Seabra"
-		picture = "Verissomo_C_Seabra.dds"
-		ideology = national_democrat
-	}
+	name = "José Mário Vaz"
+	picture = "Jose_Mario_Vaz.dds"
+	ideology = democratic_socialist_ideology
 }
