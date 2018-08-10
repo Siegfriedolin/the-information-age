@@ -5,6 +5,10 @@
  government:0 "Government Policy"
  homosexual_rights:0 "Stance on Homosexuality"
  
+ ###International Organizations###
+ nordic_council_member:0 "Nordic Council Member"
+ nordic_council_member_desc:0 "This country is a member of the Nordic Council. The Nordic Council is the official body for formal inter-parliamentary co-operation among the Nordic countries."
+
  ###Laws###
  #Homosexuality Laws
  homosexuality_persecuted:0 "Persecution"
