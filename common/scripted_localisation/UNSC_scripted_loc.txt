@@ -580,7 +580,7 @@ defined_text = {
 }
 
 defined_text = {
-	name = GetSanctionsOkay
+	name = GetTradeSanctionsOkay
 	
 	text = {
 		trigger = {
@@ -593,6 +593,23 @@ defined_text = {
 			NOT = { has_global_flag = UNSC_sanction_voting_ongoing }
 		}
 		localization_key = UNSC_trade_sanctions_loc
+	} 
+}
+
+defined_text = {
+	name = GetSecurityRiskSanctionsOkay
+	
+	text = {
+		trigger = {
+			has_global_flag = UNSC_sanction_voting_ongoing
+		}
+		localization_key = UNSC_sanctions_ongoing
+	}
+	text = {
+		trigger = {
+			NOT = { has_global_flag = UNSC_sanction_voting_ongoing }
+		}
+		localization_key = UNSC_security_risk_sanctions_loc
 	} 
 }
 
@@ -611,6 +628,13 @@ defined_text = {
 			has_global_flag = UNSC_trade_sanctions
 		}
 		localization_key = UNSC_trade_sanctions_ongoing
+	} 
+	text = {
+		trigger = {
+			has_global_flag = UNSC_sanction_voting_ongoing
+			has_global_flag = UNSC_security_risk
+		}
+		localization_key = UNSC_security_risk_ongoing
 	} 
 }
 
@@ -737,14 +761,24 @@ defined_text = {
 	
 	text = {
 		trigger = {
-			has_global_flag = UNSC_trade_sanctions
+			OR = {
+				has_global_flag = UNSC_trade_sanctions
+				ROOT = {
+					has_country_flag = apply_for_trade_sanctions
+				}
+			}
 		}
 		localization_key = UNSC_trade_sanctions_type
 	}
 	text = {
 		trigger = {
-			has_global_flag = UNSC_other_sanction
+			OR = {
+				has_global_flag = UNSC_security_risk
+				ROOT = {
+					has_country_flag = apply_for_security_risk
+				}
+			}
 		}
-		localization_key = UNSC_other_sanction_type
+		localization_key = UNSC_security_risk_type
 	}
 }

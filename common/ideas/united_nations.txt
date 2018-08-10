@@ -13,4 +13,19 @@ ideas = {
 				local_resources_factor = -0.1
 			}
 		}
+
+		UNSC_security_risk_idea = {
+			picture = embargo
+		
+			allowed = { always = yes }
+
+			allowed_civil_war = { always = yes }
+			
+			modifier = {
+				stability_factor = -0.05
+				justify_war_goal_time = 0.1
+				enemy_justify_war_goal_time = -0.15
+			}
+		}
 	}
+}

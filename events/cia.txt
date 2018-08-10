@@ -53,18 +53,8 @@ country_event = {
 
 country_event = {
 	id = unsc.2
-	title = {
-		text = "Apply for Trade Sanctions"
-		trigger = {
-			ROOT = { has_country_flag = apply_for_trade_sanctions }
-		}
-	}
-	desc = {
-		text = UNSC_TRADE_SANCTIONS
-		trigger = {
-			has_country_flag = apply_for_trade_sanctions
-		}
-	}
+	title = UNSC_SANCTIONS_EVENT_TITLE
+	desc = UNSC_SANCTIONS_EVENT_DESC
 
 	is_triggered_only = yes
 	picture = GFX_report_event_united_nations
@@ -72,7 +62,7 @@ country_event = {
 	option = {
 		name = "Yes"
 		add_political_power = -25
-		custom_effect_tooltip = "UNSC_TRADE_SANCTION_OPTION_TT"
+		custom_effect_tooltip = "UNSC_SANCTION_OPTION_TT"
 		set_global_flag = UNSC_sanction_voting_ongoing
 		event_target:sanctions_country = {
 			save_global_event_target_as = sanctions_country_target
@@ -81,13 +71,8 @@ country_event = {
 			save_global_event_target_as = sanctions_country_starter
 		}
 		hidden_effect = {
-			if = {
-				limit = {
-					has_country_flag = apply_for_trade_sanctions
-				}
-				start_trade_sanctions_effect = yes
-				USA = { country_event = { id = unsc.31 days = 1 } }
-			}
+			start_sanctions_effect = yes
+			USA = { country_event = { id = unsc.31 days = 1 } }
 		}
 	}
 
@@ -101,28 +86,29 @@ country_event = {
 			}
 			clr_country_flag = apply_for_trade_sanctions
 		}
+		if = {
+			limit = {
+				ROOT = {
+					has_country_flag = apply_for_security_risk
+				}
+			}
+			clr_country_flag = apply_for_security_risk
+		}
 	}
 }
 
 country_event = {
 	id = unsc.3
-	title = {
-		text = UNSC_TRADE_SANCTIONS_VOTING_TITLE
-		trigger = {
-			has_global_flag = UNSC_trade_sanctions
-		}
-	}
+	title = UNSC_SANCTIONS_VOTING_TITLE
 	desc = {
-		text = UNSC_TRADE_SANCTIONS_VOTING_DESC_PERM
+		text = UNSC_SANCTIONS_VOTING_DESC_PERM
 		trigger = {
-			has_global_flag = UNSC_trade_sanctions
 			has_idea = idea_united_nations_security_council_member
 		}
 	}
 	desc = {
-		text = UNSC_TRADE_SANCTIONS_VOTING_DESC_TEMP
+		text = UNSC_SANCTIONS_VOTING_DESC_TEMP
 		trigger = {
-			has_global_flag = UNSC_trade_sanctions
 			has_idea = idea_united_nations_NP_security_council_member
 		}
 	}
@@ -688,7 +674,7 @@ country_event = {
 			limit = {
 				has_global_flag = UNSC_vote_successful
 				has_global_flag = UNSC_trade_sanctions
-				NOT = { has_global_flag = UNSC_trade_sanctions_applied }
+				NOT = { has_global_flag = UNSC_sanctions_applied }
 			}
 			event_target:sanctions_country_target = {
 				add_timed_idea = {
@@ -696,7 +682,21 @@ country_event = {
 					days = 720
 				}
 			}
-			set_global_flag = UNSC_trade_sanctions_applied
+			set_global_flag = UNSC_sanctions_applied
+		}
+		if = {
+			limit = {
+				has_global_flag = UNSC_vote_successful
+				has_global_flag = UNSC_security_risk
+				NOT = { has_global_flag = UNSC_sanctions_applied }
+			}
+			event_target:sanctions_country_target = {
+				add_timed_idea = {
+					idea = UNSC_security_risk_idea
+					days = 720
+				}
+			}
+			set_global_flag = UNSC_sanctions_applied
 		}
 		hidden_effect = {
 			if = {
@@ -727,18 +727,8 @@ country_event = {
 
 news_event = {
 	id = unsc.7
-	title = {
-		text = UNSC_TRADING_SANCTION_NEWS
-		trigger = {
-			has_global_flag = UNSC_trade_sanctions_applied
-		}
-	}
-	desc = {
-		text = UNSC_TRADING_SANCTION_NEWS_DESC
-		trigger = {
-			has_global_flag = UNSC_trade_sanctions_applied
-		}
-	}
+	title = UNSC_SANCTION_NEWS
+	desc = UNSC_SANCTION_NEWS_DESC
 
 	is_triggered_only = yes
 	picture = GFX_news_event_united_nations

@@ -57,6 +57,12 @@ scripted_gui = {
 					country_event = unsc.2
 				}
 			}
+			security_risk_button_click = {
+				ROOT = {
+					set_country_flag = apply_for_security_risk
+					country_event = unsc.2
+				}
+			}
 			close_button_click = {
 				ROOT = {
 					set_variable = { show_unsc_sanctions = 0 }

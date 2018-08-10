@@ -231,14 +231,33 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name ="trade_sanctions_title"
-			position = { x=135 y =134 }
+			position = { x=113 y =134 }
 			font = "hoi_24header"
-			text = "Trade Sanctions"
+			text = "Economic Sanctions"
 			format = left
 			maxWidth = 800
 			maxHeight = 30
 			fixedsize = no
 			pdx_tooltip = "UNSC_TRADE_SANCTIONS_TT"
+		}
+
+		buttonType = {
+			name = "security_risk_button"
+			spriteType = "GFX_generic_bg"
+			position = { x = 500 y = 120 }
+			pdx_tooltip = "UNSC_SECURITY_RISK_SANCTIONS_TT"
+		}
+
+		instantTextBoxType = {
+			name ="security_risk_title"
+			position = { x=485 y =122 }
+			font = "hoi_24header"
+			text = "Declare International Security Risk"
+			format = center
+			maxWidth = 300
+			maxHeight = 200
+			fixedsize = no
+			pdx_tooltip = "UNSC_SECURITY_RISK_SANCTIONS_TT"
 		}
 	}
 

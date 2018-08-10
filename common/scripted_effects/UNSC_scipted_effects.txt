@@ -442,8 +442,19 @@ set_country_at_war_effect = {
     }
 }
 
-start_trade_sanctions_effect = {
-	set_global_flag = UNSC_trade_sanctions
+start_sanctions_effect = {
+	if = {
+		limit = {
+			has_country_flag = apply_for_trade_sanctions
+		}
+		set_global_flag = UNSC_trade_sanctions
+	}
+	if = {
+		limit = {
+			has_country_flag = apply_for_security_risk
+		}
+		set_global_flag = UNSC_security_risk
+	}
 	if = {
 		limit = {
 			has_event_target = permanent_unsc_member_1
@@ -570,7 +581,8 @@ UNSC_cleanup_effect = {
 	clr_global_flag = UNSC_vote_successful
 	clr_global_flag = UNSC_trade_sanctions
 	clr_global_flag = UNSC_vote_failed
-	clr_global_flag = UNSC_trade_sanctions_applied
+	clr_global_flag = UNSC_sanctions_applied
+	clr_global_flag = UNSC_security_risk
 	clear_variable = global.UNSC_vetos
 	clear_variable = global.UNSC_negative_votes
 	clear_variable = global.UNSC_positive_votes
