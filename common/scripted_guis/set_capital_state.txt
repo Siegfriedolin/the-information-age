@@ -1,0 +1,29 @@
+#scripted_gui = {
+#    set_capital_state_gui = {
+#		context_type = selected_state_context
+#		
+#		window_name = "set_capital_state_container"
+#		parent_window_token = selected_state_view
+#		
+#		visible = {
+#			FROM.FROM = {
+#				is_owned_by = ROOT
+#				is_controlled_by = ROOT
+#			}
+#		}
+#
+#	    effects = {
+#            set_capital_button_click = {
+#			    set_capital = FROM.FROM
+#            }
+#		}
+#
+#		triggers = {
+#            set_capital_button_click_enabled = {
+#                ROOT = {
+#                    controls_state = FROM.FROM
+#                }
+#            }
+#		}
+#	}
+#}

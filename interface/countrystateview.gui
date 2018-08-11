@@ -311,9 +311,22 @@ guiTypes = {
 				name = "nuke_progress_frame"
 				spriteType = "GFX_nuke_progress_frame"
 				position = { x=15 y= -6 }	
-			}				
+			}		
 			
-		}	
+		}
+
+		containerWindowType = {
+			name = "set_capital_state_container"
+			position = { x = 5 y = 435 }
+			size = { width=480 height=29%% }
+
+			buttonType = {
+				name = "set_capital_button"
+				quadTextureSprite ="GFX_nuke_button"
+				position = { x= 330 y = 50 }
+				pdx_tooltip = "SET_CAPITAL_TT"
+			}
+		}
 		
 		buttonType = {
 			name = "close_button"
