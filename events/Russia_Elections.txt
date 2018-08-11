@@ -15,35 +15,39 @@ country_event = {
 		date < 2019.1.1
 	}
 	
+	immediate = {
+		set_country_flag = russia_elections_2018
+	}
+	
 	option = {
 		name = election_SOV.1.o1
-		set_country_flag = russia_elections_2018
 		set_politics = {
 			ruling_party = reactionary
 			elections_allowed = yes
 		}		
 		news_event = russia_news.5
-		add_popularity = { ideology = reactionary popularity = 0.05 }
 		ai_chance = { 
-			factor = 70
+			factor = 76
 			modifier = {
 				is_historical_focus_on = yes
-				factor = 200
+				factor = 1000
 			}
 		}
     }
 	
 	option = {
 		name = election_SOV.1.o2
-		set_country_flag = russia_elections_2018
+		trigger = {
+            communist > 0.1
+		}
 		set_politics = {
 			ruling_party = communist
 			elections_allowed = yes
 		}
 		news_event = russia_news.6
-		add_popularity = { ideology = communist popularity = 0.15 }
+		add_popularity = { ideology = communist popularity = 0.1 }
 		ai_chance = { 
-			factor = 15
+			factor = 11
 			modifier = {
 				is_historical_focus_on = yes
 				factor = 0
@@ -53,15 +57,17 @@ country_event = {
 	
 	option = {
 		name = election_SOV.1.o3
-		set_country_flag = russia_elections_2018
+		trigger = {
+            nationalist > 0.1
+		}
 		set_politics = {
 			ruling_party = nationalist
 			elections_allowed = yes
 		}
 		news_event = russia_news.7
-		add_popularity = { ideology = nationalist popularity = 0.15 }
+		add_popularity = { ideology = nationalist popularity = 0.1 }
 		ai_chance = { 
-			factor = 10
+			factor = 5
 			modifier = {
 				is_historical_focus_on = yes
 				factor = 0
@@ -71,13 +77,15 @@ country_event = {
 	
 	option = {
 		name = election_SOV.1.o4
-		set_country_flag = russia_elections_2018
 		set_politics = {
 			ruling_party = social_liberal
 			elections_allowed = yes
 		}
+		trigger = {
+            social_liberal > 0.1
+		}
 		news_event = russia_news.4
-		add_popularity = { ideology = social_liberal popularity = 0.15 }
+		add_popularity = { ideology = social_liberal popularity = 0.1 }
 		ai_chance = { 
 			factor = 5
 			modifier = {
