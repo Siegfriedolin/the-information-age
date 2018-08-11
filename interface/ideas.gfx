@@ -682,6 +682,11 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "GFX_idea_nordic_council"
+		texturefile = "gfx/interface/ideas/international_organizations/nordic_council.dds"
+	}
+
+	spriteType = {
 		name = "GFX_idea_visegrad"
 		texturefile = "gfx/interface/ideas/international_organizations/visegrad.dds"
 	}

@@ -250,9 +250,9 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name ="security_risk_title"
-			position = { x=485 y =122 }
+			position = { x=485 y =134 }
 			font = "hoi_24header"
-			text = "Declare International Security Risk"
+			text = "Diplomatic Sanctions"
 			format = center
 			maxWidth = 300
 			maxHeight = 200

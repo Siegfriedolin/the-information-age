@@ -683,6 +683,12 @@ country_event = {
 				}
 			}
 			set_global_flag = UNSC_sanctions_applied
+			hidden_effect = {
+				if = {
+					tag = USA
+				}
+				news_event = { id = unsc.7 hours = 6 }
+			}
 		}
 		if = {
 			limit = {
@@ -704,7 +710,6 @@ country_event = {
 					tag = USA
 				}
 				USA = { country_event = { id = unsc.6 hours = 8 } }
-				news_event = { id = unsc.7 hours = 6 }
 			}
 		}
 	}

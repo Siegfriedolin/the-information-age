@@ -154,7 +154,7 @@ ideas = {
 		}
 		###     Nordic Council ###
 	    nordic_council_member = {
-			picture = EU_member
+			picture = nordic_council
 			allowed = { always = no }
 			removal_cost = -1
 			modifier = {
