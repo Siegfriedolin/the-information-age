@@ -47,6 +47,13 @@ country_event = {
 		}
 		if = {
 			limit = {
+				has_idea = catalonia_separatism
+				country_exists = CAT
+			}
+			remove_ideas = catalonia_separatism
+		}
+		if = {
+			limit = {
 			    original_tag = POR
 				date > 2018.5.11
 				date < 2019.1.1
