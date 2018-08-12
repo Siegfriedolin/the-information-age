@@ -9,4 +9,9 @@ spriteTypes = {
 		name = "GFX_UNSC_button_bg"
 		texturefile = "gfx/interface/UNSC/UNSC_button_bg.dds"
 	}
+
+	spriteType = {
+		name = "GFX_set_capital"
+		texturefile = "gfx/interface/UNSC/set_capital.dds"
+	}
 }

@@ -279,4 +279,17 @@ guiTypes = {
 			pdx_tooltip = "OPEN_CLOSE_UNSC_WINDOW"
 		}
 	}
+
+	containerWindowType = {
+		name = "set_capital_state_container"
+		position = { x = -2 y = 368 }
+		size = { width=480 height=29%% }
+
+		buttonType = {
+			name = "set_capital_button"
+			spriteType ="GFX_set_capital"
+			position = { x= 330 y = 50 }
+			pdx_tooltip = "SET_CAPITAL_TT"
+		}
+	}
 }
