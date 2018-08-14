@@ -165,7 +165,7 @@ ideas = {
 		}
 		###     Baltic Assembly     ###
 		baltic_assembly_member = {
-			picture = nordic_council
+			picture = baltic_assembly
 			allowed = { always = no }
 			removal_cost = -1
 			modifier = {
