@@ -60,7 +60,7 @@ units = {
 	}
 	division = {
 		name = "3rd Russian Separatists"
-		location = 3479
+		location = 6474
 		division_template = "Pro-Russian Separatists"
 		start_experience_factor = 0.3
 	}
@@ -78,7 +78,7 @@ units = {
 	}
 	division = {
 		name = "6th Russian Separatists"
-		location = 3479
+		location = 6474
 		division_template = "Pro-Russian Separatists"
 		start_experience_factor = 0.3
 	}
@@ -102,7 +102,7 @@ units = {
 	}
 	division = {
 		name = "10th Russian Separatists"
-		location = 3479
+		location = 6474
 		division_template = "Pro-Russian Separatists"
 		start_experience_factor = 0.3
 	}

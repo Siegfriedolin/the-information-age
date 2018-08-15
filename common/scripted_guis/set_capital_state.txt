@@ -7,7 +7,7 @@ scripted_gui = {
 		
 		visible = {
 			is_owned_by = ROOT
-			is_controlled_by = ROOT
+			is_capital = no
 		}
 
 	    effects = {
