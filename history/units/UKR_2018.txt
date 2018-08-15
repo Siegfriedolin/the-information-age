@@ -137,7 +137,7 @@ units = {
 	
 	division = {
 		name = "3rd Mechanized Brigade"
-		location = 11487
+		location = 3479
 		division_template = "Mechanized Brigade"
 		start_experience_factor = 0.3
 	}
@@ -221,7 +221,7 @@ units = {
 	
 	division = {
 		name = "2nd Reserve Brigade"
-		location = 11487
+		location = 3479
 		division_template = "Reserve Brigade"
 		start_experience_factor = 0.3
 	}
@@ -263,7 +263,7 @@ units = {
 	
 	division = {
 		name = "1st Artillery Brigade"
-		location = 11487
+		location = 3479
 		division_template = "Artillery Brigade"
 		start_experience_factor = 0.3
 	}
