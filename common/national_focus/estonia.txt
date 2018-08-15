@@ -54,12 +54,12 @@ focus_tree = {    ### Made by CMDR Voltages ###
 		available_if_capitulated = yes
 		
 		prerequisite = {
-			focus = EST_new_dream
+			focus = EST_baltic_stability
 		}
 		
 		mutually_exclusive = {
 		    focus = EST_nationalist_pride
-			focus = EST_ensure_democracy
+			focus = EST_estonia_first
 		}
 		
 		completion_reward = {
@@ -90,12 +90,12 @@ focus_tree = {    ### Made by CMDR Voltages ###
 		}
 		
 		prerequisite = {
-			focus = EST_new_dream
+			focus = EST_baltic_stability
 		}
 		
 		mutually_exclusive = {
 		    focus = EST_socialist_unity
-			focus = EST_ensure_democracy
+			focus = EST_estonia_first
 		}
 		
 		completion_reward = {
@@ -164,10 +164,10 @@ focus_tree = {    ### Made by CMDR Voltages ###
 	### Democracy ###
 	
 	focus = {
-		id = EST_ensure_democracy
+		id = EST_we_shall_plan_a_new_dawn
 		icon = democracy
 		
-		x = 8
+		x = 12
 		y = 2
 		
 		cost = 10
@@ -176,41 +176,7 @@ focus_tree = {    ### Made by CMDR Voltages ###
 		continue_if_invalid = yes
 		available_if_capitulated = yes
 		
-		prerequisite = { 
-		    focus = EST_one_dream
-		    focus = EST_new_dream 
-		}
-		
-		mutually_exclusive = {
-		    focus = EST_socialist_unity
-			focus = EST_nationalist_pride
-		}
-		
-		completion_reward = {
-		    add_stability = 0.02
-			add_political_power = 100
-		}
-		
-		ai_will_do = {
-			factor = 10
-		}
-	}
-	
-	focus = {
-		id = EST_the_impossible_dream
-		icon = democracy
-		
-		x = 12
-		y = 3
-		
-		cost = 10
-
-		cancel_if_invalid = no
-		continue_if_invalid = yes
-		available_if_capitulated = yes
-		
-		prerequisite = { 
-		    focus = EST_ensure_democracy
+		prerequisite = {
 		}
 		
 		mutually_exclusive = {}
@@ -226,61 +192,26 @@ focus_tree = {    ### Made by CMDR Voltages ###
 	}
 	
 	focus = {
-		id = EST_
+		id = EST_we_remain_a_country
 		icon = democracy
 		
-		x = 8
-		y = 3
+		x = 7
+		y = 2
 		
 		cost = 10
 
 		cancel_if_invalid = no
 		continue_if_invalid = yes
 		available_if_capitulated = yes
-		
-		prerequisite = { 
-		    focus = EST_ensure_democracy
-		}
-		
-		mutually_exclusive = {}
-		
-		completion_reward = {
-		    add_stability = 0.02
-			add_political_power = 100
-		}
-		
-		ai_will_do = {
-			factor = 10
-		}
-	}
-	
-    focus = {
-		id = EST_one_dream
-		icon = align_to_baltic_states2
-		
-		x = 9
-		y = 1
-		
-		cost = 10
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-		
-		available = {
-			threat > 0.2
-		}
 		
 		prerequisite = {
-		    focus = EST_baltic_stability
 		}
 		
-		mutually_exclusive = {
-		    focus = EST_new_dream
-		}
+		mutually_exclusive = {}
 		
 		completion_reward = {
 		    add_stability = 0.02
+			add_political_power = 100
 		}
 		
 		ai_will_do = {
@@ -357,8 +288,8 @@ focus_tree = {    ### Made by CMDR Voltages ###
 		id = EST_estonia_first
 		icon = estonia_first
 		
-		x = 19
-		y = 3
+		x = 17
+		y = 2
 		
 		cost = 10
 
@@ -371,10 +302,13 @@ focus_tree = {    ### Made by CMDR Voltages ###
 		}
 		
 		prerequisite = {
-		    focus = EST_ensure_democracy
+		    focus = EST_baltic_stability
 		}
 		
-		mutually_exclusive = {}
+		mutually_exclusive = {
+		    focus = EST_socialist_unity
+			focus = EST_nationalist_pride
+		}
 		
 		completion_reward = {
 		    
@@ -450,38 +384,6 @@ focus_tree = {    ### Made by CMDR Voltages ###
 	}
 	
 	focus = {
-		id = EST_new_dream
-		icon = national_greatness
-		
-		x = 17
-		y = 1
-		
-		cost = 10
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-		
-		available = {}
-		
-		prerequisite = {
-		    focus = EST_baltic_stability
-		}
-		
-		mutually_exclusive = {
-		    focus = EST_one_dream
-		}
-		
-		completion_reward = {
-		    add_stability = 0.02
-		}
-		
-		ai_will_do = {
-			factor = 10
-		}
-	}
-	
-	focus = {
 	    id = EST_rail_baltica_project
 		icon = baltic_development
 		
@@ -495,7 +397,6 @@ focus_tree = {    ### Made by CMDR Voltages ###
 		}
 		
 		prerequisite = {
-		    focus = EST_ensure_democracy
 		}
 		
 		cancel_if_invalid = no
@@ -679,7 +580,6 @@ focus_tree = {    ### Made by CMDR Voltages ###
 		available_if_capitulated = yes
 		
 		prerequisite = {
-			focus = EST_ensure_democracy
 		}
 		
 		mutually_exclusive = {}
