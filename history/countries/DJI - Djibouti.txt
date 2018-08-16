@@ -106,7 +106,7 @@ set_politics = {
 		conservative = {
 			popularity = 38.5
 		}
-		social_democrat = {
+		democratic_socialist = {
 			popularity = 61.5
 		}
 		communist = {
@@ -114,7 +114,7 @@ set_politics = {
 		}
 	}
 	
-	ruling_party = social_democrat
+	ruling_party = democratic_socialist
 	last_election = "2013.2.23"
 	election_frequency = 60
 	elections_allowed = yes
@@ -123,7 +123,7 @@ set_politics = {
 create_country_leader = {
 	name = "Ismail Omar Guelleh"
 	picture = "Ismail_Omar_Guelleh.dds"
-	ideology = social_democrat_ideology
+	ideology = democratic_socialist_ideology
 }
 
 create_country_leader = {
