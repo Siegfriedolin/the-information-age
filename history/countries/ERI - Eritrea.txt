@@ -1,6 +1,6 @@
 ﻿capital = 550
 
-oob = "ERI_2000"
+oob = "ERI_2018"
 
 set_research_slots = 2
 set_convoys = 100
@@ -111,30 +111,30 @@ add_opinion_modifier = {
 set_politics = {
 	parties = {
 		islamist = {
-			popularity = 5
+			popularity = 0
 		}
 		nationalist = {
-			popularity = 38
+			popularity = 100
 		}
 		conservative = {
-			popularity = 27
+			popularity = 0
 		}
 		social_liberal = {
-			popularity = 25
+			popularity = 0
 		}
 		communist = {
-			popularity = 5
+			popularity = 0
 		}
 	}
 	
 	ruling_party = nationalist
-	last_election = "1997.1.1"
+	last_election = "2018.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 create_country_leader = {
-	name = "Isayas Afewerki"
-	picture = "Isayas_Afewerki.dds"
+	name = "Isaias Afwerki"
+	picture = "Isias_Afwerki.dds"
 	ideology = autocrat
 }
