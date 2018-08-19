@@ -37,7 +37,7 @@ objectTypes = {
 	
 	pdxmesh = {
 		name = "GER_motorized_mesh"
-		file = "gfx/models/units/vehicles/GER_motorized_01.mesh"
+		file = "gfx/models/units/vehicles/MODGER_motorized.mesh"
 		
 		animation = { id = "idle"			type = "GER_motorized_01_idle_animation" }
 		animation = { id = "move"			type = "GER_motorized_01_move_animation" }
@@ -53,7 +53,7 @@ objectTypes = {
 	
 	pdxmesh = {
 		name = "SOV_motorized_mesh"
-		file = "gfx/models/units/vehicles/SOV_motorized_01.mesh"
+		file = "gfx/models/units/vehicles/MODRUS_motorized.mesh"
 		
 		animation = { id = "idle"			type = "SOV_motorized_01_idle_animation" }
 		animation = { id = "move"			type = "SOV_motorized_01_move_animation" }
@@ -70,7 +70,7 @@ objectTypes = {
 	
 	pdxmesh = {
 		name = "US_motorized_mesh"
-		file = "gfx/models/units/vehicles/US_motorized_01.mesh"
+		file = "gfx/models/units/vehicles/MODUSA_motorized.mesh"
 		
 		animation = { id = "idle"			type = "US_motorized_01_idle_animation" }
 		animation = { id = "move"			type = "US_motorized_01_move_animation" }
