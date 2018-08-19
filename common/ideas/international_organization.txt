@@ -94,18 +94,6 @@ ideas = {
 			}
 		}
 		
-		idea_eu_sanctions2 = {
-			picture = embargo
-		
-			allowed = { always = no }
-			removal_cost = -1
-			
-			modifier = {
-				political_power_gain = -0.5
-				consumer_goods_factor = 0.1
-			}
-		}
-		
 		###		Visegrad		###
 		visegrad_group_member = {
 			picture = visegrad
