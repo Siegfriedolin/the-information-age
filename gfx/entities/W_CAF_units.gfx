@@ -1,6 +1,6 @@
-########Do not use my models or skins without my express permission chris@our-world.org####
+########yeet####
 	##############
-	#  Mod.Art   #
+	#  yeet  #
 	##############	
 objectTypes = {	
 	pdxmesh = {
@@ -964,7 +964,7 @@ objectTypes = {
 	
 	pdxmesh = {
 		name = "USA_infantry_mesh"
-		file = "gfx/models/units/USA_infantry.mesh"
+		file = "gfx/models/units/MODUSA_infantry.mesh"
 
 		animation = { id = "idle"			type = "GER_infantry_rifle_idle_animation" }
 		animation = { id = "attack"			type = "USA_infantry_rifle_attack_animation" }
@@ -991,7 +991,7 @@ objectTypes = {
 
 	pdxmesh = {
 		name = "USA_infantry_mg_mesh"
-		file = "gfx/models/units/USA_infantry.mesh"
+		file = "gfx/models/units/MODUSA_infantry.mesh"
 
 		animation = { id = "idle"			type = "GER_infantry_mg_idle_animation" }
 		animation = { id = "attack"			type = "GER_infantry_mg_attack_animation" }
@@ -1114,4 +1114,4 @@ objectTypes = {
 
 
 
-########Do not use my models or skins without my express permission chris@our-world.org####
+######## yeet ####
