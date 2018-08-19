@@ -25,4 +25,25 @@ non_aligned_movement_decisions = {
 			base = 0
 		}
 	}
+	
+	leave_non_aligned_movement = {
+		visible = {
+			has_idea = non_aligned_movement_member
+		}
+		available = {
+            always = yes
+		}
+		
+		complete_effect = {
+            remove_ideas = non_aligned_movement_member
+		}
+		
+		icon = politics
+		
+		cost = 50
+		
+		ai_will_do = {
+			base = 0
+		}
+	}
 }
