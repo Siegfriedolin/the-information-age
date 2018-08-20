@@ -94,9 +94,6 @@ set_technology = {
 set_politics = {
 
 	parties = {
-		islamist = {
-			popularity = 76
-		}
 		reactionary = {
 		    popularity = 97.94
 		}

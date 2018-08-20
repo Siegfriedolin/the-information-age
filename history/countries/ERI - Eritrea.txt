@@ -135,6 +135,6 @@ set_politics = {
 
 create_country_leader = {
 	name = "Isaias Afwerki"
-	picture = "Isias_Afwerki.dds"
+	picture = "Isaias_Afwerki.dds"
 	ideology = autocrat
 }
