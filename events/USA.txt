@@ -201,48 +201,6 @@ news_event = {	#Toleration of Totalitarians in NATO
 	}
 }
 
-news_event = {	#America is a monarchy
-	id = usa.24
-	title = usa.24.t
-	desc = usa.24.d
-	picture = GFX_news_event_american_monarchy
-	
-	major = yes
-	fire_only_once = yes
-	
-	trigger = {
-		tag = USA
-		has_government = monarchist
-	}
-	
-	mean_time_to_happen = {
-		days = 3
-	}
-	
-	option = {
-		name = usa.24.o1
-		trigger = { 
-			original_tag = USA
-		}
-	}
-	
-	option = {
-		name = usa.24.o2
-		trigger = {
-			NOT = { original_tag = USA }
-			is_in_faction_with = USA 
-		}
-	}
-	
-	option = {
-		name = usa.24.o3
-		trigger = {
-			NOT = { original_tag = USA }
-			NOT = { is_in_faction_with = USA }
-		}
-	}
-}
-
 country_event = {	#The New President lost the Popular Vote
 	id = usa.25
 	title = usa.25.t

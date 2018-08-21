@@ -100,10 +100,10 @@ add_ideas = {
 set_politics = {
 	parties = {
 		islamist = {
-			popularity = 1
+			popularity = 0
 		}
 		nationalist = {
-			popularity = 1
+			popularity = 2
 		}
 		reactionary = {
 			popularity = 2
@@ -131,55 +131,55 @@ set_politics = {
 		}
 	}
 	ruling_party = social_liberal
-	last_election = "2016.9.11"
+	last_election = "2016.12.23"
 	election_frequency = 48
 	elections_allowed = yes
 }
 
 create_country_leader = {
 	name = "Kolinda Grabar-Kitarović"
+	picture = "Kolinda_Grabar_Kitarovic.dds"
 	ideology = liberalist
-	picture = "Kolinda_Grabar.dds"
 }
 
 create_country_leader = {
 	name = "Dragutin Lesar"
-	ideology = democratic_socialist_ideology
 	picture = "Dragutin_Lesar.dds"
+	ideology = democratic_socialist_ideology
 }
 
 create_country_leader = {
 	name = "Jadranka Kosor"
-	ideology = right_wing_conservative 
 	picture = "Jadranka_Kosor.dds"
+	ideology = right_wing_conservative
 }
 
 create_country_leader = {
 	name = "Bozo Petrov"
-	ideology = libertarian  
 	picture = "Bozo_Petrov.dds"
+	ideology = libertarian
 }
 
 create_country_leader = {
-	name = "Mirela Holy"
-	ideology = green  
-	picture = "Mirela_Holy.dds"
+	name = "Luka Keller"
+	picture = "Luka_Keller.dds"
+	ideology = green
 }
 
 create_country_leader = {
-	name = "Vlado Busic"
-	ideology = marxist  
+	name = "Vlado Busic"  
 	picture = "Vlado_Busic.dds"
+	ideology = marxist
 }
 
 create_country_leader = {
-	name = "Ruza Tomasic"
-	ideology = national_democrat  
+	name = "Ruza Tomasic"  
 	picture = "Ruza_Tomasic.dds"
+	ideology = national_democrat
 }
 
 create_country_leader = {
-	name = "Davor Trbuha"
-	ideology = national_socialist  
+	name = "Davor Trbuha"  
 	picture = "Davor_Trbuha.dds"
+	ideology = national_socialist
 }

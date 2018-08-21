@@ -1,6 +1,6 @@
 ﻿capital = 702
 
-oob = "CAB_2000"
+oob = "CAB_2018"
 
 set_research_slots = 2
 set_convoys = 30
@@ -98,19 +98,28 @@ add_ideas = {
 set_politics = {
 
 	parties = {
-		reactionary = {
-			popularity = 50
+		social_democrat = {
+			popularity = 25.92
 		}
 		social_liberal = {
-			popularity = 25
-		}
-		communist = {
-			popularity = 20
+			popularity = 74.08
 		}
 	}
 	
-	ruling_party = reactionary
-	last_election = "1997.1.1"
-	election_frequency = 48
-	elections_allowed = no
+	ruling_party = social_liberal
+	last_election = "2016.10.2"
+	election_frequency = 60
+	elections_allowed = yes
+}
+
+create_country_leader = {
+	name = "Jorge Carlos Fonseca"
+	picture = "Jorge_Carlos_Fonseca.dds"
+	ideology = liberalist
+}
+
+create_country_leader = {
+	name = "Janira Hopffer Almada"
+	picture = "Janira_Hopffer_Almada.dds"
+	ideology = social_democrat_ideology
 }

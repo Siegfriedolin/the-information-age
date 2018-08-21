@@ -1279,3 +1279,4 @@
  CULTURAL_GENERIC:0 "Cultural Generic"
  FE_IRONMAN:0 "Ironman"
  SM_VOICE_VOLUME:0 "Voice Volume"
+ SET_CAPITAL_TT:0 "§GClick§! to place your capital into the selected state.\n\n§YRequirements:§!\n- The state is §Gowned§! by you\n- The state is §Gcontrolled§! by you\n- The state is your §Gcore§!\n- You have §G500 Political Power§!"

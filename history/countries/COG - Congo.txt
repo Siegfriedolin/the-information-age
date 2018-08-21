@@ -1,6 +1,6 @@
 ﻿capital = 759
 
-oob = "CNR_2000"
+oob = "COG_2018"
 
 set_research_slots = 2
 set_convoys = 90
@@ -102,106 +102,48 @@ set_politics = {
 			popularity = 0
 		}
 		conservative = {
-			popularity = 10
+			popularity = 0
 		}
 		social_liberal = {
-			popularity = 30
+			popularity = 39.81
 		}
 		social_democrat = {
-			popularity = 5
+			popularity = 0
 		}
 		democratic_socialist = {
-			popularity = 45
+			popularity = 60.19
 		}
 		communist = {
-			popularity = 5
+			popularity = 0
 		}
 	}
 	
 	ruling_party = democratic_socialist
-	last_election = "1992.8.1"
-	election_frequency = 84
-	elections_allowed = no
+	last_election = "2016.3.20"
+	election_frequency = 60
+	elections_allowed = yes
 }
 
 create_country_leader = {
-	name = "Auguste-Célestin Gongarad Nkoua"
-	picture = "Auguste_Nkoua.dds"
+	name = "Denis Sassou Nguesso"
+	picture = "Denis_Sassou_Nguesso.dds"
 	ideology = democratic_socialist_ideology
 }
 
 create_country_leader = {
-	name = "Denis Sassou-Nguesso"
-	picture = "Denis_Nguesso.dds"
-	ideology = democratic_socialist_ideology
-}
-
-create_country_leader = {
-	name = "Joseph Kignoumbi Kia Mboungou"
-	picture = "Joseph_Mboungou.dds"
+	name = "Pascal Tsaty Mabiala"
+	picture = "Pascal_Tsaty_Mabiala.dds"
 	ideology = social_democrat_ideology
 }
 
 create_country_leader = {
 	name = "Guy Brice Parfait Kolélas"
-	picture = "Guy_Kolelas.dds"
+	picture = "Guy_Brice_Parfait_Kolelas.dds"
 	ideology = liberalist
-}
-
-create_country_leader = {
-	name = "André Milongo"
-	picture = "Andre_Milongo.dds"
-	ideology = constitutionalist
-}
-
-create_country_leader = {
-	name = "Jean-Pierre Thystère Tchicaya"
-	picture = "Jean_Tchicaya.dds"
-	ideology = progressive_ideology
 }
 
 create_corps_commander = {
 	name = "Guy Blanchard Okoi"
 	picture = "generals/Guy_Okoi.dds"
 	skill = 1
-}
-
-2009.7.12 = {
-	
-	set_politics = {
-
-		parties = {
-			conservative = {
-				popularity = 31
-			}
-			social_liberal = {
-				popularity = 2
-			}
-			social_democrat = {
-				popularity = 2
-			}
-			democratic_socialist = {
-				popularity = 50
-			}
-			communist = {
-				popularity = 15
-			}
-		}
-		
-		ruling_party = democratic_socialist
-		last_election = "2009.7.12"
-		election_frequency = 84
-		elections_allowed = yes
-	}
-
-	create_country_leader = {
-		name = "Pascal Tsaty-Mabiala"
-		picture = "Pascal_Mabiala.dds"
-		expire = "2020.1.1"
-		ideology = social_democrat_ideology
-		
-		traits = {
-		
-		}
-	}
 }

@@ -94,7 +94,7 @@ guiTypes = {
 		containerWindowType = {
 			name = "unsc_war_list_window"
 			position = { x = 25 y = 400 }
-			size = { width = 360 height = 240 }
+			size = { width = 350 height = 220 }
 	
 			background = {
 				name = "background"
@@ -104,14 +104,14 @@ guiTypes = {
 			
 			instantTextBoxType = {
 				name = "unsc_war_list"
-				position = { x = 43 y = 9 }
+				position = { x = 20 y = 13 }
 				font = "hoi_18mbs"
-				maxWidth = 270
-				maxHeight = 220
+				maxWidth = 300
+				maxHeight = 200
 				text = "UNSC_WAR_LIST"	
 				format = center
-				pdx_tooltip = "UNSC_WARLIST_DESC"
 				scrollbarType = standardtext_slider
+				pdx_tooltip = "UNSC_WARLIST_DESC"
 			}
 		}
 
@@ -149,7 +149,7 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "unsc_voting_ongoing_days_left"
-				position = { x = 50 y = 55 }
+				position = { x = 50 y = 70 }
 				font = "hoi_18mbs"
 				maxWidth = 270
 				maxHeight = 220
@@ -231,14 +231,33 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name ="trade_sanctions_title"
-			position = { x=135 y =134 }
+			position = { x=113 y =134 }
 			font = "hoi_24header"
-			text = "Trade Sanctions"
+			text = "Economic Sanctions"
 			format = left
 			maxWidth = 800
 			maxHeight = 30
 			fixedsize = no
 			pdx_tooltip = "UNSC_TRADE_SANCTIONS_TT"
+		}
+
+		buttonType = {
+			name = "security_risk_button"
+			spriteType = "GFX_generic_bg"
+			position = { x = 500 y = 120 }
+			pdx_tooltip = "UNSC_SECURITY_RISK_SANCTIONS_TT"
+		}
+
+		instantTextBoxType = {
+			name ="security_risk_title"
+			position = { x=485 y =134 }
+			font = "hoi_24header"
+			text = "Diplomatic Sanctions"
+			format = center
+			maxWidth = 300
+			maxHeight = 200
+			fixedsize = no
+			pdx_tooltip = "UNSC_SECURITY_RISK_SANCTIONS_TT"
 		}
 	}
 
@@ -258,6 +277,19 @@ guiTypes = {
 			spriteType = "GFX_UNSC_button"
 			position = { x = -4 y = -2 }
 			pdx_tooltip = "OPEN_CLOSE_UNSC_WINDOW"
+		}
+	}
+
+	containerWindowType = {
+		name = "set_capital_state_container"
+		position = { x = -2 y = 368 }
+		size = { width=480 height=29%% }
+
+		buttonType = {
+			name = "set_capital_button"
+			spriteType ="GFX_set_capital"
+			position = { x= 330 y = 50 }
+			pdx_tooltip = "SET_CAPITAL_TT"
 		}
 	}
 }

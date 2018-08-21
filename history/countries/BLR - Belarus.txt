@@ -1,6 +1,6 @@
 ﻿capital = 206
 
-oob = "BLR_2000"
+oob = "BLR_2018"
 
 set_research_slots = 3
 set_convoys = 10
@@ -93,31 +93,31 @@ set_politics = {
 	parties = {
 		
 		nationalist = {
-			popularity = 10
+			popularity = 0
 		}
 		reactionary = {
-			popularity = 30
+			popularity = 83.47
 		}
 		conservative = {
-			popularity = 20
+			popularity = 0
 		}
 		market_liberal = {
-			popularity = 5
+			popularity = 0
 		}
 		social_liberal = {
-			popularity = 5
+			popularity = 0
 		}
 		social_democrat = {
-			popularity = 10
+			popularity = 16.53
 		}
 		communist = {
-			popularity = 20
+			popularity = 0
 		}
 		
 	}
 	
 	ruling_party = reactionary
-	last_election = "1997.1.1"
+	last_election = "2015.10.11"
 	election_frequency = 60
 	elections_allowed = yes
 }
@@ -135,15 +135,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Vincuk Viacorka"
-	picture = "Vincuk_Viacorka.dds"
-	ideology = constitutionalist
-}
-
-create_country_leader = {
 	name = "Paval Sieviaryniets"
 	picture = "Paval_Sieviaryniets.dds"
-	ideology = libertarian
+	ideology = christian_democrat
 }
 
 create_country_leader = {
@@ -153,8 +147,8 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Alyaksandr Kazulin"
-	picture = "Alyaksandr_Kazulin.dds"
+	name = "Irina Veshtard"
+	picture = "Irina_Veshtard.dds"
 	ideology = social_democrat_ideology
 }
 
@@ -165,20 +159,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Vladimir Alexandrovich"
-	picture = "Vladimir_Alexandrovich.dds"
-	ideology = democratic_socialist_ideology
-}
-
-create_country_leader = {
 	name = "Igor Karpenko"
 	picture = "Igor_Karpenko.dds"
 	ideology = stalinist
-}
-
-add_namespace = {
-	name = "blr_unit_leader"
-	type = unit_leader
 }
 
 create_field_marshal = {

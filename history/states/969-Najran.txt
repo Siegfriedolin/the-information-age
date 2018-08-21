@@ -7,12 +7,14 @@ state={
 		owner = SAU
 		buildings = {
 			infrastructure = 2
+
 		}
 		add_core_of = SAU
+
 	}
 
 	provinces={
-		8030 12768 
+		8030 
 	}
 	manpower=505652
 	buildings_max_level_factor=1.000

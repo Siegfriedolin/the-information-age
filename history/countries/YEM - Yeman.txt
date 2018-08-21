@@ -101,29 +101,29 @@ set_politics = {
 	
 	parties = {
 		islamist = {
-			popularity = 23
+			popularity = 0
 		}
 		nationalist = {
-			popularity = 15
+			popularity = 0
 		}
 		reactionary = {
-			popularity = 30
+			popularity = 100
 		}
 		conservative = {
-			popularity = 7
+			popularity = 0
 		}
 		communist = {
-			popularity = 16
+			popularity = 0
 		}
 		social_liberal = {
-			popularity = 9
+			popularity = 0
 		}
 	}
 		
 	ruling_party = reactionary
 	last_election = "2012.2.21"
 	election_frequency = 72
-	elections_allowed = yes
+	elections_allowed = no
 }
 
 create_country_leader = {

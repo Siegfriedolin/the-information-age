@@ -4,7 +4,7 @@
  ####################
  government:0 "Government Policy"
  homosexual_rights:0 "Stance on Homosexuality"
- 
+
  ###Laws###
  #Homosexuality Laws
  homosexuality_persecuted:0 "Persecution"
@@ -304,8 +304,6 @@
  idea_eu_member_desc:0 "This country is a member of the European Union."
  idea_eu_sanctions:0 "EU Sanctions"
  idea_eu_sanctions_desc:0 "This country is target of coordinated economic and political sanctions by the member states of the European Union."
- idea_eu_sanctions2:0 "Severe EU Sanctions"
- idea_eu_sanctions2_desc:0 "This country is target of coordinated and strict economic, political and trade sanctions by the member states of the European Union."
  idea_focus_equal_workforce:0 "Equal Workforce"
  idea_focus_equal_workforce_desc:0 "This country has made significant efforts to get its female population into the national workforce and into all sorts of employment. This greatly benefits the economy, as it basically doubles the available manpower - or... womanpower."
  idea_focus_male_workforce:0 "Male Workforce"
@@ -661,7 +659,11 @@
  SOV_rouble_crisis_desc:0 "The Russian rouble value has decreased dramaticly thanks to our recent activities in Ukraine and Syria. The European Union has also placed sanctions on us for destabilizing Ukraine. This has reduced our ability to trade with the western markets."
  non_aligned_movement_member:0 "Non-Aligned Movement Member"
  non_aligned_movement_member_desc:0 "This country is a member of the Non-Aligned Movement."
+ nordic_council_member:0 "Nordic Council Member"
+ nordic_council_member_desc:0 "This country is a member of the Nordic Council."
  SOV_industrial_development_aid:0 "Industrial Development Aid"
  SOV_industrial_development_aid_desc:0 "The Russian Industrial Developmental Aid or IDA is focusing on growing industries and helping companies who aren't well off."
  EST_agricultural_subsidies:0 "Agricultural Subsidies"
  EST_communist_party_banned:0 "Communist Party Banned"
+ baltic_assembly_member:0 "Baltic Assembly"
+ baltic_assembly_member_desc:0 "This country is a member of the Baltic Assembly."

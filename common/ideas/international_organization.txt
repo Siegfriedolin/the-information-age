@@ -94,18 +94,6 @@ ideas = {
 			}
 		}
 		
-		idea_eu_sanctions2 = {
-			picture = embargo
-		
-			allowed = { always = no }
-			removal_cost = -1
-			
-			modifier = {
-				political_power_gain = -0.5
-				consumer_goods_factor = 0.1
-			}
-		}
-		
 		###		Visegrad		###
 		visegrad_group_member = {
 			picture = visegrad
@@ -152,5 +140,27 @@ ideas = {
 				ai_get_ally_desire_factor = -20
 			}
 		}
-	}
+		###     Nordic Council    ###
+	    nordic_council_member = {
+			picture = nordic_council
+			allowed = { always = no }
+			removal_cost = -1
+			modifier = {
+				industrial_capacity_factory = 0.15
+				production_factory_efficiency_gain_factor = 0.05
+				justify_war_goal_time = 0.10
+			}
+		}
+		###     Baltic Assembly     ###
+		baltic_assembly_member = {
+			picture = baltic_assembly
+			allowed = { always = no }
+			removal_cost = -1
+			modifier = {
+				industrial_capacity_factory = 0.15
+				production_factory_efficiency_gain_factor = 0.05
+				justify_war_goal_time = 0.10
+			}
+		}
+	}   
 }

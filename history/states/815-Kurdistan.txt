@@ -2,6 +2,7 @@
 state={
 	id=815
 	name="STATE_815"
+
 	history={
 		owner = KUR
 		victory_points = {
@@ -13,11 +14,13 @@ state={
 			infrastructure = 5
 			industrial_complex = 1
 			air_base = 2
+
 		}
+
 	}
 
 	provinces={
-		3916 5014 13351 13353 13354 
+		3916 5014 13351 13353 
 	}
 	manpower=2113391
 	buildings_max_level_factor=1.000

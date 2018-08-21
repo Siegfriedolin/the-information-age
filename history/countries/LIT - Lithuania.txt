@@ -98,8 +98,9 @@ set_technology = {
 add_ideas = {
 	population_growth_decline
 	limited_conscription
-	the_euro
 	idea_eu_member
+	the_euro
+        baltic_assembly_member
 }
 
 set_politics = {

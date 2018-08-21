@@ -1,6 +1,6 @@
 ﻿capital = 781
 
-oob = "RWA_2000"
+oob = "RWA_2018"
 
 set_research_slots = 2
 set_convoys = 10
@@ -85,6 +85,7 @@ add_ideas = {
 	population_growth_explosion
 	hutu_tutsi_tensions
 	african_union_member
+	commonwealth_of_nations_member
 	extensive_conscription
 	non_aligned_movement_member
 	neutrality_idea
@@ -97,36 +98,36 @@ set_politics = {
 			popularity = 1
 		}
 		nationalist = {
-			popularity = 50
+			popularity = 98.8
 		}
 		reactionary = {
-			popularity = 2
+			popularity = 0
 		}
 		conservative = {
-			popularity = 1
+			popularity = 0
 		}
 		market_liberal = {
-			popularity = 10
+			popularity = 0
 		}
 		social_liberal = {
-			popularity = 10
+			popularity = 0
 		}
 		social_democrat = {
-			popularity = 10
+			popularity = 0
 		}
 		progressive = {
-			popularity = 1
+			popularity = 1.2
 		}
 		democratic_socialist = {
-			popularity = 10
+			popularity = 0
 		}
 		communist = {
-			popularity = 1
+			popularity = 0
 		}
 	}
 	
 	ruling_party = nationalist
-	last_election = "1999.1.1"
+	last_election = "2017.8.4"
 	election_frequency = 84
 	elections_allowed = yes
 }
@@ -137,4 +138,8 @@ create_country_leader = {
 	ideology = autocrat
 }
 
-2009.1.1 = { add_ideas = { commonwealth_of_nations_member } }
+create_country_leader = {
+	name = "Frank Habineza"
+	picture = "Frank_Habineza.dds"
+	ideology = green
+}

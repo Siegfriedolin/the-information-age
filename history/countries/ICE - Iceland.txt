@@ -89,6 +89,7 @@ set_technology = {
 
 add_ideas = {
 	population_growth_stagnation
+        nordic_council_member
 	disarmed_nation
 }
 

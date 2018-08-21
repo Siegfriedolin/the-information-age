@@ -88,6 +88,11 @@ give_military_access = TUR
 give_military_access = JOR
 give_military_access = HTS
 
+add_opinion_modifier = {
+	target = ISR
+	modifier = death_to_israel
+}
+
 add_ideas = {
 	population_growth_rapid
 	service_by_requirement

@@ -1,24 +1,23 @@
 ﻿capital = 271
 
-oob = "ETH_2000"
+oob = "ETH_2018"
 
 set_research_slots = 2
 set_convoys = 10
 set_stability = 0.15
 
 set_country_flag = country_language_amharic
-
-#set_country_flag = country_language_oromifa
-#set_country_flag = country_language_somali
-#set_country_flag = country_language_tigrigna
-#set_country_flag = country_language_afar
-#set_country_flag = country_language_wolaytta
-#set_country_flag = country_language_sidama
-#set_country_flag = country_language_kunama
-#set_country_flag = country_language_benshangul
-#set_country_flag = country_language_gumuz
-#set_country_flag = country_language_english
-#set_country_flag = country_language_harari
+set_country_flag = country_language_oromifa
+set_country_flag = country_language_somali
+set_country_flag = country_language_tigrigna
+set_country_flag = country_language_afar
+set_country_flag = country_language_wolaytta
+set_country_flag = country_language_sidama
+set_country_flag = country_language_kunama
+set_country_flag = country_language_benshangul
+set_country_flag = country_language_gumuz
+set_country_flag = country_language_english
+set_country_flag = country_language_harari
 
 set_technology = {
 	infantry_weapons = 1
@@ -100,21 +99,21 @@ add_ideas = {
 set_politics = {
 
 	parties = {
-		islamist = { popularity = 1 }
+		islamist = { popularity = 0 }
 		fascist = { popularity = 0 }
-		nationalist = { popularity = 1 }
-		reactionary = { popularity = 1 }
-		conservative = { popularity = 15 }
-		market_liberal = { popularity = 1 }
-		social_liberal = { popularity = 11 }
-		social_democrat = { popularity = 6 }
-		progressive = { popularity = 2 }
-		democratic_socialist = { popularity = 35 }
-		communist = { popularity = 27 }
+		nationalist = { popularity = 0 }
+		reactionary = { popularity = 0 }
+		conservative = { popularity = 0 }
+		market_liberal = { popularity = 0 }
+		social_liberal = { popularity = 0 }
+		social_democrat = { popularity = 0 }
+		progressive = { popularity = 0 }
+		democratic_socialist = { popularity = 100 }
+		communist = { popularity = 0 }
 	}
 	
 	ruling_party = democratic_socialist
-	last_election = "1995.5.18"
+	last_election = "2015.5.24"
 	election_frequency = 60
 	elections_allowed = yes
 }
@@ -130,33 +129,27 @@ add_opinion_modifier = {
 }
 
 create_country_leader = {
-	name = "Abdifatah Sheikh Abdullahi"
-	picture = "Abdifatah_Abdullahi.dds"
+	name = "Hailemariam Desalegn"
+	picture = "Hailemariam_Desalegn.dds"
 	ideology = democratic_socialist_ideology
 }
 
 create_country_leader = {
-	name = "Meles Zenawi"
-	picture = "Meles_Zenawi.dds"
-	ideology = democratic_socialist_ideology
+	name = "Abiy Ahmed"
+	picture = "Abiy_Ahmed.dds"
+	ideology = leninist
 }
 
 create_country_leader = {
 	name = "Birtukan Mideksa"
 	picture = "Birtukan_Mideksa.dds"
-	ideology = liberalist
-}
-
-create_country_leader = {
-	name = "Hailu Shawul"
-	picture = "Hailu_Shawul.dds"
 	ideology = social_democrat_ideology
 }
 
 create_country_leader = {
 	name = "Dr. Chane Kebede"
 	picture = "Chane_Kebede.dds"
-	ideology = constitutionalist
+	ideology = libertarian
 }
 
 create_country_leader = {
@@ -175,53 +168,4 @@ create_corps_commander = {
 	name = "Samora Yunis"
 	picture = "generals/Samora_Yunis.dds"
 	skill = 1
-}
-
-2001.1.1 = {
-	complete_national_focus = ETH_invite_foreign_investors
-	complete_national_focus = ETH_invite_coca_cola
-	complete_national_focus = ETH_invite_karuturi_global
-	complete_national_focus = ETH_invite_lifan_industry
-	complete_national_focus = ETH_request_international_loans
-	complete_national_focus = ETH_homegrown_companies
-	
-	complete_national_focus = ETH_international_diplomacy
-	complete_national_focus = ETH_african_economic_relationships
-	complete_national_focus = ETH_request_chinese_investments
-	complete_national_focus = ETH_establish_connections_with_tongji
-	complete_national_focus = ETH_expand_the_diplomatic_corps
-	complete_national_focus = ETH_the_new_african_union_headquarters
-	
-	complete_national_focus = ETH_defense_of_ethiopia
-	
-	complete_national_focus = ETH_the_future_of_ethiopia
-	complete_national_focus = ETH_strengthen_the_republic
-	complete_national_focus = ETH_endorse_the_african_union
-}
-
-2015.5.24 = {
-	set_politics = {
-		parties = {
-			islamist = { popularity = 0 }
-			fascist = { popularity = 0 }
-			nationalist = { popularity = 0 }
-			reactionary = { popularity = 5 }
-			conservative = { popularity = 5 }
-			market_liberal = { popularity = 5 }
-			social_liberal = { popularity = 5 }
-			social_democrat = { popularity = 5 }
-			progressive = { popularity = 5 }
-			democratic_socialist = { popularity = 50 }
-			communist = { popularity = 20 }
-		}
-		ruling_party = democratic_socialist
-		last_election = "2015.5.24"
-		election_frequency = 60
-		elections_allowed = yes
-	}
-	create_country_leader = {
-		name = "Hailemariam Desalegn"
-		picture = "Hailemariam_Desalegn.dds"
-		ideology = leninist
-	}
 }

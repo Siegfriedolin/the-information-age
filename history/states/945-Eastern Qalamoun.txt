@@ -7,6 +7,7 @@ state={
 		owner = SYR
 		FSA = {
 			set_province_controller = 13367
+
 		}
 		add_core_of = SYR
 		add_core_of = FSA
@@ -16,7 +17,7 @@ state={
 	}
 
 	provinces={
-		13304 13305 13367 
+		13304 13305 
 	}
 	manpower=24219
 	buildings_max_level_factor=1.000

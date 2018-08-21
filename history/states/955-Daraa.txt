@@ -14,9 +14,6 @@ state={
 				bunker = 4
 			}
 		}
-		ISS = {
-			set_province_controller = 13297
-		}
 		SYR = {
 			set_province_controller = 13292
 		}

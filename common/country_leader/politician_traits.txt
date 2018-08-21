@@ -140,7 +140,7 @@ leader_traits = {
 		ai_will_do = { factor = 1 }
 	}
 
-	inexperienced_administrator = {
+	incompetent = {
 		sprite = 2
 		
 		political_power_factor = -0.05

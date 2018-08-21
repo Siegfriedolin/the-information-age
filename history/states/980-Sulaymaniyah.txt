@@ -1,7 +1,9 @@
+
 state={
 	id=980
 	name="STATE_980"
-		history={
+
+	history={
 		owner = KUR
 		victory_points = {
 			13348 3 
@@ -10,10 +12,13 @@ state={
 		add_core_of = KUR
 		buildings = {
 			infrastructure = 3
+
 		}
+
 	}
+
 	provinces={
-		13346 13348 13349 
+		13346 13348 13349 13354 
 	}
 	manpower=2021175
 	buildings_max_level_factor=1.000

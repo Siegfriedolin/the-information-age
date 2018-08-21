@@ -95,6 +95,7 @@ set_technology = {
 add_ideas = {
 	population_growth_stagnation
 	idea_eu_member
+        nordic_council_member
 	neutrality_idea
 }
 
@@ -137,6 +138,9 @@ create_country_leader = {
 	name = "Stefan Löfven"
 	picture = "Stefan_Lofven.dds"
 	ideology = social_democrat_ideology
+	traits = {
+		incompetent
+	}
 }
 
 create_country_leader = {
