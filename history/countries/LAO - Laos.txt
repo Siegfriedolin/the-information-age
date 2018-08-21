@@ -88,24 +88,23 @@ add_ideas = {
 set_politics = {
 
 	parties = {
-		
 		reactionary = {
-			popularity = 4
+			popularity = 0
 		}
 		social_democrat = {
 			popularity = 0
 		}
 		conservative = {
-			popularity = 9
+			popularity = 0
 		}
 		democratic_socialist = {
-			popularity = 9
+			popularity = 0
 		}
 		social_liberal = {
 			popularity = 0
 		}
 		communist = {
-			popularity = 96
+			popularity = 100
 		}
 	}
 	
