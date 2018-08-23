@@ -1921,7 +1921,7 @@
 1920;9;24;195;land;true;desert;7
 1921;9;26;236;sea;false;ocean;0
 1922;9;27;55;land;false;desert;7
-1923;9;27;160;land;true;desert;7
+1923;9;27;160;land;false;desert;7
 1924;9;27;244;sea;false;ocean;0
 1925;9;28;232;sea;false;ocean;0
 1926;9;29;240;sea;true;ocean;0
@@ -13303,7 +13303,7 @@
 13302;79;158;0;land;false;desert;0
 13303;128;155;158;land;false;desert;0
 13304;150;158;151;land;false;desert;0
-13305;137;158;155;land;false;desert;0
+13305;137;158;155;land;true;desert;0
 13306;157;224;162;land;false;desert;0
 13307;192;224;184;land;false;desert;0
 13308;133;140;106;land;false;desert;0

@@ -1,0 +1,32 @@
+
+state={
+	id=925
+	name="STATE_925"
+
+	history={
+		owner = SAU
+		add_core_of = SAU
+		victory_points = {
+			12883 20 
+		}
+		victory_points = {
+			5037 20 
+		}
+		buildings = {
+			infrastructure = 6
+			dockyard = 1
+			12883 = {
+				naval_base = 5
+
+			}
+		}
+
+	}
+
+	provinces={
+		2090 4981 5037 12883 13305 
+	}
+	manpower=8557766
+	buildings_max_level_factor=1.000
+	state_category=state_level_5
+}
