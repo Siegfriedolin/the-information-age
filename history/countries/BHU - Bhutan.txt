@@ -1,6 +1,6 @@
 ﻿capital = 324
 
-oob = "BHU_2000"
+oob = "BHU_2018"
 
 set_research_slots = 2
 set_convoys = 10
@@ -86,36 +86,19 @@ add_ideas = {
 set_politics = {
 
 	parties = {
-		reactionary = {
-			popularity = 20
-		}
-		conservative = {
-			popularity = 50
-		}
 		monarchist = {
-			popularity = 20
-		}
-		communist = {
-			popularity = 10
+			popularity = 100
 		}
 	}
 	
 	ruling_party = conservative
-	last_election = "1997.1.1"
+	last_election = "2018.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 create_country_leader = {
-	name = "Sangay Ngedup"
-	picture = "Sangay_Ngedup.dds"
+	name = "Jigme Khesar Namgyel Wangchuck"
+	picture = "Jigme_Khesar_Namgyel_Wangchuck.dds"
 	ideology = constitutional_monarchist
-}
-
-2016.1.1 = {
-	create_country_leader = {
-		name = "Tshering Tobgay"
-		picture = "Tshering_Tobgay.dds"
-		ideology = constitutional_monarchist
-	}
 }

@@ -1,6 +1,6 @@
 ﻿capital = 855
 
-oob = "LIC_2000"
+oob = "LIC_2018"
 
 set_research_slots = 1
 set_convoys = 1
@@ -89,40 +89,20 @@ set_country_flag = seeks_swiss_alliance
 set_politics = {
 
 	parties = {
-		conservative = {
-			popularity = 40
-		}
-		market_liberal = {
-			popularity = 30
-		}
-		social_democrat = {
-			popularity = 20
-		}
-		reactionary = {
-			popularity = 10
+		monarchist = {
+			popularity = 100
 		}
 	}
 	
-	ruling_party = conservative
-	last_election = "1998.9.20"
+	ruling_party = monarchist
+	last_election = "2018.1.1"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 
-2000.1.1 = {
-    create_country_leader = {
-		name = "Mario Frick"
-		ideology = fiscal_conservative
-		picture = "Mario_Frick.dds"
-    }
+create_country_leader = {
+	name = "Hans-Adam II"
+	picture = "Hans_Adam_II.dds"
+	ideology = constitutional_monarchist
 }
-
-2015.1.1 = {
-	create_country_leader = {
-		name = "Adrian Hasler"
-		ideology = fiscal_conservative
-		picture = "Adrian_Hasler.dds"
-    }
-}
-
 
