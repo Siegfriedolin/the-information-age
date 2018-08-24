@@ -146,7 +146,7 @@ ideas = {
 			allowed = { always = no }
 			removal_cost = -1
 			modifier = {
-				industrial_capacity_factory = 0.15
+				industrial_capacity_factory = 0.05
 				production_factory_efficiency_gain_factor = 0.05
 				justify_war_goal_time = 0.10
 			}
@@ -157,7 +157,7 @@ ideas = {
 			allowed = { always = no }
 			removal_cost = -1
 			modifier = {
-				industrial_capacity_factory = 0.15
+				industrial_capacity_factory = 0.05
 				production_factory_efficiency_gain_factor = 0.05
 				justify_war_goal_time = 0.10
 			}
