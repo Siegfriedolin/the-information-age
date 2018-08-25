@@ -1,6 +1,6 @@
 ﻿capital = 459
 
-oob = "ALG_2000"
+oob = "ALG_2018"
 
 set_research_slots = 3
 set_convoys = 300
@@ -109,28 +109,28 @@ set_politics = {
 
 	parties = {
 		islamist = {
-			popularity = 15
+			popularity = 18.47
 		}
 		nationalist = {
-			popularity = 15
+			popularity = 0
 		}
 		conservative = {
-			popularity = 16
+			popularity = 0
 		} 
 		social_liberal = {
-			popularity = 4
+			popularity = 0
 		}
 		democratic_socialist = {
-			popularity = 45
+			popularity = 81.53
 		}
 		communist = {
-			popularity = 5
+			popularity = 0
 		}
 	}
 	
 	ruling_party = democratic_socialist
-	last_election = "1997.1.1"
-	election_frequency = 48
+	last_election = "2014.4.17"
+	election_frequency = 60
 	elections_allowed = yes
 }
 
@@ -140,33 +140,27 @@ add_opinion_modifier = {
 }
 
 create_country_leader = {
-	name = "Abdelaziz Buteflika"
-	ideology = democratic_socialist_ideology
+	name = "Abdelaziz Bouteflika"
 	picture = "Abdelaziz_Bouteflika.dds"
+	ideology = democratic_socialist_ideology
 }
 
 create_country_leader = {
-	name = "Saad Abdallah Djaballah"
-	ideology = salafism
+	name = "Abdallah Djaballah"
 	picture = "Abdallah_Djaballah.dds"
+	ideology = counter_progressive_democrat
 }
 
 create_country_leader = {
 	name = "Moussa Touati"
-	ideology = fiscal_conservative
 	picture = "Moussa_Touati.dds"
-}
-
-create_country_leader = {
-	name = "Bouguerra Soltani"
-	ideology = counter_progressive_democrat
-	picture = "Bouguerra_Soltani.dds"
+	ideology = fiscal_conservative
 }
 
 create_country_leader = {
 	name = "Amara Benyounès"
-	ideology = social_democrat_ideology
 	picture = "Amara_Benyounes.dds"
+	ideology = social_democrat_ideology
 }
 
 create_country_leader = {
@@ -174,22 +168,17 @@ create_country_leader = {
 	ideology = marxist
 	picture = "Louisa_Hanoune.dds"
 }
+
 create_country_leader = {
 	name = "Ahmed Ouyahia"
 	picture = "Ahmed_Ouyahia.dds"
 	ideology = libertarian
 }
-	
-create_country_leader = {
-	name = "Redha Malek"
-	ideology = national_democrat
-	picture = "Redha_Malek.dds"
-}
 
 create_country_leader = {
 	name = "Abderrazak Makri"
-	ideology = counter_progressive_democrat
 	picture = "Abderrazak_Makrii.dds"
+	ideology = sunni_islamist
 }
 
 create_country_leader = {
@@ -199,22 +188,15 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Saïd Sadi"
-	picture = "Said_Sadi.dds"
-	ideology = liberalist
+	name = "Mohcine Belabbas"
+	picture = "Mohcine_Belabbas.dds"
+    ideology = liberalist
 }
 
 create_country_leader = {
 	name = "Tahar Benbaïbeche"
 	picture = "Tahar_Benbaibeche.dds"
 	ideology = national_socialist
-}
-
-
-create_country_leader = {
-	name = "Khaldoon Makki Al-Hassani"
-	ideology = absolute_monarchist
-	picture = "Khaldoon.dds"
 }
 
 create_corps_commander = { 
@@ -250,19 +232,3 @@ create_navy_leader  = {
 	traits = { blockade_runner }
 	skill = 1
 } 
-
-2005.7.17 = {
-    create_country_leader = {
-	name = "Mohcine Belabbas"
-	picture = "Mohcine_Belabbas.dds"
-	ideology = liberalist
-}
-
-create_equipment_variant = {
-	name = "Koni class"
-	type = frigate_2
-	parent_version = 0
-	upgrades = {
-		ship_torpedo_upgrade = 1
-	}
-}
