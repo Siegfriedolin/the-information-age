@@ -109,6 +109,43 @@ country_event = {
 			}
 			country_event = usa.70
 		}
+		if = {
+			limit = {
+                OR = {
+				    AND = {
+					    country_exists = SYR
+						NOT = { country_exists = FSA }
+						NOT = { country_exists = HTS }
+						NOT = { country_exists = ISS }
+					}
+					AND = {
+					    country_exists = FSA
+						NOT = { country_exists = SYR }
+						NOT = { country_exists = HTS }
+						NOT = { country_exists = ISS }
+					}
+					AND = {
+					    country_exists = HTS
+						NOT = { country_exists = FSA }
+						NOT = { country_exists = SYR }
+						NOT = { country_exists = ISS }
+					}
+					AND = {
+					    country_exists = ISS
+						NOT = { country_exists = FSA }
+						NOT = { country_exists = HTS }
+						NOT = { country_exists = SYR }
+					}
+					AND = {
+					    country_exists = FSA
+					    country_exists = HTS
+						NOT = { country_exists = SYR }
+						NOT = { country_exists = ISS }
+					}
+				}
+			}
+			country_event = syria.1
+		}
 	}
 }
 

@@ -12,7 +12,7 @@ ctjf_oir_strategy = {
 		}
     }
 	abort = {
-	    has_global_flag = syrian_civil_war_over
+	    NOT = { country_exists = ISS }
     } 
     ai_strategy = {
         type = send_volunteers_desire
@@ -238,11 +238,6 @@ unify_syria_assad_strategy = {
 	ai_strategy = {
         type = invade
         id = "ROJ"
-        value = 200
-    }
-	ai_strategy = {
-        type = invade
-        id = "SYR"
         value = 200
     }
 	ai_strategy = {

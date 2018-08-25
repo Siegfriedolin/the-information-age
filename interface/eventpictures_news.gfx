@@ -809,5 +809,10 @@ spriteTypes = {
 	   name = "GFX_news_event_eurovision_2018"
 	   texturefile = "gfx/event_pictures/news_event/eurovision/eurovision_2018.dds"
 	}
+	
+	spriteType = {
+		name = "GFX_news_event_syrian_war_over"
+		texturefile = "gfx/event_pictures/news_event/syria/syrian_war_over.dds"
+	}
 
 }
