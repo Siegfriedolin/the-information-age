@@ -1,6 +1,6 @@
 ﻿capital = 336
 
-oob = "SIG_2000"
+oob = "SIG_2018"
 
 set_research_slots = 5
 set_convoys = 470
@@ -102,43 +102,34 @@ add_ideas = {
 set_politics = {
 
 	parties = {
-		
-		nationalist = {
-			popularity = 5
+		reactionary = {
+			popularity = 100
 		}
 		conservative = {
-			popularity = 57
+			popularity = 0
 		}
 		social_liberal = {
-			popularity = 5
+			popularity = 0
 		}
 		social_democrat = {
-			popularity = 29
+			popularity = 0
 		}
 		democratic_socialist = {
-			popularity = 2
+			popularity = 0
 		}
 		communist = {
-			popularity = 2
+			popularity = 0
 		}
 	}
 	
-	ruling_party = conservative
-	last_election = "1999.9.1"
-	election_frequency = 60
+	ruling_party = reactionary
+	last_election = "2017.9.13"
+	election_frequency = 72
 	elections_allowed = yes
 }
 
 create_country_leader = {
-	name = "Sellapan Ramanathan"
-	picture = "Sellapan_Ramanathan.dds"
-	ideology = constitutionalist
-}
-
-2016.1.1 = {
-	create_country_leader = {
-		name = "Halimah Yacob"
-		picture = "Halimah_Yacob.dds"
-		ideology = constitutionalist
-	}
+	name = "Halimah Yacob"
+	picture = "Halimah_Yacob.dds"
+	ideology = independent
 }

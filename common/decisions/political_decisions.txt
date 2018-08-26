@@ -17,7 +17,7 @@ executive_policy = {
 		days_re_enable = 365
 		
 		complete_effect = {
-			ROOT = { country_event = election.1 }
+			hold_election = ROOT
 		}
 		
 		ai_will_do = {
