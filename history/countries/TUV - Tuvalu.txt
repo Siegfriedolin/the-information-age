@@ -94,58 +94,19 @@ add_ideas = {
 set_politics = {
 
 	parties = {
-		conservative = {
-			popularity = 25
-		}
-		market_liberal = {
-			popularity = 15
-		}
-		social_liberal = {
-			popularity = 30
-		}
-		social_democrat = {
-			popularity = 10
-		}
-		progressive = {
-			popularity = 10
-		}
-		democratic_socialist = {
-			popularity = 10
+		reactionary = {
+			popularity = 100
 		}
 	}
 	
-	ruling_party = social_liberal
-	last_election = "1997.1.1"
+	ruling_party = reactionary
+	last_election = "2018.1.1"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 
 create_country_leader = {
-	name = "Sir Tomasi Puapua"
-	picture = "Sir_Tomasi_Puapua.dds"
-	ideology = moderate
-}
-
-2003.9.9 = {
-	create_country_leader = {
-		name = "Faimalaga Luka"
-		picture = "Faimalaga_Luka.dds"
-		ideology = moderate
-	}	
-}
-
-2005.4.15 = {
-	create_country_leader = {
-		name = "Sir Filoimea Telito"
-		picture = "Sir_Filoimea_Telito.dds"
-		ideology = moderate
-	}
-}
-
-2010.4.16 = {
-	create_country_leader = {
-		name = "Sir Iakoba Italeli"
-		picture = "Sir_Iakoba_Italeli.dds"
-		ideology = moderate
-	}
+	name = "Enele Sopoaga"
+	picture = "Enele_Sopoaga.dds"
+	ideology = independent
 }

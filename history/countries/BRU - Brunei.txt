@@ -1,6 +1,6 @@
 ﻿capital = 834
 
-oob = "BRU_2000"
+oob = "BRU_2018"
 
 set_research_slots = 3
 set_convoys = 30
@@ -98,27 +98,18 @@ set_politics = {
 
 	parties = {
 		monarchist = {
-			popularity = 57
-		}
-		islamist = {
-			popularity = 19
-		}
-		conservative = {
-			popularity = 18
-		}
-		democratic_socialist = {
-			popularity = 6
+			popularity = 100
 		}
 	}
 	
 	ruling_party = monarchist
-	last_election = "1967.10.4"
+	last_election = "2018.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 create_country_leader = {
-	name = "Sultan Hassanal Bolkiah"
+	name = "Hassanal Bolkiah"
 	picture = "Hassanal_Bolkiah.dds"
 	ideology = absolute_monarchist
 }

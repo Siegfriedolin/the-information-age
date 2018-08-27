@@ -1,15 +1,10 @@
 ﻿capital = 540
 
-oob = "ANG_2000"
+oob = "ANG_2018"
 
 set_research_slots = 2
 set_convoys = 85
 set_stability = 0.4
-
-add_namespace = {
-	name = "ang_unit_leader"
-	type = unit_leader
-}
 
 set_country_flag = country_language_portuguese
 
@@ -109,45 +104,39 @@ add_ideas = {
 set_politics = {
 
 	parties = {
-		social_democrat = {
-			popularity = 34
+		democratic_socialist = {
+			popularity = 61.1
 		}	
 		conservative = {
-			popularity = 30
+			popularity = 26.7
 		}
-		social_liberal = {
-			popularity = 15
-		}
-		nationalist = {
-			popularity = 6
-		}
-		communist = {
-			popularity = 15
+		social_democrat = {
+			popularity = 12.2
 		}
 	}
 	
-	ruling_party = conservative
-	last_election = "1997.1.1"
-	election_frequency = 48
+	ruling_party = democratic_socialist
+	last_election = "2017.8.23"
+	election_frequency = 60
 	elections_allowed = yes
 }
 
 create_country_leader = {
-	name = "José Eduardo dos Santos"
-	picture = "Jose_Eduardo_dos_Santos.dds"
+	name = "João Lourenço"
+	picture = "Joao_Lourenco.dds"
+	ideology = democratic_socialist_ideology
+}
+
+create_country_leader = {
+	name = "Isaías Samakuva"
+	picture = "Isaias_Samakuva.dds"
+	ideology = christian_democrat
+}
+
+create_country_leader = {
+	name = "Abel Chivukuvuku"
+	picture = "Abel_Chivukuvuku.dds"
 	ideology = social_democrat_ideology
-}
-
-create_country_leader = {
-	name = "Jonas Savimbi"
-	picture = "Jonas_Savimbi.dds"
-	ideology = fiscal_conservative
-}
-
-create_country_leader = {
-	name = "Holden Roberto"
-	picture = "Holden_Roberto.dds"
-	ideology = national_democrat
 }
 
 create_field_marshal = {
@@ -225,20 +214,4 @@ create_navy_leader = {
 	picture = "admirals/Augusto_da_Silva.dds"
 	traits = { old_guard_navy }
 	skill = 2
-}
-
-2002.2.22 = {
-	create_country_leader = {
-		name = "Isaías Samakuva"
-		picture = "Isaias_Samakuva.dds"
-		ideology = fiscal_conservative
-	}
-}
-
-2007.8.2 = {
-	create_country_leader = {
-		name = "Ngola Kabangu"
-		picture = "Ngola_Kabangu.dds"
-		ideology = national_democrat
-	}
 }
