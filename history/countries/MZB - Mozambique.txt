@@ -1,6 +1,6 @@
 ﻿capital = 544
 
-oob = "MOZ_2000"
+oob = "MZB_2018"
 
 set_research_slots = 2
 set_convoys = 120
@@ -97,42 +97,27 @@ add_ideas = {
 set_politics = {
 
 	parties = {
-		fascist = {
-			popularity = 1
-		}
-		nationalist = {
-			popularity = 1
-		}
 		reactionary = {
-			popularity = 37
+			popularity = 36.61
 		}
 		conservative = {
-			popularity = 4
-		}
-		market_liberal = {
-			popularity = 2
-		}
-		social_liberal = {
-			popularity = 3
-		}
-		social_democrat = {
-			popularity = 3
+			popularity = 6.36
 		}
 		democratic_socialist = {
-			popularity = 49
+			popularity = 57.03
 		}
 
 	}
 	
 	ruling_party = democratic_socialist
-	last_election = "1999.12.5"
+	last_election = "2014.10.15"
 	election_frequency = 60
 	elections_allowed = yes
 }
 
 create_country_leader = {
-	name = "Joaquim Chissano"
-	picture = "Joaquim_Chissano.dds"
+	name = "Felipe Nyusi"
+	picture = "Felipe_Nyusi.dds"
 	ideology = democratic_socialist_ideology
 }
 
@@ -143,69 +128,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Raul Domingos"
-	picture = "Raul_Domingos.dds"
-	ideology = moderate
-}
-
-create_country_leader = {
 	name = "Daviz Simango"
 	picture = "Daviz_Simango.dds"
 	ideology = christian_democrat
-}
-
-create_country_leader = {
-	name = "Armando Sapembe"
-	ideology = green
-}
-
-create_country_leader = {
-	name = "Casimiro Nhamithambo"
-	ideology = social_democrat_ideology
-}
-
-create_corps_commander = {
-	name = "Graca Chongo"
-	picture = "generals/Graca_Chongo.dds"
-	skill = 1
-}
-
-
-2014.10.15 = {
-	set_politics = {
-		parties = {
-			fascist = {
-				popularity = 1
-			}
-			nationalist = {
-				popularity = 1
-			}
-			reactionary = {
-				popularity = 32
-			}
-			conservative = {
-				popularity = 8
-			}
-			social_liberal = {
-				popularity = 1
-			}
-			social_democrat = {
-				popularity = 1
-			}
-			democratic_socialist = {
-				popularity = 56
-			}
-
-		}
-		
-		ruling_party = democratic_socialist
-		last_election = "2014.10.15"
-		election_frequency = 60
-		elections_allowed = yes
-	}
-	create_country_leader = {
-		name = "Felipe Nyusi"
-		picture = "Felipe_Nyusi.dds"
-		ideology = democratic_socialist_ideology
-	}
 }
