@@ -177,6 +177,7 @@ focus_tree = {    ### Made by CMDR Voltages ###
 		available_if_capitulated = yes
 		
 		prerequisite = {
+		    focus = EST_baltic_stability
 		}
 		
 		mutually_exclusive = {}
@@ -205,6 +206,7 @@ focus_tree = {    ### Made by CMDR Voltages ###
 		available_if_capitulated = yes
 		
 		prerequisite = {
+		    focus = EST_baltic_stability
 		}
 		
 		mutually_exclusive = {}
