@@ -99,7 +99,9 @@ objectTypes = {
 		animation = { id = "still"			type = "bicycle_vehicle_still_animation" }
 	}
 
-
+################
+# nichs stuff  #
+################
 
 	
 }
