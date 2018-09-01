@@ -1,6 +1,6 @@
 ﻿capital = 639
 
-oob = "KIR_2000"
+oob = "KIR_2018"
 
 set_research_slots = 2
 set_convoys = 80
@@ -95,41 +95,19 @@ add_ideas = {
 set_politics = {
 
 	parties = {
-		conservative = {
-			popularity = 40
-		}
 		social_liberal = {
-			popularity = 20
-		}
-		democratic_socialist = {
-			popularity = 40
+			popularity = 100
 		}
 	}
 	
-	ruling_party = conservative
-	last_election = "1997.1.1"
+	ruling_party = social_liberal
+	last_election = "2016.3.9"
 	election_frequency = 48
 	elections_allowed = yes
 }
 
 create_country_leader = {
-	name = "Teburoro Tito"
-	picture = "Teburoro_Tito.dds"
-	ideology = christian_democrat
-}
-
-2003.1.1 = {
-	create_country_leader = {
-		name = "Anote Tong"
-		picture = "Anote_Tong.dds"
-		ideology = christian_democrat
-	}	
-}
-
-2016.1.1 = {
-		create_country_leader = {
-		name = "Taneti Mamau"
-		picture = "Taneti_Mamau.dds"
-		ideology = christian_democrat
-	}
+	name = "Taneti Mamau"
+	picture = "Taneti_Mamau.dds"
+	ideology = centrist
 }
