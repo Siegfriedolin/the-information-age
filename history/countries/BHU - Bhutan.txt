@@ -91,7 +91,7 @@ set_politics = {
 		}
 	}
 	
-	ruling_party = conservative
+	ruling_party = monarchist
 	last_election = "2018.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -100,5 +100,5 @@ set_politics = {
 create_country_leader = {
 	name = "Jigme Khesar Namgyel Wangchuck"
 	picture = "Jigme_Khesar_Namgyel_Wangchuck.dds"
-	ideology = constitutional_monarchist
+	ideology = absolute_monarchist
 }

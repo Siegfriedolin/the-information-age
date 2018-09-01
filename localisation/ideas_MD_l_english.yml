@@ -74,7 +74,7 @@
  population_growth_stagnation_desc:0 "This country's population growth is close to, but not quite zero. The country leadership is thinking about enacting special policies or loosen immigration laws to work against this trend."
  population_growth_decline:0 "Negative Birth Rate"
  population_growth_decline_desc:0 "This country's population is declining, meaning that more people grow old while fewer are born. This is a great strain on workforce and taxation. The country is in desperate strategic need of internal policies or external immigration to resolve this crisis."
- partially_recognized_state:0 "Partially Recognized State"
+ partially_recognized_state:0 "Unrecognized State"
  partially_recognized_state_desc:0 "This country has little to no international recognition, making it hard to take meaningful international action."
  ###########
  ###Ideas###
@@ -665,5 +665,5 @@
  SOV_industrial_development_aid_desc:0 "The Russian Industrial Developmental Aid or IDA is focusing on growing industries and helping companies who aren't well off."
  EST_agricultural_subsidies:0 "Agricultural Subsidies"
  EST_communist_party_banned:0 "Communist Party Banned"
- baltic_assembly_member:0 "Baltic Assembly"
+ baltic_assembly_member:0 "Baltic Assembly Member"
  baltic_assembly_member_desc:0 "This country is a member of the Baltic Assembly."

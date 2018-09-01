@@ -1,6 +1,6 @@
 ﻿capital = 297
 
-oob = "EQU_2000"
+oob = "EQU_2018"
 
 set_research_slots = 2
 set_convoys = 75
@@ -94,43 +94,24 @@ add_ideas = {
 	non_aligned_movement_member
 }
 
+add_timed_idea = { idea = idea_united_nations_NP_security_council_member days = 730 }
+
 set_politics = {
 
 	parties = {
-		islamist = {
-			popularity = 1
-		}
 		nationalist = {
-			popularity = 35
-		}
-		market_liberal = {
-			popularity = 2
-		}
-		social_liberal = {
-			popularity = 25
-		}
-		social_democrat = {
-			popularity = 3
-		}
-		progressive = {
-			popularity = 1
-		}
-		democratic_socialist = {
-			popularity = 3
-		}
-		communist = {
-			popularity = 20
+			popularity = 100
 		}
 	}
 	
 	ruling_party = nationalist
-	last_election = "1997.1.1"
+	last_election = "2018.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 create_country_leader = {
-	name = "Teodoro Obiang"
+	name = "Teodoro Obiang Nguema Mbasogo"
+	picture = "Teodoro_Obiang_Nguema_Mbasogo.dds"
 	ideology = autocrat
-	picture = "Teodoro_Obiang.dds"
 }

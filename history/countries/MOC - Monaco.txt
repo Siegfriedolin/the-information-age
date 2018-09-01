@@ -1,6 +1,6 @@
 ﻿capital = 853
 
-oob = "MOC_2000"
+oob = "MOC_2018"
 
 set_research_slots = 1
 set_convoys = 85
@@ -89,35 +89,22 @@ set_technology = {
 
 add_ideas = {
 	population_growth_stagnation
+	the_euro
 	neutrality_idea
 }
 
 set_politics = {
 	parties = {
-		social_liberal = { popularity = 41 }
-		conservative = { popularity = 31 }
-		market_liberal = { popularity = 19 }
-		progressive = { popularity = 8 }
-		democratic_socialist = { popularity = 1 }
+		monarchist = { popularity = 100 }
 	}
-	ruling_party = social_liberal
-	last_election = "1998.9.20"
+	ruling_party = monarchist
+	last_election = "2018.1.1"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 
 create_country_leader = {
-	name = "Patrick Leclercq"
-	ideology = centrist
-	picture = "Patrick_Leclercq.dds"
-}
-
-2002.1.1 = { add_ideas = the_euro }
-
-2015.1.1 = {
-	create_country_leader = {
-		name = "Serge Telle"
-		ideology = centrist
-		picture = "Serge_Telle.dds"
-	}
+	name = "Albert II"
+	picture = "Albert_II.dds"
+	ideology = absolute_monarchist
 }
