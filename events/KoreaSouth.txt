@@ -103,3 +103,19 @@ news_event = {
 		}
 	}
 }
+
+news_event = {
+	id = south_korea_news.2
+	title = south_korea_news.2.t
+	desc = south_korea_news.2.d
+	picture = GFX_news_event_south_korea_peace
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = south_korea_news.2.o1
+	}
+	
+}

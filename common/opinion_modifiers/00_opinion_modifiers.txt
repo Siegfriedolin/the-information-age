@@ -99,6 +99,16 @@ opinion_modifiers = {
 		value = 5
 	}
 	
+	tolerance = {
+		value = 30
+	}
+	
+	summit = {
+	value = 50
+	months = 12
+	decay = 1
+	}
+	
 	different_party_types = {
 		value = 0
 	}

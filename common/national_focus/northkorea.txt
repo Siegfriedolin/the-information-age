@@ -92,7 +92,7 @@ focus_tree = {
 		y = 3
 		cost = 5
 		prerequisite = { focus = PRK_Look_Supporters }
-		mutually_exclusive = { focus = PRK_American_Support }
+		mutually_exclusive = { focus = PRK_NATO_Support }
 		
 		completion_reward = {
 		    add_stability = 0.04
@@ -123,13 +123,13 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = PRK_American_Support
-		icon = align_to_america
+		id = PRK_NATO_Support
+		icon = align_to_nato
 		x = 9
 		y = 3
 		cost = 5
 		prerequisite = { focus = PRK_Look_Supporters }
-	    mutually_exclusive = { focus = PRK_Chinese_Support }
+	    mutually_exclusive = { focus = PRK_NATO_Support }
 		
 		completion_reward = {
 		    add_stability = 0.04
@@ -147,7 +147,7 @@ focus_tree = {
 		x = 9
 		y = 4
 		cost = 5
-		prerequisite = { focus = PRK_American_Support }
+		prerequisite = { focus = PRK_NATO_Support }
 		
 		completion_reward = {
 		    add_stability = -0.02
@@ -338,7 +338,7 @@ focus_tree = {
 	
 	focus = {
 		id = PRK_Depose_the_Kims
-		icon = deposekimjong
+		icon = deposekim
 		x = 9
 		y = 11
 		cost = 5
@@ -401,7 +401,7 @@ focus_tree = {
 	
 	focus = {
 		id = PRK_Reapproach_the_US
-		icon = align_to_america2
+		icon = align_to_america
 		x = 9
 		y = 13
 		cost = 5
@@ -429,11 +429,16 @@ focus_tree = {
 		x = 11
 		y = 13
 		cost = 5
-		prerequisite = { focus = PRK_Coup_Recovery }
+		prerequisite = { focus = PRK_Coup_Recovery 
+		focus = PRK_denuclearization_deals
+		}
+		mutually_exclusive = {
+		focus = PRK_delay_our_actions
+		}
 		
 		completion_reward = {
 		add_stability = 0.05
-		add_threat = -20	
+		add_threat = -9.8	
 		remove_ideas = idea_PRK_embargo
 		}
 		ai_will_do = {
@@ -792,6 +797,200 @@ focus_tree = {
 
 		completion_reward = {
 		add_war_support = 0.01
+		}
+		ai_will_do = {
+			factor = 35
+		}
+	}
+	
+	focus = {
+		id = PRK_Status_Quo
+		icon = neutrality
+		x = 15
+		y = 8
+		cost = 5
+	    prerequisite = { focus = PRK_Prepare_for_War }
+	    prerequisite = { focus = PRK_Continue_the_Nuclear_Program }
+	    prerequisite = { focus = PRK_Finish_Fortifications }
+		mutually_exclusive = { focus = PRK_DMZ_Incident }
+
+		completion_reward = {
+		add_war_support = -0.02
+		add_political_power = 50
+		}
+		ai_will_do = {
+			factor = 35
+		}
+	}
+	
+	focus = {
+		id = PRK_avert_mutually_assured_destruction
+		icon = molotov_ribbentrop_pact
+		x = 16
+		y = 9
+		cost = 5
+	    prerequisite = { focus = PRK_Status_Quo }
+
+		completion_reward = {
+		add_political_power = -5
+		add_stability = 0.01
+		USA = { add_opinion_modifier = { target = PRK modifier = tolerance } }
+		PRK = { add_opinion_modifier = { target = USA modifier = tolerance } }
+		}
+		ai_will_do = {
+			factor = 35
+		}
+	}
+	
+	focus = {
+		id = PRK_meet_with_china
+		icon = align_to_china2
+		x = 14
+		y = 9
+		cost = 5
+	    prerequisite = { focus = PRK_Status_Quo }
+
+		completion_reward = {
+		add_political_power = 35
+		PRK = { add_opinion_modifier = { target = CHI modifier = state_visit } }
+		CHI = { add_opinion_modifier = { target = PRK modifier = state_visit } }
+		}
+		ai_will_do = {
+			factor = 35
+		}
+	}
+	
+	focus = {
+		id = PRK_inter_korean_summit
+		icon = align_to_south_korea2
+		x = 14
+		y = 10
+		cost = 5
+	    prerequisite = { focus = PRK_meet_with_china }
+        prerequisite = { focus = PRK_avert_mutually_assured_destruction }
+		completion_reward = {
+		add_stability = 0.01
+		add_political_power = 15
+		KOR = { add_opinion_modifier = { target = PRK modifier = tolerance } }
+		PRK = { add_opinion_modifier = { target = KOR modifier = tolerance } }
+		}
+		ai_will_do = {
+			factor = 35
+		}
+	}
+	
+	focus = {
+		id = PRK_restabilish_diplomatic_and_commercial_relations
+		icon = trade_with_america
+		x = 16
+		y = 10
+		cost = 5
+	    prerequisite = { focus = PRK_meet_with_china }
+        prerequisite = { focus = PRK_avert_mutually_assured_destruction }
+
+		completion_reward = {
+		add_political_power = 15
+		PRK = { add_opinion_modifier = { target = USA modifier = trade_influence_1 } }
+		USA = { add_opinion_modifier = { target = PRK modifier = trade_influence_1 } }
+		}
+		ai_will_do = {
+			factor = 35
+		}
+	}
+	
+	focus = {
+		id = PRK_singapore_summit
+		icon = align_to_america2
+		x = 15
+		y = 11
+		cost = 5
+	    prerequisite = { focus = PRK_restabilish_diplomatic_and_commercial_relations }
+        prerequisite = { focus = PRK_inter_korean_summit }
+		completion_reward = {
+		add_political_power = 15
+		PRK = { add_opinion_modifier = { target = USA modifier = summit } }
+		USA = { add_opinion_modifier = { target = PRK modifier = summit } }
+		}
+		ai_will_do = {
+			factor = 35
+		}
+	}
+	
+	focus = {
+		id = PRK_denuclearization_deals
+		icon = dangerous_deal
+		x = 14
+		y = 12
+		cost = 5
+	    prerequisite = { focus = PRK_singapore_summit }
+
+		completion_reward = {
+		add_political_power = 15
+		PRK = { add_opinion_modifier = { target = USA modifier = summit } }
+		USA = { add_opinion_modifier = { target = PRK modifier = summit } }
+		}
+		ai_will_do = {
+			factor = 35
+		}
+	}
+	
+	focus = {
+		id = PRK_delay_our_actions
+		icon = libertarianism
+		x = 14
+		y = 13
+		cost = 5
+	    prerequisite = { focus = PRK_denuclearization_deals }
+		mutually_exclusive = {
+		focus = PRK_End_Nuclear_Program
+		}
+
+		completion_reward = {
+		add_political_power = -55
+		add_war_support = 0.01
+		}
+		ai_will_do = {
+			factor = 35
+		}
+	}
+	
+	focus = {
+		id = PRK_end_the_korean_war
+		icon = renounce_treaty2
+		x = 16
+		y = 12
+		cost = 5
+	    prerequisite = { focus = PRK_singapore_summit }
+		
+		completion_reward = {
+		remove_opinion_modifier = { target = KOR modifier = rival }
+		add_opinion_modifier = { target = KOR modifier = distrust }
+		KOR = {
+		remove_opinion_modifier = { target = PRK modifier = rival }
+		add_opinion_modifier = { target = PRK modifier = distrust }
+		}
+		every_country = {
+		news_event = south_korea_news.2
+		}
+		}
+		ai_will_do = {
+			factor = 35
+		}
+	}
+	
+	focus = {
+		id = PRK_inter_korean_repatriation
+		icon = national_unity
+		x = 16
+		y = 13
+		cost = 5
+	    prerequisite = { focus = PRK_end_the_korean_war }
+		
+		completion_reward = {
+		add_manpower = 5000
+		KOR = {
+		add_manpower = 5000
+		}
 		}
 		ai_will_do = {
 			factor = 35
