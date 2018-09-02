@@ -1,6 +1,6 @@
 ﻿capital = 546
 
-oob = "TNZ_2000"
+oob = "TNZ_2018"
 
 set_research_slots = 3
 set_convoys = 300
@@ -98,81 +98,48 @@ add_ideas = {
 set_politics = {
 
 	parties = {
-	islamist = {
-	popularity = 0
-	}
-	fascist = {
-	popularity = 0
-	}
-	nationalist = {
-	popularity = 0
-	}
-	reactionary = {
-	popularity = 0
-	}
-	conservative = {
-	popularity = 10
-	}
-	market_liberal = {
-	popularity = 0
-	}
-	social_liberal = {
-	popularity = 5
-	}
-	social_democrat = {
-	popularity = 25
-	}
-	progressive = {
-	popularity = 60
-	}
-	democratic_socialist = {
-	popularity = 0
-	}
-	communist = {
-	popularity = 0
-	}
+	    conservative = {
+	        popularity = 41.54
+	    }
+	    democratic_socialist = {
+	        popularity = 58.46
+	    }
 	}
 	
-	ruling_party = progressive
-	last_election = "1995.11.29"
+	ruling_party = democratic_socialist
+	last_election = "2015.10.25"
 	election_frequency = 60
 	elections_allowed = yes
 }
 
 create_country_leader = {
-	name = "Benjamin Mkapa"
-	picture = "Benjamin_Mkapa.dds"
-	ideology = progressive_ideology
+	name = "John Magufuli"
+	picture = "John_Magufuli.dds"
+	ideology = democratic_socialist_ideology
 }
+
 create_country_leader = {
-	name = "Augustine Mrema"
-	picture = "Augustine_Mrema.dds"
+	name = "Augustino Mrema"
+	picture = "Augustino_Mrema.dds"
 	ideology = social_democrat_ideology
 }
+
 create_country_leader = {
-	name = "Ibrahim Lipumba"
-	picture = "Ibrahim_Lipumba.dds"
-	ideology = moderate
+	name = "Seif Sharif Hamad"
+	picture = "Seif_Sharif_Hamad.dds"
+	ideology = liberalist
 }
+
 create_country_leader = {
 	name = "Freeman Mbowe"
 	picture = "Freeman_Mbowe.dds"
 	ideology = fiscal_conservative
 }
+
 create_country_leader = {
 	name = "Zitto Kabwe"
 	picture = "Zitto_Kabwe.dds"
-	ideology = democratic_socialist_ideology
-}
-create_country_leader = {
-	name = "Christopher Mtikila"
-	picture = "Christopher_Mtikila.dds"
-	ideology = counter_progressive_democrat
-}
-create_country_leader = {
-	name = "Augusto Mrema"
-	picture = "Augusto_Mrema.dds"
-	ideology = marxist
+	ideology = progressive_ideology
 }
 	
 create_field_marshal = {
@@ -180,11 +147,13 @@ create_field_marshal = {
 	picture = "generals/Davis_Mwamunyange.dds"
 	skill = 1
 }
+
 create_corps_commander = {
 	name = "Venance Mabeyo"
 	picture = "generals/Venance_Mabeyo.dds"
 	skill = 2
 }
+
 create_corps_commander = {
 	name = "James Mwakibolwa"
 	picture = "generals/James_Mwakibolwa.dds"
@@ -197,28 +166,170 @@ create_navy_leader = {
 	skill = 1
 }
 
+create_field_marshal = {
+	name = "Venance Salvatory Mabeyo"
+	picture = "Portrait_Venance_Mabeyo.dds"
+	traits = { old_guard inspirational_leader }
+	skill = 2
+}
 
-2015.10.25 = {
-	set_politics = {
-		parties = {
-			conservative = { popularity = 30 }
-			social_liberal = { popularity = 10 }
-			social_democrat = { popularity = 5 }
-			progressive = { popularity = 55 }
-		}
-		ruling_party = progressive
-		last_election = "2015.10.25"
-		election_frequency = 60
-		elections_allowed = yes
-	}
-	create_country_leader = {
-		name = "John Magufuli"
-		picture = "John_Magufuli.dds"
-		ideology = progressive_ideology
-	}
-	create_country_leader = {
-		name = "Edward Lowassa"
-		picture = "Edward_Lowassa.dds"
-		ideology = fiscal_conservative
-	}
+create_field_marshal = {
+	name = "Ramadhan Abdul Kimweri"
+	picture = "Portrait_Ramadhan_Kimweri.dds"
+	traits = { offensive_doctrine }
+	skill = 2
+}
+
+create_field_marshal = {
+	name = "James Mwakibolwa"
+	picture = "Portrait_James_Mwakibolwa.dds"
+	traits = { fast_planner }
+	skill = 1
+}
+
+create_corps_commander = {
+	name = "Gaudence Milanzi"
+	picture = "Portrait_Gaudence_Milanzi.dds"
+	traits = { trait_engineer }
+	skill = 1
+}
+
+create_corps_commander = {
+	name = "Jairos Mwaseba"
+	picture = "Portrait_Jairos_Mwaseba.dds"
+	traits = { trickster jungle_rat }
+	skill = 1
+}
+
+create_corps_commander = {
+	name = "Aaron Robert Lukyaa"
+	picture = "Portrait_Aaron_Robert_Lukya.dds"
+	traits = { trait_engineer }
+	skill = 1
+}
+
+create_corps_commander = {
+	name = "Davis Mwamunyange"
+	picture = "Portrait_Davis_Mwamunyange.dds"
+	traits = { urban_assault_specialist }
+	skill = 1
+}
+
+create_corps_commander = {
+	name = "Samuel Albert Ndomba"
+	picture = "Portrait_Samuel_Ndomba.dds"
+	traits = {  }
+	skill = 1
+}
+
+create_corps_commander = {
+	name = "Charles Lawrence Mkakala"
+	picture = "Portrait_Charles_Mkakala.dds"
+	traits = { ranger }
+	skill = 1
+}
+
+create_corps_commander = {
+	name = "Salum Mustafa Kijuu"
+	picture = "Portrait_Salum_Kijuu.dds"
+	traits = {  }
+	skill = 1
+}
+
+create_corps_commander = {
+	name = "Raphael Mugoya Muhuga"
+	picture = "Portrait_Raphael_Mugoya_Muhuga.dds"
+	traits = {  }
+	skill = 1
+}
+
+create_corps_commander = {
+	name = "Jackson King Mrema"
+	picture = "Portrait_Jackson_King_Mrema.dds"
+	traits = { hill_fighter }
+	skill = 1
+}
+
+create_corps_commander = {
+	name = "Sara Thomas Rwambali"
+	picture = "Portrait_Sara_Thomas_Rwambali.dds"
+	traits = {  }
+	skill = 1
+}
+
+create_corps_commander = {
+	name = "Clemence Quadrates Kahama"
+	picture = "Portrait_Clemence_Kahama.dds"
+	traits = { desert_fox }
+	skill = 1
+}
+
+create_corps_commander = {
+	name = "Hamis Issa Majumba"
+	picture = "Portrait_Hamis_Majumba.dds"
+	traits = { fortress_buster }
+	skill = 1
+}
+
+create_corps_commander = {
+	name = "Saleh Omar Semtua"
+	picture = "Portrait_Saleh_Semtua.dds"
+	traits = {  }
+	skill = 1
+}
+
+create_corps_commander = {
+	name = "Ezra Wilson Ndimgwango"
+	picture = "Portrait_Ezra_Ndimgwango.dds"
+	traits = { ranger }
+	skill = 1
+}
+
+create_corps_commander = {
+	name = "Joseph Cosmas Chengelela"
+	picture = "Portrait_Joseph_Chengelela.dds"
+	traits = { jungle_rat }
+	skill = 1
+}
+
+create_corps_commander = {
+	name = "Joseph Furaha Kapwani"
+	picture = "Portrait_Joseph_Furaha_Kapwani.dds"
+	traits = { naval_invader }
+	skill = 1
+}
+
+create_corps_commander = {
+	name = "William Ingram"
+	picture = "Portrait_William_Ingram.dds"
+	traits = { commando }
+	skill = 1
+}
+
+create_corps_commander = {
+	name = "Michael Isamuhyo"
+	picture = "Portrait_Michael_Isamuhyo.dds"
+	traits = { urban_assault_specialist }
+	skill = 1
+}
+
+create_corps_commander = {
+	name = "Paul Ignace Mella"
+	picture = "Portrait_Paul_Mella.dds"
+	traits = { panzer_leader }
+	skill = 1
+}
+
+create_corps_commander = {
+	name = "Wynjones Kisamba"
+	picture = "Portrait_Wynjones_Kisamba.dds"
+	traits = { panzer_leader ranger }
+	skill = 1
+}
+
+create_navy_leader = {
+	name = "Rogastian Shaaban Laswai"
+	picture = "Portrait_Rogastian_Laswai.dds"
+	traits = { superior_tactician }
+	skill = 1
 }
