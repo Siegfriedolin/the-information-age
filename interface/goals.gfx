@@ -2859,6 +2859,8 @@ spriteTypes = {
 		name = "plans_for_2019"
 		texturefile = "gfx/interface/goals/estonia/plans_for_2019.dds"		
 	}
-	
+	SpriteType = {
+	    name = "scandal"
+		texturefile = "gfx/interface/goals/diplomacy/scandal.dds"
 	#those without a category
 }

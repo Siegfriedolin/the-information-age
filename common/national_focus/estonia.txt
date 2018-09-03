@@ -164,39 +164,10 @@ focus_tree = {    ### Made by CMDR Voltages ###
 	### Democracy ###
 	
 	focus = {
-		id = EST_we_shall_plan_a_new_dawn
-		icon = democracy
+		id = EST_the_scandal
+		icon = scandal
 		
-		x = 12
-		y = 2
-		
-		cost = 10
-
-		cancel_if_invalid = no
-		continue_if_invalid = yes
-		available_if_capitulated = yes
-		
-		prerequisite = {
-		    focus = EST_baltic_stability
-		}
-		
-		mutually_exclusive = {}
-		
-		completion_reward = {
-		    add_stability = 0.02
-			add_political_power = 100
-		}
-		
-		ai_will_do = {
-			factor = 10
-		}
-	}
-	
-	focus = {
-		id = EST_we_remain_a_country
-		icon = democracy
-		
-		x = 7
+		x = 8
 		y = 2
 		
 		cost = 10
